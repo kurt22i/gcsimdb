@@ -35,7 +35,7 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nr
     skill;\nxiangling attack;\nrestart;\n"
 description: |
     Raiden National, but with a fox instead of Xingqiu. Rotation by elijam#7142.
-hash: ""
+hash: 4c87539cf952d5fbed75be76b6dafdf5f9631370
 team:
   - name: bennett
     con: 5
@@ -73,7 +73,7 @@ team:
         attack: 9
         skill: 9
         burst: 9
-dps: 46531.52818950299
+dps: 46716.75718261689
 mode: sl
 duration: 109.98333333333242
 target_count: 1

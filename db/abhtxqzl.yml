@@ -76,7 +76,7 @@ config: |
     xingqiu attack;
 description: |
     Hu Tao Geo Bros in apl mode.
-hash: ""
+hash: 4c87539cf952d5fbed75be76b6dafdf5f9631370
 team:
   - name: albedo
     con: 0
@@ -114,7 +114,7 @@ team:
         attack: 9
         skill: 9
         burst: 9
-dps: 45696.644241628244
+dps: 45832.89185196876
 mode: apl
 duration: 89.983333333335
 target_count: 1

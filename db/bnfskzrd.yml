@@ -29,7 +29,7 @@ config: "options debug=true iteration=1000 duration=117 workers=30 mode=sl;\n\n\
     high_plunge, attack:2;\n\nrestart;\n"
 description: |
     RaiFish, sim optimized rotation with KQM standard artifacts.
-hash: ""
+hash: 4c87539cf952d5fbed75be76b6dafdf5f9631370
 team:
   - name: bennett
     con: 5
@@ -67,7 +67,7 @@ team:
         attack: 9
         skill: 9
         burst: 9
-dps: 51702.739011494035
+dps: 51697.745491340815
 mode: sl
 duration: 116.98333333333429
 target_count: 1

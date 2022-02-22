@@ -6,7 +6,6 @@ import (
 	"compress/gzip"
 	"encoding/base64"
 	"encoding/json"
-	"errors"
 	"flag"
 	"fmt"
 	"io"
@@ -22,6 +21,7 @@ import (
 
 	"github.com/joho/godotenv"
 	gonanoid "github.com/matoous/go-nanoid/v2"
+	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 )
 
@@ -37,7 +37,7 @@ func main() {
 	err := run(d, force)
 
 	if err != nil {
-		fmt.Println(err)
+		fmt.Printf("Error encountered, ending script: %+v\n", err)
 	}
 
 	fmt.Print("\nPress 'Enter' to continue...")
@@ -51,14 +51,14 @@ func run(skipDownload bool, force bool) error {
 		//https://github.com/genshinsim/gcsim/releases/download/nightly/gcsim.exe
 		err := download("./gcsim.exe", "https://github.com/genshinsim/gcsim/releases/download/nightly/gcsim.exe")
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 	}
 
 	//grab latest hash
 	hash, err := getVersion()
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 	// hash = strings.Trim(hash, "\n")
 	// log.Println(hash)
@@ -66,29 +66,29 @@ func run(skipDownload bool, force bool) error {
 	//loop through db folder; check hash
 	data, err := loadData("./db")
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 
 	//process
 	err = process(data, hash, force)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 
 	//store on cloudflare kv
 	err = uploadResults(data)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 
 	err = uploadIndex(data)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 
 	err = saveYaml(data)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 
 	return nil
@@ -106,20 +106,20 @@ func download(path string, url string) error {
 	// Get the data
 	resp, err := http.Get(url)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 	defer resp.Body.Close()
 
 	// Create the file
 	out, err := os.Create(path)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 	defer out.Close()
 
 	// Write the body to file
 	_, err = io.Copy(out, resp.Body)
-	return err
+	return errors.Wrap(err, "")
 }
 
 type pack struct {
@@ -185,7 +185,7 @@ func loadData(dir string) ([]pack, error) {
 
 	err := filepath.Walk(dir, func(path string, info fs.FileInfo, err error) error {
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 		//do nothing if is directory
 		if info.IsDir() {
@@ -194,12 +194,12 @@ func loadData(dir string) ([]pack, error) {
 		fmt.Printf("\tReading file: %v at %v\n", info.Name(), path)
 		file, err := os.ReadFile(path)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 		var d pack
 		err = yaml.Unmarshal(file, &d)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 		d.filepath = path
 
@@ -229,6 +229,7 @@ func process(data []pack, latest string, force bool) error {
 	for i := range data {
 		//compare hash vs current hash; if not the same rerun
 		if !force && data[i].Hash == latest {
+			fmt.Printf("\tSkipping %v\n", data[i].filepath)
 			continue
 		}
 		data[i].changed = true
@@ -240,13 +241,13 @@ func process(data []pack, latest string, force bool) error {
 		outPath := fmt.Sprintf("./tmp/%v", time.Now().Nanosecond())
 		err := runSim(data[i].Config, outPath)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 		//read the json and populate
 		data[i].Hash = latest
 		jsonData, err := os.ReadFile(outPath + ".json")
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 		readResultJSON(jsonData, &data[i])
 
@@ -259,12 +260,12 @@ func process(data []pack, latest string, force bool) error {
 		//overwrite yaml
 		out, err := yaml.Marshal(data[i])
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 		os.Remove(data[i].filepath)
 		err = os.WriteFile(data[i].filepath, out, 0755)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 
 		//write gz
@@ -281,7 +282,7 @@ func readResultJSON(jsonData []byte, p *pack) error {
 	var r result
 	err := json.Unmarshal(jsonData, &r)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 
 	p.DPS = r.DPS.Mean
@@ -310,13 +311,13 @@ func readResultJSON(jsonData []byte, p *pack) error {
 func writeJSONtoGZ(jsonData []byte, fpath string) error {
 	f, err := os.OpenFile(fpath+".gz", os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0755)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 	defer f.Close()
 	zw := gzip.NewWriter(f)
 	zw.Write(jsonData)
 	err = zw.Close()
-	return err
+	return errors.Wrap(err, "")
 }
 
 func getVersion() (string, error) {
@@ -335,13 +336,13 @@ func runSim(cfg, path string) error {
 	err := os.WriteFile(path+".txt", []byte(cfg), 0755)
 	if err != nil {
 		// fmt.Printf("error saving config file: %v\n", err)
-		return err
+		return errors.Wrap(err, "")
 	}
 	out, err := exec.Command("./gcsim", "-c", path+".txt", "-out", path+".json").Output()
 
 	if err != nil {
 		fmt.Printf("%v\n", string(out))
-		return err
+		return errors.Wrap(err, "")
 	}
 	return nil
 }
@@ -360,7 +361,7 @@ func uploadResults(data []pack) error {
 	//read api key from env
 	err := godotenv.Load()
 	if err != nil {
-		return err
+		return errors.Wrap(err, "error getting env variable")
 	}
 	apiKey := os.Getenv("API_KEY")
 	for i, v := range data {
@@ -374,14 +375,14 @@ func uploadResults(data []pack) error {
 		if key == "" {
 			key, err = gonanoid.New()
 			if err != nil {
-				return err
+				return errors.Wrap(err, "")
 			}
 		}
 
 		//read the gz file
 		gzData, err := os.ReadFile(v.gzPath)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 		b64string := base64.StdEncoding.EncodeToString(gzData)
 
@@ -393,7 +394,7 @@ func uploadResults(data []pack) error {
 
 		jsonData, err := json.Marshal(x)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 
 		fmt.Printf("\tUploading results from %v to viewer: ", v.filepath)
@@ -401,7 +402,7 @@ func uploadResults(data []pack) error {
 		req, err := http.NewRequest("POST", "https://viewer.gcsim.workers.dev/key", bytes.NewBuffer(jsonData))
 		if err != nil {
 			fmt.Printf("FAILED, error: %v\n", err)
-			return err
+			return errors.Wrap(err, "")
 		}
 		req.Header.Set("content-type", "application/json")
 		req.Header.Set("API-KEY", apiKey)
@@ -410,12 +411,12 @@ func uploadResults(data []pack) error {
 		resp, err := http.DefaultClient.Do(req)
 		if err != nil {
 			fmt.Printf("FAILED, error: %v\n", err)
-			return err
+			return errors.Wrap(err, "")
 		}
 		if resp.StatusCode != 200 {
 			log.Println(resp.Status)
 			fmt.Printf("FAILED, error: %v\n", resp.Status)
-			return errors.New("http post request failed: " + resp.Status)
+			return errors.Wrap(errors.New("http post request failed: "+resp.Status), "request failed")
 		}
 
 		//otherwise decode key from body
@@ -423,7 +424,7 @@ func uploadResults(data []pack) error {
 		err = json.NewDecoder(resp.Body).Decode(&res)
 		if err != nil {
 			fmt.Printf("FAILED, error: %v\n", err)
-			return err
+			return errors.Wrap(err, "")
 		}
 
 		data[i].ViewerKey = res.ID
@@ -436,13 +437,13 @@ func uploadIndex(data []pack) error {
 	//read api key from env
 	err := godotenv.Load()
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 	apiKey := os.Getenv("API_KEY")
 
 	jsonData, err := json.Marshal(data)
 	if err != nil {
-		return err
+		return errors.Wrap(err, "")
 	}
 
 	fmt.Print("Uploading DB index: ")
@@ -450,7 +451,7 @@ func uploadIndex(data []pack) error {
 	req, err := http.NewRequest("POST", "https://viewer.gcsim.workers.dev/db", bytes.NewBuffer(jsonData))
 	if err != nil {
 		fmt.Printf("FAILED, error: %v\n", err)
-		return err
+		return errors.Wrap(err, "")
 	}
 	req.Header.Set("content-type", "application/json")
 	req.Header.Set("API-KEY", apiKey)
@@ -458,12 +459,12 @@ func uploadIndex(data []pack) error {
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		fmt.Printf("FAILED, error: %v\n", err)
-		return err
+		return errors.Wrap(err, "")
 	}
 	if resp.StatusCode != 200 {
 		log.Println(resp.Status)
 		fmt.Printf("FAILED, error: %v\n", resp.Status)
-		return errors.New("http post request failed: " + resp.Status)
+		return errors.Wrap(errors.New("http post request failed: "+resp.Status), "request failed")
 	}
 
 	fmt.Print("OK\n")
@@ -477,12 +478,12 @@ func saveYaml(data []pack) error {
 		//overwrite yaml
 		out, err := yaml.Marshal(data[i])
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 		os.Remove(data[i].filepath)
 		err = os.WriteFile(data[i].filepath, out, 0755)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "")
 		}
 	}
 	return nil

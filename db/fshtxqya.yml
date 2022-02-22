@@ -29,7 +29,7 @@ config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\nhu
     charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump;\n\nrestart;\n"
 description: |
     Hu Tao Overvape with Yae. No shield.
-hash: ""
+hash: 4c87539cf952d5fbed75be76b6dafdf5f9631370
 team:
   - name: fischl
     con: 6
@@ -67,7 +67,7 @@ team:
         attack: 9
         skill: 9
         burst: 9
-dps: 47730.240136524015
+dps: 47791.328360587155
 mode: sl
 duration: 98.9833333333354
 target_count: 1

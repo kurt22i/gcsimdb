@@ -41,7 +41,7 @@ config: "options debug=true iteration=1000 duration=107 workers=30 mode=sl;\nrai
     skill, attack;\n\nxiangling attack:3;\n"
 description: |
     Raiden National. Sim optimized rotation with KQM standard artifacts.
-hash: ""
+hash: 4c87539cf952d5fbed75be76b6dafdf5f9631370
 team:
   - name: bennett
     con: 6
@@ -79,7 +79,7 @@ team:
         attack: 9
         skill: 9
         burst: 9
-dps: 58155.20722153073
+dps: 58186.79824694982
 mode: sl
 duration: 106.98333333333233
 target_count: 1

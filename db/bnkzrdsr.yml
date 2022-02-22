@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\n\
     skill;\nwait 60;\n\nrestart;\n"
 description: |
     Hypercarry Raiden.
-hash: ""
+hash: 4c87539cf952d5fbed75be76b6dafdf5f9631370
 team:
   - name: bennett
     con: 6
@@ -60,7 +60,7 @@ team:
         attack: 9
         skill: 9
         burst: 9
-dps: 48841.877258702494
+dps: 48835.984118606335
 mode: sl
 duration: 101.98333333333554
 target_count: 1

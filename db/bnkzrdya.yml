@@ -26,7 +26,7 @@ config: "options debug=true iteration=1000 duration=115 workers=30 mode=sl;\n\nr
     burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:3, charge;\nrestart;\n"
 description: |
     "Raikou": Raiden hypercarry with Yae.
-hash: ""
+hash: 4c87539cf952d5fbed75be76b6dafdf5f9631370
 team:
   - name: bennett
     con: 5
@@ -64,7 +64,7 @@ team:
         attack: 9
         skill: 9
         burst: 9
-dps: 48104.83087715841
+dps: 48067.03705953896
 mode: sl
 duration: 114.98333333333139
 target_count: 1
