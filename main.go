@@ -212,6 +212,7 @@ func loadData(dir string) ([]pack, error) {
 }
 
 var reIter = regexp.MustCompile(`iteration=(\d+)`)
+var reWorkers = regexp.MustCompile(`workers=(\d+)`)
 var reMode = regexp.MustCompile(`mode=(\w+)`)
 
 func process(data []pack, latest string, force bool) error {
@@ -221,7 +222,7 @@ func process(data []pack, latest string, force bool) error {
 		// path/to/whatever exists
 		os.RemoveAll("./tmp/")
 	}
-	os.Mkdir("./tmp", 0700)
+	os.Mkdir("./tmp", 0755)
 
 	fmt.Println("Rerunning configs...")
 
@@ -233,6 +234,7 @@ func process(data []pack, latest string, force bool) error {
 		data[i].changed = true
 		//fix the iterations
 		data[i].Config = reIter.ReplaceAllString(data[i].Config, "iteration=1000")
+		data[i].Config = reWorkers.ReplaceAllString(data[i].Config, "workers=30")
 		//re run sim
 		fmt.Printf("\tRerunning %v\n", data[i].filepath)
 		outPath := fmt.Sprintf("./tmp/%v", time.Now().Nanosecond())
@@ -260,7 +262,7 @@ func process(data []pack, latest string, force bool) error {
 			return err
 		}
 		os.Remove(data[i].filepath)
-		err = os.WriteFile(data[i].filepath, out, 0700)
+		err = os.WriteFile(data[i].filepath, out, 0755)
 		if err != nil {
 			return err
 		}
@@ -330,7 +332,7 @@ func getVersion() (string, error) {
 
 func runSim(cfg, path string) error {
 	//write config to file
-	err := os.WriteFile(path+".txt", []byte(cfg), 0700)
+	err := os.WriteFile(path+".txt", []byte(cfg), 0755)
 	if err != nil {
 		// fmt.Printf("error saving config file: %v\n", err)
 		return err
@@ -478,7 +480,7 @@ func saveYaml(data []pack) error {
 			return err
 		}
 		os.Remove(data[i].filepath)
-		err = os.WriteFile(data[i].filepath, out, 0700)
+		err = os.WriteFile(data[i].filepath, out, 0755)
 		if err != nil {
 			return err
 		}

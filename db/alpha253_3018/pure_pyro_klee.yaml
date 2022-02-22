@@ -1,5 +1,5 @@
 author: Alpha253#3018
-config: "options debug=true iteration=1000 duration=20 workers=60 mode=sl;\n\n\nklee
+config: "options debug=true iteration=1000 duration=20 workers=30 mode=sl;\n\n\nklee
     char lvl=90/90 cons=0 talent=9,9,9; \nklee add weapon=\"solarpearl\" refine=1
     lvl=90/90;\nklee add set=\"lavawalker\" count=4;\nklee add stats hp=4780 atk=311
     atk%=0.466 pyro%=0.466 cr=.311; #main\nklee add stats def%=0.124 def=39.36 hp=507.88
@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=20 workers=60 mode=sl;\n\n\n
     mine=4],burst,attack,charge,jump,attack,charge,jump,attack,charge,jump,attack,charge,jump;\n\nrestart;\n"
 description: |
     sustained pure pyro klee team rotation, based on the team described in the KQM klee guide (https://keqingmains.com/klee/#Mono_PyroPure_Pyro) and cross referenced with DOGGY#0805 klee calcs of the same rotation. Substats were optimized with the sim optimizer. The dps reported for a single 20s rotation is very close to the one reported in the sheet, but that is mostly c6 bennett counteracting the change of weapon on kazuha and the extra ER rolls on everyone. The current stats and weapon choice on kazuha makes it very robust in multiple rotations and its dps is still around 37k even simming up to the 4th rotation.
-hash: 0734f564fb4ad24e72a551df3ea0f926f1212dd0
+hash: ""
 team:
   - name: bennett
     con: 6
@@ -61,7 +61,7 @@ team:
         attack: 9
         skill: 9
         burst: 9
-dps: 39418.72673856488
+dps: 39420.8446811653
 mode: sl
 duration: 19.983333333333427
 target_count: 1
