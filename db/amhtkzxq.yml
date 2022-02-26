@@ -64,3 +64,4 @@ config: |
     kazuha attack, skill, high_plunge, attack:2;
 
     restart;
+    
