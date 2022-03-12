@@ -1,0 +1,67 @@
+author: rf#5773
+description: |
+  Hu Tao VV Vape for max potential damage.
+config: |
+    options debug=true iteration=1000 duration=105 workers=24 mode=sl;
+
+    hutao char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;
+    hutao add weapon="dragonsbane" refine=3 lvl=90/90;
+    hutao add set="crimsonwitchofflames" count=4;
+    hutao add stats hp=4780 atk=311 hp%=0.466 cr=0.311 pyro%=0.466 ; #main
+    hutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+    xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+    xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
+    xingqiu add set="emblemofseveredfate" count=4;
+    xingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main
+    xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+    kazuha char lvl=90/90 cons=0 talent=9,9,9; 
+    kazuha add weapon="favoniussword" refine=3 lvl=90/90;
+    kazuha add set="viridescentvenerer" count=4;
+    kazuha add stats hp=4780 atk=311 em=559.5 ; #main
+    kazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;
+
+    amber char lvl=90/90 cons=2 talent=9,9,9;
+    amber add weapon="favoniuswarbow" refine=3 lvl=90/90;
+    amber add set="instructor" count=4;
+    amber add stats hp=3571 atk=232 er=0.387 cr=0.311 pyro%=0.348 ; #main
+    amber add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.3306 em=39.64 cr=0.0662 cd=0.1324;
+
+    target lvl=100 resist=0.1;
+    energy every interval=240,360 amount=1;
+
+    active xingqiu;
+
+    xingqiu skill, burst, attack:1;
+    kazuha burst, attack;
+    amber burst;
+    wait 30;
+    kazuha attack, skill, high_plunge, attack;
+    hutao skill, attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:1, charge, burst;
+    kazuha attack, skill, high_plunge, attack:2;
+
+    xingqiu skill, burst, attack:1;
+    kazuha burst, attack;
+    amber burst;
+    wait 30;
+    kazuha attack, skill, high_plunge, attack;
+    hutao skill, attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump,
+        attack:2, charge, jump;
+    kazuha attack, skill, high_plunge, attack:2;
+
+    restart;
+    
