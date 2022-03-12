@@ -1,0 +1,67 @@
+author: ""
+config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\nningguang
+  char lvl=90/90 cons=6 talent=9,9,9 start_hp=1;\nningguang add weapon=\"thewidsith\"
+  refine=3 lvl=90/90;\nningguang add set=\"archaicpetra\" count=2;\nningguang add
+  set=\"gladiatorsfinale\" count=3;\nningguang add stats hp=4780 atk=311 atk%=0.466
+  cr=0.311 geo%=0.466 ; #main\nningguang add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=.1102 em=39.64 cr=0.331 cd=0.7944;\n\nalbedo
+  char lvl=90/90 cons=0 talent= 9,9,9; \nalbedo add weapon=\"cinnabarspindle\" refine=5
+  lvl=90/90;\nalbedo add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nalbedo
+  add set=\"paleflame\" count=1;\nalbedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466
+  cr=0.311 ; #main\nalbedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0
+  talent=9,9,9; \nzhongli add weapon=\"deathmatch\" refine=1 lvl=90/90;\nzhongli add
+  set=\"archaicpetra\" count=2;\nzhongli add set=\"noblesseoblige\" count=2;\nzhongli
+  add stats  stats hp=4780 atk=311 atk%=0.466 cd=0.661 geo%=0.466 ; #main\nzhongli
+  add stats hp%=.0992, hp=507.88 atk%=.1984 atk=33.08 def%=.124 def=39.36 em=39.64
+  er=0.1102 cr=.3972 cd=.661;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.2979 cd=0.4634;\n\n\ntarget lvl=100 resist=0.1;\nenergy every interval=240,360
+  amount=1;\n\nactive zhongli;\n\nzhongli skill[hold=1];\nalbedo skill,attack:2;\nbennett
+  skill,burst;\nzhongli burst;\nningguang skill,attack:2,charge,attack:2,charge,attack:2,charge,attack:2,charge,burst,skill,charge;\n\n\nrestart;\n"
+description: ""
+hash: 21923099e540cb193659b621e948f0664318a365
+team:
+- name: albedo
+  con: 0
+  weapon: cinnabarspindle
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: ningguang
+  con: 6
+  weapon: thewidsith
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: zhongli
+  con: 0
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 43498.64977130337
+mode: sl
+duration: 99.0000000000003
+target_count: 1
+viewer_key: 8fpeOSV64ebdQQJA5J81k

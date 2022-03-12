@@ -1,0 +1,68 @@
+author: Zephyr#0177
+config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\neula
+  char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
+  lvl=90/90 +params=[stacks=5];\neula add set=\"paleflame\" count=5;\neula add stats
+  hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622 ; #main\neula add stats hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 def=39.36 def%=0.124 em=39.64 er=0.44079999999999997
+  cr=0.2979 cd=0.5958 ; #subs\n\nbennett char lvl=90/90 cons=5 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 def=39.36 def%=0.124 em=237.84
+  er=0.551 cr=0.0993 cd=0.1986 ; #subs\n\nraidenshogun char lvl=90/90 cons=0 talent=9,9,9;
+  \nraidenshogun add weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\"
+  count=5;\nraidenshogun add stats hp=4780 atk=311 er=0.518 atk%=0.466 cr=0.311 ;
+  #main\nraidenshogun add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 def=39.36
+  def%=0.124 em=39.64 er=0.11019999999999999 cr=0.331 cd=0.7944 ; #subs\n\nrosaria
+  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=5;\nrosaria add stats
+  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nrosaria add stats hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.29760000000000003 def=36.36 def%=0.124 em=39.64 er=0.22039999999999998
+  cr=0.3641 cd=0.46340000000000003 ; #subs\n\nactive raiden;\ntarget lvl=100 pyro=0.1
+  dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy
+  every interval=240,360 amount=1;\n\nraiden skill;\nrosaria skill,burst;\neula skill;\nbennett
+  burst;\neula burst,attack:4,skill[hold=1],attack:4;\nrosaria skill,attack;\nraiden
+  burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
+description: Eula and Raiden proving that extended rotations aren't always less DPS.
+hash: 21923099e540cb193659b621e948f0664318a365
+team:
+- name: bennett
+  con: 5
+  weapon: thealleyflash
+  refine: 1
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: eula
+  con: 0
+  weapon: serpentspine
+  refine: 1
+  er: 0.44079999999999997
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: favoniuslance
+  refine: 3
+  er: 0.22039999999999998
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 46070.33546134105
+mode: sl
+duration: 109.99999999999949
+target_count: 1
+viewer_key: 1572go_o_ScUqQxzI97GE

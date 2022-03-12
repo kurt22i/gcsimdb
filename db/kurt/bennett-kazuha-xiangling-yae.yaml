@@ -1,0 +1,66 @@
+author: ""
+config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
+  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3987 er=0.1102 em=39.64 cr=0.331
+  cd=0.7932;\n\nyaemiko char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"favoniuscodex\"
+  refine=5 lvl=90/90;\nyaemiko add set=\"emblemofseveredfate\" count=4;\nyaemiko add
+  stats hp=4780 atk=311 em=561 #main\nyaemiko add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.248 er=0.1102 em=39.64 cr=0.330 cd=0.7271;\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=5
+  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=5;\nkazuha add stats hp=4780
+  atk=311  atk=311 em=561; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.00992 er=0.1102 em=118.92 cr=0.33 cd=0.1324;\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"prototyperancour\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.2317 cd=0.4634;\n\n\ntarget
+  lvl=100 resist=.1;\n\nenergy every interval=240,360 amount=1;\n\nactive yaemiko;\nyaemiko
+  skill:3;\nbennett burst;\nwait 30;\nkazuha burst;\nkazuha skill,high_plunge;\nxiangling
+  burst,skill;\nyaemiko burst,skill:3;\nkazuha skill,high_plunge;\nyae attack:2,jump;\nbennett
+  skill;\nxiangling attack,attack;\nkazuha skill,high_plunge;\nyaemiko attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
+description: ""
+hash: 21923099e540cb193659b621e948f0664318a365
+team:
+- name: bennett
+  con: 6
+  weapon: prototyperancour
+  refine: 1
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: favoniuscodex
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 39314.85209234118
+mode: sl
+duration: 109.99999999999949
+target_count: 1
+viewer_key: xei4iUHvUb7x1CePiKxYt

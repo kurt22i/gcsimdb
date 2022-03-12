@@ -1,0 +1,68 @@
+author: ""
+config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nraidenshogun
+  char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nyaemiko char lvl=90/90 cons=0 talent=9,9,9;\nyaemiko
+  add weapon=\"oathsworneye\" refine=5 lvl=90/90;\nyaemiko add set=\"gladiatorsfinale\"
+  count=2;\nyaemiko add set=\"thunderingfury\" count=3;\nyaemiko add stats hp=4780
+  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9; \nkaedeharakazuha
+  add weapon=\"ironsting\" refine=5 lvl=90/90;\nkaedeharakazuha add set=\"viridescentvenerer\"
+  count=5;\nkaedeharakazuha add stats hp=4780 atk=311 em=561 ; #main\nkaedeharakazuha
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306
+  em=118.92 cr=0.1324 cd=0.1324;\n\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou
+  add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\"
+  count=5;\nbeidou add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n\nactive yaemiko;\ntarget lvl=100 pyro=0.1
+  dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy
+  every interval=240,360 amount=1;\n\nyaemiko skill,attack,skill,attack,skill;\nraiden
+  skill;\nbeidou skill,burst;\nkazuha attack,skill[hold=1],high_plunge,attack,burst,attack;\nyaemiko
+  attack,burst,attack,skill,attack,skill,attack,skill,attack;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
+description: Mono-Electro Yae + Raiden + Beidou.
+hash: 21923099e540cb193659b621e948f0664318a365
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: ironsting
+  refine: 5
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: oathsworneye
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 31911.22381184144
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: PlUcJ50iFS83deH7LbTcc

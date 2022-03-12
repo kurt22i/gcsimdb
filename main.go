@@ -22,7 +22,7 @@ import (
 	"github.com/joho/godotenv"
 	gonanoid "github.com/matoous/go-nanoid/v2"
 	"github.com/pkg/errors"
-	"gopkg.in/yaml.v3"
+	"gopkg.in/yaml.v2"
 )
 
 const ERIndex = 7
@@ -382,7 +382,7 @@ func uploadResults(data []pack) error {
 		//read the gz file
 		gzData, err := os.ReadFile(v.gzPath)
 		if err != nil {
-			return errors.Wrap(err, "")
+			return errors.Wrap(err, "reading gz data")
 		}
 		b64string := base64.StdEncoding.EncodeToString(gzData)
 
