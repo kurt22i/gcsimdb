@@ -1,4 +1,4 @@
-author: ""
+author: cyan#3224
 config: |+
   options debug=true iteration=1000 duration=102 workers=30 mode=sl;
   ayaka char lvl=90/90 cons=0 talent=9,9,9;
@@ -82,7 +82,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 55066.495939724
+dps: 55015.163002578905
 mode: sl
 duration: 102.00000000000051
 target_count: 1

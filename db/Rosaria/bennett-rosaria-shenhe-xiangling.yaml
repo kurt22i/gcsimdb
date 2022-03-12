@@ -1,0 +1,68 @@
+author: ""
+config: "options debug=true iteration=1000 duration=104 workers=30, mode=sl;\nshenhe
+  char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"wavebreakersfin\" refine=1
+  lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats hp=4780
+  atk=311 atk%=1.398; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.2976 er=0.6612 em=39.64 cr=0.2648 cd=0.1324;\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232
+  pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.0662 cd=0.1324;\n\nxiangling char
+  lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nrosaria
+  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"dragonsbane\" refine=3
+  lvl=90/90;\n#rosaria add set=\"emblemofseveredfate\" count=4; dps:53751\nrosaria
+  add set=\"lavawalker\" count=4;\nrosaria add stats hp=4780 atk=311 em=187 cryo%=0.466
+  cr=0.311; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n# ----  Default Enemy\ntarget
+  lvl=100 resist=.1;\nenergy every interval=240,360 amount=1;\n\n# ----  Actions List\n\nactive
+  rosaria;\n\nrosaria attack, skill;\nbennett burst, skill;\nshenhe skill, burst;\nxiangling
+  burst, skill;\n\nrosaria skill, burst;\nshenhe attack:3;\n\nbennett skill, attack;\nxiangling
+  attack:3;\n\nshenhe skill, attack;\n\nrosaria skill, attack;\nshenhe attack:3;\n\nbennett
+  skill, attack;\nxiangling attack:3;\n\nrestart;\n"
+description: ""
+hash: 21923099e540cb193659b621e948f0664318a365
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: dragonsbane
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: wavebreakersfin
+  refine: 1
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 54555.14656010914
+mode: sl
+duration: 103.99999999999928
+target_count: 1
+viewer_key: edi5CGgKOWzxbAfi7hW4X
