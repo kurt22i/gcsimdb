@@ -17,12 +17,12 @@ config: "options debug=true iteration=1000 duration=105 workers=30, mode=sl;\nka
   add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nrosaria add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64
   cr=0.1986 cd=0.7944;\n\n# ----  Default Enemy\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\n\n# ----  Actions List\n\nactive xingqiu;\n\nxingqiu
+  every interval=240,360 amount=1;\n\n# ----  Actions List\n\nactive xingqiu;\n\nxingqiu
   skill[orbital=1], burst, attack;\nbennett skill, burst;\nrosaria skill, burst;\nkaeya
   skill, burst;\nbennett attack, skill, \n    attack:3, skill, \n    attack:3, skill,\n
   \   attack:3, skill\n    ;\nkaeya attack, skill;\nrosaria attack, skill;\nrestart;\n"
 description: Melt Bennett meme team.
-hash: 21923099e540cb193659b621e948f0664318a365
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
 team:
 - name: bennett
   con: 5
@@ -60,8 +60,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27165.604295520345
+dps: 27264.28626839731
 mode: sl
 duration: 105.00000000000071
 target_count: 1
-viewer_key: 8fpeOSV64ebdQQJA5J81k
+viewer_key: nVs5sQp34d2AVT53FbQoo

@@ -30,7 +30,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\ng
   aim, aim, aim, aim, skill;\nshenhe attack:2;\nbennett skill;\nxiangling attack:2;\n\n"
 description: Melt Ganyu with Shenhe. Assumes 5 CAs, but with no shield it can be hard
   to do this.
-hash: 21923099e540cb193659b621e948f0664318a365
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
 team:
 - name: bennett
   con: 6
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49341.42686497657
+dps: 49406.10402685295
 mode: sl
 duration: 99.9999999999986
 target_count: 1

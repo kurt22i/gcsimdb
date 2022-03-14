@@ -39,7 +39,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30, mode=sl;\nra
   charge, attack:1, charge;\nraiden attack, burst, attack:5, dash, attack:5, dash,
   attack:4, skill, attack;\n\nbennett skill, attack;\n\nxiangling attack:3;\n\n\n\n"
 description: Raiden National. Optimized rotation with KQM standard artifacts.
-hash: 21923099e540cb193659b621e948f0664318a365
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
 team:
 - name: bennett
   con: 6
@@ -77,7 +77,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 61397.90854756169
+dps: 61438.32744154978
 mode: sl
 duration: 105.00000000000071
 target_count: 1

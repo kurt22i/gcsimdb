@@ -26,7 +26,7 @@ config: "options iteration=1000 duration=100 mode=sl;\nbeidou char lvl=90/90 con
   attack:2,dash;\nkokomi attack:2,dash;\nkokomi attack:2,dash;\nkokomi attack:2,dash;\nkokomi
   attack:2,dash;\nkokomi attack:1,dash;\nbeidou skill, attack;\nrestart;\n\n\n\n"
 description: ""
-hash: 21923099e540cb193659b621e948f0664318a365
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
 team:
 - name: beidou
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41493.69904472485
+dps: 41528.93612320926
 mode: sl
 duration: 99.9999999999986
 target_count: 1

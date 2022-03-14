@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   skill[orbital=1],burst[orbital=1];\nalbedo skill,burst;\nyunjin skill,burst;\nhutao
   skill,attack:2,charge,jump,attack:2,charge,jump,attack:2,charge,jump,attack:2,charge,jump,attack:2,charge,jump,attack:2,charge,jump,attack:2,charge,jump,attack:2,charge,jump;\nrestart;\n"
 description: Hu Tao Double Geo except you're missing Zhongli...
-hash: 21923099e540cb193659b621e948f0664318a365
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
 team:
 - name: albedo
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36075.59754606612
+dps: 36026.11592731399
 mode: sl
 duration: 99.9999999999986
 target_count: 1

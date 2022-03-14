@@ -43,7 +43,7 @@ config: |
 
     restart;
 description: Ayaka Freeze with Rosaria.
-hash: 21923099e540cb193659b621e948f0664318a365
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
 team:
 - name: ayaka
   con: 0
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46850.40659523309
+dps: 46897.92538390197
 mode: sl
 duration: 103.99999999999928
 target_count: 1
