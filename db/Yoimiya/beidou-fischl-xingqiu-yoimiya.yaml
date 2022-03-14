@@ -1,0 +1,67 @@
+author: ""
+config: "options debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\n\n\nyoimiya
+  char lvl=90/90 cons=0 talent=9,9,9; \nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya
+  add set=\"crimsonwitchofflames\" count=5;\nyoimiya add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311 ; #main\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.1655 cd=0.5958;\n\nbeidou char lvl=90/90
+  cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou
+  add set=\"emblemofseveredfate\" count=5;\nbeidou add stats hp=4780 atk=311 er=0.518
+  electro%=0.466 cr=0.311 ; #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.1655 cd=0.7282;\n\nfischl
+  char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3
+  lvl=90/90;\nfischl add set=\"thunderingfury\" count=2;\nfischl add set=\"gladiatorsfinale\"
+  count=3;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  \nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add set=\"paleflame\" count=1;\nxingqiu add stats hp=4780 atk=311
+  atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\n\n\nactive
+  yoimiya;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=240,360 amount=1;\n\nyoimiya burst;\nxingqiu
+  skill,burst;\nfischl skill;\nbeidou skill,burst;\nyoimiya skill,attack:28;\nxingqiu
+  skill,burst;\nfischl burst;\nbeidou skill,burst;\nyoimiya skill,attack:28;\nrestart;\n"
+description: Yoimiya Tazer.
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yoimiya
+  con: 0
+  weapon: rust
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 37008.71672373773
+mode: sl
+duration: 91.999999999999
+target_count: 1
+viewer_key: 9PzHw3gJIQdGSB28hsnDI

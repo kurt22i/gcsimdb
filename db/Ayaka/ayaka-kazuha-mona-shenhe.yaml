@@ -1,0 +1,67 @@
+author: Charliex3000#9403
+config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n\nkamisatoayaka
+  char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"amenomakageuchi\"
+  refine=5 lvl=90/90;\nkamisatoayaka add set=\"blizzardstrayer\" count=5;\nkamisatoayaka
+  add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nkamisatoayaka
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.3972 cd=0.5958 er=0.2755 ; #subs\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;
+  \nkazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
+  count=5;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats hp%=0.0992
+  hp=507.88 atk%=0.496 atk=33.08 def%=0.124 def=39.36 em=118.92 cr=0.0662 cd=0.1324
+  er=0.551 ; #subs\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"prototypeamber\"
+  refine=5 lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add
+  stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr%=0.311 ; #main\nmona add stats hp%=0.0992
+  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2648 cd=0.5296
+  er=0.551 ; #subs\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=5;\nshenhe add stats
+  hp=4780 atk=311 atk%=1.398 ; #main\nshenhe add stats hp%=0.0992 hp=507.88 atk%=0.2976
+  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.1324 er=0.551 ; #subs\n\n\ntarget
+  lvl=100 resist=.1;\n# target lvl=100 resist=.1;\n\nenergy every interval=240,360
+  amount=1;\n\nactive shenhe;\n\nshenhe burst,skill;\n\nkazuha skill,high_plunge,burst;\n#
+  wait 60;\n\nmona skill,burst;\n\nkamisatoayaka dash,skill,attack:2,charge,burst;\n\nshenhe
+  skill;\nwait 30;\n\nkazuha skill[hold=1],high_plunge;\n\nkamisatoayaka dash,attack:2,charge,skill,attack:2,charge;\n\nrestart;"
+description: Ayaka Freeze with VV and Shenhe. Mona using Prototype Amber for healing
+  is recommended; can also use TTDS if healing isn't necessary.
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+team:
+- name: ayaka
+  con: 0
+  weapon: amenomakageuchi
+  refine: 5
+  er: 0.2755
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: ironsting
+  refine: 5
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: mona
+  con: 0
+  weapon: prototypeamber
+  refine: 5
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 49160.436929069765
+mode: sl
+duration: 105.00000000000071
+target_count: 1
+viewer_key: VUTBxnLhs3Abym34bQIyO

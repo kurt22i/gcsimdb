@@ -1,0 +1,67 @@
+author: Arfoire#9219
+config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\nsucrose
+  char lvl=90/90 cons=6 talent=9,9,9; \nsucrose add weapon=\"sacrificialfragments\"
+  refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
+  stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306 em=118.92 cr=0.0993 cd=0.1986;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"kitaincrossspear\"
+  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
+  add set=\"paleflame\" count=1;\nxiangling add stats hp=4780 atk=311 em=169 pyro%=0.466
+  cr=0.311 ; #main\nxiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90
+  cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
+  add set=\"thunderingfury\" count=2;\nfischl add set=\"gladiatorsfinale\" count=3;\nfischl
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.2979 cd=0.7282;\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9; \nkokomi
+  add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\"
+  count=5;\nkokomi add stats hp=4780 atk=311 er=0.518 hydro%=0.466 hb=0 ; #main\nkokomi
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.3968 atk=33.08 atk%=0.5952 er=0.3306
+  em=39.64 cr=0.0662 cd=0.1324;\n\n\nactive fischl;\ntarget lvl=100 resist=.1;\nenergy
+  every interval=240,360 amount=1;\n\nfischl burst;\nkokomi skill;\nxiangling skill;\nsucrose
+  attack,skill,attack:2,skill,attack;\nxiangling burst;\nkokomi burst,attack:2,charge,attack:2,dash,attack:2,charge;\nfischl
+  skill;\nxiangling skill;\nsucrose attack,skill,attack,burst,attack:3,dash,attack:3,dash,attack:3,dash,attack:3,dash,attack:3,dash;\nrestart;\n\n\n\n\n"
+description: Sukokomon. Notoriously difficult team to play, so consider this a warning.
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+team:
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: sacrificialfragments
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: kitaincrossspear
+  refine: 5
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 41781.408131259996
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: cH0bC7vz3q63sgE8DPHy7

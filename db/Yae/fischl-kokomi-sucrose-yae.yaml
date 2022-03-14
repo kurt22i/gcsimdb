@@ -1,0 +1,115 @@
+author: ""
+config: |
+  options debug=true iteration=1000 duration=100 workers=30 mode=sl;
+
+  ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="thestringless" refine=3 lvl=90/90;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats def%=0.1240 def=39.00 hp=5288 hp%=0.09920 atk=344.0 atk%=0.6644 er=0.1102 em=40.00 cr=0.6420 cd=0.4660 electro%=0.4660;
+
+  sucrose char lvl=90/90 cons=6 talent=9,9,9;
+  sucrose add weapon="hakushinring" refine=5 lvl=90/90;
+  sucrose add set="viridescentvenerer" count=4;
+  sucrose add stats def%=0.1240 def=39.00 hp=5288 hp%=0.09920 atk=344.0 atk%=0.4960 er=0.5510 em=680.0 cr=0.06620 cd=0.1324;
+
+  kokomi char lvl=90/90 cons=0 talent=9,9,9;
+  kokomi add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
+  kokomi add set="oceanhuedclam" count=4;
+  kokomi add stats def%=0.1240 def=39.00 hp=5288 hp%=0.5262 atk=344.0 atk%=0.09920 er=0.6612 em=159.0 cr=0.06620 cd=0.1324 heal=0.3590 hydro%=0.4660;
+
+  yaemiko char lvl=90/90 cons=0 talent=9,9,9;
+  yaemiko add weapon="thewidsith" refine=3 lvl=90/90;
+  yaemiko add set="gladiatorsfinale" count=2;
+  yaemiko add set="emblemofseveredfate" count=2;
+  yaemiko add stats def%=0.1240 def=39.00 hp=5288 hp%=0.09920 atk=344.0 atk%=0.5652 er=0.2204 em=40.00 cr=0.6420 cd=0.7944 electro%=0.4660;
+
+  ####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####
+
+  #Enemies and Particles:
+  target lvl=100 resist=.1;
+  energy every interval=240,360 amount=1;
+
+  #Action List:
+
+
+  active yaemiko;
+
+  energy every interval=480,720 amount=1;
+
+  yaemiko skill,skill,skill;
+  wait 30;
+
+  sucrose burst;
+  sucrose skill,attack;
+  wait 30;
+
+  fischl skill,attack,attack;
+  wait 30;
+
+  sangonomiyakokomi skill, attack;
+  wait 30;
+
+  yaemiko burst;
+  yaemiko skill,skill,skill;
+  wait 30;
+
+  sucrose attack,skill,attack,attack,attack;
+  wait 30;
+
+  fischl attack,attack,burst;
+  wait 30;
+
+  sangonomiyakokomi burst,attack, attack, charge;
+  sangonomiyakokomi attack, attack, charge;
+  sangonomiyakokomi attack, attack, charge;
+  sangonomiyakokomi attack, attack, charge;
+  sangonomiyakokomi attack, attack;
+  wait 30;
+
+  restart;
+description: Sukokoyae, except we replaced Xiangling, not Fischl. Replacing Fischl
+  would ruin the team's energy.
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+team:
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: hakushinring
+  refine: 5
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: thewidsith
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 40432.94607312871
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: _Jbz7dtv2qY58dUDnhHDo

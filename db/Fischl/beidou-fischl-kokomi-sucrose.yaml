@@ -1,0 +1,69 @@
+author: ""
+config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#Character
+  builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
+  stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.496 er=0.551 em=118.92 cr=0.0662 cd=0.1324;\n\nbeidou
+  char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\" refine=1
+  lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=5;\nbeidou
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nbeidou add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
+  count=5;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nsangonomiyakokomi char lvl=90/90 cons=0
+  talent=9,9,9; \nsangonomiyakokomi add weapon=\"hakushinring\" refine=5 lvl=90/90;\nsangonomiyakokomi
+  add set=\"oceanhuedclam\" count=4;\nsangonomiyakokomi add stats hp=4780 atk=311
+  hp%=0.466 hydro%=0.466 heal=0.359 ; #main\nsangonomiyakokomi add stats  hp=507.88
+  hp%=0.55 atk%=0.2 em=40 er=0.6 ; #subs\n\n#Enemies and Particles:\ntarget lvl=100
+  resist=.1;\nenergy every interval=240,360 amount=1;\n\n#Action List:\n\nactive fischl;\n\nfischl
+  attack:2, burst;\nkokomi skill,attack;\nsucrose attack, burst;\nbeidou skill,burst,
+  attack;\nsucrose\n\tattack:2, skill,\n\tattack:2, skill,\n\tattack:2, dash,\n\tattack:2,
+  dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbeidou skill[counter=2], attack;\nfischl
+  attack:2, skill;\nkokomi\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2,
+  dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbeidou skill[counter=2], attack:3;\n\nrestart;\n\n\n\n\n\n"
+description: ""
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: hakushinring
+  refine: 5
+  er: 0.6
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 33840.500817483044
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: wtBRyaIq0J3mwSqMpL6n9

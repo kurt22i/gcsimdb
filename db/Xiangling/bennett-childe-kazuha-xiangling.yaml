@@ -1,0 +1,109 @@
+author: solo#3333
+config: |+
+  options debug=true iteration=1000 duration=110 workers=30 mode=sl;
+
+  kaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9;
+  kaedeharakazuha add weapon="favoniussword" refine=3 lvl=90/90;
+
+  tartaglia char lvl=90/90 cons=0 talent=9,9,9;
+  tartaglia add weapon="theviridescenthunt" refine=1 lvl=90/90;
+
+  xiangling char lvl=90/90 cons=6 talent=9,9,9;
+  xiangling add weapon="thecatch" refine=5 lvl=90/90;
+
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
+
+  ### ARTIFACTS
+  kaedeharakazuha add set="viridescentvenerer" count=4;
+  tartaglia add set="heartofdepth" count=4;
+  xiangling add set="emblemofseveredfate" count=4;
+  bennett add set="instructor" count=4;
+
+  ### MAIN STATS
+  kaedeharakazuha add stats hp=4780 atk=311 em=187 em=187 em=187;
+  kaedeharakazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.3306 em=118.92 cr=0.3972 cd=0.1324;
+  tartaglia add stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cd=0.622;
+  tartaglia add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662;
+  xiangling add stats hp=4780 atk=311 pyro%=0.466 atk%=0.466 cr=0.311;
+  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+  bennett add stats hp=3571 atk=232 pyro%=0.466 atk%=0.348 cr=0.232
+  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
+
+  energy every interval=240,360 amount=1;
+
+  target lvl=100 resist=.1;
+  active tartaglia;
+
+  tartaglia skill;
+  bennett burst;
+  kazuha burst, skill, high_plunge;
+  xiangling skill, burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:3, charge;
+  kazuha skill, high_plunge;
+  bennett skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  bennett skill;
+  xiangling attack:3;
+  kazuha skill, high_plunge;
+  bennett skill;
+  xiangling attack:3;
+  tartaglia aim;
+  restart;
+
+
+
+
+
+
+
+
+
+
+
+
+description: International, scales well in multitarget.
+hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: tartaglia
+  con: 0
+  weapon: theviridescenthunt
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 43057.09595026613
+mode: sl
+duration: 109.99999999999949
+target_count: 1
+viewer_key: JOXWXeEQZwni17tGaaENU
