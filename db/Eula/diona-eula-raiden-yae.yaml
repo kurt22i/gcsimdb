@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nr
   skill,skill,skill;\ndiona burst;\neula burst,attack:4,skill[hold=1],attack:4;\nyaemiko
   burst,skill,skill,skill;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Eula with Yae.
-hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+hash: a0ec29ac618ac480c95e32cacabe3f961bbd8301
 team:
 - name: diona
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32595.799014189783
+dps: 32540.330207806765
 mode: sl
 duration: 99.9999999999986
 target_count: 1

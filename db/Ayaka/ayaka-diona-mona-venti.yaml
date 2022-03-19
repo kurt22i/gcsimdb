@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   attack:3;\ndiona skill[hold=1];\nayaka dash,attack:2,charge,attack:2,charge,skill,dash,attack:2,charge;\nrestart;\n"
 description: '"Morganya": Morgana with Ayaka. Better than the original in single target,
   but also not Ayaka''s best team.'
-hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+hash: a0ec29ac618ac480c95e32cacabe3f961bbd8301
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39825.64593517608
+dps: 40021.827199780426
 mode: sl
 duration: 99.9999999999986
 target_count: 1

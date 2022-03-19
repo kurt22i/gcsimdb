@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=123 workers=30 mode=sl;\n\ng
   burst,skill;\ndiona skill[hold=1], attack:2;\nganyu skill,aim:6;\nbennett skill,
   attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+hash: a0ec29ac618ac480c95e32cacabe3f961bbd8301
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41659.667580026646
+dps: 41660.90753988197
 mode: sl
 duration: 123.0000000000017
 target_count: 1
