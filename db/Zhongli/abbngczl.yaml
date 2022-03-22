@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n  z
   skill[hold=1],burst;\n  bennett skill;\n  travelergeo skill;\n  restart;\n"
 description: Ever wanted to play without using your mouse? Try this keyboard-only
   Geo team.
-hash: a0ec29ac618ac480c95e32cacabe3f961bbd8301
+hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
 team:
 - name: albedo
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31564.73907757985
+dps: 31468.099594362906
 mode: sl
 duration: 99.9999999999986
 target_count: 1

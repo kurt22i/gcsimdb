@@ -33,7 +33,7 @@ config: "options debug=true iteration=1000 duration=90 workers=30 mode=apl;\nnoe
   > 150\n     && .tags.zhongli.shielded==1;\n\nnoelle skill;\nnoelle attack:3,dash,\n
   \      attack:3,dash\n     +if=.status.noelleq > 120;\n"
 description: Noelle Mono-Geo.
-hash: a0ec29ac618ac480c95e32cacabe3f961bbd8301
+hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
 team:
 - name: albedo
   con: 0
@@ -71,7 +71,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34888.85087868528
+dps: 34829.23389730082
 mode: apl
 duration: 90.00000000000215
 target_count: 1

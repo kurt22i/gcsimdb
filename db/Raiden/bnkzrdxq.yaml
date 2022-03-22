@@ -20,9 +20,9 @@ config: "options iteration=1000 duration=105 workers=30 mode=sl;\n\nraidenshogun
   geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=240,360 amount=1;\n\nraiden
   skill;\nxingqiu burst,attack,skill,attack:2;\nbennett attack,burst;\nkaedeharakazuha
   attack,skill,high_plunge,attack,burst;\nraidenshogun burst, attack:14,charge;\nkaedeharakazuha
-  attack,skill,high_plunge,attack;\nbennett skill,attack;\nraiden attack,charge;\nrestart;\n\n\n\n\n"
-description: ""
-hash: a0ec29ac618ac480c95e32cacabe3f961bbd8301
+  attack,skill,high_plunge,attack;\nbennett skill,attack;\nraiden attack,charge;\nrestart;\n"
+description: Raiden/Kazuha Overvape.
+hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46919.73622370441
+dps: 46940.262054140476
 mode: sl
 duration: 105.00000000000071
 target_count: 1

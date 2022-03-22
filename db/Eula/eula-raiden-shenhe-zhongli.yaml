@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\n\n
   skill[hold=1];\nshenhe burst,skill;\neula skill,burst,attack:4,skill[hold=1],attack:4;\nshenhe
   skill,attack,attack;\neula attack:2;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Full 5* Eula team with big flashy numbers and comfortable gameplay.
-hash: a0ec29ac618ac480c95e32cacabe3f961bbd8301
+hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
 team:
 - name: eula
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38973.62271705798
+dps: 39006.38549434471
 mode: sl
 duration: 99.0000000000003
 target_count: 1
