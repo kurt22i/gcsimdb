@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   attack,skill,attack:2,skill,attack;\nxiangling burst;\nkokomi burst,attack:2,charge,attack:2,dash,attack:2,charge;\nfischl
   skill;\nxiangling skill;\nsucrose attack,skill,attack,burst,attack:3,dash,attack:3,dash,attack:3,dash,attack:3,dash,attack:3,dash;\nrestart;\n\n\n\n\n"
 description: Sukokomon. Notoriously difficult team to play, so consider this a warning.
-hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: fischl
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41955.09445984463
+dps: 42206.66966496726
 mode: sl
 duration: 99.9999999999986
 target_count: 1

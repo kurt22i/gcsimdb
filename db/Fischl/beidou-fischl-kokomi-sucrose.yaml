@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#
   attack:2, skill;\nkokomi\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2,
   dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbeidou skill[counter=2], attack:3;\n\nrestart;\n\n\n\n\n\n"
 description: ""
-hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: beidou
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33984.018483643355
+dps: 34520.5771171044
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -64,7 +64,7 @@ config: |+
 
 
 description: International, scales well in multitarget.
-hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: bennett
   con: 6
@@ -102,7 +102,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43154.64644610128
+dps: 43126.04270165414
 mode: sl
 duration: 109.99999999999949
 target_count: 1

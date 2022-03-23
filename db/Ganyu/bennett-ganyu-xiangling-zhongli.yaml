@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=123 workers=30 mode=sl;\n\n\
   skill, attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n"
 description: Melt Ganyu. Assumes 6 CAs per rotation which is likely more than you'll
   manage.
-hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: bennett
   con: 5
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51188.706704440396
+dps: 51173.6692729828
 mode: sl
 duration: 123.0000000000017
 target_count: 1

@@ -33,7 +33,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   skill;\nxiangling attack;\nrestart;\n"
 description: When you can't decide between Raiden National and Raiden Hyper. Rotation
   by elijam#7142.
-hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: bennett
   con: 5
@@ -71,7 +71,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45730.65425638711
+dps: 45793.11855018935
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=100 mode=apl;\n\n#Character 
   burst;\nkaeya skill;\nbennett skill;\n\nbennett attack +is_onfield;\nxiangling attack
   +is_onfield;\nkaeya attack +is_onfield;\nrosaria attack +is_onfield;\n"
 description: The traditional Reverse Melt team. Full 4* lineup.
-hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43313.573955902764
+dps: 43294.22296480203
 mode: apl
 duration: 99.9999999999986
 target_count: 1

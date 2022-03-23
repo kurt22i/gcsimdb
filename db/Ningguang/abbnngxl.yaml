@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=98 workers=30 mode=sl;\n\nni
   skill,burst,charge;\nbennett skill;\nxiangling attack:3;\nningguang attack:2,charge,skill;\nbennett
   skill;\nxiangling attack:3;\nningguang attack,charge;\nrestart;\n"
 description: NatGeo, optimized rotation.
-hash: e31e3b30382090e45e51ac3aad99c7a58bdaea8b
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40131.967963799085
+dps: 40180.1520803897
 mode: sl
 duration: 97.9999999999992
 target_count: 1
