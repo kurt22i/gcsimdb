@@ -19,8 +19,8 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\
   em=39.64 cr=0.331 cd=0.662;\n\n\n\nactive bennett;\ntarget lvl=100 pyro=0.1 dendro=0.1
   hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=240,360
   amount=1;\n\nbennett skill;\nyoimiya burst;\nxingqiu skill,burst;\nbennett skill,burst;\nfischl
-  skill;\nyoimiya skill,attack:5,attack:5,attack:5,attack:5,attack:5,attack:2;\n\nbennett
-  skill;\nxingqiu skill,burst;\nbennett skill,burst;\nfischl burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:5,attack:5;\nrestart;\n"
+  skill;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:5,dash,attack:5,dash,attack:2;\n\nbennett
+  skill;\nxingqiu skill,burst;\nbennett skill,burst;\nfischl burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:5,dash,attack:5;\nrestart;\n"
 description: High-damage, high-risk Yoimiya comp that trades shielding for extra DPS.
 hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53169.026473618906
+dps: 45305.57533988048
 mode: sl
 duration: 109.99999999999949
 target_count: 1
