@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nr
   attack:3;\n\nrestart;\n\n"
 description: Hypercarry Raiden with C6 Sara. Scales well in multitarget and with Raiden
   constellations.
-hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: bennett
   con: 5
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49465.41502375153
+dps: 49445.543961573065
 mode: sl
 duration: 105.00000000000071
 target_count: 1

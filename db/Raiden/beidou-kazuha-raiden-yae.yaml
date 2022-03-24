@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nr
   skill;\nbeidou skill,burst;\nkazuha attack,skill[hold=1],high_plunge,attack,burst,attack;\nyaemiko
   attack,burst,attack,skill,attack,skill,attack,skill,attack;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Mono-Electro Yae + Raiden + Beidou.
-hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: beidou
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31911.832427775964
+dps: 31937.228894520034
 mode: sl
 duration: 99.9999999999986
 target_count: 1

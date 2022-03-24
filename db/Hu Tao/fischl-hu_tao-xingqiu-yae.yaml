@@ -28,7 +28,7 @@ config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\nhu
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump;\n\nrestart;"
 description: Hu Tao + Yae tazer. A fun way to use Yae, but not necessarily an upgrade
   over simply using Zhongli.
-hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: fischl
   con: 6
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47932.098697231624
+dps: 48128.88703220266
 mode: sl
 duration: 99.0000000000003
 target_count: 1

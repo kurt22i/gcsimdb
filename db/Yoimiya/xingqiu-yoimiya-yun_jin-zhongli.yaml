@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\n\n
   skill,burst;\nyunjin skill,burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\n\nzhongli
   skill[hold=1],burst;\nxingqiu skill,burst;\nyunjin skill,burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
 description: Yoimiya Double Geo.
-hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: xingqiu
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33142.97948810362
+dps: 33052.21613236156
 mode: sl
 duration: 91.999999999999
 target_count: 1

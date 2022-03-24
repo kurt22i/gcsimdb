@@ -28,7 +28,7 @@ config: "options debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\n\
   skill,burst;\nxingqiu skill,burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\njean
   skill;\nraiden attack:3,charge,attack:3,charge;\nrestart;\n\n\n\n\n\n\n\n"
 description: ""
-hash: 76e29bded3641e5a87e9790f20373c8271a64eaf
+hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
 team:
 - name: fischl
   con: 6
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30658.845562678922
+dps: 31257.669133215502
 mode: sl
 duration: 106.99999999999939
 target_count: 1
