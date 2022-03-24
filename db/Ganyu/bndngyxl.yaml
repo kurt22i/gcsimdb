@@ -19,10 +19,10 @@ config: "options debug=true iteration=1000 duration=123 workers=30 mode=sl;\n\ng
   atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;\n\nactive bennett;\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\nenergy every interval=240,360 amount=1;\n\nbennett burst,skill;\nxiangling
-  burst,skill;\ndiona skill[hold=1], attack:2;\nganyu skill,aim:6;\nbennett skill,
+  burst,skill;\ndiona skill[hold=1], attack:2;\nganyu skill,aim:5;\nbennett skill,
   attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n"
-description: ""
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+description: Melt Ganyu with Diona.
+hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40918.22790343192
+dps: 36447.70796476785
 mode: sl
 duration: 123.0000000000017
 target_count: 1

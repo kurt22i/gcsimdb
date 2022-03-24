@@ -28,7 +28,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30, mode=sl;\n\n
   burst;\nkokomi burst, attack:2, charge, \n\tattack:2, charge, \n\tattack:2, charge,
   \n\tattack:2, charge,\n\tattack:3,\n\tattack:2, charge\n\t;\nrestart;\n\n\n\n\n\n\n\n"
 description: ""
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
 team:
 - name: fischl
   con: 6
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48176.15734842177
+dps: 48199.26291932017
 mode: sl
 duration: 99.9999999999986
 target_count: 1

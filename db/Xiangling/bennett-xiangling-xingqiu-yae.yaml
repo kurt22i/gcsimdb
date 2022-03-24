@@ -22,7 +22,7 @@ config: "options mode=sl debug=true iteration=1000 duration=97 workers=30 mode=s
   burst, skill, skill, skill;\nbennett skill, attack;\nxiangling attack:3;\nbennett
   skill, attack;\nxiangling attack:3;\nbennett skill, attack;\nxiangling attack:3;\nrestart;\n"
 description: Yae National.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34238.04274634321
+dps: 34202.83498760093
 mode: sl
 duration: 96.99999999999865
 target_count: 1

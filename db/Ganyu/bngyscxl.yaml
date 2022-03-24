@@ -29,10 +29,9 @@ config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\ng
   skill;\nbennett burst, skill;\nxiangling burst;\nwait 8;\nganyu aim, aim, skill;\nsucrose
   skill;\nganyu aim, aim, aim, aim, skill;\nbennett skill;\nxiangling attack:2;\n\n\n\nxiangling
   skill;\nbennett burst, skill;\nxiangling burst;\nwait 8;\nganyu aim, aim, skill;\nsucrose
-  skill;\nganyu aim, aim, aim, aim, skill;\nbennett skill;\nxiangling attack:2;"
-description: Melt Ganyu with VV. Assumes 6 CAs per rotation which is likely more than
-  you'll manage.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+  skill;\nganyu aim, aim, aim, skill;\nbennett skill;\nxiangling attack:2;"
+description: Melt Ganyu with VV. 5 CAs per rotation.
+hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
 team:
 - name: bennett
   con: 6
@@ -70,7 +69,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49843.936859036614
+dps: 49882.37847798603
 mode: sl
 duration: 103.99999999999928
 target_count: 1

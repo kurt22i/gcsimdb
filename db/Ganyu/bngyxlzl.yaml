@@ -19,11 +19,10 @@ config: "options debug=true iteration=1000 duration=123 workers=30 mode=sl;\n\n\
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;\n\n\nactive
   zhongli;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
   physical=.1 cryo=.1;\nenergy every interval=240,360 amount=1;\n\nzhongli skill[hold=1];\nbennett
-  burst,skill;\nxiangling burst,skill;\nganyu skill,aim,aim,aim,aim,aim,aim;\nbennett
+  burst,skill;\nxiangling burst,skill;\nganyu skill,aim,aim,aim,aim,aim;\nbennett
   skill, attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n"
-description: Melt Ganyu. Assumes 6 CAs per rotation which is likely more than you'll
-  manage.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+description: Melt Ganyu. 5 CAs per rotation.
+hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
 team:
 - name: bennett
   con: 5
@@ -61,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51173.6692729828
+dps: 46096.20340417348
 mode: sl
 duration: 123.0000000000017
 target_count: 1

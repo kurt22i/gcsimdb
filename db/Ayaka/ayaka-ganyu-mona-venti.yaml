@@ -26,7 +26,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nm
   dash,skill,burst;\nventi skill;\nganyu skill,aim[weakspot=1];\nayaka dash,attack:2,charge;\n\nrestart;"
 description: Ganyu + Ayaka freeze. Assumes you proc Prototype Crescent. Mona uses
   Prototype Amber for healing; TTDS can also be used.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46229.94452068539
+dps: 46231.45812573273
 mode: sl
 duration: 99.9999999999986
 target_count: 1
