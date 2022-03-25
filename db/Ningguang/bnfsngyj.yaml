@@ -27,7 +27,7 @@ config: "options debug=true iteration=1000 duration=98 mode=sl;\n\n####----GENER
   attack:2,charge;\nbennett skill;\nningguang attack:2,charge,skill,burst,skill,charge;\nbennett
   skill;\n\nrestart;\n"
 description: Full 4* Ning team.
-hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
+hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
 - name: bennett
   con: 5
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32520.68128227158
+dps: 32457.60192986627
 mode: sl
 duration: 97.9999999999992
 target_count: 1

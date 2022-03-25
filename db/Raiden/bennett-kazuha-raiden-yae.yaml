@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=112 workers=30 mode=sl; raid
   burst;\nkaedeharakazuha skill, high_plunge, burst;\nraidenshogun burst, attack:3,
   charge, attack:3, charge, attack:3, charge;\nrestart;\n\n\n\n"
 description: ""
-hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
+hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
 - name: bennett
   con: 5
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48003.37358545952
+dps: 48021.3524632479
 mode: sl
 duration: 111.99999999999807
 target_count: 1

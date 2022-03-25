@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nx
   burst,skill;\nyaemiko burst,skill:3;\nkazuha skill,high_plunge;\nyae attack:2,jump;\nbennett
   skill;\nxiangling attack,attack;\nkazuha skill,high_plunge;\nyaemiko attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
+hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
 - name: bennett
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39291.97533111214
+dps: 39214.40215680731
 mode: sl
 duration: 109.99999999999949
 target_count: 1

@@ -42,7 +42,7 @@ config: |
   zhongli burst;
   restart;
 description: Yae + Geo comfort version. Make sure to pick up shards for 4AP.
-hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
+hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
 - name: fischl
   con: 6
@@ -80,7 +80,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43328.616621401285
+dps: 43315.92704650003
 mode: sl
 duration: 90.00000000000215
 target_count: 1

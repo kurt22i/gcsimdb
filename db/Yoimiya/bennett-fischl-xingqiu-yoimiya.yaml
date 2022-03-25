@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\
   skill;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:5,dash,attack:5,dash,attack:2;\n\nbennett
   skill;\nxingqiu skill,burst;\nbennett skill,burst;\nfischl burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:5,dash,attack:5;\nrestart;\n"
 description: High-damage, high-risk Yoimiya comp that trades shielding for extra DPS.
-hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
+hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45298.304166751484
+dps: 45390.94028388447
 mode: sl
 duration: 109.99999999999949
 target_count: 1

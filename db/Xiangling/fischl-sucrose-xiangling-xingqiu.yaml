@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl; \n\n
   burst;\nsucrose attack:3,dash,attack:3,dash,attack:3;\nfischl skill;\nxiangling
   skill;\nsucrose attack,skill,attack,burst,attack:3,dash,attack:3,dash,attack:3,dash,attack:3;\nrestart;\n\n"
 description: Sukokomon with Xingqiu.
-hash: 3b539a883e5d419a2e5f9633cf9a9200c066dc8b
+hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
 - name: fischl
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42996.6956556403
+dps: 42797.305918878694
 mode: sl
 duration: 99.9999999999986
 target_count: 1
