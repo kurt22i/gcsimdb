@@ -19,10 +19,9 @@ config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl;\n\nya
   er=0.6612;\n\n\ntarget lvl=100 resist=0.1;\n\nenergy every interval=240,360 amount=1;\n\nactive
   beidou;\n\nyaemiko skill:3;\n\nkazuha skill, high_plunge;\n\nbennett skill, burst;\n\nkazuha
   burst;\n\nbeidou skill, burst;\n\nkazuha attack, skill, high_plunge, attack;\n\nyaemiko
-  burst, \n        attack, skill:2,\n        attack:2, skill,\n        attack:2, dash,\n
-  \       attack:2, dash,\n        attack:2, dash,\n        attack;\n\nkazuha skill,
-  high_plunge, attack:2;\n\nbennett skill, attack;\n\nbeidou skill, attack;\n\nyaemiko
-  attack;\n\nrestart;\n"
+  burst, \nattack, skill:2,\nattack:2, skill,\nattack:2, dash,\nattack:2, dash,\nattack:2,
+  dash,\nattack;\n\nkazuha skill, high_plunge, attack:2;\n\nbennett skill, attack;\n\nbeidou
+  skill, attack;\n\nyaemiko attack;\n\nrestart;\n"
 description: Yae/Beidou.
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -62,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39409.934931871285
+dps: 39429.773145840736
 mode: sl
 duration: 90.00000000000215
 target_count: 1
