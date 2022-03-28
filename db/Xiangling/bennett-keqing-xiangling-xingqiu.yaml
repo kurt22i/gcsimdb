@@ -3,7 +3,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   char lvl=90/90 cons=0 talent=9,9,9; \nkeqing add weapon=\"prototyperancour\" refine=5
   lvl=90/90;\nkeqing add set=\"paleflame\" count=5;\nkeqing add stats hp=4780 atk=311
   atk%=0.466 phys%=0.466 cr=0.311 ; #main\nkeqing add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.1986 cd=0.5296;\n\nxiangling
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2979 cd=0.5958;\n\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add set=\"paleflame\"
   count=1;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling
@@ -11,14 +11,14 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   em=118.92 cr=0.331 cd=0.1324;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9; \nbennett
   add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
-  em=39.64 cr=0.2979 cd=0.5958;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=237.84 cr=0.0993 cd=0.1986;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu
   add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
   count=4;\nxingqiu add set=\"paleflame\" count=1;\nxingqiu add stats hp=4780 atk=311
   atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.331 cd=0.2648;\n\n\n\nactive
   xingqiu;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
-  physical=.1 cryo=.1;\nenergy every interval=240,360 amount=1;\n\nxingqiu burst,attack,skill;\nbennett
+  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nxingqiu burst,attack,skill;\nbennett
   burst,attack,skill;\nxiangling burst,attack,skill;\nkeqing skill,burst,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge;\nbennett
   attack:2,skill;\nxiangling attack:3;\nrestart;\n"
 description: Keqing National.
@@ -28,7 +28,7 @@ team:
   con: 5
   weapon: thealleyflash
   refine: 1
-  er: 0.9588000000000001
+  er: 1.069
   talents:
     attack: 9
     skill: 9
@@ -37,7 +37,7 @@ team:
   con: 0
   weapon: prototyperancour
   refine: 5
-  er: 0.6612
+  er: 0.4408
   talents:
     attack: 9
     skill: 9
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34413.71697696008
+dps: 32960.11605043587
 mode: sl
 duration: 99.9999999999986
 target_count: 1

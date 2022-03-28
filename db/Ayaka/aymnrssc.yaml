@@ -15,10 +15,10 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nm
   char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"amenomakageuchi\"
   refine=5 lvl=90/90;\nkamisatoayaka add set=\"blizzardstrayer\" count=5;\nkamisatoayaka
   add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nkamisatoayaka
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
   em=39.64 cr=0.3972 cd=0.662;\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
   geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n#target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
-  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n\nenergy every interval=240,360
+  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n\nenergy every interval=480,720
   amount=1;\n\nactive ayaka;\nayaka skill;\nrosaria burst, skill;\nsucrose skill;\nmona
   skill,burst;\nayaka dash,skill,burst;\nsucrose skill;\nrosaria skill;\nayaka dash,attack:2,charge;\nrestart;\n"
 description: Ayaka Freeze without additional 5* limiteds.
@@ -28,7 +28,7 @@ team:
   con: 0
   weapon: amenomakageuchi
   refine: 5
-  er: 0.1102
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31090.484006304985
+dps: 30375.411597440743
 mode: sl
 duration: 99.9999999999986
 target_count: 1

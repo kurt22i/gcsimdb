@@ -7,16 +7,16 @@ config: "options debug=true iteration=1000 duration=105 workers=30, mode=sl;\n\n
   char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"dragonsbane\" refine=3
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
   hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
-  cd=0.7282;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648
+  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
-  stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64
-  cr=0.331 cd=0.2648;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every
-  interval=240,360 amount=1;\n\n##Actions List\n\nactive xingqiu;\n\nxingqiu burst,skill,attack;\nbennett
+  stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311; #main\nxingqiu add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.331
+  cd=0.1324;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\n##Actions List\n\nactive xingqiu;\n\nxingqiu burst,skill,attack;\nbennett
   burst,attack,skill,attack;\nxiangling burst,attack,skill,attack:4;\nbennett skill,attack;\nxiangling
   attack:4;\nbennett skill,attack;\nxiangling attack:4;\nbennett skill,attack;\nxiangling
-  attack:4;\nrestart;\n\n\n\n\n\n\n"
+  attack:4;\nrestart;\n"
 description: Who needs a 4th character?
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -33,7 +33,7 @@ team:
   con: 6
   weapon: dragonsbane
   refine: 3
-  er: 0.8486
+  er: 0.9588000000000001
   talents:
     attack: 9
     skill: 9
@@ -42,12 +42,12 @@ team:
   con: 6
   weapon: favoniussword
   refine: 3
-  er: 0.6612
+  er: 1.069
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 27723.976156595298
+dps: 25982.56757023518
 mode: sl
 duration: 105.00000000000071
 target_count: 1

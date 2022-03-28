@@ -3,8 +3,8 @@ config: "options debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\nni
   char lvl=90/90 cons=6 talent=9,9,9;\nningguang add weapon=\"thewidsith\" refine=3
   lvl=90/90;\nningguang add set=\"archaicpetra\" count=2;\nningguang add set=\"gladiatorsfinale\"
   count=2;\nningguang add stats hp=4780 atk=311 atk%=0.466 cr=0.311 geo%=0.466 ; #main\nningguang
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.331 cd=0.662;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo
   add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\"
   count=4 +params=[stacks=4];\nalbedo add set=\"paleflame\" count=1;\nalbedo add stats
   hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo add stats def%=0.248
@@ -13,13 +13,13 @@ config: "options debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\nni
   refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
   count=4;\nfischl add set=\"gladiatorsfinale\" count=1;\nfischl add stats hp=4780
   atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
-  cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648
+  cd=0.662;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
   refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
   hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
-  cd=0.7944;\n\nactive albedo;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=240,360 amount=1;\n\nalbedo
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=237.84 cr=0.1324
+  cd=0.2648;\n\nactive albedo;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
+  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nalbedo
   skill;\nbennett skill,burst;\nfischl skill;\nningguang skill,burst,skill,charge;\nbennett
   skill;\nningguang attack:2,charge;\nbennett skill;\n\nalbedo skill;\nbennett skill,burst;\nfischl
   burst;\nningguang skill,burst,skill,charge;\nbennett skill;\nningguang attack:2,charge;\nbennett
@@ -40,7 +40,7 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.7384000000000001
+  er: 0.9588000000000001
   talents:
     attack: 9
     skill: 9
@@ -49,7 +49,7 @@ team:
   con: 6
   weapon: alleyhunter
   refine: 1
-  er: 0.2204
+  er: 0.4408
   talents:
     attack: 9
     skill: 9
@@ -58,12 +58,12 @@ team:
   con: 6
   weapon: thewidsith
   refine: 3
-  er: 0.2204
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 38582.96623045824
+dps: 37077.87431331585
 mode: sl
 duration: 93.0000000000023
 target_count: 1

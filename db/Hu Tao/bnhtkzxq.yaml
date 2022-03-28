@@ -11,12 +11,12 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nh
   cr=0.331 cd=0.7944;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
   stats hp=4780 atk=311 em=559.5 ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\nbennett
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.3972 cd=0.1324;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232
   er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.0662 cd=0.1324;\n\ntarget
-  lvl=100 resist=0.1;\nenergy every interval=240,360 amount=1;\n\nactive xingqiu;\n\nxingqiu
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2648 cd=0.5296;\n\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu
   skill, burst, attack:1;\nkazuha burst, attack;\nwait 25;\nbennett skill, burst;\nkazuha
   skill, high_plunge, attack;\nhutao skill, attack:2, charge, jump,\n    attack:2,
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
@@ -53,7 +53,7 @@ team:
   con: 0
   weapon: favoniussword
   refine: 3
-  er: 0.4408
+  er: 0.6612
   talents:
     attack: 9
     skill: 9
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 54506.69780637494
+dps: 53767.75535568943
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -16,9 +16,9 @@ config: "options debug=true iteration=1000 duration=101 workers=30 mode=sl;\n\nr
   cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
   refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
   hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.2317
-  cd=0.4634;\n\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=240,360 amount=1;\n\n\nactive
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.1986
+  cd=0.5296;\n\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
+  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\n\nactive
   raiden;\n\nraiden skill;\nbennett burst,skill;\nxiangling burst,skill;\nfischl attack:2,
   burst;\nraidenshogun burst, attack:14,charge;\nbennett attack,skill;\nxiangling
   attack:3;\nfischl skill, attack:2;\n\nraidenshogun skill,attack:2;\nbennett burst,skill;\nxiangling
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49584.944691463475
+dps: 49488.72295722569
 mode: sl
 duration: 100.9999999999993
 target_count: 1

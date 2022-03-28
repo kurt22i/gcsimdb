@@ -28,7 +28,7 @@ config: |
   active yaemiko;
 
   target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
-  energy every interval=240,360 amount=1;
+  energy every interval=480,720 amount=1;
 
   yaemiko skill:3;
   fischl burst;
@@ -80,7 +80,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43315.92704650003
+dps: 42585.733466247715
 mode: sl
 duration: 90.00000000000215
 target_count: 1

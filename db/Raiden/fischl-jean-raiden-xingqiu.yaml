@@ -19,14 +19,14 @@ config: "options debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\n\
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
   em=39.64 cr=0.331 cd=0.7944;\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
   geo=0.1 anemo=0.1 physical=.1;\n# target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1;\nenergy every interval=240,360 amount=1;\n\nactive
+  geo=0.1 anemo=0.1 physical=.1;\nenergy every interval=480,720 amount=1;\n\nactive
   raidenshogun;\n\nfischl burst;\njean skill,burst;\nxingqiu skill,burst;\nraiden
   burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\nfischl
   skill;\njean skill;\nraiden attack:3,charge,attack:3,charge;\n\nfischl burst;\njean
   skill,burst;\nxingqiu skill,burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\nfischl
   burst;\njean skill;\nraiden attack:3,charge,attack:3,charge;\n\nfischl skill;\njean
   skill,burst;\nxingqiu skill,burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\njean
-  skill;\nraiden attack:3,charge,attack:3,charge;\nrestart;\n\n\n\n\n\n\n\n"
+  skill;\nraiden attack:3,charge,attack:3,charge;\nrestart;\n"
 description: ""
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31243.35100847483
+dps: 31030.419979251667
 mode: sl
 duration: 106.99999999999939
 target_count: 1

@@ -3,29 +3,29 @@ config: "options debug=true iteration=1000 duration=117 workers=30 mode=sl;\n\n\
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
-  add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 def=39.36 def%=0.124 em=39.64
-  er=0.11019999999999999 cr=0.331 cd=0.7944 ; #subs\n\nfischl char lvl=90/90 cons=6
-  talent=9,9,9; \nfischl add weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\nfischl
-  add set=\"thunderingfury\" count=2;\nfischl add set=\"gladiatorsfinale\" count=3;\nfischl
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
-  stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 def=39.36 def%=0.124 em=39.64 er=0.11019999999999999
-  cr=0.331 cd=0.7944 ; #subs\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9;
-  \nkaedeharakazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkaedeharakazuha
-  add set=\"viridescentvenerer\" count=5;\nkaedeharakazuha add stats hp=4780 atk=311
-  em=561 ; #main\nkaedeharakazuha add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.248
-  def=39.36 def%=0.124 em=118.92 er=0.6612 cr=0.1655 cd=0.1324 ; #subs\n\nbennett
-  char lvl=90/90 cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
-  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
-  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 def=39.36 def%=0.124 em=39.64 er=0.551 cr=0.2317 cd=0.5958
-  ; #subs\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
-  physical=.1;\n# target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1
-  anemo=0.1 physical=.1;\nenergy every interval=240,360 amount=1;\n\nactive raidenshogun;\n\nraidenshogun
-  skill;\nkaedeharakazuha attack,skill, high_plunge;\nbennett skill, burst;\nfischl
-  attack:2, burst;\nkaedeharakazuha burst;\nraidenshogun burst, attack:14,charge;\nkaedeharakazuha
-  skill, high_plunge;\nfischl skill, attack:2;\n\nraidenshogun skill;\nbennett skill,
-  burst;\nfischl attack:2, burst;\nkaedeharakazuha skill, high_plunge, burst;\nraidenshogun
-  burst, attack:14,charge;\nkaedeharakazuha skill, high_plunge, attack:2;\n\nrestart;"
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"thunderingfury\"
+  count=2;\nfischl add set=\"gladiatorsfinale\" count=3;\nfischl add stats hp=4780
+  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9; \nkaedeharakazuha
+  add weapon=\"ironsting\" refine=5 lvl=90/90;\nkaedeharakazuha add set=\"viridescentvenerer\"
+  count=5;\nkaedeharakazuha add stats hp=4780 atk=311 em=561 ; #main\nkaedeharakazuha
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=118.92 cr=0.2317 cd=0.331;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=237.84 cr=0.1986 cd=0.5296;\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
+  electro=0.1 geo=0.1 anemo=0.1 physical=.1;\n# target lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1;\nenergy every interval=480,720
+  amount=1;\n\nactive raidenshogun;\n\nraidenshogun skill;\nkaedeharakazuha attack,skill,
+  high_plunge;\nbennett skill, burst;\nfischl attack:2, burst;\nkaedeharakazuha burst;\nraidenshogun
+  burst, attack:14,charge;\nkaedeharakazuha skill, high_plunge;\nfischl skill, attack:2;\n\nraidenshogun
+  skill;\nbennett skill, burst;\nfischl attack:2, burst;\nkaedeharakazuha skill, high_plunge,
+  burst;\nraidenshogun burst, attack:14,charge;\nkaedeharakazuha skill, high_plunge,
+  attack:2;\n\nrestart;\n"
 description: RaiFish, optimized rotation with KQM standard artifacts.
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -33,7 +33,7 @@ team:
   con: 5
   weapon: thealleyflash
   refine: 1
-  er: 1.069
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
@@ -42,7 +42,7 @@ team:
   con: 6
   weapon: alleyhunter
   refine: 1
-  er: 0.11019999999999999
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -51,7 +51,7 @@ team:
   con: 0
   weapon: ironsting
   refine: 5
-  er: 0.6612
+  er: 0.551
   talents:
     attack: 9
     skill: 9
@@ -60,12 +60,12 @@ team:
   con: 0
   weapon: thecatch
   refine: 5
-  er: 0.11019999999999999
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 51830.30445375388
+dps: 50943.91873200959
 mode: sl
 duration: 117.00000000000145
 target_count: 1

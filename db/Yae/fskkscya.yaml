@@ -29,7 +29,7 @@ config: |
   #Enemies and Particles:
 
   target lvl=100 resist=.1;
-  energy every interval=240,360 amount=1;
+  energy every interval=480,720 amount=1;
 
   #Action List:
 
@@ -136,7 +136,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41984.371441703486
+dps: 41290.878930154795
 mode: sl
 duration: 97.9999999999992
 target_count: 1

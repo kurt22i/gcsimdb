@@ -15,9 +15,9 @@ config: "options debug=true iteration=1000 duration=105 workers=30, mode=sl;\nka
   cr=0.331 cd=0.7944;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add
   weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=4;\nrosaria
   add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nrosaria add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64
-  cr=0.1986 cd=0.7944;\n\n# ----  Default Enemy\ntarget lvl=100 resist=.1;\nenergy
-  every interval=240,360 amount=1;\n\n# ----  Actions List\n\nactive xingqiu;\n\nxingqiu
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
+  cr=0.2648 cd=0.7944;\n\n# ----  Default Enemy\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n# ----  Actions List\n\nactive xingqiu;\n\nxingqiu
   skill[orbital=1], burst, attack;\nbennett skill, burst;\nrosaria skill, burst;\nkaeya
   skill, burst;\nbennett attack, skill, \n    attack:3, skill, \n    attack:3, skill,\n
   \   attack:3, skill\n    ;\nkaeya attack, skill;\nrosaria attack, skill;\nrestart;\n"
@@ -46,7 +46,7 @@ team:
   con: 6
   weapon: deathmatch
   refine: 1
-  er: 0.4408
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27262.355964889673
+dps: 27063.475638221982
 mode: sl
 duration: 105.00000000000071
 target_count: 1

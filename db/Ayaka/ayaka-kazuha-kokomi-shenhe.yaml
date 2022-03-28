@@ -1,32 +1,32 @@
 author: cyan#3224
-config: |+
+config: |
   options debug=true iteration=1000 duration=102 workers=30 mode=sl;
   ayaka char lvl=90/90 cons=0 talent=9,9,9;
   ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
   ayaka add set="blizzardstrayer" count=4;
-  ayaka add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220 #main
-  ayaka add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.6620;
+  ayaka add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220; #main
+  ayaka add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;
 
   kokomi char lvl=90/90 cons=0 talent=9,9,9;
   kokomi add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
   kokomi add set="tenacityofthemillelith" count=4;
-  kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590 #main
-  kokomi add stats def%=0.1240 def=39.36 hp=1015.76 hp%=0.5952 atk=33.08 atk%=0.4960 er=0.1102 em=39.64 cr=0.0662 cd=0.1324;
+  kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590; #main
+  kokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.5952 er=0.1102 em=79.28 cr=0.0662 cd=0.1324;
 
   kazuha char lvl=90/90 cons=0 talent=9,9,9;
   kazuha add weapon="ironsting" refine=5 lvl=90/90;
   kazuha add set="viridescentvenerer" count=4;
   kazuha add stats hp=4780 atk=311 em=561; #main
-  kazuha add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.4960 er=0.5510 em=118.92 cr=0.0662 cd=0.1324;
+  kazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=118.92 cr=0.1655 cd=0.331;
 
   shenhe char lvl=90/90 cons=0 talent=9,9,9;
   shenhe add weapon="favoniuslance" refine=3 lvl=90/90;
   shenhe add set="noblesseoblige" count=4;
   shenhe add stats hp=4780 atk=311 atk%=0.9320 cr=0.3110; #main
-  shenhe add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.4408 em=39.64 cr=0.3310 cd=0.1324;
+  shenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.551 em=39.64 cr=0.2648 cd=0.1324;
 
   # ----
-  energy every interval=240,360 amount=1;
+  energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
 
   # ----
@@ -42,7 +42,6 @@ config: |+
   ayaka dash, attack:2, charge, dash, attack:2, charge;
 
   restart;
-
 description: ""
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -50,7 +49,7 @@ team:
   con: 0
   weapon: amenomakageuchi
   refine: 5
-  er: 0.2204
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
@@ -59,7 +58,7 @@ team:
   con: 0
   weapon: ironsting
   refine: 5
-  er: 0.551
+  er: 0.6612
   talents:
     attack: 9
     skill: 9
@@ -77,12 +76,12 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.4408
+  er: 0.551
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 56328.53136826464
+dps: 53998.217835009666
 mode: sl
 duration: 102.00000000000051
 target_count: 1

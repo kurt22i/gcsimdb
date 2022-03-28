@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\n\nraidenshogun
+config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nraidenshogun
@@ -7,18 +7,18 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   em=39.64 cr=0.2648 cd=0.7944;\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona
   add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nmona add set=\"noblesseoblige\"
   count=5;\nmona add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.2979 cd=0.7282;\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9;
-  \nkaedeharakazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkaedeharakazuha
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
+  em=39.64 cr=0.2648 cd=0.662;\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9;
+  \nkaedeharakazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkaedeharakazuha
   add set=\"viridescentvenerer\" count=5;\nkaedeharakazuha add stats hp=4780 atk=311
   em=561 ; #main\nkaedeharakazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;\n\nbennett char lvl=90/90
+  atk=33.08 atk%=0.0992 er=0.6612 em=118.92 cr=0.2648 cd=0.1324;\n\nbennett char lvl=90/90
   cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
   add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
   pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.551 em=237.84 cr=0.1324 cd=0.1324;\n\n\nactive raiden;\ntarget
+  atk=33.08 atk%=0.2976 er=0.4408 em=237.84 cr=0.0662 cd=0.1324;\n\n\nactive raiden;\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\nenergy every interval=240,360 amount=1;\n\nraiden skill;\nbennett burst;\nkazuha
+  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nraiden skill;\nbennett burst;\nkazuha
   burst;\nmona burst;\nraiden burst,attack:4,charge,attack:4,charge,attack:2,charge;\nbennett
   skill;\nmona skill;\nkazuha skill[hold=1],high_plunge;\nrestart;\n"
 description: Raiden Hypercarry with Mona.
@@ -28,15 +28,15 @@ team:
   con: 5
   weapon: thealleyflash
   refine: 1
-  er: 1.069
+  er: 0.9588000000000001
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: kazuha
   con: 0
-  weapon: ironsting
-  refine: 5
+  weapon: favoniussword
+  refine: 3
   er: 0.6612
   talents:
     attack: 9
@@ -46,7 +46,7 @@ team:
   con: 0
   weapon: thrillingtalesofdragonslayers
   refine: 5
-  er: 0.8486
+  er: 0.9588000000000001
   talents:
     attack: 9
     skill: 9
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31586.196399307297
+dps: 33241.66351193117
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -1,6 +1,6 @@
 author: Water#4568
 config: "options debug=true iteration=1000 duration=107 workers=30 mode=sl;\nenergy
-  every interval=240,360 amount=1;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
+  every interval=480,720 amount=1;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
   geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\n\n#Rotation\nactive ayaka;\nayaka dash,
   attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill, burst;\nganyu burst,
   skill;\nayaka dash, attack, burst, skill, dash, attack:2, charge;\nkazuha skill,
@@ -13,15 +13,15 @@ config: "options debug=true iteration=1000 duration=107 workers=30 mode=sl;\nene
   refine=3 lvl=90/90;\n\n#Artifacts\nayaka add set=\"blizzardstrayer\" count=4;\nganyu
   add set=\"blizzardstrayer\" count=4;\nkazuha add set=\"viridescentvenerer\" count=4;\nshenhe
   add set=\"noblesseoblige\" count=4;\n\n#Main stats\nayaka add stats hp=4780 atk=311
-  atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu add stats hp=4780 atk=311 atk%=0.4660
-  cryo%=0.4660 cd=0.6220;\nkazuha add stats hp=4780 atk=311 em=187 em=187 em=187;\nshenhe
-  add stats hp=4780 atk=311 atk%=0.4660 atk%=0.4660 atk%=0.4660;\n\n#Substats\nayaka
-  add stats atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.6620\ndef%=0.1240
-  def=39.36 hp=507.88 hp%=0.0992;\nganyu add stats atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.3972 cd=0.6620\ndef%=0.1240 def=39.36 hp=507.88 hp%=0.0992;\nkazuha
-  add stats atk=33.08 atk%=0.4960 er=0.5510 em=118.92 cr=0.0662 cd=0.1324\ndef%=0.1240
-  def=39.36 hp=507.88 hp%=0.0992;\nshenhe add stats atk=33.08 atk%=0.3968 er=0.4408
-  em=39.64 cr=0.3310 cd=0.1324\ndef%=0.1240 def=39.36 hp=507.88 hp%=0.0992;\n"
+  atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\nganyu add
+  stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972
+  cd=0.662;\nkazuha add stats hp=4780 atk=311 em=187 em=187 em=187;\nkazuha add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=118.92
+  cr=0.3972 cd=0.1324;\nshenhe add stats hp=4780 atk=311 atk%=0.4660 atk%=0.4660 atk%=0.4660;\nshenhe
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102
+  em=39.64 cr=0.3972 cd=0.5296;\n"
 description: Mono-cryo Ayaka. No shielding or healing.
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -29,7 +29,7 @@ team:
   con: 0
   weapon: amenomakageuchi
   refine: 5
-  er: 0.2204
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -47,7 +47,7 @@ team:
   con: 0
   weapon: favoniussword
   refine: 3
-  er: 0.551
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -56,12 +56,12 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.4408
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 55191.122367722375
+dps: 56694.00211991691
 mode: sl
 duration: 106.99999999999939
 target_count: 1

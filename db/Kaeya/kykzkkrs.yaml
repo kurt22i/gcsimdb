@@ -25,7 +25,7 @@ config: |
   ####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####
   options iteration=1000 duration=101 mode=sl;
   target lvl=100 resist=0.1;
-  energy every interval=240,360 amount=1;
+  energy every interval=480,720 amount=1;
   active kaeya;
 
   kaeya skill;
@@ -77,7 +77,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29938.947156225837
+dps: 29908.679825594547
 mode: sl
 duration: 100.9999999999993
 target_count: 1

@@ -29,7 +29,7 @@ config: |+
   active yaemiko;
 
   target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
-  energy every interval=240,360 amount=1;
+  energy every interval=480,720 amount=1;
 
 
   yaemiko skill: 3;
@@ -87,7 +87,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44855.077904074795
+dps: 44237.490998841546
 mode: sl
 duration: 93.99999999999868
 target_count: 1

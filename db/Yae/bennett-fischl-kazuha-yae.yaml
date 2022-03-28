@@ -11,17 +11,17 @@ config: "options debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\nya
   hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nkazuha
   char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha
   add set=\"viridescentvenerer\" count=5;\nkazuha add stats hp=4780 atk=311 em=561
-  ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952
-  er=0.4408 em=118.92 cr=0.0662 cd=0.1324;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9;
+  ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.551 em=118.92 cr=0.2317 cd=0.331;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9;
   \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
-  em=39.64 cr=0.1986 cd=0.5296;\n\n## Enemy Setting\ntarget lvl=100 resist=0.1;\n\n##
-  HP Particles\nenergy every interval=240,360 amount=1;\n\n## Action list\nactive
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=237.84 cr=0.2317 cd=0.4634;\n\n## Enemy Setting\ntarget lvl=100 resist=0.1;\n\n##
+  HP Particles\nenergy every interval=480,720 amount=1;\n\n## Action list\nactive
   yaemiko;\n\nyaemiko skill:3;\n\nkazuha skill,high_plunge;\n\nbennett skill,burst;\n\nkazuha
   burst;\n\nfischl attack:2,burst;\n\nkazuha attack,skill,high_plunge,attack;\n\nyaemiko
   attack,burst,attack,skill:2,attack,skill,attack:2,dash,attack:2;\n\nkazuha skill,high_plunge,attack:2;\n\nbennett
-  skill,attack;\n\nfischl attack:2,skill;\n\nrestart;\n\n\n"
+  skill,attack;\n\nfischl attack:2,skill;\n\nrestart;\n"
 description: Bennett/Fischl/Kazuha/Yae.
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -47,7 +47,7 @@ team:
   con: 0
   weapon: ironsting
   refine: 5
-  er: 0.4408
+  er: 0.551
   talents:
     attack: 9
     skill: 9
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43177.69818795941
+dps: 43092.95521983198
 mode: sl
 duration: 94.9999999999991
 target_count: 1

@@ -7,17 +7,17 @@ config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\ng
   talent=9,9,9; \nxiangling add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nxiangling
   add set=\"emblemofseveredfate\" count=5;\nxiangling add stats hp=4780 atk=311 er=0.518
   pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317 cd=0.7282;\n\nbennett
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.331 cd=0.3972;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
   atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.4408 em=39.64 cr=0.1324 cd=0.2648;\n\nsucrose
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nsucrose
   char lvl=90/90 cons=6 talent=9,9,9; \nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
   stats hp=4780 atk=311 em=561 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.2648 cd=0.7944;\n\n\ntarget
+  hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0993 cd=0.4634;\n\n\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\n\nenergy every interval=240,360 amount=1;\n\nactive xiangling;\nxiangling
+  cryo=.1;\n\nenergy every interval=480,720 amount=1;\n\nactive xiangling;\nxiangling
   skill;\nbennett burst, skill;\nxiangling burst;\nwait 8;\nganyu aim, aim, skill;\nsucrose
   skill;\nganyu aim, aim, aim, aim, skill;\nbennett skill;\nxiangling attack:2;\n\nxiangling
   skill;\nbennett burst, skill;\nxiangling burst;\nwait 8;\nganyu aim, aim, skill;\nsucrose
@@ -29,7 +29,7 @@ config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\ng
   skill;\nbennett burst, skill;\nxiangling burst;\nwait 8;\nganyu aim, aim, skill;\nsucrose
   skill;\nganyu aim, aim, aim, aim, skill;\nbennett skill;\nxiangling attack:2;\n\n\n\nxiangling
   skill;\nbennett burst, skill;\nxiangling burst;\nwait 8;\nganyu aim, aim, skill;\nsucrose
-  skill;\nganyu aim, aim, aim, skill;\nbennett skill;\nxiangling attack:2;"
+  skill;\nganyu aim, aim, aim, skill;\nbennett skill;\nxiangling attack:2;\n"
 description: Melt Ganyu with VV. 5 CAs per rotation.
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -37,7 +37,7 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.9588000000000001
+  er: 0.8486
   talents:
     attack: 9
     skill: 9
@@ -64,12 +64,12 @@ team:
   con: 6
   weapon: favoniuslance
   refine: 3
-  er: 0.9588000000000001
+  er: 1.069
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 49831.032618173085
+dps: 48722.8466590393
 mode: sl
 duration: 103.99999999999928
 target_count: 1

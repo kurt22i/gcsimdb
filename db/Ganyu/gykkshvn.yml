@@ -3,11 +3,11 @@ config: "options debug=true iteration=1000 duration=109 workers=30 mode=sl;\n\ns
   char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=5;\nshenhe add stats hp=4780
   atk=311 atk%=0.932 cr=0.311; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.3968 er=0.2204 em=39.64 cr=0.2317 cd=0.5958;\n\nkokomi
+  hp%=0.0992 atk=33.08 atk%=0.3968 er=0.2204 em=39.64 cr=0.1655 cd=0.7282;\n\nkokomi
   char lvl=90/90 cons=0 talent=9,9,9; \nkokomi add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\" count=5;\nkokomi
   add stats hp=4780 atk=311 er=0.518 hydro%=0.466 heal=0.356; #main\nkokomi add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.5952 er=0.551 em=39.64
+  def%=0.124 def=39.36 hp=507.88 hp%=0.5952 atk=33.08 atk%=0.2976 er=0.4408 em=39.64
   cr=0.0662 cd=0.1324;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"favoniuswarbow\"
   refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats
   hp=4780 atk=311 em=374 cr=0.311; #main\nventi add stats def%=0.124 def=39.36 hp=507.88
@@ -17,7 +17,7 @@ config: "options debug=true iteration=1000 duration=109 workers=30 mode=sl;\n\ns
   atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124 def=39.36
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\n\nenergy every interval=240,360 amount=1;\nactive kokomi;\n#-------------------------------------------\nkokomi
+  cryo=.1;\n\nenergy every interval=480,720 amount=1;\nactive kokomi;\n#-------------------------------------------\nkokomi
   skill;\nganyu aim[weakspot=1];\n\nshenhe burst, skill;\nganyu skill, burst, aim[weakspot=1];\nventi
   skill, burst[radius=2];\nkokomi burst;\nganyu aim[weakspot=1];\nshenhe skill;\nganyu
   skill, aim[weakspot=1]:2;\nventi skill,attack;\nrestart;\n"
@@ -37,7 +37,7 @@ team:
   con: 0
   weapon: thrillingtalesofdragonslayers
   refine: 5
-  er: 1.069
+  er: 0.9588000000000001
   talents:
     attack: 9
     skill: 9
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41791.04968193688
+dps: 41263.64560856262
 mode: sl
 duration: 108.99999999999856
 target_count: 1

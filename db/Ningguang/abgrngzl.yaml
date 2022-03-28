@@ -11,17 +11,16 @@ config: "options debug=true iteration=1000 duration=98 workers=30 mode=sl;\n\nni
   atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0
   talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli
   add set=\"tenacityofthemillelith\" count=4;\nzhongli add set=\"shimenawasreminiscence\"
-  count=1;\nzhongli add stats  stats hp=4780 atk=311 atk%=0.466 cd=0.661 geo%=0.466
-  ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968
-  er=0.3306 em=39.64 cr=0.3972 cd=0.1324;\n\ngorou char lvl=90/90 cons=6 talent=9,9,9;
-  \ngorou add weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\ngorou
-  add set=\"archaicpetra\" count=2;\ngorou add set=\"shimenawasreminiscence\" count=2;\ngorou
-  add stats hp=4780 atk=311 def%=0.583 geo%=0.583 cr=0.311 ; #main\ngorou add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\nactive zhongli;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
-  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=240,360
-  amount=1;\n\nzhongli skill[hold=1],burst;\ngorou skill;\nalbedo skill;\nningguang
-  skill,burst,charge,attack:2,charge,attack:2,charge;\nrestart;\n"
+  count=1;\nzhongli add stats hp=4780 atk=311 atk%=0.466 cd=0.661 geo%=0.466 ; #main\nzhongli
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.4408
+  em=39.64 cr=0.3972 cd=0.1324;\n\ngorou char lvl=90/90 cons=6 talent=9,9,9; \ngorou
+  add weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\ngorou add set=\"archaicpetra\"
+  count=2;\ngorou add set=\"shimenawasreminiscence\" count=2;\ngorou add stats hp=4780
+  atk=311 def%=0.583 geo%=0.583 cr=0.311 ; #main\ngorou add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.1986 cd=0.5296;\n\nactive
+  zhongli;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nzhongli skill[hold=1],burst;\ngorou
+  skill;\nalbedo skill;\nningguang skill,burst,charge,attack:2,charge,attack:2,charge;\nrestart;\n"
 description: Ning with Gorou, quick rotation.
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -56,12 +55,12 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.3306
+  er: 0.4408
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 43055.47017318095
+dps: 42573.1843592865
 mode: sl
 duration: 97.9999999999992
 target_count: 1

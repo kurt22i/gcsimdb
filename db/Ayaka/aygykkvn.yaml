@@ -7,20 +7,20 @@ config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\naya
   char lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\" count=4;\nkokomi
   add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590 ;#main\nkokomi add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
-  em=39.64 cr=0.3972 cd=0.1324;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi
-  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\"
-  count=5;\nventi add stats hp=4780 atk=311 em=561 ; #main\nventi add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0662
-  cd=0.5296;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu add weapon=\"prototypecrescent\"
-  refine=5 lvl=90/90;\nganyu add set=\"noblesseoblige\" count=4;\nganyu add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nganyu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\n# ----\nenergy every interval=240,360 amount=1;\ntarget lvl=100 resist=0.1;\n\n#
-  ----\nactive ayaka;\n\nayaka dash, attack, skill, attack;\nventi skill,burst;\nganyu
-  skill, burst[radius=2];\nkokomi attack, skill;\nayaka dash, attack, burst, dash,
-  attack, skill, attack:3, charge;\nventi skill;\nganyu skill,aim[weakspot=1];\nayaka
-  dash, attack:2, charge, dash, attack:2, charge;\n\nrestart;\n"
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.5952 er=0.1102 em=39.64
+  cr=0.0993 cd=0.1986;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"favoniuswarbow\"
+  refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats
+  hp=4780 atk=311 em=561 ; #main\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0662 cd=0.5296;\n\nganyu char lvl=90/90
+  cons=0 talent=9,9,9;\nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu
+  add set=\"noblesseoblige\" count=4;\nganyu add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cr=0.311; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n# ----\nenergy every
+  interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\n# ----\nactive ayaka;\n\nayaka
+  dash, attack, skill, attack;\nventi skill,burst;\nganyu skill, burst[radius=2];\nkokomi
+  attack, skill;\nayaka dash, attack, burst, dash, attack, skill, attack:3, charge;\nventi
+  skill;\nganyu skill,aim[weakspot=1];\nayaka dash, attack:2, charge, dash, attack:2,
+  charge;\n\nrestart;\n"
 description: Ayaka Freeze with Venti and Kokomi.
 hash: dd4569792c98f9369fc1ecb6274490fa36089620
 team:
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43006.56676568818
+dps: 43099.462005713285
 mode: sl
 duration: 103.99999999999928
 target_count: 1
