@@ -37,7 +37,7 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n#
   high_plunge[plunge_hits=1];\nrestart;\n"
 description: Rev Melt Xiao. Assumes collisions on all plunges, which does take some
   practice.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: bennett
   con: 6
@@ -75,7 +75,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40407.26134376723
+dps: 40390.429771292314
 mode: sl
 duration: 109.99999999999949
 target_count: 1

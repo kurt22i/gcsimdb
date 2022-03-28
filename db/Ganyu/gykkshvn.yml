@@ -18,11 +18,11 @@ config: "options debug=true iteration=1000 duration=109 workers=30 mode=sl;\n\ns
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\n\nenergy every interval=480,720 amount=1;\nactive kokomi;\n#-------------------------------------------\nkokomi
-  skill;\nganyu aim[weakspot=1];\n\nshenhe burst, skill;\nganyu skill, burst, aim[weakspot=1];\nventi
-  skill, burst[radius=2];\nkokomi burst;\nganyu aim[weakspot=1];\nshenhe skill;\nganyu
-  skill, aim[weakspot=1]:2;\nventi skill,attack;\nrestart;\n"
+  skill;\nganyu aim[weakspot=1];\n\nshenhe burst, skill;\nganyu skill, burst[radius=2],
+  aim[weakspot=1];\nventi skill, burst;\nkokomi burst;\nganyu aim[weakspot=1];\nshenhe
+  skill;\nganyu skill, aim[weakspot=1]:2;\nventi skill,attack;\nrestart;\n"
 description: Freeze Ganyu.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: ganyu
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41263.64560856262
+dps: 43480.949344031345
 mode: sl
 duration: 108.99999999999856
 target_count: 1

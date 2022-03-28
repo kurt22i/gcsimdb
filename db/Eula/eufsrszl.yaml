@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\n\n
   skill;\neula skill;\nrosaria burst;\neula burst,attack:4,skill[hold=1],attack:4;\nrosaria
   skill;\neula attack:4,skill,attack;\nrestart;\n"
 description: Eula.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: eula
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35192.51369870969
+dps: 35243.11248169789
 mode: sl
 duration: 93.0000000000023
 target_count: 1

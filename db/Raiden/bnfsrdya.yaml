@@ -1,0 +1,115 @@
+author: raph#2041
+config: |
+  ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
+  yaemiko char lvl=90/90 cons=0 talent=9,9,9;
+  yaemiko add weapon="solarpearl" refine=1 lvl=90/90;
+  yaemiko add set="thunderingfury" count=2;
+  yaemiko add set="gladiatorsfinale" count=2;
+  yaemiko add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cd=0.622 ; #main
+  yaemiko add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;
+
+  raiden char lvl=90/90 cons=0 talent=9,9,9;
+  raiden add weapon="thecatch" refine=5 lvl=90/90;
+  raiden add set="emblemofseveredfate" count=4;
+  raiden add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
+  raiden add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  bennett char lvl=90/90 cons=5 talent=9,9,9;
+  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
+  bennett add set="noblesseoblige" count=4;
+  bennett add stats hp=4780 atk=311 er=0.519 pyro%=0.466 cr=0.311 ; #main
+  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=237.84 cr=0.0662 cd=0.1324;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="alleyhunter" refine=1 lvl=90/90;
+  fischl add set="thunderingfury" count=2;
+  fischl add set="gladiatorsfinale" count=2;
+  fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  ####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####
+  options iteration=1000 duration=110 mode=sl;
+  target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
+  active yae;
+
+  yae skill:3,attack;
+  raiden skill;
+  bennett skill,burst;
+  fischl burst;
+  yae attack,burst,skill:3,attack;
+  raiden burst, attack:3, charge, attack:3, charge, attack:2, charge, attack:1, charge;
+  wait 48;
+  bennett skill;
+
+  yae skill:3,attack;
+  raiden skill;
+  bennett skill,burst;
+  fischl skill,attack;
+  yae attack,burst,skill:3,attack;
+  raiden burst, attack:3, charge, attack:3, charge, attack:2, charge, attack:1, charge;
+  wait 46;
+  bennett skill;
+
+  yae skill:3,attack;
+  raiden skill;
+  bennett skill,burst;
+  fischl burst;
+  yae attack,burst,skill:3,attack;
+  raiden burst, attack:3, charge, attack:3, charge, attack:2, charge, attack:1, charge;
+  wait 46;
+  bennett skill;
+
+  yae skill:3,attack;
+  raiden skill;
+  bennett skill,burst;
+  fischl skill,attack;
+  yae attack,burst,skill:3,attack;
+  raiden burst, attack:3, charge, attack:3, charge, attack:2, charge, attack:1, charge;
+  wait 46;
+  bennett skill;
+  restart;
+description: Mono-Electro + Bennett.
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+team:
+- name: bennett
+  con: 5
+  weapon: thealleyflash
+  refine: 1
+  er: 0.6292
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: alleyhunter
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: solarpearl
+  refine: 1
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 35550.208785146555
+mode: sl
+duration: 109.99999999999949
+target_count: 1
+viewer_key: ddqxDSPZ0nj6u2c1D1E27

@@ -27,7 +27,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nh
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, jump;\namber attack:3;\nxingqiu
   attack:3;\namber attack:3;\nxingqiu attack:3;\n\nrestart;\n"
 description: Hu Tao VV Vape with Sucrose instead of Kazuha.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: amber
   con: 2
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44734.059138172815
+dps: 44850.15530263468
 mode: sl
 duration: 105.00000000000071
 target_count: 1

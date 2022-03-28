@@ -48,7 +48,7 @@ config: |
   sucrose attack:2,charge,attack:2,charge,attack:2,charge,attack:2,charge;
   restart;
 description: Yae Tazer with Mona and Sucrose instead of Kazuha.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: fischl
   con: 6
@@ -86,7 +86,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40632.364959038205
+dps: 40579.226661085246
 mode: sl
 duration: 93.99999999999868
 target_count: 1

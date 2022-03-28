@@ -25,7 +25,7 @@ config: "options mode=sl debug=true iteration=1000 duration=105 workers=30 mode=
   high_plunge;\nbennett skill[hold=1], attack, attack, attack;\nwait 32;\n\nrestart;\n"
 description: Hypercarry Raiden with C6 Sara. Scales well in multitarget and with Raiden
   constellations.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: bennett
   con: 5
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49191.84666240478
+dps: 49264.134480033266
 mode: sl
 duration: 105.00000000000071
 target_count: 1

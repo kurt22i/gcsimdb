@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl;\n\nya
   dash,\nattack;\n\nkazuha skill, high_plunge, attack:2;\n\nbennett skill, attack;\n\nbeidou
   skill, attack;\n\nyaemiko attack;\n\nrestart;\n"
 description: Yae/Beidou.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: beidou
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40644.13556165305
+dps: 40542.98494766527
 mode: sl
 duration: 90.00000000000215
 target_count: 1

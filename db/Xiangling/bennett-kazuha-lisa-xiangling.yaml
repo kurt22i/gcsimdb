@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nx
   skill;\nxiangling attack,attack,attack;\nkazuha skill,high_plunge;\nbennett skill;\nxiangling
   attack,attack,attack;\nrestart;\n"
 description: ""
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40927.68160332326
+dps: 40897.40483580925
 mode: sl
 duration: 105.00000000000071
 target_count: 1

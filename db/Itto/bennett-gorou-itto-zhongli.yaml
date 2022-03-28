@@ -92,7 +92,7 @@ config: |-
 
   restart;
 description: Solid Geo Team with Bennett.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: bennett
   con: 6
@@ -130,7 +130,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40521.350597385346
+dps: 40552.29204280845
 mode: sl
 duration: 100.9999999999993
 target_count: 1

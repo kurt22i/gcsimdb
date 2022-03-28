@@ -26,8 +26,8 @@ config: "options debug=true iteration=1000 duration=117 workers=30 mode=sl;\n\n\
   skill;\nbennett skill, burst;\nfischl attack:2, burst;\nkaedeharakazuha skill, high_plunge,
   burst;\nraidenshogun burst, attack:14,charge;\nkaedeharakazuha skill, high_plunge,
   attack:2;\n\nrestart;\n"
-description: RaiFish, optimized rotation with KQM standard artifacts.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+description: RaiFish, optimized rotation.
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: bennett
   con: 5
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50943.91873200959
+dps: 50954.03864312773
 mode: sl
 duration: 117.00000000000145
 target_count: 1

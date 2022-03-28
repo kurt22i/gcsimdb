@@ -1,0 +1,57 @@
+author: vigne#5943
+config: "options debug=true iteration=1000 duration=100 workers=30 mode=apl;\n\n#Character
+  builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"sacrificialfragments\"
+  refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
+  stats hp=4780 atk=311 em=560 ; #main\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;
+  \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
+  count=5;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add set=\"paleflame\"
+  count=1;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\n\nfischl
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\nsucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.1986 cd=0.2648;\nxingqiu add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  cr=0.331 cd=0.7944;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n#Action List:\nactive fischl;\n\nfischl skill
+  +if=.status.fischloz==0;\nfischl attack:2, burst +if=.status.fischloz==0;\n\nxingqiu
+  skill,burst,attack;\n\nsucrose attack,burst +if=.status.xqburst>0;\nsucrose burst;\n\nsucrose
+  skill,attack +if=.element.t1.hydro==1\n                      &&.element.t1.electro==1\n
+  \                     &&.status.xqburst>0;\n# sucrose charge +is_onfield +if=.counter.sucrose>1;\nsucrose
+  attack;\n\nsucrose attack +is_onfield;\nxingqiu attack +is_onfield;\nfischl attack
+  +is_onfield;\n"
+description: The 4* taser core. Do you really even need a 4th?
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+team:
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: sacrificialfragments
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 40657.939085242164
+mode: apl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: YbCLZVMZ1a6UQp30QjGsD

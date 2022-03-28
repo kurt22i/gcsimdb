@@ -1,0 +1,68 @@
+author: Arfoire#9219
+config: "options debug=true iteration=1000 duration=90 workers=30 mode=apl;\n\n#Character
+  builds:\nqiqi char lvl=90/90 cons=0 talent=9,9,9;\nqiqi add weapon=\"sacrificialsword\"
+  refine=3 lvl=90/90;\nqiqi add set=\"oceanhuedclam\" count=4;\nqiqi add stats hp=4780
+  atk=311 atk%=0.932 heal=0.359; #main\nqiqi add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=39.64 cr=0.3641 cd=0.4634;\n\nbeidou
+  char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\" refine=1
+  lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nbeidou add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"shimenawasreminiscence\"
+  count=2;\nfischl add set=\"thunderingfury\" count=2;\nfischl add stats hp=4780 atk=311
+  atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2979 cd=0.5958;\n\n#Enemies
+  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
+  List:\n\nactive qiqi;\n\nqiqi burst;\nxingqiu skill, burst, attack;\nfischl attack:2,
+  skill +if=.status.fischloz<120;\nfischl attack:2, burst +if=.status.fischloz<120;\nbeidou
+  attack, skill[counter=1], attack:2;\nbeidou burst;\nqiqi skill +limit=1;\nqiqi skill
+  +timeout=1260;\nqiqi attack:2, jump;\n"
+description: Qiqi taser.
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: qiqi
+  con: 0
+  weapon: sacrificialsword
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 33818.04211495478
+mode: apl
+duration: 90.00000000000215
+target_count: 1
+viewer_key: iQUVeQM98caPS9LLhr3Vu

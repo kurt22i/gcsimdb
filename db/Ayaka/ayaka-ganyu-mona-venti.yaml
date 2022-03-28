@@ -26,7 +26,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nm
   dash,attack:2,charge;\n\nrestart;\n"
 description: Ganyu + Ayaka freeze. Assumes you proc Prototype Crescent. Mona uses
   Prototype Amber for healing; TTDS can also be used.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46400.015434350455
+dps: 46323.26839732758
 mode: sl
 duration: 99.9999999999986
 target_count: 1

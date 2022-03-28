@@ -22,7 +22,7 @@ config: "options iteration=1000 duration=105 workers=30 mode=sl;\n\nraidenshogun
   attack,skill,high_plunge,attack,burst;\nraidenshogun burst, attack:14,charge;\nkaedeharakazuha
   attack,skill,high_plunge,attack;\nbennett skill,attack;\nraiden attack,charge;\nrestart;\n"
 description: Raiden/Kazuha Overvape.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45279.39967668049
+dps: 45283.361219068734
 mode: sl
 duration: 105.00000000000071
 target_count: 1

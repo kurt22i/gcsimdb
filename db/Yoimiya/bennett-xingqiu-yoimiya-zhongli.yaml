@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\n\n
   skill,attack:5,attack:5,attack:5,attack:3;\n\nbennett skill;\nzhongli skill[hold=1],burst;\nxingqiu
   skill,burst;\nbennett skill,burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
 description: Yoimiya vape, maximum comfort version.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: bennett
   con: 5
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37400.814057044394
+dps: 37219.70502660402
 mode: sl
 duration: 91.999999999999
 target_count: 1

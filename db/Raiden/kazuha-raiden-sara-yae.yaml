@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nr
   burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Raiden Hypercarry when Bennett is locked on the other team. No shielding
   or healing, have fun.
-hash: dd4569792c98f9369fc1ecb6274490fa36089620
+hash: f922049f2083b16460ba59bd0b6646e29e1ea814
 team:
 - name: kazuha
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41350.02752726759
+dps: 41437.83405945689
 mode: sl
 duration: 109.99999999999949
 target_count: 1
