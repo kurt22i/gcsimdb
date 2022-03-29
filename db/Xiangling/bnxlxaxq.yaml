@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=120 workers=30 mode=sl;\n\n#
   high_plunge[plunge_hits=1],\nattack, high_plunge[plunge_hits=1],\nattack, high_plunge[plunge_hits=1];\nrestart;\n"
 description: Xiaotional... or is it Natxiaonal. Whatever you want to call it, it actually
   works pretty well. Assumes collisions on all plunges.
-hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
 - name: bennett
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42811.88152981941
+dps: 42798.685786650785
 mode: sl
 duration: 120.00000000000152
 target_count: 1

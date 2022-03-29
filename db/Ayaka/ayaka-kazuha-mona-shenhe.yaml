@@ -10,7 +10,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n\
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.3306 em=118.92 cr=0.3972
   cd=0.1324;\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"prototypeamber\"
   refine=5 lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add
-  stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr%=0.311 ; #main\nmona add stats def%=0.124
+  stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.2979
   cd=0.331;\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\"
   refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=5;\nshenhe add stats
@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n\
   skill;\nwait 30;\n\nkazuha skill[hold=1],high_plunge;\n\nkamisatoayaka dash,attack:2,charge,skill,attack:2,charge;\n\nrestart;\n"
 description: Ayaka Freeze with VV and Shenhe. Mona using Prototype Amber for healing
   is recommended; can also use TTDS if healing isn't necessary.
-hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50524.72774146694
+dps: 50721.50173884911
 mode: sl
 duration: 105.00000000000071
 target_count: 1

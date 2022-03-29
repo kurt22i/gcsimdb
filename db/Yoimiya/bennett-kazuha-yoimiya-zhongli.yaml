@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   skill,attack:5,attack:5,attack:5,attack:3;\n\nkazuha skill;\nzhongli skill[hold=1];\nbennett
   skill,burst;\nkazuha skill,burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
 description: Mono-Pyro Yoimiya.
-hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34652.27580796105
+dps: 34815.86485568808
 mode: sl
 duration: 99.9999999999986
 target_count: 1

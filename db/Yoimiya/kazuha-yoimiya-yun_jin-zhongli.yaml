@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   skill,burst;\nzhongli skill[hold=1];\nyunjin skill,burst;\nkazuha skill;\nyoimiya
   skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
 description: Yoimiya.
-hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
 - name: kazuha
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28043.09439547406
+dps: 28124.49836973977
 mode: sl
 duration: 99.9999999999986
 target_count: 1

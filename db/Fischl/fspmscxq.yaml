@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=apl;\n\n
   attack;\n\nsucrose attack +is_onfield;\nxingqiu attack +is_onfield;\nfischl attack
   +is_onfield;\n"
 description: The 4* taser core. Do you really even need a 4th?
-hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
 - name: fischl
   con: 6
@@ -50,8 +50,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40657.939085242164
+dps: 40667.41739396568
 mode: apl
 duration: 99.9999999999986
 target_count: 1
-viewer_key: YbCLZVMZ1a6UQp30QjGsD
+viewer_key: HAbmCUwKKlSn0tb7TGVY1

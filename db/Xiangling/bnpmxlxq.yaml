@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=105 workers=30, mode=sl;\n\nbennett
+config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
   atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
@@ -18,7 +18,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30, mode=sl;\n\n
   attack:4;\nbennett skill,attack;\nxiangling attack:4;\nbennett skill,attack;\nxiangling
   attack:4;\nrestart;\n"
 description: Who needs a 4th character?
-hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
 - name: bennett
   con: 6
@@ -47,7 +47,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 25967.21869479211
+dps: 26008.73705379679
 mode: sl
 duration: 105.00000000000071
 target_count: 1

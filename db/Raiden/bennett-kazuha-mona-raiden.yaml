@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nr
   burst;\nmona burst;\nraiden burst,attack:4,charge,attack:4,charge,attack:2,charge;\nbennett
   skill;\nmona skill;\nkazuha skill[hold=1],high_plunge;\nrestart;\n"
 description: Raiden Hypercarry with Mona.
-hash: f922049f2083b16460ba59bd0b6646e29e1ea814
+hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33091.37967621797
+dps: 33075.527984127155
 mode: sl
 duration: 99.9999999999986
 target_count: 1
