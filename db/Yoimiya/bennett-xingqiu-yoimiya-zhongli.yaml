@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\n\n
   physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nbennett skill;\nyoimiya
   burst;\nzhongli skill[hold=1],burst;\nxingqiu skill,burst;\nbennett skill,burst;\nyoimiya
   skill,attack:5,attack:5,attack:5,attack:3;\n\nbennett skill;\nzhongli skill[hold=1],burst;\nxingqiu
-  skill,burst;\nbennett skill,burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
+  skill,burst;\nbennett skill,burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:3;\nrestart;\n"
 description: Yoimiya vape, maximum comfort version.
 hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37219.95159046884
+dps: 36312.996793489845
 mode: sl
 duration: 91.999999999999
 target_count: 1

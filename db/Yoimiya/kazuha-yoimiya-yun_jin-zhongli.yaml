@@ -19,10 +19,10 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.1324;\n\n\n\nactive yoimiya;\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\nenergy every interval=480,720 amount=1;\n\nyoimiya burst;\nkazuha skill,burst;\nzhongli
-  skill[hold=1];\nyunjin skill,burst;\nkazuha skill;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\n\nkazuha
+  skill[hold=1];\nyunjin skill,burst;\nkazuha skill;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:3;\n\nkazuha
   skill,burst;\nzhongli skill[hold=1];\nyunjin skill,burst;\nkazuha skill;\nyoimiya
   skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
-description: Yoimiya.
+description: Yoimiya VV.
 hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
 team:
 - name: kazuha
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28124.49836973977
+dps: 28180.849110750398
 mode: sl
 duration: 99.9999999999986
 target_count: 1

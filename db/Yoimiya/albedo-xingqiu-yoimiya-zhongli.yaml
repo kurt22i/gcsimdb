@@ -20,8 +20,8 @@ config: "options debug=true iteration=1000 duration=92 workers=30 mode=sl;\nyoim
   atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;\n\n\nactive yoimiya;\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\nenergy every interval=480,720 amount=1;\n\nyoimiya burst;\nzhongli skill[hold=1],burst;\nxingqiu
-  skill,burst;\nalbedo skill,burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\n\nzhongli
-  skill[hold=1],burst;\nxingqiu skill,burst;\nalbedo skill,burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
+  skill,burst;\nalbedo skill,burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:3;\n\nzhongli
+  skill[hold=1],burst;\nxingqiu skill,burst;\nalbedo skill,burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:3;\nrestart;\n"
 description: Double Geo Vape Yoimiya, a very comfortable team to play with respectable
   damage.
 hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38425.06424445691
+dps: 36756.45824788635
 mode: sl
 duration: 91.999999999999
 target_count: 1
