@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nr
   amount=1;\nactive yae;\n\nyae skill:3;\nraiden skill,attack;\nzhongli skill[hold=1],burst;\nalbedo
   skill;\nyae burst,skill:3;\nraiden burst,attack:14,charge;\nrestart;\n"
 description: Two Archons, an alchemist and a fox.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35233.85641952189
+dps: 35157.334156233694
 mode: sl
 duration: 99.9999999999986
 target_count: 1

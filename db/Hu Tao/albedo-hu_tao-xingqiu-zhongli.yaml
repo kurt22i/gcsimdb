@@ -27,7 +27,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nh
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, jump;\n\t\nzhongli
   attack:4;\nxingqiu attack:3;\nzhongli attack:3;\nxingqiu attack:3;\n\nrestart;\n"
 description: ""
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: albedo
   con: 0
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49022.88479818791
+dps: 49037.905939169475
 mode: sl
 duration: 105.00000000000071
 target_count: 1

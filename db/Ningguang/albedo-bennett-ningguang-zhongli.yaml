@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=91 workers=30 mode=sl;\n\nni
   burst,skill,attack:3,skill;\nningguang skill,attack:2,charge,attack:2,charge,attack:2,charge,burst,skill,charge;\nzhongli
   burst;\n\nrestart;\n"
 description: Ningguang Carry. Strong Geo team featuring Burstli.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45092.64898613152
+dps: 45059.13967651025
 mode: sl
 duration: 90.99999999999874
 target_count: 1

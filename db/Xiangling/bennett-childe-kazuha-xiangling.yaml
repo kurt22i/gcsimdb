@@ -52,7 +52,7 @@ config: |
   tartaglia aim;
   restart;
 description: International, scales well in multitarget.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: bennett
   con: 6
@@ -90,7 +90,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41782.42190849744
+dps: 41867.39190251502
 mode: sl
 duration: 109.99999999999949
 target_count: 1

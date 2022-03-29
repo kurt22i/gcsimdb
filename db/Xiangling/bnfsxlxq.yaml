@@ -19,16 +19,17 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\nfis
   em=39.64 cr=0.331 cd=0.7944;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
   every interval=480,720 amount=1;\n\n##Actions List\n\nactive bennett;\n\nbennett
   skill, burst;\n\n#attack ensures bennett buff is snapped onto Oz.\nfischl attack:2,
-  skill; \n\nxingqiu skill[orbital=1], burst[orbital=1], attack;\n\nxiangling burst,
-  attack, skill;\n\n#XQ on field for Bennett buff.\nxingqiu attack:4,dash, attack:3,
-  dash, attack:3; \n\n#attack ensures bennett buff is snapped onto Oz. Also NA weave
-  for XQ Q\nfischl attack:2, burst;\n\n#stay on XL so that Fischl A4 procs for damage,
-  and refreshes electro for XL to OL again. Bennett field is basically gone now.\nxiangling
-  attack:4, dash, attack:2;\n\nxiangling skill; \n\n#funnel Xiangling's energy\nbennett
-  attack, skill; \nxiangling attack:3; \n\nwait 182; #align rotation to 25s,\n\nrestart;\n"
+  skill, attack; \n\nxingqiu skill[orbital=1], burst[orbital=1], attack;\n\nxiangling
+  burst, attack, skill;\n\n#XQ on field for Bennett buff.\nxingqiu attack:4,dash,
+  attack:3, dash, attack:3; \n\n#attack ensures bennett buff is snapped onto Oz. Also
+  NA weave for XQ Q\nfischl attack:2, burst;\n\n#stay on XL so that Fischl A4 procs
+  for damage, and refreshes electro for XL to OL again. Bennett field is basically
+  gone now.\nxiangling attack:4, dash, attack:4;\n\nxiangling skill; \n\n#funnel Xiangling's
+  energy\nbennett attack, skill;\n\nxiangling attack:3;\n#wait 154; #align rotation
+  to 25s,\n\nfischl attack:5;\nwait 16; #align rotation to 25s,\n\nrestart;\n"
 description: Budget Raiden National. Similar to the real thing in ST, but has even
   more fall-off in multitarget.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: bennett
   con: 6
@@ -66,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57270.57930971406
+dps: 59734.584329283374
 mode: sl
 duration: 99.9999999999986
 target_count: 1

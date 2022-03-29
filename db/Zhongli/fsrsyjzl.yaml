@@ -27,7 +27,7 @@ config: "options iteration=1000 duration=102 mode=sl;\nyunjin char lvl=90/90 con
   30;\nyunjin skill,burst;\nwait 50;\nzhongli attack:5, dash;\nzhongli attack:5, dash;\nzhongli
   attack:5, dash;\nzhongli attack:5, dash;\nwait 60;\nrestart;\n"
 description: Pikeli.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: fischl
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35538.77916763955
+dps: 35580.32746814325
 mode: sl
 duration: 102.00000000000051
 target_count: 1

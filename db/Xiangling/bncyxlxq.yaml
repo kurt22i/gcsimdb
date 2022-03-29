@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=90 workers=30 mode=apl; \n\n
   burst, skill;\na5:xingqiu skill, burst, attack;\na6:bennett skill, attack;\na7:xiangling
   attack:3;\nchain a4, a5, a6, a7, a6, a7, a6, a7 +try=wait +limit=1;\n\nreset_limit;\n"
 description: The original National Team with Chongyun.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: bennett
   con: 5
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37244.935766517854
+dps: 37087.447856824074
 mode: apl
 duration: 90.00000000000215
 target_count: 1

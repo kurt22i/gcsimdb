@@ -28,7 +28,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nh
   skill[hold=1];\n\nrestart;\n"
 description: Hu Tao + Geo Bros except with an opera singer instead of Albedo. Works
   just as well as the original.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: hutao
   con: 0
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44442.86010825731
+dps: 44337.19758688902
 mode: sl
 duration: 99.9999999999986
 target_count: 1

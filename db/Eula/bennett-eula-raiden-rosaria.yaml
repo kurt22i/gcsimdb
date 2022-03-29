@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\
   skill;\nbennett burst;\neula burst,attack:4,skill[hold=1],attack:4;\nrosaria skill,attack;\nraiden
   burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Eula and Raiden proving that extended rotations aren't always less DPS.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44778.34244060221
+dps: 44710.2167757648
 mode: sl
 duration: 109.99999999999949
 target_count: 1

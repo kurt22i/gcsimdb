@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\n\n
   burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe skill,attack,attack;\neula
   attack:2;\nrosaria skill;\neula attack:4;\nrestart;\n"
 description: Eula team without SC. Works surprisingly well.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: eula
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38579.97434601597
+dps: 38532.2404130625
 mode: sl
 duration: 91.999999999999
 target_count: 1

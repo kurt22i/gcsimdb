@@ -27,7 +27,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=apl;\n\n
   sucrose charge +is_onfield +if=.counter.sucrose>1;\nsucrose attack;\n\nsucrose attack
   +is_onfield;\nxingqiu attack +is_onfield;\nfischl attack +is_onfield;\n"
 description: A comfortable taser team.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: fischl
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44407.10914972352
+dps: 44474.30106610472
 mode: apl
 duration: 99.9999999999986
 target_count: 1

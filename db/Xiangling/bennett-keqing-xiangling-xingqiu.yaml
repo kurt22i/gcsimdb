@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   burst,attack,skill;\nxiangling burst,attack,skill;\nkeqing skill,burst,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge,attack,charge;\nbennett
   attack:2,skill;\nxiangling attack:3;\nrestart;\n"
 description: Keqing National.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33031.37603681098
+dps: 32894.00693440238
 mode: sl
 duration: 99.9999999999986
 target_count: 1

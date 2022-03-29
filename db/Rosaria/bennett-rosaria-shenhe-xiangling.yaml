@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\nshe
   attack:3;\n\nshenhe skill, attack;\n\nrosaria skill, attack;\nshenhe attack:3;\n\nbennett
   skill, attack;\nxiangling attack:3;\n\nrestart;\n"
 description: ""
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53417.1763212973
+dps: 53331.582892956256
 mode: sl
 duration: 103.99999999999928
 target_count: 1

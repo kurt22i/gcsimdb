@@ -24,9 +24,9 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nm
   about radius=2. In ST, this results in 18-20 icicle hits.\nventi skill,burst;\nmona
   skill,burst;\nayaka dash,skill,burst;\nventi skill;\nganyu skill,aim[weakspot=1];\nayaka
   dash,attack:2,charge;\n\nrestart;\n"
-description: Ganyu + Ayaka freeze. Assumes you proc Prototype Crescent. Mona uses
-  Prototype Amber for healing; TTDS can also be used.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+description: Ganyu + Ayaka freeze. Assumes you proc Prototype Crescent. Can also use
+  Prototype Amber on Mona for healing; this reduces DPS by about 1k.
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46308.120691017
+dps: 46405.4496889435
 mode: sl
 duration: 99.9999999999986
 target_count: 1

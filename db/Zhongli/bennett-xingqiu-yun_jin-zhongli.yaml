@@ -50,7 +50,7 @@ config: |
 
   restart;
 description: Pyro Zhongli meme team, requires C6 Bennett.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: bennett
   con: 6
@@ -88,7 +88,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32206.573411227433
+dps: 32112.98911592643
 mode: sl
 duration: 105.00000000000071
 target_count: 1

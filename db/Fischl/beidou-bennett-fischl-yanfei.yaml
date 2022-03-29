@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   skill,burst;\nfischl skill;\nyanfei skill,burst,attack:3,charge,attack:3,charge,attack:3,charge,attack:3,charge,attack:3,charge;\n\nbennett
   skill,burst;\nbeidou skill,burst;\nfischl burst;\nyanfei skill,attack:3,charge,attack:3,charge,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Yanfei Overload. Better against 2+ targets.
-hash: c64234a8244d7a48a6fd03080886ad8aa76b1a67
+hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
 team:
 - name: beidou
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 23923.89895500489
+dps: 23995.5838719767
 mode: sl
 duration: 99.9999999999986
 target_count: 1
