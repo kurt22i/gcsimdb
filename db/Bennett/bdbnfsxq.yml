@@ -28,7 +28,7 @@ config: "options iteration=1000 duration=107 mode=sl;\nbeidou char lvl=90/90 con
   \       attack,skill,\n        attack,skill,\n        attack,skill,\n        attack,skill,\n
   \       attack,skill,\n        attack,skill,\n        attack:4,skill;\n        \nrestart;\n"
 description: 4TF Bennett.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: beidou
   con: 6
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38442.35002220383
+dps: 38479.23056058326
 mode: sl
 duration: 106.99999999999939
 target_count: 1

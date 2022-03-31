@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=123 workers=30 mode=sl;\n\ng
   burst,skill;\ndiona skill[hold=1], attack:2;\nganyu skill,aim:5;\nbennett skill,
   attack;\nxiangling attack:3;\nrestart;\n"
 description: Melt Ganyu with Diona.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35535.184638806866
+dps: 35545.971205712245
 mode: sl
 duration: 123.0000000000017
 target_count: 1

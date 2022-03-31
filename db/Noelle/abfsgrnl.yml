@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=79 workers=30 mode=sl;\n\n\n
   attack:3, dash;\nfischl burst;\ngorou skill, attack;\nnoelle attack:3, dash, attack:3,
   dash, attack:3, dash;\ngorou skill, attack;\nnoelle attack:3, dash, attack:2, dash;\nrestart;\n"
 description: Noelle with Fischl.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40139.85507622384
+dps: 40161.3569523139
 mode: sl
 duration: 78.9999999999992
 target_count: 1

@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=90 workers=30 mode=apl;\n\n#
   attack, skill[counter=1], attack:2;\nbeidou burst;\nqiqi skill +limit=1;\nqiqi skill
   +timeout=1260;\nqiqi attack:2, jump;\n"
 description: Qiqi taser.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: beidou
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33774.682807258694
+dps: 33804.342831509726
 mode: apl
 duration: 90.00000000000215
 target_count: 1

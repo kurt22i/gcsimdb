@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\nra
   skill,skill,skill;\nkazuha skill[hold=1],high_plunge,burst;\nyaemiko burst,skill,skill,skill;\nxingqiu
   skill,burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Kazuha/Raiden/Xingqiu/Yae.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: kazuha
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29590.173206726708
+dps: 29620.300924065705
 mode: sl
 duration: 94.9999999999991
 target_count: 1

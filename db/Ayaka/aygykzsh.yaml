@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=107 workers=30 mode=sl;\nene
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102
   em=39.64 cr=0.3972 cd=0.5296;\n"
 description: Mono-cryo Ayaka. No shielding or healing.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: ayaka
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 59050.90958013066
+dps: 58973.4111938368
 mode: sl
 duration: 106.99999999999939
 target_count: 1

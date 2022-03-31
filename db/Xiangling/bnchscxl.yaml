@@ -1,4 +1,4 @@
-author: ""
+author: Kurt#5846
 config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\ntartaglia
   char lvl=90/90 cons=0 talent=9,9,9; \ntartaglia add weapon=\"theviridescenthunt\"
   refine=1 lvl=90/90;\ntartaglia add set=\"heartofdepth\" count=4;\ntartaglia add
@@ -18,12 +18,32 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nt
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
   em=79.28 cr=0.331 cd=0.7944;\n\nactive tartaglia;\ntarget lvl=100 pyro=0.1 dendro=0.1
   hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
-  amount=1;\n\ntartaglia skill;\nbennett burst;\nxiangling skill;\nsucrose attack,skill;\nxiangling
-  burst;\ntartaglia burst,skill;\ntartaglia attack:3,charge,dash,attack:3,charge,dash,attack:3,charge;\nbennett
+  amount=1;\n\n\ntartaglia skill;\nbennett burst;\nsucrose burst,attack,skill;\nxiangling
+  burst,skill;\ntartaglia burst,skill;\ntartaglia attack:3,charge,dash,attack:3,charge,dash,attack:3,charge;\nbennett
   skill;\nxiangling skill,attack:2;\ntartaglia aim;\nsucrose skill,dash;\nbennett
-  skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\nrestart;\n"
+  skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\n\ntartaglia
+  skill;\nbennett burst;\nxiangling skill;\nsucrose attack,skill;\nxiangling burst;\ntartaglia
+  burst,skill;\ntartaglia attack:3,charge,dash,attack:3,charge,dash,attack:3,charge;\nbennett
+  skill;\nxiangling skill,attack:2;\ntartaglia aim;\nsucrose skill,dash;\nbennett
+  skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\n\ntartaglia
+  skill;\nbennett burst;\nxiangling skill;\nsucrose attack,skill;\nxiangling burst;\ntartaglia
+  burst,skill;\ntartaglia attack:3,charge,dash,attack:3,charge,dash,attack:3,charge;\nbennett
+  skill;\nxiangling skill,attack:2;\ntartaglia aim;\nsucrose skill,dash;\nbennett
+  skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\n\n\n\ntartaglia
+  skill;\nbennett burst;\nxiangling skill;\nsucrose attack,skill;\nxiangling burst;\ntartaglia
+  burst,skill;\ntartaglia attack:3,charge,dash,attack:3,charge,dash,attack:3,charge;\nbennett
+  skill;\nxiangling skill,attack:2;\ntartaglia aim;\nsucrose skill,dash;\nbennett
+  skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\n\n\ntartaglia
+  skill;\nbennett burst;\nxiangling skill;\nsucrose attack,skill;\nxiangling burst;\ntartaglia
+  burst,skill;\ntartaglia attack:3,charge,dash,attack:3,charge,dash,attack:3,charge;\nbennett
+  skill;\nxiangling skill,attack:2;\ntartaglia aim;\nsucrose skill,dash;\nbennett
+  skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\n\n\ntartaglia
+  skill;\nbennett burst;\nxiangling skill;\nsucrose attack,skill;\nxiangling burst;\ntartaglia
+  burst,skill;\ntartaglia attack:3,charge,dash,attack:3,charge,dash,attack:3,charge;\nbennett
+  skill;\nxiangling skill,attack:2;\ntartaglia aim;\nsucrose skill,dash;\nbennett
+  skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\n\nrestart;\n"
 description: International but you don't have Kazuha.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: bennett
   con: 5
@@ -61,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35342.484160085114
+dps: 36384.333756131295
 mode: sl
 duration: 99.9999999999986
 target_count: 1

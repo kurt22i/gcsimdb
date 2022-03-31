@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nx
   burst,skill;\nyaemiko burst,skill:3;\nkazuha skill,high_plunge;\nyae attack:2,jump;\nbennett
   skill;\nxiangling attack,attack;\nkazuha skill,high_plunge;\nyaemiko attack:2;\n\nrestart;\n"
 description: A surprisingly viable EM Yae team.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: bennett
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35683.20956390655
+dps: 35714.93528974635
 mode: sl
 duration: 109.99999999999949
 target_count: 1

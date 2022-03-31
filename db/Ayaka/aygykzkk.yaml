@@ -43,7 +43,7 @@ config: |
 
   restart;
 description: Ayaka Freeze with Ganyu and Kokomi.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: ayaka
   con: 0
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48730.720837440014
+dps: 48691.84962776537
 mode: sl
 duration: 103.99999999999928
 target_count: 1

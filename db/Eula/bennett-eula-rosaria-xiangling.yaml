@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\n\n
   burst,skill;\n\nxiangling burst,skill;\n\nrosaria skill,burst;\n\neula skill,burst,attack:4,skill[hold=1],attack:4;\n\nbennett
   attack:2,skill;\n\nxiangling attack:3;\n\nrosaria skill;\n\neula attack:4,skill;\n\nrestart;\n"
 description: No, this is not Reverse Melt Eula, it's Reverse Melt Rosaria with Eula.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: bennett
   con: 5
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41224.44868405322
+dps: 41176.202739191176
 mode: sl
 duration: 93.0000000000023
 target_count: 1

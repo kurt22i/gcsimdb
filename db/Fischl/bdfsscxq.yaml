@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#
   \n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n
   \   attack:2, charge,\n    attack:2\n    ;\nbeidou skill, attack:3;\n\nrestart;\n"
 description: Sucrose Tazer, does much better in 2+ targets like most Beidou teams.
-hash: 2dc865db11bdfef252d4d2ff51d73bffdd269c11
+hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: beidou
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43445.60011806019
+dps: 43441.597305637115
 mode: sl
 duration: 99.9999999999986
 target_count: 1
