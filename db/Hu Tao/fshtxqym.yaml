@@ -27,8 +27,7 @@ config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nh
   charge, dash, \n  attack:2, charge, dash, \n  attack:2, charge, dash, \n  attack:2,
   charge;\n\nyoimiya skill,\n  attack:5,dash,\n  attack:5,dash,\n  attack:5;\nrestart;\n"
 description: 'Tao + Yoimiya. Difficult to play: Has no shields, limited heals and
-  combos that need to executed both quickly and accurately, but comes with high reward
-  as well.'
+  tiring combos, but comes with high reward as well.'
 hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: fischl
@@ -67,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 56595.95899511035
+dps: 56651.743201528094
 mode: sl
 duration: 126.00000000000189
 target_count: 1
