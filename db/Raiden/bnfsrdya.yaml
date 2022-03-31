@@ -1,10 +1,9 @@
 author: raph#2041
 config: |
-  ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
   yaemiko char lvl=90/90 cons=0 talent=9,9,9;
   yaemiko add weapon="solarpearl" refine=1 lvl=90/90;
-  yaemiko add set="thunderingfury" count=2;
-  yaemiko add set="gladiatorsfinale" count=2;
+  #widsith and solar pearl should have a pretty simillar performance
+  yaemiko add set="tenacityofthemillelith" count=4;
   yaemiko add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cd=0.622 ; #main
   yaemiko add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;
 
@@ -27,7 +26,6 @@ config: |
   fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
   fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
-  ####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####
   options iteration=1000 duration=110 mode=sl;
   target lvl=100 resist=0.1;
   energy every interval=480,720 amount=1;
@@ -38,8 +36,8 @@ config: |
   bennett skill,burst;
   fischl burst;
   yae attack,burst,skill:3,attack;
-  raiden burst, attack:3, charge, attack:3, charge, attack:2, charge, attack:1, charge;
-  wait 48;
+  raidenshogun burst, attack:14,charge; #you can do 3xN3C N1C if fischl is non c6
+  wait 62; #hitlag
   bennett skill;
 
   yae skill:3,attack;
@@ -47,8 +45,8 @@ config: |
   bennett skill,burst;
   fischl skill,attack;
   yae attack,burst,skill:3,attack;
-  raiden burst, attack:3, charge, attack:3, charge, attack:2, charge, attack:1, charge;
-  wait 46;
+  raidenshogun burst, attack:14,charge;
+  wait 60; #hitlag
   bennett skill;
 
   yae skill:3,attack;
@@ -56,8 +54,8 @@ config: |
   bennett skill,burst;
   fischl burst;
   yae attack,burst,skill:3,attack;
-  raiden burst, attack:3, charge, attack:3, charge, attack:2, charge, attack:1, charge;
-  wait 46;
+  raidenshogun burst, attack:14,charge;
+  wait 60; #hitlag
   bennett skill;
 
   yae skill:3,attack;
@@ -65,12 +63,11 @@ config: |
   bennett skill,burst;
   fischl skill,attack;
   yae attack,burst,skill:3,attack;
-  raiden burst, attack:3, charge, attack:3, charge, attack:2, charge, attack:1, charge;
-  wait 46;
+  raidenshogun burst, attack:14,charge;
+  wait 60; #hitlag
   bennett skill;
   restart;
 description: Mono-Electro + Bennett.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
 team:
 - name: bennett
   con: 5
@@ -108,8 +105,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35559.92920095032
+dps: 35782.146055508085
 mode: sl
-duration: 109.99999999999949
+duration: 87.99999999999878
 target_count: 1
 viewer_key: wK1HS4-roHjbEy1FzBDyK
