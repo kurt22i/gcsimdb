@@ -73,7 +73,7 @@ config: |
 
   restart;
 description: Mono-Hydro with Kokomi.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
+hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
 team:
 - name: kokomi
   con: 0
@@ -111,7 +111,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29444.214516359494
+dps: 29438.83529384155
 mode: sl
 duration: 105.00000000000071
 target_count: 1

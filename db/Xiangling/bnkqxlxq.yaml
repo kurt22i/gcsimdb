@@ -20,7 +20,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl; \n\n
   attack:3;\nbennett attack:3, skill;\nxingqiu attack:3;\nbennett attack:3, skill;\nxiangling
   attack:3;\nbennett attack:3, skill;\nxingqiu attack:3;\n\nrestart;\n"
 description: Keqing National. Keqing really pulls her weight here.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
+hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
 team:
 - name: bennett
   con: 6
@@ -58,7 +58,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38810.58504469327
+dps: 38802.48747312759
 mode: sl
 duration: 105.00000000000071
 target_count: 1

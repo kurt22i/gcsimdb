@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=94 workers=30 mode=sl;\n\n\n
   skill;\ndiona skill[hold=1],skill[hold=1];\neula skill;\ndiona burst;\nsara skill;\neula
   burst,attack:4,skill[hold=1],attack:4;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Eula with Sara.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
+hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
 team:
 - name: diona
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31193.964094483454
+dps: 31253.00132076803
 mode: sl
 duration: 93.99999999999868
 target_count: 1

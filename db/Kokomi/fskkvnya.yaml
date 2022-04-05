@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#
   charge, \n    attack:2, charge, \n    attack:2, charge,\n    attack:3,\n    attack:2,
   charge\n    ;\nrestart;\n"
 description: Kokomi Taser with Yae and Venti.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
+hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
 team:
 - name: fischl
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41488.72040383116
+dps: 41479.839362193445
 mode: sl
 duration: 99.9999999999986
 target_count: 1

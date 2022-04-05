@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\nnoe
   attack:3, dash, attack:3, dash;\n\ntravelergeo skill;\n\nnoelle attack:3, dash,
   attack:3, dash;\n\nrestart;\n"
 description: Mono-Geo Noelle without Gorou.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
+hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37409.99631773785
+dps: 37415.72602167397
 mode: sl
 duration: 99.9999999999986
 target_count: 1

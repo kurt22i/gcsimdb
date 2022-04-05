@@ -49,7 +49,7 @@ func run(skipDownload bool, force bool) error {
 	if !skipDownload {
 		//download nightly cmd line build
 		//https://github.com/genshinsim/gcsim/releases/download/nightly/gcsim.exe
-		err := download("./gcsim.exe", "https://github.com/genshinsim/gcsim/releases/download/nightly/gcsim.exe")
+		err := download("./gcsim.exe", "https://github.com/genshinsim/gcsim/releases/latest/download/gcsim.exe")
 		if err != nil {
 			return errors.Wrap(err, "")
 		}

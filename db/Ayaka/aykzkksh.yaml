@@ -43,7 +43,7 @@ config: |
 
   restart;
 description: Ayaka Freeze with Kokomi.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
+hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
 team:
 - name: ayaka
   con: 0
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 55352.263432437765
+dps: 55421.53161439858
 mode: sl
 duration: 102.00000000000051
 target_count: 1

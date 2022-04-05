@@ -26,7 +26,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nm
   dash,attack:2,charge;\n\nrestart;\n"
 description: Ganyu + Ayaka freeze. Assumes you proc Prototype Crescent. Using TTDS
   on Mona instead of Prototype Amber raises DPS by about 1k.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
+hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46406.36575564002
+dps: 46376.93735390412
 mode: sl
 duration: 99.9999999999986
 target_count: 1

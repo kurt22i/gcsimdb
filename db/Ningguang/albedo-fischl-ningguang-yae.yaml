@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=108 workers=30 mode=sl;\n\nn
   burst;\nalbedo burst;\nningguang attack:2,charge,attack:2,charge;\n\nrestart;\n"
 description: Yae + Geo, an interesting team that surprisingly works very well. Make
   sure to pick up the shards, though.
-hash: ac6399ed16a152fea70ee1544fbd42524c0a1cea
+hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38967.18374964397
+dps: 38980.10131437585
 mode: sl
 duration: 108.00000000000088
 target_count: 1
