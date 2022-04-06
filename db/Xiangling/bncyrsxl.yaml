@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nb
   skill, burst;\nbennett attack:3, skill;\nchongyun burst;\nrosaria skill;\nbennett
   attack:3, skill;\nxiangling attack:3;\nbennett skill;\n\nrestart;\n"
 description: Rosaria Reverse Melt with Chongyun.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51044.589453450026
+dps: 51013.87611613382
 mode: sl
 duration: 105.00000000000071
 target_count: 1

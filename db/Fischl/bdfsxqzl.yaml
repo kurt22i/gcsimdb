@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=apl;\n\n
   attack, skill, attack:2 +if=.status.beidouburst>0;\nbeidou skill, burst, attack;\nbeidou
   skill, attack:2;\n\nzhongli attack:4, dash;\n"
 description: Zhongli taser.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: beidou
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28483.307187239727
+dps: 28478.304383641695
 mode: apl
 duration: 105.00000000000071
 target_count: 1

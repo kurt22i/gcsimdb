@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\ny
   attack,skill,burst;\nbeidou attack,skill,burst;\nyaemiko attack,skill,skill,attack,skill,attack:3,dash,attack:3,dash,attack:3,dash,attack:3,dash,attack:3,dash;\nbennett
   attack,skill;\nbeidou attack,skill;\nrestart;\n"
 description: Yae/Beidou Tazer with Bennett because why not.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: beidou
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32240.321612721295
+dps: 32242.776550623505
 mode: sl
 duration: 106.99999999999939
 target_count: 1

@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=101 workers=30 mode=sl;\n\nr
   aim[weakspot=1];\nkokomi skill;\nrosaria burst,skill;\nganyu skill, burst, aim[weakspot=1];\nventi
   skill, burst;\nkokomi burst;\nganyu aim[weakspot=1];\nrosaria skill;\nganyu aim[weakspot=1]:2;\nrestart;\n"
 description: Freeze Ganyu with Kokomi and Rosaria.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: ganyu
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31655.25865561918
+dps: 31643.332830213207
 mode: sl
 duration: 100.9999999999993
 target_count: 1

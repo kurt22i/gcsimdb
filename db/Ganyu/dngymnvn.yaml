@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=106 workers=30 mode=sl;\ndio
   aim[weakspot=1];\n\nventi skill,burst;\n\nmona burst,skill;\n\nganyu skill,burst[radius=2];\n\nganyu
   aim[weakspot=1], aim;\n\nventi skill,attack;\n\nganyu aim, skill, aim;\n\nrestart;\n"
 description: The traditional Morgana team.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: diona
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30483.376490655974
+dps: 30502.088745031917
 mode: sl
 duration: 105.99999999999856
 target_count: 1

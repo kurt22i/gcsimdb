@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl; \n\n
   dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbennett attack,  skill;\nxiangling
   attack:3;\nbennett attack, skill;\nxiangling attack:3;\n\nrestart;\n"
 description: Sucrose National. A very strong 4* only team.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46606.86246115324
+dps: 46623.95430088412
 mode: sl
 duration: 105.00000000000071
 target_count: 1

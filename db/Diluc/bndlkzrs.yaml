@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=106 workers=30 mode=sl;\nkaz
   skill, burst;\ndiluc burst;\ndiluc attack, skill, skill, attack, skill;\nbennett
   skill[hold=1], attack;\nkazuha skill, high_plunge;\nrestart;\n"
 description: Melt Diluc with Rosaria.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40357.548020859715
+dps: 40371.09760026033
 mode: sl
 duration: 105.99999999999856
 target_count: 1

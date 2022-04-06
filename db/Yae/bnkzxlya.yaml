@@ -32,7 +32,7 @@ config: "options debug=true iteration=1000 duration=108 workers=30 mode=sl;\n\nx
   attack:2, charge;\nbennett skill;\nxiangling attack:3;\nkazuha skill,high_plunge;\n\nyae
   attack;\nwait 70;\n\n\nrestart;\n"
 description: OL Yae with Kazuha.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: bennett
   con: 6
@@ -70,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44630.61789361885
+dps: 44622.623808408054
 mode: sl
 duration: 108.00000000000088
 target_count: 1

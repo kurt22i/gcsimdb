@@ -28,7 +28,7 @@ config: "options debug=true iteration=1000 duration=151 workers=30 mode=sl;\n\nh
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
   charge, jump;\nbeidou attack, skill[counter=2], attack:2, dash, attack:2;\nrestart;\n"
 description: Hu Tao tazer. No shield, but lots of damage reduction.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: beidou
   con: 6
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47891.788397162556
+dps: 47835.42301996112
 mode: sl
 duration: 151.00000000000068
 target_count: 1

@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl;\n\neu
   skill;\ndiona skill[hold=1];\neula skill;\nbennett burst;\neula burst,attack:4,skill[hold=1],attack:4;\ndiona
   burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Honestly just use Bennett on a different team please.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28370.706564601733
+dps: 28709.749928832647
 mode: sl
 duration: 90.00000000000215
 target_count: 1

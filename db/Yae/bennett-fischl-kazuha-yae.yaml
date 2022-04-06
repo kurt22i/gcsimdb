@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\nya
   attack,burst,attack,skill:2,attack,skill,attack:2,dash,attack:2;\n\nkazuha skill,high_plunge,attack:2;\n\nbennett
   skill,attack;\n\nfischl attack:2,skill;\n\nrestart;\n"
 description: Bennett/Fischl/Kazuha/Yae.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: bennett
   con: 5
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43032.242349305314
+dps: 43070.058634673725
 mode: sl
 duration: 94.9999999999991
 target_count: 1

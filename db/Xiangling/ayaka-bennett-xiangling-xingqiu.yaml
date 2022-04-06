@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n\
   skill,attack;\n\nrestart;\n"
 description: Ayaka National. Yes, it exists, you're looking at it right now, and it's
   pretty good too.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: ayaka
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45586.94508277186
+dps: 45548.93476930758
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nm
   in 18-20 icicle hits.\nsucrose skill, burst, charge;\nmona skill,burst;\nayaka dash,skill,burst;\nganyu
   skill,aim[weakspot=1];\nsucrose attack,charge;\nayaka dash,attack:2,charge;\n\nrestart;\n"
 description: Ayaka Freeze, Ganyu version with Sucrose.
-hash: b8af0e9b48e6abcfd188420c7a7e0012cb945e90
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: ayaka
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43305.70478955406
+dps: 43211.20335395372
 mode: sl
 duration: 99.9999999999986
 target_count: 1

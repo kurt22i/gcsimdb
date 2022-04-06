@@ -1,0 +1,71 @@
+author: vigne#5943
+config: "options debug=true iteration=1000 duration=104 workers=30 mode=apl;\n\n###
+  CHARACTERS, WEAPONS\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add
+  weapon=\"favoniussword\" refine=3 lvl=90/90;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose
+  add weapon=\"sacrificialfragments\" refine=3 lvl=90/90;\n   \nalbedo char lvl=90/90
+  cons=0 talent=9,9,9;\nalbedo add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\n
+  \  \n### ARTIFACTS\nfischl add set=\"tenacityofthemillelith\" count=4;\nxingqiu
+  add set=\"emblemofseveredfate\" count=4;\nsucrose add set=\"viridescentvenerer\"
+  count=4;\nalbedo add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\n\n###
+  MAIN STATS\nfischl add stats hp=4780 atk=311 electro%=0.466 atk%=0.466 cr=0.311;\nxingqiu
+  add stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cr=0.311;\nsucrose add stats hp=4780
+  atk=311 em=187 em=187 em=187;\nalbedo add stats hp=4780 atk=311 geo%=0.466 def%=0.583
+  cr=0.311;\n\n### SUB ROLLS\nalbedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\nfischl add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
+  cd=0.7282;\nsucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.5952 er=0.1102 em=118.92 cr=0.1986 cd=0.2648;\nxingqiu add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\n## Enemies & Particles\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\n##Actions List\nactive fischl;\n\nfischl skill +if=.status.fischloz==0;\nfischl
+  attack:3,burst +if=.status.fischloz<40;\n\n# for sac procs\nxingqiu skill,attack
+  +is_onfield +if=.status.xqburst>300;\nxingqiu skill,burst,attack;\n\n# albedo burst
+  +is_onfield;\nalbedo skill +if=.tags.albedo.elevator==0;\n\nsucrose attack,burst
+  +if=.status.xqburst>0;\nsucrose burst;\n\nsucrose skill,attack +if=.element.t1.hydro==1&&.element.t1.electro==1;\nsucrose
+  attack;\n\nxingqiu attack +is_onfield;\nfischl attack +is_onfield;\nalbedo attack
+  +is_onfield;\n"
+description: Sucrose Taser with Albedo.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: albedo
+  con: 0
+  weapon: cinnabarspindle
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: sacrificialfragments
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 46029.291894166476
+mode: apl
+duration: 103.99999999999928
+target_count: 1
+viewer_key: 9K-xKtbYbvJ8kPSXhA2hO
