@@ -1,24 +1,28 @@
 author: raph#2041
 config: "yanfei char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"thewidsith\"
-  refine=3 lvl=90/90;\nyanfei add set=\"shimenawasreminiscence\" count=4;\nyanfei
-  add stats hp=4780 atk=311 em=186.5 pyro%=0.466 cr=0.311; #main\nyanfei add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add
-  weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=4;\nxingqiu add stats hp=4780 atk%=0.466 atk=311 hydro%=0.466 cr=0.311; #main\nxingqiu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
-  em=39.64 cr=0.331 cd=0.3972;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  refine=3 lvl=90/90;\nyanfei add set=\"crimsonwitchofflames\" count=4;\nyanfei add
+  stats hp=4780 atk=311 em=186.5 pyro%=0.466 cr=0.311; #main\nyanfei add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
+  stats hp=4780 atk%=0.466 atk=311 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64
+  cr=0.331 cd=0.3972;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add
+  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=4;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311; #main\nbennett
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.331 cd=0.7944;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose
   add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\"
   count=4;\nsucrose add stats hp=4780 atk=311 em=559.5; #main\nsucrose add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0993
-  cd=0.4634;\n\noptions iteration=1000 duration=102 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\nactive xingqiu;\n\nxingqiu skill,attack,burst,attack;\nbennett
-  skill,burst;\nsucrose skill,attack:5;\n#why does sucrose do N5 you ask? that I do
-  not know, the sim just says its higher dps.\nyanfei skill,attack,charge,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.331
+  cd=0.662;\n\noptions iteration=1000 duration=104 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\nactive xingqiu;\n\n#remove the 1st rotation if
+  using shimenawa!\n\n#1st rotation\nxingqiu skill,attack,burst,attack; #you can just
+  skill,burst,attack in game\nbennett skill,burst;\nsucrose skill,attack:5;\n#why
+  does sucrose do N5 you ask? that I do not know, the sim just says its higher dps.\nyanfei
+  skill,burst,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
+  attack,skill,attack; #you can just skill in game\n\n#2nd rotation\nxingqiu skill,attack,burst,attack;\nbennett
+  skill,burst;\nsucrose skill,attack:5;\nyanfei skill,attack,charge,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
   attack,skill,attack;\n\nrestart;\n"
 description: Vape Yanfei.
 hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
@@ -54,13 +58,13 @@ team:
   con: 6
   weapon: thewidsith
   refine: 3
-  er: 0.1102
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 40159.47258538047
+dps: 40789.95846082147
 mode: sl
-duration: 102.00000000000051
+duration: 103.99999999999928
 target_count: 1
 viewer_key: 3lIjZtcsey5iIC4OYy3Iu

@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nm
   target DPS against 2x enemies with [radius=1]\n\nenergy every interval=480,720 amount=1;\n\nactive
   ayaka;\n\nayaka skill;\nganyu burst[radius=2], skill;     # ruin guard should be
   about radius=2. In ST, this results in 18-20 icicle hits.\nventi skill,burst;\nmona
-  skill,burst;\nayaka dash,skill,burst;\nventi skill;\nganyu skill,aim[weakspot=1];\nayaka
+  skill,burst;\nayaka dash,skill,burst;\nventi skill, attack;\nganyu skill,aim[weakspot=1];\nayaka
   dash,attack:2,charge;\n\nrestart;\n"
 description: Ganyu + Ayaka freeze. Assumes you proc Prototype Crescent. Using TTDS
   on Mona instead of Prototype Amber raises DPS by about 1k.
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46401.92018184329
+dps: 46414.954524837405
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -20,7 +20,7 @@ config: "options debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\nm
   electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n\nenergy every interval=480,720
   amount=1;\n\nactive ayaka;\n\nayaka skill, jump;\n\nshenhe burst,skill;\n\nventi
   skill, burst;\n\nmona skill, burst;\n\nayaka dash, skill, attack, burst;\n\nshenhe
-  skill;\n\nventi skill;\n\nayaka dash,attack:2,charge,attack:2,charge,attack:2,charge;\n\nrestart;\n"
+  skill;\n\nventi skill, attack;\n\nayaka dash,attack:2,charge,attack:2,charge,attack:2,charge;\n\nrestart;\n"
 description: Ayaka Freeze with VV and Shenhe. Can also use Prototype Amber on Mona
   for healing; this reduces DPS by about 4k.
 hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 54836.39123651077
+dps: 54907.27468533821
 mode: sl
 duration: 102.00000000000051
 target_count: 1
