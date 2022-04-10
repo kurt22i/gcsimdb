@@ -4,13 +4,13 @@ config: |
     ayaka char lvl=90/90 cons=0 talent=9,9,9;
     ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
     ayaka add set="blizzardstrayer" count=4;
-    ayaka add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220 #main
+    ayaka add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220; #main
     ayaka add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.2204 em=39.64 cr=0.2648 cd=0.7944;
 
     kokomi char lvl=90/90 cons=0 talent=9,9,9;
     kokomi add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
     kokomi add set="tenacityofthemillelith" count=4;
-    kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590 #main
+    kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590; #main
     kokomi add stats def%=0.1240 def=39.36 hp=1015.76 hp%=0.5952 atk=33.08 atk%=0.4960 er=0.1102 em=39.64 cr=0.0662 cd=0.1324;
 
     kazuha char lvl=90/90 cons=0 talent=9,9,9;
@@ -26,7 +26,7 @@ config: |
     rosaria add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.6620;
 
     # ----
-    energy every interval=240,360 amount=1;
+    energy every interval=480,720 amount=1;
     target lvl=100 resist=0.1;
 
     # ----
@@ -43,7 +43,7 @@ config: |
 
     restart;
 description: Ayaka Freeze with Rosaria.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: ayaka
   con: 0
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46866.78185411297
+dps: 47602.0100192257
 mode: sl
 duration: 103.99999999999928
 target_count: 1

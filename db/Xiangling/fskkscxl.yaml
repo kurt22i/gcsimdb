@@ -1,0 +1,67 @@
+author: Arfoire#9219 and imring#3781
+config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nsucrose
+  char lvl=90/90 cons=6 talent=9,9,9; \nsucrose add weapon=\"favoniuscodex\" refine=3
+  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780
+  atk=311 em=374 cr=0.311 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=158.56 cr=0.1324 cd=0.2648;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
+  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=5;\nfischl
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
+  em=39.64 cr=0.2648 cd=0.662;\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9; \nkokomi
+  add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nkokomi add set=\"oceanhuedclam\"
+  count=5;\nkokomi add stats hp=4780 atk=311 er=0.518 hydro%=0.466 heal=0.359 ; #main\nkokomi
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.5952 atk=33.08 atk%=0.0992 er=0.4408
+  em=118.92 cr=0.0662 cd=0.1324;\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\nactive fischl;\n\nfischl burst;\nkokomi skill;\nxiangling skill;\nsucrose
+  attack,   skill,\n        attack:2, skill,\n        attack:2;\n\nxiangling burst;\nkokomi
+  burst,\n       attack:2, charge,\n       attack:2, dash,\n       attack:2, charge;\n\nfischl
+  skill;\nxiangling skill;\nsucrose attack, burst, attack:21;\n\nrestart;\n"
+description: Sukokomon. Notoriously difficult team to play, so consider this a warning.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.9588000000000001
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: favoniuscodex
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 42506.71038317026
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: cH0bC7vz3q63sgE8DPHy7

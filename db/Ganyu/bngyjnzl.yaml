@@ -1,0 +1,69 @@
+author: Rare Possum#0511
+config: "options debug=true iteration=1000 duration=109 workers=30 mode=sl;\n\nganyu
+  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5
+  lvl=90/90;\nganyu add set=\"wandererstroupe\" count=5;\nganyu add stats hp=4780
+  atk=311 em=187 cryo%=0.466 cr=0.311 ; #main\nganyu add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\njean
+  char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\njean add set=\"viridescentvenerer\" count=5;\njean add stats hp=4780
+  atk=311 er=0.518 em=187 cr=0.311 ; #main\njean add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=118.92 cr=0.331 cd=0.1324;\n\nzhongli
+  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"favlance\" refine=3 lvl=90/90;\nzhongli
+  add set=\"tenacityofthemillelith\" count=5;\nzhongli add stats hp=4780 atk=311 hp%=0.466
+  geo%=0.466 cd=0.622 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.3972 cd=0.1324;\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.6612 em=39.64 cr=0.0662 cd=0.1324;\ntarget lvl=100 resist=.1;\n\nenergy
+  every interval=480,720 amount=1;\nactive ganyu;\n#-------------------------------------------\n\n\n\nganyu
+  skill, burst[radius=2];\nzhongli skill[hold=1];\nbennett burst;\njean skill, burst;\nganyu
+  aim[weakspot=1], aim,aim,aim, aim, aim;\njean skill;\nbennett skill, attack:3;\n\nzhongli
+  skill[hold=1];\nganyu skill, aim[weakspot=1, travel=20];\nbennett burst;\njean skill,
+  burst;\nganyu aim[weakspot=1], aim,aim,aim, aim, aim;\njean skill, attack;\nbennett
+  skill, attack:3;\n\n\n\n\nrestart;\n\n#https://gcsim.app/viewer/share/perm_DDHxqS7SvBCzgtVl-hD9m
+  burstless\n"
+description: Sunfire Melt Ganyu. 6 CAs per rotation.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 1.1792
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: ganyu
+  con: 0
+  weapon: prototypecrescent
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: zhongli
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 44170.12886517166
+mode: sl
+duration: 108.99999999999856
+target_count: 1
+viewer_key: e71FcyAnL03j7ePzB9sPM

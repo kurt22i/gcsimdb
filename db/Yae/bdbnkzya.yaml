@@ -2,29 +2,28 @@ author: Charliex3000#9403
 config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl;\n\nyaemiko
   char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"favoniuscodex\" refine=3
   lvl=90/90;\nyaemiko add set=\"tenacityofthemillelith\" count=5;\nyaemiko add stats
-  hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats hp%=0.0992
-  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.662
-  er=0.3306 ; #subs\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\"
+  hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\"
   refine=1 lvl=90/90  +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\"
   count=5;\nbeidou add stats hp=4780 atk=311 er=0.518 electro%=0.466 cd=0.622 ; #main\nbeidou
-  add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.3972 cd=0.662 er=0.1102 ; #subs\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;
-  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.2648 cd=0.5296 er=0.551;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=237.84 cr=0.2317 cd=0.4634;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha
   add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
-  count=5;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats hp%=0.0992
-  hp=507.88 atk%=0.3968 atk=33.08 def%=0.124 def=39.36 em=118.92 cr=0.0662 cd=0.1324
-  er=0.6612;\n\n\ntarget lvl=100 resist=0.1;\n\nenergy every interval=240,360 amount=1;\n\nactive
+  count=5;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.551 em=118.92 cr=0.0662
+  cd=0.1324;\n\n\ntarget lvl=100 resist=0.1;\n\nenergy every interval=480,720 amount=1;\n\nactive
   beidou;\n\nyaemiko skill:3;\n\nkazuha skill, high_plunge;\n\nbennett skill, burst;\n\nkazuha
   burst;\n\nbeidou skill, burst;\n\nkazuha attack, skill, high_plunge, attack;\n\nyaemiko
-  burst, \n        attack, skill:2,\n        attack:2, skill,\n        attack:2, dash,\n
-  \       attack:2, dash,\n        attack:2, dash,\n        attack;\n\nkazuha skill,
-  high_plunge, attack:2;\n\nbennett skill, attack;\n\nbeidou skill, attack;\n\nyaemiko
-  attack;\n\nrestart;\n"
+  burst, \nattack, skill:2,\nattack:2, skill,\nattack:2, dash,\nattack:2, dash,\nattack:2,
+  dash,\nattack;\n\nkazuha skill, high_plunge, attack:2;\n\nbennett skill, attack;\n\nbeidou
+  skill, attack;\n\nyaemiko attack;\n\nrestart;\n"
 description: Yae/Beidou.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: beidou
   con: 6
@@ -39,7 +38,7 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 1.069
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
@@ -48,7 +47,7 @@ team:
   con: 0
   weapon: ironsting
   refine: 5
-  er: 0.6612
+  er: 0.551
   talents:
     attack: 9
     skill: 9
@@ -57,12 +56,12 @@ team:
   con: 0
   weapon: favoniuscodex
   refine: 3
-  er: 0.3306
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 39444.509894219475
+dps: 40527.971285878644
 mode: sl
 duration: 90.00000000000215
 target_count: 1

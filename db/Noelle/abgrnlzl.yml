@@ -1,45 +1,34 @@
-author: vibe checker#5502
-config: "options debug=true iteration=1000 duration=90 workers=30 mode=apl;\nnoelle
+author: Cold MsSteak#8744
+config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl;\nnoelle
   char lvl=90/90 cons=6 talent=9,9,9; \nnoelle add weapon=\"serpentspine\" refine=1
   lvl=90/90\n    +params=[stacks=5];\nnoelle add set=\"huskofopulentdreams\" count=5;\nnoelle
   add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cd=0.622 ; #main\nnoelle add stats
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 def=39.36 def%=0.124 em=39.64 er=0.22039999999999998
-  cr=0.3972 cd=0.662 ; #subs\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo
-  add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\"
-  count=5\n     +params=[stacks=4];\nalbedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466
-  cr=0.311 ; #main\nalbedo add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 def=39.36
-  def%=0.248 em=39.64 er=0.11019999999999999 cr=0.331 cd=0.7944 ; #subs\n\ngorou char
-  lvl=90/90 cons=6 talent=9,9,9; \ngorou add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ngorou
-  add set=\"emblemofseveredfate\" count=2;\ngorou add stats hp=4780 atk=311 er=0.518
-  def%=0.583 cr=0.311 ; #main\ngorou add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
-  def=39.36 def%=0.37200000000000005 em=39.64 er=0.3306 cr=0.331 cd=0.3972 ; #subs\n\nzhongli
-  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"deathmatch\" refine=1
-  lvl=90/90;\nzhongli add set=\"noblesseoblige\" count=5;\nzhongli add stats hp=4780
-  atk=311 hp%=0.466 geo%=0.466 cd=0.622 ; #main\nzhongli add stats hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 def=39.36 def%=0.124 em=39.64 er=0.1653 cr=0.3972 cd=0.5958
-  ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=240,360
-  amount=1;\n\nactive noelle;\n\n# Defining chains which are used later in the action
-  list.\n\ngorou_seq:gorou attack,skill\n     +swap_to=noelle\n     +if=.energy.noelle
-  < 60;\nnoelle_seq:noelle attack:3,dash;\nalbedo_goroubuff:wait_for mods value=.albedo.goroubuff==1
-  max=100;\nalbedo_skill:albedo skill,attack,jump;\nalbedo_swap:albedo swap;\nnoelle_goroubuff:wait_for
-  mods value=.noelle.goroubuff==1 max=100;\nnoelle_burst:noelle burst;\nnoelle_swap:noelle
-  swap;\n\n \nzhongli skill[hold=1]\n     +if=.tags.zhongli.shielded==0;\n\n# Gorou
-  buffing, skill always wants to be funneled. Fav is hard to get funnelled into Noelle
-  on inital cast (start of first rotation) since it removes multiple potential albedo
-  skill procs so it's omitted.\n\ngorou burst;\nchain gorou_seq, noelle_seq;\ngorou
-  attack,skill;\n\nchain albedo_swap,albedo_goroubuff,albedo_skill\n     +if=.status.generalglory
-  > 120||.status.generalwarbanner > 120\n     && .tags.albedo.elevator==0;\n\nchain
-  noelle_swap,noelle_goroubuff,noelle_burst\n     +if=.status.generalglory > 150||.status.generalwarbanner
-  > 150\n     && .tags.zhongli.shielded==1;\n\nnoelle skill;\nnoelle attack:3,dash,\n
-  \      attack:3,dash\n     +if=.status.noelleq > 120;\n"
+  def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
+  cr=0.3972 cd=0.662;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo add weapon=\"cinnabarspindle\"
+  refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\" count=5\n     +params=[stacks=4];\nalbedo
+  add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo add stats
+  def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add
+  weapon=\"deathmatch\" refine=1 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
+  count=5;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cd=0.622 ; #main\nzhongli
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\ngorou char lvl=90/90 cons=6 talent=9,9,9;\ngorou
+  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ngorou add set=\"noblesseoblige\"
+  count=4;\ngorou add stats hp=4780 atk=311 er=0.518 geo%=0.466 cr=0.311 ; #main\ngorou
+  add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
+  em=39.64 cr=0.331 cd=0.1324;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\nactive zhongli;\n\nzhongli skill[hold=1];\n\ngorou
+  skill, burst;\n\nalbedo jump;\nwait 10;\nalbedo skill;\n\nnoelle skill, attack,
+  burst , attack:3, dash, attack:3, dash, attack:3, dash;\n\ngorou skill;\n\nnoelle
+  attack:3, dash, attack:3, dash;\n\nrestart;\n"
 description: Noelle Mono-Geo.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: albedo
   con: 0
   weapon: cinnabarspindle
   refine: 5
-  er: 0.11019999999999999
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -48,7 +37,7 @@ team:
   con: 6
   weapon: favoniuswarbow
   refine: 3
-  er: 0.8486
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
@@ -57,7 +46,7 @@ team:
   con: 6
   weapon: serpentspine
   refine: 1
-  er: 0.22039999999999998
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -66,13 +55,13 @@ team:
   con: 0
   weapon: deathmatch
   refine: 1
-  er: 0.1653
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 34946.446174919605
-mode: apl
+dps: 40768.98725187087
+mode: sl
 duration: 90.00000000000215
 target_count: 1
 viewer_key: XuD3TzNelXt6Ttgvw5y_u

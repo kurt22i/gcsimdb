@@ -3,7 +3,7 @@ config: "options iteration=1000 duration=107 mode=sl;\nbeidou char lvl=90/90 con
   talent=9,9,9;\nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou
   add set=\"emblemofseveredfate\" count=4;\nbeidou add stats hp=4780 atk=311 er=0.518
   electro%=0.466 cd=0.622; #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nbennett
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.3972 cd=0.5296;\n\nbennett
   char lvl=90/90 cons=5 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"thunderingfury\" count=4;\nbennett add stats hp=4780
   atk=311 em=374 pyro%=0.466; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88
@@ -15,10 +15,10 @@ config: "options iteration=1000 duration=107 mode=sl;\nbeidou char lvl=90/90 con
   em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=80/90 cons=6 talent=9,9,9;\nxingqiu
   add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
   count=4;\nxingqiu add stats hp=4780 atk=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306
-  em=39.64 cr=0.1655 cd=0.331;\n\n#dps will probably be slightly lower and the rotation
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.4408
+  em=39.64 cr=0.1324 cd=0.2648;\n\n#dps will probably be slightly lower and the rotation
   will be sligtly different once hitlag is accounted for.\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=240,360 amount=1;\nactive beidou;\n\nxingqiu skill,burst;\nbennett
+  every interval=480,720 amount=1;\nactive beidou;\n\nxingqiu skill,burst;\nbennett
   burst;\nfischl skill,attack;\nbeidou skill,burst;\nbennett attack,skill,\n        attack,skill,\n
   \       attack,skill,\n        attack,skill,\n        attack,skill,\n        attack,skill,\n
   \       attack,skill,\n        attack,skill,\n        attack,skill,\n        attack,skill,\n
@@ -28,13 +28,13 @@ config: "options iteration=1000 duration=107 mode=sl;\nbeidou char lvl=90/90 con
   \       attack,skill,\n        attack,skill,\n        attack,skill,\n        attack,skill,\n
   \       attack,skill,\n        attack,skill,\n        attack:4,skill;\n        \nrestart;\n"
 description: 4TF Bennett.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: beidou
   con: 6
   weapon: serpentspine
   refine: 1
-  er: 0.6282
+  er: 0.8486
   talents:
     attack: 9
     skill: 9
@@ -61,12 +61,12 @@ team:
   con: 6
   weapon: lionsroar
   refine: 3
-  er: 0.3306
+  er: 0.4408
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 39128.62381804895
+dps: 38487.021166790844
 mode: sl
 duration: 106.99999999999939
 target_count: 1

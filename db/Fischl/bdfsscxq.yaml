@@ -1,0 +1,108 @@
+author: Arfoire#9219 and EnigWa#4825
+config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#Character
+  builds:\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"hakushinring\"
+  refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
+  stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306 em=118.92 cr=0.1324 cd=0.1324;\n\nbeidou
+  char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\" refine=1
+  lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=5;\nbeidou
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cd=0.622 ; #main\nbeidou add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
+  count=5;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  \nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\"
+  count=5;\nxingqiu add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1488 er=0.1653
+  em=39.64 cr=0.331 cd=0.7944;\n\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n\n#Action List:\n\nactive fischl;\n\nfischl
+  burst;\n\nsucrose attack, burst;\nxingqiu skill, burst, attack;\nbeidou skill,burst,
+  attack;\nsucrose \n    attack:2, skill,\n    attack:2, skill,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbeidou skill[counter=2],
+  attack;\nfischl attack:2, skill;\nsucrose \n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:1, charge,\n    attack:2, charge,\n    attack:2\n
+  \   ;\nbeidou skill, attack:3;\n\nfischl attack:2, burst;\n\nsucrose attack, burst;\nxingqiu
+  skill, burst, attack;\nbeidou skill,burst, attack;\nsucrose \n    attack:2, skill,\n
+  \   attack:2, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2\n    ;\nbeidou skill[counter=2], attack;\nfischl attack:2, skill;\nsucrose
+  \n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n
+  \   attack:2, charge,\n    attack:2\n    ;\nbeidou skill, attack:3;\n\nfischl attack:2,
+  burst;\n\nsucrose attack, burst;\nxingqiu skill, burst, attack;\nbeidou skill,burst,
+  attack;\nsucrose \n    attack:2, skill,\n    attack:2, skill,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbeidou skill[counter=2],
+  attack;\nfischl attack:2, skill;\nsucrose \n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:1, charge,\n    attack:2, charge,\n    attack:2\n
+  \   ;\nbeidou skill, attack:3;\n\nfischl attack:2, burst;\n\nsucrose attack, burst;\nxingqiu
+  skill, burst, attack;\nbeidou skill,burst, attack;\nsucrose \n    attack:2, skill,\n
+  \   attack:2, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2\n    ;\nbeidou skill[counter=2], attack;\nfischl attack:2, skill;\nsucrose
+  \n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n
+  \   attack:2, charge,\n    attack:2\n    ;\nbeidou skill, attack:3;\n\nfischl attack:2,
+  burst;\n\nsucrose attack, burst;\nxingqiu skill, burst, attack;\nbeidou skill,burst,
+  attack;\nsucrose \n    attack:2, skill,\n    attack:2, skill,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbeidou skill[counter=2],
+  attack;\nfischl attack:2, skill;\nsucrose \n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:1, charge,\n    attack:2, charge,\n    attack:2\n
+  \   ;\nbeidou skill, attack:3;\n\nfischl attack:2, burst;\n\nsucrose attack, burst;\nxingqiu
+  skill, burst, attack;\nbeidou skill,burst, attack;\nsucrose \n    attack:2, skill,\n
+  \   attack:2, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2\n    ;\nbeidou skill[counter=2], attack;\nfischl attack:2, skill;\nsucrose
+  \n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n
+  \   attack:2, charge,\n    attack:2\n    ;\nbeidou skill, attack:3;\n\nfischl attack:2,
+  burst;\n\nsucrose attack, burst;\nxingqiu skill, burst, attack;\nbeidou skill,burst,
+  attack;\nsucrose \n    attack:2, skill,\n    attack:2, skill,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbeidou skill[counter=2],
+  attack;\nfischl attack:2, skill;\nsucrose \n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:1, charge,\n    attack:2, charge,\n    attack:2\n
+  \   ;\nbeidou skill, attack:3;\n\nfischl attack:2, burst;\n\nsucrose attack, burst;\nxingqiu
+  skill, burst, attack;\nbeidou skill,burst, attack;\nsucrose \n    attack:2, skill,\n
+  \   attack:2, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2\n    ;\nbeidou skill[counter=2], attack;\nfischl attack:2, skill;\nsucrose
+  \n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n
+  \   attack:2, charge,\n    attack:2\n    ;\nbeidou skill, attack:3;\n\n\nrestart;\n"
+description: Sucrose Tazer, does much better in 2+ targets like most Beidou teams.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: hakushinring
+  refine: 5
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: lionsroar
+  refine: 3
+  er: 0.6833
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 45037.145656077555
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: YbCLZVMZ1a6UQp30QjGsD

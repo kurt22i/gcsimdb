@@ -1,0 +1,74 @@
+author: EnigWa#4825
+config: "options debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9; \nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nhutao
+  add set=\"shimenawasreminiscence\" count=5;\nhutao add stats hp=4780 atk=311 hp%=0.466
+  \ pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984
+  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nkazuha char lvl=90/90
+  cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha
+  add set=\"viridescentvenerer\" count=4;\nkazuha add set=\"paleflame\" count=1;\nkazuha
+  add stats hp=4780 atk=311 em=374 er=0.518; #main\nkazuha add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102 em=158.56 cr=0.3972 cd=0.1324;\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=3
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
+  hp=4780 atk=311 er=.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648
+  cd=0.7944;\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1
+  anemo=0.1 physical=0.1 cryo=0.1;\n\n\nenergy every interval=480,720 amount=1;\n\n\nactive
+  bennett;\n\nbennett skill;\n\nkazuha skill, high_plunge, burst;\n\nbennett burst,
+  skill;\n\nxiangling burst, skill;\n\nkazuha skill, high_plunge;\n\nhutao skill,
+  attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n
+  \   attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:1, charge, burst;\n    \n    bennett
+  skill;\n\nkazuha skill, high_plunge, burst;\n\nbennett burst, skill;\n\nxiangling
+  burst, skill;\n\nkazuha skill, high_plunge;\n\nhutao skill, attack:2, charge, jump,\n
+  \   attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump;\n    \nrestart;\n"
+description: Pure Pyro Tao. No need to worry about Tao's HP.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 3
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: hutao
+  con: 0
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 49808.411242868
+mode: sl
+duration: 102.99999999999858
+target_count: 1
+viewer_key: BG6TbMSQPoL9RhzaoR-xz

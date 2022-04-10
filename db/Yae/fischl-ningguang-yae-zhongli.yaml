@@ -28,7 +28,7 @@ config: |
   active yaemiko;
 
   target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
-  energy every interval=240,360 amount=1;
+  energy every interval=480,720 amount=1;
 
   yaemiko skill:3;
   fischl burst;
@@ -42,7 +42,7 @@ config: |
   zhongli burst;
   restart;
 description: Yae + Geo comfort version. Make sure to pick up shards for 4AP.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: fischl
   con: 6
@@ -80,7 +80,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43339.972691775074
+dps: 42549.89078300659
 mode: sl
 duration: 90.00000000000215
 target_count: 1

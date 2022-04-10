@@ -3,7 +3,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#
   builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
   stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.496 er=0.551 em=118.92 cr=0.0662 cd=0.1324;\n\nbeidou
+  hp%=0.0992 atk=33.08 atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;\n\nbeidou
   char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=5;\nbeidou
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nbeidou add
@@ -15,16 +15,17 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#
   er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nsangonomiyakokomi char lvl=90/90 cons=0
   talent=9,9,9; \nsangonomiyakokomi add weapon=\"hakushinring\" refine=5 lvl=90/90;\nsangonomiyakokomi
   add set=\"oceanhuedclam\" count=4;\nsangonomiyakokomi add stats hp=4780 atk=311
-  hp%=0.466 hydro%=0.466 heal=0.359 ; #main\nsangonomiyakokomi add stats  hp=507.88
-  hp%=0.55 atk%=0.2 em=40 er=0.6 ; #subs\n\n#Enemies and Particles:\ntarget lvl=100
-  resist=.1;\nenergy every interval=240,360 amount=1;\n\n#Action List:\n\nactive fischl;\n\nfischl
-  attack:2, burst;\nkokomi skill,attack;\nsucrose attack, burst;\nbeidou skill,burst,
-  attack;\nsucrose\n\tattack:2, skill,\n\tattack:2, skill,\n\tattack:2, dash,\n\tattack:2,
-  dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbeidou skill[counter=2], attack;\nfischl
-  attack:2, skill;\nkokomi\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2,
-  dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbeidou skill[counter=2], attack:3;\n\nrestart;\n\n\n\n\n\n"
+  hp%=0.466 hydro%=0.466 heal=0.359 ; #main\nsangonomiyakokomi add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=237.84 cr=0.0662
+  cd=0.1324;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\n#Action List:\n\nactive fischl;\n\nfischl attack:2, burst;\nkokomi
+  skill,attack;\nsucrose attack, burst;\nbeidou skill,burst, attack;\nsucrose\n\tattack:2,
+  skill,\n\tattack:2, skill,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbeidou
+  skill[counter=2], attack;\nfischl attack:2, skill;\nkokomi\n\tattack:2, dash,\n\tattack:2,
+  dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbeidou
+  skill[counter=2], attack:3;\n\nrestart;\n"
 description: ""
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: beidou
   con: 6
@@ -48,7 +49,7 @@ team:
   con: 0
   weapon: hakushinring
   refine: 5
-  er: 0.6
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -57,12 +58,12 @@ team:
   con: 6
   weapon: thrillingtalesofdragonslayers
   refine: 5
-  er: 0.551
+  er: 0.6612
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 34520.5771171044
+dps: 35980.80987698708
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -3,8 +3,8 @@ config: "options debug=true iteration=1000 duration=100 mode=apl;\n\n#Character 
   char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"dragonsbane\" refine=3
   lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=5;\nrosaria add stats
   hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nrosaria add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
-  cd=0.7282;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648
+  cd=0.662;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
   refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling
   add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
@@ -12,18 +12,18 @@ config: "options debug=true iteration=1000 duration=100 mode=apl;\n\n#Character 
   weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
-  em=39.64 cr=0.2317 cd=0.5958;\n\nkaeya char lvl=90/90 cons=2 talent=9,9,9; \nkaeya
+  em=39.64 cr=0.1986 cd=0.662;\n\nkaeya char lvl=90/90 cons=2 talent=9,9,9; \nkaeya
   add weapon=\"lionsroar\" refine=3 lvl=90/90;\nkaeya add set=\"emblemofseveredfate\"
   count=5;\nkaeya add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nkaeya
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.2648 cd=0.7944;\n\n#Enemies and Particles:\ntarget lvl=100 pyro=0.1
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.2317 cd=0.5958;\n\n#Enemies and Particles:\ntarget lvl=100 pyro=0.1
   dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy
-  every interval=240,360 amount=1;\n\n#Action List:\nactive bennett;\n\nbennett burst;\nxiangling
+  every interval=480,720 amount=1;\n\n#Action List:\nactive bennett;\n\nbennett burst;\nxiangling
   burst;\nxiangling skill;\nbennett burst, skill;\nrosaria skill;\nrosaria burst;\nkaeya
   burst;\nkaeya skill;\nbennett skill;\n\nbennett attack +is_onfield;\nxiangling attack
   +is_onfield;\nkaeya attack +is_onfield;\nrosaria attack +is_onfield;\n"
 description: The traditional Reverse Melt team. Full 4* lineup.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: bennett
   con: 6
@@ -38,7 +38,7 @@ team:
   con: 2
   weapon: lionsroar
   refine: 3
-  er: 0.3306
+  er: 0.551
   talents:
     attack: 9
     skill: 9
@@ -47,7 +47,7 @@ team:
   con: 6
   weapon: dragonsbane
   refine: 3
-  er: 0.3306
+  er: 0.4408
   talents:
     attack: 9
     skill: 9
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43294.22296480203
+dps: 41763.221902538804
 mode: apl
 duration: 99.9999999999986
 target_count: 1

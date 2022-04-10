@@ -29,7 +29,7 @@ config: |
   #Enemies and Particles:
 
   target lvl=100 resist=.1;
-  energy every interval=240,360 amount=1;
+  energy every interval=480,720 amount=1;
 
   #Action List:
 
@@ -98,7 +98,7 @@ config: |
   restart;
 description: Sukokoyae, except we replaced Xiangling, not Fischl. Replacing Fischl
   would ruin the team's energy.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: fischl
   con: 6
@@ -136,7 +136,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41931.36574604302
+dps: 41267.77195000408
 mode: sl
 duration: 97.9999999999992
 target_count: 1

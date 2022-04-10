@@ -12,18 +12,18 @@ config: "options debug=true iteration=1000 duration=98 workers=30 mode=sl;\n\nni
   cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
   refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
   hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
+  cd=0.7282;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
   refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
   add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
   cr=0.331 cd=0.7944;\n\nactive albedo;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
-  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=240,360
+  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
   amount=1;\n\nalbedo skill;\nbennett burst,skill;\nxiangling burst,skill;\nningguang
   skill,burst,charge;\nbennett skill;\nxiangling attack:3;\nningguang attack:2,charge,skill;\nbennett
   skill;\nxiangling attack:3;\nningguang attack,charge;\nrestart;\n"
 description: NatGeo, optimized rotation.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: albedo
   con: 0
@@ -38,7 +38,7 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.6282
+  er: 0.8486
   talents:
     attack: 9
     skill: 9
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40180.1520803897
+dps: 39765.57593595956
 mode: sl
 duration: 97.9999999999992
 target_count: 1

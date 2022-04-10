@@ -1,0 +1,68 @@
+author: imring#3781 and Kurt#5846
+config: "options debug=true iteration=1000 duration=108 mode=sl;\n\nkokomi char lvl=90/90
+  cons=0 talent=9,9,9;\nkokomi add weapon=\"prototypeamber\" refine=5 lvl=90/90;\nkokomi
+  add set=\"oceanhuedclam\" count=4;\nkokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466
+  heal=0.359; # main\nkokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08
+  atk%=0.2976 er=0.551 em=39.64 cr=0.0662 cd=0.1324;\n\nxingqiu char lvl=90/90 cons=6
+  talent=9,9,9;\n#xingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu
+  add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\n#xingqiu add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311; # main\nxingqiu
+  add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; # main\nxingqiu add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"archaicpetra\"
+  count=4;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311; #main\nzhongli
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo
+  add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\"
+  count=4 +params=[stacks=4];\nalbedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466
+  cr=0.311; #main\nalbedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\nactive kokomi;\n\nkokomi skill;\nzhongli skill[hold=1],dash;\nalbedo
+  skill,attack:2;\nxingqiu skill,burst,attack:3;\nalbedo skill,attack:2;\nzhongli
+  burst,dash;\nkokomi burst,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2;\nrestart;\n"
+description: '"Petrichor": Kokomi + Geo, a basically invincible team that still deals
+  nice damage.'
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: albedo
+  con: 0
+  weapon: cinnabarspindle
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: prototypeamber
+  refine: 5
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: amenomakageuchi
+  refine: 5
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: zhongli
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 41095.249201979066
+mode: sl
+duration: 108.00000000000088
+target_count: 1
+viewer_key: wDEndFNlZ6AC0zkXc-K2r

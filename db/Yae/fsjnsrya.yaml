@@ -1,0 +1,68 @@
+author: Effab1e#2963
+config: "options debug=true iteration=1000 duration=97 workers=30 mode=sl;\n\n\nfischl
+  char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\" refine=3
+  lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=5;\nfischl add stats
+  hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;\nfischl add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nsara char lvl=90/90 cons=6 talent=9,9,9; \nsara add weapon=\"mouunsmoon\"
+  refine=1 lvl=90/90;\nsara add set=\"noblesseoblige\" count=5;\nsara add stats hp=4780
+  atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nsara add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\njean
+  char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"amenomakageuchi\" refine=5
+  lvl=90/90;\njean add set=\"viridescentvenerer\" count=5;\njean add stats hp=4780
+  atk=311 atk%=0.466 anemo%=0.466 cr=0.311 ; #main\njean add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nyaemiko
+  char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"thewidsith\" refine=3
+  lvl=90/90;\n#yaemiko add set=\"emblemofseveredfate\" count=5;\nyaemiko add set=\"thunderingfury\"
+  count=2;\nyaemiko add set=\"gladiatorsfinale\" count=2;\nyaemiko add stats hp=4780
+  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331
+  cd=0.662;\n\nactive yaemiko;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
+  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\n\nyaemiko
+  skill,skill,skill,attack:2;\njean skill,attack:2;\nsara skill,aim;\nfischl skill,attack:2,attack:2;\njean
+  skill,burst;\nsara burst;\nyaemiko burst,skill,skill,skill,attack:2,charge;\njean
+  attack:2,skill;\nsara skill,aim;\nfischl burst,attack:3;\nyaemiko attack:2,charge;\nrestart;\n"
+description: Yae mono-electro.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: amenomakageuchi
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sara
+  con: 6
+  weapon: mouunsmoon
+  refine: 1
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: thewidsith
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 39795.057478821196
+mode: sl
+duration: 96.99999999999865
+target_count: 1
+viewer_key: MdBkJrVjFTNfBgZG_S7Zj

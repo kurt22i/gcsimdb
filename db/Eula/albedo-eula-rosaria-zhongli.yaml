@@ -19,11 +19,11 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\
   cr=0.311 ; #main\nalbedo add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
   atk%=0.0992 er=0.551 em=39.64 cr=0.2317 cd=0.5958;\n\n\nactive zhongli;\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\nenergy every interval=240,360 amount=1;\n\nzhongli skill[hold=1];\nalbedo
+  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nzhongli skill[hold=1];\nalbedo
   skill,burst;\nrosaria skill,burst;\neula burst,attack:4,skill[hold=1],attack:4;\nrosaria
   skill;\neula attack:4,attack:4,skill;\nrestart;\n"
 description: Double Geo Eula, a comfortable team that surprisingly works very well.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39216.85188363826
+dps: 38986.027479950506
 mode: sl
 duration: 109.99999999999949
 target_count: 1

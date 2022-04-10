@@ -4,7 +4,7 @@ config: "options debug=true iteration=1000 duration=112 workers=30 mode=sl;\n\n\
   lvl=90/90 +params=[stacks=5];\neula add set=\"bloodstainedchivalry\" count=1;\neula
   add set=\"paleflame\" count=4;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
   cd=0.622 ; #main\neula add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.4408 em=39.64 cr=0.2979 cd=0.5958;\n\nrosaria char lvl=90/90 cons=6
+  atk%=0.0992 er=0.551 em=39.64 cr=0.2648 cd=0.5296;\n\nrosaria char lvl=90/90 cons=6
   talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add
   set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466
   cd=0.622 ; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
@@ -16,16 +16,16 @@ config: "options debug=true iteration=1000 duration=112 workers=30 mode=sl;\n\n\
   char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nshenhe add set=\"blizzardstrayer\" count=4;\nshenhe add set=\"paleflame\"
   count=1;\nshenhe add stats hp=4780 atk=311 atk%=1.398 ; #main\nshenhe add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.3306 em=39.64
-  cr=0.3972 cd=0.2648;\n\nactive eula;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
-  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=240,360
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551 em=39.64
+  cr=0.1986 cd=0.3972;\n\nactive eula;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
+  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
   amount=1;\n\neula skill;\ndiona skill[hold=1],skill[hold=1];\nshenhe burst,skill;\nrosaria
   skill,burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe skill,attack;\neula
   attack:4;\nrosaria skill;\neula attack:2;\n\neula skill;\ndiona skill[hold=1];\nshenhe
   burst,skill;\nrosaria skill,burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe
   skill,attack,attack;\neula attack:4;\nrosaria skill;\neula attack:2;\nrestart;\n"
 description: Mono-Cryo Eula.
-hash: f2445d76e8d14fb6492cfe07884dccc92a3eb9ce
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
 team:
 - name: diona
   con: 6
@@ -40,7 +40,7 @@ team:
   con: 0
   weapon: serpentspine
   refine: 1
-  er: 0.4408
+  er: 0.551
   talents:
     attack: 9
     skill: 9
@@ -58,12 +58,12 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.3306
+  er: 0.551
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 34868.30300150285
+dps: 33120.811418007375
 mode: sl
 duration: 111.99999999999807
 target_count: 1

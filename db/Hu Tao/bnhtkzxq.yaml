@@ -1,0 +1,74 @@
+author: Cold MsSteak#8744 and rf#5773
+config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nhutao
+  add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 hp%=0.466
+  cr=0.311 pyro%=0.466 ; #main\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90
+  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
+  atk=311 em=559.5 ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.3972 cd=0.1324;\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232
+  pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.1986 cd=0.662;\n\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu skill, burst, attack:1;\nkazuha
+  burst, attack;\nbennett skill, attack, burst, attack;\nkazuha skill[hold=1], high_plunge;\nhutao
+  skill, attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:1, charge, burst;\nkazuha attack,
+  skill, high_plunge;\nbennett skill;\n\nxingqiu skill, burst, attack:1;\nkazuha burst,
+  attack;\nbennett skill, attack, burst, attack;\nkazuha skill[hold=1], high_plunge;\nhutao
+  skill, attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump;\nkazuha attack,
+  skill, high_plunge;\nbennett skill;\n\nrestart;\n"
+description: Tao with Bennett. Bennett's buff is more than enough to make up for the
+  lost A4.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: hutao
+  con: 0
+  weapon: dragonsbane
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 57356.71203831763
+mode: sl
+duration: 126.00000000000189
+target_count: 1
+viewer_key: C7tVJ__6U_11oN6tKnU2f

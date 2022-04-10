@@ -1,0 +1,67 @@
+author: rf#5773
+config: "options debug=true iteration=1000 duration=156 mode=sl;\n\n### CHARACTERS,
+  WEAPONS\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"lionsroar\"
+  refine=3 lvl=90/90;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;\nbeidou add weapon=\"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=5];\n   \nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\n\n### ARTIFACTS\nkazuha add set=\"viridescentvenerer\"
+  count=4;\nayato add set=\"echoesofanoffering\" count=4;\nbeidou add set=\"emblemofseveredfate\"
+  count=4;\nfischl add set=\"tenacityofthemillelith\" count=4;\n\n### MAIN STATS\nkazuha
+  add stats hp=4780 atk=311 em=187 em=187 em=187;\nayato add stats hp=4780 atk=311
+  hydro%=0.466 atk%=0.466 cr=0.311;\nbeidou add stats hp=4780 atk=311 electro%=0.466
+  atk%=0.466 cd=0.622;\nfischl add stats hp=4780 atk=311 electro%=0.466 atk%=0.466
+  cr=0.311;\n\n### SUB ROLLS\nayato add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\nbeidou add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
+  cd=0.662;\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\nkazuha add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306 em=118.92 cr=0.1324
+  cd=0.1324;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\n##Actions List\nactive ayato;\n\nayato burst;\nbeidou skill;\nkazuha
+  skill, high_plunge, burst;\nfischl skill;\nbeidou burst, attack;\nayato skill, attack:13;\nbeidou
+  attack, skill[counter=2], attack:2;\nkazuha attack, skill, high_plunge, attack;\nfischl
+  attack, burst;\nayato attack:2, dash, attack, skill, attack:13;\n\nrestart;\n"
+description: Ayato Taser with Kazuha.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: ayato
+  con: 0
+  weapon: lionsroar
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 42118.29353941181
+mode: sl
+duration: 156.00000000000313
+target_count: 1
+viewer_key: Tz6DCTFqEQ4yQLfM6mk5n

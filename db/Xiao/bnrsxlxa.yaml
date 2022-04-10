@@ -1,0 +1,82 @@
+author: Cold MsSteak#8744
+config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n#Character
+  builds:\nxiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nxiao add set=\"viridescentvenerer\" count=4;\nxiao add stats
+  hp=4780 atk=311 atk%=0.466 anemo%=0.466 cd=0.622; #Main stats\nxiao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.3972
+  cd=0.1324;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats
+  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #Main stats\nbennett add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648
+  cd=0.662;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
+  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
+  add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #Main stats\nxiangling
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.2317 cd=0.5958;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
+  add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
+  count=4;\nrosaria add stats hp=4780 atk=311 er=0.518 cryo%=0.466 cr=0.311; #Main
+  stats\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n#bennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+  #OPTIMIZED FOR EM SANDS\n#rosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.1986 cd=0.5296;\n#xiangling add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
+  cr=0.2648 cd=0.7944;\n#xiao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.551 em=39.64 cr=0.3972 cd=0.1324;\n\n#bennett add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  cr=0.331 cd=0.7944; #OPTIMIZED FOR ER SANDS\n#rosaria add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+  #WORSE THEN MY SUBS KEK\n#xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;\n#xiao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.3972
+  cd=0.1324;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\n#Action List:\n\nactive rosaria;\n\nrosaria skill;\nbennett burst,
+  skill;\nxiangling skill, burst;\nrosaria skill, burst;\nxiao skill, skill, burst,\nattack,
+  high_plunge[plunge_hits=1],\nattack, high_plunge[plunge_hits=1],\nattack, high_plunge[plunge_hits=1],\nattack,
+  high_plunge[plunge_hits=1],\nattack, high_plunge[plunge_hits=1],\nattack, high_plunge[plunge_hits=1],\nattack,
+  high_plunge[plunge_hits=1];\nrestart;\n"
+description: Rev Melt Xiao. Assumes collisions on all plunges, which does take some
+  practice.
+hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.9588000000000001
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: dragonsbane
+  refine: 3
+  er: 0.7384000000000001
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiao
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 40220.19057905896
+mode: sl
+duration: 109.99999999999949
+target_count: 1
+viewer_key: GbrTCH5eNaGL4jagQec_2
