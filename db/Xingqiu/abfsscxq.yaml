@@ -1,5 +1,5 @@
 author: vigne#5943
-config: "options debug=true iteration=1000 duration=104 workers=30 mode=apl;\n\n###
+config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=apl;\n\n###
   CHARACTERS, WEAPONS\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\"
   refine=3 lvl=90/90;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add
   weapon=\"favoniussword\" refine=3 lvl=90/90;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46059.88123780445
+dps: 44871.01448037951
 mode: apl
 duration: 103.99999999999928
 target_count: 1

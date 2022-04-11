@@ -1,5 +1,5 @@
 author: Karl Cruz#9995
-config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\n#Character
+config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\n#Character
   builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
   stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38652.51464895196
+dps: 38768.088304282785
 mode: sl
 duration: 103.99999999999928
 target_count: 1

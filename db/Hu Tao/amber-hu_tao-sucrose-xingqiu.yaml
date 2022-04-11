@@ -1,5 +1,5 @@
 author: rf#5773
-config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"deathmatch\"
   refine=1 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\" count=4;\nhutao add
   stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44800.89583246806
+dps: 42480.16710617346
 mode: sl
 duration: 105.00000000000071
 target_count: 1

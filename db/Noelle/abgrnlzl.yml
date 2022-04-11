@@ -1,5 +1,5 @@
 author: Cold MsSteak#8744
-config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl;\nnoelle
+config: "options swap_delay=12 debug=true iteration=1000 duration=90 workers=30 mode=sl;\nnoelle
   char lvl=90/90 cons=6 talent=9,9,9; \nnoelle add weapon=\"serpentspine\" refine=1
   lvl=90/90\n    +params=[stacks=5];\nnoelle add set=\"huskofopulentdreams\" count=5;\nnoelle
   add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cd=0.622 ; #main\nnoelle add stats
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42172.257498053856
+dps: 41773.68567363573
 mode: sl
 duration: 90.00000000000215
 target_count: 1

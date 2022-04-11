@@ -1,6 +1,6 @@
 author: imring#3781
 config: |
-  options debug=true mode=sl iteration=1000 duration=105 workers=30;
+  options swap_delay=12 debug=true mode=sl iteration=1000 duration=105 workers=30;
 
   sangonomiyakokomi char lvl=90/90 cons=0 talent=9,9,9;
   sangonomiyakokomi add weapon="prototypeamber" refine=5 lvl=90/90;
@@ -111,7 +111,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27364.74469217812
+dps: 27103.93325961158
 mode: sl
 duration: 105.00000000000071
 target_count: 1

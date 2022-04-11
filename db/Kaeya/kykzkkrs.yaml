@@ -23,7 +23,7 @@ config: |
   kazuha add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.1102 em=532.6 cr=0.6420 cd=0.5296;
 
   ####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####
-  options iteration=1000 duration=101 mode=sl;
+  options swap_delay=12 iteration=1000 duration=101 mode=sl;
   target lvl=100 resist=0.1;
   energy every interval=480,720 amount=1;
   active kaeya;
@@ -77,7 +77,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28496.710035887336
+dps: 25504.986494826502
 mode: sl
 duration: 100.9999999999993
 target_count: 1

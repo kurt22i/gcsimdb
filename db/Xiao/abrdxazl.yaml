@@ -1,5 +1,5 @@
 author: Spring MsSteak#8744
-config: "options debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\nraidenshogun
+config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 er=0.518 atk%=0.466 cr=0.311 ; #main\n#raidenshogun add
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38014.69316899402
+dps: 37504.1499359455
 mode: sl
 duration: 91.999999999999
 target_count: 1

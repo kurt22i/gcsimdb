@@ -1,6 +1,6 @@
 author: Lizz71#8986
-config: "options iteration=1000 duration=102 mode=sl;\nyunjin char lvl=90/90 cons=6
-  talent=9,9,9; \nyunjin add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nyunjin
+config: "options swap_delay=12 iteration=1000 duration=102 mode=sl;\nyunjin char lvl=90/90
+  cons=6 talent=9,9,9; \nyunjin add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nyunjin
   add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nyunjin add set=\"gladiatorsfinale\"
   count=1;\nyunjin add stats hp=4780 atk=311 def%=1.328 er=0.518; #main\nyunjin add
   stats def%=0.496 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35471.698358422545
+dps: 33087.01238637169
 mode: sl
 duration: 102.00000000000051
 target_count: 1

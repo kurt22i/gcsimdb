@@ -1,5 +1,5 @@
 author: Charliex3000#9403
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\ntartaglia
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\ntartaglia
   char lvl=90/90 cons=0 talent=9,9,9; \ntartaglia add weapon=\"theviridescenthunt\"
   refine=1 lvl=90/90;\ntartaglia add set=\"heartofdepth\" count=4;\ntartaglia add
   stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cd=0.622 ; #main\ntartaglia add stats
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46360.86737855519
+dps: 45621.417228401384
 mode: sl
 duration: 99.9999999999986
 target_count: 1

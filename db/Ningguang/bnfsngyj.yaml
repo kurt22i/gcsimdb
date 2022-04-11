@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=98 mode=sl;\n\n####----GENERATED
+config: "options swap_delay=12 debug=true iteration=1000 duration=98 mode=sl;\n\n####----GENERATED
   CHARACTER BLOCK DO NOT EDIT----####\nningguang char lvl=90/90 cons=6 talent=9,9,9;\nningguang
   add weapon=\"thewidsith\" refine=3 lvl=90/90;\nningguang add set=\"archaicpetra\"
   count=2;\nningguang add set=\"gladiatorsfinale\" count=2;\nningguang add stats hp=4780
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30558.801927198085
+dps: 30803.33416965239
 mode: sl
 duration: 97.9999999999992
 target_count: 1

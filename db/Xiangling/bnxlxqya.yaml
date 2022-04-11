@@ -1,8 +1,8 @@
 author: Kurt#5846 and Charliex3000#9403
-config: "options debug=true iteration=1000 duration=108 workers=30 mode=sl; \n\n#Character
-  Builds:\nyae char lvl=90/90 cons=0 talent=9,9,9;\nyae add weapon=\"mappamare\" refine=5
-  lvl=90/90;\nyae add set=\"tenacityofthemillelith\" count=5;\nyae add stats hp=4780
-  atk=311 em=187 electro%=0.466 em=187 ; #main\nyae add stats def%=0.124 def=39.36
+config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;
+  \n\n#Character Builds:\nyae char lvl=90/90 cons=0 talent=9,9,9;\nyae add weapon=\"mappamare\"
+  refine=5 lvl=90/90;\nyae add set=\"tenacityofthemillelith\" count=5;\nyae add stats
+  hp=4780 atk=311 em=187 electro%=0.466 em=187 ; #main\nyae add stats def%=0.124 def=39.36
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=158.56 cr=0.1324 cd=0.2648;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=5;\nbennett add stats
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49315.88557910752
+dps: 42364.7194708554
 mode: sl
 duration: 108.00000000000088
 target_count: 1

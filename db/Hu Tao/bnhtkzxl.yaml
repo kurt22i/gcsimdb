@@ -1,5 +1,5 @@
 author: EnigWa#4825
-config: "options debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nhutao
+config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9; \nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nhutao
   add set=\"shimenawasreminiscence\" count=5;\nhutao add stats hp=4780 atk=311 hp%=0.466
   \ pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49779.501165156085
+dps: 48942.963952040336
 mode: sl
 duration: 102.99999999999858
 target_count: 1

@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\n\nraidenshogun
+config: "options swap_delay=12 debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35942.29910991377
+dps: 37122.39443641891
 mode: sl
 duration: 94.9999999999991
 target_count: 1

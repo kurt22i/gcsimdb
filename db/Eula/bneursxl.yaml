@@ -1,5 +1,5 @@
 author: Veggie#0581
-config: "options debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\n\n\n\neula
+config: "options swap_delay=12 debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\n\n\n\neula
   char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\neula add set=\"paleflame\" count=5;\neula add stats
   hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622 ; #main\neula add stats hp%=0.0992
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42416.14762948867
+dps: 40698.87153314926
 mode: sl
 duration: 93.0000000000023
 target_count: 1

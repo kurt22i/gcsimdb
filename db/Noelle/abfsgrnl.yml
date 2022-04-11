@@ -1,5 +1,5 @@
 author: vibe checker#5502
-config: "options debug=true iteration=1000 duration=79 workers=30 mode=sl;\n\n\nnoelle
+config: "options swap_delay=12 debug=true iteration=1000 duration=79 workers=30 mode=sl;\n\n\nnoelle
   char lvl=90/90 cons=6 talent=9,9,9; \nnoelle add weapon=\"serpentspine\" refine=1
   lvl=90/90\n    +params=[stacks=5];\nnoelle add set=\"huskofopulentdreams\" count=5;\nnoelle
   add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cd=0.622 ; #main\nnoelle add stats
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37918.48243620402
+dps: 39796.51056044968
 mode: sl
 duration: 78.9999999999992
 target_count: 1

@@ -1,5 +1,5 @@
 author: Veggie#0581
-config: "options debug=true iteration=1000 duration=96 workers=30 mode=sl;\n\nningguang
+config: "options swap_delay=12 debug=true iteration=1000 duration=96 workers=30 mode=sl;\n\nningguang
   char lvl=90/90 cons=6 talent=9,9,9;\nningguang add weapon=\"thewidsith\" refine=3
   lvl=90/90;\nningguang add set=\"archaicpetra\" count=4;\n# ningguang add set=\"gladiatorsfinale\"
   count=2;\nningguang add stats hp=4780 atk=311 atk%=0.466 cr=0.311 geo%=0.466 ; #main\nningguang
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46573.129911146825
+dps: 45015.535737941515
 mode: sl
 duration: 96.00000000000009
 target_count: 1

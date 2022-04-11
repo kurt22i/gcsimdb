@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\n\n\n\n\nhutao
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\n\n\n\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9; \nhutao add weapon=\"dragonsbane\" refine=3
   lvl=90/90;\nhutao add set=\"bloodstainedchivalry\" count=1;\nhutao add set=\"crimsonwitchofflames\"
   count=4;\nhutao add stats hp=4780 atk=311 em=186.5 pyro%=0.466 cr=0.311 ; #main\nhutao
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36050.56364485238
+dps: 35419.166241596155
 mode: sl
 duration: 99.9999999999986
 target_count: 1

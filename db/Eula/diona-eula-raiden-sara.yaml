@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=94 workers=30 mode=sl;\n\n\n\n\n\n\n\n\n\neula
+config: "options swap_delay=12 debug=true iteration=1000 duration=94 workers=30 mode=sl;\n\n\n\n\n\n\n\n\n\neula
   char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\neula add set=\"bloodstainedchivalry\" count=1;\neula
   add set=\"paleflame\" count=4;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31305.584586170153
+dps: 29950.63013915868
 mode: sl
 duration: 93.99999999999868
 target_count: 1

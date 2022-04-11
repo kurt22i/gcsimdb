@@ -1,5 +1,5 @@
 author: Charliex3000#9403
-config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n\nkamisatoayaka
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n\nkamisatoayaka
   char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"amenomakageuchi\"
   refine=5 lvl=90/90;\nkamisatoayaka add set=\"blizzardstrayer\" count=5;\nkamisatoayaka
   add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nkamisatoayaka
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48532.99155159786
+dps: 41563.72908993839
 mode: sl
 duration: 105.00000000000071
 target_count: 1

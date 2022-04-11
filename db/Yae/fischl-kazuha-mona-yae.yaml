@@ -1,6 +1,6 @@
 author: borderline#3100
 config: |+
-  options debug=true iteration=1000 duration=94 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=94 mode=sl;
 
   ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
   yaemiko char lvl=90/90 cons=0 talent=9,9,9;
@@ -87,7 +87,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44816.18329699823
+dps: 43269.614227477454
 mode: sl
 duration: 93.99999999999868
 target_count: 1

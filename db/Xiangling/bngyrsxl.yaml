@@ -1,15 +1,15 @@
 author: ShadowDawn#5332
-config: "options debug=true iteration=1000 duration=100 mode=sl;\n\n#Character Builds:\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1
-  lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=5;\nrosaria add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nrosaria add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648
-  cd=0.5296;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
-  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling
-  add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
-  cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
-  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 mode=sl;\n\n#Character
+  Builds:\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=5;\nrosaria add
+  stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nrosaria add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64
+  cr=0.2648 cd=0.5296;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=5;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
   em=39.64 cr=0.1986 cd=0.7944;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49258.443222686175
+dps: 44042.80933756047
 mode: sl
 duration: 99.9999999999986
 target_count: 1

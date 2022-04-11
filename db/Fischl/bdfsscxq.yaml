@@ -1,6 +1,6 @@
 author: Arfoire#9219, EnigWa#4825 and danii#8748
 config: |
-  options debug=true iteration=1000 duration=100 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;
 
   ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
   sucrose char lvl=90/90 cons=6 talent=9,9,9;
@@ -105,7 +105,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49392.40156360455
+dps: 48117.61073326391
 mode: sl
 duration: 99.9999999999986
 target_count: 1

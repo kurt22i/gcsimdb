@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=101 workers=30 mode=sl;\n\nrosaria
+config: "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;\n\nrosaria
   char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nrosaria add set=\"blizzardstrayer\" count=4;\nrosaria add stats hp=4780
   atk=311 atk%=0.466 cryo%=0.466 cd=0.6220; #main\nrosaria add stats def%=0.124 def=39.36
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30930.484423026974
+dps: 27666.181665167707
 mode: sl
 duration: 100.9999999999993
 target_count: 1

@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\nyaemiko
+config: "options swap_delay=12 debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\nyaemiko
   char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"solarpearl\" refine=1
   lvl=90/90;\nyaemiko add set=\"gladiatorsfinale\" count=2;\nyaemiko add set=\"thunderingfury\"
   count=2;\nyaemiko add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cd=0.622;\nyaemiko
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42678.73457210276
+dps: 42052.54494904441
 mode: sl
 duration: 94.9999999999991
 target_count: 1

@@ -1,6 +1,6 @@
 author: danii#8748
 config: |
-  options debug=true iteration=1000 duration=102 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;
 
   #Character Builds:
   yanfei char lvl=90/90 cons=6 talent=9,9,9;
@@ -95,7 +95,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46978.58660104967
+dps: 39496.33174575122
 mode: sl
 duration: 102.00000000000051
 target_count: 1

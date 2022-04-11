@@ -1,5 +1,5 @@
 author: Watter#7122
-config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\nenergy
+config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;\nenergy
   every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\n#Rotation\nactive
   ayaka;\nayaka dash, attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill,
   burst;\nganyu burst[radius=2], skill;\nayaka dash, attack, burst, skill, dash, attack:2,
@@ -73,7 +73,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 60915.23437553604
+dps: 55025.68306155246
 mode: sl
 duration: 103.99999999999928
 target_count: 1
