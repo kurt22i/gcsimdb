@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=108 mode=sl;\n\nkokomi char 
   burst,dash;\nkokomi burst,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2;\nrestart;\n"
 description: '"Petrichor": Kokomi + Geo, a basically invincible team that still deals
   nice damage.'
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41095.249201979066
+dps: 39060.6160035444
 mode: sl
 duration: 108.00000000000088
 target_count: 1

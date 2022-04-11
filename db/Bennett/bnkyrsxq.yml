@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\nkae
   skill, burst;\nbennett attack, skill, \n    attack:3, skill, \n    attack:3, skill,\n
   \   attack:3, skill\n    ;\nkaeya attack, skill;\nrosaria attack, skill;\nrestart;\n"
 description: Melt Bennett meme team.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27108.997000667478
+dps: 27664.25348495595
 mode: sl
 duration: 105.00000000000071
 target_count: 1

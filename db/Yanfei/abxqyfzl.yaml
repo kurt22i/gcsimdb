@@ -21,7 +21,7 @@ config: "yanfei char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"thewid
   skill,burst,attack;\nyanfei skill,burst,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\n\nzhongli
   burst,skill[hold=1];\nalbedo skill,burst;\nxingqiu skill,burst,attack;\nyanfei skill,attack,charge,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\n\nrestart;\n"
 description: Vape Yanfei with Geo Bros.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: albedo
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32613.15827350208
+dps: 32719.062908234795
 mode: sl
 duration: 105.00000000000071
 target_count: 1

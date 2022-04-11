@@ -61,7 +61,7 @@ config: |
       ;
   restart;
 description: EM Xiao meme team.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: fischl
   con: 6
@@ -99,7 +99,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30163.403256144262
+dps: 30233.658122697892
 mode: sl
 duration: 120.00000000000152
 target_count: 1

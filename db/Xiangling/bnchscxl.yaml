@@ -43,7 +43,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nt
   skill;\nxiangling skill,attack:2;\ntartaglia aim;\nsucrose skill,dash;\nbennett
   skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\n\nrestart;\n"
 description: International but you don't have Kazuha.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 5
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36370.32504921305
+dps: 35637.35466889753
 mode: sl
 duration: 99.9999999999986
 target_count: 1

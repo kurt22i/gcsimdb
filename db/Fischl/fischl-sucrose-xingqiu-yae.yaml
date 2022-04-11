@@ -43,7 +43,7 @@ config: |
   sucrose attack:2,skill,attack:2,charge,attack:2,charge,attack:2,charge,attack:2;
   restart;
 description: Yae Tazer, Xingqiu version with Sucrose.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: fischl
   con: 6
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41913.99641050055
+dps: 41941.19032265608
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=96 workers=30 mode=sl;\n\nni
   skill[hold=1];\nbennett burst,skill;\nxiangling burst,skill;\nningguang skill,attack:2,charge,attack:2,charge,attack:2,charge,burst,skill,charge;\nzhongli
   burst;\nbennett skill;\nxiangling skill,attack:3;\nningguang attack:2,charge,attack:2,charge,attack:2,charge,attack:2,charge;\n\nrestart;\n"
 description: Geo + Pyro, a strong and comfortable Ning team featuring Nuke ZL.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46542.81096829076
+dps: 46573.129911146825
 mode: sl
 duration: 96.00000000000009
 target_count: 1

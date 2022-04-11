@@ -29,7 +29,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\nfis
   to 25s,\n\nfischl attack:5;\nwait 16; #align rotation to 25s,\n\nrestart;\n"
 description: Budget Raiden National. Similar to the real thing in ST, but has even
   more fall-off in multitarget.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 6
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 59700.89692413189
+dps: 59879.53534947571
 mode: sl
 duration: 99.9999999999986
 target_count: 1

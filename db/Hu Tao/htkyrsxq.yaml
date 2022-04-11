@@ -29,7 +29,7 @@ config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\n\
   \   attack, charge, jump,\n    attack, charge, jump,\n    attack, charge, jump,\n
   \   attack, charge, jump;\nkaeya skill;\nwait 80;\n\nrestart;\n"
 description: Tao Freezemelt.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: hutao
   con: 0
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43163.62846719022
+dps: 38478.72612992946
 mode: sl
 duration: 126.00000000000189
 target_count: 1

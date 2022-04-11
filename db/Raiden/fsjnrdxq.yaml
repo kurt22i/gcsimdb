@@ -30,7 +30,7 @@ config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nr
   skill,burst,attack;\nfischl burst;\njean attack,skill,burst,attack;\nraiden burst,attack:5,dash,attack:5,dash,attack:4,skill;\njean
   skill,attack:5;\n"
 description: Raiden without Bennett.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: fischl
   con: 6
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42114.882363508645
+dps: 43276.597926285816
 mode: sl
 duration: 126.00000000000189
 target_count: 1

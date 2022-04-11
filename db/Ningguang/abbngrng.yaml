@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nn
   skill;\ngorou skill;\n ningguang charge;\nbennett skill,burst;\nningguang skill,burst,skill,charge;\nbennett
   skill;\nningguang attack:2,charge,attack:2,charge;\nbennett skill;\nrestart;\n"
 description: Ningguang Carry without Zhongli.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35832.202780745836
+dps: 35926.80703869696
 mode: sl
 duration: 99.9999999999986
 target_count: 1

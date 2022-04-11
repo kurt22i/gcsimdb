@@ -29,7 +29,7 @@ config: "options debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nh
   jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
   jump,\n    attack:2, charge, jump;\n    \nrestart;\n"
 description: Pure Pyro Tao. No need to worry about Tao's HP.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 6
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49808.411242868
+dps: 49779.501165156085
 mode: sl
 duration: 102.99999999999858
 target_count: 1

@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=101 workers=30 mode=sl;\n\nr
   burst,skill;\nfischl attack:2, burst;\nraidenshogun burst, attack:14,charge;\nbennett
   attack,skill;\nxiangling attack:3;\n\nrestart;\n"
 description: ""
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49453.28672039121
+dps: 49483.78514046688
 mode: sl
 duration: 100.9999999999993
 target_count: 1

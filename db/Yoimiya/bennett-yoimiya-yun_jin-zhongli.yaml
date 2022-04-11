@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\n\n
   skill;\nzhongli skill[hold=1];\nbennett skill,burst;\nyunjin skill,burst;\nyoimiya
   skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
 description: Yoimiya with Yun Jin.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 5
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37522.9658015366
+dps: 37452.08947691464
 mode: sl
 duration: 94.9999999999991
 target_count: 1

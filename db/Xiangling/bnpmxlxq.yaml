@@ -19,7 +19,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nb
   attack:3, skill;\nxingqiu attack:3;\nbennett attack:3, skill;\nxiangling attack:3;\nbennett
   attack:3, skill;\nxiangling attack:3;\nrestart;\n"
 description: Who needs a 4th character?
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 6
@@ -48,7 +48,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37192.171918118096
+dps: 38311.005199447754
 mode: sl
 duration: 105.00000000000071
 target_count: 1

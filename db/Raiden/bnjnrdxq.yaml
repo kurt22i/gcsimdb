@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\nrai
   charge, attack:3, charge, attack:3, charge, attack:1, charge;\nraiden burst, attack:5,
   dash, attack:5, dash, attack:4;\n\njean skill, attack:3;\n\nbennett skill, attack:3;\n\nrestart;\n"
 description: Sunfire Raiden.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53332.15499123227
+dps: 53990.83267156178
 mode: sl
 duration: 105.00000000000071
 target_count: 1

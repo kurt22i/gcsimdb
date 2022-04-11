@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=110 mode=sl;\n\n### CHARACTE
   skill, high_plunge, burst;\nayaka dash, attack,charge, skill, attack, burst;\nayato
   skill, attack:13;\nkazuha skill, high_plunge;\n\nrestart;\n"
 description: Ayaka Freeze with Ayato.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: ayaka
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40429.05779896594
+dps: 39332.82051491355
 mode: sl
 duration: 109.99999999999949
 target_count: 1

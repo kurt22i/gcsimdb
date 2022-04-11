@@ -18,7 +18,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nb
   skill;\nbennett attack:3, skill;\nbennett attack:3, skill;\nxiangling attack:3;\nbennett
   skill;\nrosaria skill,attack:4;\n\nwait 52;\nrestart;\n"
 description: The Rosaria reverse melt core.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: bennett
   con: 6
@@ -47,7 +47,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34852.91408473723
+dps: 34829.37940395745
 mode: sl
 duration: 99.9999999999986
 target_count: 1

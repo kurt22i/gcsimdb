@@ -98,7 +98,7 @@ config: |
   restart;
 description: Sukokoyae, except we replaced Xiangling, not Fischl. Replacing Fischl
   would ruin the team's energy.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: fischl
   con: 6
@@ -136,7 +136,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41267.77195000408
+dps: 41402.0971871256
 mode: sl
 duration: 97.9999999999992
 target_count: 1

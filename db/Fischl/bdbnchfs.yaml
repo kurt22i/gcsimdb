@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=125 mode=sl;\n\n### CHARACTE
   skill;\nbeidou attack, skill[counter=2], attack:2;\nbennett skill;\ntartaglia aim,
   aim;\n\nrestart;\n"
 description: Childe fireworks.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
 - name: beidou
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32776.768508117166
+dps: 32805.97930596358
 mode: sl
 duration: 125
 target_count: 1
