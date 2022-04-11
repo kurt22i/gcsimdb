@@ -14,10 +14,10 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
   cr=0.331 cd=0.7944 er=0.2204 ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
   every interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\n\nxingqiu
-  skill[orbitals=1],burst[orbitals=1],attack;\nbennett burst,attack,skill;\nxiangling
-  attack,burst,attack,skill;\nbennett attack:3, skill;\nxiangling attack:3;\nbennett
-  attack:3, skill;\nxingqiu attack:3;\nbennett attack:3, skill;\nxiangling attack:3;\nbennett
-  attack:3, skill;\nxiangling attack:3;\nrestart;\n"
+  skill[orbital=1],burst[orbital=1],attack;\nbennett burst,attack,skill;\nxiangling
+  attack,burst,attack,skill;\nbennett attack:2, skill;\nxiangling attack:3;\nbennett
+  attack:2, skill;\nxingqiu attack:3;\nbennett attack:2, skill;\nxiangling attack:3;\nbennett
+  attack:2, skill;\nxiangling attack:3;\nrestart;\n"
 description: Who needs a 4th character?
 hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
 team:
@@ -48,7 +48,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33231.80830958313
+dps: 35850.99611416414
 mode: sl
 duration: 105.00000000000071
 target_count: 1

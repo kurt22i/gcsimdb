@@ -1,24 +1,24 @@
 author: Watter#7122
-config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;\nenergy
+config: "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\nenergy
   every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\n#Rotation\nactive
-  ayaka;\nayaka dash, attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill,
-  burst;\nganyu burst[radius=2], skill;\nayaka dash, attack, burst, skill, dash, attack:2,
-  charge;\nkazuha skill, high_plunge;\nshenhe skill, attack;\nayaka dash, attack:2,
-  charge;\n\nganyu skill, aim;\nayaka dash, attack, skill;\nkazuha skill, high_plunge,
-  burst;\nshenhe skill, burst;\nganyu burst[radius=2], skill;\nayaka dash, attack,
-  burst, skill, dash, attack:2, charge;\nkazuha skill, high_plunge;\nshenhe skill,
-  attack;\nayaka dash, attack:2, charge;\n\nganyu skill, aim;\nayaka dash, attack,
+  ayaka;\nayaka dash, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill, burst;\nganyu
+  burst[radius=2], skill;\nayaka dash, attack, burst, skill, dash, attack:2, charge;\nkazuha
+  skill, high_plunge;\nshenhe skill, attack;\nayaka dash, attack, charge;\n\nganyu
+  skill, aim;\nayaka dash, attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe
+  skill, burst;\nganyu burst[radius=2], skill;\nayaka dash, attack, burst, skill,
+  dash, attack:2, charge;\nkazuha skill, high_plunge;\nshenhe skill, attack;\nayaka
+  dash, attack, charge;\n\nganyu skill, aim;\nayaka dash, attack, skill;\nkazuha skill,
+  high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2], skill;\nayaka
+  dash, attack, burst, skill, dash, attack:2, charge;\nkazuha skill, high_plunge;\nshenhe
+  skill, attack;\nayaka dash, attack, charge;\n\nganyu skill, aim;\nayaka dash, attack,
   skill;\nkazuha skill, high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2],
   skill;\nayaka dash, attack, burst, skill, dash, attack:2, charge;\nkazuha skill,
-  high_plunge;\nshenhe skill, attack;\nayaka dash, attack:2, charge;\n\nganyu skill,
+  high_plunge;\nshenhe skill, attack;\nayaka dash, attack, charge;\n\nganyu skill,
   aim;\nayaka dash, attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill,
   burst;\nganyu burst[radius=2], skill;\nayaka dash, attack, burst, skill, dash, attack:2,
-  charge;\nkazuha skill, high_plunge;\nshenhe skill, attack;\nayaka dash, attack:2,
-  charge;\n\nganyu skill, aim;\nayaka dash, attack, skill;\nkazuha skill, high_plunge,
-  burst;\nshenhe skill, burst;\nganyu burst[radius=2], skill;\nayaka dash, attack,
-  burst, skill, dash, attack:2, charge;\nshenhe skill[hold=1];\nkazuha skill, high_plunge;\nayaka
-  dash, attack:2, charge, attack:2, charge;\nrestart;\n\n#Characters\nayaka char lvl=90/90
-  cons=0 talent=9,9,9;\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nkazuha char lvl=90/90
+  charge;\nshenhe skill[hold=1];\nkazuha skill, high_plunge;\nayaka dash, attack:2,
+  charge, attack:2, charge;\nrestart;\n\n#Characters\nayaka char lvl=90/90 cons=0
+  talent=9,9,9;\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nkazuha char lvl=90/90
   cons=0 talent=9,9,9;\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\n\n#Weapons\nayaka
   add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nganyu add weapon=\"mouunsmoon\"
   refine=1 lvl=90/90;\nkazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nshenhe
@@ -73,8 +73,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 55025.68306155246
+dps: 56474.8928479274
 mode: sl
-duration: 103.99999999999928
+duration: 106.99999999999939
 target_count: 1
 viewer_key: usaNyClchcTfgKV6nRHvg

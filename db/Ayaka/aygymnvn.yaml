@@ -1,5 +1,5 @@
 author: Charliex3000#9403
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nmona
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nmona
   char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"prototypeamber\" refine=5
   lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add stats hp=4780
   atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124 def=39.36
@@ -64,8 +64,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40902.53122489969
+dps: 43388.04348903386
 mode: sl
-duration: 99.9999999999986
+duration: 105.00000000000071
 target_count: 1
 viewer_key: RUjRpZW7rMkrg45AoAegs
