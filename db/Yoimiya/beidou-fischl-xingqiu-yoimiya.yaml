@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 
   skill,burst;\nfischl skill;\nbeidou skill,burst;\nyoimiya skill,attack:28;\nxingqiu
   skill,burst;\nfischl burst;\nbeidou skill,burst;\nyoimiya skill,attack:28;\nrestart;\n"
 description: Yoimiya Tazer.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: beidou
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35571.40963748625
+dps: 35575.28230915544
 mode: sl
 duration: 91.999999999999
 target_count: 1

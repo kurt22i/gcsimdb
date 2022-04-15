@@ -30,7 +30,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 
   skill;\nalbedo skill;\nzhongli skill[hold=1];\nxiao skill, skill, burst,\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1],\nhigh_plunge[plunge_hits=1];\nzhongli
   skill[hold=1];\nalbedo skill;\nraidenshogun skill, burst, attack:14,charge;\nrestart;\n"
 description: Xiaoden.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: albedo
   con: 0
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37522.68148800204
+dps: 37529.17110427855
 mode: sl
 duration: 91.999999999999
 target_count: 1

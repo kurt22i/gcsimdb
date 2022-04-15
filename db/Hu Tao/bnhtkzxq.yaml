@@ -29,7 +29,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30
   skill, high_plunge;\nbennett skill;\n\nrestart;\n"
 description: Tao with Bennett. Bennett's buff is more than enough to make up for the
   lost A4.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 56562.74434334002
+dps: 56513.35402348133
 mode: sl
 duration: 108.00000000000088
 target_count: 1

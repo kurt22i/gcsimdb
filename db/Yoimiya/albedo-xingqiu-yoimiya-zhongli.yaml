@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 
   skill[hold=1],burst;\nxingqiu skill,burst;\nalbedo skill,burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:3;\nrestart;\n"
 description: Double Geo Vape Yoimiya, a very comfortable team to play with respectable
   damage.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36783.61254307549
+dps: 36809.271765436104
 mode: sl
 duration: 91.999999999999
 target_count: 1

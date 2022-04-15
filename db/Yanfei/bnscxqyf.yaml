@@ -25,7 +25,7 @@ config: "yanfei char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"thewid
   skill,burst;\nsucrose skill,attack:5;\nyanfei skill,attack,charge,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
   attack,skill,attack;\n\nrestart;\n"
 description: Vape Yanfei.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37914.159166691155
+dps: 37827.103789297886
 mode: sl
 duration: 103.99999999999928
 target_count: 1

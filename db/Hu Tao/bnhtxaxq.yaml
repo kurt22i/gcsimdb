@@ -27,7 +27,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=129 workers=30
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
   charge,attack;\nxiao burst,high_plunge[collision=1],high_plunge[collision=1],high_plunge[collision=1],high_plunge[collision=1];\n\nrestart;\n"
 description: Tired of all the fancy double VV setups? Introducing xiTao!
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44830.917241244926
+dps: 44786.34428141706
 mode: sl
 duration: 129.00000000000193
 target_count: 1

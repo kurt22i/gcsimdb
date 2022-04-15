@@ -29,7 +29,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=114 workers=30
   jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump;\nrosaria skill,
   attack:2;\nkaeya skill;\n\n\nrestart;\n"
 description: Tao Freezemelt.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: hutao
   con: 0
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39056.227703605495
+dps: 39027.41641732628
 mode: sl
 duration: 114.00000000000126
 target_count: 1

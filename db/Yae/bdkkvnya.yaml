@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2,
   dash,\n    attack:2\n    ;\nbeidou skill[counter=1];\nrestart;\n"
 description: Mikomi Taser with Venti and no Fischl.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: beidou
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29541.55859402965
+dps: 29517.187907391974
 mode: sl
 duration: 99.9999999999986
 target_count: 1

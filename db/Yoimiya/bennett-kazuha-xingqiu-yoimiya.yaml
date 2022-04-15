@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 
   skill;\nxingqiu skill,burst;\nbennett skill,burst;\nkazuha skill,burst;\nyoimiya
   skill,attack:5,attack:5,attack:5,attack:3;\nkazuha skill;\nrestart;\n"
 description: Yoimiya Vape, no shield.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 5
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39880.752766621255
+dps: 39943.62576663572
 mode: sl
 duration: 91.999999999999
 target_count: 1

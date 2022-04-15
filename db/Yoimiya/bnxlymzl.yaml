@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=128 workers=30
   skill;\nxiangling attack:4;\nzhongli attack:5, skill[hold=1];\nbennett burst,  skill;\nxiangling
   burst, skill;\nyoimiya skill,attack:5, dash ,attack:5, dash,attack:5;\nbennett skill;\nrestart;\n"
 description: Pure-Pyro Yoimiya with Shielding.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 5
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40200.97920309932
+dps: 40224.188039291024
 mode: sl
 duration: 128.00000000000009
 target_count: 1

@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   amount=1;\n\nactive ayaka;\nayaka skill;\nrosaria burst, skill;\nsucrose skill;\nmona
   skill,burst;\nayaka dash,skill,burst;\nsucrose skill;\nrosaria skill;\nayaka dash,attack:2,charge;\nrestart;\n"
 description: Ayaka Freeze without additional 5* limiteds.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30132.926000816566
+dps: 30064.20322988881
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -54,7 +54,7 @@ config: |
   restart;
 description: Xiangling vape carry supported by Bennett and 4VV Xiao. Assumes collision
   on all plunges.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -92,7 +92,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42187.891304698955
+dps: 42165.72549600084
 mode: sl
 duration: 102.00000000000051
 target_count: 1

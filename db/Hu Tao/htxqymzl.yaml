@@ -41,7 +41,7 @@ config: |
 
   restart;
 description: Hu Tao + Yoimiya.
-hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: hutao
   con: 0
@@ -79,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50017.973099114824
+dps: 50069.8158423157
 mode: sl
 duration: 109.99999999999949
 target_count: 1
