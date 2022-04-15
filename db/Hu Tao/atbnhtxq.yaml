@@ -1,0 +1,90 @@
+author: MadEye#9307
+config: |
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
+  bennett add set="instructor" count=5;
+  bennett add stats def%=0.09920 def=31.48 hp=3977 hp%=0.07940 atk=265.1 atk%=0.1587 er=0.9588 em=31.71 cr=0.4174 cd=0.3707 pyro%=0.3480;
+
+  ayato char lvl=90/90 cons=0 talent=9,9,9;
+  ayato add weapon="favoniussword" refine=3 lvl=90/90;
+  ayato add set="emblemofseveredfate" count=4;
+  ayato add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311; #main
+  ayato add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.1589 cd=0.4237 er=0.4408 ; #subs
+
+  hutao char lvl=90/90 cons=0 talent=9,9,9;
+  hutao add weapon="deathmatch" refine=1 lvl=90/90;
+  hutao add set="shimenawasreminiscence" count=4;
+  hutao add stats def%=0.1240 def=39.36 hp=5288 hp%=0.5652 atk=344.1 atk%=0.09920 er=0.1102 em=79.28 cr=0.3972 cd=1.284 pyro%=0.4660;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.3306 em=39.64 cr=0.6416 cd=0.6620 hydro%=0.4660;
+
+  options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;
+
+  target lvl=100 resist=0.1;
+
+  energy every interval=480,720 amount=1;
+
+  active xingqiu;
+
+  xingqiu skill[orbital=1], burst, attack:1;
+  bennett attack,burst,attack,skill, attack:3;
+  ayato burst,attack;
+  hutao skill, attack, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge;
+  bennett attack,skill;
+  ayato skill, attack:4;
+
+  restart;
+description: Tao with Ayato.
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+team:
+- name: ayato
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.9588000000000001
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.9588
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: hutao
+  con: 0
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 44149.215704686816
+mode: sl
+duration: 103.99999999999928
+target_count: 1
+viewer_key: TskZh05jVhhYG6eUhO_Fk

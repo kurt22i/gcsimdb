@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nbeidou
   skill[counter=2], attack:3;\n\nrestart;\n"
 description: ""
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: beidou
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34826.1358748459
+dps: 34827.740260032646
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -1,75 +1,41 @@
 author: rf#5773 and clrE#6290
-config: |
-  ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
-  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
-  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
-  xingqiu add set="emblemofseveredfate" count=4;
-  xingqiu add stats hp=4780 atk=311.0 atk%=0.466 cr=0.3110 hydro%=0.4660;
-  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
-
-  amber char lvl=90/90 cons=2 talent=9,9,9;
-  amber add weapon="favoniuswarbow" refine=3 lvl=90/90;
-  amber add set="instructor" count=4;
-  amber add stats hp=3571 atk=232 er=0.387 cr=0.311 pyro%=0.348 ; #main
-  amber add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.0662 cd=0.7944;
-
-  hutao char lvl=90/90 cons=0 talent=9,9,9;
-  hutao add weapon="dragonsbane" refine=3 lvl=90/90;
-  hutao add set="crimsonwitchofflames" count=4;
-  hutao add stats hp=4780 em=187 atk=311.0 cr=0.3110 pyro%=0.4660;
-  hutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-
-  kazuha char lvl=90/90 cons=0 talent=6,9,9;
-  kazuha add weapon="favoniussword" refine=3 lvl=90/90;
-  kazuha add set="viridescentvenerer" count=4;
-  kazuha add stats hp=4780 atk=311.0 em=187 em=187  em=187;
-  kazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=118.92 cr=0.331 cd=0.1324;
-
-  options debug=true iteration=100 duration=127 workers=30 mode=sl swap_delay=12;
-  target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
-  energy every interval=480,720 amount=1;
-  active xingqiu;
-
-  xingqiu skill[orbitals=1],burst[orbitals=1],attack;
-  kazuha attack,burst;
-  amber attack,burst;
-  wait 35;
-  kazuha skill,high_plunge,attack:2;
-  hutao skill,attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump;
-  kazuha skill,high_plunge,attack:2;
-
-  xingqiu skill[orbitals=1],burst[orbitals=1],attack;
-  kazuha attack,burst;
-  amber attack,burst;
-  wait 35;
-  kazuha skill,high_plunge,attack:2;
-  hutao skill,attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:2,charge,jump,
-  attack:1,charge,jump,
-  attack:1,charge,burst;
-  kazuha skill,high_plunge,attack:2;
-
-  restart;
+config: "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"dragonsbane\"
+  refine=3 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\" count=4;\nhutao add
+  stats hp=4780 atk=311 hp%=0.466 cr=0.311 pyro%=0.466 ; #main\nhutao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
+  stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
+  cr=0.331 cd=0.662;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
+  stats hp=4780 atk=311 er=0.518 em=187 em=187 ; #main\nkazuha add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=158.56 cr=0.3972
+  cd=0.1324;\n\namber char lvl=90/90 cons=2 talent=9,9,9;\namber add weapon=\"favoniuswarbow\"
+  refine=3 lvl=90/90;\namber add set=\"instructor\" count=4;\namber add stats hp=3571
+  atk=232 er=0.387 cr=0.311 pyro%=0.348 ; #main\namber add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.1324;\n\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu
+  skill[orbital=1], burst[orbital=1], attack:1;\nkazuha burst, attack;\namber burst;\nwait
+  30;\nkazuha attack, skill, high_plunge, attack;\nhutao skill, attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:1, charge, burst;\nkazuha skill, high_plunge;\n\nxingqiu skill[orbital=1],
+  burst[orbital=1], attack:1;\nkazuha burst, attack;\namber burst;\nwait 30;\nkazuha
+  attack, skill, high_plunge, attack;\nhutao skill, attack:2, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
+  charge, jump;\nkazuha attack, skill, high_plunge, attack:3;\n\nrestart;\n"
 description: VV Vape Tao with Amber. Hu Tao dying drops the DPS to 0, so make sure
   your dodging is good enough to play this.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: amber
   con: 2
   weapon: favoniuswarbow
   refine: 3
-  er: 0.49720000000000003
+  er: 0.7176
   talents:
     attack: 9
     skill: 9
@@ -87,7 +53,7 @@ team:
   con: 0
   weapon: favoniussword
   refine: 3
-  er: 0.3306
+  er: 0.8486
   talents:
     attack: 9
     skill: 9
@@ -96,13 +62,13 @@ team:
   con: 6
   weapon: favoniussword
   refine: 3
-  er: 0.2204
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 38498.93336346965
+dps: 47420.39206290745
 mode: sl
-duration: 126.00000000000189
+duration: 188.99999999999537
 target_count: 1
 viewer_key: IMtuwfuyaedfKpPn06W_F

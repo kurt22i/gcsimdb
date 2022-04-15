@@ -4,7 +4,7 @@ config: |
   ayaka char lvl=90/90 cons=0 talent=9,9,9;
   ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
   ayaka add set="blizzardstrayer" count=4;
-  ayaka add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220; #main
+  ayaka add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.6220; #main
   ayaka add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
 
   kokomi char lvl=90/90 cons=0 talent=9,9,9;
@@ -22,7 +22,7 @@ config: |
   shenhe char lvl=90/90 cons=0 talent=9,9,9;
   shenhe add weapon="favoniuslance" refine=3 lvl=90/90;
   shenhe add set="noblesseoblige" count=4;
-  shenhe add stats hp=4780 atk=311 atk%=0.466 atk%=0.466 cr=0.3110; #main
+  shenhe add stats hp=4780 atk=311 atk%=0.466 atk%=0.466 cr=0.311; #main
   shenhe add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.331 cd=0.1324;
 
   # ----
@@ -32,18 +32,18 @@ config: |
   # ----
   active ayaka;
 
-  ayaka dash, attack:2, skill, attack:2, charge;
+  ayaka dash, attack, skill, attack:2, charge;
   kazuha skill[hold=1], high_plunge, burst;
   shenhe skill, burst;
   kokomi skill;
-  ayaka dash, attack:2, skill, burst, attack:3, charge;
+  ayaka dash, attack:2, skill, burst, attack, charge;
   kazuha skill, high_plunge;
   shenhe skill, attack;
-  ayaka dash, attack:2, charge;
+  ayaka dash, attack, charge, dash, attack, charge;
 
   restart;
 description: Ayaka Freeze with Kokomi.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: ayaka
   con: 0
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 54092.649014349394
+dps: 54826.320628577945
 mode: sl
 duration: 102.00000000000051
 target_count: 1

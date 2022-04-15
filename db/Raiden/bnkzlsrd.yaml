@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   burst;\nlisa burst;\nraiden burst,attack:4,charge,attack:4,charge,attack:2,charge;\nbennett
   skill;\nkazuha skill[hold=1],high_plunge;\nrestart;\n"
 description: Raiden Hypercarry with Lisa.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35766.51303902369
+dps: 36203.08134787411
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -1,0 +1,70 @@
+author: Arfoire#9219
+config: "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;\n\n#Character
+  Builds:\nxiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nxiao add set=\"viridescentvenerer\" count=2;\nxiao add set=\"gladiatorsfinale\"
+  count=2;\nxiao add stats hp=4780 atk=311 atk%=0.466 anemo%=0.466 cd=0.622;\nxiao
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612
+  em=39.64 cr=0.3972 cd=0.1324;\n\nningguang char lvl=90/90 cons=6 talent=9,9,9; \nningguang
+  add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nningguang add
+  set=\"shimenawasreminiscence\" count=2;\nningguang add set=\"archaicpetra\" count=2;\nningguang
+  add stats hp=4780 atk=311 atk%=0.466 geo%=0.466 cr=0.311 ; #main\nningguang add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.2317 cd=0.5958;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli
+  add weapon=\"blacktassel\" refine=5 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
+  count=4;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\n\n#Enemies and Particles:\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\n#Action List:\nactive zhongli;\n\nzhongli skill[hold=1];\nbennett
+  skill, burst, attack:2;\nningguang skill, dash, burst, skill, charge;\nxiao skill:2,
+  burst,\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n
+  \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n
+  \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n
+  \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1]\n    ;\n    \nrestart;\n"
+description: Double Geo Xiao without Albedo. Assumes collisions on all plunges.
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: ningguang
+  con: 6
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiao
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: zhongli
+  con: 0
+  weapon: blacktassel
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 29963.947194100714
+mode: sl
+duration: 100.9999999999993
+target_count: 1
+viewer_key: 4qYHkh1EX7OFseho3owty

@@ -26,7 +26,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   attack;\n\nxingqiu attack +is_onfield;\nfischl attack +is_onfield;\nalbedo attack
   +is_onfield;\n"
 description: Sucrose Taser with Albedo.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: albedo
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44871.01448037951
+dps: 44867.48283936752
 mode: apl
 duration: 103.99999999999928
 target_count: 1

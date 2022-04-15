@@ -1,5 +1,5 @@
 author: Cold MsSteak#8744 and rf#5773
-config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nhutao
+config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nhutao
   add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 hp%=0.466
   cr=0.311 pyro%=0.466 ; #main\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -29,7 +29,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30
   skill, high_plunge;\nbennett skill;\n\nrestart;\n"
 description: Tao with Bennett. Bennett's buff is more than enough to make up for the
   lost A4.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: bennett
   con: 6
@@ -67,8 +67,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52956.08472085568
+dps: 56562.74434334002
 mode: sl
-duration: 126.00000000000189
+duration: 108.00000000000088
 target_count: 1
 viewer_key: C7tVJ__6U_11oN6tKnU2f

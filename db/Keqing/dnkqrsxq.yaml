@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=98 workers=30 
   skill;\nkeqing skill,\n       attack:3,\n       attack, charge,\n       attack,
   charge,\n       attack, charge,\n       attack, charge,\n       attack, charge;\n\nrestart;\n"
 description: Physical Keqing.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: diona
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 25148.34877660368
+dps: 25122.638151663865
 mode: sl
 duration: 97.9999999999992
 target_count: 1

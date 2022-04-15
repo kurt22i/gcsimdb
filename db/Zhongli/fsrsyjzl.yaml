@@ -27,7 +27,7 @@ config: "options swap_delay=12 iteration=1000 duration=102 mode=sl;\nyunjin char
   30;\nyunjin skill,burst;\nwait 50;\nzhongli attack:5, dash;\nzhongli attack:5, dash;\nzhongli
   attack:5, dash;\nzhongli attack:5, dash;\nwait 60;\nrestart;\n"
 description: Pikeli.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: fischl
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33087.01238637169
+dps: 33081.122444959066
 mode: sl
 duration: 102.00000000000051
 target_count: 1

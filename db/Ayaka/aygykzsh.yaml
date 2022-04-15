@@ -1,41 +1,27 @@
-author: Watter#7122
-config: "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\nenergy
-  every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\n#Rotation\nactive
-  ayaka;\nayaka dash, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill, burst;\nganyu
-  burst[radius=2], skill;\nayaka dash, attack, burst, skill, dash, attack:2, charge;\nkazuha
-  skill, high_plunge;\nshenhe skill, attack;\nayaka dash, attack, charge;\n\nganyu
-  skill, aim;\nayaka dash, attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe
-  skill, burst;\nganyu burst[radius=2], skill;\nayaka dash, attack, burst, skill,
-  dash, attack:2, charge;\nkazuha skill, high_plunge;\nshenhe skill, attack;\nayaka
-  dash, attack, charge;\n\nganyu skill, aim;\nayaka dash, attack, skill;\nkazuha skill,
-  high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2], skill;\nayaka
-  dash, attack, burst, skill, dash, attack:2, charge;\nkazuha skill, high_plunge;\nshenhe
-  skill, attack;\nayaka dash, attack, charge;\n\nganyu skill, aim;\nayaka dash, attack,
-  skill;\nkazuha skill, high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2],
-  skill;\nayaka dash, attack, burst, skill, dash, attack:2, charge;\nkazuha skill,
-  high_plunge;\nshenhe skill, attack;\nayaka dash, attack, charge;\n\nganyu skill,
-  aim;\nayaka dash, attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill,
-  burst;\nganyu burst[radius=2], skill;\nayaka dash, attack, burst, skill, dash, attack:2,
-  charge;\nshenhe skill[hold=1];\nkazuha skill, high_plunge;\nayaka dash, attack:2,
-  charge, attack:2, charge;\nrestart;\n\n#Characters\nayaka char lvl=90/90 cons=0
-  talent=9,9,9;\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nkazuha char lvl=90/90
-  cons=0 talent=9,9,9;\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\n\n#Weapons\nayaka
-  add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nganyu add weapon=\"mouunsmoon\"
-  refine=1 lvl=90/90;\nkazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nshenhe
-  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\n\n#Artifacts\nayaka add set=\"blizzardstrayer\"
-  count=5;\nganyu add set=\"blizzardstrayer\" count=5;\nkazuha add set=\"viridescentvenerer\"
-  count=5;\nshenhe add set=\"noblesseoblige\" count=5;\n\n#Main stats\nayaka add stats
-  hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.6620;\nganyu add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1653
-  em=39.64 cr=0.3972 cd=0.6620;\nkazuha add stats hp=4780 atk=311 em=187 em=187 em=187;\nkazuha
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=118.92 cr=0.3972 cd=0.5296;\nshenhe add stats hp=4780 atk=311 atk%=0.4660 atk%=0.4660
+author: Watter#7122 and cyan#3224
+config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\nayaka
+  char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5
+  lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780
+  atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.6620;\n\nganyu
+  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"mouunsmoon\" refine=1 lvl=90/90;\nganyu
+  add set=\"blizzardstrayer\" count=4;\nganyu add stats hp=4780 atk=311 atk%=0.4660
+  cryo%=0.4660 cd=0.6220;\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2755 em=39.64 cr=0.3972 cd=0.5958;\n\nkazuha char lvl=90/90
+  cons=0 talent=9,9,9;\nkazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha
+  add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780 atk=311 em=187
+  em=187 em=187;\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;\n\nshenhe char lvl=90/90 cons=0
+  talent=9,9,9;\nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe add
+  set=\"noblesseoblige\" count=4;\nshenhe add stats hp=4780 atk=311 atk%=0.4660 atk%=0.4660
   atk%=0.4660;\nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.2976 er=0.1102 em=39.64 cr=0.3972 cd=0.5296;\n"
+  atk%=0.2976 er=0.1653 em=39.64 cr=0.3972 cd=0.4634;\n\n# ----\nenergy every interval=480,720
+  amount=1;\ntarget lvl=100 resist=0.1;\n\n# ----\nactive ayaka;\n\nayaka dash, attack,
+  skill;\nkazuha skill[hold=1], high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2],
+  skill;\nayaka dash, attack, skill, burst;\nkazuha skill, high_plunge;\nshenhe skill,
+  attack;\nayaka dash, attack:4, charge;\nganyu skill;\n\nrestart;\n"
 description: Mono-cryo Ayaka. No shielding or healing.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: ayaka
   con: 0
@@ -50,16 +36,16 @@ team:
   con: 0
   weapon: mouunsmoon
   refine: 1
-  er: 0.1653
+  er: 0.2755
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: kazuha
   con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
+  weapon: ironsting
+  refine: 5
+  er: 0.6612
   talents:
     attack: 9
     skill: 9
@@ -68,13 +54,13 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.1102
+  er: 0.1653
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 56474.8928479274
+dps: 59630.19095320164
 mode: sl
-duration: 106.99999999999939
+duration: 102.99999999999858
 target_count: 1
 viewer_key: usaNyClchcTfgKV6nRHvg

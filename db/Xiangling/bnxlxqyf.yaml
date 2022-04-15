@@ -7,13 +7,13 @@ config: |
   yanfei add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
   yanfei add set="instructor" count=4;
   yanfei add stats hp=3571 atk=232 em=139.3 pyro%=0.466 cr=0.232 ; #main
-  yanfei add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.1986 cd=0.662;
+  yanfei add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.0993 cd=0.1986;
 
   xiangling char lvl=90/90 cons=6 talent=9,9,9;
   xiangling add weapon="thecatch" refine=5 lvl=90/90;
   xiangling add set="emblemofseveredfate" count=5;
   xiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main
-  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;
+  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
 
   xingqiu char lvl=90/90 cons=6 talent=9,9,9;
   xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
@@ -25,45 +25,43 @@ config: |
   bennett add weapon="thealleyflash" refine=1 lvl=90/90;
   bennett add set="noblesseoblige" count=5;
   bennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main
-  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=237.84 cr=0.1655 cd=0.331;
+  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
   #Enemies and Particles:
   target lvl=100 resist=.1;
-  energy every interval=480,720 amount=1;
+  energy every interval=240,360 amount=1;
 
   #Action List:
   active xingqiu;
-  xingqiu burst[orbital=0], attack;
+  xingqiu burst[orbital=1], attack;
   bennett burst, attack;
-  xiangling skill, attack:2;
   yanfei skill, attack;
-  xiangling attack, burst;
-  xingqiu swap;
-  wait 2;
+  xiangling skill, burst;
   xingqiu
-      skill[orbital=1],
-      attack:2, dash,
-      attack:2, dash,
-      attack:2, dash,
-      attack:2, dash,
-      attack:2, dash,
-      attack:2, dash,
-      attack:2, dash,
-      attack:2
-      ;
-  bennett skill, attack;
+    skill[orbital=1],
+    attack:2, dash,
+    attack:2, dash,
+    attack:2, dash,
+    attack:2, dash,
+    attack:2, dash,
+    attack:2, dash,
+    attack:2, dash,
+    attack:1
+    ;
+  yanfei skill, attack, charge;
   xiangling attack:2;
-  bennett attack, skill;
+  bennett skill, attack:2;
   xiangling attack:2;
+  wait 9;
   restart;
 description: Yanfei National, starring TTDS.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: bennett
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.8486
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
@@ -72,7 +70,7 @@ team:
   con: 6
   weapon: thecatch
   refine: 5
-  er: 0.8486
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
@@ -95,7 +93,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39496.33174575122
+dps: 46014.83133139715
 mode: sl
 duration: 102.00000000000051
 target_count: 1

@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=91 workers=30 
   aim[weakspot=1]:2;\nganyu aim[weakspot=1];\nkazuha skill, high_plunge;\nshenhe skill;\nganyu
   skill, aim[weakspot=1]:2;\nrestart;\n"
 description: Full 5* Freeze Ganyu.
-hash: 932ea0bee663e52ba8f12907d6b49bee901912b2
+hash: 011ef42037eb3fdcd84e5545d9b5a4d0ba13643b
 team:
 - name: ganyu
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43550.79018011296
+dps: 43284.80640953015
 mode: sl
 duration: 90.99999999999874
 target_count: 1
