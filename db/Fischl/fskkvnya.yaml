@@ -1,31 +1,31 @@
 author: Arfoire#9219
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#-----------------------------------------------------\n\n\n#Character
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#-----------------------------------------------------\n\n\n#Character
   builds:\nyaemiko char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"thewidsith\"
   refine=3 lvl=90/90;\nyaemiko add set=\"shimenawasreminiscence\" count=2;\nyaemiko
-  add set=\"gladiatorsfinale\" count=2;\nyaemiko add stats hp=4780 atk=311 atk%=0.466
+  add set=\"thunderingfury\" count=2;\nyaemiko add stats hp=4780 atk=311 atk%=0.466
   electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;\n\n\nventi
   char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"thestringless\" refine=3
-  lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats hp=4780
+  lvl=90/90;\nventi add set=\"viridescentvenerer\" count=4;\nventi add stats hp=4780
   atk=311 em=561 ; #main\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
   atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.1324 cd=0.3972;\n\n\nfischl char
   lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
-  add set=\"shimenawasreminiscence\" count=2;\nfischl add set=\"gladiatorsfinale\"
-  count=3;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
-  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
-  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9;
-  \nkokomi add weapon=\"hakushinring\" refine=5 lvl=90/90;\nkokomi add set=\"oceanhuedclam\"
+  add set=\"shimenawasreminiscence\" count=2;\nfischl add set=\"thunderingfury\" count=2;\nfischl
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9; \nkokomi
+  add weapon=\"hakushinring\" refine=5 lvl=90/90;\nkokomi add set=\"oceanhuedclam\"
   count=5;\nkokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.359 ; #main\nkokomi
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.0992 er=0.3306
-  em=198.2 cr=0.0662 cd=0.1324;\n\n\n#-----------------------------------------------------\n\n\n#Enemies
-  and particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n\n#-----------------------------------------------------\n#Action
-  List:\nactive fischl;\n\nfischl attack:2, skill;\nyaemiko skill:3;\nventi skill,
-  attack;\nkokomi attack:2, skill;\nyaemiko burst, skill:3;\nfischl attack:2, burst;\nventi
-  skill, burst;\nkokomi burst, attack:2, dash,\n    attack:2, dash,\n    attack:2,
-  dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2,
-  dash,\n    attack:2, dash,\n    attack:2\n    ;\nventi skill, attack;\nrestart;\n"
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.1984 er=0.1102
+  em=237.84 cr=0.0662 cd=0.1324;\n\n\n#-----------------------------------------------------\n\n\n#Enemies
+  and particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n\n#-----------------------------------------------------\n\n\n#Action
+  List:\nactive fischl;\n\nfischl attack:2, skill;\nyaemiko skill:3;\nkokomi attack:2,
+  skill;\nventi burst, skill, attack;\nyaemiko burst, skill:3;\nkokomi attack:2;\nfischl
+  attack:2, burst;\nventi skill, attack;\nkokomi burst,\n  attack:2, dash,\n  attack:2,
+  dash,\n  attack:2, dash,\n  attack:2, dash,\n  attack:2, dash,\n  attack:2, dash,\n
+  \ attack:2\n  ;\nventi skill, attack;\nrestart;\n"
 description: Mikomi taser with Venti.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: fischl
   con: 6
@@ -40,7 +40,7 @@ team:
   con: 0
   weapon: hakushinring
   refine: 5
-  er: 0.3306
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43725.25487640821
+dps: 44285.54039177066
 mode: sl
 duration: 99.9999999999986
 target_count: 1

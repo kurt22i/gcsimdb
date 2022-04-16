@@ -1,0 +1,89 @@
+author: Arfoire#9219
+config: |
+  options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;
+
+  #Character Builds:
+  hutao char lvl=90/90 cons=0 talent=9,9,9;
+  hutao add weapon="dragonsbane" refine=3 lvl=90/90;
+  hutao add set="crimsonwitchofflames" count=4;
+  hutao add stats hp=4780 atk=311 hp%=0.466 pyro%=0.466 cr=0.311 ; #main
+  hutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main
+  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.4408 em=39.64 cr=0.1324 cd=0.2648;
+
+  #Enemies and Particles:
+  target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
+
+  #Action List:
+  active xingqiu;
+
+  xingqiu skill, burst, attack;
+  hutao skill, attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:1, charge, burst;
+  hutao attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2
+      ;
+
+  xingqiu skill, burst, attack;
+  hutao skill, attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge, jump,
+      attack:2, charge;
+  hutao attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2, jump,
+      attack:2
+      ;
+  restart;
+description: Tao Vape core, the rest is optional.
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+team:
+- name: hutao
+  con: 0
+  weapon: dragonsbane
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.9588000000000001
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 27386.090977547476
+mode: sl
+duration: 105.00000000000071
+target_count: 1
+viewer_key: 4DO-tXCLdHqZ81AzPUgKx

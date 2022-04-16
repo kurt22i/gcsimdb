@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\nyanfei
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\nyanfei
   char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"sacrificialfragments\"
   refine=3 lvl=90/90;\nyanfei add set=\"wandererstroupe\" count=4;\nyanfei add set=\"archaicpetra\"
   count=1;\nyanfei add stats hp=4780 atk=311 em=560 ; #main\nyanfei add stats def%=0.124
@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\
   skill,burst;\nfischl skill;\nyanfei skill,burst,attack:3,charge,attack:3,charge,attack:3,charge,attack:3,charge,attack:3,charge;\n\nbennett
   skill,burst;\nbeidou skill,burst;\nfischl burst;\nyanfei skill,attack:3,charge,attack:3,charge,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Yanfei Overload. Better against 2+ targets.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: beidou
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 23978.74539897894
+dps: 23642.830028815733
 mode: sl
 duration: 99.9999999999986
 target_count: 1

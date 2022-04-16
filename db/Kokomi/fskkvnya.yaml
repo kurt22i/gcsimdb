@@ -1,5 +1,5 @@
 author: Arfoire#9219
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#-----------------------------------------------------\n\n\n#Characters:\nyaemiko
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#-----------------------------------------------------\n\n\n#Characters:\nyaemiko
   char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"thewidsith\" refine=3
   lvl=90/90;\nyaemiko add set=\"emblemofseveredfate\" count=4;\nyaemiko add stats
   hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124
@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#
   charge, \n    attack:2, charge, \n    attack:2, charge,\n    attack:3,\n    attack:2,
   charge\n    ;\nrestart;\n"
 description: Kokomi Taser with Yae and Venti.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: fischl
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41465.469840449194
+dps: 37852.27443083016
 mode: sl
 duration: 99.9999999999986
 target_count: 1

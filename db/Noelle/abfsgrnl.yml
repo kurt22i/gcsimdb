@@ -1,5 +1,5 @@
 author: vibe checker#5502
-config: "options debug=true iteration=1000 duration=79 workers=30 mode=sl;\n\n\nnoelle
+config: "options swap_delay=12 debug=true iteration=1000 duration=79 workers=30 mode=sl;\n\n\nnoelle
   char lvl=90/90 cons=6 talent=9,9,9; \nnoelle add weapon=\"serpentspine\" refine=1
   lvl=90/90\n    +params=[stacks=5];\nnoelle add set=\"huskofopulentdreams\" count=5;\nnoelle
   add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cd=0.622 ; #main\nnoelle add stats
@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=79 workers=30 mode=sl;\n\n\n
   attack:3, dash;\nfischl burst;\ngorou skill, attack;\nnoelle attack:3, dash, attack:3,
   dash, attack:3, dash;\ngorou skill, attack;\nnoelle attack:3, dash, attack:2, dash;\nrestart;\n"
 description: Noelle with Fischl.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40161.350341314
+dps: 39782.07798144194
 mode: sl
 duration: 78.9999999999992
 target_count: 1

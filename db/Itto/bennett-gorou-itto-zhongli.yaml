@@ -27,8 +27,8 @@ config: |-
 
   ####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####
 
-  # Default options
-  options iteration=1000 duration=101 mode=sl;
+  # Default options swap_delay=12
+  options swap_delay=12 iteration=1000 duration=101 mode=sl;
 
   # Default enemy
   target lvl=100 resist=.1;
@@ -92,7 +92,7 @@ config: |-
 
   restart;
 description: Solid Geo Team with Bennett.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -130,7 +130,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40679.88644372031
+dps: 39347.1959867788
 mode: sl
 duration: 100.9999999999993
 target_count: 1

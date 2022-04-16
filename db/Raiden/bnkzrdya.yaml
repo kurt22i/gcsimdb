@@ -1,5 +1,5 @@
 author: Rare Possum#0511
-config: "options debug=true iteration=1000 duration=112 workers=30 mode=sl; \nraidenshogun
+config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl; \nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
@@ -12,40 +12,41 @@ config: "options debug=true iteration=1000 duration=112 workers=30 mode=sl; \nra
   talent=9,9,9; \nkaedeharakazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkaedeharakazuha
   add set=\"viridescentvenerer\" count=5;\nkaedeharakazuha add stats hp=4780 atk=311
   em=561 ; #main\nkaedeharakazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\nbennett char lvl=90/90
+  atk=33.08 atk%=0.1984 er=0.3306 em=118.92 cr=0.3972 cd=0.1324;\n\nbennett char lvl=90/90
   cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
   add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
   pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317 cd=0.7282;\n\n\ntarget lvl=100
-  resist=.1;\nenergy every interval=480,720 amount=1;\nactive raidenshogun;\nyaemiko
+  atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;\n\n\ntarget lvl=100
+  resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive raidenshogun;\nyaemiko
   skill:3;\nraidenshogun skill;\nkaedeharakazuha skill[hold=1], high_plunge;\nbennett
   burst;\nyaemiko burst, skill:3;\nkaedeharakazuha burst;\nraidenshogun burst, attack:3,
-  charge, attack:3, charge, attack:3, charge, skill;\nkaedeharakazuha skill, high_plunge;\nbennett
-  skill;\nyaemiko skill:3;\nbennett burst;\nkaedeharakazuha skill, high_plunge, burst;\nraidenshogun
-  burst, attack:3, charge, attack:3, charge, attack:3, charge, skill;\n\nyaemiko skill:3;\nkaedeharakazuha
-  skill[hold=1], high_plunge;\nbennett burst;\nyaemiko burst, skill:3;\nkaedeharakazuha
-  burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:3, charge,
-  skill;\nkaedeharakazuha skill, high_plunge;\nbennett skill;\nyaemiko skill:3;\nbennett
-  burst;\nkaedeharakazuha skill, high_plunge, burst;\nraidenshogun burst, attack:3,
-  charge, attack:3, charge, attack:3, charge, skill;\n\nyaemiko skill:3;\nkaedeharakazuha
-  skill[hold=1], high_plunge;\nbennett burst;\nyaemiko burst, skill:3;\nkaedeharakazuha
-  burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:3, charge,
-  skill;\nkaedeharakazuha skill, high_plunge;\nbennett skill;\nyaemiko skill:3;\nbennett
-  burst;\nkaedeharakazuha skill, high_plunge, burst;\nraidenshogun burst, attack:3,
-  charge, attack:3, charge, attack:3, charge, skill;\n\nyaemiko skill:3;\nkaedeharakazuha
-  skill[hold=1], high_plunge;\nbennett burst;\nyaemiko burst, skill:3;\nkaedeharakazuha
-  burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:3, charge,
-  skill;\nkaedeharakazuha skill, high_plunge;\nbennett skill;\nyaemiko skill:3;\nbennett
-  burst;\nkaedeharakazuha skill, high_plunge, burst;\nraidenshogun burst, attack:3,
-  charge, attack:3, charge, attack:3, charge, skill;\nrestart;\n"
+  charge, attack:3, charge, attack:2, charge, attack, charge, skill;\nkaedeharakazuha
+  skill, high_plunge;\nyaemiko skill:3;\nbennett skill, burst;\nkaedeharakazuha skill,
+  high_plunge, burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:2,
+  charge, attack, charge, skill;\n\nyaemiko skill:3;\nkaedeharakazuha skill[hold=1],
+  high_plunge;\nbennett burst;\nyaemiko burst, skill:3;\nkaedeharakazuha burst;\nraidenshogun
+  burst, attack:3, charge, attack:3, charge, attack:2, charge, attack, charge, skill;\nkaedeharakazuha
+  skill, high_plunge;\nyaemiko skill:3;\nbennett skill, burst;\nkaedeharakazuha skill,
+  high_plunge, burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:2,
+  charge, attack, charge, skill;\n\nyaemiko skill:3;\nkaedeharakazuha skill[hold=1],
+  high_plunge;\nbennett burst;\nyaemiko burst, skill:3;\nkaedeharakazuha burst;\nraidenshogun
+  burst, attack:3, charge, attack:3, charge, attack:2, charge, attack, charge, skill;\nkaedeharakazuha
+  skill, high_plunge;\nyaemiko skill:3;\nbennett skill, burst;\nkaedeharakazuha skill,
+  high_plunge, burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:2,
+  charge, attack, charge, skill;\n\nyaemiko skill:3;\nkaedeharakazuha skill[hold=1],
+  high_plunge;\nbennett burst;\nyaemiko burst, skill:3;\nkaedeharakazuha burst;\nraidenshogun
+  burst, attack:3, charge, attack:3, charge, attack:2, charge, attack, charge, skill;\nkaedeharakazuha
+  skill, high_plunge;\nyaemiko skill:3;\nbennett skill, burst;\nkaedeharakazuha skill,
+  high_plunge, burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:2,
+  charge, attack, charge, skill;\nrestart;\n"
 description: 'Raikou: Raiden Hypercarry with Yae.'
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 5
   weapon: thealleyflash
   refine: 1
-  er: 0.9588000000000001
+  er: 0.8486
   talents:
     attack: 9
     skill: 9
@@ -54,7 +55,7 @@ team:
   con: 0
   weapon: favoniussword
   refine: 3
-  er: 0.4408
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
@@ -77,8 +78,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47115.82518194634
+dps: 48095.9125958716
 mode: sl
-duration: 111.99999999999807
+duration: 99.0000000000003
 target_count: 1
 viewer_key: n5kUIlZOn9Mhtj5ogfJwN

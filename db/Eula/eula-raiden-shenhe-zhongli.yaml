@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\n\n\n\neula
+config: "options swap_delay=12 debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\n\n\n\neula
   char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\neula add set=\"bloodstainedchivalry\" count=1;\neula
   add set=\"paleflame\" count=4;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\n\n
   skill[hold=1];\nshenhe burst,skill;\neula skill,burst,attack:4,skill[hold=1],attack:4;\nshenhe
   skill,attack,attack;\neula attack:2;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Full 5* Eula team with big flashy numbers and comfortable gameplay.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: eula
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37059.18905936764
+dps: 35058.699454052796
 mode: sl
 duration: 99.0000000000003
 target_count: 1

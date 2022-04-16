@@ -1,5 +1,5 @@
 author: rf#5773
-config: "options debug=true iteration=1000 duration=130 workers=30 mode=sl;\n\n###
+config: "options swap_delay=12 debug=true iteration=1000 duration=150 workers=30 mode=sl;\n\n###
   CHARACTERS, WEAPONS\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;\nxiangling
@@ -11,18 +11,18 @@ config: "options debug=true iteration=1000 duration=130 workers=30 mode=sl;\n\n#
   hp=4780 atk=311 hydro%=0.466 atk%=0.466 cr=0.311;\nxiangling add stats hp=4780 atk=311
   pyro%=0.466 atk%=0.466 cr=0.311;\nbennett add stats hp=4780 atk=311 pyro%=0.466
   atk%=0.466 cr=0.311;\n\n### SUB ROLLS\nbennett add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;\nsucrose
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=118.92 cr=0.3641 cd=0.5958;\nxiangling add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;\nayato
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\nsucrose
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
+  em=118.92 cr=0.1655 cd=0.331;\nxiangling add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;\nayato
   add stats hp%=.0992 hp=507.88 def%=.124 def=39.36 atk=33.08 er=.1102 em=39.64 atk%=.1984
   cr=0.331 cd=0.7944;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\n\n##Actions List\nactive
   bennett;\n\nenergy every interval=480,720 amount=1;\n\nbennett burst;\nayato attack:2,burst[radius=2];\nxiangling
-  jump, skill;\nsucrose attack:2, skill;\nxiangling burst;\nayato skill, attack:13;\nbennett
-  skill;\nxiangling attack:3;\nsucrose attack:2, skill;\nxiangling skill;\nayato skill,
-  attack:13;\n\nrestart;\n"
+  jump, skill;\nsucrose attack:2, skill;\nxiangling burst;\nayato skill, attack:15;\nbennett
+  skill;\nxiangling attack, skill, attack:2;\nsucrose attack:2, skill;\nbennett skill;\nayato
+  skill, attack:8;\n\nrestart;\n"
 description: Sucrose/Ayato.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: ayato
   con: 0
@@ -37,7 +37,7 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.3306
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -60,8 +60,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40429.0133854466
+dps: 41200.29949385628
 mode: sl
-duration: 129.99999999999824
+duration: 150.0000000000028
 target_count: 1
 viewer_key: LthmSTnbQwp2iomVCUvgz

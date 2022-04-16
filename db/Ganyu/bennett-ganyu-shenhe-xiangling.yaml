@@ -1,5 +1,5 @@
 author: LettuceHunt#1336
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nganyu
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nganyu
   char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu
   add set=\"wandererstroupe\" count=4;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466
   cr=0.311 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\ng
   aim, aim, aim, aim, skill;\nshenhe attack:2;\nbennett skill;\nxiangling attack:4;\nrestart;\n"
 description: Melt Ganyu with Shenhe. Assumes 5 CAs, but with no shield it can be hard
   to do this.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49620.70626580966
+dps: 44683.75932640736
 mode: sl
 duration: 99.9999999999986
 target_count: 1

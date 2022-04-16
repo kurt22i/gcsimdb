@@ -1,5 +1,5 @@
 author: Charliex3000#9403
-config: "options debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\n\n\n\n\nayaka
+config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\n\n\n\n\nayaka
   char lvl=90/90 cons=0 talent=9,9,9; \nayaka add weapon=\"amenomakageuchi\" refine=5
   lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=5;\nayaka add stats hp=4780
   atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nayaka add stats def%=0.124 def=39.36
@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\n\
   dash,attack,skill,burst;\nkazuha skill,high_plunge;\nmona attack:3;\ndiona skill[hold=1];\nayaka
   dash,attack:2,charge,attack:2,charge,skill,dash,attack:2,charge;\nrestart;\n"
 description: Ayaka Freeze.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42641.39800635738
+dps: 38866.428263018526
 mode: sl
 duration: 102.00000000000051
 target_count: 1

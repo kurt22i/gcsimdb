@@ -1,5 +1,5 @@
 author: Veggie#0581
-config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nraiden
+config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nraiden
   char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden
   add set=\"emblemofseveredfate\" count=4;\nraiden add stats hp=4780 atk=311 atk%=0.466
   electro%=0.466 cr=0.311 ; #main\nraiden add stats hp%=0.0992 hp=507.88 atk%=0.1984
@@ -30,7 +30,7 @@ config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nr
   skill,burst,attack;\nfischl burst;\njean attack,skill,burst,attack;\nraiden burst,attack:5,dash,attack:5,dash,attack:4,skill;\njean
   skill,attack:5;\n"
 description: Raiden without Bennett.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: fischl
   con: 6
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42114.882363508645
+dps: 43011.867816963735
 mode: sl
 duration: 126.00000000000189
 target_count: 1

@@ -1,5 +1,5 @@
 author: Charliex3000#9403
-config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl;\n\nyaemiko
+config: "options swap_delay=12 debug=true iteration=1000 duration=90 workers=30 mode=sl;\n\nyaemiko
   char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"favoniuscodex\" refine=3
   lvl=90/90;\nyaemiko add set=\"tenacityofthemillelith\" count=5;\nyaemiko add stats
   hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124
@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl;\n\nya
   dash,\nattack;\n\nkazuha skill, high_plunge, attack:2;\n\nbennett skill, attack;\n\nbeidou
   skill, attack;\n\nyaemiko attack;\n\nrestart;\n"
 description: Yae/Beidou.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: beidou
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40527.971285878644
+dps: 36641.64976180695
 mode: sl
 duration: 90.00000000000215
 target_count: 1

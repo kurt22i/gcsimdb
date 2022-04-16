@@ -1,5 +1,5 @@
 author: Arfoire#9219
-config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\nkaeya
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\nkaeya
   char lvl=90/90 cons=2 talent=9,9,9; \nkaeya add weapon=\"amenomakageuchi\" refine=5
   lvl=90/90;\nkaeya add set=\"instructor\" count=4;\nkaeya add stats hp=3571 atk=232
   atk%=0.348 cryo%=0.348 cr=0.311 ; #main\nkaeya add stats def%=0.124 def=39.36 hp=507.88
@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\nkae
   skill, burst;\nbennett attack, skill, \n    attack:3, skill, \n    attack:3, skill,\n
   \   attack:3, skill\n    ;\nkaeya attack, skill;\nrosaria attack, skill;\nrestart;\n"
 description: Melt Bennett meme team.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27108.997000667478
+dps: 26910.51504102512
 mode: sl
 duration: 105.00000000000071
 target_count: 1

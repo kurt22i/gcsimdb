@@ -16,6 +16,7 @@ import (
 	"os/exec"
 	"path/filepath"
 	"regexp"
+	"sort"
 	"strings"
 	"time"
 
@@ -74,6 +75,10 @@ func run(skipDownload bool, force bool) error {
 	if err != nil {
 		return errors.Wrap(err, "")
 	}
+
+	// for i := range data {
+	// 	sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
+	// }
 
 	//store on cloudflare kv
 	err = uploadResults(data)
@@ -233,6 +238,9 @@ func process(data []pack, latest string, force bool) error {
 			continue
 		}
 		data[i].changed = true
+
+		//sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
+
 		//fix the iterations
 		data[i].Config = reIter.ReplaceAllString(data[i].Config, "iteration=1000")
 		data[i].Config = reWorkers.ReplaceAllString(data[i].Config, "workers=30")
@@ -289,7 +297,22 @@ func readResultJSON(jsonData []byte, p *pack) error {
 	p.Duration = r.Duration.Mean
 	p.NumTarget = len(r.Targets)
 
-	p.Team = make([]char, 0, len(r.Characters))
+	team := make([]char, 0, len(r.Characters))
+
+	//sort.Slice(r.Characters, func(i, j int) bool { return r.Characters[i].Name < r.Characters[j].Name })
+	/*var q result
+	var names []string
+	for i, v := range r.Characters {
+		names[i] = v.Name
+	}
+	sort.Strings(names)
+	for i := 0; i < len(names); i++ {
+		for j := 0; j < len(names); j++ {
+			if names[i] == r.Characters[j].Name {
+				q.Characters[i] = r.Characters[j]
+			}
+		}
+	}*/
 
 	//team info
 	for _, v := range r.Characters {
@@ -303,8 +326,16 @@ func readResultJSON(jsonData []byte, p *pack) error {
 		//grab er stats
 		c.ER = v.Stats[ERIndex]
 
-		p.Team = append(p.Team, c)
+		team = append(team, c)
 	}
+
+	sort.Slice(team, func(i, j int) bool {
+		return team[i].Name < team[j].Name
+	})
+
+	p.Team = team
+
+	//sort.Slice(p.Team, func(i, j int) bool { return p.Team[i].Name < p.Team[j].Name })
 	return nil
 }
 
@@ -473,8 +504,9 @@ func uploadIndex(data []pack) error {
 }
 
 func saveYaml(data []pack) error {
-	for i := range data {
 
+	for i := range data {
+		//sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
 		//overwrite yaml
 		out, err := yaml.Marshal(data[i])
 		if err != nil {
@@ -499,7 +531,7 @@ func saveYaml(data []pack) error {
 
 // 	fmt.Println("Starting to clone git repo...")
 
-// 	r, err := git.PlainClone("./tmp", false, &git.CloneOptions{
+// 	r, err := git.PlainClone("./tmp", false, &git.Cloneoptions swap_delay=12{
 // 		URL:               "https://github.com/genshinsim/gcsim.git",
 // 		RecurseSubmodules: git.DefaultSubmoduleRecursionDepth,
 // 	})

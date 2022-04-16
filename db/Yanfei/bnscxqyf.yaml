@@ -15,17 +15,17 @@ config: "yanfei char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"thewid
   add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\"
   count=4;\nsucrose add stats hp=4780 atk=311 em=559.5; #main\nsucrose add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.331
-  cd=0.662;\n\noptions iteration=1000 duration=104 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\nactive xingqiu;\n\n#remove the 1st rotation if
-  using shimenawa!\n\n#1st rotation\nxingqiu skill,attack,burst,attack; #you can just
-  skill,burst,attack in game\nbennett skill,burst;\nsucrose skill,attack:5;\n#why
+  cd=0.662;\n\noptions swap_delay=12 iteration=1000 duration=104 mode=sl;\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\nactive xingqiu;\n\n#remove
+  the 1st rotation if using shimenawa!\n\n#1st rotation\nxingqiu skill,attack,burst,attack;
+  #you can just skill,burst,attack in game\nbennett skill,burst;\nsucrose skill,attack:5;\n#why
   does sucrose do N5 you ask? that I do not know, the sim just says its higher dps.\nyanfei
   skill,burst,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
   attack,skill,attack; #you can just skill in game\n\n#2nd rotation\nxingqiu skill,attack,burst,attack;\nbennett
   skill,burst;\nsucrose skill,attack:5;\nyanfei skill,attack,charge,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
   attack,skill,attack;\n\nrestart;\n"
 description: Vape Yanfei.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40789.95846082147
+dps: 37827.103789297886
 mode: sl
 duration: 103.99999999999928
 target_count: 1

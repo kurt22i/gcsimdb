@@ -1,0 +1,86 @@
+author: AgNO3#7093
+config: |
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="thestringless" refine=3 lvl=90/90;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09900 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
+
+  beidou char lvl=90/90 cons=6 talent=9,9,9;
+  beidou add weapon="serpentspine" refine=1 lvl=90/90 +params=[stacks=5];
+  beidou add set="gladiatorsfinale" count=2;
+  beidou add set="thunderingfury" count=2;
+  beidou add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09900 atk=344.1 atk%=0.5652 er=0.3306 em=39.64 cr=0.3972 cd=1.1516 electro%=0.4660;
+
+  xiangling char lvl=90/90 cons=6 talent=9,9,9;
+  xiangling add weapon="kitaincrossspear" refine=5 lvl=90/90;
+  xiangling add set="crimsonwitchofflames" count=4;
+  xiangling add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09900 atk=344.1 atk%=0.3968 er=0.6612 em=678.4 cr=0.06620 cd=0.1324;
+
+  qiqi char lvl=90/90 cons=0 talent=9,9,9;
+  qiqi add weapon="sacrificialsword" refine=3 lvl=90/90;
+  qiqi add set="oceanhuedclam" count=4;
+  qiqi add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09900 atk=344.1 atk%=.466 er=0.1102 em=39.64 cr=0.06620 cd=0.1324 heal=0.3590;
+  qiqi add stats atk%=.0992;
+  qiqi add stats er=.518;
+  qiqi add stats atk%=.3968 er=.4408 atk=66.16;
+
+  options swap_delay=12 debug=true iteration=1000 duration=125 workers=30 mode=sl;
+  energy every interval=480,720 amount=1;
+  target lvl=100 resist=.1;
+
+  active beidou;
+  fischl burst;
+  xiangling skill, burst;
+  beidou skill[counter=1], burst;
+  qiqi skill, attack:5,dash, attack:5;
+  beidou skill[counter=1];
+  fischl attack, skill;
+  xiangling skill;
+  qiqi attack, burst, attack:5;
+  beidou skill[counter=1];
+  qiqi attack:5, dash,attack:5;
+  restart;
+description: Qiqi Fireworks.
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: qiqi
+  con: 0
+  weapon: sacrificialsword
+  refine: 3
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: kitaincrossspear
+  refine: 5
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 33132.27211739232
+mode: sl
+duration: 125
+target_count: 1
+viewer_key: BZSa4yd79ZMozMB3WKyyb

@@ -1,29 +1,43 @@
-author: Watter#7122
-config: "options debug=true iteration=1000 duration=107 workers=30 mode=sl;\nenergy
-  every interval=480,720 amount=1;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\n\n#Rotation\nactive ganyu;\nganyu aim[weakspot=1];\nayaka
-  dash, attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill, burst;\nganyu
-  burst[radius=2], skill;\nayaka dash, attack, burst, skill, dash, attack:2, charge;\nkazuha
-  skill, high_plunge;\nshenhe skill, attack;\nayaka dash, attack:2, charge;\nganyu
-  skill;\nrestart;\n\n#Characters\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nganyu
-  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nshenhe
-  char lvl=90/90 cons=0 talent=9,9,9;\n\n#Weapons\nayaka add weapon=\"amenomakageuchi\"
-  refine=5 lvl=90/90;\nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nkazuha
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nshenhe add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\n\n#Artifacts\nayaka add set=\"blizzardstrayer\" count=4;\nganyu
-  add set=\"blizzardstrayer\" count=4;\nkazuha add set=\"viridescentvenerer\" count=4;\nshenhe
-  add set=\"noblesseoblige\" count=4;\n\n#Main stats\nayaka add stats hp=4780 atk=311
-  atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.6620;\nganyu
-  add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972
-  cd=0.6620;\nkazuha add stats hp=4780 atk=311 em=187 em=187 em=187;\nkazuha add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=118.92
-  cr=0.3972 cd=0.5296;\nshenhe add stats hp=4780 atk=311 atk%=0.4660 atk%=0.4660 atk%=0.4660;\nshenhe
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102
-  em=39.64 cr=0.3972 cd=0.5296;\n"
+author: Watter#7122, cyan#3224 and Eves#6666
+config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30 mode=sl;\nayaka
+  char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5
+  lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780
+  atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.6620;\n\nganyu
+  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5
+  lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=4;\nganyu add stats hp=4780
+  atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2755 em=39.64 cr=0.3972 cd=0.5958;\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha
+  add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780 atk=311 em=187
+  em=187 em=187;\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;\n\nshenhe char lvl=90/90 cons=0
+  talent=9,9,9;\nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe add
+  set=\"noblesseoblige\" count=4;\nshenhe add stats hp=4780 atk=311 atk%=0.4660 atk%=0.4660
+  atk%=0.4660;\nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.2976 er=0.1653 em=39.64 cr=0.3972 cd=0.4634;\n\n# ----\nenergy every interval=480,720
+  amount=1;\ntarget lvl=100 resist=0.1;\n\n# ----\nactive ayaka;\nayaka dash, attack,
+  skill;\nkazuha skill[hold=1], high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2],
+  skill;\nayaka dash, attack, skill, burst;\nkazuha skill, high_plunge;\nshenhe skill;\nganyu
+  aim[weakspot=1]:2;\nganyu skill;\n\nayaka dash, attack, skill;\nkazuha skill[hold=1],
+  high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2], skill;\nayaka
+  dash, attack, skill, burst;\nkazuha skill, high_plunge;\nshenhe skill;\nganyu aim[weakspot=1]:2;\nganyu
+  skill;\n\nayaka dash, attack, skill;\nkazuha skill[hold=1], high_plunge, burst;\nshenhe
+  skill, burst;\nganyu burst[radius=2], skill;\nayaka dash, attack, skill, burst;\nkazuha
+  skill, high_plunge;\nshenhe skill;\nganyu aim[weakspot=1]:2;\nganyu skill;\n\nayaka
+  dash, attack, skill;\nkazuha skill[hold=1], high_plunge, burst;\nshenhe skill, burst;\nganyu
+  burst[radius=2], skill;\nayaka dash, attack, skill, burst;\nkazuha skill, high_plunge;\nshenhe
+  skill;\nganyu aim[weakspot=1]:2;\nganyu skill;\n\nayaka dash, attack, skill;\nkazuha
+  skill[hold=1], high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2],
+  skill;\nayaka dash, attack, skill, burst;\nkazuha skill, high_plunge;\nshenhe skill;\nganyu
+  aim[weakspot=1]:2;\nganyu skill;\n\nayaka dash, attack, skill;\nkazuha skill[hold=1],
+  high_plunge, burst;\nshenhe skill, burst;\nganyu burst[radius=2], skill;\nayaka
+  dash, attack, skill, burst;\nkazuha skill, high_plunge;\nshenhe skill;\nganyu aim[weakspot=1]:2;\nganyu
+  skill;\n\nayaka dash, attack, skill;\nkazuha skill[hold=1], high_plunge, burst;\nshenhe
+  skill, burst;\nganyu burst[radius=2], skill;\nayaka dash, attack, skill, burst;\nkazuha
+  skill, high_plunge;\nshenhe skill;\nganyu aim[weakspot=1]:2;\nganyu skill;\n\nrestart;\n"
 description: Mono-cryo Ayaka. No shielding or healing.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: ayaka
   con: 0
@@ -38,16 +52,16 @@ team:
   con: 0
   weapon: prototypecrescent
   refine: 5
-  er: 0.2204
+  er: 0.2755
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: kazuha
   con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
+  weapon: ironsting
+  refine: 5
+  er: 0.6612
   talents:
     attack: 9
     skill: 9
@@ -56,13 +70,13 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.1102
+  er: 0.1653
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 59033.38364067044
+dps: 60479.387758056924
 mode: sl
-duration: 106.99999999999939
+duration: 126.00000000000189
 target_count: 1
 viewer_key: usaNyClchcTfgKV6nRHvg

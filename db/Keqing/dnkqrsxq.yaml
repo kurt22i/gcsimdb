@@ -1,5 +1,5 @@
 author: imring#3781
-config: "options debug=true iteration=1000 duration=111 workers=30 mode=sl;\n\nkeqing
+config: "options swap_delay=12 debug=true iteration=1000 duration=98 workers=30 mode=sl;\n\nkeqing
   char lvl=90/90 cons=0 talent=9,9,9; \nkeqing add weapon=\"prototyperancour\" refine=5
   lvl=90/90;\nkeqing add set=\"bloodstainedchivalry\" count=2;\nkeqing add set=\"paleflame\"
   count=2;\nkeqing add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cr=0.311; #main\nkeqing
@@ -7,31 +7,31 @@ config: "options debug=true iteration=1000 duration=111 workers=30 mode=sl;\n\nk
   em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu
   add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
   count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
-  em=39.64 cr=0.1986 cd=0.662;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria
   add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria add set=\"noblesseoblige\"
   count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nrosaria
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
   em=39.64 cr=0.331 cd=0.7944;\n\ndiona char lvl=90/90 cons=6 talent=9,9,9; \ndiona
   add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ndiona add set=\"noblesseoblige\"
   count=4;\ndiona add stats hp=4780 atk=311 hp%=1.398; #main\ndiona add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.551 em=39.64 cr=0.3972
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306 em=39.64 cr=0.2648
   cd=0.1324;\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive
-  keqing;\n\ndiona skill[hold=1], burst;\nxingqiu skill, burst, attack:2;\nrosaria
+  diona;\n\ndiona skill[hold=1], burst;\nxingqiu skill, burst, attack:2;\nrosaria
   skill;\n\nkeqing skill,\n       attack, charge,\n       attack, charge,\n       attack,
   charge,\n       attack, charge,\n       attack, charge,\n       burst;\n\nrosaria
-  skill, burst;\nkeqing attack, charge,\n       attack, charge,\n       attack, charge,\n
-  \      attack, charge,\n       attack, charge;\n\nrosaria skill;\nkeqing skill,\n
-  \      attack, charge,\n       attack, charge,\n       attack, charge,\n       attack,
-  charge,\n       attack, charge;\n\nrestart;\n"
+  skill, burst;\nkeqing attack:3,\n       attack, charge,\n       attack, charge,\n
+  \      attack, charge,\n       attack, charge,\n       attack, charge;\n\nrosaria
+  skill;\nkeqing skill,\n       attack:3,\n       attack, charge,\n       attack,
+  charge,\n       attack, charge,\n       attack, charge,\n       attack, charge;\n\nrestart;\n"
 description: Physical Keqing.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: diona
   con: 6
   weapon: favoniuswarbow
   refine: 3
-  er: 0.551
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
@@ -58,13 +58,13 @@ team:
   con: 6
   weapon: amenomakageuchi
   refine: 5
-  er: 0.551
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 27839.69373480025
+dps: 25132.00559385455
 mode: sl
-duration: 111.00000000000108
+duration: 97.9999999999992
 target_count: 1
 viewer_key: kKMCWlJz6YTqtrRKDWeLT

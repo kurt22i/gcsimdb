@@ -1,5 +1,5 @@
 author: Eves#6666
-config: "options debug=true iteration=1000 duration=106 workers=30 mode=sl;\nkazuha
+config: "options swap_delay=12 debug=true iteration=1000 duration=97 workers=30 mode=sl;\nkazuha
   char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\" refine=3
   lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
   atk=311 em=187 em=187 em=187;\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -19,11 +19,11 @@ config: "options debug=true iteration=1000 duration=106 workers=30 mode=sl;\nkaz
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
   em=39.64 cr=0.331 cd=0.7944;\n\n# ----  Default Enemy\ntarget lvl=100 resist=.1;\nenergy
   every interval=480,720 amount=1;\n\n# ----  Actions List\n\nactive rosaria;\nrosaria
-  skill, attack;\nkazuha burst;\nbennett burst, skill;\nkazuha attack, skill, high_plunge;\nrosaria
-  skill, burst;\ndiluc burst;\ndiluc attack, skill, skill, attack, skill;\nbennett
-  skill[hold=1], attack;\nkazuha skill, high_plunge;\nrestart;\n"
+  skill;\nkazuha burst;\nbennett burst, skill;\nkazuha skill, high_plunge;\nrosaria
+  skill, burst;\ndiluc skill, burst, attack, skill, attack, skill;\nbennett skill,
+  attack;\nkazuha skill, high_plunge;\nrestart;\n"
 description: Melt Diluc with Rosaria.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -61,8 +61,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40371.09760026033
+dps: 37581.47761144168
 mode: sl
-duration: 105.99999999999856
+duration: 96.99999999999865
 target_count: 1
 viewer_key: TCpHxXiO7eNKEEGpp8yPq

@@ -1,5 +1,5 @@
 author: Charliex3000#9403
-config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nbennett
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
   atk=311 atk=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
@@ -14,12 +14,12 @@ config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nb
   add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
   cr=0.331 cd=0.7944 er=0.2204 ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
   every interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\n\nxingqiu
-  skill[orbitals=1],burst[orbitals=1],attack;\nbennett burst,attack,skill;\nxiangling
-  attack,burst,attack,skill;\nbennett attack:3, skill;\nxiangling attack:3;\nbennett
-  attack:3, skill;\nxingqiu attack:3;\nbennett attack:3, skill;\nxiangling attack:3;\nbennett
-  attack:3, skill;\nxiangling attack:3;\nrestart;\n"
+  skill[orbital=1],burst[orbital=1],attack;\nbennett burst,attack,skill;\nxiangling
+  attack,burst,attack,skill;\nbennett attack:2, skill;\nxiangling attack:3;\nbennett
+  attack:2, skill;\nxingqiu attack:3;\nbennett attack:2, skill;\nxiangling attack:3;\nbennett
+  attack:2, skill;\nxiangling attack:3;\nrestart;\n"
 description: Who needs a 4th character?
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -48,7 +48,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37192.171918118096
+dps: 35926.048047896955
 mode: sl
 duration: 105.00000000000071
 target_count: 1

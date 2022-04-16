@@ -1,6 +1,6 @@
 author: Arfoire#9219
 config: |
-  options debug=true iteration=1000 duration=120 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=120 workers=30 mode=sl;
 
   #Character builds:
   xiao char lvl=90/90 cons=0 talent=9,9,9;
@@ -61,7 +61,7 @@ config: |
       ;
   restart;
 description: EM Xiao meme team.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: fischl
   con: 6
@@ -99,7 +99,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30163.403256144262
+dps: 26725.293179356326
 mode: sl
 duration: 120.00000000000152
 target_count: 1

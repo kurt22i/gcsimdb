@@ -1,5 +1,5 @@
 author: Karl Cruz#9995
-config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\n#Character
+config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\n#Character
   builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
   stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
@@ -27,7 +27,7 @@ config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\n#
   \       attack:2, charge,\n        attack:2, charge\n        ;\nbeidou skill[counter=1],
   attack:2;\n\nrestart;\n"
 description: Kokomi/Sucrose taser.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: beidou
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40073.996457691435
+dps: 38788.52400237297
 mode: sl
 duration: 103.99999999999928
 target_count: 1

@@ -1,6 +1,6 @@
 author: Kurt#5846
 config: |
-  options debug=true iteration=1000 duration=94 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=94 mode=sl;
 
   ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
   yaemiko char lvl=90/90 cons=0 talent=9,9,9;
@@ -48,7 +48,7 @@ config: |
   sucrose attack:2,charge,attack:2,charge,attack:2,charge,attack:2,charge;
   restart;
 description: Yae Tazer with Mona and Sucrose instead of Kazuha.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: fischl
   con: 6
@@ -86,7 +86,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40585.07529139759
+dps: 39412.696414300575
 mode: sl
 duration: 93.99999999999868
 target_count: 1

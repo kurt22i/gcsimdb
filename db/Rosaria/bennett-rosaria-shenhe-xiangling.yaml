@@ -1,5 +1,5 @@
 author: ""
-config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\nshenhe
+config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;\nshenhe
   char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats hp=4780
   atk=311 atk%=1.398; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=104 workers=30 mode=sl;\nshe
   attack:3;\n\nshenhe skill, attack;\n\nrosaria skill, attack;\nshenhe attack:3;\n\nbennett
   skill, attack;\nxiangling attack:3;\n\nrestart;\n"
 description: ""
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53436.079286455366
+dps: 45698.6052352198
 mode: sl
 duration: 103.99999999999928
 target_count: 1

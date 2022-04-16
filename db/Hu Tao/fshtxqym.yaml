@@ -1,5 +1,5 @@
-author: すいな#8092
-config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nhutao
+author: すいな#8092 and Rare Possum#0511
+config: "options swap_delay=12 debug=true iteration=1000 duration=134 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1000;\nhutao add weapon=\"dragonsbane\"
   refine=3 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
   stats hp=4780 atk=311 cr=0.311 pyro%=0.466 em=187;\nhutao add stats def%=0.124 def=39.36
@@ -18,17 +18,17 @@ config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nh
   atk=33.08 atk%=0.5952 er=0.4408 em=39.64 cr=0.1324 cd=0.2648;\n\n##Default Enemy\ntarget
   lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive fischl;\n\nfischl
   skill;\n\nxingqiu skill[orbital=1], burst[orbital=1];\n\nhutao skill,\n  attack:2,
-  charge, dash,\n  attack:2, charge, dash,\n  attack:2, charge, dash,\n  attack:2,
-  charge, dash,\n  attack:2, charge, dash,\n  attack:2, charge, dash,\n  attack:2,
-  charge, dash,\n  attack:2, charge;\n\nyoimiya skill,\n  attack:5,dash,\n  attack:5,dash,\n
+  charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2,
+  charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2,
+  charge, jump,\n  attack:2, charge;\n\nyoimiya skill,\n  attack:5,dash,\n  attack:5,dash,\n
   \ attack:5;\n\nfischl burst;\n\nxingqiu skill[orbital=1], burst[orbital=1], attack;\n\nhutao
-  skill,\n  attack:2, charge, dash,\n  attack:2, charge, dash,\n  attack:2, charge,
-  dash,\n  attack:2, charge, dash,\n  attack:2, charge, dash, \n  attack:2, charge,
-  dash, \n  attack:2, charge, dash, \n  attack:2, charge;\n\nyoimiya skill,\n  attack:5,dash,\n
+  skill,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge,
+  jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump, \n  attack:2, charge,
+  jump, \n  attack:2, charge, jump, \n  attack:2, charge;\n\nyoimiya skill,\n  attack:5,dash,\n
   \ attack:5,dash,\n  attack:5;\nrestart;\n"
 description: 'Tao + Yoimiya. Difficult to play: Has no shields, limited heals and
   tiring combos, but comes with high reward as well.'
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: fischl
   con: 6
@@ -66,8 +66,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57016.73018334556
+dps: 51708.2259533005
 mode: sl
-duration: 126.00000000000189
+duration: 133.9999999999997
 target_count: 1
 viewer_key: k8L5q1rkakacdq7nbjRB8

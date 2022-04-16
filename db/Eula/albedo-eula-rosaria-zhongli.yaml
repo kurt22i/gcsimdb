@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\n\n\nrosaria
+config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\n\n\nrosaria
   char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780
   atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nrosaria add stats def%=0.124 def=39.36
@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\
   skill,burst;\nrosaria skill,burst;\neula burst,attack:4,skill[hold=1],attack:4;\nrosaria
   skill;\neula attack:4,attack:4,skill;\nrestart;\n"
 description: Double Geo Eula, a comfortable team that surprisingly works very well.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38986.027479950506
+dps: 35016.58910560073
 mode: sl
 duration: 109.99999999999949
 target_count: 1

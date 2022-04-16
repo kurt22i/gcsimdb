@@ -1,5 +1,5 @@
 author: Charliex3000#9403
-config: "options debug=true iteration=1000 duration=106 workers=30 mode=sl;\ndiona
+config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\ndiona
   char lvl=90/90 cons=0 talent=9,9,9; \ndiona add weapon=\"favoniuswarbow\" refine=5
   lvl=90/90;\ndiona add set=\"noblesseoblige\" count=5;\ndiona add stats hp=4780 atk=311
   hp%=0.932 cr=0.311 ; #main\ndiona add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08
@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=106 workers=30 mode=sl;\ndio
   aim[weakspot=1];\n\nventi skill,burst;\n\nmona burst,skill;\n\nganyu skill,burst[radius=2];\n\nganyu
   aim[weakspot=1], aim;\n\nventi skill,attack;\n\nganyu aim, skill, aim;\n\nrestart;\n"
 description: The traditional Morgana team.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: diona
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30502.088745031917
+dps: 28570.738843682524
 mode: sl
 duration: 105.99999999999856
 target_count: 1

@@ -1,6 +1,6 @@
 author: Alpha253#3018
 config: |
-  options debug=true iteration=1000 duration=105 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;
 
   zhongli char lvl=90/90 cons=0 talent=9,9,9;
   zhongli add weapon="deathmatch" refine=1 lvl=90/90;
@@ -50,7 +50,7 @@ config: |
 
   restart;
 description: Pyro Zhongli meme team, requires C6 Bennett.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -88,7 +88,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32139.272168261636
+dps: 30597.46202836398
 mode: sl
 duration: 105.00000000000071
 target_count: 1

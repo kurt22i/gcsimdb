@@ -1,5 +1,5 @@
 author: rf#5773
-config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nraidenshogun
+config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 er=0.518 atk%=0.466 cr=0.311 ; #main\nraidenshogun add
@@ -25,7 +25,7 @@ config: "options debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nr
   skill,attack;\nkazuha skill[hold=1],high_plunge, attack:2;\nfischl skill;\nxingqiu
   skill,burst, attack;\nfischl burst;\nkazuha attack, burst, attack;\nraiden burst,attack:3,charge,attack:3,charge,attack:2,charge,attack:1,charge;\nrestart;\n"
 description: A very solid Raiden team without Bennett.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: fischl
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42587.342627569786
+dps: 43282.40171385574
 mode: sl
 duration: 126.00000000000189
 target_count: 1

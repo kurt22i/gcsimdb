@@ -1,5 +1,5 @@
 author: vigne#5943
-config: "options debug=true iteration=1000 duration=104 workers=30 mode=apl;\n\n###
+config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=apl;\n\n###
   CHARACTERS, WEAPONS\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\"
   refine=3 lvl=90/90;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add
   weapon=\"favoniussword\" refine=3 lvl=90/90;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose
@@ -26,7 +26,7 @@ config: "options debug=true iteration=1000 duration=104 workers=30 mode=apl;\n\n
   attack;\n\nxingqiu attack +is_onfield;\nfischl attack +is_onfield;\nalbedo attack
   +is_onfield;\n"
 description: Sucrose Taser with Albedo.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: albedo
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46029.291894166476
+dps: 44844.325859017
 mode: apl
 duration: 103.99999999999928
 target_count: 1

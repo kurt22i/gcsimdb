@@ -1,6 +1,6 @@
 author: cyan#3224
 config: |
-  options debug=true iteration=1000 duration=101 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;
   kokomi char lvl=90/90 cons=0 talent=9,9,9;
   kokomi add weapon="hakushinring" refine=5 lvl=90/90;
   kokomi add set="oceanhuedclam" count=4;
@@ -47,7 +47,7 @@ config: |
 
   restart;
 description: Double-Hydro taser with Kazuha.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: fischl
   con: 6
@@ -85,7 +85,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51041.58777968291
+dps: 42793.84784457057
 mode: sl
 duration: 100.9999999999993
 target_count: 1

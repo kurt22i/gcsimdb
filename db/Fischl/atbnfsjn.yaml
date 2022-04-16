@@ -15,13 +15,13 @@ config: "ayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"favoniuss
   set=\"thunderingfury\" count=2;\nfischl add set=\"shimenawasreminiscence\" count=2;\nfischl
   add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ; #main\nfischl add
   stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\noptions debug=true iteration=1000 duration=107 workers=30
-  mode=sl;\n\ntarget lvl=100 resist=.1;\n\n\n\nenergy every interval=480,720 amount=1;\n\nactive
-  bennett;\nbennett skill,attack,burst;\nayato burst;\nfischl attack,skill;\njean
-  skill,attack,burst;\nayato skill,attack:15;\nfischl burst;\njean jump;\njean skill,attack;\nayato
-  skill,attack:15;\njean skill,attack;\n\n\nrestart;\n"
+  em=39.64 cr=0.331 cd=0.7944;\n\noptions swap_delay=12 debug=true iteration=1000
+  duration=107 workers=30 mode=sl;\n\ntarget lvl=100 resist=.1;\n\n\n\nenergy every
+  interval=480,720 amount=1;\n\nactive bennett;\nbennett skill,attack,burst;\nayato
+  burst;\nfischl attack,skill;\njean skill,attack,burst;\nayato skill,attack:15;\nfischl
+  burst;\njean jump;\njean skill,attack;\nayato skill,attack:15;\njean skill,attack;\n\n\nrestart;\n"
 description: Sunfire Ayato.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: ayato
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36476.76016145718
+dps: 35043.921464140294
 mode: sl
 duration: 106.99999999999939
 target_count: 1

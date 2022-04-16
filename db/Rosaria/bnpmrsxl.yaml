@@ -1,5 +1,5 @@
 author: Charliex3000#9403
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nbennett
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
   atk=311 atk=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
@@ -18,7 +18,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nb
   skill;\nbennett attack:3, skill;\nbennett attack:3, skill;\nxiangling attack:3;\nbennett
   skill;\nrosaria skill,attack:4;\n\nwait 52;\nrestart;\n"
 description: The Rosaria reverse melt core.
-hash: 378ffe691c8b7be808b368a7c5e04c990dd0cdb0
+hash: f10e49023b6cdb09f7206a76c63494e1c4304236
 team:
 - name: bennett
   con: 6
@@ -47,7 +47,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34852.91408473723
+dps: 33214.71425843187
 mode: sl
 duration: 99.9999999999986
 target_count: 1
