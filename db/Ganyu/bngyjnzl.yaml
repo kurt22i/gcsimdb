@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=109 workers=30
   skill, attack:3;\n\n\n\n\nrestart;\n\n#https://gcsim.app/viewer/share/perm_DDHxqS7SvBCzgtVl-hD9m
   burstless\n"
 description: Sunfire Melt Ganyu. 6 CAs per rotation.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: bennett
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39973.10655736589
+dps: 39952.693685139304
 mode: sl
 duration: 108.99999999999856
 target_count: 1

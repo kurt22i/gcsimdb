@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=90 workers=30 
   burst , attack:3, dash, attack:3, dash, attack:3, dash;\n\ngorou skill;\n\nnoelle
   attack:3, dash, attack:3, dash;\n\nrestart;\n"
 description: Noelle Mono-Geo.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41878.10350384853
+dps: 41811.77795340992
 mode: sl
 duration: 90.00000000000215
 target_count: 1

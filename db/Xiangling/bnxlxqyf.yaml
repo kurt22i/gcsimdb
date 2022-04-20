@@ -55,7 +55,7 @@ config: |
   wait 9;
   restart;
 description: Yanfei National, starring TTDS.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: bennett
   con: 6
@@ -93,7 +93,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46019.05340126768
+dps: 46040.95905011365
 mode: sl
 duration: 102.00000000000051
 target_count: 1

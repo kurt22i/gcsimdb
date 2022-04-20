@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   attack:2;\nrestart;\n"
 description: Melt Ganyu. 6 CAs per rotation; the last one is still a melt but doesn't
   get buffed by Bennett.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47359.69176165121
+dps: 47354.1931247384
 mode: sl
 duration: 103.99999999999928
 target_count: 1

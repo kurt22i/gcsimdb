@@ -28,7 +28,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=134 workers=30
   \ attack:5,dash,\n  attack:5;\nrestart;\n"
 description: 'Tao + Yoimiya. Difficult to play: Has no shields, limited heals and
   tiring combos, but comes with high reward as well.'
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: fischl
   con: 6
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51708.2259533005
+dps: 51651.87174119351
 mode: sl
 duration: 133.9999999999997
 target_count: 1

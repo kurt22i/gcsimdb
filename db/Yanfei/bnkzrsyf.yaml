@@ -23,7 +23,7 @@ config: "yanfei char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"thewid
   skill;\nkazuha skill,high_plunge;\nbennett burst,skill;\nkazuha burst;\nrosaria
   burst,skill;\nkazuha skill,high_plunge;\nyanfei skill,charge,attack:2,charge,attack:2,charge,attack:2,charge,attack:2,charge,skill,charge;\n\nrestart;\n"
 description: Yanfei with Rosaria.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29186.80297411191
+dps: 29163.039122322247
 mode: sl
 duration: 103.99999999999928
 target_count: 1

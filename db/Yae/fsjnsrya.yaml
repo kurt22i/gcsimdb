@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=97 workers=30 
   skill,burst;\nsara burst;\nyaemiko burst,skill,skill,skill,attack:2,charge;\njean
   attack:2,skill;\nsara skill,aim;\nfischl burst,attack:3;\nyaemiko attack:2,charge;\nrestart;\n"
 description: Yae mono-electro.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: fischl
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37006.21738706923
+dps: 37057.88754516093
 mode: sl
 duration: 96.99999999999865
 target_count: 1

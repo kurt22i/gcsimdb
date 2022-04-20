@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=94 workers=30 
   skill;\nbennett skill,burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe
   skill,attack,attack;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Eula with Raiden and Shenhe.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: bennett
   con: 5
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37546.06516298293
+dps: 37388.92920157098
 mode: sl
 duration: 93.99999999999868
 target_count: 1

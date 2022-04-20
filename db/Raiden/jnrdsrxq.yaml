@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   skill,aim;\njean skill,burst;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\njean
   skill,attack;\nraiden attack:3,charge,attack:3,charge;\nrestart;\n"
 description: Raiden without Bennett.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: jean
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27982.87786021922
+dps: 27930.509818845083
 mode: sl
 duration: 109.99999999999949
 target_count: 1

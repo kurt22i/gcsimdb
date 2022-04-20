@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30
   skill, burst;\nkokomi burst;\nganyu aim[weakspot=1];\nshenhe skill;\nganyu skill,
   aim[weakspot=1]:2;\nventi skill,attack;\nrestart;\n"
 description: Freeze Ganyu.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: ganyu
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39588.94538066019
+dps: 39586.411793031366
 mode: sl
 duration: 106.99999999999939
 target_count: 1

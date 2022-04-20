@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30
   attack, skill;\nraiden attack, burst, attack:5,dash,attack:5,dash,attack:4, charge;\nrestart;\n"
 description: Ayaka Freeze with Raiden, because why not. Allows using Xingqiu and no
   Anemo.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47617.46733555454
+dps: 47653.893152766344
 mode: sl
 duration: 108.00000000000088
 target_count: 1

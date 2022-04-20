@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30
   skill[hold=1],burst;\nalbedo skill;\nfischl skill;\nningguang skill,burst,charge,attack:2,charge,attack:2,charge;\n\nzhongli
   skill[hold=1],burst;\nalbedo skill,burst;\nfischl burst;\nningguang skill,burst,charge,attack:2,charge,attack:2,charge;\nrestart;\n"
 description: Ning with Fischl, quick rotation.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42644.59543238543
+dps: 42584.279652232406
 mode: sl
 duration: 102.00000000000051
 target_count: 1
