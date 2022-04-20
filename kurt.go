@@ -198,7 +198,7 @@ func makeFile(filename string, data jsondata, info []string) {
 		}
 	}
 	var d pack
-	d.filepath = "./db/" + data.Characters[maxdpschar].Name + "/" + filename
+	d.filepath = "./db/" + foldernames[charid(data.Characters[maxdpschar].Name)] + "/" + filename
 	d.Config = data.Config
 	//if info[2] != "" { //leave the old desc if new one is empty
 	d.Description = info[2]
@@ -224,9 +224,23 @@ var chars = []string{"Ayato", "YaeMiko", "Shenhe", "YunJin", "Itto", "Gorou", "T
 	"Eula", "Yanfei", "Rosaria", "HuTao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Tartaglia", "Diona", "Klee", "Venti", "Keqing", "Mona",
 	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon"}
 
+var foldernames = []string{"Ayato", "Yae", "Shenhe", "Yun Jin", "Itto", "Gorou", "Thoma", "Kokomi", "Raiden", "Sara", "Aloy", "Yoimiya", "Sayu", "Ayaka", "Kazuha",
+	"Eula", "Yanfei", "Rosaria", "Hu Tao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Tartaglia", "Diona", "Klee", "Venti", "Keqing", "Mona",
+	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon"}
+
 var abbrs = []string{"at", "ya", "sh", "yj", "it", "gr", "tm", "kk", "rd", "sr", "al", "ym", "sy", "ay", "kz",
 	"eu", "yf", "rs", "ht", "xa", "gy", "ab", "zl", "xy", "ch", "dn", "kl", "vn", "kq", "mn",
 	"qq", "dl", "jn", "sc", "cy", "nl", "bn", "fs", "ng", "xq", "bd", "xl", "rz", "bb", "ls", "ky", "am", "pm"}
+
+func charid(c string) int {
+	for i := range chars {
+		if strings.ToLower(chars[i]) == c {
+			return i
+		}
+	}
+	fmt.Printf("No abbr found for %v", c)
+	return -1
+}
 
 func abbr(c string) string {
 	for i := range chars {

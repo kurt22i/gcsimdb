@@ -28,7 +28,7 @@ config: "options swap_delay=12 debug=true mode=sl iteration=1000 duration=110 wo
   dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n
   \      attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2,
   dash,\n       attack:2, dash;\n       \nrestart;\n\n\n"
-description: Double Hydro Yae taser.
+description: Hyper Kokomi.
 hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
 - name: kokomi
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30329.226992291566
+dps: 30343.655987530652
 mode: sl
 duration: 109.99999999999949
 target_count: 1

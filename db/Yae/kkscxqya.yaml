@@ -1,0 +1,95 @@
+author: Arfoire#9219
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=90 workers=30 mode=apl;
+
+  #Character Builds:
+  sucrose char lvl=90/90 cons=6 talent=9,9,9;
+  sucrose add weapon="sacrificialfragments" refine=3 lvl=90/90;
+  sucrose add set="viridescentvenerer" count=4;
+  sucrose add stats hp=4780 atk=311 em=561 ; #main
+  sucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.4408 em=118.92 cr=0.0662 cd=0.1324;
+
+  yaemiko char lvl=90/90 cons=0 talent=9,9,9;
+  yaemiko add weapon="thewidsith" refine=3 lvl=90/90;
+  yaemiko add set="gladiatorsfinale" count=2;
+  yaemiko add set="thunderingfury" count=2;
+  yaemiko add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
+  yaemiko add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
+
+  kokomi char lvl=90/90 cons=0 talent=9,9,9;
+  kokomi add weapon="hakushinring" refine=5 lvl=90/90;
+  kokomi add set="oceanhuedclam" count=4;
+  kokomi add stats hp=4780 atk=311 er=0.518 hydro%=0.466 heal=0.359 ; #main
+  kokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.5952 atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.0662 cd=0.1324;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main
+  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.2317 cd=0.5958;
+
+  #Enemies and particles:
+  target lvl=100 resist=.1;
+  energy every interval=480,720 amount=1;
+
+  #Action List:
+  active kokomi;
+
+  kokomi burst +if=.status.kokomiskill<120 && .status.kokomiskill>0;
+  yaemiko skill:3 +limit=1;
+  a1: yaemiko attack, burst;
+  a2: yaemiko attack, skill:2, attack, skill;
+  chain a1, a2 +if=.status.yae_oldest_totem_expiry<120 && .status.kokomiskill>267;
+  yaemiko skill:3 +if=.status.xqburst==0 && .status.yae_oldest_totem_expiry<120;
+  yaemiko attack, skill:2, attack, skill +if=.status.xqburst>0 && .status.yae_oldest_totem_expiry<120;
+  kokomi skill;
+  xingqiu skill[orbital=1], burst[orbital=1], attack;
+  sucrose attack:2, burst;
+  sucrose attack:2, skill;
+  sucrose attack:3, dash;
+
+
+description: Double Hydro Yae taser.
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
+team:
+- name: kokomi
+  con: 0
+  weapon: hakushinring
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: sacrificialfragments
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: thewidsith
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 31963.24819079791
+mode: apl
+duration: 90.00000000000215
+target_count: 1
+viewer_key: FhQnEESU2jQydsfJ3BySq
