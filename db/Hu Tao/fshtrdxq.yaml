@@ -1,0 +1,69 @@
+author: rf#5773
+config: "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"dragonsbane\"
+  refine=3 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\" count=4;\nhutao add
+  stats hp=4780 atk=311 em=187 cr=0.311 pyro%=0.466 ; #main\nhutao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats
+  hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\nraiden char lvl=90/90 cons=0 talent=9,9,9; \nraiden add weapon=\"thecatch\"
+  refine=5 lvl=90/90;\nraiden add set=\"emblemofseveredfate\" count=4;\nraiden add
+  stats hp=4780 atk=311 electro%=0.466 cr=0.311 atk%=0.466 ; #main\nraiden add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"alleyhunter\"
+  refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
+  count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ;
+  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n\ntarget lvl=100 resist=0.1;\nenergy every
+  interval=480,720 amount=1;\n\nactive raiden;\n\nraiden skill;\nfischl burst;\nxingqiu
+  skill[orbital=1], burst[orbital=1], attack;\nhutao skill, attack:2, charge, jump,\n
+  \   attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:1, charge, burst;\nfischl attack, skill;\nraiden attack, burst,
+  attack:3, charge, dash, attack:3, charge, dash, attack:3, charge;\nrestart;\n\n\n"
+description: Taoden.
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
+team:
+- name: fischl
+  con: 6
+  weapon: alleyhunter
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: hutao
+  con: 0
+  weapon: dragonsbane
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: lionsroar
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 45523.893438684805
+mode: sl
+duration: 188.99999999999537
+target_count: 1
+viewer_key: 1-iiuW6fZJgIIOob3Uf_-

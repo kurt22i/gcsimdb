@@ -1,6 +1,6 @@
-author: cyan#3224
-config: |
-  options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;
+author: cyan#3224 and Arfoire#9219
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=109 workers=30 mode=sl;
     ayaka char lvl=90/90 cons=0 talent=9,9,9;
     ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
     ayaka add set="blizzardstrayer" count=4;
@@ -42,6 +42,9 @@ config: |
     ayaka dash, attack:2, charge, dash, attack:2, charge;
 
     restart;
+
+
+
 description: Ayaka Freeze with Rosaria.
 hash: 2fa6d62f942589b81606e5107be8cae5943df947
 team:
@@ -81,8 +84,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43331.87753589472
+dps: 43104.911521916816
 mode: sl
-duration: 103.99999999999928
+duration: 108.99999999999856
 target_count: 1
 viewer_key: ZzwXEj5r7Z17_zAHDoxuO

@@ -1,0 +1,69 @@
+author: Arfoire#9219
+config: "options swap_delay=12 iteration=1000 duration=100 mode=sl;\n\n#Character
+  Builds:\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cd=0.622 ; #main\nbeidou add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.3641 cd=0.5958;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"shimenawasreminiscence\"
+  count=2;\nfischl add set=\"gladiatorsfinale\" count=2;\nfischl add stats hp=4780
+  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\nsangonomiyakokomi char lvl=90/90 cons=0 talent=9,9,9; \nsangonomiyakokomi
+  add weapon=\"hakushinring\" refine=5 lvl=90/90;\nsangonomiyakokomi add set=\"oceanhuedclam\"
+  count=4;\nsangonomiyakokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.359
+  ; #main\nsangonomiyakokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08
+  atk%=0.1984 er=0.1102 em=237.84 cr=0.0662 cd=0.1324;\n\nventi char lvl=90/90 cons=0
+  talent=9,9,9; \nventi add weapon=\"thestringless\" refine=3 lvl=90/90;\nventi add
+  set=\"viridescentvenerer\" count=4;\nventi add stats hp=4780 atk=311 em=561 ; #main\nventi
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
+  em=39.64 cr=0.1986 cd=0.5296;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n#Action list\n\nactive fischl; \nfischl skill;\nkokomi
+  skill;\nventi skill, burst;\nbeidou skill, burst;\nkokomi attack:2;\nfischl attack:2,
+  burst;\nventi skill, attack:2;\nkokomi burst,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2,
+  dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2,
+  dash,\n\tattack:2\n\t;\nventi skill, attack;\nbeidou skill, attack:2;\nkokomi attack:2;\n\nrestart;\n\n"
+description: Kokomi taser with Venti.
+hash: 2fa6d62f942589b81606e5107be8cae5943df947
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: hakushinring
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: venti
+  con: 0
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 35810.81771110999
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: 7WOmNYHV0VzzBt9midJrO
