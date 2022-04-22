@@ -210,7 +210,7 @@ func makeFile(filename string, data jsondata, info []string) {
 func getName(data jsondata) string {
 	names := []string{"Paimon", "Paimon", "Paimon", "Paimon"}
 	for i, c := range data.Characters {
-		names[i] = c.Name
+		names[i] = foldernames[charid(c.Name)]
 	}
 	sort.Strings(names)
 	fname := ""
@@ -225,7 +225,7 @@ var chars = []string{"Ayato", "YaeMiko", "Shenhe", "YunJin", "Itto", "Gorou", "T
 	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon"}
 
 var foldernames = []string{"Ayato", "Yae", "Shenhe", "Yun Jin", "Itto", "Gorou", "Thoma", "Kokomi", "Raiden", "Sara", "Aloy", "Yoimiya", "Sayu", "Ayaka", "Kazuha",
-	"Eula", "Yanfei", "Rosaria", "Hu Tao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Tartaglia", "Diona", "Klee", "Venti", "Keqing", "Mona",
+	"Eula", "Yanfei", "Rosaria", "Hu Tao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Childe", "Diona", "Klee", "Venti", "Keqing", "Mona",
 	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon"}
 
 var abbrs = []string{"at", "ya", "sh", "yj", "it", "gr", "tm", "kk", "rd", "sr", "al", "ym", "sy", "ay", "kz",
@@ -243,8 +243,8 @@ func charid(c string) int {
 }
 
 func abbr(c string) string {
-	for i := range chars {
-		if strings.ToLower(chars[i]) == c {
+	for i := range foldernames {
+		if foldernames[i] == c {
 			return abbrs[i]
 		}
 	}

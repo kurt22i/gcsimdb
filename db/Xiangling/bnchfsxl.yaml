@@ -1,9 +1,9 @@
-author: Charliex3000#9403
+author: Charliex3000#9403 and solo#3333
 config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\ntartaglia
   char lvl=90/90 cons=0 talent=9,9,9; \ntartaglia add weapon=\"theviridescenthunt\"
   refine=1 lvl=90/90;\ntartaglia add set=\"heartofdepth\" count=4;\ntartaglia add
   stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cd=0.622 ; #main\ntartaglia add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
   cr=0.3972 cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
   refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
@@ -19,9 +19,9 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   em=237.84 cr=0.2317 cd=0.4634;\n\nactive bennett;\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\n\n\n\nbennett skill,burst;\nfischl attack:2, skill;\nxiangling
   burst,skill;\ntartaglia burst, skill,\n          attack:5, dash,\n          attack:5,
-  dash,\n          attack:4;\nfischl attack:2, burst;\nbennett skill;\nxiangling skill,attack:2;\ntartaglia
-  aim;\nbennett skill;\nxiangling attack:3;\ntartaglia aim:2;\nwait 34; #align rotation
-  to 25s\nrestart;\n"
+  dash,\n          attack:4;\nfischl attack:2, burst;\nbennett skill;\nxiangling attack:3,
+  skill;\ntartaglia aim;\nbennett skill;\nxiangling attack:3;\ntartaglia aim:2;\nwait
+  15; #align rotation to 25s\nrestart;\n\n"
 description: Childe with Fischl, a Childe team that also excels at ST.
 hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
@@ -47,7 +47,7 @@ team:
   con: 0
   weapon: theviridescenthunt
   refine: 1
-  er: 0.1102
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45660.832195398616
+dps: 47428.405642719415
 mode: sl
 duration: 99.9999999999986
 target_count: 1
