@@ -200,9 +200,7 @@ func makeFile(filename string, data jsondata, info []string) {
 	var d pack
 	d.filepath = "./db/" + foldernames[charid(data.Characters[maxdpschar].Name)] + "/" + filename
 	d.Config = data.Config
-	//if info[2] != "" { //leave the old desc if new one is empty
 	d.Description = info[2]
-	//}
 	d.Author = info[1]
 
 	saveYaml([]pack{d})
