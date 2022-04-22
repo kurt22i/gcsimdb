@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30
   burst;\n\nitto attack:2, burst, attack, skill, attack:2, charge:5, attack:4, charge:5,
   skill, charge, attack:2;\n\nrestart;\n"
 description: Itto microwave with GMC.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: gorou
   con: 6
@@ -43,7 +43,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-- name: traveler (geo)
+- name: travelergeo
   con: 6
   weapon: favoniussword
   refine: 3
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45375.111557882505
+dps: 45365.2491664714
 mode: sl
 duration: 102.00000000000051
 target_count: 1

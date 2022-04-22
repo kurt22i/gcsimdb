@@ -27,7 +27,7 @@ config: "options swap_delay=12 iteration=1000 duration=100 mode=sl;\nbeidou char
   attack:2,dash;\nkokomi attack:2,dash;\nkokomi attack:2,dash;\nkokomi attack:2,dash;\nkokomi
   attack:2,dash;\nkokomi attack:1,dash;\nbeidou skill, attack;\nrestart;\n"
 description: Kokomi Taser.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: beidou
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41715.84631808055
+dps: 41698.02979447832
 mode: sl
 duration: 99.9999999999986
 target_count: 1

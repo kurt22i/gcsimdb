@@ -49,7 +49,7 @@ config: |+
 
 
 description: Yae tazer team with Mona as the Hydro. Prototype Amber for healing.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: fischl
   con: 6
@@ -87,7 +87,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44746.305924478394
+dps: 44813.22250154493
 mode: sl
 duration: 93.99999999999868
 target_count: 1

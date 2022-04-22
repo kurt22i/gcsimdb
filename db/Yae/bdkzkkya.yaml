@@ -28,7 +28,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=90 workers=30 
   dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nkaedeharakazuha
   attack, skill, high_plunge, attack;\nbeidou skill, attack;\n\nrestart;\n"
 description: Yae/Beidou Tazer with Kokomi.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: beidou
   con: 5
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30724.019757501996
+dps: 30664.90372034875
 mode: sl
 duration: 90.00000000000215
 target_count: 1

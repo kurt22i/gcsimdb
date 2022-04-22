@@ -32,7 +32,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30
   skill,skill,skill;\nkokomi skill;\nsara skill, aim;\nyaemiko burst,skill,skill,skill;\nkokomi
   burst;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,skill;\n\nrestart;\n"
 description: Kokomi/Raiden/Sara/Yae.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: kokomi
   con: 0
@@ -70,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35743.98708301078
+dps: 35673.52489437961
 mode: sl
 duration: 108.00000000000088
 target_count: 1

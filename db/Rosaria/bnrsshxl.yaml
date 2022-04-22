@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   attack:3;\n\nshenhe skill, attack;\n\nrosaria skill, attack;\nshenhe attack:3;\n\nbennett
   skill, attack;\nxiangling attack:3;\n\nrestart;\n"
 description: ""
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45654.56780240066
+dps: 45669.73859754523
 mode: sl
 duration: 103.99999999999928
 target_count: 1

@@ -1,0 +1,78 @@
+author: Rare Possum#0511
+config: "options debug=true iteration=1000 duration=105 workers=30 mode=sl swap_delay=12;\n\nrosaria
+  char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nrosaria add set=\"blizzardstrayer\" count=4;\nrosaria add stats hp=4780
+  atk=311 atk%=0.466 cryo%=0.466 cd=0.6220; #main\nrosaria add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;\n\nayato
+  char lvl=90/90 cons=0 talent=9,9,9; \nayato add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nayato add set=\"noblesseoblige\" count=5;\nayato add stats hp=4780 atk=311
+  er=0.518 hydro%=0.466 cd=0.622; #main\nayato add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.3968 er=0.3306 em=39.64 cr=0.3972 cd=0.1324;\n\nventi
+  char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"favbow\" refine=3 lvl=90/90;\nventi
+  add set=\"viridescentvenerer\" count=5;\nventi add stats hp=4780 atk=311 em=561
+  ;# cr=0.311; #main\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.5952 er=0.1102 em=118.92 cr=0.1324 cd=0.3972;\n\nganyu char lvl=90/90 cons=0
+  talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu
+  add set=\"blizzardstrayer\" count=5;\nganyu add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\ntarget lvl=100 pyro=0.1
+  dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n\nenergy
+  every interval=480,720 amount=1;\nactive ganyu;\n#-------------------------------------------\n\nganyu
+  aim[weakspot=1];\n\nayato burst[radius=2];\nrosaria burst,skill;\nganyu skill, burst[radius=2],
+  aim[weakspot=1];\nventi skill, burst;\nrosaria skill;\nganyu aim[weakspot=1]:2;\nayato
+  skill, attack:5;\nventi skill, attack;\n\nayato burst[radius=2];\nrosaria burst,skill;\nganyu
+  skill, burst[radius=2], aim[weakspot=1];\nventi skill, burst;\nrosaria skill;\nganyu
+  aim[weakspot=1]:2;\nayato skill, attack:5;\nventi skill, attack;\n\nayato burst[radius=2];\nrosaria
+  burst,skill;\nganyu skill, burst[radius=2], aim[weakspot=1];\nventi skill, burst;\nrosaria
+  skill;\nganyu aim[weakspot=1]:2;\nayato skill, attack:5;\nventi skill, attack;\n\nayato
+  burst[radius=2];\nrosaria burst,skill;\nganyu skill, burst[radius=2], aim[weakspot=1];\nventi
+  skill, burst;\nrosaria skill;\nganyu aim[weakspot=1]:2;\nayato skill, attack:5;\nventi
+  skill, attack;\n\nayato burst[radius=2];\nrosaria burst,skill;\nganyu skill, burst[radius=2],
+  aim[weakspot=1];\nventi skill, burst;\nrosaria skill;\nganyu aim[weakspot=1]:2;\nayato
+  skill, attack:5;\nventi skill, attack;\n\nayato burst[radius=2];\nrosaria burst,skill;\nganyu
+  skill, burst[radius=2], aim[weakspot=1];\nventi skill, burst;\nrosaria skill;\nganyu
+  aim[weakspot=1]:2;\nayato skill, attack:5;\nventi skill, attack;\n\nrestart;\n\n\n"
+description: Freeze Ganyu with Ayato.
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: ayato
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: ganyu
+  con: 0
+  weapon: prototypecrescent
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: favoniuslance
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: venti
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 29788.78228797341
+mode: sl
+duration: 105.00000000000071
+target_count: 1
+viewer_key: iaqRF0E0mBFBeCTQZEAqV

@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   skill,burst;\nrosaria skill,burst;\neula burst,attack:4,skill[hold=1],attack:4;\nrosaria
   skill;\neula attack:4,attack:4,skill;\nrestart;\n"
 description: Double Geo Eula, a comfortable team that surprisingly works very well.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35064.56083030176
+dps: 35064.7924319227
 mode: sl
 duration: 109.99999999999949
 target_count: 1

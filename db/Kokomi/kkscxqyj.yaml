@@ -29,7 +29,7 @@ config: "options swap_delay=12 debug=true mode=sl iteration=1000 duration=110 wo
   \      attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2,
   dash,\n       attack:2, dash;\n       \nrestart;\n\n\n"
 description: Hyper Kokomi.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: kokomi
   con: 0
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30343.655987530652
+dps: 30369.998560914883
 mode: sl
 duration: 109.99999999999949
 target_count: 1

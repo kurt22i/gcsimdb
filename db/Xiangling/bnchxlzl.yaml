@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   skill[hold=1];\nbennett skill;\nxiangling skill,attack:2;\ntartaglia aim;\nbennett
   skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\nrestart;\n"
 description: International with Zhongli.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
   con: 5
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33031.87835926803
+dps: 33054.32188717752
 mode: sl
 duration: 99.9999999999986
 target_count: 1

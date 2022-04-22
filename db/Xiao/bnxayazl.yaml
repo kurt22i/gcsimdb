@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=113 workers=30
   \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n
   \   high_plunge[plunge_hits=1]\n    ;\n    \nrestart;\n"
 description: Xiao + Yae.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29362.98074611942
+dps: 29329.03053498895
 mode: sl
 duration: 112.9999999999996
 target_count: 1

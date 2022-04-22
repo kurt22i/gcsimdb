@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=79 workers=30 
   attack:3, dash;\nfischl burst;\ngorou skill, attack;\nnoelle attack:3, dash, attack:3,
   dash, attack:3, dash;\ngorou skill, attack;\nnoelle attack:3, dash, attack:2, dash;\nrestart;\n"
 description: Noelle with Fischl.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39797.350125273784
+dps: 39759.91498235081
 mode: sl
 duration: 78.9999999999992
 target_count: 1

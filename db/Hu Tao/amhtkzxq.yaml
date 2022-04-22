@@ -29,7 +29,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30
   charge, jump;\nkazuha attack, skill, high_plunge, attack:3;\n\nrestart;\n"
 description: VV Vape Tao with Amber. Hu Tao dying drops the DPS to 0, so make sure
   your dodging is good enough to play this.
-hash: 2fa6d62f942589b81606e5107be8cae5943df947
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: amber
   con: 2
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48171.763922564576
+dps: 48294.60471370461
 mode: sl
 duration: 188.99999999999537
 target_count: 1

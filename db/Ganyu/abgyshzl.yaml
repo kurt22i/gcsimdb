@@ -1,0 +1,67 @@
+author: Rare Possum#0511
+config: "options debug=true iteration=1000 duration=200 workers=30 mode=apl swap_delay=12;\n\nganyu
+  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5
+  lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=5;\nganyu add stats hp=4780
+  atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;\n\nzhongli
+  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nzhongli add set=\"archaicpetra\" count=4;\nzhongli add stats hp=4780
+  atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nalbedo
+  char lvl=90/90 cons=0 talent=9,9,9; \nalbedo add weapon=\"cinnabarspindle\" refine=5
+  lvl=90/90;\nalbedo add set=\"huskofopulentdreams\" count=4;\nalbedo add stats hp=4780
+  atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo add stats def%=0.248 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nshenhe
+  char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats hp=4780
+  atk=311 atk%=1.398 ; #main \nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.2976 er=0.1102 em=39.64 cr=0.3972 cd=0.5296;\n\n\nactive zhongli;\ntarget
+  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
+  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nzhongli skill[hold=1] +if=.tags.zhongli.shielded==0;\nalbedo
+  skill +if=.tags.albedo.elevator==0;\n\n#rosaria skill +timeout=540;\n#rosaria burst;\n\nshenhe
+  skill[hold=1];\nshenhe burst;\n\nganyu skill;\nganyu aim[weakspot=1], burst[radius=2];\nganyu
+  aim[weakspot=1];\n\n"
+description: Melt Ganyu but there's no melt, just crystallize (and it still works).
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: albedo
+  con: 0
+  weapon: cinnabarspindle
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: ganyu
+  con: 0
+  weapon: prototypecrescent
+  refine: 5
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: zhongli
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 44606.05837258151
+mode: apl
+duration: 199.9999999999972
+target_count: 1
+viewer_key: aev33C3EpuZ742kuozM5k
