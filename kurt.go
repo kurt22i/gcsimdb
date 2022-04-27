@@ -197,6 +197,7 @@ func makeFile(filename string, data jsondata, info []string) {
 			maxdpschar = i
 		}
 	}
+	//fmt.Printf("%v", data)
 	var d pack
 	d.filepath = "./db/" + foldernames[charid(data.Characters[maxdpschar].Name)] + "/" + filename
 	d.Config = data.Config
