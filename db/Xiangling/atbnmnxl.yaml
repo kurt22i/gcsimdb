@@ -1,26 +1,26 @@
 author: Ocram2012#6693
-config: "options swap_delay=12 debug=true iteration=1000 duration=147 workers=30 mode=sl;\n\n###
+config: "options swap_delay=12 debug=true iteration=1000 duration=172 workers=30 mode=sl;\n\n###
   Characters\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nmona add set=\"instructor\" count=4;\nmona add stats hp=3571
-  atk=232 atk%=0.348 cr=0.232 hydro%=0.466 ; #Main\nmona add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.1655 cd=0.331;
-  #Sub\n\nayato char lvl=90/90 cons=0 talent=9,9,9; \nayato add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nayato add set=\"echoesofanoffering\" count=4;\nayato add stats
-  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #Main\nayato add stats hp%=0.0992
-  hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944
-  er=0.1102 ; #Sub\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add
-  weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=4;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #Main\nxiangling
-  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=79.2
-  cr=0.331 cd=0.7944 er=0.1102; #Sub\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=4;\nbennett add stats hp=4780 atk=311 pyro%=0.466 er=0.518 cr=0.311; #Main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944; #Sub\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  refine=5 lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add
+  stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
+  cd=0.7282;\n\nayato char lvl=90/90 cons=0 talent=9,9,9; \nayato add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nayato add set=\"noblesseoblige\" count=4;\nayato add stats
+  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #Main\nayato add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
+  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
+  add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #Main\nxiangling add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
+  cr=0.2979 cd=0.7282;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
+  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett
+  add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64
+  cr=0.0993 cd=0.1986;\n\ntarget lvl=100 resist=.1;\n\nenergy every interval=480,720
   amount=1;\n\n### Action List\nactive bennett;\n\nbennett skill, burst;\nayato burst[radius=2];\nmona
   attack, skill; \nxiangling burst, skill;\nmona attack, burst;\nayato skill, attack:15;\nmona
-  skill, attack;\nbennett skill;\nxiangling skill, attack:2;\nmona attack:2, charge;\nayato
-  skill, attack:5;\n\nrestart;\n\n\n\n"
+  skill, attack;\nbennett skill;\nxiangling skill, attack:2;\nayato attack:4, skill,
+  attack:5;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: Monato.
 hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
@@ -46,7 +46,7 @@ team:
   con: 0
   weapon: thrillingtalesofdragonslayers
   refine: 5
-  er: 0.4408
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
@@ -55,13 +55,13 @@ team:
   con: 6
   weapon: thecatch
   refine: 5
-  er: 0.6282
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 42911.42117211051
+dps: 43875.31327573234
 mode: sl
-duration: 147.00000000000082
+duration: 171.99999999999767
 target_count: 1
 viewer_key: rLTb8WDrNpchOvpVTpC10

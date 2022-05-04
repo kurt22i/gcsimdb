@@ -1,29 +1,31 @@
-author: Charliex3000#9403
-config: |
-  options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;
+author: Charliex3000#9403, Lizz71#8986 and cyan#3224
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;
   ayaka char lvl=90/90 cons=0 talent=9,9,9;
   ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
   ayaka add set="blizzardstrayer" count=4;
-  ayaka add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220; #main
-  ayaka add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
+  ayaka add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main
+  ayaka add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
 
   kokomi char lvl=90/90 cons=0 talent=9,9,9;
   kokomi add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
   kokomi add set="tenacityofthemillelith" count=4;
-  kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590; #main
-  kokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.5952 er=0.2204 em=39.64 cr=0.0662 cd=0.1324;
+  kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.359; #main
+  kokomi add stats def%=0.1240 def=39.36 hp=1015.76 hp%=0.496 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.0662 cd=0.1324;
 
   kazuha char lvl=90/90 cons=0 talent=9,9,9;
-  kazuha add weapon="ironsting" refine=5 lvl=90/90;
+  kazuha add weapon="favoniussword" refine=3 lvl=90/90;
   kazuha add set="viridescentvenerer" count=4;
   kazuha add stats hp=4780 atk=311 em=561; #main
-  kazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;
+  #kazuha add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=118.92 cr=0.3972 cd=0.1324;
+  kazuha add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.3972 cd=0.5296;
 
   ganyu char lvl=90/90 cons=0 talent=9,9,9;
-  ganyu add weapon="favoniuswarbow" refine=3 lvl=90/90;
-  ganyu add set="noblesseoblige" count=4;
-  ganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main
-  ganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.3306 em=39.64 cr=0.331 cd=0.1324;
+  ganyu add weapon="prototypecrescent" refine=5 lvl=90/90;
+  ganyu add set="blizzardstrayer" count=4;
+  ganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main
+  #ganyu add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
+  ganyu add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;
 
   # ----
   energy every interval=480,720 amount=1;
@@ -32,17 +34,18 @@ config: |
   # ----
   active ayaka;
 
-  ayaka dash, attack, skill, attack;
+  ayaka dash, attack, skill, attack:2, charge;
   kazuha skill[hold=1], high_plunge, burst;
-  ganyu skill, burst[radius=2];
-  kokomi attack, skill;
-  ayaka dash, attack, burst, dash, attack, skill, attack:3, charge;
+  ganyu skill, burst;
+  kokomi skill;
+  ayaka dash, attack, skill, burst, attack, charge;
   kazuha skill, high_plunge;
-  ganyu skill;
-  ayaka dash, attack:2, charge, dash, attack:2, charge;
+  ganyu skill, aim[weakspot=1]:2;
 
   restart;
-description: Ayaka Freeze with Ganyu and Kokomi.
+
+
+description: Ayaka freeze with Ganyu.
 hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: ayaka
@@ -56,18 +59,18 @@ team:
     burst: 9
 - name: ganyu
   con: 0
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.3306
+  weapon: prototypecrescent
+  refine: 5
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: kazuha
   con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.6612
+  weapon: favoniussword
+  refine: 3
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -76,13 +79,13 @@ team:
   con: 0
   weapon: thrillingtalesofdragonslayers
   refine: 5
-  er: 0.2204
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 43854.252048854774
+dps: 49530.32368068022
 mode: sl
-duration: 103.99999999999928
+duration: 105.99999999999856
 target_count: 1
 viewer_key: mRyIdTR_JKRBCPWgXus9i

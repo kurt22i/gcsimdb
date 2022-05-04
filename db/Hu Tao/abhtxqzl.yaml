@@ -1,5 +1,5 @@
-author: ""
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao
+author: Soujirou#5405, rf#5773 and mina#4448
+config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"deathmatch\"
   refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
   stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
@@ -17,15 +17,16 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   add stats hp=4780 atk=311 def%=.583 geo%=0.466 cr=0.311;\nalbedo add stats def%=0.248
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
   cd=0.7944;\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive
-  zhongli;\n\nalbedo skill,burst;\nzhongli skill[hold=1];\nxingqiu skill, burst, attack:1;\nhutao
-  skill, attack, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  albedo;\n\nalbedo skill;\nzhongli skill[hold=1];\nxingqiu skill, burst, attack:1;\nalbedo
+  burst, attack:1;\nhutao skill, attack, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:1, charge, burst;\n\t\nzhongli attack:4;\nxingqiu attack:3;\nzhongli
-  attack:3;\n\nalbedo skill,burst;\nzhongli skill[hold=1];\nxingqiu skill, burst,
-  attack:1;\nhutao skill, attack, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, burst;\n\t\nzhongli
+  attack:3;\nxingqiu attack:3;\nzhongli attack:2;\n\nalbedo skill;\nzhongli skill[hold=1];\nxingqiu
+  skill, burst, attack:1;\nalbedo burst, attack:1;\nhutao skill, attack, charge, jump,\n\tattack:2,
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, jump;\n\t\nzhongli
-  attack:4;\nxingqiu attack:3;\nzhongli attack:3;\nxingqiu attack:3;\n\nrestart;\n"
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump;\n\t\nzhongli attack:4;\nxingqiu attack:3;\nzhongli attack:3;\nxingqiu
+  attack:2;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
@@ -65,8 +66,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48461.88556989659
+dps: 52682.95956781744
 mode: sl
-duration: 105.00000000000071
+duration: 109.99999999999949
 target_count: 1
 viewer_key: CGDuVdwFi86feICSMHs3Y

@@ -1,49 +1,34 @@
 author: Rare Possum#0511
-config: |
-  options swap_delay=12 debug=true iteration=1000 duration=150 workers=30 mode=sl;
-
-  sucrose char lvl=90/90 cons=6 talent=9,9,9;
-  sucrose add weapon="hakushinring" refine=5 lvl=90/90;
-  sucrose add set="viridescentvenerer" count=5;
-  sucrose add stats hp=4780 atk=311 em=561 ; #main
-  sucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306 em=118.92 cr=0.1324 cd=0.1324;
-
-  yaemiko char lvl=90/90 cons=0 talent=9,9,9;
-  yaemiko add weapon="oathsworneye" refine=5 lvl=90/90;
-  yaemiko add set="gladiatorsfinale" count=2;
-  yaemiko add set="thunderingfury" count=2;
-  yaemiko add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
-  yaemiko add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
-
-  fischl char lvl=90/90 cons=6 talent=9,9,9;
-  fischl add weapon="thestringless" refine=3 lvl=90/90;
-  fischl add set="tenacityofthemillelith" count=5;
-  #fischl add set="thunderingfury" count=3;
-  fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
-  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-
-  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
-  xingqiu add weapon="lionsroar" refine=3 lvl=90/90;
-  xingqiu add set="noblesseoblige" count=5;
-  xingqiu add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main
-  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
-
-
-  active fischl;
-  target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
-  energy every interval=480,720 amount=1;
-
-
-
-  fischl skill;
-  sucrose attack, burst;
-  yaemiko skill,skill,skill;
-  xingqiu skill,burst,attack;
-  sucrose attack:2,skill,attack:2,charge,attack:2,charge;
-  fischl attack,burst;
-  yaemiko attack,burst,attack,skill,skill,attack,skill;
-  sucrose attack:2,skill,attack:2,charge,attack:2,charge,attack:2,charge,attack;
-  restart;
+config: "options swap_delay=12 debug=true iteration=1000 duration=150 workers=30 mode=sl;\n\nsucrose
+  char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"hakushinring\" refine=5
+  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780
+  atk=311 em=561 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.3306 em=118.92 cr=0.1324 cd=0.1324;\n\nyaemiko char lvl=90/90
+  cons=0 talent=9,9,9;\nyaemiko add weapon=\"thewidsith\" refine=3 lvl=90/90;\nyaemiko
+  add set=\"gladiatorsfinale\" count=2;\nyaemiko add set=\"thunderingfury\" count=2;\nyaemiko
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
+  count=5;\n#fischl add set=\"thunderingfury\" count=3;\nfischl add stats hp=4780
+  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=5;\nxingqiu add stats
+  hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\n\nactive fischl;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
+  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\n\nfischl
+  skill;\nyaemiko skill,skill,skill;\nsucrose attack, burst;\nxingqiu skill,burst,attack;\nsucrose\n
+  \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2, dash\n    ;\nfischl attack,burst;\nyaemiko attack,skill,skill,attack,skill;\nsucrose\n
+  \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2, dash,\n    attack:2, dash,\n\tattack:2, charge,\n\tattack:2\n    ;\n\nfischl
+  skill;\nyaemiko skill,skill,skill;\nsucrose attack, burst;\nxingqiu skill,burst,attack;\nsucrose\n
+  \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
+  \   attack:2, dash\n    ;\nfischl attack,burst;\nyaemiko attack,burst,attack,skill,skill,attack,skill;\nsucrose\n
+  \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n
+  \   attack:2, charge,\n    attack:1, charge\t\n    ;\nrestart;\n\n"
 description: Yae Tazer, Xingqiu version with Sucrose.
 hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
@@ -76,14 +61,14 @@ team:
     burst: 9
 - name: yaemiko
   con: 0
-  weapon: oathsworneye
-  refine: 5
-  er: 0.2204
+  weapon: thewidsith
+  refine: 3
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 48756.655407778955
+dps: 49259.043227351576
 mode: sl
 duration: 150.0000000000028
 target_count: 1
