@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=156 mode=sl;\n
   attack, skill[counter=2], attack:2;\nkazuha attack, skill, high_plunge, attack;\nfischl
   attack, burst;\nayato attack:2, dash, attack, skill, attack:13;\n\nrestart;\n"
 description: Ayato Taser with Kazuha.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: ayato
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40546.08736575319
+dps: 41584.173042968156
 mode: sl
 duration: 156.00000000000313
 target_count: 1

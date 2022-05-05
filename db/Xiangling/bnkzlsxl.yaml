@@ -1,0 +1,67 @@
+author: ""
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
+  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
+  cd=0.7282;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=5;\nkazuha add
+  stats hp=4780 atk=311 em=561; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\nlisa
+  char lvl=90/90 cons=2 talent=9,9,9; \nlisa add weapon=\"favoniuscodex\" refine=3
+  lvl=90/90;\nlisa add set=\"wandererstroupe\"count=1;\nlisa add set=\"emblemofseveredfate\"
+  count=4;\nlisa add stats hp=4780 atk=311 em=393 er=0.518; #main\nlisa add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=158.56
+  cr=0.1986 cd=0.1324;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
+  weapon=\"prototyperancour\" refine=5 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\nactive bennett;\nbennett skill,burst;\nkazuha skill,high_plunge,burst;\nlisa
+  burst;\nxiangling burst,skill;\nkazuha skill,high_plunge;\nlisa skill[hold=1];\nbennett
+  skill;\nxiangling attack,attack,attack;\nkazuha skill,high_plunge;\nbennett skill;\nxiangling
+  attack,attack,attack;\nrestart;\n"
+description: ""
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: bennett
+  con: 6
+  weapon: prototyperancour
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: lisa
+  con: 2
+  weapon: favoniuscodex
+  refine: 3
+  er: 1.1792
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 40019.471456499006
+mode: sl
+duration: 105.00000000000071
+target_count: 1
+viewer_key: bQ3AhdZTfyFO5LMKjoQRS

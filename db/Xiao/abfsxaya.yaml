@@ -27,7 +27,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   \   ;\nrestart;\n"
 description: Xiao Double Geo, but you forgot the second Geo, so now you have Yae instead
   of heals and shields.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: albedo
   con: 0
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31988.051285547335
+dps: 32002.50702934092
 mode: sl
 duration: 109.99999999999949
 target_count: 1

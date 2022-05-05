@@ -1,0 +1,69 @@
+author: Kurt#5846
+config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nraidenshogun
+  char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nyaemiko char lvl=90/90 cons=0 talent=9,9,9;\nyaemiko
+  add weapon=\"oathsworneye\" refine=5 lvl=90/90;\nyaemiko add set=\"gladiatorsfinale\"
+  count=2;\nyaemiko add set=\"thunderingfury\" count=3;\nyaemiko add stats hp=4780
+  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317
+  cd=0.7282;\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9; \nkaedeharakazuha
+  add weapon=\"ironsting\" refine=5 lvl=90/90;\nkaedeharakazuha add set=\"viridescentvenerer\"
+  count=5;\nkaedeharakazuha add stats hp=4780 atk=311 em=561 ; #main\nkaedeharakazuha
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.4408
+  em=118.92 cr=0.0662 cd=0.1324;\n\nsara char lvl=90/90 cons=6 talent=9,9,9; \nsara
+  add weapon=\"sacrificialbow\" refine=3 lvl=90/90;\nsara add set=\"emblemofseveredfate\"
+  count=5;\nsara add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nsara
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
+  em=39.64 cr=0.2317 cd=0.4634;\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
+  amount=1;\n\nyaemiko skill,skill,skill;\nraiden skill;\nkazuha skill[hold=1],high_plunge;\nsara
+  skill;\nyaemiko burst,skill,skill,skill;\nkazuha burst,skill[hold=1],high_plunge;\nsara
+  burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n"
+description: Raiden Hypercarry when Bennett is locked on the other team. No shielding
+  or healing, have fun.
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: kazuha
+  con: 0
+  weapon: ironsting
+  refine: 5
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sara
+  con: 6
+  weapon: sacrificialbow
+  refine: 3
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: oathsworneye
+  refine: 5
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 38686.463558195865
+mode: sl
+duration: 109.99999999999949
+target_count: 1
+viewer_key: jw9lcHGx9a4O_RgaB1SBa

@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   skill, burst;\nbennett attack, skill, \n    attack:3, skill, \n    attack:3, skill,\n
   \   attack:3, skill\n    ;\nkaeya attack, skill;\nrosaria attack, skill;\nrestart;\n"
 description: Melt Bennett meme team.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 26910.51504102512
+dps: 27017.676451671286
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30
   \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n
   \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1]\n    ;\n    \nrestart;\n"
 description: Double Geo Xiao without Albedo. Assumes collisions on all plunges.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29956.169935935177
+dps: 29955.804426990067
 mode: sl
 duration: 100.9999999999993
 target_count: 1

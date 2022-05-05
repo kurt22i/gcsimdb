@@ -1,0 +1,81 @@
+author: Arfoire#9219
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#-----------------------------------------------------\n\n\n#Character
+  builds:\nyaemiko char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"oathsworneye\"
+  refine=5 lvl=90/90;\nyaemiko add set=\"emblemofseveredfate\" count=4;\nyaemiko add
+  stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\" count=4;\nventi add stats
+  hp=4780 atk=311 em=561 ; #main\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.1986 cd=0.5296;\n\n\nbeidou char lvl=90/90
+  cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90;\nbeidou
+  add set=\"emblemofseveredfate\" count=4;\nbeidou add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cd=0.622 ; #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.3641 cd=0.5958;\n\n\nmona
+  char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"favoniuscodex\" refine=3
+  lvl=90/90;\nmona add set=\"noblesseoblige\" count=4;\nmona add stats hp=4780 atk=311
+  atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=237.84 cr=0.0993 cd=0.1986;\n\n\n#-----------------------------------------------------\n\n\n#Enemies
+  and particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n\n#-----------------------------------------------------\n#Action
+  List:\nactive yaemiko;\n\nyaemiko skill:3;\nmona skill;\nventi burst, skill, attack;\nmona
+  burst;\nyaemiko burst, skill:3;\nbeidou skill[counter=1], burst, attack;\nventi
+  skill, attack:2;\nmona skill, attack:2, charge,\n\tattack:2, charge,\n\tattack:2\n
+  \   ;\nbeidou skill[counter=1], attack;\n\nyaemiko skill, attack, skill:2, attack;\nmona
+  skill, attack;\nventi burst, skill, attack;\nmona burst;\nyaemiko burst, skill:3;\nbeidou
+  skill[counter=1], burst, attack;\nventi skill, attack:2;\nmona skill, attack:2,
+  charge,\n\tattack:2, charge\n    ;\nbeidou skill[counter=1], attack;\n\nyaemiko
+  skill, attack, skill:2, attack;\nmona skill, attack;\nventi burst, skill, attack;\nmona
+  burst;\nyaemiko burst, skill:3;\nbeidou skill[counter=1], burst, attack;\nventi
+  skill, attack:2;\nmona skill, attack:2, charge,\n\tattack:2, charge\n    ;\nbeidou
+  skill[counter=1], attack;\n\nyaemiko skill, attack, skill:2, attack;\nmona skill,
+  attack;\nventi burst, skill, attack;\nmona burst;\nyaemiko burst, skill:3;\nbeidou
+  skill[counter=1], burst, attack;\nventi skill, attack:2;\nmona skill, attack:2,
+  charge,\n\tattack:2, charge\n    ;\nbeidou skill[counter=1], attack;\n\nyaemiko
+  skill, attack, skill:2, attack;\nmona skill, attack;\nventi burst, skill, attack;\nmona
+  burst;\nyaemiko burst, skill:3;\nbeidou skill[counter=1], burst, attack;\nventi
+  skill, attack:2;\nmona skill, attack:2, charge,\n\tattack:2, charge\n    ;\nbeidou
+  skill[counter=1], attack;\n\nrestart;\n\n"
+description: Mona Taser.
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: mona
+  con: 0
+  weapon: favoniuscodex
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: venti
+  con: 0
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: oathsworneye
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 26036.03999848071
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: j5Xga9wp8Dehv8KqK6V1q

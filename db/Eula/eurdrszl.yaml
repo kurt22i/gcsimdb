@@ -1,0 +1,68 @@
+author: Kurt#5846 and Rare Possum#0511
+config: "options swap_delay=12 debug=true iteration=1000 duration=109 workers=30 mode=sl;\n\neula
+  char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
+  lvl=90/90 +params=[stacks=5];\neula add set=\"paleflame\" count=4;\neula add stats
+  hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622 ; #main\neula add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972
+  cd=0.662;\n\nraidenshogun char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add
+  weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\"
+  count=5;\nraidenshogun add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311
+  ; #main\nraidenshogun add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nrosaria char lvl=90/90 cons=6
+  talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria
+  add set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cr=0.311 ; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90
+  cons=0 talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=5 lvl=90/90;\nzhongli
+  add set=\"tenacityofthemillelith\" count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli
+  add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  cr=0.331 cd=0.7944;\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
+  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
+  amount=1;\n\nraiden skill;\nzhongli skill[hold=1];\nrosaria skill;\neula skill,
+  attack:2;\nrosaria burst;\neula burst,attack:4,skill[hold=1];\nwait 14;\neula attack:4;\nrosaria
+  skill;\neula attack:2;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n\n\n\n"
+description: Eula.
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: eula
+  con: 0
+  weapon: serpentspine
+  refine: 1
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: favoniuslance
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: zhongli
+  con: 0
+  weapon: favoniuslance
+  refine: 5
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 37201.10006270407
+mode: sl
+duration: 108.99999999999856
+target_count: 1
+viewer_key: hWpJaWEN5Us0KiG1QZge_

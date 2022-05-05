@@ -1,0 +1,93 @@
+author: raph#2041
+config: |
+  yanfei char lvl=90/90 cons=6 talent=9,9,9;
+  yanfei add weapon="thewidsith" refine=3 lvl=90/90;
+  yanfei add set="lavawalker" count=4;
+  yanfei add stats hp=4780 atk=311.0 atk%=0.4660 cr=0.3110 pyro%=0.4660;
+  yanfei add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="favoniussword" refine=3 lvl=90/90;
+  bennett add set="noblesseoblige" count=4;
+  bennett add stats hp=4780 atk=311 atk%=0.466 cr=0.3110 pyro%=0.4660;
+  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;
+
+  rosaria char lvl=90/90 cons=6 talent=9,9,9;
+  rosaria add weapon="thecatch" refine=5 lvl=90/90;
+  rosaria add set="emblemofseveredfate" count=4;
+  rosaria add stats hp=4780 atk=311.0 er=0.5180 cr=0.3110 cryo%=0.4660;
+  rosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;
+
+  sucrose char lvl=90/90 cons=6 talent=9,9,9;
+  sucrose add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
+  sucrose add set="viridescentvenerer" count=4;
+  sucrose add stats hp=4780 atk=311.0 em=559.5;
+  sucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.2648 cd=0.7944;
+
+  options swap_delay=12 iteration=1000 duration=101 mode=sl;
+  target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
+  active bennett;
+
+  #I have a feeling this rotation is kinda bad so anyone pls feel free to improve this
+  bennett skill,burst;
+  sucrose skill;
+  rosaria burst,skill;
+  sucrose attack:2;
+  yanfei skill,attack,burst,charge,attack:2,charge,attack:2,charge,attack:2,charge;
+  rosaria skill,attack;
+  yanfei skill,attack:2,charge;
+
+  bennett skill,burst;
+  sucrose skill;
+  rosaria burst,skill;
+  sucrose attack:2;
+  yanfei skill,charge,attack:2,charge,attack:2,charge,attack:2,charge,attack:2,charge;
+  rosaria skill,attack;
+  yanfei skill,charge;
+
+  restart;
+description: ""
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: bennett
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yanfei
+  con: 6
+  weapon: thewidsith
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 31346.488773166988
+mode: sl
+duration: 100.9999999999993
+target_count: 1
+viewer_key: aap88TukHKhVcD4NMdUur

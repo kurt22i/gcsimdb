@@ -1,42 +1,44 @@
 author: Alpha253#3018
-config: "options debug=true iteration=1000 duration=123 workers=30 mode=sl swap_delay=12;\n\nayato
+config: "options debug=true iteration=1000 duration=120 workers=30 mode=sl swap_delay=12;\n\nayato
   char lvl=90/90 cons=0 talent=9,9,9; \nayato add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nayato add set=\"echoesofanoffering\" count=4;\nayato add stats hp=4780
-  atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nayato add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;\n\nbennett
+  lvl=90/90;\nayato add set=\"heartofdepth\" count=4;\nayato add stats hp=4780 atk=311
+  atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nayato add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90 ;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
-  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nxiangling
-  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"kitaincrossspear\"
-  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling
-  add stats hp=4780 atk=311 er=0.518 em=374 ; #main\nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.3972
-  cd=0.5296;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"katsuragikirinagamasa\"
-  refine=5 lvl=90/90;\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou add
-  stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nbeidou add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
-  cr=0.331 cd=0.7944;\n\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
-  amount=1;\n\nactive ayato;\n\nayato burst,attack:2;\nwait 3;\nbennett burst,skill;\nbeidou
-  attack:2,burst,attack,skill[counter=2];\nxiangling burst,attack,skill;\nayato skill,attack:15;\nbennett
-  attack,skill;\nxiangling attack:3;\nbeidou skill[counter=2];\n\nrestart;\n"
+  atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
+  hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"favoniusgreatsword\"
+  refine=3 lvl=90/90;\n# No perfect parries makes fav gs better than r1 serpent spine
+  with 5 stacks :favmen:\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nbeidou add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.331 cd=0.662;\n\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
+  amount=1;\n\nactive ayato;\n\nbennett skill,burst;\nayato burst;\nbeidou skill,burst;\nxiangling
+  attack, burst,attack,skill;\nayato skill, attack:16;\nbeidou skill,attack:2;\nbennett
+  attack,skill,attack:2;\nxiangling attack:2, skill;\nayato skill,attack:8;\nwait
+  9;\n\nrestart;\n\n\n"
 description: Ayato Vape with Beidou.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: ayato
   con: 0
   weapon: favoniussword
   refine: 3
-  er: 0.4408
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: beidou
   con: 6
-  weapon: katsuragikirinagamasa
-  refine: 5
-  er: 0.7384000000000001
+  weapon: favoniusgreatsword
+  refine: 3
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
@@ -45,22 +47,22 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.8486
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: xiangling
   con: 6
-  weapon: kitaincrossspear
+  weapon: thecatch
   refine: 5
-  er: 0.8486
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 35177.931344545286
+dps: 40187.65549778204
 mode: sl
-duration: 123.0000000000017
+duration: 120.00000000000152
 target_count: 1
 viewer_key: Vbxb72o6_K3CooYV4Eovw

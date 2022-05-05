@@ -12,21 +12,21 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
   count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9;\nbennett
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
   add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
   count=4;\nbennett add stats hp=3571 atk=232 er=0.387 pyro%=0.466 cr=0.232 ; #main\nbennett
   add stats hp%=0.0792 hp=406.3 atk%=0.0792 atk=26.51 def%=0.0991 def=31.48 em=31.62
   er=0.2562 cr=0.1587 cd=0.3171;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
   every interval=480,720 amount=1;\n\n#Action List:\nactive chongyun;\n\nchongyun
-  skill;\nbennett burst, skill;\nchongyun burst;\nxiangling burst, skill;\nwait 10;\nxingqiu
+  skill;\nbennett burst, skill;\nchongyun burst;\nxiangling burst, skill;\nxingqiu
   burst, skill[orbital=1],\n    attack:2, dash,\n    attack:2, dash,\n    attack:2,
-  dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbennett attack;\nwait
-  17;\nbennett skill;\nxiangling attack:3;\nbennett attack:3, skill;\nxiangling attack:3;\n\nrestart;\n"
+  dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbennett attack,
+  skill;\nxiangling attack:3;\nbennett attack:2, skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n\n\n"
 description: The original National Team with Chongyun.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
-  con: 5
+  con: 6
   weapon: thealleyflash
   refine: 1
   er: 0.6432
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40883.79772008282
+dps: 42609.08851997078
 mode: sl
 duration: 102.99999999999858
 target_count: 1

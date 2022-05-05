@@ -61,7 +61,7 @@ config: |
       ;
   restart;
 description: EM Xiao meme team.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: fischl
   con: 6
@@ -72,7 +72,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-- name: traveler (electro)
+- name: travelerelectro
   con: 6
   weapon: favoniussword
   refine: 3
@@ -99,7 +99,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 26725.293179356326
+dps: 26882.021628103776
 mode: sl
 duration: 120.00000000000152
 target_count: 1

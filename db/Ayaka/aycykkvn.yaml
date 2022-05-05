@@ -1,0 +1,88 @@
+author: Arfoire#9219
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=95 workers=30 mode=sl;
+
+  #Character Builds:
+  ayaka char lvl=90/90 cons=0 talent=9,9,9;
+  ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
+  ayaka add set="blizzardstrayer" count=4;
+  ayaka add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main
+  ayaka add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;
+
+  kokomi char lvl=90/90 cons=0 talent=9,9,9;
+  kokomi add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
+  kokomi add set="tenacityofthemillelith" count=4;
+  kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590; #main
+  kokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.2648 cd=0.3972;
+
+  venti char lvl=90/90 cons=0 talent=9,9,9;
+  venti add weapon="favoniuswarbow" refine=3 lvl=90/90;
+  venti add set="viridescentvenerer" count=4;
+  venti add stats hp=4780 atk=311 em=561; #main
+  venti add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0662 cd=0.5296;
+
+  chongyun char lvl=90/90 cons=6 talent=9,9,9;
+  chongyun add weapon="favoniusgreatsword" refine=3 lvl=90/90;
+  chongyun add set="noblesseoblige" count=4;
+  chongyun add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main
+  chongyun add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  #Enemies and Particles:
+  target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
+
+  #Actions List
+  active chongyun;
+
+  chongyun skill, burst;
+  venti skill, burst, dash;
+  kokomi skill;
+  ayaka dash, skill, attack, burst, attack:2;
+  venti skill, attack;
+  ayaka dash, attack:2, charge, dash, attack:2, charge, dash, attack:2, skill, attack:2;
+  restart;
+
+description: Ayaka with Chongyun.
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: ayaka
+  con: 0
+  weapon: amenomakageuchi
+  refine: 5
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: chongyun
+  con: 6
+  weapon: favoniusgreatsword
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: venti
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 33234.94613224761
+mode: sl
+duration: 94.9999999999991
+target_count: 1
+viewer_key: v-7cT9eV1WXv7SyKpHvAw

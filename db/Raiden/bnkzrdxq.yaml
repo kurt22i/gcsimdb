@@ -1,29 +1,30 @@
-author: ""
-config: "options swap_delay=12 iteration=1000 duration=105 workers=30 mode=sl;\n\nraidenshogun
+author: Raikh / Valien#8564
+config: "options swap_delay=12 iteration=1000 duration=106 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
-  em=39.64 cr=0.2648 cd=0.662;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add stats hp=4780 atk=311 atk%=0.466 er=0.518 cr=0.311 ; #main\nraidenshogun add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
   add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
   em=79.28 cr=0.331 cd=0.7944;\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9;
-  \nkaedeharakazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkaedeharakazuha
+  \nkaedeharakazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkaedeharakazuha
   add set=\"viridescentvenerer\" count=5;\nkaedeharakazuha add stats hp=4780 atk=311
   em=561 ; #main\nkaedeharakazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.3306 em=118.92 cr=0.3972 cd=0.1324;\n\nxingqiu char lvl=90/90
+  atk=33.08 atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;\n\nxingqiu char lvl=90/90
   cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  add set=\"emblemofseveredfate\" count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
   hydro%=0.466 cr=0.311; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
   atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nactive raiden;\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nraiden skill;\nxingqiu burst,attack,skill,attack:2;\nbennett
-  attack,burst;\nkaedeharakazuha attack,skill,high_plunge,attack,burst;\nraidenshogun
-  burst, attack:14,charge;\nkaedeharakazuha attack,skill,high_plunge,attack;\nbennett
-  skill,attack;\nraiden attack,charge;\nrestart;\n"
+  cryo=.1;\n#target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nraiden skill, attack;\nxingqiu
+  burst, attack;\nkaedeharakazuha skill, high_plunge, attack;\nxingqiu skill, attack;\nbennett
+  skill, attack, burst;\nkaedeharakazuha attack, burst, attack, skill, high_plunge;\nraidenshogun
+  attack, burst, attack:4,dash, attack:4,dash, attack:4,dash, attack:2,charge;\nrestart;\n\n"
 description: Raiden/Kazuha Overvape.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
   con: 6
@@ -36,9 +37,9 @@ team:
     burst: 9
 - name: kazuha
   con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.3306
+  weapon: ironsting
+  refine: 5
+  er: 0.6612
   talents:
     attack: 9
     skill: 9
@@ -47,7 +48,7 @@ team:
   con: 0
   weapon: thecatch
   refine: 5
-  er: 0.4408
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
@@ -61,8 +62,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38861.61773752988
+dps: 48116.8259865863
 mode: sl
-duration: 105.00000000000071
+duration: 105.99999999999856
 target_count: 1
 viewer_key: FDJ0MrwqmyjhP9SfN5BPf

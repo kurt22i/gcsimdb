@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=90 workers=30 
   attack:2, jump;\n"
 description: The ultimate comfort team, at the expense of some damage. Still does
   enough though.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: beidou
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27167.29633863304
+dps: 27149.563405621528
 mode: apl
 duration: 90.00000000000215
 target_count: 1

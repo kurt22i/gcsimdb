@@ -21,7 +21,7 @@ config: "ayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"favoniuss
   burst;\nfischl attack,skill;\njean skill,attack,burst;\nayato skill,attack:15;\nfischl
   burst;\njean jump;\njean skill,attack;\nayato skill,attack:15;\njean skill,attack;\n\n\nrestart;\n"
 description: Sunfire Ayato.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: ayato
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35043.921464140294
+dps: 35465.22154507832
 mode: sl
 duration: 106.99999999999939
 target_count: 1

@@ -1,0 +1,72 @@
+author: rf#5773
+config: "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\" count=4;\nhutao add
+  stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
+  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
+  stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64
+  cr=0.331 cd=0.5296;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9; \nsucrose add
+  weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\"
+  count=4;\nsucrose add stats hp=4780 atk=311 em=559.5 ; #main\nsucrose add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92
+  cr=0.2648 cd=0.7944;\n\namber char lvl=90/90 cons=2 talent=9,9,9;\namber add weapon=\"favoniuswarbow\"
+  refine=3 lvl=90/90;\namber add set=\"instructor\" count=4;\namber add stats hp=3571
+  atk=232 er=0.387 cr=0.311 pyro%=0.348 ; #main\namber add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.1324;\n\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu
+  burst[orbital=1], attack:1, skill[orbital=1], attack:2;\namber burst;\nwait 60;\nsucrose
+  attack, skill;\nhutao skill, attack, burst,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:2, charge, jump;\nsucrose attack:2, skill;\namber attack:3;\nxingqiu
+  attack:2;\n\nxingqiu burst[orbital=1], attack:1, skill[orbital=1], attack:2;\namber
+  burst;\nwait 60;\nsucrose attack, skill;\nhutao attack,skill, attack:2, charge,
+  jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge,
+  jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge,
+  jump,\n\tattack:2, charge, jump;\nsucrose attack:3;\namber attack:3;\nxingqiu attack:2;\n\nrestart;\n\n\n\n"
+description: Hu Tao VV Vape with Sucrose instead of Kazuha.
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: amber
+  con: 2
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.7176
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: hutao
+  con: 0
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 43814.99192632141
+mode: sl
+duration: 188.99999999999537
+target_count: 1
+viewer_key: a_o0kiDIOVcQSBC711Go4

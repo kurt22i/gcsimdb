@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=123 workers=30
   burst,skill;\nxiangling burst,skill;\nganyu skill,aim,aim,aim,aim,aim;\nbennett
   skill, attack;\nxiangling attack:3;\nrestart;\n"
 description: Melt Ganyu with Shieldfei.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35527.1713476751
+dps: 35507.255879849756
 mode: sl
 duration: 123.0000000000017
 target_count: 1

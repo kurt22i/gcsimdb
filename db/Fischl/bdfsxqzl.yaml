@@ -1,36 +1,110 @@
-author: Arfoire#9219
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=apl;\n\nbeidou
-  char lvl=90/90 cons=6 talent=9,9,9;\nbeidou add weapon=\"serpentspine\" refine=1
-  lvl=90/90;\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou add stats hp=4780
-  atk=311 hp%=0.466 cr=0.311 pyro%=0.466 ; #main\nbeidou add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu
-  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
-  atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=237.84 cr=0.1324 cd=0.1324;\n\nzhongli
-  char lvl=90/90 cons=0 talent=9,9,9;\nzhongli add weapon=\"crescentpike\" refine=5
-  lvl=90/90;\nzhongli add set=\"paleflame\" count=4;\nzhongli add stats hp=4780 atk=311
-  atk%=0.466 geo%=0.466 cr=0.311;\nzhongli add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nfischl
-  char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3
-  lvl=90/90;\nfischl add set=\"shimenawasreminiscence\" count=2;\nfischl add set=\"thunderingfury\"
-  count=2;\nfischl add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nfischl
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
-  amount=1;\n\nactive zhongli;\n\nzhongli attack, skill[hold=1] +if=.tags.zhongli.shielded==0
-  && .status.beidouburst>0;\nzhongli skill[hold=1] +if=.tags.zhongli.shielded==0;\nxingqiu
-  attack, skill, burst, attack +if=.status.beidouburst>0;\nxingqiu skill, burst, attack;\nfischl
-  attack:2, skill +if=.status.fischloz==0;\nfischl attack:2, burst +if=.status.fischloz==0;\nbeidou
-  attack, skill, attack:2 +if=.status.beidouburst>0;\nbeidou skill, burst, attack;\nbeidou
-  skill, attack:2;\n\nzhongli attack:4, dash;\n"
+author: Arfoire#9219, Nayde#0658 and Hessey#9122
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;
+  energy every interval=480,720 amount=1;
+  target lvl=100 resist=0.1;
+
+  beidou char lvl=90/90 cons=6 talent=9,9,9;
+  beidou add weapon="serpentspine" refine=1 lvl=90/90 +params=[stacks=5];
+  beidou add set="emblemofseveredfate" count=4;
+  beidou add stats hp=4780 atk=311.0 atk%=0.4660 cd=0.6220 electro%=0.4660;
+  beidou add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="lionsroar" refine=3 lvl=90/90;
+  xingqiu add set="noblesseoblige" count=4;
+  xingqiu add stats hp=4780 atk=311.0 er=0.518 cr=0.3110 hydro%=0.4660;
+  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2317 cd=0.5958;
+
+  zhongli char lvl=90/90 cons=0 talent=9,9,9;
+  zhongli add weapon="crescentpike" refine=5 lvl=90/90;
+  zhongli add set="paleflame" count=4;
+  zhongli add stats hp=4780 atk=311.0 atk%=0.4660 cr=0.3110 phys%=0.5830;
+  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="thestringless" refine=3 lvl=90/90;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats hp=4780 atk=311.0 atk%=0.4660 cr=0.3110 electro%=0.4660;
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  active zhongli;
+  zhongli skill[hold=1];
+  fischl burst;
+  xingqiu skill, burst, attack;
+  beidou skill, burst;
+  zhongli attack:5, dash, attack:5, dash, attack:5;
+  fischl skill;
+  zhongli attack:5;
+  beidou skill[counter=2], attack;
+  zhongli attack:2;
+
+  zhongli skill[hold=1];
+  xingqiu skill, burst, attack;
+  beidou skill, burst, attack;
+  fischl burst, attack;
+  zhongli attack:5, dash, attack:5, dash, attack:5;
+  beidou skill[counter=2], attack:2;
+  fischl skill;
+  zhongli attack:5;
+
+  zhongli skill[hold=1];
+  xingqiu skill, burst, attack;
+  beidou skill, burst;
+  zhongli attack:5, dash, attack:2;
+  fischl burst;
+  zhongli attack:5;
+  beidou skill[counter=2], attack:2;
+  zhongli attack:5, dash, attack:1;
+
+  zhongli skill[hold=1];
+  fischl skill;
+  xingqiu skill, burst, attack;
+  beidou skill, burst;
+  zhongli attack:5, dash, attack:5, dash, attack:5;
+  fischl burst;
+  zhongli attack:5;
+  beidou skill[counter=2], attack;
+  zhongli attack:2;
+
+  zhongli skill[hold=1];
+  xingqiu skill, burst, attack;
+  beidou skill, burst, attack;
+  fischl skill, attack;
+  zhongli attack:5, dash, attack:5, dash, attack:5;
+  beidou skill[counter=2], attack:2;
+  fischl burst;
+  zhongli attack:5;
+
+  zhongli skill[hold=1];
+  xingqiu skill, burst, attack;
+  beidou skill, burst;
+  zhongli attack:5, dash, attack:2;
+  fischl skill;
+  zhongli attack:5;
+  beidou skill[counter=2], attack:2;
+  zhongli attack:5, dash, attack:1;
+  restart;
+
+
+
+
+
+
+
+
+
+
+
+
 description: Zhongli taser.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: beidou
   con: 6
   weapon: serpentspine
   refine: 1
-  er: 0.1102
+  er: 0.4408
   talents:
     attack: 9
     skill: 9
@@ -39,16 +113,16 @@ team:
   con: 6
   weapon: thestringless
   refine: 3
-  er: 0.6282
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: xingqiu
   con: 6
-  weapon: favoniussword
+  weapon: lionsroar
   refine: 3
-  er: 0.551
+  er: 1.069
   talents:
     attack: 9
     skill: 9
@@ -62,8 +136,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28049.459905579486
-mode: apl
+dps: 35089.97282931395
+mode: sl
 duration: 105.00000000000071
 target_count: 1
 viewer_key: Dy9yERPE_1Pdm1moFRbP9

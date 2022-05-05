@@ -1,39 +1,64 @@
-author: Lizz71#8986
-config: "options swap_delay=12 iteration=1000 duration=102 mode=sl;\nyunjin char lvl=90/90
-  cons=6 talent=9,9,9; \nyunjin add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nyunjin
-  add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nyunjin add set=\"gladiatorsfinale\"
-  count=1;\nyunjin add stats hp=4780 atk=311 def%=1.328 er=0.518; #main\nyunjin add
-  stats def%=0.496 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
-  em=39.64 cr=0.0993 cd=0.5958;\n# 8 def% + 4 er + 8 cr\n\nfischl char lvl=90/90 cons=6
-  talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
-  add set=\"tenacityofthemillelith\" count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466
-  electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2317 cd=0.5958;\n# 2 er
-  + 2 atk% + 8 cr + 8cd\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add
-  weapon=\"crescentpike\" refine=5 lvl=90/90;\nzhongli add set=\"bloodstainedchivalry\"
-  count=2;\nzhongli add set=\"paleflame\" count=2;\nzhongli add stats hp=4780 atk=311
-  atk%=0.466 phys%=0.583 cr=0.311 ; #main\nzhongli add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n#
-  2 atk% + 8 cr + 10 cd\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add
-  weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
-  count=5;\nrosaria add stats hp=4780 atk=311 er=0.518 cryo%=0.466 cr=0.311 ; #main\nrosaria
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551
-  em=39.64 cr=0.331 cd=0.1324;\n# 6 er + 8 cr+ 8 cd\n\n\n##Default Enemy \ntarget
-  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 cryo=0.1 anemo=0.1 physical=0.1;\n\nenergy
-  every interval=480,720 amount=1;\n\n##Action list\n\nactive fischl;\nfischl burst;\nzhongli
-  skill[hold=1];\nrosaria skill, burst;\nwait 30;\nyunjin skill,burst;\nwait 50;\nzhongli
-  attack:5, dash;\nzhongli attack:5, dash;\nzhongli attack:5, dash;\nzhongli attack:5,
-  dash;\nwait 60; \n\nfischl skill;\nzhongli skill[hold=1];\nrosaria skill, burst;\nwait
-  30;\nyunjin skill,burst;\nwait 50;\nzhongli attack:5, dash;\nzhongli attack:5, dash;\nzhongli
-  attack:5, dash;\nzhongli attack:5, dash;\nwait 60;\nrestart;\n"
+author: Lizz71#8986, imring#3781 and AnaAna#5433
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;
+
+  zhongli char lvl=90/90 cons=0 talent=9,9,9;
+  zhongli add weapon="crescentpike" refine=5 lvl=90/90;
+  #zhongli add set="bloodstainedchivalry" count=2;
+  zhongli add set="paleflame" count=4;
+  zhongli add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cr=0.311; # main
+  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  yunjin char lvl=90/90 cons=6 talent=9,9,9;
+  yunjin add weapon="favoniuslance" refine=3 lvl=90/90;
+  yunjin add set="huskofopulentdreams" count=4 +params=[stacks=4];
+  yunjin add stats hp=4780 atk=311 def%=0.583 def%=0.583 cr=0.311; # main
+  yunjin add stats def%=0.496 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2648 cd=0.662;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="alleyhunter" refine=1 lvl=90/90;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311; # main
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;
+
+  rosaria char lvl=90/90 cons=6 talent=9,9,9;
+  rosaria add weapon="favoniuslance" refine=3 lvl=90/90;
+  rosaria add set="noblesseoblige" count=4;
+  rosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; # main
+  rosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
+
+  active zhongli;
+
+  zhongli skill[hold=1];
+  rosaria skill, burst;
+  fischl burst;
+  yunjin skill, burst, attack:2;
+  zhongli attack:6,
+          attack:6,
+          attack:6;
+
+  zhongli skill[hold=1];
+  fischl skill;
+  yunjin skill, attack:2;
+  rosaria skill, attack:2;
+  zhongli attack:6,
+          attack:6;
+
+  restart;
+
+
+
 description: Pikeli.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: fischl
   con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.551
+  weapon: alleyhunter
+  refine: 1
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
@@ -42,7 +67,7 @@ team:
   con: 6
   weapon: favoniuslance
   refine: 3
-  er: 1.069
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -51,7 +76,7 @@ team:
   con: 6
   weapon: favoniuslance
   refine: 3
-  er: 0.9588000000000001
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -65,8 +90,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33103.65536376807
+dps: 35443.73327839699
 mode: sl
-duration: 102.00000000000051
+duration: 106.99999999999939
 target_count: 1
 viewer_key: VMGMjcOrE6e1d2WNhokGM

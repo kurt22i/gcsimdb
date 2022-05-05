@@ -1,0 +1,94 @@
+author: borderline#3100
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=94 mode=sl;
+
+  ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
+  yaemiko char lvl=90/90 cons=0 talent=9,9,9;
+  yaemiko add weapon="thewidsith" refine=3 lvl=90/90;
+  yaemiko add set="thunderingfury" count=2;
+  yaemiko add set="gladiatorsfinale" count=2;
+  yaemiko add stats atk=344.0 atk%=0.5652 er=0.2550 em=40.00 cr=0.6420 cd=0.7282 electro%=0.4660;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="theviridescenthunt" refine=1 lvl=90/90;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats atk=344.0 atk%=0.6644 er=0.1020 em=40.00 cr=0.3972 cd=1.284 electro%=0.4660;
+
+  mona char lvl=90/90 cons=0 talent=9,9,9;
+  mona add weapon="prototypeamber" refine=5 lvl=90/90;
+  mona add set="noblesseoblige" count=4;
+  mona add stats atk=344.0 atk%=0.5652 er=0.3060 em=40.00 cr=0.6420 cd=0.7282 hydro%=0.4660;
+
+  kazuha char lvl=90/90 cons=0 talent=9,9,9;
+  kazuha add weapon="ironsting" refine=5 lvl=90/90;
+  kazuha add set="viridescentvenerer" count=4;
+  kazuha add stats atk=344.0 atk%=0.5952 er=0.2040 em=677.6 cr=0.1986 cd=0.1324;
+
+  ####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####
+
+  active yaemiko;
+
+  target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
+  energy every interval=480,720 amount=1;
+
+
+  yaemiko skill: 3;
+  fischl skill, attack:2;
+  mona skill, attack;
+  kazuha skill[hold=1], high_plunge, burst;
+  mona burst;
+  yaemiko burst, skill:3;
+  fischl swap, burst;
+  kazuha skill, high_plunge, attack:2;
+  mona skill;
+  yaemiko attack:2, charge;
+  kazuha skill, high_plunge, attack:2;
+  yaemiko attack:2, charge;
+  restart;
+
+
+
+description: Yae tazer team with Mona as the Hydro. Prototype Amber for healing.
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: fischl
+  con: 6
+  weapon: theviridescenthunt
+  refine: 1
+  er: 0.102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: ironsting
+  refine: 5
+  er: 0.204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: mona
+  con: 0
+  weapon: prototypeamber
+  refine: 5
+  er: 0.306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: thewidsith
+  refine: 3
+  er: 0.255
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 44813.22250154493
+mode: sl
+duration: 93.99999999999868
+target_count: 1
+viewer_key: 5igJJnDSie-vnnMIFpU1a

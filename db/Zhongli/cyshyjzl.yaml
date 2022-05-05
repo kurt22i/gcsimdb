@@ -1,0 +1,97 @@
+author: imring#3781 and AnaAna#5433
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 mode=sl;
+
+  zhongli char lvl=90/90 cons=0 talent=9,9,9;
+  zhongli add weapon="lithicspear" refine=1 lvl=90/90;
+  zhongli add set="blizzardstrayer" count=4;
+  zhongli add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; # main
+  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
+
+  yunjin char lvl=90/90 cons=6 talent=9,9,9;
+  yunjin add weapon="favoniuslance" refine=3 lvl=90/90;
+  yunjin add set="archaicpetra" count=4;
+  yunjin add stats hp=4780 atk=311 def%=0.583 def%=0.583 cr=0.311; # main
+  yunjin add stats def%=0.496 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2317 cd=0.7282;
+
+  chongyun char lvl=90/90 cons=6 talent=9,9,9;
+  chongyun add weapon="akuoumaru" refine=3 lvl=90/90;
+  chongyun add set="noblesseoblige" count=4;
+  chongyun add stats hp=4780 atk=311 er=0.518 cryo%=0.466 cr=0.311; # main
+  chongyun add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  shenhe char lvl=90/90 cons=0 talent=9,9,9;
+  shenhe add weapon="wavebreakersfin" refine=1 lvl=90/90;
+  shenhe add set="shimenawasreminiscence" count=2;
+  shenhe add set="gladiatorsfinale" count=2;
+  shenhe add stats hp=4780 atk=311 atk%=0.466 atk%=0.466 atk%=0.466; # main
+  shenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.1986 cd=0.3972;
+
+  target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
+
+  active zhongli;
+
+  zhongli skill[hold=1];
+  chongyun burst, skill;
+  yunjin skill, burst, attack:2;
+  shenhe skill[hold=1], burst;
+  zhongli attack:6,
+          attack:6,
+          attack:6;
+
+  zhongli skill[hold=1];
+  chongyun burst, skill;
+  yunjin skill, attack:4;
+  shenhe skill[hold=1], attack:3;
+  zhongli attack:6,
+          attack:6;
+
+  restart;
+
+
+
+description: Cryo Zhongli.
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+team:
+- name: chongyun
+  con: 6
+  weapon: akuoumaru
+  refine: 3
+  er: 0.7384000000000001
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: wavebreakersfin
+  refine: 1
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yunjin
+  con: 6
+  weapon: favoniuslance
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: zhongli
+  con: 0
+  weapon: lithicspear
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 29783.866661421398
+mode: sl
+duration: 91.999999999999
+target_count: 1
+viewer_key: CEeYKODhf2YP0WWeaoIYq

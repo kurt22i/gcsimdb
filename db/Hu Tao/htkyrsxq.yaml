@@ -1,35 +1,34 @@
 author: Spring MsSteak#8744 and rf#5773
 config: "options swap_delay=12 debug=true iteration=1000 duration=114 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1; \nhutao add weapon=\"deathmatch\"
-  refine=1 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\" count=5;\nhutao add
-  stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.393
+  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=5;\nhutao add
+  stats hp=4780 atk=311 em=187 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3972
   cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=5;\nxingqiu add stats
   hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
   cd=0.7944;\n\nkaeya char lvl=90/90 cons=2 talent=9,9,9; \nkaeya add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\nkaeya add set=\"instructor\" count=4;\nkaeya add stats hp=4780
   atk=311 atk%=0.348 cr=0.311  cryo%=0.348 ; #main\nkaeya add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.0662 cd=0.3972;\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2317 cd=0.5958;\n\nrosaria
+  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=5;\nrosaria add stats
-  hp=4780 atk=311 er=0.518 cd=0.622 cryo%=0.466 ; #main\nrosaria add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  hp=4780 atk=311 atk%=0.466 cr=0.311 cryo%=0.466 ; #main\nrosaria add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\n\n\n\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
   amount=1;\n\nactive xingqiu;\n\nxingqiu burst[orbital=1], attack, skill[orbital=1],
-  attack:2;\nrosaria skill, attack, burst, attack:2;\nkaeya skill, burst;\nhutao skill,
-  attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n
-  \   attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump, attack, burst;\nrosaria
-  skill, attack:2; \nkaeya skill;\n\nxingqiu burst[orbital=1], attack, skill[orbital=1],
-  attack:2;\nrosaria skill, attack, burst, attack:2;\nkaeya skill, burst;\nhutao skill,
-  attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n
-  \   attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump;\nrosaria skill,
-  attack:2;\nkaeya skill;\n\n\nrestart;\n"
+  attack:2;\nrosaria skill, attack, burst;\nkaeya skill, burst;\nhutao skill, attack:1,
+  charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:2, charge, jump, attack, burst;\nrosaria skill, attack:2;
+  \nkaeya skill;\n\nxingqiu burst[orbital=1], attack, skill[orbital=1], attack:2;\nrosaria
+  skill, attack, burst;\nkaeya skill, burst;\nhutao skill, attack:1, charge, jump,\n
+  \   attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump;\nrosaria skill, attack:2;\nkaeya skill;\n\n\nrestart;\n\n\n\n\n"
 description: Tao Freezemelt.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: hutao
   con: 0
@@ -51,9 +50,9 @@ team:
     burst: 9
 - name: rosaria
   con: 6
-  weapon: deathmatch
-  refine: 1
-  er: 0.6282
+  weapon: favoniuslance
+  refine: 3
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -62,12 +61,12 @@ team:
   con: 6
   weapon: favoniussword
   refine: 3
-  er: 0.3306
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 39027.41641732628
+dps: 42065.36833202372
 mode: sl
 duration: 114.00000000000126
 target_count: 1

@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   charge, dash, \n  attack:2, charge, dash, \n  attack:2, skill, \n  attack:2, charge,
   \n  attack:2;\nrestart;\n"
 description: Ayaka Freeze with Venti and Rosaria.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: ayaka
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40064.18989631513
+dps: 40070.57708161768
 mode: sl
 duration: 99.9999999999986
 target_count: 1

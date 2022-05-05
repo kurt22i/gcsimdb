@@ -39,7 +39,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   burst;\nraidenshogun burst, attack:14,charge;\nkaedeharakazuha skill, high_plunge,
   attack:2;\nfischl skill, attack:2;\n"
 description: RaiFish, optimized rotation.
-hash: f10e49023b6cdb09f7206a76c63494e1c4304236
+hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
 team:
 - name: bennett
   con: 6
@@ -77,7 +77,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53966.64287015825
+dps: 54202.64256861741
 mode: sl
 duration: 109.99999999999949
 target_count: 1
