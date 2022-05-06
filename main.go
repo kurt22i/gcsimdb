@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"bytes"
-	"compress/gzip"
+	"compress/zlib"
 	"encoding/base64"
 	"encoding/json"
 	"flag"
@@ -140,10 +140,9 @@ type pack struct {
 	NumTarget int     `yaml:"target_count" json:"target_count"`
 	ViewerKey string  `yaml:"viewer_key" json:"viewer_key"`
 	//unexported stuff
-	gzPath    string
-	filepath  string
-	filepath2 string
-	changed   bool
+	gzPath   string
+	filepath string
+	changed  bool
 }
 
 type char struct {
@@ -346,7 +345,7 @@ func writeJSONtoGZ(jsonData []byte, fpath string) error {
 		return errors.Wrap(err, "")
 	}
 	defer f.Close()
-	zw := gzip.NewWriter(f)
+	zw := zlib.NewWriter(f)
 	zw.Write(jsonData)
 	err = zw.Close()
 	return errors.Wrap(err, "")
@@ -514,7 +513,6 @@ func saveYaml(data []pack) error {
 			return errors.Wrap(err, "")
 		}
 		os.Remove(data[i].filepath)
-		err = os.WriteFile(data[i].filepath2, data[i].Config, 0755)
 		err = os.WriteFile(data[i].filepath, out, 0755)
 		if err != nil {
 			return errors.Wrap(err, "")
