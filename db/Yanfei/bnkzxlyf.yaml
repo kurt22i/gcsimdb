@@ -22,7 +22,7 @@ config: "yanfei char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"thewid
   skill;\nkazuha skill,high_plunge,burst;\nbennett burst,skill;\nxiangling burst,skill;\nkazuha
   skill,high_plunge;\nyanfei skill,charge,attack:2,charge,attack:2,charge,attack:2,charge,attack:2,charge,skill,charge;\n\nrestart;\n"
 description: Mono-Pyro Yanfei.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41810.9925578864
+dps: 41865.33254306458
 mode: sl
 duration: 105.00000000000071
 target_count: 1

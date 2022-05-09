@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=182 mode=sl swap_delay=12;\n
   skill, high_plunge, burst;\nfischl skill;\nayato skill, attack:15;\nkazuha skill,
   high_plunge;\nyae burst, skill, skill, skill;\nfischl burst;\nayato skill, attack:15;\n\nrestart;\n\n\n\n\n\n"
 description: Yaeyato taser.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: ayato
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46745.584972491655
+dps: 46759.54661750463
 mode: sl
 duration: 181.99999999999747
 target_count: 1

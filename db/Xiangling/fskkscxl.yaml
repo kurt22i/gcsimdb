@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30
   skill;\nsucrose attack, skill, burst, attack:3, dash,\n\tattack:3, dash,\n\tattack:3,
   dash,\n\tattack:3, dash,\n\tattack:3\n\t;\n\nrestart;\n\n"
 description: Sukokomon. Notoriously difficult team to play, so consider this a warning.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: fischl
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42406.501383398456
+dps: 42374.08979933476
 mode: sl
 duration: 102.00000000000051
 target_count: 1

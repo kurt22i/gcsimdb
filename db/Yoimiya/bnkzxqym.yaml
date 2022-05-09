@@ -67,7 +67,7 @@ config: |+
 
 
 description: Yoimiya Vape, no shield.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: bennett
   con: 6
@@ -105,7 +105,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52690.759731778926
+dps: 52703.724949636526
 mode: sl
 duration: 105.00000000000071
 target_count: 1

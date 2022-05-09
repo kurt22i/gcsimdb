@@ -12,7 +12,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30
   weapon=\"dragonsbane\" refine=3 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
   count=4;\nrosaria add stats hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311; #main\nrosaria
   add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=79.28
-  cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nzhongli char lvl=90/90 cons=6 talent=9,9,9;
+  cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;
   \nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
   count=4;\nzhongli add stats hp=4780 atk=311 atk%=0.466 geo%=0.466 cr=0.311; #main\nzhongli
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
@@ -20,9 +20,9 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30
   every interval=480,720 amount=1;\n\n##Actions List\n\nactive zhongli;\n\nzhongli
   skill[hold=1];\nrosaria skill;\nbennett burst,skill;\nxiangling burst,skill;\nrosaria
   skill, burst, attack;\nzhongli attack, burst, attack;\nrosaria attack:2, skill;\nbennett
-  skill, attack;\nxiangling attack:3;\nbennett skill;\n\n\n\n\n\nrestart;\n\n\n"
+  skill, attack;\nxiangling attack:3;\nbennett skill;\n\n\n\n\n\nrestart;\n\n\n\n\n"
 description: Reverse Melt Rosaria with Burstli.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: bennett
   con: 6
@@ -52,7 +52,7 @@ team:
     skill: 9
     burst: 9
 - name: zhongli
-  con: 6
+  con: 0
   weapon: favoniuslance
   refine: 3
   er: 0.2204
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44769.87724573712
+dps: 44113.61223834582
 mode: sl
 duration: 108.00000000000088
 target_count: 1

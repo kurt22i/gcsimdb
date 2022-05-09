@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 mode=sl;\n
   skill;\nzhongli burst,skill[hold=1];\nalbedo skill,attack:2;\nbeidou skill[counter=2],burst;\nkokomi
   burst,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2;\nrestart;\n\n\n\n\n\n"
 description: Geo Kokomi with Beidou.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32015.806514392058
+dps: 31964.999101227946
 mode: sl
 duration: 102.00000000000051
 target_count: 1

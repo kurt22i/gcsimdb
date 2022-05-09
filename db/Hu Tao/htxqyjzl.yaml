@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   burst;\nxingqiu attack:2;\n\nrestart;\n\n\n"
 description: Hu Tao + Geo Bros except with an opera singer instead of Albedo. Works
   just as well as the original.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: hutao
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49313.643621178715
+dps: 49157.850093538014
 mode: sl
 duration: 105.00000000000071
 target_count: 1

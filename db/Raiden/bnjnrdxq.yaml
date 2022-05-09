@@ -10,20 +10,20 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
   em=237.84 cr=0.1324 cd=0.1324;\n\n\njean char lvl=90/90 cons=0 talent=9,9,9; \njean
   add weapon=\"ironsting\" refine=5 lvl=90/90;\njean add set=\"viridescentvenerer\"
-  count=4;\njean add stats hp=4780 atk=311 em=561 ; #main\njean add stats hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.5952000000000001 def=39.36 def%=0.124 em=118.92 er=0.5857
-  cr=0.0993 cd=0.1324 ; #subs\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\"
-  count=4;\nxingqiu add stats hp=4780 atk%=0.466 atk=311 hydro%=0.466 cr=0.311; #main\nxingqiu
-  add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\n\n##Actions List\n\nactive raiden;\n\n#------------------------------------------------------\n\nxingqiu
+  count=4;\njean add stats hp=4780 atk=311 em=561 ; #main\njean add stats hp%=0.0992
+  hp=507.88 atk%=0.3968 atk=33.08 def%=0.124 def=39.36 em=118.92 cr=0.0662 cd=0.1324
+  er=0.6612 ; #subs\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats
+  hp=4780 atk%=0.466 atk=311 hydro%=0.466 cr=0.311; #main\nxingqiu add stats hp%=0.0992
+  hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944
+  er=0.1102 ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\n##Actions List\n\nactive raiden;\n\n#------------------------------------------------------\n\nxingqiu
   skill[orbital=1], burst[orbital=1], attack;\n\nbennett skill, attack, burst;\n\nraiden
-  skill,attack;\n\njean skill, attack, burst, attack;\n\n#raiden burst, attack:3,
+  skill, attack;\n\njean skill, attack, burst, attack;\n\n#raiden burst, attack:3,
   charge, attack:3, charge, attack:3, charge, attack:1, charge;\nraiden burst, attack:5,
-  dash, attack:5, dash, attack:4;\n\njean skill, attack:3;\n\nbennett skill, attack:3;\n\nrestart;\n"
+  dash, attack:5, dash, attack:4;\n\njean skill, attack:3;\n\nbennett skill, attack;\n\nrestart;\n\n\n"
 description: Sunfire Raiden.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: bennett
   con: 6
@@ -38,7 +38,7 @@ team:
   con: 0
   weapon: ironsting
   refine: 5
-  er: 0.5857
+  er: 0.6612
   talents:
     attack: 9
     skill: 9
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52875.307203909404
+dps: 53617.92949061929
 mode: sl
 duration: 105.00000000000071
 target_count: 1

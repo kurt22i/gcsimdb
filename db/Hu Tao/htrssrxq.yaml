@@ -29,7 +29,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=114 workers=30
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
   charge, jump;\nrosaria skill, attack:2;\n\n\nrestart;\n\n\n\n\n\n\n\n\n"
 description: Tao Overvapemelt (yes).
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: hutao
   con: 0
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41576.965413144404
+dps: 41629.02476455926
 mode: sl
 duration: 114.00000000000126
 target_count: 1

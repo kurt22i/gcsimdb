@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=128 workers=30 mode=sl swap_
   \ high_plunge[plunge_hits=1],\n  high_plunge[plunge_hits=1],\n  high_plunge[plunge_hits=1],\n
   \ low_plunge[plunge_hits=1], low_plunge[plunge_hits=1];\n  \nrestart;\n\n\n\n\n\n"
 description: Double Geo Xiao with Kokomi.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41544.59990326799
+dps: 41555.198748689516
 mode: sl
 duration: 128.00000000000009
 target_count: 1

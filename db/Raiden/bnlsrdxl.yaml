@@ -30,7 +30,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=120 workers=30
   burst, skill;\nxiangling burst, skill;\nraidenshogun burst, attack:14,charge,skill;\nbennett
   skill;\nxiangling skill,attack:3;\nbennett attack,skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n"
 description: Raiden with Lisa.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: bennett
   con: 6
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44404.563802107754
+dps: 44422.04698834366
 mode: sl
 duration: 120.00000000000152
 target_count: 1

@@ -28,7 +28,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30
   charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
   charge, jump,\n    attack:2, charge, jump;\nganyu aim[weakspot=1];\nrestart;\n"
 description: Premium Tao Freezemelt team.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: ayaka
   con: 0
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43496.109429849435
+dps: 43086.51171587893
 mode: sl
 duration: 126.00000000000189
 target_count: 1

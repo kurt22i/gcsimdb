@@ -16,15 +16,16 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232
   pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
   atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.1986 cd=0.662;\n\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu skill, burst, attack;\nkazuha
-  burst, attack;\nbennett skill, attack, burst, attack;\nkazuha skill[hold=1], high_plunge;\nhutao
-  skill, attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu skill[orbital=1],
+  burst[orbital=1], attack;\nkazuha burst, attack;\nbennett skill, attack, burst,
+  attack;\nkazuha attack, skill[hold=1], high_plunge;\nhutao skill, attack:1, charge,
   jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:2, charge;\nkazuha attack, skill,
-  high_plunge, attack;\nbennett skill;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge;\nkazuha attack, skill, high_plunge, attack;\nbennett
+  skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Tao with Bennett. Bennett's buff is more than enough to make up for the
   lost A4.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: bennett
   con: 6
@@ -62,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 62194.80487561085
+dps: 62324.93809442509
 mode: sl
 duration: 103.99999999999928
 target_count: 1

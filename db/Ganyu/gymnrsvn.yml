@@ -1,40 +1,28 @@
-author: Water#4568
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\nenergy
+author: Water#4568, ShadowDawn#5332 and Rare Possum#0511
+config: "options swap_delay=12 debug=true iteration=1000 duration=132 workers=30 mode=sl;\nenergy
   every interval=480,720 amount=1;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
+  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
+  \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
+  count=4;\nganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
   add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria add set=\"blizzardstrayer\"
-  count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.6220; #main\nrosaria
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.3306
-  em=39.64 cr=0.3972 cd=0.1324;\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona
+  count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main\nrosaria
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.3972 cd=0.662;\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona
   add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nmona add set=\"noblesseoblige\"
   count=4;\nmona add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311; #main\nmona
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
-  em=39.64 cr=0.1655 cd=0.5958;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi
   add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\"
   count=5;\nventi add stats hp=4780 atk=311 em=561; #main\nventi add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0662
-  cd=0.5296;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\"
-  refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=4;\nganyu add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\nactive ganyu;\nganyu skill, aim[weakspot=1]:1;\nmona skill;\nventi
-  skill, burst;\nrosaria skill, burst;\nganyu burst;\nmona attack, burst;\nventi skill,
-  attack;\nrosaria skill;\n\nganyu skill, aim[weakspot=1]:2;\nmona skill;\nventi skill,
-  burst;\nrosaria skill, burst;\nganyu burst;\nmona attack, burst;\nventi skill, attack;\nrosaria
-  skill;\n\nganyu skill, aim[weakspot=1]:2;\nmona skill;\nventi skill, burst;\nrosaria
-  skill, burst;\nganyu burst;\nmona attack, burst;\nventi skill, attack;\nrosaria
-  skill;\n\nganyu skill, aim[weakspot=1]:2;\nmona skill;\nventi skill, burst;\nrosaria
-  skill, burst;\nganyu burst;\nmona attack, burst;\nventi skill, attack;\nrosaria
-  skill;\n\nganyu skill, aim[weakspot=1]:2;\nmona skill;\nventi skill, burst;\nrosaria
-  skill, burst;\nganyu burst;\nmona attack, burst;\nventi skill, attack;\nrosaria
-  skill;\n\nganyu skill, aim[weakspot=1]:2;\nmona skill;\nventi skill, burst;\nrosaria
-  skill, burst;\nganyu burst;\nmona attack, burst;\nventi skill, attack;\nrosaria
-  skill;\n\nganyu skill, aim[weakspot=1]:2;\nmona skill;\nventi skill, burst;\nrosaria
-  skill, burst;\nganyu burst;\nmona attack, burst;\nventi skill, attack;\nrosaria
-  skill;\nrestart;\n"
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0993
+  cd=0.4634;\n\nactive ganyu;\nganyu burst[radius=2],skill;\nventi skill,burst;\nrosaria
+  skill,burst;\nganyu aim[weakspot=1];\nmona skill,attack, burst;\nventi skill, attack;\nrosaria
+  skill;\n\nrestart;\n\n\n\n\n"
 description: CN Morgana. 2 CAs with Ganyu might not always be possible. Scales well
   in multitarget.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: ganyu
   con: 0
@@ -58,7 +46,7 @@ team:
   con: 6
   weapon: favoniuslance
   refine: 3
-  er: 0.3306
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -72,8 +60,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29843.708576139707
+dps: 37887.201813331485
 mode: sl
-duration: 99.9999999999986
+duration: 132.00000000000222
 target_count: 1
 viewer_key: fqeuNOMX7GqHfPeXBQn6S

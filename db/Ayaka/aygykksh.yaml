@@ -35,7 +35,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=127 workers=30
   skill, burst[radius=2];\nayaka dash,attack,skill,burst;\nshenhe skill[hold=1];\nganyu
   aim[weakspot=1]:2, skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\n\n\n"
 description: ""
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: ayaka
   con: 0
@@ -73,7 +73,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50832.87271339694
+dps: 50881.508083192406
 mode: sl
 duration: 126.9999999999982
 target_count: 1

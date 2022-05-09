@@ -38,8 +38,8 @@ config: |+
   sucrose attack:3, dash;
   sucrose attack;
 
-description: Taser core without Fischl.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+description: Fischl where?
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: beidou
   con: 6
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 23395.979677479638
+dps: 23390.3978483891
 mode: apl
 duration: 90.00000000000215
 target_count: 1

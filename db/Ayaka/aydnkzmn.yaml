@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30
   dash,attack,skill,burst;\nkazuha skill,high_plunge;\nmona attack:3;\ndiona skill[hold=1];\nayaka
   dash,attack:2,charge,attack:2,charge,skill,dash,attack:2,charge;\nrestart;\n"
 description: Ayaka Freeze.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37958.18969944728
+dps: 38070.839164841724
 mode: sl
 duration: 102.00000000000051
 target_count: 1

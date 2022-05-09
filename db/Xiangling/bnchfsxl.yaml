@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   skill;\ntartaglia aim;\nbennett skill;\nxiangling attack:3;\ntartaglia aim:2;\nwait
   15; #align rotation to 25s\nrestart;\n\n"
 description: Childe with Fischl, a Childe team that also excels at ST.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47428.405642719415
+dps: 47527.519534587336
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -24,7 +24,7 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl swap_
   \ high_plunge[plunge_hits=1],\n  low_plunge[plunge_hits=1], low_plunge[plunge_hits=1];
   \njean skill;\nxiao attack, charge;\n\nrestart;\n\n\n\n\n\n"
 description: Double Geo Xiao with Jean.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40087.85929814321
+dps: 40082.03617689472
 mode: sl
 duration: 99.9999999999986
 target_count: 1

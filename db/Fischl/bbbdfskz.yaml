@@ -26,7 +26,7 @@ config: "options swap_delay=12 iteration=1000 duration=100 mode=apl;\n\n#Charact
   burst, attack +if=.status.beidouburst>0;\nbarbara attack, burst;\nbarbara attack:3,
   charge, attack;\nrestart;\n\n"
 description: Barbara Taser.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: barbara
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37565.10965283954
+dps: 37551.40783391767
 mode: apl
 duration: 99.9999999999986
 target_count: 1

@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=172 workers=30
   skill, attack;\nbennett skill;\nxiangling skill, attack:2;\nayato attack:4, skill,
   attack:5;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: Monato.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: ayato
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43875.31327573234
+dps: 44031.50484874884
 mode: sl
 duration: 171.99999999999767
 target_count: 1

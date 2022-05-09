@@ -21,7 +21,7 @@ config: "yunjin char lvl=90/90 cons=6 talent=9,9,9;\nyunjin add weapon=\"crescen
   attack:2,skill;\nbeidou attack,skill,attack:2,burst;\nyunjin skill,attack:4,dash,attack:4,dash,attack:4;\nfischl
   attack:2,burst;\nbeidou attack,skill,attack:2;\nyunjin skill,attack:4,dash,attack:4,dash,attack:4;\n\nrestart;\n"
 description: Pikejin Taser.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: beidou
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30845.393638870148
+dps: 30779.023739154178
 mode: sl
 duration: 99.9999999999986
 target_count: 1

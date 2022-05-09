@@ -87,6 +87,11 @@ func run(skipDownload bool, force bool) error {
 	// 	sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
 	// }
 
+	err = saveYaml(data)
+	//allow time to inspect the teams one last time
+	fmt.Print("\nPress 'Enter' to continue...")
+	bufio.NewReader(os.Stdin).ReadBytes('\n')
+
 	//store on cloudflare kv
 	err = uploadResults(data)
 	if err != nil {

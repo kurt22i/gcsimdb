@@ -22,7 +22,7 @@ config: "#Configs\noptions debug=true iteration=1000 duration=101 workers=30 mod
   dash, attack:5;\nfischl attack, burst;\nyanfei skill, burst, attack:2, charge, attack:2,
   charge, attack:2, charge, attack:2, charge, skill, charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoifei without shields.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: fischl
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42253.99036955045
+dps: 42227.04546343766
 mode: sl
 duration: 100.9999999999993
 target_count: 1

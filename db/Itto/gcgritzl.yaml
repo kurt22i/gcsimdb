@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30
   burst;\n\nitto attack:2, burst, attack, skill, attack:2, charge:5, attack:4, charge:5,
   skill, charge, attack:2;\n\nrestart;\n\n\n\n\n\n"
 description: Itto microwave with GMC.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: gorou
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46600.03980780466
+dps: 46591.98751453551
 mode: sl
 duration: 105.99999999999856
 target_count: 1

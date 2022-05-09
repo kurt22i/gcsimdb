@@ -1,0 +1,119 @@
+author: RoyM#2340
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=111 workers=30 mode=sl;
+
+  jean char lvl=90/90 cons=0 talent=9,9,9;
+  jean add weapon="favoniussword" refine=3 lvl=90/90;
+  jean add set="viridescentvenerer" count=5;
+  jean add stats hp=4780 atk=311 atk%=0.466 anemo%=0.466 cr=0.311 ;
+  jean add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  kaeya char lvl=90/90 cons=0 talent=9,9,9;
+  kaeya add weapon="blackclifflongsword" refine=1 lvl=90/90;
+  kaeya add set="blizzardstrayer" count=4;
+  kaeya add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622;
+  kaeya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
+
+  chongyun char lvl=90/90 cons=6 talent=9,9,9;
+  chongyun add weapon="favoniusgreatsword" refine=3 lvl=90/90;
+  chongyun add set="noblesseoblige" count=5;
+  chongyun add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main
+  chongyun add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="amenomakageuchi" refine=5 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=5;
+  xingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311;
+  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  target lvl=100 resist=.1;
+
+  energy every interval=480,720 amount=1;
+
+  active kaeya;
+  kaeya skill;
+  xingqiu skill,burst,attack;
+  chongyun burst;
+  jean attack,burst,attack,skill;
+  chongyun skill;
+  kaeya attack,burst,attack,skill,attack:3,charge;
+  jean attack,skill,attack;
+  kaeya attack:3,skill,attack:2,charge;
+  jean attack:2,skill,attack:2;
+  restart;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+description: ""
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+team:
+- name: chongyun
+  con: 6
+  weapon: favoniusgreatsword
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kaeya
+  con: 0
+  weapon: blackclifflongsword
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: amenomakageuchi
+  refine: 5
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 24608.890426402002
+mode: sl
+duration: 111.00000000000108
+target_count: 1
+viewer_key: 5XiSMyjd45ZsU79mUK3OX

@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=150 workers=30
   skill;\nxiangling attack, skill, attack:2;\nsucrose attack:2, skill;\nbennett skill;\nayato
   skill, attack:8;\n\nrestart;\n"
 description: Sucrose/Ayato.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: ayato
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39317.02027715483
+dps: 39382.30047085819
 mode: sl
 duration: 150.0000000000028
 target_count: 1

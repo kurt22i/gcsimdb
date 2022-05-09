@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=108 workers=30 mode=sl swap_
   skill[hold=1];\nganyu skill, aim;\nbennett burst;\njean skill, attack, burst;\nganyu
   aim[weakspot=1]:2, skill,aim:3;\njean skill, attack:2;\nbennett skill[hold=1];\n\n\nrestart;\n\n\n\n"
 description: Sunfire Melt Ganyu. 6 CAs per rotation.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: bennett
   con: 5
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44613.6058665313
+dps: 44667.36947155892
 mode: sl
 duration: 108.00000000000088
 target_count: 1

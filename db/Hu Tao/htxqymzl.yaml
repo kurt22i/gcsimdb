@@ -1,55 +1,38 @@
 author: Hessey#9122
-config: |+
-  options debug=true iteration=1000 duration=110 workers=30 mode=sl swap_delay=12;
-  target lvl=100 resist=0.1;
-  energy every interval=480,720 amount=1;
-
-  yoimiya char lvl=90/90 cons=0 talent=9,9,9;
-  yoimiya add weapon="rust" refine=3 lvl=90/90;
-  yoimiya add set="shimenawasreminiscence" count=4;
-  yoimiya add stats hp=4780 atk=311 cr=0.311 pyro%=0.466 atk%=0.466;
-  yoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
-
-  hutao char lvl=90/90 cons=0 talent=9,9,9 start_hp=1000;
-  hutao add weapon="dragonsbane" refine=3 lvl=90/90;
-  hutao add set="shimenawasreminiscence" count=4;
-  hutao add stats hp=4780 atk=311 cr=0.311 pyro%=0.466 em=187;
-  hutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-
-  zhongli char lvl=90/90 cons=0 talent=9,9,9;
-  zhongli add weapon="favoniuslance" lvl=90/90 refine=3;
-  zhongli add set="tenacityofthemillelith" count=4;
-  zhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311;
-  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-
-  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
-  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
-  xingqiu add set="emblemofseveredfate" count=4;
-  xingqiu add stats hp=4780 atk=311 cr=0.311 hydro%=0.466 atk%=0.466;
-  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
-
-  active zhongli;
-
-  zhongli skill[hold=1];
-
-  xingqiu skill[orbital=1], burst[orbital=1];
-
-  hutao skill, attack:2, charge, jump, attack:2, charge, jump, attack:2, charge, jump, attack:2, charge, jump, attack:2, charge, jump, attack:2, charge, jump, attack:2, charge, jump, attack:2, charge;
-
-  yoimiya skill, attack:5, dash, attack:5, dash, attack:3;
-
-
-  restart;
-
-
-
+config: "options debug=true iteration=1000 duration=109 workers=30 mode=sl swap_delay=12;\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nyoimiya char lvl=90/90
+  cons=0 talent=9,9,9;\nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya add
+  set=\"shimenawasreminiscence\" count=4;\nyoimiya add stats hp=4780 atk=311 cr=0.311
+  pyro%=0.466 atk%=0.466;\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nhutao char lvl=90/90
+  cons=0 talent=9,9,9 start_hp=1000;\nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nhutao
+  add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 cd=0.622
+  pyro%=0.466 em=187;\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08
+  atk%=0.0992 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nzhongli char lvl=90/90 cons=0
+  talent=9,9,9;\nzhongli add weapon=\"favoniuslance\" lvl=90/90 refine=3;\nzhongli
+  add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats hp=4780 atk=311 hp%=0.466
+  geo%=0.466 cr=0.311;\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90
+  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 cr=0.311
+  hydro%=0.466 atk%=0.466;\nxingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nactive zhongli;\n\nzhongli
+  skill[hold=1];\n\nxingqiu skill[orbital=1], burst[orbital=1];\n\nhutao skill, attack,
+  charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2,
+  charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2,
+  charge, jump,\n\t  attack:2, charge;\n\nyoimiya skill, attack:5, dash, \n        attack:5,
+  dash, \n        attack:3;\n        \nzhongli skill[hold=1];\n\nxingqiu skill[orbital=1],
+  burst[orbital=1];\n\nhutao skill, attack, charge, jump,\n\t  attack:2, charge, jump,\n\t
+  \ attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t
+  \ attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2, charge;\n\nyoimiya
+  skill, attack:5, dash, \n        attack:5, dash, \n        attack:3;\n\nrestart;\n\n\n\n\n"
 description: Hu Tao + Yoimiya.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: hutao
   con: 0
-  weapon: dragonsbane
-  refine: 3
+  weapon: deathmatch
+  refine: 1
   er: 0.1102
   talents:
     attack: 9
@@ -82,8 +65,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50116.237875251805
+dps: 51350.72212471969
 mode: sl
-duration: 109.99999999999949
+duration: 108.99999999999856
 target_count: 1
 viewer_key: eE01DOA5ZxRSSLuVlSrH0

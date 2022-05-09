@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   skill;\ndiona skill[hold=1];\neula skill;\nlisa burst;\neula burst,attack:4,skill[hold=1],attack:4;\nraiden
   burst,attack:3,charge,attack:3,charge,attack:3,charge,attack:2;\nrestart;\n"
 description: Eula with Lisa.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: diona
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30097.09640391753
+dps: 30018.950928381833
 mode: sl
 duration: 109.99999999999949
 target_count: 1

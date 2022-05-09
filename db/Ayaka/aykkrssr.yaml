@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   charge, dash, \n  attack:2, charge, dash, \n  attack:2, skill, \n  attack:2, charge,
   \n  attack:2;\nrestart;\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Sara instead of VV-shred, Kokomi edition.
-hash: 24e9cf95fe2842b70f9881e8fd3b801d89519e05
+hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
 - name: ayaka
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33907.57234033579
+dps: 34059.97862667712
 mode: sl
 duration: 99.9999999999986
 target_count: 1
