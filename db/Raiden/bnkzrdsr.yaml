@@ -20,23 +20,23 @@ config: "options swap_delay=12 mode=sl debug=true iteration=1000 duration=106 wo
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 cryo=0.1 physical=.1;\nenergy
   every interval=480,720 amount=1;\n\nactive raiden;\n\nraidenshogun skill, attack;\n\nkujousara
   skill, aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
-  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill;\nkaedeharakazuha
-  skill, high_plunge, attack:2;\nbennett skill[hold=1];\nwait 5;\n\nkujousara skill,
-  aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
-  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill;\nkaedeharakazuha
-  skill, high_plunge, attack:2;\nbennett skill[hold=1];\nwait 5;\n\nkujousara skill,
-  aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
-  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill;\nkaedeharakazuha
-  skill, high_plunge, attack:2;\nbennett skill[hold=1];\nwait 5;\n\nkujousara skill,
-  aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
-  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill;\nkaedeharakazuha
-  skill, high_plunge, attack:2;\nbennett skill[hold=1];\nwait 5;\n\nkujousara skill,
-  aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
-  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill;\nkaedeharakazuha
-  skill, high_plunge, attack:2;\nbennett skill[hold=1];\nwait 5;\n\nkujousara skill,
-  aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
-  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill;\nkaedeharakazuha
-  skill, high_plunge, attack:2;\nbennett skill[hold=1];\nwait 5;\n\n\n\n"
+  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill,attack;\nkaedeharakazuha
+  skill, high_plunge, attack:2;\nbennett skill[hold=1], attack:2;\nwait 2;\n\nkujousara
+  skill, aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
+  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill,attack;\nkaedeharakazuha
+  skill, high_plunge, attack:2;\nbennett skill[hold=1], attack:2;\nwait 2;\n\nkujousara
+  skill, aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
+  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill,attack;\nkaedeharakazuha
+  skill, high_plunge, attack:2;\nbennett skill[hold=1], attack:2;\nwait 2;\n\nkujousara
+  skill, aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
+  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill,attack;\nkaedeharakazuha
+  skill, high_plunge, attack:2;\nbennett skill[hold=1], attack:2;\nwait 2;\n\nkujousara
+  skill, aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
+  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill,attack;\nkaedeharakazuha
+  skill, high_plunge, attack:2;\nbennett skill[hold=1], attack:2;\nwait 2;\n\nkujousara
+  skill, aim;\nbennett burst;\nkaedeharakazuha attack, skill, high_plunge, burst;\nkujousara
+  burst;\nraidenshogun burst, attack:5, dash, attack:5, dash, attack:4, skill,attack;\nkaedeharakazuha
+  skill, high_plunge, attack:2;\nbennett skill[hold=1], attack:2;\nwait 2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hypercarry Raiden with C6 Sara. Scales well in multitarget and with Raiden
   constellations.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
@@ -77,7 +77,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46243.5169414737
+dps: 46939.61473853781
 mode: sl
 duration: 105.99999999999856
 target_count: 1

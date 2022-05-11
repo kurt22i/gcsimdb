@@ -18,9 +18,9 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n#Enemies
   and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
   List:\nactive bennett;\nbennett skill,burst;\nkazuha skill,high_plunge,burst;\nxiangling
-  burst,skill;\nventi skill,burst;\nkazuha skill,high_plunge,attack:3;\nbennett skill;\nventi
-  skill;\nxiangling attack:2;\nkazuha skill,high_plunge,attack:5;\nventi skill;\nrestart;
-  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  burst,skill;\nventi skill,burst;\nkazuha skill,high_plunge,attack:3;\nbennett skill,jump;\nventi
+  skill,attack;\nbennett skill,jump;\nkazuha skill,high_plunge,attack:5;\nventi skill,attack;\nrestart;
+  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Double Anemo + Double Pyro.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38657.954947077444
+dps: 41550.76494155245
 mode: sl
 duration: 99.9999999999986
 target_count: 1

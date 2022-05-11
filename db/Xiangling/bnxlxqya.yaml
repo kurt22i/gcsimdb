@@ -1,5 +1,5 @@
 author: Kurt#5846, Charliex3000#9403, Rare Possum#0511, Lettuce Hunt#5806 and Lizz71#8986
-config: "options swap_delay=12 debug=true iteration=1000 duration=94 workers=30 mode=sl;
+config: "options swap_delay=12 debug=true iteration=1000 duration=96 workers=30 mode=sl;
   \n\n#Character Builds:\nyae char lvl=90/90 cons=0 talent=9,9,9;\nyae add weapon=\"solarpearl\"
   refine=1 lvl=90/90;\nyae add set=\"tenacityofthemillelith\" count=5;\nyae add stats
   hp=4780 atk=311 em=187 electro%=0.466 cd=0.622 ; #main\nyae add stats def=39.36
@@ -19,17 +19,17 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=94 workers=30 
   er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.1986 cd=0.662;\n\n\n#Enemies
   and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
-  List:\nactive yae;\n\nyae skill:3;\n\nxingqiu skill[orbital=1], burst[orbital=1],
-  attack;\n\nbennett burst, attack, skill, attack;\n\nxiangling attack, burst, attack:2,
-  skill, attack;\n\nxingqiu attack:2;\n\nyae attack:2, skill, attack, skill, attack,
-  skill;\n\nbennett attack, skill, attack;\n\nxiangling attack:2;\n\nbennett skill,
-  attack;\n\nxiangling attack:2;\n\nbennett attack, skill;\n\nxiangling attack:1,skill;\n\nyae
-  attack, burst;\n\n# second rot with no burst\nyae skill:3;\n\nxingqiu skill[orbital=1],
-  burst[orbital=1], attack;\n\nbennett burst, attack, skill, attack;\n\nxiangling
-  attack, burst, attack:2, skill, attack;\n\nxingqiu attack:2;\n\nyae attack:2, skill,
-  attack, skill, attack, skill;\n\nbennett attack, skill, attack;\n\nxiangling attack:2;\n\nbennett
-  skill, attack;\n\nxiangling attack:2;\n\nbennett attack, skill;\n\nxiangling attack:1,skill;\n\nyae
-  attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
+  List:\nactive yae;\nyae skill:3;\nxingqiu skill[orbital=1], burst[orbital=1], attack;\nbennett
+  burst, attack, skill, attack;\nxiangling attack, burst, attack:2, skill, attack;\nxingqiu
+  attack:2;\nyae attack:2, skill, attack, skill, attack, skill;\n\nbennett attack;\nwait
+  20; #wait for field tick\nbennett skill, attack;\n\nxiangling attack:2;\nbennett
+  skill, attack;\nxiangling attack:2;\nbennett attack, skill;\nxiangling attack:1,skill;\n\nyae
+  attack,burst;\n\nwait 10; # leeway time for second rot\n\n# second rot with no burst\nyae
+  skill:3;\nxingqiu skill[orbital=1], burst[orbital=1], attack;\nbennett burst, attack,
+  skill, attack;\nxiangling attack, burst, attack:2, skill, attack;\nxingqiu attack:2;\nyae
+  attack:2, skill, attack, skill, attack, skill;\nbennett attack, skill, attack;\nxiangling
+  attack:2;\nbennett skill, attack;\nxiangling attack:2;\nbennett attack, skill;\nxiangling
+  attack:1,skill;\n\nyae attack,charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n"
 description: Yae National, featuring EM Yae.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -69,8 +69,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49836.113963604344
+dps: 52046.04744529771
 mode: sl
-duration: 93.99999999999868
+duration: 96.00000000000009
 target_count: 1
 viewer_key: dZx1RRI4uvDH3u08sUDo1

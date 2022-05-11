@@ -1,34 +1,35 @@
 author: Rare Possum#0511
-config: "options debug=true iteration=1000 duration=108 workers=30 mode=sl swap_delay=12;\n\nganyu
+config: "options debug=true iteration=1000 duration=87 workers=30 mode=sl swap_delay=12;\n\nganyu
   char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5
   lvl=90/90;\nganyu add set=\"wandererstroupe\" count=5;\nganyu add stats hp=4780
   atk=311 em=187 cryo%=0.466 cr=0.311 ; #main\nganyu add stats def%=0.124 def=39.36
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\njean
   char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussword\" refine=3
   lvl=90/90;\njean add set=\"viridescentvenerer\" count=5;\njean add stats hp=4780
-  atk=311 er=0.518 em=187 cr=0.311 ; #main\njean add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=198.2 cr=0.331 cd=0.3972;\n\nzhongli
-  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"favlance\" refine=3 lvl=90/90;\nzhongli
-  add set=\"tenacityofthemillelith\" count=5;\nzhongli add stats hp=4780 atk=311 hp%=0.466
-  geo%=0.466 cr=0.311 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984
-  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90
-  cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
-  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
-  pyro%=0.466 cr=0.311\t ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=237.84 cr=0.1324 cd=0.2648;\ntarget
-  lvl=100 resist=.1;\n\nenergy every interval=480,720 amount=1;\nactive zhongli;\n#-------------------------------------------\n\nzhongli
-  skill[hold=1];\nganyu burst[radius=2], skill;\nbennett burst;\njean skill, attack,
-  burst;\nganyu aim[weakspot=1]:3, skill,aim:2;\njean skill, attack:2;\nbennett skill[hold=1];\n\nzhongli
-  skill[hold=1];\nganyu skill, aim;\nbennett burst;\njean skill, attack, burst;\nganyu
-  aim[weakspot=1]:2, skill,aim:3;\njean skill, attack:2;\nbennett skill[hold=1];\n\n\nrestart;\n\n\n\n"
+  atk=311 em=187 em=187 cr=0.311 ; #main\njean add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=79.28 cr=0.331 cd=0.1324 ;\n\nzhongli
+  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=5;\nzhongli add stats
+  hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.2204 em=39.64 cr=0.331
+  cd=0.1324;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
+  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311\t ; #main\nbennett add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648
+  cd=0.5296 ;\ntarget lvl=100 resist=.1;\n\nenergy every interval=480,720 amount=1;\nactive
+  zhongli;\n#-------------------------------------------\n\nzhongli skill[hold=1];\nganyu
+  skill, burst[radius=2];\nbennett burst;\njean skill, burst;\nganyu aim[weakspot=1]:2;\nwait
+  20;\nganyu skill, aim:3;\njean skill, attack:1;\nbennett skill[hold=1], attack:2;\n\nganyu
+  skill, aim[travel=30];\nzhongli skill[hold=1];\nbennett burst;\njean skill, burst;\nganyu
+  aim[weakspot=1]:2, skill,aim:3;\njean skill, attack;\nbennett skill[hold=1];\n\n\nrestart;\n\n\n\n"
 description: Sunfire Melt Ganyu. 6 CAs per rotation.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
-  con: 5
+  con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.9588000000000001
+  er: 1.069
   talents:
     attack: 9
     skill: 9
@@ -46,7 +47,7 @@ team:
   con: 0
   weapon: favoniussword
   refine: 3
-  er: 0.6282
+  er: 0.6612
   talents:
     attack: 9
     skill: 9
@@ -55,13 +56,13 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.1102
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 43550.231732674634
+dps: 42648.66953381189
 mode: sl
-duration: 108.00000000000088
+duration: 87.000000000002
 target_count: 1
 viewer_key: e71FcyAnL03j7ePzB9sPM
