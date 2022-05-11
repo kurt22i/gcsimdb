@@ -1,5 +1,5 @@
 author: Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=150 workers=30 mode=sl;\n\nsucrose
+config: "options swap_delay=12 debug=true iteration=1000 duration=154 workers=30 mode=sl;\n\nsucrose
   char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"hakushinring\" refine=5
   lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780
   atk=311 em=561 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -18,17 +18,17 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=150 workers=30
   hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
   cd=0.7944;\n\n\nactive fischl;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\n\nfischl
+  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\n\n\nfischl
   skill;\nyaemiko skill,skill,skill;\nsucrose attack, burst;\nxingqiu skill,burst,attack;\nsucrose\n
   \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
   \   attack:2, dash\n    ;\nfischl attack,burst;\nyaemiko attack,skill,skill,attack,skill;\nsucrose\n
   \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
-  \   attack:2, dash,\n    attack:2, dash,\n\tattack:2, charge,\n\tattack:2\n    ;\n\nfischl
-  skill;\nyaemiko skill,skill,skill;\nsucrose attack, burst;\nxingqiu skill,burst,attack;\nsucrose\n
+  \   attack:2, dash,\n    attack:2, dash,\n\tattack:2, charge,\n\tattack:2\n    ;\nfischl
+  attack, skill;\nyaemiko skill,skill,skill;\nsucrose attack, burst;\nxingqiu skill,burst,attack;\nsucrose\n
   \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n
   \   attack:2, dash\n    ;\nfischl attack,burst;\nyaemiko attack,burst,attack,skill,skill,attack,skill;\nsucrose\n
   \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n
-  \   attack:2, charge,\n    attack:1, charge\t\n    ;\nrestart;\n\n"
+  \   attack:2, charge,\n    attack:1, charge\t\n    ;\nfischl attack;\nrestart;\n\n\n\n"
 description: Yae Tazer, Xingqiu version with Sucrose.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -68,8 +68,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50011.38132467219
+dps: 49686.82447769197
 mode: sl
-duration: 150.0000000000028
+duration: 153.99999999999858
 target_count: 1
 viewer_key: ByH9gsHBsvIIWHKLjBt89
