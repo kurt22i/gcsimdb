@@ -32,7 +32,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   skill,burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\nbennett
   skill;\nxiangling attack;\nrestart;\n"
 description: Raiden National when the other team needs Xingqiu.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 5
@@ -70,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36168.56892808943
+dps: 38918.383794599875
 mode: sl
 duration: 103.99999999999928
 target_count: 1

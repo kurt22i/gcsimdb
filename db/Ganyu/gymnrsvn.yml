@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=132 workers=30
   skill;\n\nrestart;\n\n\n\n\n"
 description: CN Morgana. 2 CAs with Ganyu might not always be possible. Scales well
   in multitarget.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ganyu
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37887.201813331485
+dps: 38951.35409119771
 mode: sl
 duration: 132.00000000000222
 target_count: 1

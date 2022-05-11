@@ -17,13 +17,14 @@ config: "options debug=true iteration=1000 duration=128 workers=30 mode=sl swap_
   add set=\"oceanhuedclam\" count=4;\nkokomi add stats hp=4780 hp%=0.9320 atk=311.0
   heal=0.3590;\nkokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.3968 atk=33.08
   atk%=0.5952 er=0.3306 em=39.64 cr=0.0662 cd=0.1324;\n\nactive albedo;\n\nalbedo
-  skill;\nzhongli skill[hold=1];\nkokomi skill;\nxiao skill, skill, burst,\n  jump, high_plunge[collision=1],\n
+  skill;\nzhongli skill[hold=1];\nkokomi skill;\nxiao skill, skill, burst,\n  jump,
+  high_plunge[collision=1],\n  jump, high_plunge[collision=1],\n  jump, high_plunge[collision=1],\n
   \ jump, high_plunge[collision=1],\n  jump, high_plunge[collision=1],\n  jump, high_plunge[collision=1],\n
   \ jump, high_plunge[collision=1],\n  jump, high_plunge[collision=1],\n  jump, high_plunge[collision=1],\n
-  \ jump, high_plunge[collision=1],\n  jump, high_plunge[collision=1],\n  jump, high_plunge[collision=1],\n
-  \ jump, low_plunge[collision=1], jump, low_plunge[collision=1];\n  \nrestart;\n\n\n\n\n\n"
+  \ jump, high_plunge[collision=1],\n  jump, low_plunge[collision=1], jump, low_plunge[collision=1];\n
+  \ \nrestart;\n\n\n\n\n\n"
 description: Double Geo Xiao with Kokomi.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: albedo
   con: 0
@@ -61,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41555.198748689516
+dps: 41549.14810243525
 mode: sl
 duration: 128.00000000000009
 target_count: 1

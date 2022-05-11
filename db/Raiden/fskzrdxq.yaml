@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30
   skill,attack;\nkazuha skill[hold=1],high_plunge, attack:2;\nfischl skill;\nxingqiu
   skill,burst, attack;\nfischl burst;\nkazuha attack, burst, attack;\nraiden burst,attack:3,charge,attack:3,charge,attack:2,charge,attack:1,charge;\nrestart;\n"
 description: A very solid Raiden team without Bennett.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: fischl
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43635.42077589954
+dps: 43955.24375876665
 mode: sl
 duration: 126.00000000000189
 target_count: 1

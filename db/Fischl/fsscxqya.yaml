@@ -30,7 +30,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=150 workers=30
   \   attack:1, skill,\n    attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n
   \   attack:2, charge,\n    attack:1, charge\t\n    ;\nrestart;\n\n"
 description: Yae Tazer, Xingqiu version with Sucrose.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: fischl
   con: 6
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49244.51610328605
+dps: 50011.38132467219
 mode: sl
 duration: 150.0000000000028
 target_count: 1

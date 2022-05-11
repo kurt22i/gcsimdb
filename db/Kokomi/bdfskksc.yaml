@@ -27,7 +27,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   \       attack:2, charge,\n        attack:2, charge\n        ;\nbeidou skill[counter=1],
   attack:2;\n\nrestart;\n"
 description: Kokomi/Sucrose taser.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: beidou
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38981.34392241769
+dps: 39716.000391462396
 mode: sl
 duration: 103.99999999999928
 target_count: 1

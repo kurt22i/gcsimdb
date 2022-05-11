@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=156 mode=sl;\n
   attack:2,burst;\nbennett skill, attack;\nbeidou attack, skill[counter=2], attack:2;\nbennett
   attack:2, skill, attack;\nayato skill, attack:15;\n\nrestart;\n"
 description: Ayato Taser.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayato
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36608.55773824616
+dps: 36305.90393894986
 mode: sl
 duration: 156.00000000000313
 target_count: 1

@@ -40,7 +40,7 @@ config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl; \nrai
   high_plunge, burst;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:2,
   charge, attack, charge, skill;\nrestart;\n"
 description: 'Raikou: Raiden Hypercarry with Yae.'
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 5
@@ -78,7 +78,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48087.75564831593
+dps: 47074.69613231886
 mode: sl
 duration: 99.0000000000003
 target_count: 1

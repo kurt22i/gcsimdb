@@ -26,7 +26,7 @@ config: "options debug=true iteration=1000 duration=128 workers=30 mode=sl swap_
   burst, attack;\n\nayaka dash, skill, attack, burst;\n\nkazuha skill,attack:2;\n\nshenhe
   attack, skill;\n\nayaka dash,attack:2,charge,attack:3;\n\nrestart;\n"
 description: Ayaka Mono-Cryo with Qiqi.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38487.78787777965
+dps: 38472.03380861457
 mode: sl
 duration: 128.00000000000009
 target_count: 1

@@ -27,10 +27,14 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\n#target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
   physical=.1 cryo=.1;\n\nenergy every interval=480,720 amount=1;\nactive raiden;\n\nraiden
-  skill;\nalbedo skill;\nzhongli skill[hold=1];\nxiao skill, skill, burst,\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1];\nzhongli
-  skill[hold=1];\nalbedo skill;\nraidenshogun skill, burst, attack:14,charge;\nrestart;\n"
+  skill;\nalbedo skill;\nzhongli skill[hold=1];\nxiao skill, skill, burst,\njump,
+  high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump,
+  high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump,
+  high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump,
+  high_plunge[collision=1];\nzhongli skill[hold=1];\nalbedo skill;\nraidenshogun skill,
+  burst, attack:14,charge;\nrestart;\n"
 description: Xiaoden.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: albedo
   con: 0
@@ -68,7 +72,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37514.39497586327
+dps: 37495.082560008625
 mode: sl
 duration: 91.999999999999
 target_count: 1

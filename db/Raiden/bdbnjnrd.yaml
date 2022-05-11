@@ -24,7 +24,7 @@ config: "####----GENERATED CHARACTER BLOCK DO NOT EDIT----####\nraidenshogun cha
   2;\nbennett attack:2, skill, attack;\njean skill;\nwait 20;\njean attack;\nbennett
   attack:3, skill, attack;\nbeidou skill, attack;\nrestart;\n"
 description: Sunfire Raiden/Beidou. Scales to 2 targets extremely well.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: beidou
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29078.931209052706
+dps: 31021.232371144495
 mode: sl
 duration: 97.9999999999992
 target_count: 1

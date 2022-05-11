@@ -54,7 +54,7 @@ config: |
   xiangling attack:3;
   restart;
 description: Sucrose National. A very strong 4* only team.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 6
@@ -92,7 +92,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46834.504210451494
+dps: 44364.3974010476
 mode: sl
 duration: 105.99999999999856
 target_count: 1

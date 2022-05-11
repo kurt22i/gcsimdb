@@ -21,7 +21,7 @@ config: "sucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thril
   skill,attack,burst;\n\nxingqiu skill,attack,burst;\n\nsucrose skill,attack:4,attack:4,skill,attack:4,attack:4,attack:4;\n\nbeidou
   skill,attack;\n\nraiden burst,attack:3,charge,attack:3,charge;\n\n\nrestart;\n"
 description: Sucrose taser with Raiden.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: beidou
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30719.691963928104
+dps: 31573.431280150344
 mode: sl
 duration: 94.9999999999991
 target_count: 1

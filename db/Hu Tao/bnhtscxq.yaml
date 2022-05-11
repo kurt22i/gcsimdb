@@ -41,7 +41,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=122 workers=30
   jump,\n    attack:2, charge;\nbennett skill;\nsucrose attack:2, skill, attack, charge;\nbennett
   skill, attack;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Bennett-Tao with Sucrose.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 6
@@ -79,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 55052.34955868129
+dps: 45631.66937223335
 mode: sl
 duration: 121.9999999999999
 target_count: 1

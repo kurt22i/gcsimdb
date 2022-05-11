@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge;\n    \nbennett
   attack:2,skill,attack:3;\n\nrestart;\n"
 description: A comfy Tao team that doesn't have to worry about managing HP at all.
-hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44495.85690433826
+dps: 44157.62215273196
 mode: sl
 duration: 103.99999999999928
 target_count: 1
