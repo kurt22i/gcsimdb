@@ -20,10 +20,10 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30
   em=39.64 cr=0.331 cd=0.7944;\n\n\n#Enemies and Particles:\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\n\n#Action List:\nactive zhongli;\n\nzhongli skill[hold=1];\nbennett
   skill, burst, attack:2;\nningguang skill, dash, burst, skill, charge;\nxiao skill:2,
-  burst,\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n
-  \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n
-  \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1],\n
-  \   high_plunge[plunge_hits=1],\n    high_plunge[plunge_hits=1]\n    ;\n    \nrestart;\n"
+  burst,\n    jump, high_plunge[collision=1],\n    jump, high_plunge[collision=1],\n    jump, high_plunge[collision=1],\n
+  \   jump, high_plunge[collision=1],\n    jump, high_plunge[collision=1],\n    jump, high_plunge[collision=1],\n
+  \   jump, high_plunge[collision=1],\n    jump, high_plunge[collision=1],\n    jump, high_plunge[collision=1],\n
+  \   jump, high_plunge[collision=1],\n    jump, high_plunge[collision=1]\n    ;\n    \nrestart;\n"
 description: Double Geo Xiao without Albedo. Assumes collisions on all plunges.
 hash: c44293a94e86be7b7f0fea1bef815f6e230f4fed
 team:
