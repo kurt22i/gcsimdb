@@ -22,8 +22,8 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   skill, attack;\nhutao skill,\n    attack:1, charge, jump,\n    attack:1, charge,
   jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
   jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
-  jump,\n    attack:1, charge;\nxingqiu attack:2;\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-description: ""
+  jump,\n    attack:1, charge;\nxingqiu attack:2;\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: Bennett-Tao with Xiangling (Tao National).
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57157.121650388515
+dps: 57220.292522382646
 mode: sl
 duration: 103.99999999999928
 target_count: 1
