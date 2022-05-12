@@ -1,6 +1,6 @@
 author: imring#3781 and Arfoire#9219
 config: |+
-  options debug=true mode=apl iteration=1000 duration=108 workers=30;
+  options swap_delay=12 debug=true mode=sl iteration=1000 duration=107 workers=30;
 
   kokomi char lvl=90/90 cons=0 talent=9,9,9;
   kokomi add weapon="prototypeamber" refine=5 lvl=90/90;
@@ -31,34 +31,51 @@ config: |+
 
   active kokomi;
 
-  kokomi attack +limit=1;
-  yunjin skill +limit=1;
-
-  kokomi burst +if=.status.yunjinburst > 0 && .status.xqburst > 0 && .debuff.res.t1.vvhydro == 1;
-  kokomi attack:2, dash +if=.status.kokomiburst > 0;
-  kokomi skill +if=.status.kokomiskill == 0;
-
-  yunjin skill +if=.ready.burst.yunjin == 0 && .energy.yunjin < 55
-               +swap_lock=60;
+  kokomi attack;
+  yunjin skill, attack:4;
+  kokomi skill;
+  sucrose attack:2, skill,
+          attack:2, burst;
+  xingqiu burst, skill, attack:2;
   yunjin burst, skill;
+  kokomi burst,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2;
 
+  # ----------------------
+
+  yunjin skill, attack:4;
+  kokomi skill;
   sucrose attack:2, skill,
-          attack:2, burst +if=.element.t1.hydro == 1 && .debuff.res.t1.vvhydro == 0;
-  sucrose attack:2, skill,
-          attack:2        +if=.element.t1.hydro == 1 && .debuff.res.t1.vvhydro == 0;
+          attack:2;
+  xingqiu burst, skill, attack:2;
+  yunjin burst, skill;
+  kokomi burst,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack:2, dash,
+         attack;
 
-  # xingqiu skill +if=.energy.xingqiu < 75
-  #               +swap_lock=60;
-  # xingqiu skill, burst +swap_lock=60;
-  # xingqiu burst;
-  xingqiu burst, skill +swap_lock=80;
-
-  yunjin attack +is_onfield;
-  xingqiu attack +is_onfield;
-
+  restart;
 
 description: Hyper Kokomi.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: kokomi
   con: 0
@@ -96,8 +113,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34856.13067911437
-mode: apl
-duration: 108.00000000000088
+dps: 32493.605797679076
+mode: sl
+duration: 106.99999999999939
 target_count: 1
 viewer_key: XgZokpucALQ0YGshXNpYP

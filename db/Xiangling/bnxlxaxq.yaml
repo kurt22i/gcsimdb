@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30
   attack:2, skill;\nxiao skill, attack;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
   attack:2, skill;\nxiangling attack:3;\nbennett attack:2, skill;\nrestart;\n\n\n\n"
 description: Xiangling vape carry supported by Bennett and 4VV Xiao.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40865.98323274211
+dps: 40838.45018184676
 mode: sl
 duration: 102.00000000000051
 target_count: 1

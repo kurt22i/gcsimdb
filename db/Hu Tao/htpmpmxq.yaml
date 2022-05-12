@@ -62,7 +62,7 @@ config: |
       ;
   restart;
 description: Tao Vape core, the rest is optional.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: hutao
   con: 0
@@ -82,7 +82,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 24998.30531741797
+dps: 25058.410777589364
 mode: sl
 duration: 105.00000000000071
 target_count: 1

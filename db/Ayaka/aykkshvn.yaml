@@ -42,7 +42,7 @@ config: |
   ayaka dash, attack:2, charge, dash, attack:2, charge, dash, attack:2, skill, attack:2, charge, attack:2;
   restart;
 description: Ayaka Freeze with Venti and Shenhe.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: ayaka
   con: 0
@@ -80,7 +80,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46065.3136713813
+dps: 46224.50572679388
 mode: sl
 duration: 99.9999999999986
 target_count: 1

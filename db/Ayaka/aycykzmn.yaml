@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30
   burst;\nayaka dash,attack:2,charge;\nmona skill;\nkazuha skill,high_plunge;\nayaka
   dash,attack:2,charge,\n      dash,attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41693.87283160549
+dps: 41692.53894885085
 mode: sl
 duration: 102.00000000000051
 target_count: 1

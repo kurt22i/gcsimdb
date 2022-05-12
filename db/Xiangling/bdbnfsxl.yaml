@@ -30,7 +30,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=98 workers=30 
   attack:4,skill; #na till guoba is up.\nxiangling attack:2;\n\nbeidou skill[counter=2],attack:2;
   # catch particle, counter depending on skill issue\nrestart;\n\n\n\n"
 description: Pyro + Electro 4*-only OL.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: beidou
   con: 6
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39442.47725007055
+dps: 39459.02236339288
 mode: sl
 duration: 97.9999999999992
 target_count: 1

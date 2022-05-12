@@ -39,7 +39,7 @@ config: |
 
   restart;
 description: Freeze without Ganyu or Ayaka.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: kaeya
   con: 2
@@ -77,7 +77,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29610.43479894149
+dps: 29623.640113913567
 mode: sl
 duration: 100.9999999999993
 target_count: 1

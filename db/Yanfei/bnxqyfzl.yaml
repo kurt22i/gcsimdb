@@ -43,7 +43,7 @@ config: |
 
   restart;
 description: Vape Yanfei, maximum comfort version.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 6
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37359.34575264452
+dps: 37412.89276017826
 mode: sl
 duration: 108.00000000000088
 target_count: 1

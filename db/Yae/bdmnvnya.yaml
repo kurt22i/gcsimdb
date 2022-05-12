@@ -36,7 +36,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   skill, attack:2;\nmona skill, attack:2, charge,\n\tattack:2, charge\n    ;\nbeidou
   skill[counter=1], attack;\n\nrestart;\n\n"
 description: Mona Taser.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: beidou
   con: 6
@@ -74,7 +74,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 26751.23293510082
+dps: 26719.432376734218
 mode: sl
 duration: 99.9999999999986
 target_count: 1

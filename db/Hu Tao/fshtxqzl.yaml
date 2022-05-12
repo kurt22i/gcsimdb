@@ -73,7 +73,7 @@ config: |
   restart;
 description: Hu Tao with Fischl and Zhongli, a fairly comfortable HT team that still
   does impressive damage.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: fischl
   con: 6
@@ -111,7 +111,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38093.24851601824
+dps: 38145.148342853696
 mode: sl
 duration: 102.00000000000051
 target_count: 1

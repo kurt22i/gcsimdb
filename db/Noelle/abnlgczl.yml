@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   attack:3, dash, attack:3, dash;\n\ntravelergeo skill;\n\nnoelle attack:3, dash,
   attack:3, dash;\n\nrestart;\n"
 description: Mono-Geo Noelle without Gorou.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37778.778182491515
+dps: 37786.392832303645
 mode: sl
 duration: 99.9999999999986
 target_count: 1

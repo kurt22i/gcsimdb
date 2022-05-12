@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=200 workers=30 mode=apl swap
   skill;\nshenhe burst;\n\nayaka dash, skill;\nayaka dash, burst;\nayaka dash, attack:2,
   charge;\n\n"
 description: Geo Ayaka.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45036.331751132886
+dps: 45051.946843730555
 mode: apl
 duration: 199.9999999999972
 target_count: 1

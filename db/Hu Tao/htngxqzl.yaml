@@ -28,7 +28,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   charge, jump,\n\tattack:1, charge, jump;\n\t\nzhongli attack:4;\nxingqiu attack:4;\nzhongli
   attack:3;\nxingqiu attack:3;\n\nrestart;\n\n\n\n"
 description: Budget Tao Double Geo.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: hutao
   con: 0
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44056.43318427839
+dps: 44058.02923141464
 mode: sl
 duration: 102.99999999999858
 target_count: 1

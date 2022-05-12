@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=98 workers=30 
   skill,burst,charge;\nbennett skill;\nxiangling attack:3;\nningguang attack:2,charge,skill;\nbennett
   skill;\nxiangling attack:3;\nningguang attack,charge;\nrestart;\n"
 description: NatGeo, optimized rotation.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39372.32909224521
+dps: 39285.99694092188
 mode: sl
 duration: 97.9999999999992
 target_count: 1

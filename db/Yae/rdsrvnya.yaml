@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=116 workers=30 mode=sl; \n\n
   skill, burst;\nsara burst;\nyaemiko burst, skill ,skill, skill;\nventi attack, skill;\nsara
   skill, aim;\nraidenshogun burst, attack:3, charge, attack:3, charge, attack:3, charge;\n\nrestart;\n\n"
 description: Mono-Electro Raiden with Venti.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: raiden
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44603.355146682195
+dps: 44669.82158037744
 mode: sl
 duration: 115.99999999999967
 target_count: 1

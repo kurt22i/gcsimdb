@@ -48,7 +48,7 @@ config: |
 
   restart;
 description: Mono-Electro + Bennett.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 5
@@ -86,7 +86,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35812.034594472665
+dps: 35784.24956252384
 mode: sl
 duration: 109.99999999999949
 target_count: 1

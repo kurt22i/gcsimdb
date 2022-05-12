@@ -46,7 +46,7 @@ config: |+
 
 
 description: Ayaka freeze with Ganyu.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: ayaka
   con: 0
@@ -84,7 +84,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49825.38511771085
+dps: 49801.64836722221
 mode: sl
 duration: 105.99999999999856
 target_count: 1

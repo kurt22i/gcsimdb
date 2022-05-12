@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=200 workers=30 mode=apl swap
   skill, high_plunge +if=.status.kazuha-a4-cryo==0&&.element.t1.cryo==1;\nganyu skill;\nganyu
   aim[weakspot=1], burst[radius=2];\nganyu aim[weakspot=1];\n\n\n"
 description: Mono-Cryo Ganyu.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: ganyu
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44592.26003510669
+dps: 44672.00762040219
 mode: apl
 duration: 199.9999999999972
 target_count: 1

@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30
   skill, burst, attack;\nzhongli attack, burst, attack;\nrosaria attack:2, skill;\nbennett
   skill, attack;\nxiangling attack:3;\nbennett skill;\n\n\n\n\n\nrestart;\n\n\n\n\n"
 description: Reverse Melt Rosaria with Burstli.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42619.86826298412
+dps: 42604.63564680222
 mode: sl
 duration: 108.00000000000088
 target_count: 1

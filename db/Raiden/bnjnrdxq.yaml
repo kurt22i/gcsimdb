@@ -1,30 +1,50 @@
-author: Charliex3000#9403
+author: Charliex3000#9403 and Lettuce Hunt#5806
 config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=4;\nraidenshogun
   add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nraidenshogun
-  add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;
-  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
+  add stats  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944 ;\t\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
   count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
   em=237.84 cr=0.1324 cd=0.1324;\n\n\njean char lvl=90/90 cons=0 talent=9,9,9; \njean
   add weapon=\"ironsting\" refine=5 lvl=90/90;\njean add set=\"viridescentvenerer\"
-  count=4;\njean add stats hp=4780 atk=311 em=561 ; #main\njean add stats hp%=0.0992
-  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=118.92 cr=0.1655 cd=0.331
-  er=0.6612 ; #subs\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats
-  hp=4780 atk%=0.466 atk=311 hydro%=0.466 cr=0.311; #main\nxingqiu add stats hp%=0.0992
-  hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944
-  er=0.1102 ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
-  amount=1;\n\n##Actions List\n\nactive xingqiu;\n\n#------------------------------------------------------\n\nxingqiu
-  skill[orbital=1], burst[orbital=1], attack;\n\nraiden skill, attack;\n\nbennett
-  skill, attack, burst;\n\njean attack, burst, attack, skill;\n\n#raiden attack, burst,
-  attack:3, charge, dash, attack:3, charge, dash, attack:3, charge, dash, attack:1,
-  charge;\nraiden attack, burst, attack:5, dash, attack:5, dash, attack:4;\n\njean
-  skill, attack:4;\n\nbennett skill[delay=3];\n\nrestart;\n\n\n"
+  count=4;\njean add stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\njean add
+  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.6612
+  em=118.92 cr=0.0662 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\n#xingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add set=\"noblesseoblige\"
+  count=4;\nxingqiu add stats hp=4780 atk%=0.466 atk=311 hydro%=0.466 cr=0.311; #main\nxingqiu
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n##Default
+  Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
+  List\n\nactive xingqiu;\n\n#------------------------------------------------------\n\nraiden
+  skill;\n\n#- every raiden sim madge\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
+  skill, attack, burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl
+  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:14,
+  attack, skill, attack;\n#15 rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett
+  skill;\n#acquire instructor buff\n\nxingqiu attack;\n\n#---------------\n\nxingqiu
+  burst, attack, skill, attack:2;\n\nbennett skill, attack, burst, attack;\n\njean
+  attack, skill, attack, burst, attack;\n#swirl electrocharge for double vv when you
+  proc raiden e\n\nwait 5;\n\nraiden burst, attack:14, attack, skill, attack;\n#15
+  rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
+  buff\n\nxingqiu attack;\n\n#---------------\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
+  skill, attack, burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl
+  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:14,
+  attack, skill, attack;\n#15 rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett
+  skill;\n#acquire instructor buff\n\nxingqiu attack;\n\n\n#---------------\n\nxingqiu
+  burst, attack, skill, attack:2;\n\nbennett skill, attack, burst, attack;\n\njean
+  attack, skill, attack, burst, attack;\n#swirl electrocharge for double vv when you
+  proc raiden e\n\nwait 5;\n\nraiden burst, attack:14, attack, skill, attack;\n#15
+  rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
+  buff\n\nxingqiu attack;\n\n\n#---------------\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
+  skill, attack, burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl
+  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:14,
+  attack, skill, attack;\n#15 rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett
+  skill;\n#acquire instructor buff\n\nxingqiu attack;\n\n\n"
 description: Sunfire Raiden.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 6
@@ -62,7 +82,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52886.4923338544
+dps: 53714.487524647026
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30
   dash,attack:5;\nbennett skill;\nrestart;\n"
 description: Yoimiya VV Mono-Pyro. No shielding, but impressive damage if you can
   manage it.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46219.923511293935
+dps: 46267.91990288338
 mode: sl
 duration: 126.00000000000189
 target_count: 1

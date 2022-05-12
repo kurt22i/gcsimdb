@@ -26,7 +26,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=122 workers=30
   skill;\nbarbara attack:3;\nganyu skill, aim[weakspot=1], aim[weakspot=1];\nayaka
   dash, skill, attack:3, charge;\nwait 5;\n\nrestart;\n\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Barbara.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35106.16521001929
+dps: 35110.32447948646
 mode: sl
 duration: 121.9999999999999
 target_count: 1

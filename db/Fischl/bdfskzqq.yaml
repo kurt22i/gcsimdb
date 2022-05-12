@@ -29,7 +29,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   attack:2, burst;\nbeidou attack, skill[counter=1], attack:2;\nkazuha skill[hold=1],
   high_plunge, attack;\nqiqi attack:12\n    ;\n\nrestart;\n"
 description: Qiqi Taser with Kazuha.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: beidou
   con: 6
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31110.87310974115
+dps: 31135.094062511547
 mode: sl
 duration: 99.9999999999986
 target_count: 1

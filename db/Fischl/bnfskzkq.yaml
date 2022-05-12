@@ -12,8 +12,7 @@ config: |+
 
   fischl char lvl=90/90 cons=6 talent=9,9,9;
   fischl add weapon="alleyhunter" refine=1 lvl=90/90;
-  fischl add set="shimenawasreminiscence" count=2;
-  fischl add set="thunderingfury" count=2;
+  fischl add set="thundersoother" count=4;
   fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
 
   bennett char lvl=90/90 cons=5 talent=9,9,9;
@@ -21,7 +20,7 @@ config: |+
   bennett add set="noblesseoblige" count=4;
   bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.7384 em=39.64 cr=0.6420 cd=0.7944 pyro%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=124 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;
 
   target lvl=100 resist=.1;
 
@@ -32,19 +31,32 @@ config: |+
   kazuha skill,high_plunge;
   bennett burst;
   fischl attack,skill;
+
   keqing skill,
-  burst, attack,charge,attack,charge,attack,charge;
+  burst,
+  attack,charge,
+  attack,charge,
+  attack,charge,
+  attack,charge;
+
   kazuha burst,skill,high_plunge;
   fischl attack,burst;
-  bennett skill;
+  bennett skill,attack:2;
+
   keqing skill,
-  skill,attack,charge,attack,charge,attack,charge,attack,charge;
+  skill,
+  attack,charge,
+  attack,charge,
+  attack,charge,
+  attack,charge,
+  attack,charge;
+
   bennett skill,attack:2;
   restart;
 
 
 description: Electro Keqing.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 5
@@ -82,8 +94,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38243.03082607983
+dps: 41022.94838455752
 mode: sl
-duration: 123.99999999999817
+duration: 99.9999999999986
 target_count: 1
 viewer_key: n-BGBPS7zaF3qJWVeYX5z

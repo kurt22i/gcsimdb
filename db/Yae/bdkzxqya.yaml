@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 
   skill, high_plunge, attack;\nyaemiko attack:2, dash,\n    attack:2, dash,\n    attack:2\n
   \   ;\nbeidou skill[counter=1], attack;\nkazuha skill, high_plunge;\nrestart;\n\n\n"
 description: ""
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: beidou
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38786.625669109395
+dps: 38753.26954207703
 mode: sl
 duration: 91.999999999999
 target_count: 1

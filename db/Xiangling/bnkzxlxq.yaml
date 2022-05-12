@@ -50,7 +50,7 @@ config: |+
 
 
 description: 'Kazuha National: Sucrose National with better grouping.'
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 6
@@ -88,7 +88,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 54643.90448348052
+dps: 54576.32524644503
 mode: sl
 duration: 105.99999999999856
 target_count: 1

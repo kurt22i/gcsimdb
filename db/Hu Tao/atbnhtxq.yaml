@@ -45,7 +45,7 @@ config: |
 
   restart;
 description: Tao with Ayato.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: ayato
   con: 0
@@ -83,7 +83,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42081.38719881413
+dps: 41659.83425085207
 mode: sl
 duration: 103.99999999999928
 target_count: 1

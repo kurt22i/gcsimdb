@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   burst, skill;\n\nrosaria skill, burst;\n\nbennett skill;\nxiangling attack:3;\n\nshenhe
   attack, skill;\nrosaria skill;\nshenhe attack:3;\n\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n"
 description: Rosaria Reverse Melt with Shenhe. Very sensitive to timing.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53339.75366131708
+dps: 53388.45529283516
 mode: sl
 duration: 102.99999999999858
 target_count: 1
