@@ -1,33 +1,62 @@
 author: imring#3781 and Arfoire#9219
-config: "options swap_delay=12 debug=true mode=sl iteration=1000 duration=110 workers=30;\n\nkokomi
-  char lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"prototypeamber\" refine=5
-  lvl=90/90;\nkokomi add set=\"oceanhuedclam\" count=4;\nkokomi add stats hp=4780
-  atk=311 hp%=0.466 hydro%=0.466 heal=0.359; # main\nkokomi add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.496 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.0662 cd=0.1324;\n\nxingqiu
-  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats
-  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; # main\nxingqiu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
-  cd=0.7944;\n\nyunjin char lvl=90/90 cons=6 talent=9,9,9;\nyunjin add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\nyunjin add set=\"archaicpetra\" count=4;\nyunjin add stats
-  hp=4780 atk=311 def%=0.583 def%=0.583 cr=0.311; # main\nyunjin add stats def%=0.248
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.331
-  cd=0.1324;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"ttds\"
-  refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
-  stats hp=4780 atk=311 er=0.518 em=374; # main\nsucrose add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=158.56 cr=0.1324 cd=0.2648;\n\ntarget
-  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive kokomi;\n
-  \      \n# --------------------------------\n\nkokomi attack;\nyunjin skill, attack:4;\nkokomi
-  skill;\nsucrose attack:2, skill,\n        attack:2, burst;\nxingqiu skill, burst,
-  attack;\nyunjin burst, skill;\nkokomi burst,\n       attack:2, dash,\n       attack:2,
-  dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n
-  \      attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2,
-  dash,\n       attack:2, dash;\n\n# --------------------------------\n\nyunjin skill,
-  attack:4;\nkokomi skill;\nsucrose attack:2, skill,\n        attack:2;\nxingqiu skill,
-  burst, attack;\nyunjin burst, skill;\nkokomi burst,\n       attack:2, dash,\n       attack:2,
-  dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n
-  \      attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2,
-  dash,\n       attack:2, dash;\n       \nrestart;\n\n\n"
+config: |+
+  options debug=true mode=apl iteration=1000 duration=108 workers=30;
+
+  kokomi char lvl=90/90 cons=0 talent=9,9,9;
+  kokomi add weapon="prototypeamber" refine=5 lvl=90/90;
+  kokomi add set="oceanhuedclam" count=4;
+  kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.359; # main
+  kokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.0662 cd=0.1324;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; # main
+  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  yunjin char lvl=90/90 cons=6 talent=9,9,9;
+  yunjin add weapon="favoniuslance" refine=3 lvl=90/90;
+  yunjin add set="archaicpetra" count=4;
+  yunjin add stats hp=4780 atk=311 def%=0.583 def%=0.583 cr=0.311; # main
+  yunjin add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.331 cd=0.1324;
+
+  sucrose char lvl=90/90 cons=6 talent=9,9,9;
+  sucrose add weapon="ttds" refine=5 lvl=90/90;
+  sucrose add set="viridescentvenerer" count=4;
+  sucrose add stats hp=4780 atk=311 er=0.518 em=374; # main
+  sucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=158.56 cr=0.1324 cd=0.2648;
+
+  target lvl=100 resist=.1;
+  energy every interval=480,720 amount=1;
+
+  active kokomi;
+
+  kokomi attack +limit=1;
+  yunjin skill +limit=1;
+
+  kokomi burst +if=.status.yunjinburst > 0 && .status.xqburst > 0 && .debuff.res.t1.vvhydro == 1;
+  kokomi attack:2, dash +if=.status.kokomiburst > 0;
+  kokomi skill +if=.status.kokomiskill == 0;
+
+  yunjin skill +if=.ready.burst.yunjin == 0 && .energy.yunjin < 55
+               +swap_lock=60;
+  yunjin burst, skill;
+
+  sucrose attack:2, skill,
+          attack:2, burst +if=.element.t1.hydro == 1 && .debuff.res.t1.vvhydro == 0;
+  sucrose attack:2, skill,
+          attack:2        +if=.element.t1.hydro == 1 && .debuff.res.t1.vvhydro == 0;
+
+  # xingqiu skill +if=.energy.xingqiu < 75
+  #               +swap_lock=60;
+  # xingqiu skill, burst +swap_lock=60;
+  # xingqiu burst;
+  xingqiu burst, skill +swap_lock=80;
+
+  yunjin attack +is_onfield;
+  xingqiu attack +is_onfield;
+
+
 description: Hyper Kokomi.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -67,8 +96,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31085.414665731387
-mode: sl
-duration: 109.99999999999949
+dps: 34856.13067911437
+mode: apl
+duration: 108.00000000000088
 target_count: 1
 viewer_key: XgZokpucALQ0YGshXNpYP

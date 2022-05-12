@@ -1,5 +1,5 @@
-author: Watter#7122
-config: "options swap_delay=12 debug=true iteration=1000 duration=127 workers=30 mode=sl;\nayaka
+author: Watter#7122 and Rare Possum#0511
+config: "options swap_delay=12 debug=true iteration=1000 duration=130 workers=30 mode=sl;\nayaka
   char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5
   lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780
   atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124 def=39.36
@@ -20,20 +20,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=127 workers=30
   anemo=0.1 physical=.1 cryo=.1;\n\nenergy every interval=480,720 amount=1;\n\nactive
   shenhe;\nshenhe skill, burst;\nkokomi skill;\nganyu skill, burst[radius=2];\nayaka
   dash,attack,skill,burst;\nshenhe skill;\nganyu aim[weakspot=1];\nwait 24;\nganyu
-  skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\nwait 16;\n\nshenhe
-  skill, burst;\nkokomi skill;\nganyu skill, burst[radius=2];\nayaka dash,attack,skill,burst;\nshenhe
-  skill;\nganyu aim[weakspot=1];\nwait 24;\nganyu skill, aim[weakspot=1]:2;\nayaka
-  dash, skill, attack:3, charge;\nwait 16;\n\nshenhe skill, burst;\nkokomi skill;\nganyu
-  skill, burst[radius=2];\nayaka dash,attack,skill,burst;\nshenhe skill;\nganyu aim[weakspot=1];\nwait
-  24;\nganyu skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\nwait
-  16;\n\nshenhe skill, burst;\nkokomi skill;\nganyu skill, burst[radius=2];\nayaka
-  dash,attack,skill,burst;\nshenhe skill;\nganyu aim[weakspot=1];\nwait 24;\nganyu
-  skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\nwait 16;\n\nshenhe
-  skill, burst;\nkokomi skill;\nganyu skill, burst[radius=2];\nayaka dash,attack,skill,burst;\nshenhe
-  skill;\nganyu aim[weakspot=1];\nwait 24;\nganyu skill, aim[weakspot=1]:2;\nayaka
-  dash, skill, attack:3, charge;\nwait 16;\n\nshenhe skill, burst;\nkokomi skill;\nganyu
-  skill, burst[radius=2];\nayaka dash,attack,skill,burst;\nshenhe skill[hold=1];\nganyu
-  aim[weakspot=1]:2, skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\n\n\n"
+  skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\nwait 16;\n\nrestart;\n\n\n\n\n\n"
 description: ""
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -73,8 +60,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50134.81764131924
+dps: 49764.86475855532
 mode: sl
-duration: 126.9999999999982
+duration: 129.99999999999824
 target_count: 1
 viewer_key: ULNbHbwq7yYh2lsFUFlIC

@@ -1,5 +1,5 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=112 workers=30 mode=sl;\n\neula
+config: "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\neula
   char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\neula add set=\"paleflame\" count=4;\neula add stats
   hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622 ; #main\neula add stats def%=0.124
@@ -19,10 +19,10 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=112 workers=30
   atk%=0.0992 er=0.1102 em=39.64 cr=0.3972 cd=0.7944;\n\n\nactive fischl;\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\nenergy every interval=480,720 amount=1;\n\nfischl skill;\nrosaria skill;\ndiona
-  skill[hold=1];\neula skill, attack;\nrosaria burst;\neula burst,attack:4,skill[hold=1];\nwait
-  14;\neula attack:4;\nrosaria skill;\neula attack:4,dash,attack:4;\n\nfischl burst;\nrosaria
-  skill;\ndiona skill[hold=1];\neula skill, attack;\nrosaria burst;\neula burst,attack:4,skill[hold=1];\nwait
-  14;\neula attack:4;\nrosaria skill;\neula attack:4,dash,attack:4;\nrestart;\n\n"
+  skill[hold=1];\neula skill, attack;\nrosaria burst;\neula burst,attack:4,skill[hold=1],
+  attack:4;\nrosaria skill;\neula attack:4,dash,attack:4;\n\nfischl burst;\nrosaria
+  skill;\ndiona skill[hold=1];\neula skill, attack;\nrosaria burst;\neula burst,attack:4,skill[hold=1],
+  attack:4;\nrosaria skill;\neula attack:4,dash,attack:4;\nrestart;\n\n\n\n\n"
 description: Eula with a 4* team.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -62,8 +62,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36620.467133582715
+dps: 36878.02433222283
 mode: sl
-duration: 111.99999999999807
+duration: 106.99999999999939
 target_count: 1
 viewer_key: ifVbIUbU1yxu9Pu0FesyT

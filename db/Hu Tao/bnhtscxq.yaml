@@ -1,45 +1,72 @@
 author: Lettuce Hunt#5806 and mina#4448
-config: "options swap_delay=12 debug=true iteration=1000 duration=122 workers=30 mode=sl;\n\nhutao
-  char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nhutao
-  add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 em=186.5
-  cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662;\n\nxingqiu char lvl=90/90
-  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
-  cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n#you
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\n#hutao
+  add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\"
+  count=4;\nhutao add stats hp=4780 atk=311 em=186.5 cd=0.622 pyro%=0.466 ; #main
+  for deathmatch\n#hutao add stats hp=4780 atk=311 hp%=0.466 cr=0.311 pyro%=0.466
+  ; #main for dbane\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662; #subs for deathmatch\n#hutao
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944 ;\t#subsfordbane\t\t\t\t\t\t\t\t\t\t\n\nxingqiu char
+  lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\n#xingqiu
+  add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\n#xingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
+  atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\n#xingqiu add stats hp=4780 atk=311
+  er=0.518 cr=0.311 hydro%=0.466; #er sands for harbinger setups. it doesn't seem
+  worth it, even with fav sucrose.\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944; #these are
+  stats for 4eosf\n#xingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.3857 em=39.64 cr=0.2979 cd=0.662 ; #these are stats for noblesse\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n#you
   don't meet ER requirements with 4NO, but even with a ruined graph it only sims just
   a bit less. Madge!\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9; \nsucrose add
-  weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\"
-  count=4;\nsucrose add stats hp=4780 atk=311 em=559.5 ; #main\nsucrose add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64
-  cr=0.3972 cd=0.1324;\n\n#energy is rather delicate with sucrose and even with sac
-  frags instead of fav codex she doesn't meet ER reqs consistently.\n\nbennett char
+  weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\n#sucrose add weapon=\"sacrificialfragments\"
+  refine=3 lvl=90/90;\n#sucrose add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nsucrose
+  add set=\"viridescentvenerer\" count=4;\nsucrose add stats hp=4780 atk=311 em=559.5
+  ; #main\nsucrose add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496
+  er=0.1102 em=118.92 cr=0.331 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\n\n\n\nbennett char
   lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
   add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232
-  pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.1986 cd=0.662;\n\ntarget lvl=100 resist=0.1;\nenergy
+  pyro%=0.348 ; #main\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.2648 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n#only
+  16 subs were distributed to bennett, and only 6 for ER to mimic the stat penalty,
+  because instructors is 4*\t\t\t\t\t\t\t\t\t\t\n\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\n\n#upgrades - c1 to do better rotations, staff
   of homeless + more EM subs are pretty good. with r5 fav on xq you could potentially
   make it\n#           to the ER reqs on sucrose to put her on sac frags + er sands.
   TTDS feels pretty impossible - you don't have the energy to\n#           burst and
   you don't have the e charges to not burst. WHOMST at mihoyo thought 80 cost was
-  a valid cost for...\n\nactive xingqiu;\n\nxingqiu skill, attack, burst, attack;\nbennett
-  skill, burst;\n\n#do not normal attack with bennett, you're trying to force off
-  hydro and apply pyro with his burst to vvpyro\n\nsucrose attack, skill, attack;\n\n#you
-  don't want to burst first rotation with sucrose because you want to put her e charges
-  on cd\n\nhutao skill, attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
-  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
-  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge;\n\n# n1cj 6n2cj
-  n2c - should be quite reasonable    \n    \nbennett skill;\nsucrose attack:2, skill,
-  attack, charge;\nbennett skill, attack;\n\n#================== second half of rotation
-  =======================\n\nxingqiu skill, attack, burst, attack;\nbennett skill,
-  burst;\nsucrose attack, burst, attack;\n\n#burst second rotation with sucrose in
-  the same place you used the skill, this is important\n\nhutao skill, attack:1, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
-  jump,\n    attack:2, charge;\nbennett skill;\nsucrose attack:2, skill, attack, charge;\nbennett
-  skill, attack;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  a valid cost for...\n\nactive xingqiu;\n\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
+  burst, skill;\n\nsucrose attack, skill, attack;\n\nhutao skill, attack:1, charge,
+  jump,\n             attack:2, charge, jump,\n             attack:2, charge, jump,\n
+  \            attack:2, charge, jump,\n             attack:2, charge, jump,\n             attack:2,
+  charge, jump,\n             attack:2, charge, jump,\n             attack:1, charge,
+  jump,\n             attack;\n\nbennett skill, attack:2;\n\nsucrose attack:2, skill;\n\nbennett
+  attack:2, skill;\n\n#-------------\n#in this rotation, sucrose will burst instead
+  of using her skill. this is to conserve skill charges.\n\nxingqiu burst, attack,
+  skill, attack:2;\n\nbennett burst, skill;\n\nsucrose attack, burst, attack;\n\nhutao
+  skill, attack:1, charge, jump,\n             attack:2, charge, jump,\n             attack:2,
+  charge, jump,\n             attack:2, charge, jump,\n             attack:2, charge,
+  jump,\n             attack:2, charge, jump,\n             attack:2, charge, jump,\n
+  \            attack:1, charge, jump,\n             attack;\n\nbennett skill, attack:2;\n\nsucrose
+  attack:2, skill;\n\nbennett attack:2, skill;\n\n#----------------\n\n\nxingqiu burst,
+  attack, skill, attack:2;\n\nbennett burst, skill;\n\nsucrose attack, skill, attack;\n\nhutao
+  skill, attack:1, charge, jump,\n             attack:2, charge, jump,\n             attack:2,
+  charge, jump,\n             attack:2, charge, jump,\n             attack:2, charge,
+  jump,\n             attack:2, charge, jump,\n             attack:2, charge, jump,\n
+  \            attack:1, charge, jump,\n             attack;\n\nbennett skill, attack:2;\n\nsucrose
+  attack:2, skill;\n\nbennett attack:2, skill;\n\n#-------------------\n\nxingqiu
+  burst, attack, skill, attack:2;\n\nbennett burst, skill;\n\nsucrose attack, skill,
+  attack;\n\nhutao skill, attack:1, charge, jump,\n             attack:2, charge,
+  jump,\n             attack:2, charge, jump,\n             attack:2, charge, jump,\n
+  \            attack:2, charge, jump,\n             attack:2, charge, jump,\n             attack:2,
+  charge, jump,\n             attack:1, charge, jump,\n             attack;\n\nbennett
+  skill, attack:2;\n\nsucrose attack:2, skill;\n\nbennett attack:2, skill;   \n\n#----------------
+  \     \n\nxingqiu burst, attack, skill, attack:2;\n\nbennett burst, skill;\n\nsucrose
+  attack, burst, attack;\n\nhutao skill, attack:1, charge, jump,\n             attack:2,
+  charge, jump,\n             attack:2, charge, jump,\n             attack:2, charge,
+  jump,\n             attack:2, charge, jump,\n             attack:2, charge, jump,\n
+  \            attack:2, charge, jump,\n             attack:1, charge, jump,\n             attack;\n\nbennett
+  skill, attack:2;\n\nsucrose attack:2, skill;\n\nbennett attack:2, skill;    \n"
 description: Bennett-Tao with Sucrose.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -47,7 +74,7 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.6282
+  er: 0.9588000000000001
   talents:
     attack: 9
     skill: 9
@@ -63,9 +90,9 @@ team:
     burst: 9
 - name: sucrose
   con: 6
-  weapon: favoniuscodex
-  refine: 3
-  er: 0.6612
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -79,8 +106,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46778.22696269624
+dps: 58778.66252065564
 mode: sl
-duration: 121.9999999999999
+duration: 105.00000000000071
 target_count: 1
 viewer_key: 8ZqBYN9FmddX02W-69Qfm

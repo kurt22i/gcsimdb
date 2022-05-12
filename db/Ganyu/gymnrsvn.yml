@@ -1,5 +1,5 @@
 author: Water#4568, ShadowDawn#5332 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=132 workers=30 mode=sl;\nenergy
+config: "options swap_delay=12 debug=true iteration=1000 duration=129 workers=30 mode=sl;\nenergy
   every interval=480,720 amount=1;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
   geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
   \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
@@ -19,7 +19,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=132 workers=30
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0993
   cd=0.4634;\n\nactive ganyu;\nganyu burst[radius=2],skill;\nventi skill,burst;\nrosaria
   skill,burst;\nganyu aim[weakspot=1];\nmona skill,attack, burst;\nventi skill, attack;\nrosaria
-  skill;\n\nrestart;\n\n\n\n\n"
+  skill;\n\nrestart;\n\n\n\n\n\n\n"
 description: CN Morgana. 2 CAs with Ganyu might not always be possible. Scales well
   in multitarget.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
@@ -60,8 +60,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38951.35409119771
+dps: 39081.43876956006
 mode: sl
-duration: 132.00000000000222
+duration: 129.00000000000193
 target_count: 1
 viewer_key: fqeuNOMX7GqHfPeXBQn6S

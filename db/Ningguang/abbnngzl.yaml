@@ -1,4 +1,4 @@
-author: ""
+author: Obby#8518
 config: "options swap_delay=12 debug=true iteration=1000 duration=91 workers=30 mode=sl;\n\nningguang
   char lvl=90/90 cons=6 talent=9,9,9;\nningguang add weapon=\"thewidsith\" refine=3
   lvl=90/90;\nningguang add set=\"archaicpetra\" count=2;\nningguang add set=\"gladiatorsfinale\"
@@ -9,18 +9,19 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=91 workers=30 
   count=4 +params=[stacks=4];\nalbedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466
   cr=0.311 ; #main\nalbedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
   atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0
-  talent=9,9,9; \nzhongli add weapon=\"deathmatch\" refine=1 lvl=90/90;\nzhongli add
-  set=\"archaicpetra\" count=2;\nzhongli add set=\"gladiatorsfinale\" count=2;\nzhongli
-  add stats hp=4780 atk=311 atk%=0.466 cd=0.661 geo%=0.466 ; #main\nzhongli add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.3972 cd=0.662;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
-  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=4;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612
-  em=39.64 cr=0.2317 cd=0.4634;\n\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
-  amount=1;\n\nactive zhongli;\n\nalbedo skill,attack:2;\nzhongli skill[hold=1];\nbennett
-  burst,skill,attack:3,skill;\nningguang skill,attack:2,charge,attack:2,charge,attack:2,charge,burst,skill,charge;\nzhongli
-  burst;\n\nrestart;\n"
+  talent=9,9,9; \nzhongli add weapon=\"deathmatch\" refine=1 lvl=90/90;\n#zhongli
+  add set=\"archaicpetra\" count=2;\n#zhongli add set=\"gladiatorsfinale\" count=2;\nzhongli
+  add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats hp=4780 atk=311 atk%=0.466
+  cd=0.622 geo%=0.466 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9; \nbennett add weapon=\"festeringdesire\" refine=5 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.1986 cd=0.7944;\n\n\ntarget lvl=100
+  resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive zhongli;\n\nalbedo
+  skill,attack:2;\nzhongli skill[hold=1];\nbennett burst,skill,attack:3,skill;\nningguang
+  skill,attack:2,charge,attack:2,charge,attack:2,charge,burst,skill,charge;\nzhongli
+  burst;\n\nrestart;\n\n\n\n"
 description: Ningguang Carry. Strong Geo team featuring Burstli.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -35,9 +36,9 @@ team:
     burst: 9
 - name: bennett
   con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 1.1792
+  weapon: festeringdesire
+  refine: 5
+  er: 0.9588000000000001
   talents:
     attack: 9
     skill: 9
@@ -60,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44519.59509293237
+dps: 45515.90237455173
 mode: sl
 duration: 90.99999999999874
 target_count: 1

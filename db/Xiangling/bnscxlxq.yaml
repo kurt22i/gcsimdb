@@ -1,47 +1,28 @@
-author: Arfoire#9219, danii#8748 and Lettuce Hunt#5806
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n#Character
-  Builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
+author: Arfoire#9219, danii#8748, Lettuce Hunt#5806 and Charliex3000#9403
+config: "options swap_delay=12 debug=true iteration=1000 duration=113 workers=30 mode=sl;\n\n\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\nbennett add stats
+  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9; \nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
-  stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.3972 cd=0.5296;\n\nxiangling
-  char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
-  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
-  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
-  cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=5;\nxingqiu add
-  stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
-  cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add
-  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=79.28 cr=0.331 cd=0.7944;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\n\nactive bennett;\n\nbennett burst, skill;\nsucrose
-  skill;\nxiangling burst, skill;\nxingqiu burst, attack, skill, attack:2;\nbennett
-  attack, skill, attack:2;\nxiangling attack;\nxingqiu attack:2, jump, attack;\nsucrose
-  attack:4;\nbennett attack:2, skill, attack;\nxiangling attack:2;\nxingqiu attack:2,
-  jump, attack;\nbennett attack:2, jump, attack;\n\n#---- rainswords \n\nbennett burst,
-  attack, skill;\nsucrose attack, skill;\nxiangling burst, skill;\nxingqiu burst,
-  attack, skill, attack:2;\nbennett attack, skill, attack:2;\nxiangling attack;\nxingqiu
-  attack:2, jump, attack;\nsucrose attack:4;\nbennett attack:2, skill, attack;\nxiangling
-  attack:2;\nxingqiu attack:2, jump, attack;\nbennett attack:2, jump, attack;\n\n#-----continuations\n\nbennett
-  burst, attack, skill;\nsucrose attack, skill;\nxiangling burst, skill;\nxingqiu
-  burst, attack, skill, attack:2;\nbennett attack, skill, attack:2;\nxiangling attack;\nxingqiu
-  attack:2, jump, attack;\nsucrose attack:4;\nbennett attack:2, skill, attack;\nxiangling
-  attack:2;\nxingqiu attack:2, jump, attack;\nbennett attack:2, jump, attack;\n\nbennett
-  burst, attack, skill;\nsucrose attack, skill;\nxiangling burst, skill;\nxingqiu
-  burst, attack, skill, attack:2;\nbennett attack, skill, attack:2;\nxiangling attack;\nxingqiu
-  attack:2, jump, attack;\nsucrose attack:4;\nbennett attack:2, skill, attack;\nxiangling
-  attack:2;\nxingqiu attack:2, jump, attack;\nbennett attack:2, jump, attack;\n\n\nbennett
-  burst, attack, skill;\nsucrose attack, skill;\nxiangling burst, skill;\nxingqiu
-  burst, attack, skill, attack:2;\nbennett attack, skill, attack:2;\nxiangling attack;\nxingqiu
-  attack:2, jump, attack;\nsucrose attack:4;\nbennett attack:2, skill, attack;\nxiangling
-  attack:2;\nxingqiu attack:2, jump, attack;\nbennett attack:2, jump, attack;\n\nbennett
-  burst, attack, skill;\nsucrose attack, skill;\nxiangling burst, skill;\nxingqiu
-  burst, attack, skill, attack:2;\nbennett attack, skill, attack:2;\nxiangling attack;\nxingqiu
-  attack:2, jump, attack;\nsucrose attack:4;\nbennett attack:2, skill, attack;\nxiangling
-  attack:2;\nxingqiu attack:2, jump, attack;\nbennett attack:2, jump, attack;\n\n\n"
+  stats hp=4780 atk=311 em=187 em=187 em=187; #main\nsucrose add stats hp%=0.0992
+  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=118.92 cr=0.2979 cd=0.7282
+  er=0.1102 ; #subs\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add
+  weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ;
+  #main\nxiangling add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124
+  def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nxingqiu char lvl=90/90
+  cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  hydro%=0.466 cr=0.311; #main\nxingqiu add stats hp%=0.0992 hp=507.88 atk%=0.0992
+  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.2204 ; #subs\n\n##Default
+  Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
+  List\n\nactive xiangling;\nxiangling skill;\nxingqiu skill,burst,attack;\nbennett
+  burst,attack,skill;\nsucrose attack, skill;\nxiangling attack, burst, attack;\nbennett
+  skill,attack;\nxingqiu attack:3;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
+  attack:3, skill;\nxingqiu attack:3;\nbennett skill, attack;\nxiangling attack:3;\nbennett
+  attack:4, skill, attack;\n\nrestart;\n\n\n\n\n\n\n"
 description: Sucrose National. A very strong 4* only team.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -49,7 +30,7 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.6282
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -67,7 +48,7 @@ team:
   con: 6
   weapon: thecatch
   refine: 5
-  er: 0.6282
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -81,8 +62,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51597.0215134582
+dps: 55181.91430594297
 mode: sl
-duration: 105.00000000000071
+duration: 112.9999999999996
 target_count: 1
 viewer_key: u7sxT7dKSK6ym6dSddpVA

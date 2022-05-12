@@ -1,31 +1,33 @@
 author: Kurt#5846 and Lizz71#8986
-config: "options swap_delay=12 debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\nyaemiko
-  char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"thewidsith\" refine=3
-  lvl=90/90;\nyaemiko add set=\"gladiatorsfinale\" count=2;\nyaemiko add set=\"thunderingfury\"
-  count=2;\nyaemiko add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;\nyaemiko
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.33 cd=0.7944;\n# 2 atk%, 8 cr, 10 cd\n\nfischl char lvl=90/90 cons=6
-  talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
-  add set=\"gladiatorsfinale\" count=2;\nfischl add set=\"thunderingfury\" count=2;\nfischl
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;\nfischl add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.33 cd=0.7944;\n# 2 atk%, 8 cr, 10 cd\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;
-  \nkazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
-  count=5;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.330
-  cd=0.274;\n# 6 er, 8 crit, 4 em, 2 cd\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;
-  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=4;\nbennett add set=\"emblemofseveredfate\" count=1;\nbennett add stats hp=4780
-  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.551 em=237.84 cr=0.0662 cd=0.1352;\n#
-  8 er, 10 em, 2 atk\n\n## Enemy Setting\ntarget lvl=100 resist=0.1;\n\n## HP Particles\nenergy
-  every interval=480,720 amount=1;\n\nactive yae;\nyae skill:3;\nkazuha burst;\nbennett
-  burst,skill;\nkazuha skill,high_plunge;\nyae burst,skill:3;\n#snapshot fischl\nfischl
-  attack,burst,attack;\nkazuha skill,high_plunge;\nkazuha attack,charge;\nbennett
-  skill, attack:3;\n\n#filler\nkazuha attack,charge;\n\n#repeat without burst;\nkazuha
-  burst; #shred electro since yae and fish is still active\nbennett skill,burst;\nkazuha
-  skill,high_plunge;\nyae skill:3;\nfischl attack,skill,attack;\nkazuha skill,high_plunge;\nkazuha
-  attack,charge;\nbennett skill, attack:3;\n\nrestart;\n"
+config: "\toptions swap_delay=12 debug=true iteration=1000 duration=92 workers=30
+  mode=sl;\n\n\tyaemiko char lvl=90/90 cons=0 talent=9,9,9; \n\tyaemiko add weapon=\"thewidsith\"
+  refine=3 lvl=90/90;\n\tyaemiko add set=\"gladiatorsfinale\" count=2;\n\tyaemiko
+  add set=\"thunderingfury\" count=2;\n\tyaemiko add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cr=0.311;\n\tyaemiko add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.33 cd=0.7944;\n\t# 2 atk%, 8 cr, 10
+  cd\n\n\tfischl char lvl=90/90 cons=6 talent=9,9,9; \n\tfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\n\tfischl add set=\"gladiatorsfinale\" count=2;\n\tfischl add
+  set=\"thunderingfury\" count=2;\n\tfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466
+  cr=0.311;\n\tfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.1984 er=0.1102 em=39.64 cr=0.33 cd=0.7944;\n\t# 2 atk%, 8 cr, 10 cd\n\n\tkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \n\tkazuha add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\n\tkazuha add set=\"viridescentvenerer\" count=5;\n\tkazuha add stats
+  hp=4780 atk=311 em=561 ; #main\n\tkazuha add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=118.92 cr=0.331 cd=0.1324;\n\t# 8 er,
+  8 crit, 4 em\n\n\tbennett char lvl=90/90 cons=6 talent=9,9,9; \n\tbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\n\tbennett add set=\"noblesseoblige\" count=4;\n\tbennett add
+  set=\"emblemofseveredfate\" count=1;\n\tbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311 ; #main\n\tbennett add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.551 em=237.84 cr=0.0662 cd=0.1324;\n\t# 8
+  er, 10 em, 2 atk\n\n\t## Enemy Setting\n\ttarget lvl=100 resist=0.1;\n\n\t## HP
+  Particles\n\tenergy every interval=480,720 amount=1;\n\n\tactive yae;\n\tyae skill:3;\n\t\n\tkazuha
+  burst;\n\tbennett skill,burst;\n\tkazuha skill,high_plunge;\n\tyae burst,skill:3;\n\t#snapshot
+  fischl\n\tfischl attack,burst;\n\t\n\tkazuha skill,high_plunge;\n\tkazuha attack,charge;\n\t\n\tbennett
+  skill;\n\n\t#filler\n\tkazuha attack:3,charge;\n\n\t#repeat without burst;\n\tkazuha
+  burst; #shred electro since yae and fish is still active\n\tbennett skill,burst;\n\tkazuha
+  skill,high_plunge;\n\tyae skill,attack,skill,attack; #only 2E for cd sync\n\tfischl
+  attack,skill;\n\t\n\tkazuha attack,charge;\n\tkazuha skill,high_plunge;\n\t\n\tbennett
+  skill;\n\n\trestart;\n\n\n"
 description: Bennett/Fischl/Kazuha/Yae.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
@@ -51,7 +53,7 @@ team:
   con: 0
   weapon: favoniussword
   refine: 3
-  er: 0.4408
+  er: 0.551
   talents:
     attack: 9
     skill: 9
@@ -65,8 +67,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42149.09880361567
+dps: 51581.4002398408
 mode: sl
-duration: 99.0000000000003
+duration: 91.999999999999
 target_count: 1
 viewer_key: _hiWWmNTf3WYbxlEoaTo2

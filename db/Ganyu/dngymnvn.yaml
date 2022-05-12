@@ -1,33 +1,36 @@
-author: Charliex3000#9403
-config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\ndiona
-  char lvl=90/90 cons=0 talent=9,9,9; \ndiona add weapon=\"favoniuswarbow\" refine=5
-  lvl=90/90;\ndiona add set=\"noblesseoblige\" count=5;\ndiona add stats hp=4780 atk=311
-  hp%=0.932 cr=0.311 ; #main\ndiona add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08
-  def%=0.124 def=39.36 em=39.64 cr=0.1324 cd=0.7944 er=0.551 ; #subs\n\nmona char
-  lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add
-  stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats hp%=0.0992
-  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.3972
-  er=0.551 ; #subs\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"favoniuswarbow\"
-  refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats
-  hp=4780 atk=311 em=561 ; #main\nventi add stats hp%=0.0992 hp=507.88 atk%=0.0992
-  atk=33.08 def%=0.124 def=39.36 em=118.92 cr=0.3972 cd=0.1324 er=0.4408 ; #subs\n\nganyu
-  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5
-  lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=5;\nganyu add stats hp=4780
-  atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu add stats hp%=0.0992 hp=507.88
-  atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102
-  ; #subs\n\n\ntarget lvl=100 resist=0.1;\n\n\nenergy every interval=480,720 amount=1;\n\nactive
-  ganyu;\n\n#-------------------------------------------\n\ndiona burst, skill[hold=1];\n\nganyu
-  aim[weakspot=1];\n\nventi skill,burst;\n\nmona burst,skill;\n\nganyu skill,burst[radius=2];\n\nganyu
-  aim[weakspot=1], aim;\n\nventi skill,attack;\n\nganyu aim, skill, aim;\n\nrestart;\n"
+author: Charliex3000#9403 and Rare Possum#0511
+config: "options debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\ndiona
+  char lvl=90/90 cons=0 talent=9,9,9; \ndiona add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\ndiona add set=\"tenacityofthemillelith\" count=5;\ndiona add stats hp=4780
+  atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\ndiona add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nmona
+  char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"favoniuscodex\" refine=3
+  lvl=90/90;\nmona add set=\"noblesseoblige\" count=5;\nmona add stats hp=4780 atk=311
+  er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.331 cd=0.1324 ;\n\nventi
+  char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats hp=4780
+  atk=311 em=374 cr=0.311; #main\nventi add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.248 er=0.2755 em=158.56 cr=0.331 cd=0.1324 ;\n\nganyu char lvl=90/90
+  cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu
+  add set=\"blizzardstrayer\" count=5;\nganyu add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\nactive diona;\n#-------------------------------------------\n\ndiona
+  burst, skill[hold=1];\nganyu skill, burst[radius=2];\nventi skill, burst;\nmona
+  burst, attack:2, skill;\nganyu aim[weakspot=1], aim,attack;\nventi skill,attack;\nganyu
+  aim[weakspot=1],attack;\nwait 1;\ndiona attack;\nwait 16;\ndiona skill[hold=1];\nganyu
+  skill, burst[radius=2];\nventi skill, burst;\nmona burst, attack, skill;\nganyu
+  aim[weakspot=1], aim, attack;\nventi skill,attack;\nganyu aim[weakspot=1], attack;\nwait
+  3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: The traditional Morgana team.
 hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: diona
   con: 0
   weapon: favoniuswarbow
-  refine: 5
-  er: 0.551
+  refine: 3
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -43,8 +46,8 @@ team:
     burst: 9
 - name: mona
   con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
+  weapon: favoniuscodex
+  refine: 3
   er: 1.069
   talents:
     attack: 9
@@ -54,13 +57,13 @@ team:
   con: 0
   weapon: favoniuswarbow
   refine: 3
-  er: 0.4408
+  er: 0.2755
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 24795.23233146418
+dps: 37120.99296959169
 mode: sl
-duration: 105.99999999999856
+duration: 99.0000000000003
 target_count: 1
 viewer_key: 8OOIkLjj4d0P4cFRwRQk6
