@@ -3,41 +3,46 @@ config: "raiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"favoniu
   refine=3 lvl=90/90;\nraiden add set=\"tenacityofthemillelith\" count=4;\nraiden
   add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nraiden add stats
   def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
-  count=4;\nbennett add stats def%=0.1240 def=39.36 hp=4079 hp%=0.09920 atk=265.1
-  atk%=0.09920 er=0.6282 em=237.8 cr=0.3644 cd=0.1324 pyro%=0.3480;\n\nxiangling char
-  lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
-  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 em=187
-  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def=39.36 def%=0.124 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
-  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5
-  lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats
-  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.2204 em=39.64 cr=0.2648
-  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\noptions
-  swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\n##Default
+  cr=0.331 cd=0.7944 ;\t\n\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.2204
+  em=39.64 cr=0.2648 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"instructor\" count=4;\nbennett add stats def%=0.1240 def=39.36 hp=4079
+  hp%=0.09920 atk=265.1 atk%=0.09920 er=0.6282 em=237.8 cr=0.3644 cd=0.1324 pyro%=0.3480;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
+  hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\noptions
+  swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\n##Default
   Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
   List\n\nactive raiden;\n\nraiden skill;\n\n#---\nxingqiu burst[orbital=1], attack;\nbennett
   burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu attack,
-  skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n       attack:5,
-  dash, attack:5, dash, attack:4, dash,\n       attack, skill;\nbennett skill, attack:2;\nxingqiu
+  skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n       attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:3,\n       #in game this is 3n4d, n3c.
+  very very very easy combo.\n       attack, skill;\nbennett skill, attack:2;\nxingqiu
   attack;\n\n\n\n#---\n\nxingqiu burst[orbital=1], attack;\nbennett burst, attack,
   skill;\nxiangling attack, burst, attack, skill;\nxingqiu attack, skill[orbital=1],
-  attack:2;\nbennett attack, skill;\nraiden attack, burst,\n       attack:5, dash,
-  attack:5, dash, attack:4, dash,\n       attack, skill;\nbennett skill, attack:2;\nxingqiu
+  attack:2;\nbennett attack, skill;\nraiden attack, burst,\n       attack:4, dash,
+  attack:4, dash, attack:4, dash, attack:3,\n       #in game this is 3n4d, n3c. very
+  very very easy combo.\n       attack, skill;\nbennett skill, attack:2;\nxingqiu
   attack;\n\n\n#---\n\nxingqiu burst[orbital=1], attack;\nbennett burst, attack, skill;\nxiangling
   attack, burst, attack, skill;\nxingqiu attack, skill[orbital=1], attack:2;\nbennett
-  attack, skill;\nraiden attack, burst,\n       attack:5, dash, attack:5, dash, attack:4,
-  dash,\n       attack, skill;\nbennett skill, attack:2;\nxingqiu attack;\n\n\n#---\n\nxingqiu
+  attack, skill;\nraiden attack, burst,\n       attack:4, dash, attack:4, dash, attack:4,
+  dash, attack:3,\n       #in game this is 3n4d, n3c. very very very easy combo.\n
+  \      attack, skill;\nbennett skill, attack:2;\nxingqiu attack;\n\n#---\n\nxingqiu
   burst[orbital=1], attack;\nbennett burst, attack, skill;\nxiangling attack, burst,
   attack, skill;\nxingqiu attack, skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden
-  attack, burst,\n       attack:5, dash, attack:5, dash, attack:4, dash,\n       attack,
-  skill;\nbennett skill, attack:2;\nxingqiu attack;\n\n\n#---\n\nxingqiu burst[orbital=1],
-  attack;\nbennett burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu
-  attack, skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n
-  \      attack:5, dash, attack:5, dash, attack:4, dash,\n       attack, skill;\nbennett
-  skill, attack:2;\nxingqiu attack;\n\n\n"
+  attack, burst,\n       attack:4, dash, attack:4, dash, attack:4, dash, attack:3,\n
+  \      #in game this is 3n4d, n3c. very very very easy combo.\n       attack, skill;\nbennett
+  skill, attack:2;\nxingqiu attack;\n\n#---\n\nxingqiu burst[orbital=1], attack;\nbennett
+  burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu attack,
+  skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n       attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:3,\n       #in game this is 3n4d, n3c.
+  very very very easy combo.\n       attack, skill;\nbennett skill, attack:2;\nxingqiu
+  attack;\n"
 description: Xiangling Overvape with optimal supports. Optimized rotation.
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
@@ -77,8 +82,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 66343.36477265503
+dps: 67279.54526246799
 mode: sl
-duration: 106.99999999999939
+duration: 105.99999999999856
 target_count: 1
 viewer_key: te_IALQ1HZ_dJmkAeiIcf
