@@ -33,7 +33,7 @@ config: |+
   yae skill:3;
   raiden skill;
   bennett skill,burst;
-  fischl burst;
+  fischl attack, burst;
   yae attack,burst,skill:3,attack;
   raidenshogun burst, attack:5, dash, attack:5, dash, attack:4,charge; #you can do 3xN3C N1C if fischl is non c6
   bennett skill;
@@ -41,12 +41,13 @@ config: |+
   yae skill:3;
   raiden skill;
   bennett skill,burst;
-  fischl skill,attack;
+  fischl attack, skill;
   yae attack,burst,skill:3,attack;
   raidenshogun burst, attack:5, dash, attack:5, dash, attack:4,charge; #you can do 3xN3C N1C if fischl is non c6
   bennett skill;
 
   restart;
+
 
 
 
@@ -92,7 +93,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36323.10335551128
+dps: 37453.707628464996
 mode: sl
 duration: 109.99999999999949
 target_count: 1

@@ -12,34 +12,32 @@ config: "raiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"favoniu
   pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def=39.36 def%=0.124 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
   char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5
-  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
-  atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def=39.36 def%=0.124
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317 cd=0.7282
-  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\noptions
-  swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\n##Default
+  lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats
+  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.2204 em=39.64 cr=0.2648
+  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\noptions
+  swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\n##Default
   Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
-  List\n\nactive raiden;\n\nraiden skill;\n\n#------------------------------------------------------\n\nxingqiu
-  burst[orbital=1], attack, skill[orbital=1], attack:2;\n\nbennett attack, burst,
-  attack, skill, attack;\n\nxiangling burst, attack, skill;\n\nraiden attack, burst,
-  attack:5, dash, attack:5, dash, attack:4, dash, attack, skill, attack;\n\nbennett
-  skill, attack:2;\n\nxiangling attack:3;\n\n\n#line xingqiu burst cast to 21 seconds
-  after the first one\n\n#-------\n\n#------------------------------------------------------\n\nxingqiu
-  burst[orbital=1], attack, skill[orbital=1], attack:2;\n\nbennett attack, burst,
-  attack, skill, attack;\n\nxiangling burst, attack, skill;\n\nraiden attack, burst,
-  attack:5, dash, attack:5, dash, attack:4, dash, attack, skill, attack;\n\nbennett
-  skill, attack:2;\n\nxiangling attack:3;\n\n\n\n#------------------------------------------------------\n\nxingqiu
-  burst[orbital=1], attack, skill[orbital=1], attack:2;\n\nbennett attack, burst,
-  attack, skill, attack;\n\nxiangling burst, attack, skill;\n\nraiden attack, burst,
-  attack:5, dash, attack:5, dash, attack:4, dash, attack, skill, attack;\n\nbennett
-  skill, attack:2;\n\nxiangling attack:3;\n\n\n\n#------------------------------------------------------\n\nxingqiu
-  burst[orbital=1], attack, skill[orbital=1], attack:2;\n\nbennett attack, burst,
-  attack, skill, attack;\n\nxiangling burst, attack, skill;\n\nraiden attack, burst,
-  attack:5, dash, attack:5, dash, attack:4, dash, attack, skill, attack;\n\nbennett
-  skill, attack:2;\n\nxiangling attack:3;\n\n#------------------------------------------------------\n\nxingqiu
-  burst[orbital=1], attack, skill[orbital=1], attack:2;\n\nbennett attack, burst,
-  attack, skill, attack;\n\nxiangling burst, attack, skill;\n\nraiden attack, burst,
-  attack:5, dash, attack:5, dash, attack:4, dash, attack, skill, attack;\n\nbennett
-  skill, attack:2;\n\nxiangling attack:3;\n\n\n\n"
+  List\n\nactive raiden;\n\nraiden skill;\n\n#---\nxingqiu burst[orbital=1], attack;\nbennett
+  burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu attack,
+  skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n       attack:5,
+  dash, attack:5, dash, attack:4, dash,\n       attack, skill;\nbennett skill, attack:2;\nxingqiu
+  attack;\n\n\n\n#---\n\nxingqiu burst[orbital=1], attack;\nbennett burst, attack,
+  skill;\nxiangling attack, burst, attack, skill;\nxingqiu attack, skill[orbital=1],
+  attack:2;\nbennett attack, skill;\nraiden attack, burst,\n       attack:5, dash,
+  attack:5, dash, attack:4, dash,\n       attack, skill;\nbennett skill, attack:2;\nxingqiu
+  attack;\n\n\n#---\n\nxingqiu burst[orbital=1], attack;\nbennett burst, attack, skill;\nxiangling
+  attack, burst, attack, skill;\nxingqiu attack, skill[orbital=1], attack:2;\nbennett
+  attack, skill;\nraiden attack, burst,\n       attack:5, dash, attack:5, dash, attack:4,
+  dash,\n       attack, skill;\nbennett skill, attack:2;\nxingqiu attack;\n\n\n#---\n\nxingqiu
+  burst[orbital=1], attack;\nbennett burst, attack, skill;\nxiangling attack, burst,
+  attack, skill;\nxingqiu attack, skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden
+  attack, burst,\n       attack:5, dash, attack:5, dash, attack:4, dash,\n       attack,
+  skill;\nbennett skill, attack:2;\nxingqiu attack;\n\n\n#---\n\nxingqiu burst[orbital=1],
+  attack;\nbennett burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu
+  attack, skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n
+  \      attack:5, dash, attack:5, dash, attack:4, dash,\n       attack, skill;\nbennett
+  skill, attack:2;\nxingqiu attack;\n\n\n"
 description: Xiangling Overvape with optimal supports. Optimized rotation.
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
@@ -74,13 +72,13 @@ team:
   con: 6
   weapon: harbingerofdawn
   refine: 5
-  er: 0.4408
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 63325.44196871741
+dps: 66343.36477265503
 mode: sl
-duration: 105.99999999999856
+duration: 106.99999999999939
 target_count: 1
 viewer_key: te_IALQ1HZ_dJmkAeiIcf

@@ -17,12 +17,12 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64
   cr=0.2648 cd=0.5296;\n\nactive xingqiu;\ntarget lvl=100 resist=0.1;\nenergy every
-  interval=480,720 amount=1;\n\nxingqiu skill, burst, attack;\nalbedo skill, attack,
-  burst, attack;\nyunjin skill, attack, burst, attack;\nhutao skill,\n#ideally use
-  8n2cj in practice, and 7n2cj + burst every other rotation\n    attack:2, charge,
-  dash,\n\tattack:2, charge, dash,\n\tattack:2, charge, jump,\n\tattack:2, charge,
-  jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge,
-  jump,\n\tattack:1, charge;\nyunjin attack, skill, attack:2;\nxingqiu attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  interval=480,720 amount=1;\n\nxingqiu burst[orbital=1], attack:1, skill[orbital=1],
+  attack:2;\nalbedo skill, attack, burst, attack;\nyunjin skill, attack, burst, attack;\nhutao\n\tskill,
+  attack:2, charge, dash,\n\tattack:2, charge, dash,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:1, charge\n\t;\nyunjin attack, skill, attack:1;\nxingqiu
+  attack:2, dash, attack:2;\n\nrestart;\n\n"
 description: Hu Tao Double Geo except you're missing Zhongli...
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47685.22054541356
+dps: 48352.045312075796
 mode: sl
 duration: 105.00000000000071
 target_count: 1
