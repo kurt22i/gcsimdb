@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 workers=30 mode=sl\n\n#
   skill, high_plunge, attack:1;\nshenhe skill;\nayaka dash, attack:2, charge, dash,
   attack:1, charge, dash, attack:1, charge;\n\nrestart;\n\n\n\n\n"
 description: Mono-Cryo Ayaka with Anemo and heals.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayaka
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57143.373473819425
+dps: 57162.289041058524
 mode: sl
 duration: 253.9999999999964
 target_count: 1

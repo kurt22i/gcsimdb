@@ -88,7 +88,7 @@ config: |+
 
 
 description: ""
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: albedo
   con: 0
@@ -126,7 +126,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38842.58485869615
+dps: 38843.944089624936
 mode: sl
 duration: 125
 target_count: 1

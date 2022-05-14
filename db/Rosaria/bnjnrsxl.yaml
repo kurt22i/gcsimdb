@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 mode=apl;\
   skill;\nbennett skill;\n\nbennett attack +is_onfield;\nxiangling attack +is_onfield;\njean
   attack +is_onfield;\nrosaria attack +is_onfield;\n"
 description: Sunfire Rosaria.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38873.151969845734
+dps: 38792.68689842862
 mode: apl
 duration: 99.9999999999986
 target_count: 1

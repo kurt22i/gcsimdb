@@ -45,7 +45,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   burst;\nraiden attack, burst, attack:5, dash, attack:5, dash, attack:4, skill, attack;\nbennett
   attack,skill;\nxiangling attack:5;\nfischl attack:3;\nwait 13;\nrestart;\n\n\n"
 description: ""
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 6
@@ -83,7 +83,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47690.22937095766
+dps: 47718.51889636312
 mode: sl
 duration: 102.99999999999858
 target_count: 1

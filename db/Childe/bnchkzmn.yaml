@@ -1,0 +1,68 @@
+author: RoyM#2340
+config: "options debug=true iteration=1000 duration=112 mode=sl;\n\n#Character builds:\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232
+  er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.3968 er=0.3306 em=39.64 cr=0.0993 cd=0.1986;\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
+  atk=311 em=187 em=187 em=187;\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.2976 er=0.2204 em=118.92 cr=0.3972 cd=0.1324;\n\ntartaglia char
+  lvl=90/90 cons=0 talent=9,9,9;\ntartaglia add weapon=\"theviridescenthunt\" refine=1
+  lvl=90/90;\ntartaglia add set=\"heartofdepth\" count=4;\ntartaglia add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cd=0.622 ; #main\ntartaglia add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
+  cd=0.662;\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\nmona add set=\"noblesseoblige\" count=5;\nmona add stats hp=4780
+  atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;\n\n#Enemies
+  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
+  List:\nactive tartaglia;\ntartaglia skill;\nbennett burst;\nkazuha burst,skill[hold=1],high_plunge,attack:2;\nmona
+  burst;\ntartaglia burst,skill,\n          attack:3,charge,dash,\n          attack:3,charge,dash,\n
+  \         attack:3,charge;\nkazuha skill,high_plunge;\nmona skill;\nkazuha attack:2;\nbennett
+  skill,attack:2;\ntartaglia aim:2;\nkazuha skill,high_plunge;\nbennett skill,attack:2;\ntartaglia
+  aim:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: Hydro Eula.
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: mona
+  con: 0
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: tartaglia
+  con: 0
+  weapon: theviridescenthunt
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 25281.688673751454
+mode: sl
+duration: 111.99999999999807
+target_count: 1
+viewer_key: sYe4uB23QVGY0JUYPGeXE

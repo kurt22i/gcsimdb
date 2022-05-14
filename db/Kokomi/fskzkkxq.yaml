@@ -47,7 +47,7 @@ config: |
 
   restart;
 description: Double-Hydro taser with Kazuha.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: fischl
   con: 6
@@ -85,7 +85,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47199.760360741275
+dps: 47243.5914859124
 mode: sl
 duration: 100.9999999999993
 target_count: 1

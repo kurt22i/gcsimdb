@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbennett attack,
   skill;\nxiangling attack:3;\nbennett attack:2, skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n\n\n"
 description: The original National Team with Chongyun.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41325.422555010984
+dps: 41284.01399066276
 mode: sl
 duration: 102.99999999999858
 target_count: 1

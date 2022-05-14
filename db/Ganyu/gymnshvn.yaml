@@ -21,7 +21,7 @@ config: "ganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu add weapon=\"prototype
   skill,burst;\nganyu skill,burst[radius=2];\nventi skill,burst;\nmona burst,skill;\nshenhe
   skill, attack;\nwait 5;\nventi skill;\nganyu skill,aim[weakspot=1]:3;\n\nrestart;\n\n\n\n\n\n\n\n"
 description: ""
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ganyu
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40412.53950254425
+dps: 40494.82722005826
 mode: sl
 duration: 109.99999999999949
 target_count: 1

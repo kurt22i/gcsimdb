@@ -21,7 +21,7 @@ config: "options debug=true iteration=1000 duration=104 mode=sl;\n\n#Character b
   burst, skill;\nkaeya burst, skill;\nayato skill, attack:15;\nkaeya skill;\nkazuha
   skill, high_plunge,attack:3;\nrosaria skill;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayato Freeze.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayato
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27924.48457498684
+dps: 27953.77241760479
 mode: sl
 duration: 103.99999999999928
 target_count: 1

@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
   burst;\nsucrose attack,skill,attack;\nayaka dash,attack,charge,\n      dash,attack,charge,\n
   \     dash,attack,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayaka with Chongyun.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayaka
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38132.20462298151
+dps: 38139.58172019714
 mode: sl
 duration: 103.99999999999928
 target_count: 1

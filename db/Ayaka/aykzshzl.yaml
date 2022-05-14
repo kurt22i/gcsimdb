@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=200 workers=30 mode=apl swap
   skill, high_plunge +if=.status.kazuha-a4-cryo==0&&.element.t1.cryo==1;\nayaka dash,
   skill;\nayaka dash, burst;\nayaka dash, attack:2, charge;\n\n\n"
 description: Mono-Cryo Ayaka with shielding.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42856.24101611276
+dps: 42861.906821546116
 mode: apl
 duration: 199.9999999999972
 target_count: 1

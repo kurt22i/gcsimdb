@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   charge, jump,\n\tattack:1, charge\n\t;\nyunjin attack, skill, attack:1;\nxingqiu
   attack:2, dash, attack:2;\n\nrestart;\n\n"
 description: Hu Tao Double Geo except you're missing Zhongli...
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48352.045312075796
+dps: 48372.24932175104
 mode: sl
 duration: 105.00000000000071
 target_count: 1

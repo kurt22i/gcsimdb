@@ -28,7 +28,7 @@ config: "options debug=true iteration=1000 duration=115 workers=30 mode=sl swap_
   jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge;\n\nyoimiya
   skill, attack:5, dash, \n        attack:5, dash, attack:5;\n        \n           \nrestart;\n\n\n\n\n"
 description: Hu Tao + Yoimiya.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: hutao
   con: 0
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49931.082240928525
+dps: 49905.353771546215
 mode: sl
 duration: 114.9999999999981
 target_count: 1

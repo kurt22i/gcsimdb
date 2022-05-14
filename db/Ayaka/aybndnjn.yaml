@@ -27,7 +27,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   skill;\n#must acquire bennett buff for this to work out\njean skill;\nayaka dash,
   attack, charge;\n#get some cryo on to melt off\nbennett skill;\n\nrestart;\n\n\n"
 description: Sunfire Ayaka. Much better with C2.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayaka
   con: 0
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41951.97643226689
+dps: 41843.56742813889
 mode: sl
 duration: 105.00000000000071
 target_count: 1

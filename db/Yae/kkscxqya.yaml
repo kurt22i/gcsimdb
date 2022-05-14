@@ -50,7 +50,7 @@ config: |+
 
 
 description: Double Hydro Yae taser.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: kokomi
   con: 0
@@ -88,7 +88,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31421.05722821284
+dps: 31425.13851599469
 mode: apl
 duration: 90.00000000000215
 target_count: 1

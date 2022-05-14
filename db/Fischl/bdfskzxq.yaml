@@ -15,21 +15,21 @@ config: "options debug=true iteration=1000 duration=101 mode=sl;\n\n#Character b
   cons=6 talent=9,9,9;\nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou
   add set=\"emblemofseveredfate\" count=5;\nbeidou add stats hp=4780 atk=311 atk%=0.466
   electro%=0.466 cd=0.622 ; #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;\t\t\t\t\n#Enemies
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\t\t\t\t\n#Enemies
   and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
   List:\nactive fischl;\nfischl skill;\nxingqiu skill,burst,attack;\nkazuha attack,skill,high_plunge,attack,burst,attack;\nbeidou
   skill[counter=2],burst,attack;\nkazuha attack:3,skill,high_plunge,attack:3;\nfischl
   burst;\nbeidou attack:3,skill;\nkazuha attack:2,skill,high_plunge,\n       attack:3,dash,\n
-  \      attack:3,dash,\n       attack:3,dash,\n       attack:2,skill,high_plunge,\n
-  \      attack:3,dash,\n       attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  \      attack:3,dash,\n       attack:3,dash,\n       attack:2,skill,high_plunge;\nbeidou
+  skill,attack;\nkazuha attack:4;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Kazuha Taser.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: beidou
   con: 6
   weapon: serpentspine
   refine: 1
-  er: 0.2204
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52372.097611253914
+dps: 52948.8432364018
 mode: sl
 duration: 100.9999999999993
 target_count: 1

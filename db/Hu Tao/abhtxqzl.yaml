@@ -28,7 +28,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30
   rainswords and favonius\nzhongli attack:3;\nxingqiu attack:2;\nzhongli attack:2;\nxingqiu
   attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hu Tao with Geobros.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: albedo
   con: 0
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52466.320694183145
+dps: 52466.08616149734
 mode: sl
 duration: 105.99999999999856
 target_count: 1

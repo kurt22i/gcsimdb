@@ -25,7 +25,7 @@ config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 e
   skill, attack;\nxiangling attack:3;\nrosaria attack, skill;\nbennett attack:2, skill;\nkamisatoayaka
   attack:2, dash, attack:2, skill, dash, attack:2, charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Reverse Melt Ayaka, except she's not melting, yet it still works.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayaka
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 65320.958360740544
+dps: 65303.80025630575
 mode: sl
 duration: 100.9999999999993
 target_count: 1

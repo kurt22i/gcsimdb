@@ -21,7 +21,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=164 workers=30
   skill, burst;\nyoimiya skill,attack:5,dash,attack:5;\nbennett skill, attack;\nkazuha
   skill, high_plunge;\nrestart;\n\n"
 description: Melt Yoimiya.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43916.69399383731
+dps: 43945.840271603076
 mode: sl
 duration: 163.99999999999818
 target_count: 1

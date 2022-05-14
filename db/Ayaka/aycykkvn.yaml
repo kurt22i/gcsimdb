@@ -43,7 +43,7 @@ config: |+
   restart;
 
 description: Ayaka with Chongyun.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: ayaka
   con: 0
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32782.77261065172
+dps: 32785.20985665682
 mode: sl
 duration: 94.9999999999991
 target_count: 1

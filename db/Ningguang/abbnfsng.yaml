@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=93 workers=30 
   burst;\nningguang skill,burst,skill,charge;\nbennett skill;\nningguang attack:2,charge;\nbennett
   skill;\nrestart;\n"
 description: Ningguang Carry with Fischl.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: albedo
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37562.24294178466
+dps: 37617.411949522466
 mode: sl
 duration: 93.0000000000023
 target_count: 1

@@ -29,7 +29,7 @@ config: "\toptions swap_delay=12 debug=true iteration=1000 duration=92 workers=3
   attack,skill;\n\t\n\tkazuha attack,charge;\n\tkazuha skill,high_plunge;\n\t\n\tbennett
   skill;\n\n\trestart;\n\n\n"
 description: Bennett/Fischl/Kazuha/Yae.
-hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
 team:
 - name: bennett
   con: 6
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51593.48638644945
+dps: 51567.56159785205
 mode: sl
 duration: 91.999999999999
 target_count: 1
