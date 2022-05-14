@@ -1,111 +1,49 @@
-author: Charliex3000#9403, cyan#3224, Rare Possum#0511, nova.#5877, Lettuce Hunt#5806
-  and Hessey#9122
-config: |+
-  options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;
-  target lvl=100 resist=.1;
-  energy every interval=480,720 amount=1;
-
-  raiden char lvl=90/90 cons=0 talent=9,9,9;
-  raiden add weapon="favoniuslance" refine=3 lvl=90/90;
-  raiden add set="tenacityofthemillelith" count=4;
-  raiden add stats hp=4780 atk=311.0 er=0.5180 cr=0.3110 electro%=0.4660;
-  raiden add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-
-  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
-  xingqiu add weapon="harbingerofdawn" refine=5 lvl=90/90;
-  xingqiu add set="emblemofseveredfate" count=4;
-  xingqiu add stats hp=4780 atk=311.0 atk%=0.4660 cr=0.3110 hydro%=0.4660;
-  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
-
-  bennett char lvl=90/90 cons=6 talent=9,9,9;
-  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
-  bennett add set="instructor" count=4;
-  bennett add stats hp=3571 atk=232.0 em=187.0 cr=0.2320 pyro%=0.3480;
-  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2648 cd=0.5296;
-
-  xiangling char lvl=90/90 cons=6 talent=9,9,9;
-  xiangling add weapon="thecatch" refine=5 lvl=90/90;
-  xiangling add set="emblemofseveredfate" count=4;
-  xiangling add stats hp=4780 atk=311.0 em=187.0 cr=0.3110 pyro%=0.4660;
-  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
-
-  active raiden;
-
-  raiden skill;
-
-  #---
-  xingqiu burst[orbital=1], attack;
-  bennett burst, attack, skill;
-  xiangling attack, burst, attack, skill;
-  xingqiu attack, skill[orbital=1], attack:2;
-  bennett attack, skill;
-  raiden attack, burst,
-         attack:4, dash, attack:4, dash, attack:4, dash, attack:3,
-         #in game this is 3n4d, n3c. very very very easy combo.
-         attack, skill;
-  bennett skill, attack:2;
-  xingqiu attack;
-
-  #---
-
-  xingqiu burst[orbital=1], attack;
-  bennett burst, attack, skill;
-  xiangling attack, burst, attack, skill;
-  xingqiu attack, skill[orbital=1], attack:2;
-  bennett attack, skill;
-  raiden attack, burst,
-         attack:4, dash, attack:4, dash, attack:4, dash, attack:3,
-         #in game this is 3n4d, n3c. very very very easy combo.
-         attack, skill;
-  bennett skill, attack:2;
-  xingqiu attack;
-
-  #---
-
-  xingqiu burst[orbital=1], attack;
-  bennett burst, attack, skill;
-  xiangling attack, burst, attack, skill;
-  xingqiu attack, skill[orbital=1], attack:2;
-  bennett attack, skill;
-  raiden attack, burst,
-         attack:4, dash, attack:4, dash, attack:4, dash, attack:3,
-         #in game this is 3n4d, n3c. very very very easy combo.
-         attack, skill;
-  bennett skill, attack:2;
-  xingqiu attack;
-
-  #---
-
-  xingqiu burst[orbital=1], attack;
-  bennett burst, attack, skill;
-  xiangling attack, burst, attack, skill;
-  xingqiu attack, skill[orbital=1], attack:2;
-  bennett attack, skill;
-  raiden attack, burst,
-         attack:4, dash, attack:4, dash, attack:4, dash, attack:3,
-         #in game this is 3n4d, n3c. very very very easy combo.
-         attack, skill;
-  bennett skill, attack:2;
-  xingqiu attack;
-
-  #---
-
-  xingqiu burst[orbital=1], attack;
-  bennett burst, attack, skill;
-  xiangling attack, burst, attack, skill;
-  xingqiu attack, skill[orbital=1], attack:2;
-  bennett attack, skill;
-  raiden attack, burst,
-         attack:4, dash, attack:4, dash, attack:4, dash, attack:3,
-         #in game this is 3n4d, n3c. very very very easy combo.
-         attack, skill;
-  bennett skill, attack:2;
-  xingqiu attack;
-
-
-
+author: Charliex3000#9403, cyan#3224, Rare Possum#0511, nova.#5877, Lettuce Hunt#5806,
+  Hessey#9122 and Kurt#5846
+config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\ntarget
+  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nraiden char lvl=90/90
+  cons=0 talent=9,9,9;\nraiden add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nraiden
+  add set=\"tenacityofthemillelith\" count=4;\nraiden add stats hp=4780 atk=311.0
+  er=0.5180 cr=0.3110 electro%=0.4660;\nraiden add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5
+  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
+  atk=311.0 atk%=0.4660 cr=0.3110 hydro%=0.4660;\nxingqiu add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944
+  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
+  count=4;\nbennett add stats hp=3571 atk=232.0 em=187.0 cr=0.2320 pyro%=0.3480;\nbennett
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=39.64 cr=0.2979 cd=0.4634 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
+  hp=4780 atk=311.0 em=187.0 cr=0.3110 pyro%=0.4660;\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
+  cd=0.7944;\n\nactive raiden;\n\nraiden skill;\n\n#---\nxingqiu burst[orbital=1],
+  attack;\nbennett burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu
+  attack, skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n
+  \      attack:4, dash, attack:4, skill, attack:4, dash, attack:3,\n       #in game
+  this is 3n4d, n3c. very very very easy combo.\n       attack;\nbennett skill, attack;\n\n\nxingqiu
+  attack:3,burst[orbital=1], attack;\nbennett burst, attack, skill;\nxiangling attack,
+  burst, attack, skill;\nxingqiu attack, skill[orbital=1], attack:2;\nbennett attack,
+  skill;\nraiden attack, burst,\n       attack:4, dash, attack:4, skill, attack:4,
+  dash, attack:3,\n       #in game this is 3n4d, n3c. very very very easy combo.\n
+  \      attack;\nbennett skill, attack:2;\n\n#---\nxingqiu attack:3,burst[orbital=1],
+  attack;\nbennett burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu
+  attack, skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n
+  \      attack:4, dash, attack:4, skill, attack:4, dash, attack:3,\n       #in game
+  this is 3n4d, n3c. very very very easy combo.\n       attack;\nbennett skill, attack:2;\n\n#---\nxingqiu
+  attack:3,burst[orbital=1], attack;\nbennett burst, attack, skill;\nxiangling attack,
+  burst, attack, skill;\nxingqiu attack, skill[orbital=1], attack:2;\nbennett attack,
+  skill;\nraiden attack, burst,\n       attack:4, dash, attack:4, skill, attack:4,
+  dash, attack:3,\n       #in game this is 3n4d, n3c. very very very easy combo.\n
+  \      attack;\nbennett skill, attack:2;\n\n#---\nxingqiu attack:3,burst[orbital=1],
+  attack;\nbennett burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu
+  attack, skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n
+  \      attack:4, dash, attack:4, skill, attack:4, dash, attack:3,\n       #in game
+  this is 3n4d, n3c. very very very easy combo.\n       attack;\nbennett skill, attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Xiangling Overvape with optimal supports. Optimized rotation.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: bennett
   con: 6
@@ -138,12 +76,12 @@ team:
   con: 6
   weapon: harbingerofdawn
   refine: 5
-  er: 0.2204
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 68297.84712901796
+dps: 70279.83862782764
 mode: sl
 duration: 105.99999999999856
 target_count: 1

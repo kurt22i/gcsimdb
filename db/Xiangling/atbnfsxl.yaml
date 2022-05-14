@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   Bennett field is basically gone now.\nxiangling attack:3, dash, attack:3;\n\nxiangling
   skill; \n\nayato skill, attack:13;\n\nwait 7;\n\nrestart;\n"
 description: Fischl overvape with Ayato.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: ayato
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52966.67462861115
+dps: 52971.690734159725
 mode: sl
 duration: 99.9999999999986
 target_count: 1

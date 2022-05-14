@@ -1,7 +1,6 @@
-author: Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\n\n\n\n\n\neula
-  char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
-  lvl=90/90 +params=[stacks=5];\neula add set=\"bloodstainedchivalry\" count=1;\neula
+author: Kurt#5846 and Johanz3#7076
+config: "eula char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=5];\neula add set=\"bloodstainedchivalry\" count=1;\neula
   add set=\"paleflame\" count=4;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
   cd=0.622 ; #main\neula add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
   atk%=0.0992 er=0.551 em=39.64 cr=0.2979 cd=0.4634;\n\nfischl char lvl=90/90 cons=6
@@ -17,15 +16,15 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=93 workers=30 
   add weapon=\"blacktassel\" refine=5 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
   count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli add stats hp=4780 atk=311
   hp%=1.398 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.1102 em=39.64 cr=0.3972 cd=0.7944;\n\nactive zhongli;\ntarget lvl=100
+  atk%=0.0992 er=0.1102 em=39.64 cr=0.3972 cd=0.7944;\n\noptions swap_delay=12 debug=true
+  iteration=1000 duration=93 workers=30 mode=sl;\n\nactive zhongli;\ntarget lvl=100
   pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy
-  every interval=480,720 amount=1;\n\nzhongli skill[hold=1];\nfischl burst;\nrosaria
-  skill;\neula skill;\nrosaria burst;\neula burst,attack:4,skill[hold=1],attack:4;\nrosaria
-  skill;\neula attack:4,skill,attack;\n\nzhongli skill[hold=1];\nfischl skill;\nrosaria
-  skill;\neula skill;\nrosaria burst;\neula burst,attack:4,skill[hold=1],attack:4;\nrosaria
-  skill;\neula attack:4,skill,attack;\nrestart;\n"
+  every interval=480,720 amount=1;\n\n\nzhongli skill[hold=1];\nfischl burst;\nrosaria
+  skill,burst;\neula skill,burst,skill[hold=1],attack:4,dash,attack:4;\nrosaria skill;\neula
+  attack:4,skill,attack;\n\nzhongli skill[hold=1];\nfischl skill;\nrosaria skill,burst;\neula
+  skill,burst,attack:4,skill[hold=1],attack:4;\nrosaria skill;\neula attack:4,skill,attack;\nrestart;\n\n\n\n"
 description: Eula.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: eula
   con: 0
@@ -63,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34511.45727164524
+dps: 36351.670049738736
 mode: sl
 duration: 93.0000000000023
 target_count: 1

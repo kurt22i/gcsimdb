@@ -21,7 +21,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 mode=sl;\n
   burst;\nxiangling skill, burst;\nayato skill, attack:15;\nbennett skill;\nxiangling
   skill;\nkaeya skill;\nayato skill, attack:15;\nrestart;\n\n"
 description: 4* Ayato Vapemelt.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: ayato
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31046.029719566177
+dps: 31024.059093124655
 mode: sl
 duration: 108.00000000000088
 target_count: 1

@@ -33,7 +33,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=94 workers=30 
   burst, skill[hold=1];\nyae burst,skill:3;\nraiden burst,  attack:3, charge, attack:3,
   charge, attack:3, charge, skill;\nyae charge, jump;\n\nrestart;\n\n\n\n\n\n\n\n\n"
 description: Two Archons, an alchemist and a fox.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: albedo
   con: 0
@@ -71,7 +71,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36577.04716700606
+dps: 36533.31709534996
 mode: sl
 duration: 93.99999999999868
 target_count: 1

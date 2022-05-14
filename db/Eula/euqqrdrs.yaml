@@ -21,7 +21,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   burst, attack:4, skill[hold=1],attack:4;\nrosaria skill;\nraiden burst,  attack:3,
   charge, attack:3, charge, attack:3, charge;\nrestart;\n\nrestart;\n\n\n\n\n\n"
 description: Eula.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: eula
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34197.67543058802
+dps: 34166.79684082243
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -41,7 +41,7 @@ config: |
 
   restart;
 description: Kaeya Freeze with Kazuha.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: chongyun
   con: 6
@@ -79,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33654.76745283355
+dps: 33665.805887766415
 mode: sl
 duration: 109.99999999999949
 target_count: 1

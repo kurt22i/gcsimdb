@@ -21,7 +21,7 @@ config: "yunjin char lvl=90/90 cons=6 talent=9,9,9;\nyunjin add weapon=\"crescen
   attack:2,skill;\nrosaria skill,burst,attack;\nyunjin skill,attack:4,dash,attack:4,dash,attack:4;\nfischl
   attack:2,burst;\nrosaria skill,attack:2;\nyunjin skill,attack:4,dash,attack:4,dash,attack:4;\n\nrestart;\n\n"
 description: Pikejin.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: fischl
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31228.725625561852
+dps: 31244.679273237944
 mode: sl
 duration: 99.9999999999986
 target_count: 1

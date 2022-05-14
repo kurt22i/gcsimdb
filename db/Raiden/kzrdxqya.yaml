@@ -45,7 +45,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=119 workers=30
   attack, skill, high_plunge;\nraiden attack, burst,attack:5,dash,attack:5, attack:4,
   skill, attack;\n\nrestart;\n\n"
 description: Kazuha/Raiden/Xingqiu/Yae.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: kazuha
   con: 0
@@ -83,7 +83,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47505.19152389392
+dps: 47549.864163904065
 mode: sl
 duration: 118.99999999999979
 target_count: 1

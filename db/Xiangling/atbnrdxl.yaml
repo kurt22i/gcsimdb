@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=113 workers=30
   charge, attack:3, charge, attack:2;\nayato skill, attack:11;\nbennett skill;\nxiangling
   attack:3;\nrestart;\n\n"
 description: Rayato.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: ayato
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43742.11393233747
+dps: 43740.69285655544
 mode: sl
 duration: 112.9999999999996
 target_count: 1

@@ -41,7 +41,7 @@ config: |
   qiqi attack:5, dash,attack:5;
   restart;
 description: Qiqi Fireworks.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: beidou
   con: 6
@@ -79,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32834.69789666889
+dps: 32851.79934639385
 mode: sl
 duration: 125
 target_count: 1

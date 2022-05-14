@@ -21,7 +21,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=111 mode=sl;\n
   skill, burst[radius=2];\nkazuha skill, high_plunge, burst;\nayaka dash, attack,charge,
   skill, attack, burst;\nayato skill, attack:13;\nkazuha skill, high_plunge;\n\nrestart;\n\n\n\n\n\n"
 description: Ayaka Freeze with Ayato.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: ayaka
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39111.649244932916
+dps: 39054.78050867369
 mode: sl
 duration: 111.00000000000108
 target_count: 1

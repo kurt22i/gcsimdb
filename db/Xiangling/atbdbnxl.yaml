@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=120 workers=30 mode=sl swap_
   attack,skill,attack:2;\nxiangling attack:2, skill;\nayato skill,attack:8;\nwait
   9;\n\nrestart;\n\n\n"
 description: Ayato Vape with Beidou.
-hash: 674225da10d27b775af77a1173e3d51d1bafcfb3
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
 - name: ayato
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39221.82305765085
+dps: 39187.87874290849
 mode: sl
 duration: 120.00000000000152
 target_count: 1
