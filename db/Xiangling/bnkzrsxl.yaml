@@ -1,0 +1,68 @@
+author: Xardas#5785
+config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
+  atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662
+  ;\t\t\t\t\t\t\t\t\t\t\t\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ;
+  #main\nxiangling add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.2204 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\nrosaria char lvl=90/90
+  cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria
+  add set=\"emblemofseveredfate\" count=4;\nrosaria add stats hp=4780 atk=311 em=187
+  cryo%=0.466 cd=0.622; #main\nrosaria add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
+  atk=311 em=559.5 ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.551 em=118.92 cr=0.331 cd=0.1324;\n\n\n\n##Default Enemy\ntarget
+  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions List\n\nactive
+  bennett;\n\nbennett burst,skill;\nrosaria skill, burst;\nkazuha burst, attack;\nxiangling
+  burst,skill;\nrosaria skill;\nkazuha skill, high_plunge, attack;\nbennett attack:3,
+  skill, attack;\nxiangling attack:3;\nbennett skill;\nrosaria skill;\nbennett skill,
+  attack;\nxiangling attack:3;\nkazuha skill, high_plunge, attack;\n\nrestart;\n\n"
+description: ""
+hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 48479.63855441812
+mode: sl
+duration: 102.99999999999858
+target_count: 1
+viewer_key: 7Wgqx-s6L-vx5lOwNNI5P

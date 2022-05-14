@@ -1,38 +1,29 @@
-author: Spring MsSteak#8744
-config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\nraidenshogun
-  char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
-  lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
-  add stats hp=4780 atk=311 er=0.518 atk%=0.466 cr=0.311 ; #main\n#raidenshogun add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nxiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao add
-  weapon=\"deathmatch\" refine=1 lvl=90/90;\nxiao add set=\"vermillionhereafter\"
-  count=4;\n#xiao add set=\"gladiatorsfinale\" count=2;\nxiao add stats hp=4780 atk=311
-  atk%=0.466 anemo%=0.466 cd=0.622;\n#xiao add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nzhongli
-  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"blacktassel\" refine=5
-  lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli add set=\"paleflame\"
-  count=1;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\n#zhongli
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo
-  add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\"
-  count=4 +params=[stacks=4];\nalbedo add set=\"paleflame\" count=1;\nalbedo add stats
-  hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\n#albedo add stats def%=0.248
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nalbedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\nraidenshogun add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\nxiao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
-  er=0.1102 em=39.64 cr=0.3972 cd=0.662;\nzhongli add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\ntarget
-  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\n#target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
-  physical=.1 cryo=.1;\n\nenergy every interval=480,720 amount=1;\nactive raiden;\n\nraiden
-  skill;\nalbedo skill;\nzhongli skill[hold=1];\nxiao skill, skill, burst,\njump,
+author: Spring MsSteak#8744 and bam#9648
+config: "options swap_delay=12 debug=true iteration=1000 duration=266 workers=30 mode=sl;\n\n\nxiao
+  char lvl=90/90 cons=0 talent=9,9,9;\nxiao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nxiao
+  add set=\"vermillionhereafter\" count=4;\nxiao add stats hp=4780 atk=311 atk%=0.466
+  anemo%=0.466 cd=0.622;\nxiao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nraiden char lvl=90/90
+  cons=0 talent=9,9,9; \nraiden add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden
+  add set=\"emblemofseveredfate\" count=4;\nraiden add stats hp=4780 atk=311 er=0.518
+  atk%=0.466 cr=0.311 ; #main\nraiden add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90
+  cons=0 talent=9,9,9; \nzhongli add weapon=\"deathmatch\" refine=1 lvl=90/90;\nzhongli
+  add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats hp=4780 atk=311 atk%=0.466
+  geo%=0.466 cd=0.622 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nalbedo char lvl=90/90
+  cons=0 talent=9,9,9; \nalbedo add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo
+  add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nalbedo add stats hp=4780
+  atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo add stats def%=0.248 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n\ntarget
+  lvl=100 resist=.1;\n\nenergy every interval=480,720 amount=1;\nactive raiden;\n\nraiden
+  skill;\n\nalbedo skill;\n\nzhongli skill[hold=1];\n\nxiao skill:2, burst,\njump,
+  low_plunge[collision=1],\njump, low_plunge[collision=1],\njump, high_plunge[collision=1],\njump,
   high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump,
   high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump,
-  high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],\njump,
-  high_plunge[collision=1];\nzhongli skill[hold=1];\nalbedo skill;\nraidenshogun skill,
-  burst, attack:14,charge;\nrestart;\n"
+  high_plunge[collision=1],\njump, high_plunge[collision=1],\njump, high_plunge[collision=1],
+  skill, attack;\n\nraiden skill;\n\nzhongli skill[hold=1], burst;\n\nalbedo skill;\n\nraiden
+  burst, attack:5, dash, attack:4;\n\nrestart;\n\n\n\n\n\n\n"
 description: Xiaoden.
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
@@ -65,15 +56,15 @@ team:
     burst: 9
 - name: zhongli
   con: 0
-  weapon: blacktassel
-  refine: 5
+  weapon: deathmatch
+  refine: 1
   er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 37453.80868201562
+dps: 41529.34922371442
 mode: sl
-duration: 91.999999999999
+duration: 265.99999999999744
 target_count: 1
 viewer_key: vn486MAESk_ooEcX47yvh

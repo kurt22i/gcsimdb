@@ -1,5 +1,5 @@
-author: ""
-config: "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;\n\nraidenshogun
+author: Rare Possum#0511
+config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
@@ -9,21 +9,41 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30
   count=5;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
   em=79.28 cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
-  add weapon=\"alleyhunter\" refine=1 lvl=90/90;\nfischl add set=\"thunderingfury\"
-  count=2;\nfischl add set=\"gladiatorsfinale\" count=3;\nfischl add stats hp=4780
-  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
-  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.1986
-  cd=0.5296;\n\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\n\nactive
-  raiden;\n\nraiden skill;\nbennett burst,skill;\nxiangling burst,skill;\nfischl attack:2,
-  burst;\nraidenshogun burst, attack:14,charge;\nbennett attack,skill;\nxiangling
-  attack:3;\nfischl skill, attack:2;\n\nraidenshogun skill,attack:2;\nbennett burst,skill;\nxiangling
-  burst,skill;\nfischl attack:2, burst;\nraidenshogun burst, attack:14,charge;\nbennett
-  attack,skill;\nxiangling attack:3;\n\nrestart;\n"
+  add weapon=\"alleyhunter\" refine=3 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
+  count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;
+  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
+  em=237.84 cr=0.0662 cd=0.1324;\n\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
+  amount=1;\n\n\nactive raiden;\n\nraiden skill;\nbennett burst,skill;\nxiangling
+  burst,skill;\nfischl attack:2, burst;\nraiden attack, burst, attack:5, dash, attack:5,
+  dash, attack:4, skill, attack;\nbennett attack:2,skill;\nxiangling attack:5;\nfischl
+  skill, attack;\nwait 7;\nbennett burst,skill;\nxiangling burst,skill;\nfischl attack:2,
+  burst;\nraiden attack, burst, attack:5, dash, attack:5, dash, attack:4, skill, attack;\nbennett
+  attack,skill;\nxiangling attack:5;\nfischl attack:3;\nwait 13;\n\nbennett burst,skill;\nxiangling
+  burst,skill;\nfischl attack:2, burst;\nraiden attack, burst, attack:5, dash, attack:5,
+  dash, attack:4, skill, attack;\nbennett attack:2,skill;\nxiangling attack:5;\nfischl
+  skill, attack;\nwait 7;\nbennett burst,skill;\nxiangling burst,skill;\nfischl attack:2,
+  burst;\nraiden attack, burst, attack:5, dash, attack:5, dash, attack:4, skill, attack;\nbennett
+  attack,skill;\nxiangling attack:5;\nfischl attack:3;\nwait 13;\n\nbennett burst,skill;\nxiangling
+  burst,skill;\nfischl attack:2, burst;\nraiden attack, burst, attack:5, dash, attack:5,
+  dash, attack:4, skill, attack;\nbennett attack:2,skill;\nxiangling attack:5;\nfischl
+  skill, attack;\nwait 7;\nbennett burst,skill;\nxiangling burst,skill;\nfischl attack:2,
+  burst;\nraiden attack, burst, attack:5, dash, attack:5, dash, attack:4, skill, attack;\nbennett
+  attack,skill;\nxiangling attack:5;\nfischl attack:3;\nwait 13;\n\nbennett burst,skill;\nxiangling
+  burst,skill;\nfischl attack:2, burst;\nraiden attack, burst, attack:5, dash, attack:5,
+  dash, attack:4, skill, attack;\nbennett attack:2,skill;\nxiangling attack:5;\nfischl
+  skill, attack;\nwait 7;\nbennett burst,skill;\nxiangling burst,skill;\nfischl attack:2,
+  burst;\nraiden attack, burst, attack:5, dash, attack:5, dash, attack:4, skill, attack;\nbennett
+  attack,skill;\nxiangling attack:5;\nfischl attack:3;\nwait 13;\n\nbennett burst,skill;\nxiangling
+  burst,skill;\nfischl attack:2, burst;\nraiden attack, burst, attack:5, dash, attack:5,
+  dash, attack:4, skill, attack;\nbennett attack:2,skill;\nxiangling attack:5;\nfischl
+  skill, attack;\nwait 7;\nbennett burst,skill;\nxiangling burst,skill;\nfischl attack:2,
+  burst;\nraiden attack, burst, attack:5, dash, attack:5, dash, attack:4, skill, attack;\nbennett
+  attack,skill;\nxiangling attack:5;\nfischl attack:3;\nwait 13;\nrestart;\n\n"
 description: ""
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
@@ -39,7 +59,7 @@ team:
 - name: fischl
   con: 6
   weapon: alleyhunter
-  refine: 1
+  refine: 3
   er: 0.1102
   talents:
     attack: 9
@@ -63,8 +83,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47712.67926823871
+dps: 48288.32050506972
 mode: sl
-duration: 100.9999999999993
+duration: 102.99999999999858
 target_count: 1
 viewer_key: hJqfaI61qlNrxrUhbJ57N

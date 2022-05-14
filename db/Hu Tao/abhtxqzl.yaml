@@ -1,124 +1,32 @@
 author: Soujirou#5405, rf#5773 and mina#4448
-config: |+
-  options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;
-
-  hutao char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;
-  hutao add weapon="deathmatch" refine=1 lvl=90/90;
-  hutao add set="shimenawasreminiscence" count=4;
-  hutao add stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main
-  hutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662;
-
-  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
-  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
-  xingqiu add set="noblesseoblige" count=4;
-  xingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main
-  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-
-  zhongli char lvl=90/90 cons=0 talent=9,9,9;
-  zhongli add weapon="favoniuslance" lvl=90/90 refine=3;
-  zhongli add set="tenacityofthemillelith" count=4;
-  zhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311;
-  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-
-  albedo char lvl=90/90 cons=0 talent=9,9,9;
-  albedo add weapon="cinnabar spindle" lvl=90/90 refine=5;
-  albedo add set="huskofopulentdreams" count=4 +params=[stacks=4];
-  albedo add stats hp=4780 atk=311 def%=.583 geo%=0.466 cr=0.311;
-  albedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-
-  target lvl=100 resist=0.1;
-  energy every interval=480,720 amount=1;
-
-  active albedo;
-
-  albedo skill;
-  zhongli skill[hold=1];
-  xingqiu skill, burst, attack:1;
-  albedo burst, attack:1;
-  hutao skill,
-      attack:1, charge, jump,
-      attack:1, charge, jump,
-      attack:1, charge, jump,
-      attack:1, charge, jump,
-      attack:1, charge, jump,
-      attack:1, charge, jump,
-      attack:1, charge, jump,
-      attack:1, charge, jump,
-      attack:1, charge;
-  zhongli attack:4;
-  xingqiu attack:3;
-  zhongli attack:3;
-  xingqiu attack:3;
-
-
-  albedo skill;
-  zhongli skill[hold=1];
-  xingqiu skill, burst, attack:1;
-  albedo burst, attack:1;
-  hutao skill,
-  # use 8n2cj + burst
-      attack:1, charge, dash,
-      attack:1, charge, dash,
-      attack:2, charge, jump,
-      attack:1, charge, jump,
-      attack:2, charge, jump,
-      attack:1, charge, jump,
-      attack:2, charge, jump,
-      attack:1, charge, burst;
-  zhongli attack:4;
-  xingqiu attack:3;
-  zhongli attack:3;
-  xingqiu attack:2;
-
-  restart;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
+  stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
+  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats
+  hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1488 er=0.1653 em=39.64 cr=0.331
+  cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nzhongli
+  char lvl=90/90 cons=0 talent=9,9,9;\nzhongli add weapon=\"favoniuslance\" lvl=90/90
+  refine=3;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats
+  hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311;\nzhongli add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nalbedo
+  char lvl=90/90 cons=0 talent=9,9,9;\nalbedo add weapon=\"cinnabar spindle\" lvl=90/90
+  refine=5;\nalbedo add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nalbedo
+  add stats hp=4780 atk=311 def%=.583 geo%=0.466 cr=0.311;\nalbedo add stats def=39.36
+  def%=0.248 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#--------------------------------------------\n\nactive
+  albedo;\n\nalbedo skill;\nzhongli skill[hold=1];\nxingqiu burst, attack, skill,
+  attack:2;\nalbedo burst, attack;\nhutao skill,\n# in practice, should use hutao
+  burst every other rotation\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n
+  \   attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge;\n# NAs on zhongli and xingqiu to fill time and proc
+  rainswords and favonius\nzhongli attack:3;\nxingqiu attack:2;\nzhongli attack:2;\nxingqiu
+  attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hu Tao with Geobros.
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
@@ -144,7 +52,7 @@ team:
   con: 6
   weapon: favoniussword
   refine: 3
-  er: 0.1102
+  er: 0.1653
   talents:
     attack: 9
     skill: 9
@@ -158,8 +66,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50496.372718345185
+dps: 52466.320694183145
 mode: sl
-duration: 106.99999999999939
+duration: 105.99999999999856
 target_count: 1
 viewer_key: CGDuVdwFi86feICSMHs3Y

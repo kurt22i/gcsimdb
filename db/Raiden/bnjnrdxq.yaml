@@ -1,5 +1,5 @@
 author: Charliex3000#9403 and Lettuce Hunt#5806
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\nraidenshogun
+config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=4;\nraidenshogun
   add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nraidenshogun
@@ -11,8 +11,8 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   em=237.84 cr=0.1324 cd=0.1324;\n\n\njean char lvl=90/90 cons=0 talent=9,9,9; \njean
   add weapon=\"ironsting\" refine=5 lvl=90/90;\njean add set=\"viridescentvenerer\"
   count=4;\njean add stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\njean add
-  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.6612
-  em=118.92 cr=0.0662 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nxingqiu
+  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612
+  em=118.92 cr=0.2648 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nxingqiu
   char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3
   lvl=90/90;\n#xingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add set=\"noblesseoblige\"
   count=4;\nxingqiu add stats hp=4780 atk%=0.466 atk=311 hydro%=0.466 cr=0.311; #main\nxingqiu
@@ -22,27 +22,30 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   List\n\nactive xingqiu;\n\n#------------------------------------------------------\n\nraiden
   skill;\n\n#- every raiden sim madge\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
   skill, attack, burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl
-  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:14,
-  attack, skill, attack;\n#15 rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett
-  skill;\n#acquire instructor buff\n\nxingqiu attack;\n\n#---------------\n\nxingqiu
-  burst, attack, skill, attack:2;\n\nbennett skill, attack, burst, attack;\n\njean
-  attack, skill, attack, burst, attack;\n#swirl electrocharge for double vv when you
-  proc raiden e\n\nwait 5;\n\nraiden burst, attack:14, attack, skill, attack;\n#15
+  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:3, dash, attack, skill, attack;\n#15
   rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
   buff\n\nxingqiu attack;\n\n#---------------\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
   skill, attack, burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl
-  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:14,
-  attack, skill, attack;\n#15 rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett
-  skill;\n#acquire instructor buff\n\nxingqiu attack;\n\n\n#---------------\n\nxingqiu
-  burst, attack, skill, attack:2;\n\nbennett skill, attack, burst, attack;\n\njean
-  attack, skill, attack, burst, attack;\n#swirl electrocharge for double vv when you
-  proc raiden e\n\nwait 5;\n\nraiden burst, attack:14, attack, skill, attack;\n#15
+  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:3, dash, attack, skill, attack;\n#15
   rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
-  buff\n\nxingqiu attack;\n\n\n#---------------\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
+  buff\n\nxingqiu attack;\n\n#---------------\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
   skill, attack, burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl
-  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:14,
-  attack, skill, attack;\n#15 rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett
-  skill;\n#acquire instructor buff\n\nxingqiu attack;\n\n\n"
+  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:3, dash, attack, skill, attack;\n#15
+  rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
+  buff\n\nxingqiu attack;\n\n#---------------\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
+  skill, attack, burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl
+  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:3, dash, attack, skill, attack;\n#15
+  rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
+  buff\n\nxingqiu attack;\n\n#---------------\n\nxingqiu burst, attack, skill, attack:2;\n\nbennett
+  skill, attack, burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl
+  electrocharge for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:3, dash, attack, skill, attack;\n#15
+  rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
+  buff\n\nxingqiu attack;\n\n#---------------\n"
 description: Sunfire Raiden.
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
@@ -82,8 +85,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53714.487524647026
+dps: 54473.724496411836
 mode: sl
-duration: 105.00000000000071
+duration: 105.99999999999856
 target_count: 1
 viewer_key: GS6JN9UgXJV3EoOOZKTbi

@@ -71,6 +71,10 @@ func run(skipDownload bool, force bool) error {
 	//update DB with new and updated teams
 	updateData()
 
+	//allow time to put aside the teams that were updated multiple times
+	fmt.Print("\nPress 'Enter' to continue...")
+	bufio.NewReader(os.Stdin).ReadBytes('\n')
+
 	//loop through db folder; check hash
 	data, err := loadData("./db")
 	if err != nil {
@@ -172,6 +176,11 @@ func updateFile(path string, data jsondata, info []string) {
 	if err != nil {
 		//return errors.Wrap(err, "")
 	}
+	if d.Hash == "" { //if there's no hash, we already updated it this run. To ensure every upgrade gets looked at, only one can happen per team per run.
+		fmt.Printf("\t%v was already updated, skipping", info[0])
+		return
+	}
+
 	d.filepath = path
 	d.Hash = "" //remove hash so it reruns
 	d.Config = data.Config
@@ -266,7 +275,7 @@ func getPath(name string) string {
 
 		return nil
 	})
-	fmt.Printf("%v", pth)
+	fmt.Printf("\n%v", pth)
 	return pth
 }
 

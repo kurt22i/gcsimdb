@@ -1,31 +1,32 @@
 author: Hessey#9122
-config: "options debug=true iteration=1000 duration=109 workers=30 mode=sl swap_delay=12;\ntarget
+config: "options debug=true iteration=1000 duration=115 workers=30 mode=sl swap_delay=12;\ntarget
   lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nyoimiya char lvl=90/90
   cons=0 talent=9,9,9;\nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya add
   set=\"shimenawasreminiscence\" count=4;\nyoimiya add stats hp=4780 atk=311 cr=0.311
   pyro%=0.466 atk%=0.466;\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nhutao char lvl=90/90
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nhutao char lvl=90/90
   cons=0 talent=9,9,9 start_hp=1000;\nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nhutao
-  add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 cd=0.622
-  pyro%=0.466 em=187;\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08
-  atk%=0.0992 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nzhongli char lvl=90/90 cons=0
-  talent=9,9,9;\nzhongli add weapon=\"favoniuslance\" lvl=90/90 refine=3;\nzhongli
-  add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats hp=4780 atk=311 hp%=0.466
+  add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 em=186.5
+  pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662;\n\nzhongli char lvl=90/90
+  cons=0 talent=9,9,9;\nzhongli add weapon=\"favoniuslance\" lvl=90/90 refine=3;\nzhongli
+  add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats hp=4780 atk=311 atk%=0.466
   geo%=0.466 cr=0.311;\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
   atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90
   cons=6 talent=9,9,9;\nxingqiu add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nxingqiu
   add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311.0 er=0.5180
   cr=0.3110 hydro%=0.4660;\nxingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nactive zhongli;\n\nzhongli
-  skill[hold=1];\n\nxingqiu skill[orbital=1], burst[orbital=1];\n\nhutao skill, attack,
-  charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2,
-  charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2,
-  charge, jump,\n\t  attack:2, charge;\n\nyoimiya skill, attack:5, dash, \n        attack:5,
-  dash, \n        attack:3;\n        \nzhongli skill[hold=1];\n\nxingqiu skill[orbital=1],
-  burst[orbital=1];\n\nhutao skill, attack, charge, jump,\n\t  attack:2, charge, jump,\n\t
-  \ attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t
-  \ attack:2, charge, jump,\n\t  attack:2, charge, jump,\n\t  attack:2, charge;\n\nyoimiya
-  skill, attack:5, dash, \n        attack:5, dash, \n        attack:3;\n\nrestart;\n\n"
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nactive zhongli;\n\nzhongli
+  skill[hold=1];\n\nxingqiu skill[orbital=1], burst[orbital=1], attack;\n\nhutao skill,\n
+  \   attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge;\n
+  \   \n    yoimiya skill, attack:5, dash, \n        attack:5, dash, attack:5;\n        \nzhongli
+  skill[hold=1];\n\nxingqiu skill[orbital=1], burst[orbital=1], attack;\n\nhutao skill,\n
+  \   attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge;\n\nyoimiya
+  skill, attack:5, dash, \n        attack:5, dash, attack:5;\n        \n           \nrestart;\n\n\n\n\n"
 description: Hu Tao + Yoimiya.
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
@@ -42,7 +43,7 @@ team:
   con: 6
   weapon: amenomakageuchi
   refine: 5
-  er: 0.6282
+  er: 0.7384000000000001
   talents:
     attack: 9
     skill: 9
@@ -65,8 +66,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45879.1382592147
+dps: 49931.082240928525
 mode: sl
-duration: 108.99999999999856
+duration: 114.9999999999981
 target_count: 1
 viewer_key: eE01DOA5ZxRSSLuVlSrH0

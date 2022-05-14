@@ -40,7 +40,7 @@ config: "raiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"favoniu
   attack, skill, attack;\n\nxiangling burst, attack, skill;\n\nraiden attack, burst,
   attack:5, dash, attack:5, dash, attack:4, dash, attack, skill, attack;\n\nbennett
   skill, attack:2;\n\nxiangling attack:3;\n\n\n\n"
-description: Raiden National, optimized rotation.
+description: Xiangling Overvape with optimal supports. Optimized rotation.
 hash: 30bfcd04cb775cfa77de1a13bcde21570bb60a12
 team:
 - name: bennett
@@ -79,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 63333.82936512649
+dps: 63325.44196871741
 mode: sl
 duration: 105.99999999999856
 target_count: 1
