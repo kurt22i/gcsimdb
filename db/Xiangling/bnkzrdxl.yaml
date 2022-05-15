@@ -1,5 +1,5 @@
-author: Lizz71#8986 and Veggie#0581
-config: "options debug=true iteration=1000 duration=106 workers=30 swap_delay=12 mode=sl;\nraiden
+author: Lizz71#8986, Veggie#0581 and Rare Possum#0511
+config: "options debug=true iteration=1000 duration=107 workers=30 swap_delay=12 mode=sl;\nraiden
   char lvl=90/90 cons=0 talent=9,9,9; \nraiden add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden
   add set=\"emblemofseveredfate\" count=4;\nraiden add stats hp=4780 atk=311 atk%=0.466
   electro%=0.466 cr=0.311 ; #main\nraiden add stats hp%=0.0992 hp=507.88 atk%=0.0992
@@ -18,9 +18,9 @@ config: "options debug=true iteration=1000 duration=106 workers=30 swap_delay=12
   atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2648 cd=0.5296 er=0.551
   ;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\n# target lvl=100 resist=.1;\nenergy
   every interval=480,720 amount=1;\n\n##Actions List\n\nactive raiden;\n\nraiden skill;\nkazuha
-  burst;\nbennett skill,burst;\nkazuha attack,skill[hold=1],high_plunge;\nxiangling
+  burst;\nbennett burst, skill;\nkazuha attack,skill[hold=1],high_plunge;\nxiangling
   burst,skill;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nkazuha
-  skill,high_plunge;\nbennett skill;\nxiangling attack:3;\n\nrestart;\n"
+  skill,high_plunge;\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n\n"
 description: OL Raiden. Why? Good question.
 hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
@@ -60,8 +60,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48993.2570563278
+dps: 49599.892228060824
 mode: sl
-duration: 105.99999999999856
+duration: 106.99999999999939
 target_count: 1
 viewer_key: V6SI_hx87jApagJCP165f

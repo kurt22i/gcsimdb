@@ -1,6 +1,6 @@
 author: Charliex3000#9403, Lizz71#8986 and cyan#3224
 config: |+
-  options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;
   ayaka char lvl=90/90 cons=0 talent=9,9,9;
   ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
   ayaka add set="blizzardstrayer" count=4;
@@ -45,6 +45,14 @@ config: |+
   restart;
 
 
+
+
+
+
+
+
+
+
 description: Ayaka freeze with Ganyu.
 hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
@@ -84,8 +92,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49820.68864204395
+dps: 49456.743760053825
 mode: sl
-duration: 105.99999999999856
+duration: 103.99999999999928
 target_count: 1
 viewer_key: mRyIdTR_JKRBCPWgXus9i

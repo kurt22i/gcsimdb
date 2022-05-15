@@ -1,0 +1,89 @@
+author: Monte#6857
+config: |+
+  ayaka char lvl=90/90 cons=0 talent=9,9,9;
+  ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
+  ayaka add set="blizzardstrayer" count=4;
+  ayaka add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.8628 er=0.1102 em=39.64 cr=0.2648 cd=1.284 cryo%=0.4660;
+
+  kokomi char lvl=90/90 cons=0 talent=9,9,9;
+  kokomi add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
+  kokomi add set="oceanhuedclam" count=5;
+  kokomi add stats def%=0.1240 def=39.36 hp=5288 hp%=0.5952 atk=344.1 atk%=0.09920 er=0.8486 em=158.6 cr=0.06620 cd=0.1324 heal=0.3590 hydro%=0.4660;
+
+  sucrose char lvl=90/90 cons=6 talent=9,9,9;
+  sucrose add weapon="favoniuscodex" refine=3 lvl=90/90;
+  sucrose add set="viridescentvenerer" count=5;
+  sucrose add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.3968 er=0.6612 em=678.9 cr=0.06620 cd=0.1324;
+
+  rosaria char lvl=90/90 cons=6 talent=9,9,9;
+  rosaria add weapon="favoniuslance" refine=3 lvl=90/90;
+  rosaria add set="noblesseoblige" count=4;
+  rosaria add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 cryo%=0.4660;
+
+  options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;
+
+  # ----
+  energy every interval=480,720 amount=1;
+  target lvl=100 resist=0.1;
+
+  # ----
+  active ayaka;
+
+  ayaka dash, attack, skill, attack:3, charge;
+  sucrose skill, burst;
+  rosaria skill, burst;
+  kokomi attack, skill;
+  ayaka dash, attack, burst, skill, dash, charge:3, dash, charge:3;
+  sucrose attack, skill;
+  rosaria skill, attack;
+  kokomi burst;
+  ayaka dash, charge:3,  dash, charge:3;
+  rosaria skill;
+
+  restart;
+
+
+description: Ayaka Freeze with Kokomi and 4*s.
+hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+team:
+- name: ayaka
+  con: 0
+  weapon: amenomakageuchi
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: favoniuslance
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: favoniuscodex
+  refine: 3
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 39194.8520010158
+mode: sl
+duration: 103.99999999999928
+target_count: 1
+viewer_key: ""
