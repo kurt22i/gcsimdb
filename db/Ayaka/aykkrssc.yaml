@@ -20,7 +20,7 @@ config: |+
   rosaria add set="noblesseoblige" count=4;
   rosaria add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 cryo%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;
 
   # ----
   energy every interval=480,720 amount=1;
@@ -33,14 +33,17 @@ config: |+
   sucrose skill, burst;
   rosaria skill, burst;
   kokomi attack, skill;
-  ayaka dash, attack, burst, skill, dash, charge:3, dash, charge:3;
+  ayaka dash, attack, burst, skill, dash, charge:6;
   sucrose attack, skill;
   rosaria skill, attack;
   kokomi burst;
-  ayaka dash, charge:3,  dash, charge:3;
+  ayaka dash, charge:6;
   rosaria skill;
 
   restart;
+
+
+
 
 
 description: Ayaka Freeze with Kokomi and 4*s.
@@ -82,8 +85,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39194.8520010158
+dps: 40374.863009738234
 mode: sl
-duration: 103.99999999999928
+duration: 102.00000000000051
 target_count: 1
-viewer_key: ""
+viewer_key: pXUerVWiAK8hVKDinVG7S
