@@ -1,33 +1,44 @@
-author: Xardas#5785 and mina#4448
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao
-  char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nhutao
-  add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 em=186
-  cr=0.311 pyro%=0.466 ; #main\nhutao add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.1653 em=59.46 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
+author: Xardas#5785, mina#4448 and Jhony75#8133
+config: "#Configs\noptions swap_delay=12 debug=true iteration=1000 duration=105 workers=30
+  mode=sl;\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#Chars\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"dragonsbane\" refine=3 lvl=90/90;
+  # 59118 DPS w/ DM R1 + SR\nhutao add set=\"shimenawasreminiscence\" count=4; # 58989
+  DPS w/ DB R3 + CW | 57890 DPS w/DM R1 + CW\nhutao add stats hp=4780 atk=311 em=187
+  cr=0.311 pyro%=0.466;\nhutao add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
   char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
-  atk=311 er=0.518 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def=39.36 def%=0.124
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2755 em=39.64 cr=0.2979 cd=0.7944
-  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
-  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
-  count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
-  #main\nfischl add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
-  er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\nbennett char lvl=90/90
-  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
-  add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232
-  pyro%=0.348 ; #main\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.1655 cd=0.331 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\ntarget
-  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#----------------------\n\nactive
-  xingqiu;\n\n\nxingqiu skill, burst, attack;\nbennett burst, attack, skill, attack;\nfischl
-  attack:2, skill;\nhutao skill, \n    attack:2, charge, dash,\n    attack:2, charge,
+  lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats
+  hp=4780 atk=311 er=0.518 cr=0.311 hydro%=0.466;\nxingqiu add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nfischl
+  char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3
+  lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl add stats
+  hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;\nfischl add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;
+  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
+  count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348;\nbennett
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
+  em=39.64 cr=0.1655 cd=0.331;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n#Rotation:
+  Xingqiu E Q N1 > Bennett Q N1 E N1 > Fischl N2 E/Q > Hutao E 7N2CJ N1C > Bennett
+  E N2 > Xingqiu N3 > Fischl N3 > ...\nactive xingqiu;\n\nxingqiu skill, burst, attack;\nbennett
+  burst, attack, skill, attack;\nfischl attack:2, skill;\nhutao skill, \n    attack:2,
+  charge, dash,\n    attack:2, charge, dash,\n    attack:2, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:1, charge;\nbennett skill, attack:2;\nxingqiu attack:3;\nfischl
+  attack:3;\n\nxingqiu skill, burst, attack;\nbennett burst, attack, skill, attack;\nfischl
+  attack:2, burst;\nhutao skill,\n    attack:2, charge, dash,\n    attack:2, charge,
   dash,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
   jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge;\nbennett
-  skill, attack:2;\nxingqiu attack:3;\nfischl attack:3;\n\n\nxingqiu skill, burst,
-  attack;\nbennett burst, attack, skill, attack;\nfischl attack:2, burst;\nhutao skill,\n
-  \   attack:2, charge, dash,\n    attack:2, charge, dash,\n    attack:2, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:1, charge;\nbennett skill, attack:3;\nxingqiu
-  attack:3;\nfischl attack:3;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill, attack:3;\nxingqiu attack:3;\nfischl attack:3;\n\nxingqiu skill, burst, attack;\nbennett
+  burst, attack, skill, attack;\nfischl attack:2, skill;\nhutao skill, \n    attack:2,
+  charge, dash,\n    attack:2, charge, dash,\n    attack:2, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:1, charge;\nbennett skill, attack:2;\nxingqiu attack:3;\nfischl
+  attack:3;\n\nxingqiu skill, burst, attack;\nbennett burst, attack, skill, attack;\nfischl
+  attack:2, burst;\nhutao skill,\n    attack:2, charge, dash,\n    attack:2, charge,
+  dash,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge;\nbennett
+  skill, attack:3;\nxingqiu attack:3;\nfischl attack:3;\n\nrestart;\n\n\n\n\n\n"
 description: Bennett-Tao with Fischl.
 hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
 team:
@@ -53,7 +64,7 @@ team:
   con: 0
   weapon: dragonsbane
   refine: 3
-  er: 0.1653
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -62,12 +73,12 @@ team:
   con: 6
   weapon: favoniussword
   refine: 3
-  er: 0.7935000000000001
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 59150.28421025769
+dps: 59943.04817990775
 mode: sl
 duration: 105.00000000000071
 target_count: 1
