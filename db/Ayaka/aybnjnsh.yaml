@@ -1,0 +1,72 @@
+author: Jhony75#8133
+config: "#Option configs\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\noptions swap_delay=12 debug=true iteration=1000 duration=110 workers=30
+  mode=sl;\n\n#Character Weapons and Artifact Sets\nkamisatoayaka char lvl=90/90 cons=0
+  talent=9,9,9; \nkamisatoayaka add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nkamisatoayaka
+  add set=\"emblemofseveredfate\" count=5;\nkamisatoayaka add stats hp=4780 atk=311
+  atk%=0.466 cryo%=0.466 cr=0.311;\nkamisatoayaka add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett
+  char lvl=90/90 cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add set=\"noblesseoblige\"
+  count=1;\nbennett add stats hp=3571 atk=232 er=0.518 pyro%=0.348 cr=0.232; # 4*
+  Set with 5* ER sands\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.1986 cd=0.3972; # 16 liquid subs with
+  x1 stat modifier\n\njean char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\njean add set=\"viridescentvenerer\" count=5;\njean add stats
+  hp=4780 atk=311 er=0.518 em=187 em=187;\njean add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=158.56 cr=0.3972 cd=0.2648;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nshenhe
+  char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=5;\nshenhe add stats hp=4780
+  atk=311 er=0.518 atk%=0.466 atk%=0.466;\nshenhe add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.2976 er=0.3306 em=39.64 cr=0.3972 cd=0.2648;\t\t\t\t\t\t\t\t\t\t\t\n\t\n#
+  22s Rotation\t\n# Shenhe QE > Ayaka E DN2C > Bennett Q > Jean EQ > Ayaka DN1 Q N1E
+  N1C > Shenhe N1E > Ayaka DN2C > Bennett E N1C E > Jean E N2 > ...\nactive shenhe;\n\nshenhe
+  burst, skill;\nayaka skill, dash, attack:2, charge;\nbennett burst;\njean skill,
+  burst;\nayaka dash, attack, burst, attack, skill, attack, charge; # With C6 Bennett
+  no need to dash\nshenhe attack, skill; # N1 to have Bennett's buff\nayaka dash,
+  attack:2, charge;\nbennett skill, attack, charge, skill;\njean skill, attack:2;\n\nrestart;
+  \n\n\n"
+description: Ayaka Sunfire with Shenhe.
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+team:
+- name: ayaka
+  con: 0
+  weapon: harbingerofdawn
+  refine: 5
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: bennett
+  con: 5
+  weapon: thealleyflash
+  refine: 1
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.7384000000000001
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 47519.56223815131
+mode: sl
+duration: 109.99999999999949
+target_count: 1
+viewer_key: XEMVmx5clw719r6EtehLT

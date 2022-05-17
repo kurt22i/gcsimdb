@@ -24,9 +24,9 @@ config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 e
   charge;\nbennett burst, skill;\nshenhe attack, skill, burst;\nbennett skill, attack;\nxiangling
   attack, burst, skill;\nkamisatoayaka skill, dash, burst, attack;\nshenhe attack,
   skill, attack;\nkamisatoayaka attack:2, dash, attack:2;\nbennett skill, attack;\nkamisatoayaka
-  attack:3, dash, attack:3, skill;\n\nrestart;\n\n\n"
+  attack:2, charge, dash, attack:2, skill;\n\nrestart;\n\n\n\n"
 description: Melt Ayaka, Shenhe version.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 67334.38012973436
+dps: 67508.11350068294
 mode: sl
 duration: 125
 target_count: 1

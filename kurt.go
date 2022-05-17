@@ -31,6 +31,7 @@ import (
 const ERIndex = 7
 
 var inputfile = "dbinput.txt"
+var skipped = ""
 
 func main() {
 	var d bool
@@ -44,6 +45,7 @@ func main() {
 	if err != nil {
 		fmt.Printf("Error encountered, ending script: %+v\n", err)
 	}
+	fmt.Printf("\n%v\n", skipped)
 
 	fmt.Print("\nPress 'Enter' to continue...")
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
@@ -178,7 +180,11 @@ func updateFile(path string, data jsondata, info []string) {
 	}
 	if d.Hash == "" { //if there's no hash, we already updated it this run. To ensure every upgrade gets looked at, only one can happen per team per run.
 		fmt.Printf("\t%v was already updated, skipping", info[0])
+		skipped += fmt.Sprintf("\t%v was already updated, skipping", info[0])
 		return
+	} else {
+		fmt.Printf("\tupdating %v", info[0])
+		skipped += fmt.Sprintf("\tupdating %v", info[0])
 	}
 
 	d.filepath = path
@@ -276,6 +282,7 @@ func getPath(name string) string {
 		return nil
 	})
 	fmt.Printf("\n%v", pth)
+	skipped += fmt.Sprintf("\n%v", pth)
 	return pth
 }
 
@@ -481,8 +488,8 @@ func process(data []pack, latest string, force bool) error {
 	fmt.Println("Rerunning configs...")
 
 	for i := range data {
-		//compare hash vs current hash; if not the same rerun
-		if !force && data[i].Hash == latest {
+		//only rerun if changed or forced
+		if !force && data[i].Hash != "" {
 			fmt.Printf("\tSkipping %v\n", data[i].filepath)
 			continue
 		}

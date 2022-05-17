@@ -1,28 +1,30 @@
-author: EnigWa#4825
-config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;\n\nbennett
+author: EnigWa#4825 and Xardas#5785
+config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
   atk=311 atk%=0.466 pyro%=0.466 cr=0.311; #main\nbennett add stats hp%=0.0992 hp=507.88
   atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2979 cd=0.7282 er=0.3306
   ; #subs\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
   refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
-  add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add
-  weapon=\"dragonsbane\" refine=3 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
-  count=4;\nrosaria add stats hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311; #main\nrosaria
-  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=79.28
-  cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;
-  \nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
+  add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cd=0.622 ; #main\nxiangling add
+  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2755
+  em=39.64 cr=0.3972 cd=0.5958 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nrosaria
+  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1
+  lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=4;\nrosaria add stats
+  hp=4780 atk=311 em=187 cryo%=0.466 cd=0.622; #main\nrosaria add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
+  cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
   count=4;\nzhongli add stats hp=4780 atk=311 atk%=0.466 geo%=0.466 cr=0.311; #main\nzhongli
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\n\n##Actions List\n\nactive zhongli;\n\nzhongli
-  skill[hold=1];\nrosaria skill;\nbennett burst,skill;\nxiangling burst,skill;\nrosaria
-  skill, burst, attack;\nzhongli attack, burst, attack;\nrosaria attack:2, skill;\nbennett
-  skill, attack;\nxiangling attack:3;\nbennett skill;\n\n\n\n\n\nrestart;\n\n\n\n\n"
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\n##Default Enemy\ntarget lvl=100
+  resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions List\n\nactive
+  zhongli;\n\nzhongli skill[hold=1];\nrosaria skill;\nbennett burst,skill;\nrosaria
+  burst;\nxiangling burst,skill;\nrosaria skill;\nzhongli attack, burst, attack;\nbennett
+  attack,skill, attack;\nxiangling attack:3;\nrosaria skill;\nbennett skill, attack;\nxiangling
+  attack:3;\nzhongli attack:5;\n\n\n\n\n\nrestart;\n\n\n\n\n\n"
 description: Reverse Melt Rosaria with Burstli.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: bennett
   con: 6
@@ -35,8 +37,8 @@ team:
     burst: 9
 - name: rosaria
   con: 6
-  weapon: dragonsbane
-  refine: 3
+  weapon: deathmatch
+  refine: 1
   er: 0.1102
   talents:
     attack: 9
@@ -46,7 +48,7 @@ team:
   con: 6
   weapon: thecatch
   refine: 5
-  er: 0.6282
+  er: 0.2755
   talents:
     attack: 9
     skill: 9
@@ -55,13 +57,13 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.2204
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 42716.78874354485
+dps: 48400.40711209142
 mode: sl
-duration: 108.00000000000088
+duration: 102.00000000000051
 target_count: 1
 viewer_key: g9s62y-KUFB1WgJN6lI2p

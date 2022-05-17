@@ -1,27 +1,26 @@
 author: Monte#6857
 config: |+
   zhongli char lvl=90/90 cons=0 talent=9,9,9;
-  zhongli add weapon="deathmatch" refine=1 lvl=90/90;
-  zhongli add set="echoesofanoffering" count=4;
-  zhongli add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.3972 cd=1.284 pyro%=0.4660;
+  zhongli add weapon="favoniuslance" refine=3 lvl=90/90;
+  zhongli add set="tenacityofthemillelith" count=4;
+  zhongli add stats def%=0.1240 def=39.36 hp=5288 hp%=0.5652 atk=344.1 atk%=0.1984 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 geo%=0.4660;
 
   rosaria char lvl=90/90 cons=6 talent=9,9,9;
   rosaria add weapon="favoniuslance" refine=3 lvl=90/90;
-  rosaria add set="noblesseoblige" count=4;
-  rosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311;
-  rosaria add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+  rosaria add set="blizzardstrayer" count=4;
+  rosaria add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 cryo%=0.4660;
 
   ayaka char lvl=90/90 cons=0 talent=9,9,9;
   ayaka add weapon="harbingerofdawn" refine=5 lvl=90/90;
   ayaka add set="emblemofseveredfate" count=4;
-  ayaka add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.3306 em=39.64 cr=0.5758 cd=0.7944 cryo%=0.4660;
+  ayaka add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.4408 em=39.64 cr=0.3641 cd=1.085 cryo%=0.4660;
 
-  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett char lvl=90/90 cons=5 talent=9,9,9;
   bennett add weapon="thealleyflash" refine=1 lvl=90/90;
-  bennett add set="instructor" count=4;
-  bennett add stats def%=0.1240 def=39.36 hp=4079 hp%=0.09920 atk=265.1 atk%=0.09920 er=0.9588 em=39.64 cr=0.3975 cd=0.3310 pyro%=0.3480;
+  bennett add set="noblesseoblige" count=4;
+  bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.9588 em=39.64 cr=0.5758 cd=0.6620 pyro%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
 
@@ -29,33 +28,28 @@ config: |+
   zhongli skill[hold=1];
   bennett burst, attack, skill;
   rosaria skill, burst;
-  ayaka skill, dash, attack, burst;
-  zhongli attack:5, dash, attack:5;
+  ayaka skill, dash, attack, burst, dash, attack:2, attack, charge, attack, charge;
   bennett skill, attack;
   rosaria skill, attack;
-  ayaka skill, dash, charge:5;
+  ayaka skill, dash, attack:2, attack, charge, attack, charge;
 
   restart;
 
 
-
-
-
-
 description: Melt Zhongli with Rosaria.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: ayaka
   con: 0
   weapon: harbingerofdawn
   refine: 5
-  er: 0.3306
+  er: 0.4408
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: bennett
-  con: 6
+  con: 5
   weapon: thealleyflash
   refine: 1
   er: 0.9588
@@ -74,15 +68,15 @@ team:
     burst: 9
 - name: zhongli
   con: 0
-  weapon: deathmatch
-  refine: 1
+  weapon: favoniuslance
+  refine: 3
   er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 41544.22182861204
+dps: 41961.538525457516
 mode: sl
-duration: 102.00000000000051
+duration: 103.99999999999928
 target_count: 1
 viewer_key: dOsVXLzUj3ukYg0bfwK7Z

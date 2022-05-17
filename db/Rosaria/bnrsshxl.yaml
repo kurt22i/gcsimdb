@@ -1,5 +1,5 @@
-author: Lizz71#8986 and solo#3333
-config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\nshenhe
+author: Lizz71#8986, solo#3333 and Xardas#5785
+config: "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;\nshenhe
   char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats hp=4780
   atk=311 atk%=1.398; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -12,17 +12,17 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 er=0.518
   pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"dragonsbane\" refine=3
-  lvl=90/90;\n#rosaria add set=\"emblemofseveredfate\" count=4; #dps:51.6k\nrosaria
-  add set=\"lavawalker\" count=4;\nrosaria add stats hp=4780 atk=311 em=187 cryo%=0.466
-  cr=0.311; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n# ----  Default Enemy\ntarget
-  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n# ----  Actions List\n\nactive
-  rosaria;\n\nrosaria attack, skill;\nbennett burst, skill;\nshenhe skill, burst;\nxiangling
-  burst, skill;\n\nrosaria skill, burst;\n\nbennett skill;\nxiangling attack:3;\n\nshenhe
-  attack, skill;\nrosaria skill;\nshenhe attack:3;\n\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n"
+  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1
+  lvl=90/90;\nrosaria add set=\"lavawalker\" count=4;\nrosaria add stats hp=4780 atk=311
+  em=187 cryo%=0.466 cd=0.622; #main\nrosaria add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n#
+  ----  Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#
+  ----  Actions List\n\nactive rosaria;\n\nrosaria skill;\nbennett burst, skill;\nshenhe
+  skill, burst;\nxiangling burst, skill;\nrosaria skill, burst;\nbennett attack,skill,
+  attack;\nxiangling attack:3;\nshenhe attack, skill;\nrosaria attack, skill;\nshenhe
+  attack:3;\nbennett attack,skill, attack;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n\n"
 description: Rosaria Reverse Melt with Shenhe. Very sensitive to timing.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: bennett
   con: 6
@@ -35,9 +35,9 @@ team:
     burst: 9
 - name: rosaria
   con: 6
-  weapon: dragonsbane
-  refine: 3
-  er: 0.2204
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -60,8 +60,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53324.543684476084
+dps: 56048.881889996876
 mode: sl
-duration: 102.99999999999858
+duration: 100.9999999999993
 target_count: 1
 viewer_key: edi5CGgKOWzxbAfi7hW4X

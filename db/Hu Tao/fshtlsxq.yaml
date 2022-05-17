@@ -1,5 +1,5 @@
-author: rf#5773 and Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=124 workers=30 mode=sl;\n\nhutao
+author: rf#5773
+config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"dragonsbane\"
   refine=3 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
   stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nhutao add stats def%=0.124
@@ -12,22 +12,23 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=124 workers=30
   refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
   count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
   #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
-  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nyae char lvl=90/90 cons=0 talent=9,9,9;\nyae
-  add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nyae add set=\"instructor\"
-  count=4;\nyae add stats hp=3571 atk=232 em=187 electro%=0.348 cr=0.232; #main\nyae
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nlisa char lvl=90/90 cons=2 talent=9,9,9;\nlisa
+  add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nlisa add set=\"instructor\"
+  count=4;\nlisa add stats hp=3571 atk=232 er=0.518 electro%=0.348 cr=0.232; #main\nlisa
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
   em=118.92 cr=0.0662 cd=0.1324;\n\n#Enemies and Particles:\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\n\n#Action List:\n\nactive xingqiu;\n\nxingqiu\n\tburst[orbital=1],
-  attack,\n\tskill[orbital=1], attack:2\n\t;\nfischl attack, skill, attack;\nyae skill:3,attack;\nhutao
-  skill,\n\tattack:1, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge,
-  jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge,
-  jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, jump\n\t;\nxingqiu attack:2,
-  dash, attack:2,charge,attack:2;\n\t\nxingqiu\n\tburst[orbital=1], attack,\n\tskill[orbital=1],
-  attack:2\n\t;\nfischl attack, burst;\nyae skill:3,attack;\nhutao skill,\n\tattack:1,
+  attack,\n\tskill[orbital=1], attack:2\n\t;\nfischl attack, skill, attack;\nlisa
+  burst, attack;\nhutao skill,\n\tattack:1, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, jump\n\t;\n\tlisa
+  attack:3, skill[hold=1];\nxingqiu attack:2, dash, attack:2;\n\t\nxingqiu\n\tburst[orbital=1],
+  attack,\n\tskill[orbital=1], attack:2\n\t;\nfischl attack, burst;\nlisa attack,
+  burst, attack;\nhutao skill,\n\tattack:1, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:1, charge, jump\n\t;\nxingqiu attack:2, dash, attack;\nrestart;\n\n\n\n\n\n\n\n"
-description: Tao Taser with Yae.
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, jump\n\t;\n\tlisa
+  attack:3, skill[hold=1];\nxingqiu attack:2, dash, attack;\nrestart;\n\n\n\n\n"
+description: Tao Taser with Lisa.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: fischl
@@ -48,6 +49,15 @@ team:
     attack: 9
     skill: 9
     burst: 9
+- name: lisa
+  con: 2
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
 - name: xingqiu
   con: 6
   weapon: favoniussword
@@ -57,17 +67,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-- name: yaemiko
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-dps: 48050.929856725954
+dps: 53339.19038263222
 mode: sl
-duration: 123.99999999999817
+duration: 126.00000000000189
 target_count: 1
-viewer_key: 9-u9TYDnu8aS62mTf9q9c
+viewer_key: fPcyZNsqUNNtFkvp979Ub
