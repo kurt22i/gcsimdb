@@ -1,4 +1,4 @@
-author: Charliex3000#9403, mina#4448 and vigne#5943
+author: Charliex3000#9403, mina#4448, vigne#5943 and solo#0180
 config: |+
   options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=apl;
 
@@ -28,7 +28,7 @@ config: |+
   bennett add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main
 
   ### SUB ROLLS
-  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3857 em=39.64 cr=0.2979 cd=0.662;
   kamisatoayato add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
   xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
   bennett add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.2204 ; #subs
@@ -95,6 +95,7 @@ config: |+
 
 
 
+
 description: Fischl overvape with Ayato.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -120,7 +121,7 @@ team:
   con: 6
   weapon: thestringless
   refine: 3
-  er: 0.4408
+  er: 0.3857
   talents:
     attack: 9
     skill: 9
@@ -134,7 +135,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57956.91053251245
+dps: 58108.48608280134
 mode: apl
 duration: 102.00000000000051
 target_count: 1
