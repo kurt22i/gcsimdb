@@ -1,5 +1,5 @@
 author: RoyM#2340
-config: "options swap_delay=12 debug=true iteration=1000 duration=109 workers=30 mode=sl;\n\nbennett
+config: "options swap_delay=12 debug=true iteration=1000 duration=111 workers=30 mode=sl;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232.0
   er=0.518 cr=0.2320 pyro%=0.3480;\nbennett add stats def=39.36 def%=0.124 hp=507.88
@@ -9,7 +9,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=109 workers=30
   hp=4780 atk=311.0 er=0.518 cr=0.311 pyro%=0.466;\nxiangling add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
   cd=0.7944;\n\ntartaglia char lvl=90/90 cons=0 talent=9,9,9;\ntartaglia add weapon=\"theviridescenthunt\"
-  refine=1 lvl=90/90;\ntartaglia add set=\"heartofdepth\" count=4;\ntartaglia add
+  refine=1 lvl=90/90;\ntartaglia add set=\"noblesseoblige\" count=4;\ntartaglia add
   stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cd=0.622;\ntartaglia add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
   cd=0.662;\n\nraiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"favoniuslance\"
@@ -17,28 +17,9 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=109 workers=30
   add stats hp=4780 atk=311.0 er=0.518 cr=0.311 electro%=0.466;\nraiden add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
   cr=0.331 cd=0.7944;\n\nactive raiden;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
-  amount=1;\nraiden skill;\n#------------------------------------------------------------\nbennett
-  burst,skill;\nxiangling burst,skill;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n
-  \         attack:3,charge,jump,\n          attack:2,charge;\nbennett skill;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,skill;\n#-----------------------------------------------------------\nbennett
-  burst,skill;\nxiangling burst,skill;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n
-  \         attack:3,charge,jump,\n          attack:2,charge;\nbennett skill;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,skill;\n#-----------------------------------------------------------\nbennett
-  burst,skill;\nxiangling burst,skill;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n
-  \         attack:3,charge,jump,\n          attack:2,charge;\nbennett skill;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,skill;\n#-----------------------------------------------------------\nbennett
-  burst,skill;\nxiangling burst,skill;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n
-  \         attack:3,charge,jump,\n          attack:2,charge;\nbennett skill;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,skill;\n#-----------------------------------------------------------\nbennett
-  burst,skill;\nxiangling burst,skill;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n
-  \         attack:3,charge,jump,\n          attack:2,charge;\nbennett skill;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,skill;\n#-----------------------------------------------------------\nbennett
-  burst,skill;\nxiangling burst,skill;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n
-  \         attack:3,charge,jump,\n          attack:2,charge;\nbennett skill;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,skill;\n#-----------------------------------------------------------\nbennett
-  burst,skill;\nxiangling burst,skill;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n
-  \         attack:3,charge,jump,\n          attack:2,charge;\nbennett skill;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,skill;\n#-----------------------------------------------------------\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  amount=1;\nraiden skill;\nbennett skill,burst,attack;\ntartaglia burst;\nxiangling
+  burst,skill;\ntartaglia skill,\n          attack:3,charge,jump,\n          attack:3,charge,jump,\n
+  \         attack:2,charge;\nbennett skill;\nraiden burst,attack:3,charge,attack:3,charge,attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Childen.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -78,8 +59,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39128.70140183958
+dps: 39917.507285231055
 mode: sl
-duration: 108.99999999999856
+duration: 111.00000000000108
 target_count: 1
 viewer_key: SycGrC_rG3Pl4M8rGkKZr

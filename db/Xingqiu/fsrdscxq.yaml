@@ -2,8 +2,8 @@ author: Lettuce Hunt#5806
 config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=4;\nraidenshogun
-  add stats hp=4780 atk=311 atk%=0.466 atk%=0.466 cr=0.311 ; #main\nraidenshogun add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.331 cd=0.7944;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9; \nsucrose
   add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\n#sucrose add weapon=\"prototypeamber\"
   refine=5 lvl=90/90; #48.7k dps\n#sucrose add weapon=\"sacrificialfragments\" refine=3
@@ -39,7 +39,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   attack, burst;\nsucrose attack, skill, attack, charge, attack:4;\n\n#r3\n\nfischl
   skill;\nxingqiu burst, attack, skill, attack;\nsucrose skill, attack, burst, attack:2;\nraiden
   attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\nsucrose
-  attack, skill, attack, charge, attack, charge, attack:4;\n\n"
+  attack, skill, attack, charge, attack, charge, attack:4;\n\n\n"
 description: ""
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -79,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50741.866770083245
+dps: 51095.21169086833
 mode: sl
 duration: 109.99999999999949
 target_count: 1
