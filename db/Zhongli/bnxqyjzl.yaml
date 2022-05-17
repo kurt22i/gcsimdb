@@ -1,56 +1,57 @@
-author: Alpha253#3018
-config: |
-  options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;
-
+author: Alpha253#3018 and Monte#6857
+config: |+
   zhongli char lvl=90/90 cons=0 talent=9,9,9;
   zhongli add weapon="deathmatch" refine=1 lvl=90/90;
-  zhongli add set="shimenawasreminiscence" count=4;
-  zhongli add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cd=0.622 ;
-  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
+  zhongli add set="echoesofanoffering" count=4;
+  zhongli add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.3972 cd=1.284 pyro%=0.4660;
 
   xingqiu char lvl=90/90 cons=6 talent=9,9,9;
   xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
   xingqiu add set="emblemofseveredfate" count=4;
-  xingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311;
-  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;
+  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.4408 em=39.64 cr=0.6420 cd=0.5296 hydro%=0.4660;
 
   bennett char lvl=90/90 cons=6 talent=9,9,9;
   bennett add weapon="thealleyflash" refine=1 lvl=90/90;
   bennett add set="noblesseoblige" count=4;
-  bennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311;
-  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648 cd=0.5296;
+  bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=1.069 em=39.64 cr=0.5758 cd=0.5296 pyro%=0.4660;
 
   yunjin char lvl=90/90 cons=6 talent=9,9,9;
   yunjin add weapon="favoniuslance" refine=3 lvl=90/90;
-  yunjin add set="huskofopulentdreams" count=4 +params=[stacks=4];
-  yunjin add stats hp=4780 atk=311 def%=1.749;
-  yunjin add stats def%=0.372 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.2648 cd=0.1324;
+  yunjin add set="huskofopulentdreams" count=4;
+  yunjin add stats def%=2.121 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.6612 em=39.64 cr=0.2648 cd=0.1324;
 
-  #Rotation: xingqiu E Q N1 -> yunjin N1 E N1 Q -> bennett N1 E Q N2 -> zhongli hE 5(N4D) -> bennett E N3 -> yunjin N2 -> loop
+  options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;
+  #Best Rotation: zhongli E for lower resistances -> xingqiu E Q N1 -> yunjin E N2 Q -> bennett N1 E N1 Q -> zhongli hE 5(N4D) N2 -> yunjin E N2 -> bennett N1 E N1 ->  loop
   #Simmed by Alpha253#3018, comp idea by EdisonsMathsClub#6469 while I was scrolling through tc-gen
+  #Upgrade by Monte#6857
 
   ##Default Enemy
   target lvl=100 resist=.1;
 
   energy every interval=480,720 amount=1;
 
-  active xingqiu;
+  active zhongli;
+
+  zhongli skill [hold=1];
 
   xingqiu skill,burst,attack;
 
-  yunjin attack,skill,attack,burst,attack;
+  yunjin skill, attack:2, burst;
 
-  bennett attack,skill,burst,attack:2;
+  bennett attack,skill, attack, burst;
 
-  zhongli skill[hold=1],attack:5,dash,attack:5,dash,attack:5,dash,attack:5,dash;
+  zhongli attack:5,dash,attack:5,dash,attack:5,dash,attack:5, dash, attack:2;
 
-  bennett attack,skill,attack:3;
+  yunjin skill, attack:2;
 
-  yunjin attack:2;
+  bennett attack,skill,attack;
+
 
   restart;
+
+
 description: Pyro Zhongli meme team, requires C6 Bennett.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: bennett
   con: 6
@@ -88,8 +89,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31168.75590475781
+dps: 34117.46228526862
 mode: sl
-duration: 105.00000000000071
+duration: 108.00000000000088
 target_count: 1
 viewer_key: Z53_QLFpuOa1caSXlG7e8
