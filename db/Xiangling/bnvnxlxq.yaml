@@ -19,10 +19,10 @@ config: "\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"the
   em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\noptions swap_delay=12 debug=true iteration=1000
   duration=106  workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
-  xingqiu;\nxingqiu burst,attack;\nbennett skill,burst,attack;\nventi skill, burst;\nwait
-  10;\nxiangling burst, attack, skill, attack;\nxingqiu attack,skill,attack:2;\nbennett
+  xingqiu;\nxingqiu burst,attack;\nbennett attack, skill,burst,attack;\nventi skill,
+  burst;\nwait 10;\nxiangling burst, attack, skill, attack;\nxingqiu attack,skill,attack:2;\nbennett
   skill,attack;\nventi skill,attack:2;\nxingqiu attack:2;\nbennett attack:3,skill,attack:2;\nxiangling
-  attack:2;\nxingqiu attack:2;\nventi skill,attack:2;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack:2;\nxingqiu attack:2;\nventi skill,attack:2;\nxingqiu attack:2;\nrestart;\n"
 description: Venti National.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50213.09289325196
+dps: 51405.343833846026
 mode: sl
 duration: 105.99999999999856
 target_count: 1

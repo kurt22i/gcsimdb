@@ -25,13 +25,13 @@ config: |+
   fischl add stats hp=4780 atk=311 electro%=0.466 atk%=0.466 cr=0.311;
   kamisatoayato add stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cr=0.311;
   xiangling add stats hp=4780 atk=311 pyro%=0.466 em=186.5 cr=0.311;
-  bennett add stats hp=4780 atk=311 pyro%=0.466 er=0.518 cr=0.311;
+  bennett add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main
 
   ### SUB ROLLS
   fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;
   kamisatoayato add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
   xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
-  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.1986 cd=0.5296;
+  bennett add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.2204 ; #subs
 
   ##Default Enemy
   target lvl=100 resist=.1;
@@ -94,6 +94,7 @@ config: |+
   bennett attack +is_onfield;
 
 
+
 description: Fischl overvape with Ayato.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -110,7 +111,7 @@ team:
   con: 6
   weapon: thealleyflash
   refine: 1
-  er: 0.6282
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -133,7 +134,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57420.47257038563
+dps: 57956.91053251245
 mode: apl
 duration: 102.00000000000051
 target_count: 1
