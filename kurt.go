@@ -32,15 +32,15 @@ const ERIndex = 7
 
 var inputfile = "dbinput.txt"
 var skipped = ""
+var force bool
 
 func main() {
 	var d bool
-	var force bool
 	flag.BoolVar(&d, "d", false, "skip re-download executable?")
 	flag.BoolVar(&force, "f", false, "force rerun all")
 	flag.Parse()
 
-	err := run(d, force)
+	err := run(d)
 
 	if err != nil {
 		fmt.Printf("Error encountered, ending script: %+v\n", err)
@@ -51,7 +51,7 @@ func main() {
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
 }
 
-func run(skipDownload bool, force bool) error {
+func run(skipDownload bool) error {
 
 	if !skipDownload {
 		//download nightly cmd line build
@@ -84,7 +84,7 @@ func run(skipDownload bool, force bool) error {
 	}
 
 	//process
-	err = process(data, hash, force)
+	err = process(data, hash)
 	if err != nil {
 		return errors.Wrap(err, "")
 	}
@@ -93,7 +93,7 @@ func run(skipDownload bool, force bool) error {
 	// 	sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
 	// }
 
-	err = saveYaml(data)
+	err = saveYaml(data, false)
 	//allow time to inspect the teams one last time
 	fmt.Print("\nPress 'Enter' to continue...")
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
@@ -109,7 +109,7 @@ func run(skipDownload bool, force bool) error {
 		return errors.Wrap(err, "")
 	}
 
-	err = saveYaml(data)
+	err = saveYaml(data, true)
 	if err != nil {
 		return errors.Wrap(err, "")
 	}
@@ -205,7 +205,7 @@ func updateFile(path string, data jsondata, info []string) {
 		}
 	}
 
-	saveYaml([]pack{d})
+	saveYaml([]pack{d}, false)
 }
 
 func makeFile(filename string, data jsondata, info []string) {
@@ -224,7 +224,7 @@ func makeFile(filename string, data jsondata, info []string) {
 	d.Description = info[2]
 	d.Author = info[1]
 
-	saveYaml([]pack{d})
+	saveYaml([]pack{d}, false)
 }
 func getName(data jsondata) string {
 	names := []string{"Paimon", "Paimon", "Paimon", "Paimon"}
@@ -399,6 +399,8 @@ type pack struct {
 	filepath  string
 	filepath2 string
 	changed   bool
+	res       result
+	jd        jsondata
 }
 
 type char struct {
@@ -476,7 +478,7 @@ var reIter = regexp.MustCompile(`iteration=(\d+)`)
 var reWorkers = regexp.MustCompile(`workers=(\d+)`)
 var reMode = regexp.MustCompile(`mode=(\w+)`)
 
-func process(data []pack, latest string, force bool) error {
+func process(data []pack, latest string) error {
 	//make a tmp folder if it doesn't exist
 	if _, err := os.Stat("./tmp"); !os.IsNotExist(err) {
 		fmt.Println("tmp folder already exists, deleting...")
@@ -536,6 +538,7 @@ func process(data []pack, latest string, force bool) error {
 
 		//write gz
 		writeJSONtoGZ(jsonData, outPath)
+		json.Unmarshal(jsonData, &data[i].jd)
 
 		data[i].gzPath = outPath + ".gz"
 	}
@@ -592,6 +595,7 @@ func readResultJSON(jsonData []byte, p *pack) error {
 	})
 
 	p.Team = team
+	p.res = r
 
 	//sort.Slice(p.Team, func(i, j int) bool { return p.Team[i].Name < p.Team[j].Name })
 	return nil
@@ -761,7 +765,7 @@ func uploadIndex(data []pack) error {
 	return nil
 }
 
-func saveYaml(data []pack) error {
+func saveYaml(data []pack, end bool) error {
 
 	for i := range data {
 		//sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
@@ -772,39 +776,23 @@ func saveYaml(data []pack) error {
 		}
 		os.Remove(data[i].filepath)
 		//err = os.WriteFile(data[i].filepath2, data[i].Config, 0755)
-		err = os.WriteFile(data[i].filepath, out, 0755)
+		if end && force {
+			maxdps := 0.0
+			maxdpschar := -1
+			for j := range data[i].jd.CharDPS {
+				if data[i].jd.CharDPS[j].DPS1.Mean > maxdps {
+					maxdps = data[i].jd.CharDPS[j].DPS1.Mean
+					maxdpschar = j
+				}
+			}
+			path := "./db/" + foldernames[charid(data[i].jd.Characters[maxdpschar].Name)] + "/" + getName(data[i].jd)
+			err = os.WriteFile(path, out, 0755)
+		} else {
+			err = os.WriteFile(data[i].filepath, out, 0755)
+		}
 		if err != nil {
 			return errors.Wrap(err, "")
 		}
 	}
 	return nil
 }
-
-// func cloneRepo() (string, error) {
-// 	//check if tmp folder already exists, if so remove
-// 	if _, err := os.Stat("./tmp"); !os.IsNotExist(err) {
-// 		fmt.Println("tmp folder already exists, deleting...")
-// 		// path/to/whatever exists
-// 		os.RemoveAll("./tmp/")
-// 	}
-
-// 	fmt.Println("Starting to clone git repo...")
-
-// 	r, err := git.PlainClone("./tmp", false, &git.Cloneoptions swap_delay=12{
-// 		URL:               "https://github.com/genshinsim/gcsim.git",
-// 		RecurseSubmodules: git.DefaultSubmoduleRecursionDepth,
-// 	})
-// 	if err != nil {
-// 		return "", err
-// 	}
-
-// 	ref, err := r.Head()
-// 	if err != nil {
-// 		return "", err
-// 	}
-
-// 	hs := fmt.Sprint(ref.Hash())
-
-// 	fmt.Printf("Git repo cloned successfully, latest hash: %v\n", hs)
-// 	return hs, nil
-// }
