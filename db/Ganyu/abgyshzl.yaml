@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=200 workers=30 mode=apl swap
   skill +timeout=540;\n#rosaria burst;\n\nshenhe skill[hold=1];\nshenhe burst;\n\nganyu
   skill;\nganyu aim[weakspot=1], burst[radius=2];\nganyu aim[weakspot=1];\n\n\n\n"
 description: Melt Ganyu but there's no melt, just crystallize (and it still works).
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45970.63349048758
+dps: 45963.687540529965
 mode: apl
 duration: 199.9999999999972
 target_count: 1

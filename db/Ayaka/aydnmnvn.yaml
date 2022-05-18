@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   dash,attack:2,charge;\nrestart;\n\n\n\n"
 description: '"Morganya": Morgana with Ayaka. Better than the original in single target,
   but also not Ayaka''s best team.'
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: ayaka
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37305.38283275364
+dps: 37308.51688747444
 mode: sl
 duration: 105.00000000000071
 target_count: 1

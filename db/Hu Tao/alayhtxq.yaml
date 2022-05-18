@@ -21,7 +21,7 @@ config: "ayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomaka
   jump, \n  attack:2, charge, jump, \n  attack:2, charge;\n\n \nayaka dash, skill,
   attack:4; \n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Tao freezemelt with Aloy.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: aloy
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38564.28294403658
+dps: 38622.14543847957
 mode: sl
 duration: 109.99999999999949
 target_count: 1

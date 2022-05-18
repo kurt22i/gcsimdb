@@ -22,7 +22,7 @@ config: "jean char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussw
   skill,attack:15;\n\nfischl burst;\n\njean jump:3;\n\njean attack,skill;\n\nbeidou
   skill,attack;\n\nayato skill,attack:15;\n\n\nrestart;\n"
 description: Ayato Taser with Jean.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: ayato
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31876.789589948927
+dps: 31782.977341919508
 mode: sl
 duration: 99.9999999999986
 target_count: 1

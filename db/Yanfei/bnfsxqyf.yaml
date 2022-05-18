@@ -24,7 +24,7 @@ config: "yanfei char lvl=90/90 cons=6 talent=9,9,9;\nyanfei add weapon=\"thewids
   skill,attack,burst,attack;\nfischl attack,burst;\nyanfei attack,skill,charge,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
   attack:3,skill,attack;\n\nrestart;\n"
 description: ""
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: bennett
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44779.31825016394
+dps: 44839.17591784509
 mode: sl
 duration: 105.00000000000071
 target_count: 1

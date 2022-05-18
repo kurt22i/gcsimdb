@@ -47,7 +47,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30
   rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
   buff\n\nxingqiu attack;\n\n#---------------\n"
 description: Sunfire Raiden.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: bennett
   con: 6
@@ -85,7 +85,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 54453.28018359805
+dps: 54500.03608702339
 mode: sl
 duration: 105.99999999999856
 target_count: 1

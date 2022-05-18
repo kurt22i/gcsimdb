@@ -787,7 +787,7 @@ func saveYaml(data []pack, end bool) error {
 					maxdpschar = j
 				}
 			}
-			path := "./db/" + foldernames[charid(data[i].jd.Characters[maxdpschar].Name)] + "/" + getName(data[i].jd)
+			path := "./db/" + foldernames[charid(data[i].jd.Characters[maxdpschar].Name)] + "/" + getName(data[i].jd) + ".yaml"
 			err = os.WriteFile(path, out, 0755)
 		} else {
 			err = os.WriteFile(data[i].filepath, out, 0755)

@@ -39,7 +39,7 @@ config: "klee char lvl=90/90 cons=0 talent=9,9,9; \nklee add weapon=\"thewidsith
   [bounce=3, mine=8],\n     attack, charge, attack;\nventi skill,attack;\nklee attack,
   charge;                        \nrestart;\n"
 description: Klee with double grouping.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: bennett
   con: 6
@@ -77,7 +77,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31317.16351893251
+dps: 31349.502282977868
 mode: sl
 duration: 108.99999999999856
 target_count: 1

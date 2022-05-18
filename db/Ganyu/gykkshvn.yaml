@@ -1,0 +1,67 @@
+author: Rare Possum#0511 and Veggie#0581
+config: "options swap_delay=12 debug=true iteration=1000 duration=109 workers=30 mode=sl;\n\nshenhe
+  char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=5;\nshenhe add stats hp=4780
+  atk=311 atk%=0.932 cr=0.311; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.3968 er=0.4408 em=39.64 cr=0.1324 cd=0.5296;\n\nkokomi
+  char lvl=90/90 cons=0 talent=9,9,9; \nkokomi add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\" count=5;\nkokomi
+  add stats hp=4780 atk=311 hydro%=0.466 atk%=0.932; #main\nkokomi add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=39.64 cr=0.3972
+  cd=0.3972;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats
+  hp=4780 atk=311 em=561; #main\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2979 cd=0.5958;\n\nganyu char lvl=90/90
+  cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu
+  add set=\"blizzardstrayer\" count=5;\nganyu add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\ntarget lvl=100 pyro=0.1
+  dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n\nenergy
+  every interval=480,720 amount=1;\nactive ganyu;\n#-------------------------------------------\nganyu
+  aim[weakspot=1];\nshenhe skill, burst;\nkokomi skill;\nganyu skill, burst[radius=2];\nventi
+  skill, burst;\nganyu aim[weakspot=1];\nshenhe skill, attack;\nganyu aim, skill,
+  aim[weakspot=1];\nventi skill, attack;\nganyu aim;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: Freeze Ganyu.
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+team:
+- name: ganyu
+  con: 0
+  weapon: prototypecrescent
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: venti
+  con: 0
+  weapon: thestringless
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 43130.6011547301
+mode: sl
+duration: 108.99999999999856
+target_count: 1
+viewer_key: ipWDt9uqmHgNz6-eYxD42

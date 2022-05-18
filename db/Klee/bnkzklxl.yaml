@@ -43,7 +43,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   \n\tattack, charge,\n\tattack, charge,\n\tattack, charge, attack, charge, attack,
   charge;\n\n\n\n"
 description: Kleeeeeeeeee!
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: bennett
   con: 6
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46710.57632446188
+dps: 46650.13771743967
 mode: sl
 duration: 102.99999999999858
 target_count: 1

@@ -20,7 +20,7 @@ config: "sara char lvl=90/90 cons=6 talent=9,9,9;\nsara add weapon=\"alleyhunter
   attack:2, skill, burst;\n\nbennett skill;\nxiangling attack:3;\n\n \nrosaria  skill,
   attack:3;\n \n\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n"
 description: Rosaria Reverse Melt with Sara.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: bennett
   con: 6
@@ -58,7 +58,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40210.92963855661
+dps: 40198.286331697236
 mode: sl
 duration: 102.99999999999858
 target_count: 1

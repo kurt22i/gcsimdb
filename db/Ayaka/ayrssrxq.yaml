@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=99 workers=30 
   charge,\n\tattack:3, skill,\n\tattack:3, charge\n\t;\nrosaria skill;\nayaka dash,
   attack:2, charge;\n\nrestart;\n\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Sara.
-hash: a838d340c3ad77e9ee63816ee91ba1e57eb1c629
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: ayaka
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33385.22078426963
+dps: 33299.18857247674
 mode: sl
 duration: 99.0000000000003
 target_count: 1
