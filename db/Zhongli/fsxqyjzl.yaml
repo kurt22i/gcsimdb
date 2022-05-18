@@ -28,7 +28,7 @@ config: |+
   zhongli skill[hold=1];
   fischl burst;
   xingqiu skill, burst, attack;
-  yunjin skill [hold=1], burst;
+  yunjin skill, attack:2, burst;
   zhongli attack:5, dash, attack:5, dash, attack:5;
   fischl skill;
   zhongli attack:5;
@@ -40,7 +40,7 @@ config: |+
   yunjin skill, burst, attack;
   fischl burst, attack;
   zhongli attack:5, dash, attack:5, dash, attack:5;
-  yunjin skill [hold=1], attack:2;
+  yunjin skill, attack:3;
   fischl skill;
   zhongli attack:5;
 
@@ -50,13 +50,13 @@ config: |+
   zhongli attack:5, dash, attack:2;
   fischl burst;
   zhongli attack:5;
-  yunjin skill [hold=1], attack:2;
-  zhongli attack:5, dash, attack:1;
+  yunjin skill, attack:3;
+  zhongli attack:5, dash, attack;
 
   zhongli skill[hold=1];
   fischl skill;
   xingqiu skill, burst, attack;
-  yunjin skill [hold=1], burst;
+  yunjin skill, attack:2, burst;
   zhongli attack:5, dash, attack:5, dash, attack:5;
   fischl burst;
   zhongli attack:5;
@@ -68,7 +68,7 @@ config: |+
   yunjin skill, burst, attack;
   fischl skill, attack;
   zhongli attack:5, dash, attack:5, dash, attack:5;
-  yunjin skill [hold=1], attack:2;
+  yunjin skill, attack:3;
   fischl burst;
   zhongli attack:5;
 
@@ -78,9 +78,12 @@ config: |+
   zhongli attack:5, dash, attack:2;
   fischl skill;
   zhongli attack:5;
-  yunjin skill [hold=1], attack:2;
-  zhongli attack:5, dash, attack:1;
+  yunjin skill, attack:3;
+  zhongli attack:5, dash, attack;
   restart;
+
+
+
 
 
 description: LEDELFE (Los esclavos de Liyue de Fischl Enjoyer).
@@ -122,7 +125,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36633.78939892588
+dps: 37025.13648842993
 mode: sl
 duration: 125
 target_count: 1

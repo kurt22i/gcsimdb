@@ -1,25 +1,47 @@
 author: CC#5588 and Rare Possum#0511
-config: "ganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu add weapon=\"prototypecrescent\"
-  refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=4;\nganyu add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats
-  hp=4780 atk=311 atk%=0.932 cr=0.311 ; #main\nshenhe add stats def=39.36 def%=0.124
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.331 cd=0.1324
-  ;\t\t\t\t\t\t\t\t\t\t\n\nventi char lvl=90/90 cons=0 talent=9,9,9;\nventi add weapon=\"thestringless\"
-  refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\" count=4;\nventi add stats
-  hp=4780 atk=311 em=561 ; #main\nventi add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.2976 er=0.3306 em=118.92 cr=0.1986 cd=0.3972 ;\n\nmona char lvl=90/90
-  cons=0 talent=9,9,9;\nmona add weapon=\"prototypeamber\" refine=5 lvl=90/90;\nmona
-  add set=\"tenacityofthemillelith\" count=4;\nmona add stats hp=4780 atk=311 er=0.518
-  hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.2317 cd=0.4634;\n\noptions swap_delay=12
-  debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\ntarget lvl=100 pyro=0.1
-  dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n\nenergy
-  every interval=480,720 amount=1;\nactive ganyu;\n\nganyu aim[weakspot=1];\nshenhe
-  skill,burst;\nganyu skill,burst[radius=2];\nventi skill,burst;\nmona burst,skill;\nshenhe
-  skill, attack;\nwait 5;\nventi skill;\nganyu skill,aim[weakspot=1]:3;\n\nrestart;\n\n\n\n\n\n\n\n"
+config: |+
+  ganyu char lvl=90/90 cons=0 talent=9,9,9;
+  ganyu add weapon="prototypecrescent" refine=5 lvl=90/90;
+  ganyu add set="blizzardstrayer" count=4;
+  ganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main
+  ganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
+
+  shenhe char lvl=90/90 cons=0 talent=9,9,9;
+  shenhe add weapon="favoniuslance" refine=3 lvl=90/90;
+  shenhe add set="noblesseoblige" count=4;
+  shenhe add stats hp=4780 atk=311 atk%=0.932 cr=0.311 ; #main
+  shenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;
+
+  venti char lvl=90/90 cons=0 talent=9,9,9;
+  venti add weapon="thestringless" refine=3 lvl=90/90;
+  venti add set="viridescentvenerer" count=4;
+  venti add stats hp=4780 atk=311 em=561 ; #main
+  venti add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  mona char lvl=90/90 cons=0 talent=9,9,9;
+  mona add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
+  mona add set="tenacityofthemillelith" count=4;
+  mona add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main
+  mona add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317 cd=0.7282;
+
+  options swap_delay=12 debug=true iteration=1000 duration=112 workers=30 mode=sl;
+
+  target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
+
+  energy every interval=480,720 amount=1;
+  active ganyu;
+
+  ganyu aim[weakspot=1];
+  shenhe skill,burst;
+  ganyu skill,burst[radius=2];
+  venti skill,burst;
+  mona burst,skill;
+  shenhe skill, attack;
+  venti skill;
+  ganyu skill,aim[weakspot=1]:3;
+
+  restart;
+
 description: ""
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -34,9 +56,9 @@ team:
     burst: 9
 - name: mona
   con: 0
-  weapon: prototypeamber
+  weapon: thrillingtalesofdragonslayers
   refine: 5
-  er: 0.6282
+  er: 0.9588000000000001
   talents:
     attack: 9
     skill: 9
@@ -45,7 +67,7 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.551
+  er: 0.3306
   talents:
     attack: 9
     skill: 9
@@ -54,13 +76,13 @@ team:
   con: 0
   weapon: thestringless
   refine: 3
-  er: 0.3306
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 40448.85641855015
+dps: 41298.10060026072
 mode: sl
-duration: 109.99999999999949
+duration: 111.99999999999807
 target_count: 1
 viewer_key: mLeDi7FJSCRkZbZR8K3lk

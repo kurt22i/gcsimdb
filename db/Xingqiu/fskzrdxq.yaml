@@ -1,4 +1,4 @@
-author: rf#5773
+author: rf#5773 and EnigWa#4825
 config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=4;\nraidenshogun
@@ -14,34 +14,34 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30
   electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu
   char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"lionsroar\" refine=3
-  lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats
-  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331
-  cd=0.662;\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nraiden
-  skill;\nxingqiu burst, attack, skill, attack:2;\nfischl attack:2, burst;\nkazuha
+  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nactive
+  raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=20;\n\nraiden skill;\nxingqiu
+  burst, attack, skill, attack:2;\nfischl attack:2, burst;\nkazuha attack, skill,
+  high_plunge, attack, burst, attack;\nraiden burst,attack:5, dash, attack:5, dash,
+  attack:4, skill, attack;\nkazuha attack:2, skill, high_plunge, attack;\nfischl attack,
+  skill, attack:2;\n\nxingqiu burst, attack, skill, attack:2;\nfischl attack:2, burst;\nkazuha
   attack, skill, high_plunge, attack, burst, attack;\nraiden burst,attack:5, dash,
-  attack:5, dash, attack:4, skill, attack;\nkazuha attack:2, skill, high_plunge, attack;\nfischl
-  attack, skill, attack:2;\n\nxingqiu burst, attack, skill, attack:2;\nfischl attack:2,
+  attack:5, dash, attack:4, skill, attack;\nkazuha attack:2, skill, high_plunge, attack:2,
+  charge, dash, attack:2;\n\nxingqiu burst, attack, skill, attack:2;\nfischl attack:2,
   burst;\nkazuha attack, skill, high_plunge, attack, burst, attack;\nraiden burst,attack:5,
   dash, attack:5, dash, attack:4, skill, attack;\nkazuha attack:2, skill, high_plunge,
-  attack:2, charge, dash, attack:2;\n\nxingqiu burst, attack, skill, attack:2;\nfischl
+  attack;\nfischl attack, skill, attack:2;\n\nxingqiu burst, attack, skill, attack:2;\nfischl
   attack:2, burst;\nkazuha attack, skill, high_plunge, attack, burst, attack;\nraiden
   burst,attack:5, dash, attack:5, dash, attack:4, skill, attack;\nkazuha attack:2,
-  skill, high_plunge, attack;\nfischl attack, skill, attack:2;\n\nxingqiu burst, attack,
+  skill, high_plunge, attack:2, charge, dash, attack:2;\n\nxingqiu burst, attack,
   skill, attack:2;\nfischl attack:2, burst;\nkazuha attack, skill, high_plunge, attack,
   burst, attack;\nraiden burst,attack:5, dash, attack:5, dash, attack:4, skill, attack;\nkazuha
-  attack:2, skill, high_plunge, attack:2, charge, dash, attack:2;\n\nxingqiu burst,
-  attack, skill, attack:2;\nfischl attack:2, burst;\nkazuha attack, skill, high_plunge,
-  attack, burst, attack;\nraiden burst,attack:5, dash, attack:5, dash, attack:4, skill,
-  attack;\nkazuha attack:2, skill, high_plunge, attack;\nfischl attack, skill, attack:2;\n\nxingqiu
+  attack:2, skill, high_plunge, attack;\nfischl attack, skill, attack:2;\n\nxingqiu
   burst, attack, skill, attack:2;\nfischl attack:2, burst;\nkazuha attack, skill,
   high_plunge, attack, burst, attack;\nraiden burst,attack:5, dash, attack:5, dash,
   attack:4, skill, attack;\nkazuha attack:2, skill, high_plunge, attack:2, charge,
   dash, attack:2;\n\nxingqiu burst, attack, skill, attack:2;\nfischl attack:2, burst;\nkazuha
   attack, skill, high_plunge, attack, burst, attack;\nraiden burst,attack:5, dash,
   attack:5, dash, attack:4, skill, attack;\nkazuha attack:2, skill, high_plunge, attack;\nfischl
-  skill, attack:2;\nrestart;\n\n\n\n\n"
+  skill, attack:2;\nrestart;\n\n\n\n"
 description: A very solid Raiden team without Bennett.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 55452.397426670206
+dps: 57032.53194206409
 mode: sl
 duration: 126.00000000000189
 target_count: 1

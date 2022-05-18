@@ -1,5 +1,5 @@
 author: Arfoire#9219, EnigWa#4825 and danii#8748
-config: |
+config: |+
   options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;
 
   ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
@@ -43,21 +43,23 @@ config: |
   xingqiu skill, burst, attack;
   beidou skill, burst;
   sucrose
-      attack:1, skill,
-      attack:1, skill,
+      attack:1, skill, jump,
       attack:2, dash,
       attack:2, dash,
       attack:2, dash,
-      attack:1
+      attack:2, jump,
+      attack
       ;
   beidou skill[counter=2], attack;
   fischl skill, attack:2;
   sucrose
+    attack:1, skill, jump,
       attack:2, dash,
-      attack:2, dash,
-      attack:2, dash,
+      attack:2, jump,
       attack:1, charge,
-      attack:2, charge,
+      attack:2, charge;
+  wait 5; #for more hydro application
+      sucrose
       attack:1, charge
       ;
   beidou skill, attack:2;
@@ -66,6 +68,7 @@ config: |
 
 
   restart;
+
 description: Sucrose Taser.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -105,7 +108,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48599.67474425672
+dps: 49554.43417637177
 mode: sl
 duration: 99.9999999999986
 target_count: 1
