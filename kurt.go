@@ -71,7 +71,9 @@ func run(skipDownload bool) error {
 	// log.Println(hash)
 
 	//update DB with new and updated teams
-	updateData()
+	if !force {
+		updateData()
+	}
 
 	//allow time to put aside the teams that were updated multiple times
 	fmt.Print("\nPress 'Enter' to continue...")
@@ -241,15 +243,15 @@ func getName(data jsondata) string {
 
 var chars = []string{"Ayato", "YaeMiko", "Shenhe", "YunJin", "Itto", "Gorou", "Thoma", "Kokomi", "Raiden", "Sara", "Aloy", "Yoimiya", "Sayu", "Ayaka", "Kazuha",
 	"Eula", "Yanfei", "Rosaria", "HuTao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Tartaglia", "Diona", "Klee", "Venti", "Keqing", "Mona",
-	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "TravelerGeo"}
+	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "TravelerGeo", "TravelerElectro"}
 
 var foldernames = []string{"Ayato", "Yae", "Shenhe", "Yun Jin", "Itto", "Gorou", "Thoma", "Kokomi", "Raiden", "Sara", "Aloy", "Yoimiya", "Sayu", "Ayaka", "Kazuha",
 	"Eula", "Yanfei", "Rosaria", "Hu Tao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Childe", "Diona", "Klee", "Venti", "Keqing", "Mona",
-	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "GMC"}
+	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "GMC", "EMC"}
 
 var abbrs = []string{"at", "ya", "sh", "yj", "it", "gr", "tm", "kk", "rd", "sr", "al", "ym", "sy", "ay", "kz",
 	"eu", "yf", "rs", "ht", "xa", "gy", "ab", "zl", "xy", "ch", "dn", "kl", "vn", "kq", "mn",
-	"qq", "dl", "jn", "sc", "cy", "nl", "bn", "fs", "ng", "xq", "bd", "xl", "rz", "bb", "ls", "ky", "am", "pm", "gc"}
+	"qq", "dl", "jn", "sc", "cy", "nl", "bn", "fs", "ng", "xq", "bd", "xl", "rz", "bb", "ls", "ky", "am", "pm", "gc", "em"}
 
 func charid(c string) int {
 	for i := range chars {
