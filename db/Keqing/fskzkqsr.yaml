@@ -1,14 +1,14 @@
 author: RoyM#2340 and Jhony75#8133
 config: "keqing char lvl=90/90 cons=0 talent=9,9,9;\nkeqing add weapon=\"lionsroar\"
-  refine=3 lvl=90/90;\nkeqing add set=\"thundersoother\" count=4;\nkeqing add stats
-  hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ; #main\nkeqing add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"ironsting\"
-  refine=5 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
-  stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\nkazuha add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.551 em=118.92 cr=0.0662
-  cd=0.1324;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"alleyhunter\"
-  refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
+  refine=3 lvl=90/90;\nkeqing add set=\"shimenawasreminiscence\" count=4;\nkeqing
+  add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ; #main\nkeqing add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha
+  add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
+  count=4;\nkazuha add stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\nkazuha
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.551
+  em=118.92 cr=0.0662 cd=0.1324;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl
+  add weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
   count=5;\nfischl add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ;
   #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
   er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nsara char lvl=90/90 cons=6 talent=9,9,9;
@@ -18,10 +18,10 @@ config: "keqing char lvl=90/90 cons=0 talent=9,9,9;\nkeqing add weapon=\"lionsro
   em=39.64 cr=0.331 cd=0.7944;\n\noptions swap_delay=12 debug=true iteration=1000
   duration=126 workers=30 mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
   amount=1;\n\nactive fischl;\nfischl skill;\nkazuha skill,high_plunge,burst;\nsara
-  skill,aim;\nkeqing skill,burst,skill,\n       attack,charge,\n       attack,charge,\n
+  skill,aim;\nkeqing burst,skill,attack:2,skill,\n       attack,charge,\n       attack,charge,\n
   \      attack,charge,\n       attack,charge;\nsara skill,aim;\nfischl burst;\nkazuha
   skill[hold=1],high_plunge,attack:3;\nsara burst;\nkeqing skill,skill,\n       attack,charge,\n
-  \      attack,charge,\n       attack,charge,\n       attack,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  \      attack,charge,\n       attack,charge,\n       attack,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Mono-Electro Keqing.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42490.46706176591
+dps: 42794.810698968075
 mode: sl
 duration: 126.00000000000189
 target_count: 1

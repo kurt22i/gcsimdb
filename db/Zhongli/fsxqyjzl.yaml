@@ -1,123 +1,67 @@
-author: Monte#6857
-config: |+
-  zhongli char lvl=90/90 cons=0 talent=9,9,9;
-  zhongli add weapon="crescentpike" refine=5 lvl=90/90;
-  zhongli add set="paleflame" count=4;
-  zhongli add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 phys%=0.5830;
+author: "Monte#6857 and lulu \U0001D502 \U0001D4FE \U0001D4F7  \U0001D4F3 \U0001D4F2
+  \U0001D4F7 ♡#4236"
+config: |
+  yunjin char lvl=90/90 cons=6 talent=9,9,9;
+  yunjin add weapon="crescentpike" refine=5 lvl=90/90;
+  yunjin add set="echoesofanoffering" count=4;
+  yunjin add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 phys%=0.5830;
 
   fischl char lvl=90/90 cons=6 talent=9,9,9;
   fischl add weapon="thestringless" refine=3 lvl=90/90;
-  fischl add set="tenacityofthemillelith" count=4;
-  fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.2204 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
+  fischl add set="emblemofseveredfate" count=2;
+  fischl add set="thunderingfury" count=2;
+  fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
 
   xingqiu char lvl=90/90 cons=6 talent=9,9,9;
-  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
-  xingqiu add set="emblemofseveredfate" count=4;
-  xingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main
-  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+  xingqiu add weapon="lionsroar" refine=3 lvl=90/90;
+  xingqiu add set="noblesseoblige" count=5;
+  xingqiu add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
+  zhongli char lvl=90/90 cons=0 talent=9,9,9;
+  zhongli add weapon="favoniuslance" lvl=90/90 refine=3;
+  zhongli add set="tenacityofthemillelith" count=4;
+  zhongli add stats hp=4780 atk=311 atk%=0.466 geo%=0.466 cr=0.311;
+  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
-  yunjin char lvl=90/90 cons=6 talent=9,9,9;
-  yunjin add weapon="favoniuslance" refine=3 lvl=90/90;
-  yunjin add set="noblesseoblige" count=4;
-  yunjin add stats def%=1.662 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.4408 em=39.64 cr=0.6420 cd=0.1324;
-
-  options swap_delay=12 debug=true iteration=1000 duration=125 workers=30 mode=sl;
-  energy every interval=480,720 amount=1;
+  options swap_delay=12 debug=true iteration=1000 duration=101
+   mode=sl;
   target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
 
   active zhongli;
-  zhongli skill[hold=1];
-  fischl burst;
-  xingqiu skill, burst, attack;
-  yunjin skill, attack:2, burst;
-  zhongli attack:5, dash, attack:5, dash, attack:5;
-  fischl skill;
-  zhongli attack:5;
-  yunjin skill, attack;
-  zhongli attack:5;
 
-  zhongli skill[hold=1];
-  xingqiu skill, burst, attack;
-  yunjin skill, burst, attack;
-  fischl burst, attack;
-  zhongli attack:5, dash, attack:5, dash, attack:5;
-  yunjin skill, attack:3;
-  fischl skill;
-  zhongli attack:5;
+  zhongli skill[hold=1], attack;
+  xingqiu skill,burst,attack;
+  fischl attack,skill;
+  yunjin attack,skill,attack,burst,attack:4,dash,attack:4,dash,attack:4,dash,attack:4;
+  zhongli attack:4;
+  fischl attack,burst;
+  yunjin attack,skill,attack:4,dash,attack:4,dash,attack:4;
 
-  zhongli skill[hold=1];
-  xingqiu skill, burst, attack;
-  yunjin skill, burst, attack;
-  zhongli attack:5, dash, attack:2;
-  fischl burst;
-  zhongli attack:5;
-  yunjin skill, attack:3;
-  zhongli attack:5, dash, attack;
-
-  zhongli skill[hold=1];
-  fischl skill;
-  xingqiu skill, burst, attack;
-  yunjin skill, attack:2, burst;
-  zhongli attack:5, dash, attack:5, dash, attack:5;
-  fischl burst;
-  zhongli attack:5;
-  yunjin skill, attack;
-  zhongli attack:2;
-
-  zhongli skill[hold=1];
-  xingqiu skill, burst, attack;
-  yunjin skill, burst, attack;
-  fischl skill, attack;
-  zhongli attack:5, dash, attack:5, dash, attack:5;
-  yunjin skill, attack:3;
-  fischl burst;
-  zhongli attack:5;
-
-  zhongli skill[hold=1];
-  xingqiu skill, burst, attack;
-  yunjin skill, burst, attack;
-  zhongli attack:5, dash, attack:2;
-  fischl skill;
-  zhongli attack:5;
-  yunjin skill, attack:3;
-  zhongli attack:5, dash, attack;
   restart;
-
-
-
-description: LEDELFE (Los esclavos de Liyue de Fischl Enjoyer).
+description: Pikejin with her shield slave.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: fischl
   con: 6
   weapon: thestringless
   refine: 3
-  er: 0.2204
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: xingqiu
   con: 6
-  weapon: favoniussword
+  weapon: lionsroar
   refine: 3
-  er: 0.1102
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
     burst: 9
 - name: yunjin
   con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
   weapon: crescentpike
   refine: 5
   er: 0.1102
@@ -125,8 +69,17 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37380.554295516995
+- name: zhongli
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 37642.056632032436
 mode: sl
-duration: 125
+duration: 100.9999999999993
 target_count: 1
 viewer_key: a1ryUmIhw1eAJ367VvxBq
