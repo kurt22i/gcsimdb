@@ -1,34 +1,38 @@
-author: Charliex3000#9403
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n\nkamisatoayaka
-  char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"amenomakageuchi\"
-  refine=5 lvl=90/90;\nkamisatoayaka add set=\"blizzardstrayer\" count=5;\nkamisatoayaka
-  add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nkamisatoayaka
-  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.3972 cd=0.662 er=0.2204 ; #subs\n\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;
-  \nkazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
-  count=5;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.3306 em=118.92 cr=0.3972
-  cd=0.1324;\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add
-  stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats hp%=0.0992
-  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2317 cd=0.5958
-  er=0.551 ; #subs\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=5;\nshenhe add stats
-  hp=4780 atk=311 atk%=1.398 ; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.331 cd=0.1324;\n\n\ntarget
-  lvl=100 resist=.1;\n# target lvl=100 resist=.1;\n\nenergy every interval=480,720
-  amount=1;\n\nactive ayaka;\n\nkamisatoayaka skill;\n\nshenhe burst,skill;\n\nkazuha
-  skill,high_plunge,burst;\n\nmona skill,burst;\n\nkamisatoayaka dash,skill,burst;\n\nshenhe
-  skill;\n\nkazuha skill[hold=1],high_plunge;\n\nkamisatoayaka dash,attack:2,charge,attack:2,charge;\n\nrestart;\n\n\n"
+author: Charliex3000#9403 and cyan#3224
+config: "options swap_delay=12 debug=true iteration=1000 duration=144 workers=30 mode=sl;\nayaka
+  char lvl=90/90 cons=0 talent=9,9,9; \nayaka add weapon=\"amenomakageuchi\" refine=5
+  lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780
+  atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main\nayaka add stats hp%=0.0992 hp=507.88
+  atk%=0.1984 atk=33.08 def%=0.124 def=39.36 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=5;\nkazuha add stats hp=4780
+  atk=311 em=187 em=187 em=187; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.3972 cd=0.5296;\n\nmona
+  char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\n#mona add weapon=\"prototypeamber\" refine=5 lvl=90/90;\nmona
+  add set=\"tenacityofthemillelith\" count=4;\nmona add stats hp=4780 atk=311 er=0.518
+  hydro%=0.466 cr=0.311; #main\n#mona add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466
+  cr=0.311; #main  Prototype Amber\nmona add stats hp%=0.0992 hp=507.88 atk%=0.0992
+  atk=33.08 def%=0.124 def=39.36 er=0.551 em=39.64 cr=0.1324 cd=0.7944;\n#mona add
+  stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 er=0.4408
+  em=39.64 cr=0.1986 cd=0.7282;  # Prototype Amber\n\nshenhe char lvl=90/90 cons=0
+  talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe
+  add set=\"noblesseoblige\" count=4;\nshenhe add stats hp=4780 atk=311 atk%=0.466
+  atk%=0.466 cr=0.311; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.331 cd=0.1324;\n\n# ----\nenergy every
+  interval=480,720 amount=1;\ntarget lvl=100 resist=.1;\n\n# ----\nactive ayaka;\n\nayaka
+  dash, attack, skill;\nkazuha skill, high_plunge, burst;\nshenhe skill, burst;\nmona
+  skill, burst;\nayaka dash, attack, skill, burst, attack, charge;\nshenhe skill,
+  attack;\nkazuha skill, high_plunge;\nayaka dash, attack, charge, dash, attack, charge;\n\nrestart;\n\n\n"
 description: Ayaka Freeze with VV and Shenhe. Can also use Prototype Amber on Mona
-  for healing; this reduces DPS by about 4.5k.
+  for healing; this reduces DPS by about 4k.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
 - name: ayaka
   con: 0
   weapon: amenomakageuchi
   refine: 5
-  er: 0.2204
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -37,7 +41,7 @@ team:
   con: 0
   weapon: favoniussword
   refine: 3
-  er: 0.3306
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -60,8 +64,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52177.027565782984
+dps: 56531.002120975805
 mode: sl
-duration: 105.00000000000071
+duration: 144.0000000000025
 target_count: 1
 viewer_key: VUTBxnLhs3Abym34bQIyO

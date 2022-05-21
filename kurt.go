@@ -89,7 +89,6 @@ func run(skipDownload bool) error {
 
 	//process
 	err = process(data, hash)
-
 	if err != nil {
 		return errors.Wrap(err, "")
 	}
@@ -194,19 +193,13 @@ func updateFile(path string, data jsondata, info []string) {
 	if err != nil {
 		//return errors.Wrap(err, "")
 	}
-	if d.Hash == "" || d.Hash == "u" { //if there's no hash, we already updated it this run. To ensure every upgrade gets looked at, only one can happen per team per run.
+	if d.Hash == "" { //if there's no hash, we already updated it this run. To ensure every upgrade gets looked at, only one can happen per team per run.
 		fmt.Printf("\t%v was already updated, skipping", info[0])
 		skipped += fmt.Sprintf("\t%v was already updated, skipping", info[0])
 		return
 	} else {
 		fmt.Printf("\tupdating %v", info[0])
 		skipped += fmt.Sprintf("\tupdating %v", info[0])
-		if upload {
-			d.filepath = path
-			d.Hash = "u"
-			saveYaml([]pack{d}, false)
-			return
-		}
 	}
 
 	d.filepath = path
@@ -513,7 +506,7 @@ func process(data []pack, latest string) error {
 
 	for i := range data {
 		//only rerun if changed or forced
-		if !force && data[i].Hash != "" && data[i].Hash != "u" {
+		if !force && data[i].Hash != "" {
 			fmt.Printf("\tSkipping %v\n", data[i].filepath)
 			continue
 		}
