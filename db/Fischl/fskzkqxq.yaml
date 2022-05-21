@@ -6,12 +6,12 @@ config: "keqing char lvl=90/90 cons=0 talent=9,9,9;\nkeqing add weapon=\"lionsro
   cd=0.7944;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
   stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\nkazuha add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3972
-  cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"alleyhunter\"
-  refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
-  count=5;\nfischl add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ;
-  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
-  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=118.92 cr=0.3972
+  cd=0.1324;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"alleyhunter\"
+  refine=1 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=5;\nfischl
+  add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ; #main\nfischl add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
   add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
   count=4;\nxingqiu add stats hp=4780 atk=311 er=0.518 cr=0.311 hydro%=0.466 ; #main\nxingqiu
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
@@ -21,7 +21,7 @@ config: "keqing char lvl=90/90 cons=0 talent=9,9,9;\nkeqing add weapon=\"lionsro
   skill,burst,skill,\n       attack,charge,\n       attack,charge,\n       attack,charge,\n
   \      attack,charge;\n       \nkazuha skill,high_plunge;\nfischl attack,burst;\nxingqiu
   attack,skill,attack:2;\nkeqing skill,skill,\n       attack,charge,\n       attack,charge,\n
-  \      attack,charge,\n       attack,charge;\nkazuha skill,high_plunge,attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  \      attack,charge,\n       attack,charge;\nkazuha skill,high_plunge,attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Keqing Taser.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44393.95765842522
+dps: 44463.04415143307
 mode: sl
 duration: 100.9999999999993
 target_count: 1

@@ -1,7 +1,7 @@
 author: borderline#3100
 config: |+
   ningguang char lvl=90/90 cons=6 talent=9,9,9;
-  ningguang add weapon="thewidsith" refine=3 lvl=90/90;
+  ningguang add weapon="solarpearl" refine=1 lvl=90/90;
   ningguang add set="archaicpetra" count=2;
   ningguang add set="emblemofseveredfate" count=2;
   ningguang add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 geo%=0.4660;
@@ -57,8 +57,8 @@ team:
     burst: 9
 - name: ningguang
   con: 6
-  weapon: thewidsith
-  refine: 3
+  weapon: solarpearl
+  refine: 1
   er: 0.1102
   talents:
     attack: 9
@@ -82,7 +82,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32718.486884951708
+dps: 33028.86198121895
 mode: sl
 duration: 96.00000000000009
 target_count: 1

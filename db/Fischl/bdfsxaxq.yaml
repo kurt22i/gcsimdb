@@ -14,15 +14,12 @@ config: "xiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao add weapon=\"favoniuslan
   hp=4780 atk=311.0 er=0.518 cr=0.3110 hydro%=0.4660 def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2317 cd=0.5958;\n\n\n\t\n\ntarget
   lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\noptions swap_delay=12
-  debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
+  debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
   xingqiu;\n\nfischl skill, attack;\nxingqiu attack, skill, burst, attack;\nxiao attack,
-  skill, attack:3;\nbeidou skill[counter=1],burst,attack;\nxiao attack, skill, attack:3;\nfischl
-  burst, attack;\nxiao attack, burst,\n     attack, high_plunge[collision=1],\n     attack,
-  high_plunge[collision=1],\n     attack, high_plunge[collision=1],\n     attack,
-  high_plunge[collision=1],\n     attack, high_plunge[collision=1],\n     attack,
-  high_plunge[collision=1],\n     attack, high_plunge[collision=1],\n     attack,
-  high_plunge[collision=1],\n     attack, high_plunge[collision=1],\n     attack;\nbeidou
-  skill [counter=2], attack;\nxiao attack:2, charge;\n\nrestart;\n"
+  skill, attack:3;\nbeidou skill[counter=2],burst,attack;\nxiao attack, skill, attack:3;\nfischl
+  burst, attack;\nxiao attack, burst,\n     attack,jump,high_plunge,\n     attack,jump,high_plunge,\n
+  \    attack,jump,high_plunge,\n     attack,jump,high_plunge,\n     attack,jump,high_plunge,\n
+  \    attack,jump,high_plunge,\n     attack,jump,high_plunge,\n     attack,jump,high_plunge;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Xiao Taser.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -37,8 +34,8 @@ team:
     burst: 9
 - name: fischl
   con: 6
-  weapon: thestringless
-  refine: 3
+  weapon: alleyhunter
+  refine: 1
   er: 0.1102
   talents:
     attack: 9
@@ -48,7 +45,7 @@ team:
   con: 0
   weapon: favoniuslance
   refine: 3
-  er: 0.6612
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -57,13 +54,13 @@ team:
   con: 6
   weapon: lionsroar
   refine: 3
-  er: 1.069
+  er: 0.7384000000000001
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 41540.39874633397
+dps: 37314.91828045968
 mode: sl
-duration: 99.9999999999986
+duration: 105.00000000000071
 target_count: 1
 viewer_key: SRvvZ3R074_CYKiJCca0T

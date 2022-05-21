@@ -85,6 +85,7 @@ config: |+
   restart;
 
 
+
 description: LEDELFE (Los esclavos de Liyue de Fischl Enjoyer).
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -124,7 +125,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37344.87325952525
+dps: 37380.554295516995
 mode: sl
 duration: 125
 target_count: 1
