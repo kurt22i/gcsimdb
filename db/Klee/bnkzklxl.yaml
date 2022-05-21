@@ -1,4 +1,4 @@
-author: Rare Possum#0511, EnigWa#4825 and solo#0180
+author: Rare Possum#0511, EnigWa#4825, solo#0180 and Toneiro#4389
 config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\n\nklee
   char lvl=90/90 cons=0 talent=9,9,9; \nklee add weapon=\"thewidsith\" refine=3 lvl=90/90;\nklee
   add set=\"lavawalker\" count=4;\nklee add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466
@@ -19,29 +19,29 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\nenergy every interval=480,720 amount=1;\n\nklee attack;\nkazuha skill,
   high_plunge, burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha skill,
-  high_plunge;\nklee attack, walk, attack, skill[bounce=3, mine=8], burst, skill[bounce=3,
-  mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack, charge, attack, charge;\n\t\nbennett
-  skill, attack;\nkazuha skill, high_plunge, burst;\nbennett burst, skill;\nxiangling
-  burst, skill;\nkazuha skill, high_plunge;\nklee attack, walk, attack, skill[bounce=3,
-  mine=8], burst, \n\tattack, charge,\n\tattack, charge,\n\tattack, charge, attack,
-  charge, attack, charge;\n\nbennett skill, attack;\nkazuha skill, high_plunge, burst;\nbennett
+  high_plunge;\nklee attack, burst, attack, skill[bounce=3, mine=8], attack, skill[bounce=3,
+  mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack, charge, attack, charge,
+  attack;\n\t\nbennett skill, attack;\nkazuha skill, high_plunge, burst;\nbennett
   burst, skill;\nxiangling burst, skill;\nkazuha skill, high_plunge;\nklee attack,
-  walk, attack, skill[bounce=3, mine=8], burst, \n\tattack, charge,\n\tattack, charge,\n\tattack,
-  charge, attack, charge, attack, charge;\n\t\nbennett skill, attack;\nkazuha skill,
-  high_plunge, burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha skill,
-  high_plunge;\nklee attack, walk, attack, skill[bounce=3, mine=8], burst, \n\tattack,
-  charge,\n\tattack, charge,\n\tattack, charge, attack, charge, attack, charge;\n\t\nbennett
-  skill, attack;\nkazuha skill, high_plunge, burst;\nbennett burst, skill;\nxiangling
-  burst, skill;\nkazuha skill, high_plunge;\nklee attack, walk, attack, skill[bounce=3,
-  mine=8], burst, \n\tattack, charge,\n\tattack, charge,\n\tattack, charge, attack,
-  charge, attack, charge;\n\t\nbennett skill, attack;\nkazuha skill, high_plunge,
-  burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha skill, high_plunge;\nklee
-  attack, walk, attack, skill[bounce=3, mine=8], burst, \n\tattack, charge,\n\tattack,
-  charge,\n\tattack, charge, attack, charge, attack, charge;\n\t\nbennett skill, attack;\nkazuha
+  burst, attack, skill[bounce=3, mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack,
+  charge, attack, charge, attack, charge, attack;\n\nbennett skill, attack;\nkazuha
   skill, high_plunge, burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha
-  skill, high_plunge;\nklee attack, walk, attack, skill[bounce=3, mine=8], burst,
-  \n\tattack, charge,\n\tattack, charge,\n\tattack, charge, attack, charge, attack,
-  charge;\n\n\n\n"
+  skill, high_plunge;\nklee attack, burst, attack, skill[bounce=3, mine=8], \n\tattack,
+  charge,\n\tattack, charge,\n\tattack, charge, attack, charge, attack, charge, attack;\n\t\nbennett
+  skill, attack;\nkazuha skill, high_plunge, burst;\nbennett burst, skill;\nxiangling
+  burst, skill;\nkazuha skill, high_plunge;\nklee attack, burst, attack, skill[bounce=3,
+  mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack, charge, attack, charge,
+  attack, charge, attack;\n\t\nbennett skill, attack;\nkazuha skill, high_plunge,
+  burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha skill, high_plunge;\nklee
+  attack, burst, attack, skill[bounce=3, mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack,
+  charge, attack, charge, attack, charge, attack;\n\t\nbennett skill, attack;\nkazuha
+  skill, high_plunge, burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha
+  skill, high_plunge;\nklee attack, burst, attack, skill[bounce=3, mine=8], \n\tattack,
+  charge,\n\tattack, charge,\n\tattack, charge, attack, charge, attack, charge, attack;\n\t\nbennett
+  skill, attack;\nkazuha skill, high_plunge, burst;\nbennett burst, skill;\nxiangling
+  burst, skill;\nkazuha skill, high_plunge;\nklee attack, burst, attack, skill[bounce=3,
+  mine=8], \n\tattack, charge,\n\tattack, charge,\n    attack, charge, attack, charge,
+  attack, charge, attack;\n\n\n"
 description: Kleeeeeeeeee!
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46650.13771743967
+dps: 47812.28587626537
 mode: sl
 duration: 102.99999999999858
 target_count: 1

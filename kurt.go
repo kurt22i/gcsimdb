@@ -33,11 +33,13 @@ const ERIndex = 7
 var inputfile = "dbinput.txt"
 var skipped = ""
 var force bool
+var upload bool
 
 func main() {
 	var d bool
 	flag.BoolVar(&d, "d", false, "skip re-download executable?")
 	flag.BoolVar(&force, "f", false, "force rerun all")
+	flag.BoolVar(&upload, "u", false, "upload to db")
 	flag.Parse()
 
 	err := run(d)
@@ -87,6 +89,7 @@ func run(skipDownload bool) error {
 
 	//process
 	err = process(data, hash)
+
 	if err != nil {
 		return errors.Wrap(err, "")
 	}
@@ -100,20 +103,22 @@ func run(skipDownload bool) error {
 	fmt.Print("\nPress 'Enter' to continue...")
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
 
-	//store on cloudflare kv
-	err = uploadResults(data)
-	if err != nil {
-		return errors.Wrap(err, "")
-	}
+	if upload || force {
+		//store on cloudflare kv
+		err = uploadResults(data)
+		if err != nil {
+			return errors.Wrap(err, "")
+		}
 
-	err = uploadIndex(data)
-	if err != nil {
-		return errors.Wrap(err, "")
-	}
+		err = uploadIndex(data)
+		if err != nil {
+			return errors.Wrap(err, "")
+		}
 
-	err = saveYaml(data, true)
-	if err != nil {
-		return errors.Wrap(err, "")
+		err = saveYaml(data, true)
+		if err != nil {
+			return errors.Wrap(err, "")
+		}
 	}
 
 	return nil
@@ -157,6 +162,15 @@ func updateData() error {
 			continue //skip blank lines
 		}
 		info := strings.Split(lines[i], "~")
+		if len(info) > 3 { //if someone has ~ in their name
+			info2 := strings.Split(lines[i], "~")
+			info = []string{"", "", ""}
+			info[0] = info2[0]
+			info[2] = info2[len(info2)-1]
+			for j := 1; j < len(info2)-1; j++ {
+				info[1] += info2[j]
+			}
+		}
 		info[2] = strings.Replace(info[2], "\r", "", 1) //remove weird \r char
 		data := readURL(info[0])
 		filename := getName(data)
@@ -180,13 +194,19 @@ func updateFile(path string, data jsondata, info []string) {
 	if err != nil {
 		//return errors.Wrap(err, "")
 	}
-	if d.Hash == "" { //if there's no hash, we already updated it this run. To ensure every upgrade gets looked at, only one can happen per team per run.
+	if d.Hash == "" || d.Hash == "u" { //if there's no hash, we already updated it this run. To ensure every upgrade gets looked at, only one can happen per team per run.
 		fmt.Printf("\t%v was already updated, skipping", info[0])
 		skipped += fmt.Sprintf("\t%v was already updated, skipping", info[0])
 		return
 	} else {
 		fmt.Printf("\tupdating %v", info[0])
 		skipped += fmt.Sprintf("\tupdating %v", info[0])
+		if upload {
+			d.filepath = path
+			d.Hash = "u"
+			saveYaml([]pack{d}, false)
+			return
+		}
 	}
 
 	d.filepath = path
@@ -493,7 +513,7 @@ func process(data []pack, latest string) error {
 
 	for i := range data {
 		//only rerun if changed or forced
-		if !force && data[i].Hash != "" {
+		if !force && data[i].Hash != "" && data[i].Hash != "u" {
 			fmt.Printf("\tSkipping %v\n", data[i].filepath)
 			continue
 		}

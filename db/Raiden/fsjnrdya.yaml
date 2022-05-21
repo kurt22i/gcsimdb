@@ -1,4 +1,4 @@
-author: Rare Possum#0511
+author: Rare Possum#0511 and solo#0180
 config: |+
   yaemiko char lvl=90/90 cons=0 talent=9,9,9;
   yaemiko add weapon="thewidsith" refine=3 lvl=90/90;
@@ -20,7 +20,7 @@ config: |+
   jean add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
 
   fischl char lvl=90/90 cons=6 talent=9,9,9;
-  fischl add weapon="alleyhunter" refine=1 lvl=90/90 ;
+  fischl add weapon="alleyhunter" refine=1 lvl=90/90 +params=[stacks=10];
   fischl add set="tenacityofthemillelith" count=4;
   fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
   fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
@@ -47,6 +47,8 @@ config: |+
   raidenshogun burst, attack:5, dash, attack:5, dash, attack:4,charge; #you can do 3xN3C N1C if fischl is non c6
 
   restart;
+
+
 
 
 
@@ -90,7 +92,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33156.69300230542
+dps: 33290.32681223991
 mode: sl
 duration: 109.99999999999949
 target_count: 1

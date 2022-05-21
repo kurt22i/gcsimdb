@@ -1,8 +1,8 @@
-author: childe hate account#1071
+author: childe hate account#1071 and solo#0180
 config: "sara char lvl=90/90 cons=6 talent=9,9,9;\nsara add weapon=\"alleyhunter\"
-  refine=1 lvl=90/90;\nsara add set=\"instructor\" count=4;\nsara add stats def%=0.1240
-  def=39.36 hp=4079 hp%=0.09920 atk=265.0 atk%=0.8440 er=0.1102 em=39.64 cr=0.2982
-  cd=0.3972 electro%=0.4660;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
+  refine=1 lvl=90/90 +params=[stacks=10];\nsara add set=\"instructor\" count=4;\nsara
+  add stats def%=0.1240 def=39.36 hp=4079 hp%=0.09920 atk=265.0 atk%=0.8440 er=0.1102
+  em=39.64 cr=0.2982 cd=0.3972 electro%=0.4660;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
   add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=4;\nbennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.0
   atk%=0.09920 er=1.069 em=39.64 cr=0.5096 cd=0.6620 pyro%=0.4660;\n\nxiangling char
@@ -18,7 +18,7 @@ config: "sara char lvl=90/90 cons=6 talent=9,9,9;\nsara add weapon=\"alleyhunter
   amount=1;\n\n# ----  Actions List\n\nactive rosaria;\n\nrosaria skill;\nbennett
   burst, skill;\nsara skill;\nxiangling burst, skill;\nsara aim, charge;\n\nrosaria
   attack:2, skill, burst;\n\nbennett skill;\nxiangling attack:3;\n\n \nrosaria  skill,
-  attack:3;\n \n\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n"
+  attack:3;\n \n\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n"
 description: Rosaria Reverse Melt with Sara.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -58,7 +58,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40198.286331697236
+dps: 40294.09641190926
 mode: sl
 duration: 102.99999999999858
 target_count: 1

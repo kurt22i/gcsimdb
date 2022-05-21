@@ -12,12 +12,14 @@ config: |+
 
   xingqiu char lvl=90/90 cons=6 talent=9,9,9;
   xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
-  xingqiu add set="noblesseoblige" count=4;
-  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.2204 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main
+  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
 
   yunjin char lvl=90/90 cons=6 talent=9,9,9;
   yunjin add weapon="favoniuslance" refine=3 lvl=90/90;
-  yunjin add set="huskofopulentdreams" count=4;
+  yunjin add set="noblesseoblige" count=4;
   yunjin add stats def%=1.662 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.4408 em=39.64 cr=0.6420 cd=0.1324;
 
   options swap_delay=12 debug=true iteration=1000 duration=125 workers=30 mode=sl;
@@ -83,9 +85,6 @@ config: |+
   restart;
 
 
-
-
-
 description: LEDELFE (Los esclavos de Liyue de Fischl Enjoyer).
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -102,7 +101,7 @@ team:
   con: 6
   weapon: favoniussword
   refine: 3
-  er: 0.2204
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
@@ -125,7 +124,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37025.13648842993
+dps: 37355.23983629743
 mode: sl
 duration: 125
 target_count: 1

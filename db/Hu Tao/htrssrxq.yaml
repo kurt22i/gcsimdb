@@ -1,4 +1,4 @@
-author: KurticusZen#5674
+author: KurticusZen#5674 and solo#0180
 config: "options swap_delay=12 debug=true iteration=1000 duration=114 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1; \nhutao add weapon=\"deathmatch\"
   refine=1 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\" count=5;\nhutao add
@@ -9,25 +9,25 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=114 workers=30
   hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648
   cd=0.662;\n\nsara char lvl=90/90 cons=6 talent=9,9,9;\nsara add weapon=\"alleyhunter\"
-  refine=1 lvl=90/90;\nsara add set=\"instructor\" count=4;\nsara add stats hp=4780
-  atk=311 atk%=0.348 cr=0.232  cryo%=0.466 ; #main #main\nsara add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.0662
-  cd=0.3972;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\"
-  refine=1 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=5;\nrosaria add
-  stats hp=4780 atk=311 er=0.518 cd=0.622 cryo%=0.466 ; #main\nrosaria add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
-  amount=1;\n\nactive xingqiu;\n\nxingqiu burst[orbital=1], attack, skill[orbital=1],
-  attack:2;\nsara skill, attack:2;\nrosaria skill, attack, burst, attack:2;\nsara
-  aim, charge;\nhutao skill, attack:1, charge, jump,\n    attack:1, charge, jump,\n
-  \   attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
-  jump, attack, burst;\nrosaria skill, attack:2; \n\nxingqiu burst[orbital=1], attack,
-  skill[orbital=1], attack:2;\nsara skill, attack:2;\nrosaria skill, attack, burst,
-  attack:2;\nsara aim, charge;\nhutao skill, attack:1, charge, jump,\n    attack:1,
+  refine=1 lvl=90/90 +params=[stacks=10];\nsara add set=\"instructor\" count=4;\nsara
+  add stats hp=4780 atk=311 atk%=0.348 cr=0.232  cryo%=0.466 ; #main #main\nsara add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64
+  cr=0.0662 cd=0.3972;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add
+  weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
+  count=5;\nrosaria add stats hp=4780 atk=311 er=0.518 cd=0.622 cryo%=0.466 ; #main\nrosaria
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu burst[orbital=1],
+  attack, skill[orbital=1], attack:2;\nsara skill, attack:2;\nrosaria skill, attack,
+  burst, attack:2;\nsara aim, charge;\nhutao skill, attack:1, charge, jump,\n    attack:1,
   charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:1,
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
-  charge, jump;\nrosaria skill, attack:2;\n\n\nrestart;\n\n\n\n\n\n\n\n\n"
+  charge, jump, attack, burst;\nrosaria skill, attack:2; \n\nxingqiu burst[orbital=1],
+  attack, skill[orbital=1], attack:2;\nsara skill, attack:2;\nrosaria skill, attack,
+  burst, attack:2;\nsara aim, charge;\nhutao skill, attack:1, charge, jump,\n    attack:1,
+  charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:1,
+  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
+  charge, jump;\nrosaria skill, attack:2;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n"
 description: Tao Overvapemelt (yes).
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40289.70392432413
+dps: 40383.18145429898
 mode: sl
 duration: 114.00000000000126
 target_count: 1
