@@ -1,31 +1,31 @@
 author: Kurt#5846
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=129 workers=30 mode=sl;\n\nhutao char lvl=90/90 cons=0 talent=9,9,9;\nhutao
-  add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\"
-  count=4;\nhutao add stats hp=4780 atk=311 hp%=0.466 cr=0.311 pyro%=0.466 ; #main\nhutao
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.331 cd=0.662;\n\nxiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao add
-  weapon=\"favlance\" refine=3 lvl=90/90;\nxiao add set=\"viridescentvenerer\" count=4;\nxiao
-  add stats hp=4780 atk=311 atk%=0.466 anemo%=0.466 cr=0.311 ; #main\nxiao add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
-  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=4;\nbennett add stats hp=3571 atk=311 er=0.518 cr=0.311 pyro%=0.466 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.1986 cd=0.5296;\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
-  amount=1;\n\nactive xingqiu;\n\nxingqiu skill, burst, attack:1;\nxiao skill;\nbennett
+config: "options swap_delay=12 debug=true iteration=1000 duration=129 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nhutao
+  add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 hp%=0.466
+  cr=0.311 pyro%=0.466 ; #main\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984
+  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90
+  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nxiao char
+  lvl=90/90 cons=0 talent=9,9,9;\nxiao add weapon=\"favlance\" refine=3 lvl=90/90;\nxiao
+  add set=\"viridescentvenerer\" count=4;\nxiao add stats hp=4780 atk=311 atk%=0.466
+  anemo%=0.466 cr=0.311 ; #main\nxiao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=4;\nbennett add stats hp=3571 atk=311 er=0.518
+  cr=0.311 pyro%=0.466 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.1986 cd=0.5296;\n\ntarget lvl=100
+  resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu
+  skill, burst, attack:1;\nxiao skill;\nbennett skill, burst;\nxiao skill;\nhutao
+  skill, attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:1, charge, burst,attack;\nbennett
+  skill,attack:4,skill;\n\n\nxingqiu skill, burst, attack:1;\nxiao skill;\nbennett
   skill, burst;\nxiao skill;\nhutao skill, attack:1, charge, jump,\n    attack:2,
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
-  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:1,
-  charge, burst,attack;\nbennett skill,attack:4,skill;\n\n\nxingqiu skill, burst,
-  attack:1;\nxiao skill;\nbennett skill, burst;\nxiao skill;\nhutao skill, attack:1,
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
-  charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
-  charge, jump,\n    attack:2, charge,attack;\nxiao burst,high_plunge[collision=1],high_plunge[collision=1],high_plunge[collision=1],high_plunge[collision=1];\n\nrestart;\n"
+  charge,attack;\nxiao burst,high_plunge[collision=1],high_plunge[collision=1],high_plunge[collision=1],high_plunge[collision=1];\n\nrestart;\n"
 description: Tired of all the fancy double VV setups? Introducing xiTao!
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36603.42310952642
+dps: 36596.158749259266
 mode: sl
 duration: 129.00000000000193
 target_count: 1

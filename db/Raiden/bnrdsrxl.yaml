@@ -1,26 +1,25 @@
 author: Kurt#5846
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=100 workers=30 mode=sl;\n\n\nraidenshogun char lvl=90/90
-  cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun
-  add set=\"emblemofseveredfate\" count=5;\nraidenshogun add stats hp=4780 atk=311
-  atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n\nxiangling
-  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"wavebreakersfin\" refine=1
-  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
-  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648
-  cd=0.5296;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
-  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
-  cd=0.7944;\n\nsara char lvl=90/90 cons=6 talent=9,9,9; \nsara add weapon=\"mouunsmoon\"
-  refine=1 lvl=90/90;\nsara add set=\"tenacityofthemillelith\" count=5;\nsara add
-  stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nsara add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.1986
-  cd=0.5296;\n\nactive sara;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\n\nraiden
-  skill;\n\nbennett burst,skill;\nsara skill;\nxiangling burst,skill;\nsara burst;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\nbennett
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\nraidenshogun
+  char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;
+  \nxiangling add weapon=\"wavebreakersfin\" refine=1 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=5;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.2648 cd=0.5296;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944;\n\nsara char lvl=90/90 cons=6 talent=9,9,9; \nsara
+  add weapon=\"mouunsmoon\" refine=1 lvl=90/90;\nsara add set=\"tenacityofthemillelith\"
+  count=5;\nsara add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nsara
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612
+  em=39.64 cr=0.1986 cd=0.5296;\n\nactive sara;\ntarget lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720
+  amount=1;\n\nraiden skill;\n\nbennett burst,skill;\nsara skill;\nxiangling burst,skill;\nsara
+  burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\nbennett
   skill;\nxiangling attack;\n\n\nbennett burst,skill;\nsara skill;\nxiangling burst,skill;\nsara
   burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\nbennett
   skill;\nxiangling attack;\n\nbennett burst,skill;\nsara skill;\nxiangling burst,skill;\nsara
@@ -72,7 +71,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43285.08549954752
+dps: 43218.00044234777
 mode: sl
 duration: 99.9999999999986
 target_count: 1

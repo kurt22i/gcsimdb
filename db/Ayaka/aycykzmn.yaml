@@ -1,26 +1,26 @@
 author: RoyM#2340
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=102 workers=30 mode=sl;\nenergy every interval=480,720 amount=1;\ntarget
-  lvl=100 resist=0.1;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"ironsting\"
-  refine=5 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=5;\nkazuha add
-  stats hp=4780 atk=311 em=187 em=187 em=187 ;\nkazuha add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;\n\nayaka
-  char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5
-  lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=5;\nayaka add stats hp=4780
-  atk=311 atk%=0.466 cryo%=0.466 cd=0.622;\nayaka add stats hp%=0.0992 hp=507.88 atk%=0.1984
-  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.3972 cd=0.662 er=0.1102;\n\nchongyun
-  char lvl=90/90 cons=6 talent=9,9,9;\nchongyun add weapon=\"favoniusgreatsword\"
-  refine=3 lvl=90/90;\nchongyun add set=\"noblesseoblige\" count=5;\nchongyun add
-  stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311;\nchongyun add stats hp%=0.0992
-  hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944
-  er=0.1102;\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add
-  stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.2204 em=39.64 cr=0.1986
-  cd=0.662;\n\nactive ayaka;\nayaka dash,attack,skill;\nchongyun skill,attack,burst;\nkazuha
-  skill[hold=1],high_plunge,burst;\nmona skill,burst;\nayaka dash,attack,skill,burst;\nkazuha
-  skill,high_plunge;\nchongyun burst;\nayaka dash,attack:2,charge;\nmona skill;\nkazuha
-  skill,high_plunge;\nayaka dash,attack:2,charge,\n      dash,attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\nenergy
+  every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nkazuha char lvl=90/90
+  cons=0 talent=9,9,9;\nkazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha
+  add set=\"viridescentvenerer\" count=5;\nkazuha add stats hp=4780 atk=311 em=187
+  em=187 em=187 ;\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;\n\nayaka char lvl=90/90 cons=0
+  talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka add
+  set=\"blizzardstrayer\" count=5;\nayaka add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466
+  cd=0.622;\nayaka add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124
+  def=39.36 em=39.64 cr=0.3972 cd=0.662 er=0.1102;\n\nchongyun char lvl=90/90 cons=6
+  talent=9,9,9;\nchongyun add weapon=\"favoniusgreatsword\" refine=3 lvl=90/90;\nchongyun
+  add set=\"noblesseoblige\" count=5;\nchongyun add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cr=0.311;\nchongyun add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08
+  def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102;\n\nmona char lvl=90/90
+  cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\" refine=5
+  lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add stats hp=4780
+  atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.2204 em=39.64 cr=0.1986 cd=0.662;\n\nactive
+  ayaka;\nayaka dash,attack,skill;\nchongyun skill,attack,burst;\nkazuha skill[hold=1],high_plunge,burst;\nmona
+  skill,burst;\nayaka dash,attack,skill,burst;\nkazuha skill,high_plunge;\nchongyun
+  burst;\nayaka dash,attack:2,charge;\nmona skill;\nkazuha skill,high_plunge;\nayaka
+  dash,attack:2,charge,\n      dash,attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41684.37005978674
+dps: 41661.89910753502
 mode: sl
 duration: 102.00000000000051
 target_count: 1

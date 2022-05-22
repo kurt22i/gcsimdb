@@ -1,26 +1,25 @@
 author: Rare Possum#0511
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=88 workers=30 mode=sl;\n\n\n\nyoimiya char lvl=90/90 cons=0
-  talent=9,9,9; \nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya add set=\"shimenawasreminiscence\"
-  count=5;\nyoimiya add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nyoimiya
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9;
-  \nkaedeharakazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkaedeharakazuha
-  add set=\"viridescentvenerer\" count=5;\nkaedeharakazuha add stats hp=4780 atk=311
-  em=561 ; #main\nkaedeharakazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.3972 cd=0.1324;\n\nxingqiu char lvl=90/90
-  cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
-  hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nyanfei
-  char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"favoniuscodex\" refine=3
-  lvl=90/90;\nyanfei add set=\"noblesseoblige\" count=5;\nyanfei add stats hp=4780
-  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nyanfei add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;\n\nactive
-  xingqiu;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
-  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\nxingqiu skill,burst,
-  attack;\nkazuha burst, attack;\nyanfei skill, burst;\nkazuha skill, high_plunge,
-  attack;\nyoimiya skill,attack:18;\nkazuha skill, high_plunge, attack:2;\n\nyoimiya
+config: "options swap_delay=12 debug=true iteration=1000 duration=88 workers=30 mode=sl;\n\n\n\nyoimiya
+  char lvl=90/90 cons=0 talent=9,9,9; \nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya
+  add set=\"shimenawasreminiscence\" count=5;\nyoimiya add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311 ; #main\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nkaedeharakazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkaedeharakazuha add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nkaedeharakazuha add set=\"viridescentvenerer\" count=5;\nkaedeharakazuha
+  add stats hp=4780 atk=311 em=561 ; #main\nkaedeharakazuha add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.3972 cd=0.1324;\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats
+  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\nyanfei char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"favoniuscodex\"
+  refine=3 lvl=90/90;\nyanfei add set=\"noblesseoblige\" count=5;\nyanfei add stats
+  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nyanfei add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331
+  cd=0.5296;\n\nactive xingqiu;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
+  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\nxingqiu
+  skill,burst, attack;\nkazuha burst, attack;\nyanfei skill, burst;\nkazuha skill,
+  high_plunge, attack;\nyoimiya skill,attack:18;\nkazuha skill, high_plunge, attack:2;\n\nyoimiya
   burst;\nxingqiu skill,burst, attack;\nkazuha burst;\nyanfei skill,attack, burst;\nkazuha
   skill, high_plunge, attack;\nyoimiya skill,attack:18;\nkazuha skill, high_plunge,
   attack:2;\nwait 26;\nyanfei attack:2;\n\n\n\nrestart;\n\n\n\n\n"
@@ -63,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32921.83077701593
+dps: 33021.880012017005
 mode: sl
 duration: 87.99999999999878
 target_count: 1

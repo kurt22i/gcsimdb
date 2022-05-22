@@ -24,7 +24,6 @@ config: |+
   fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;
   fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
 
-  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=131 workers=30 mode=sl;
 
   target lvl=100 resist=0.1;
@@ -89,7 +88,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48440.151807004935
+dps: 48548.83665782689
 mode: sl
 duration: 131.0000000000002
 target_count: 1

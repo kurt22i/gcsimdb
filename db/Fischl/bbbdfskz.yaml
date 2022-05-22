@@ -1,30 +1,30 @@
 author: Arfoire#9219
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 iteration=1000
-  duration=100 mode=apl;\n\n#Character Builds:\nbeidou char lvl=90/90 cons=6 talent=9,9,9;
-  \nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou
-  add set=\"emblemofseveredfate\" count=4;\nbeidou add stats hp=4780 atk=311 atk%=0.466
-  electro%=0.466 cd=0.622 ; #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nfischl
-  char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3
-  lvl=90/90;\nfischl add set=\"shimenawasreminiscence\" count=2;\nfischl add set=\"thunderingfury\"
-  count=2;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
-  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
-  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nbarbara char lvl=90/90 cons=6 talent=9,9,9;
-  \nbarbara add weapon=\"hakushinring\" refine=5 lvl=90/90;\nbarbara add set=\"oceanhuedclam\"
-  count=4;\nbarbara add stats hp=4780 atk=311 hp%=0.466 hp%=0.466 heal=0.359 ; #main\nbarbara
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
-  em=237.84 cr=0.0662 cd=0.1324;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
-  count=4;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0662
-  cd=0.5296;\n\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy every
-  interval=480,720 amount=1;\n\n#Action list\nactive fischl;\n\nfischl skill, attack:2
-  +if=.status.fischloz<120;\nfischl burst, attack:2 +if=.status.fischloz<120;\nbarbara
-  skill, attack;\nkazuha skill, high_plunge +if=.status.beidouburst==0;\nkazuha burst,
-  skill, high_plunge +if=.status.beidouburst==0;\nbeidou skill[counter=1], attack
-  +if=.status.beidouburst>0;\nbeidou skill[counter=1], attack;\nbeidou burst, attack;\nkazuha
-  skill, high_plunge, attack +if=.status.beidouburst>0;\nkazuha burst, attack +if=.status.beidouburst>0;\nbarbara
-  attack, burst;\nbarbara attack:3, charge, attack;\nrestart;\n\n"
+config: "options swap_delay=12 iteration=1000 duration=100 mode=apl;\n\n#Character
+  Builds:\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cd=0.622 ; #main\nbeidou add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"shimenawasreminiscence\"
+  count=2;\nfischl add set=\"thunderingfury\" count=2;\nfischl add stats hp=4780 atk=311
+  atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nbarbara
+  char lvl=90/90 cons=6 talent=9,9,9; \nbarbara add weapon=\"hakushinring\" refine=5
+  lvl=90/90;\nbarbara add set=\"oceanhuedclam\" count=4;\nbarbara add stats hp=4780
+  atk=311 hp%=0.466 hp%=0.466 heal=0.359 ; #main\nbarbara add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=237.84 cr=0.0662 cd=0.1324;\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
+  atk=311 em=561 ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.0662 cd=0.5296;\n\n\n#Enemies and
+  Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
+  list\nactive fischl;\n\nfischl skill, attack:2 +if=.status.fischloz<120;\nfischl
+  burst, attack:2 +if=.status.fischloz<120;\nbarbara skill, attack;\nkazuha skill,
+  high_plunge +if=.status.beidouburst==0;\nkazuha burst, skill, high_plunge +if=.status.beidouburst==0;\nbeidou
+  skill[counter=1], attack +if=.status.beidouburst>0;\nbeidou skill[counter=1], attack;\nbeidou
+  burst, attack;\nkazuha skill, high_plunge, attack +if=.status.beidouburst>0;\nkazuha
+  burst, attack +if=.status.beidouburst>0;\nbarbara attack, burst;\nbarbara attack:3,
+  charge, attack;\nrestart;\n\n"
 description: Barbara Taser.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34371.4426938759
+dps: 34345.641346932
 mode: apl
 duration: 99.9999999999986
 target_count: 1

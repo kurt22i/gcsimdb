@@ -1,28 +1,27 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\nyanfei char lvl=90/90 cons=6
-  talent=9,9,9; \nyanfei add weapon=\"thewidsith\" refine=3 lvl=90/90;\nyanfei add
-  set=\"shimenawasreminiscence\" count=4;\nyanfei add stats hp=4780 atk=311 atk%=0.466
-  pyro%=0.466 cr=0.311 ; #main\nyanfei add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90
-  cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
-  add set=\"tenacityofthemillelith\" count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466
-  electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n\nbeidou
-  char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"favoniusgreatsword\" refine=3
-  lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=5;\nbeidou
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nbeidou add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
-  add weapon=\"thealleyflash\" refine=3 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\n\nactive bennett;\ntarget lvl=100 pyro=0.1 dendro=0.1
-  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
-  amount=1;\n\nbennett skill,burst;\nfischl attack, skill;\nbeidou skill,burst;\nyanfei
-  skill,attack:3,charge,attack:3,charge,attack:3,charge;\nbeidou skill[counter=2],
-  attack;\nbennett skill;\nyanfei attack:3,charge, attack;\n\nbennett skill,burst;\nfischl
-  attack, burst;\nbeidou skill,burst;\nyanfei skill,attack:3,charge,attack:3,charge,attack:3,charge;\nbeidou
+config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\nyanfei
+  char lvl=90/90 cons=6 talent=9,9,9; \nyanfei add weapon=\"thewidsith\" refine=3
+  lvl=90/90;\nyanfei add set=\"shimenawasreminiscence\" count=4;\nyanfei add stats
+  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nyanfei add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou
+  add weapon=\"favoniusgreatsword\" refine=3 lvl=90/90 +params=[stacks=5];\nbeidou
+  add set=\"emblemofseveredfate\" count=5;\nbeidou add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cr=0.311 ; #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=3
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n\nactive
+  bennett;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nbennett skill,burst;\nfischl
+  attack, skill;\nbeidou skill,burst;\nyanfei skill,attack:3,charge,attack:3,charge,attack:3,charge;\nbeidou
+  skill[counter=2], attack;\nbennett skill;\nyanfei attack:3,charge, attack;\n\nbennett
+  skill,burst;\nfischl attack, burst;\nbeidou skill,burst;\nyanfei skill,attack:3,charge,attack:3,charge,attack:3,charge;\nbeidou
   skill[counter=2], attack;\nbennett skill;\nyanfei attack:3,charge,attack;\nrestart;\n\n"
 description: Yanfei Overload. Better against 2+ targets.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
@@ -63,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30634.47681511776
+dps: 30644.45838003942
 mode: sl
 duration: 99.9999999999986
 target_count: 1

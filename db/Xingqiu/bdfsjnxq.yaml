@@ -1,16 +1,15 @@
 author: RoyM#2340
-config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
-  duration=102 mode=sl;\n\n#Character builds:\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
-  add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\njean char lvl=90/90 cons=0 talent=9,9,9; \njean
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\njean add set=\"viridescentvenerer\"
-  count=4;\njean add stats hp=4780 atk=311 atk%=0.466 anemo%=0.466 cr=0.311; #main\njean
-  add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.331 cd=0.7944 er=0.1102;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nfischl char
-  lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"alleyhunter\" refine=1 lvl=90/90
-  +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
+config: "options debug=true iteration=1000 duration=102 mode=sl;\n\n#Character builds:\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"emblemofseveredfate\" count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\njean
+  char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\njean add set=\"viridescentvenerer\" count=4;\njean add stats hp=4780
+  atk=311 atk%=0.466 anemo%=0.466 cr=0.311; #main\njean add stats hp%=0.0992 hp=507.88
+  atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nfischl
+  char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"alleyhunter\" refine=1
+  lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
   add stats hp=4780 atk=311 cr=0.311 electro%=0.466 atk%=0.466;\nfischl add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
   cr=0.331 cd=0.7944;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;\nbeidou add weapon=\"serpentspine\"
@@ -64,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39140.80220236452
+dps: 39148.62520301868
 mode: sl
 duration: 102.00000000000051
 target_count: 1

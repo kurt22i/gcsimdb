@@ -1,6 +1,5 @@
 author: Rare Possum#0511, Jhony75#8133 and danii#8748
 config: |+
-  hurt every interval=0,1200 amount=0,3000;
   options debug=true iteration=1000 duration=142 workers=30 mode=sl swap_delay=12;
 
   ayaka char lvl=90/90 cons=0 talent=9,9,9;
@@ -89,7 +88,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49928.68510699139
+dps: 49942.729942713966
 mode: sl
 duration: 141.99999999999835
 target_count: 1

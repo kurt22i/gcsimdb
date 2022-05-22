@@ -1,14 +1,13 @@
 author: RoyM#2340
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=115 mode=sl;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;\nxiangling
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=4;\nxiangling add stats hp=4780 atk=311.0 atk%=0.466 cr=0.311 pyro%=0.466;\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
-  count=4;\nbennett add stats hp=3571 atk=232 pyro%=0.348 er=0.518 cr=0.232;\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=39.64 cr=0.2648 cd=0.5296;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\ntartaglia
+config: "options swap_delay=12 debug=true iteration=1000 duration=115 mode=sl;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
+  hp=4780 atk=311.0 atk%=0.466 cr=0.311 pyro%=0.466;\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats
+  hp=3571 atk=232 pyro%=0.348 er=0.518 cr=0.232;\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2648 cd=0.5296;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\ntartaglia
   char lvl=90/90 cons=0 talent=9,9,9;\ntartaglia add weapon=\"theviridescenthunt\"
   refine=1 lvl=90/90;\ntartaglia add set=\"heartofdepth\" count=4;\ntartaglia add
   stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cd=0.622;\ntartaglia add stats def%=0.124
@@ -62,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35181.91806144068
+dps: 35229.44248397863
 mode: sl
 duration: 114.9999999999981
 target_count: 1

@@ -1,10 +1,9 @@
 author: Kurt#5846
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=93 workers=30 mode=sl;\n\nningguang char lvl=90/90 cons=6
-  talent=9,9,9;\nningguang add weapon=\"thewidsith\" refine=3 lvl=90/90;\nningguang
-  add set=\"archaicpetra\" count=2;\nningguang add set=\"gladiatorsfinale\" count=2;\nningguang
-  add stats hp=4780 atk=311 atk%=0.466 cr=0.311 geo%=0.466 ; #main\nningguang add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+config: "options swap_delay=12 debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\nningguang
+  char lvl=90/90 cons=6 talent=9,9,9;\nningguang add weapon=\"thewidsith\" refine=3
+  lvl=90/90;\nningguang add set=\"archaicpetra\" count=2;\nningguang add set=\"gladiatorsfinale\"
+  count=2;\nningguang add stats hp=4780 atk=311 atk%=0.466 cr=0.311 geo%=0.466 ; #main\nningguang
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
   em=39.64 cr=0.331 cd=0.662;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo
   add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\"
   count=4 +params=[stacks=4];\nalbedo add set=\"paleflame\" count=1;\nalbedo add stats
@@ -64,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37842.76778035784
+dps: 37991.90650222961
 mode: sl
 duration: 93.0000000000023
 target_count: 1

@@ -21,7 +21,6 @@ config: |+
   fischl add set="tenacityofthemillelith" count=4;
   fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.4408 em=39.64 cr=0.6420 cd=0.5296 electro%=0.4660;
 
-  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=125 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
@@ -127,7 +126,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38851.71148559595
+dps: 38860.94462695923
 mode: sl
 duration: 125
 target_count: 1

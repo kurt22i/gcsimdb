@@ -1,30 +1,30 @@
 author: ShadowDawn#5332
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=108 workers=30 mode=sl;\nenergy every interval=480,720 amount=1;\ntarget
-  lvl=100 resist=0.1;\n\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\"
-  refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=5;\nayaka add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main\nayaka add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102 em=39.64 cr=0.331
-  cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
-  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311; #main\nfischl add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
-  em=39.64 cr=0.2317 cd=0.7282;\n\nchongyun char lvl=90/90 cons=6 talent=9,9,9;\nchongyun
-  add weapon=\"favoniusgreatsword\" refine=3 lvl=90/90;\nchongyun add set=\"noblesseoblige\"
-  count=5;\nchongyun add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nchongyun
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\n# rotation length=18s\nactive chongyun;\nchongyun
-  burst, attack, skill, attack;\nayaka dash, skill, attack:3, charge;\nfischl skill,
-  attack;\nxingqiu skill, dash, burst, attack;\nwait 1;\nayaka dash, attack, burst,
+config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;\nenergy
+  every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nayaka char lvl=90/90
+  cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka
+  add set=\"blizzardstrayer\" count=5;\nayaka add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622; #main\nayaka add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.2976 er=0.1102 em=39.64 cr=0.331 cd=0.662;\n\nfischl char lvl=90/90
+  cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
+  add set=\"tenacityofthemillelith\" count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cr=0.311; #main\nfischl add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=5;\nxingqiu add stats
+  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317
+  cd=0.7282;\n\nchongyun char lvl=90/90 cons=6 talent=9,9,9;\nchongyun add weapon=\"favoniusgreatsword\"
+  refine=3 lvl=90/90;\nchongyun add set=\"noblesseoblige\" count=5;\nchongyun add
+  stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nchongyun add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\n# rotation length=18s\nactive chongyun;\nchongyun burst,
+  attack, skill, attack;\nayaka dash, skill, attack:3, charge;\nfischl skill, attack;\nxingqiu
+  skill, dash, burst, attack;\nwait 1;\nayaka dash, attack, burst, skill;\nayaka attack:2,
+  charge, dash;\nayaka attack:2, charge, dash;\nayaka attack:2, charge;\n\nchongyun
+  burst, attack, skill, attack;\nayaka dash, skill, attack:3, charge;\nfischl attack,
+  burst;\nxingqiu skill, dash, burst, attack;\nwait 1;\nayaka dash, attack, burst,
   skill;\nayaka attack:2, charge, dash;\nayaka attack:2, charge, dash;\nayaka attack:2,
-  charge;\n\nchongyun burst, attack, skill, attack;\nayaka dash, skill, attack:3,
-  charge;\nfischl attack, burst;\nxingqiu skill, dash, burst, attack;\nwait 1;\nayaka
-  dash, attack, burst, skill;\nayaka attack:2, charge, dash;\nayaka attack:2, charge,
-  dash;\nayaka attack:2, charge;\n\nrestart;\n\n"
+  charge;\n\nrestart;\n\n"
 description: Swift as lightning, cold as ice.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40908.03433782391
+dps: 40838.4757182688
 mode: sl
 duration: 108.00000000000088
 target_count: 1

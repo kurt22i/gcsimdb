@@ -1,29 +1,29 @@
 author: Rare Possum#0511, EnigWa#4825, solo#0180 and Toneiro#4389
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=103 workers=30 mode=sl;\n\n\nklee char lvl=90/90 cons=0
-  talent=9,9,9; \nklee add weapon=\"thewidsith\" refine=3 lvl=90/90;\nklee add set=\"lavawalker\"
-  count=4;\nklee add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nklee
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.331 cd=0.662;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=4;\nxiangling add stats hp=4780 atk=311 er=.518 pyro%=0.466 cr=0.311 ; #main\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
-  count=4;\nkazuha add stats hp=4780 atk=311 em=561; #main\nkazuha add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972
-  cd=0.1324;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
-  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
-  cd=0.7282;\n\nactive klee;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nklee
-  attack;\nkazuha skill, high_plunge, burst;\nbennett burst, skill;\nxiangling burst,
-  skill;\nkazuha skill, high_plunge;\nklee attack, burst, attack, skill[bounce=3,
-  mine=8], attack, skill[bounce=3, mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack,
-  charge, attack, charge, attack;\n\t\nbennett skill, attack;\nkazuha skill, high_plunge,
-  burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha skill, high_plunge;\nklee
-  attack, burst, attack, skill[bounce=3, mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack,
+config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\n\nklee
+  char lvl=90/90 cons=0 talent=9,9,9; \nklee add weapon=\"thewidsith\" refine=3 lvl=90/90;\nklee
+  add set=\"lavawalker\" count=4;\nklee add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466
+  cr=0.311 ; #main\nklee add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nxiangling char lvl=90/90 cons=6
+  talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 er=.518
+  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
+  atk=311 em=561; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;\n\nactive klee;\ntarget
+  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
+  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nklee attack;\nkazuha skill,
+  high_plunge, burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha skill,
+  high_plunge;\nklee attack, burst, attack, skill[bounce=3, mine=8], attack, skill[bounce=3,
+  mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack, charge, attack, charge,
+  attack;\n\t\nbennett skill, attack;\nkazuha skill, high_plunge, burst;\nbennett
+  burst, skill;\nxiangling burst, skill;\nkazuha skill, high_plunge;\nklee attack,
+  burst, attack, skill[bounce=3, mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack,
   charge, attack, charge, attack, charge, attack;\n\nbennett skill, attack;\nkazuha
   skill, high_plunge, burst;\nbennett burst, skill;\nxiangling burst, skill;\nkazuha
   skill, high_plunge;\nklee attack, burst, attack, skill[bounce=3, mine=8], \n\tattack,
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47737.28141203981
+dps: 47791.7461863793
 mode: sl
 duration: 102.99999999999858
 target_count: 1

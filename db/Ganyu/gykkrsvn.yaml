@@ -1,27 +1,26 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=83 workers=30 mode=sl;\n\nrosaria char lvl=90/90 cons=6
-  talent=9,9,9;\nrosaria add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria
-  add set=\"noblesseoblige\" count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466
-  cryo%=0.466 cr=0.311; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nkokomi char lvl=90/90
-  cons=0 talent=9,9,9; \nkokomi add weapon=\"thrillingtalesofdragonslayers\" refine=5
-  lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\" count=5;\nkokomi add stats
-  hp=4780 atk=311 hydro%=0.466 atk%=0.932\t; #main\nkokomi add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.3306 em=237.84 cr=0.0662 cd=0.1324;\n\nventi
-  char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"stringless\" refine=3 lvl=90/90;\nventi
-  add set=\"viridescentvenerer\" count=5;\nventi add stats hp=4780 atk=311 em=561;
-  #main\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952
-  er=0.4408 em=39.64 cr=0.1324 cd=0.2648;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
-  \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
-  count=5;\nganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.3972 cd=0.662;\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\nactive
-  ganyu;\n#-------------------------------------------\n\nganyu aim[weakspot=1];\nrosaria
-  skill, burst;\nkokomi skill;\nganyu skill, burst[radius=2];\nventi skill, burst;\nganyu
-  aim[weakspot=1]:2;\nrosaria skill;\nganyu skill, aim[weakspot=1];\n\nventi skill,
-  attack;\nwait 22;\nrestart;\n\n\n\n"
+config: "options swap_delay=12 debug=true iteration=1000 duration=83 workers=30 mode=sl;\n\nrosaria
+  char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=4;\nrosaria add stats hp=4780
+  atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nrosaria add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nkokomi
+  char lvl=90/90 cons=0 talent=9,9,9; \nkokomi add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\" count=5;\nkokomi
+  add stats hp=4780 atk=311 hydro%=0.466 atk%=0.932\t; #main\nkokomi add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.3306 em=237.84 cr=0.0662
+  cd=0.1324;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"stringless\"
+  refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats
+  hp=4780 atk=311 em=561; #main\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.4408 em=39.64 cr=0.1324 cd=0.2648;\n\nganyu char lvl=90/90
+  cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu
+  add set=\"blizzardstrayer\" count=5;\nganyu add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\ntarget lvl=100 pyro=0.1
+  dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy
+  every interval=480,720 amount=1;\nactive ganyu;\n#-------------------------------------------\n\nganyu
+  aim[weakspot=1];\nrosaria skill, burst;\nkokomi skill;\nganyu skill, burst[radius=2];\nventi
+  skill, burst;\nganyu aim[weakspot=1]:2;\nrosaria skill;\nganyu skill, aim[weakspot=1];\n\nventi
+  skill, attack;\nwait 22;\nrestart;\n\n\n\n"
 description: Freeze Ganyu with Kokomi and Rosaria.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -61,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36479.933475696074
+dps: 36519.36402317415
 mode: sl
 duration: 82.99999999999875
 target_count: 1

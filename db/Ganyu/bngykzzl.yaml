@@ -1,25 +1,25 @@
 author: Rare Possum#0511
-config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
-  duration=90 workers=30 mode=sl swap_delay=12;\n\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
-  \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu add set=\"wandererstroupe\"
-  count=5;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311 ; #main\nganyu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=79.28 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli
-  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"emblemofseveredfate\"
-  count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli add stats hp=4780 atk=311
-  er=0.518 geo%=0.466 cr=0.311 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.496 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.1324;\n\nbennett
-  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"festeringdesire\" refine=5
-  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
-  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.331 cd=0.3972;\n\nkazuha
-  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
-  atk=311 em=561 ; #main \nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.3972 cd=0.1324;\n\n\nactive zhongli;\ntarget
-  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nzhongli skill[hold_nostele=1];\nbennett
-  skill[hold=1];\nganyu skill, aim;\nbennett burst;\nkazuha attack, skill, burst;\nganyu
-  aim:4, aim;\n\nkazuha skill, high_plunge, attack;\nzhongli attack:2;\nrestart;\n\n\n\n\n\n"
+config: "options debug=true iteration=1000 duration=90 workers=30 mode=sl swap_delay=12;\n\n\nganyu
+  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu
+  add set=\"wandererstroupe\" count=5;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466
+  cr=0.311 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0
+  talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli
+  add set=\"emblemofseveredfate\" count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli
+  add stats hp=4780 atk=311 er=0.518 geo%=0.466 cr=0.311 ; #main\nzhongli add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
+  cr=0.331 cd=0.1324;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
+  weapon=\"festeringdesire\" refine=5 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.331 cd=0.3972;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
+  count=4;\nkazuha add stats hp=4780 atk=311 em=561 ; #main \nkazuha add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.3972
+  cd=0.1324;\n\n\nactive zhongli;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\nzhongli skill[hold_nostele=1];\nbennett skill[hold=1];\nganyu skill,
+  aim;\nbennett burst;\nkazuha attack, skill, burst;\nganyu aim:4, aim;\n\nkazuha
+  skill, high_plunge, attack;\nzhongli attack:2;\nrestart;\n\n\n\n\n\n"
 description: Kazooka Meltyu. Currently, the sim is unable to perform the preferred
   Bennett Q miss combo.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32896.52475763784
+dps: 33007.095555988424
 mode: sl
 duration: 90.00000000000215
 target_count: 1

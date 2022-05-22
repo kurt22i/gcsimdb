@@ -1,23 +1,22 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
-  duration=97 workers=30 mode=sl;\n\nraiden char lvl=90/90 cons=0 talent=9,9,9; \nraiden
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden add set=\"tenacityofthemillelith\"
-  count=5;\nraiden add stats hp=4780 atk=311 er=0.518 atk%=0.466 cr=0.311 ; #main\nraiden
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\ndiona char lvl=90/90 cons=6 talent=9,9,9; \ndiona
-  add weapon=\"sacrificialbow\" refine=3 lvl=90/90;\ndiona add set=\"noblesseoblige\"
-  count=5;\ndiona add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\ndiona
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\neula char lvl=90/90 cons=0 talent=9,9,9; \neula
-  add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\neula add set=\"paleflame\"
-  count=5;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622 ; #main\neula
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.3972 cd=0.5296;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou
-  add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\"
-  count=5;\nbeidou add stats hp=4780 atk=311 er=0.518 electro%=0.466 cd=0.622 ; #main\nbeidou
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102
-  em=39.64 cr=0.2317 cd=0.4634;\ntarget lvl=100 resist=.1;\n\nenergy every interval=480,720
-  amount=1;\nactive raiden;\n#-------------------------------------------\n\nraiden
+config: "options debug=true iteration=1000 duration=97 workers=30 mode=sl;\n\nraiden
+  char lvl=90/90 cons=0 talent=9,9,9; \nraiden add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden
+  add set=\"tenacityofthemillelith\" count=5;\nraiden add stats hp=4780 atk=311 er=0.518
+  atk%=0.466 cr=0.311 ; #main\nraiden add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\ndiona char lvl=90/90
+  cons=6 talent=9,9,9; \ndiona add weapon=\"sacrificialbow\" refine=3 lvl=90/90;\ndiona
+  add set=\"noblesseoblige\" count=5;\ndiona add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cr=0.311 ; #main\ndiona add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\neula char lvl=90/90
+  cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\neula
+  add set=\"paleflame\" count=5;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
+  cd=0.622 ; #main\neula add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.3306 em=39.64 cr=0.3972 cd=0.5296;\n\nbeidou char lvl=90/90 cons=6
+  talent=9,9,9; \nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou
+  add set=\"emblemofseveredfate\" count=5;\nbeidou add stats hp=4780 atk=311 er=0.518
+  electro%=0.466 cd=0.622 ; #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.2317 cd=0.4634;\ntarget
+  lvl=100 resist=.1;\n\nenergy every interval=480,720 amount=1;\nactive raiden;\n#-------------------------------------------\n\nraiden
   skill, attack;\ndiona skill[hold=1], skill[hold=1];\neula skill, attack;\ndiona
   burst;\nbeidou skill, burst, attack;\neula skill, attack, burst, attack, skill,
   attack:4,dash, attack:2, skill[hold=1];\nraiden attack, burst,  attack:3, charge,
@@ -61,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30719.330720528043
+dps: 30794.9665433708
 mode: sl
 duration: 96.99999999999865
 target_count: 1

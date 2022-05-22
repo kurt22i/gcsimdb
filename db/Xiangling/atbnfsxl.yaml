@@ -1,6 +1,5 @@
 author: Charliex3000#9403, mina#4448, vigne#5943 and solo#0180
 config: |+
-  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=apl;
 
   ### CHARACTERS, WEAPONS
@@ -136,7 +135,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57991.967690561294
+dps: 58097.03100654821
 mode: apl
 duration: 102.00000000000051
 target_count: 1

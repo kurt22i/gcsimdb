@@ -1,15 +1,15 @@
 author: rf#5773
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
-  iteration=1000 duration=125 mode=sl;\n\n### CHARACTERS, WEAPONS\nbennett char lvl=90/90
-  cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\n\ntartaglia
-  char lvl=90/90 cons=0 talent=9,9,9;\ntartaglia add weapon=\"theviridescenthunt\"
-  refine=1 lvl=90/90;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;\nbeidou add weapon=\"serpentspine\"
-  refine=1 lvl=90/90 +params=[stacks=5];\n   \nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl
-  add weapon=\"thestringless\" refine=3 lvl=90/90;\n\n### ARTIFACTS\nbennett add set=\"noblesseoblige\"
-  count=4;\ntartaglia add set=\"heartofdepth\" count=4;\nbeidou add set=\"emblemofseveredfate\"
-  count=4;\nfischl add set=\"tenacityofthemillelith\" count=4;\n\n### MAIN STATS\nbennett
-  add stats hp=4780 atk=311 pyro%=0.466 er=0.518 cr=0.311;\ntartaglia add stats hp=4780
-  atk=311 hydro%=0.466 atk%=0.466 cr=0.311;\nbeidou add stats hp=4780 atk=311 electro%=0.466
+config: "options swap_delay=12 debug=true iteration=1000 duration=125 mode=sl;\n\n###
+  CHARACTERS, WEAPONS\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\n\ntartaglia char lvl=90/90 cons=0 talent=9,9,9;\ntartaglia
+  add weapon=\"theviridescenthunt\" refine=1 lvl=90/90;\n\nbeidou char lvl=90/90 cons=6
+  talent=9,9,9;\nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\n
+  \  \nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\n\n### ARTIFACTS\nbennett add set=\"noblesseoblige\" count=4;\ntartaglia
+  add set=\"heartofdepth\" count=4;\nbeidou add set=\"emblemofseveredfate\" count=4;\nfischl
+  add set=\"tenacityofthemillelith\" count=4;\n\n### MAIN STATS\nbennett add stats
+  hp=4780 atk=311 pyro%=0.466 er=0.518 cr=0.311;\ntartaglia add stats hp=4780 atk=311
+  hydro%=0.466 atk%=0.466 cr=0.311;\nbeidou add stats hp=4780 atk=311 electro%=0.466
   atk%=0.466 cd=0.622;\nfischl add stats hp=4780 atk=311 electro%=0.466 atk%=0.466
   cr=0.311;\n\n### SUB ROLLS\nbeidou add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
   atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.3641 cd=0.5958;\nbennett add stats
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31089.75298032862
+dps: 31097.072178432758
 mode: sl
 duration: 125
 target_count: 1

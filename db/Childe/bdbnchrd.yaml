@@ -1,6 +1,5 @@
 author: RoyM#2340
 config: |+
-  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=125 mode=sl;
   target lvl=100 resist=.1;
   energy every interval=480,720 amount=1;
@@ -106,7 +105,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 26720.685709774018
+dps: 26744.367299291287
 mode: sl
 duration: 125
 target_count: 1
