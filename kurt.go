@@ -97,7 +97,7 @@ func run(skipDownload bool) error {
 	// 	sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
 	// }
 
-	err = saveYaml(data, false)
+	err = saveYaml(data, true)
 	//allow time to inspect the teams one last time
 	fmt.Print("\nPress 'Enter' to continue...")
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
@@ -806,9 +806,9 @@ func saveYaml(data []pack, end bool) error {
 					maxdpschar = j
 				}
 			}
-			path := "./db/" + foldernames[charid(data[i].jd.Characters[maxdpschar].Name)] + "/" + getName(data[i].jd) + ".yaml"
-			err = os.WriteFile(path, out, 0755)
-			writeJSONtoGZ(data[i].raw, path)
+			path := "./db/" + foldernames[charid(data[i].jd.Characters[maxdpschar].Name)] + "/" + getName(data[i].jd)
+			err = os.WriteFile(path+".yaml", out, 0755)
+			writeJSONtoGZ(data[i].raw, path+".gz")
 		} else {
 			err = os.WriteFile(data[i].filepath, out, 0755)
 		}
