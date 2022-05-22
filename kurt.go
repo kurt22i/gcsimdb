@@ -290,6 +290,10 @@ func getPath(name string) string {
 	pth := ""
 	filepath.Walk("./db", func(path string, info os.FileInfo, err error) error {
 
+		if strings.Contains(path, ".gz") {
+			return nil //skip gz files
+		}
+
 		if strings.Contains(path, name) {
 			pth = path
 		}
@@ -416,6 +420,7 @@ type pack struct {
 	changed   bool
 	res       result
 	jd        jsondata
+	raw       []byte
 }
 
 type char struct {
@@ -466,7 +471,7 @@ func loadData(dir string) ([]pack, error) {
 			return errors.Wrap(err, "")
 		}
 		//do nothing if is directory
-		if info.IsDir() {
+		if info.IsDir() || strings.Contains(path, ".gz") {
 			return nil
 		}
 		fmt.Printf("\tReading file: %v at %v\n", info.Name(), path)
@@ -555,6 +560,7 @@ func process(data []pack, latest string) error {
 		writeJSONtoGZ(jsonData, outPath)
 		json.Unmarshal(jsonData, &data[i].jd)
 
+		data[i].raw = jsonData
 		data[i].gzPath = outPath + ".gz"
 	}
 
@@ -802,6 +808,7 @@ func saveYaml(data []pack, end bool) error {
 			}
 			path := "./db/" + foldernames[charid(data[i].jd.Characters[maxdpschar].Name)] + "/" + getName(data[i].jd) + ".yaml"
 			err = os.WriteFile(path, out, 0755)
+			writeJSONtoGZ(data[i].raw, path)
 		} else {
 			err = os.WriteFile(data[i].filepath, out, 0755)
 		}
