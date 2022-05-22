@@ -15,13 +15,14 @@ config: "keqing char lvl=90/90 cons=0 talent=9,9,9;\nkeqing add weapon=\"lionsro
   add weapon=\"mouunsmoon\" refine=1 lvl=90/90;\nsara add set=\"noblesseoblige\" count=5;\nsara
   add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nsara add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\noptions swap_delay=12 debug=true iteration=1000 duration=127
-  workers=30 mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive
-  sara;\nsara skill;\nfischl skill,attack;\nxingqiu burst,attack;\nsara aim,attack;\nkeqing
-  burst,attack:2,skill,skill,\n       attack,charge,\n       attack,charge,\n       attack,charge,\n
-  \      attack,charge;\nsara skill,aim;\nfischl burst;\nxingqiu attack,skill,attack:2;\nsara
-  burst;\nkeqing skill,skill,\n       attack,charge,\n       attack,charge,\n       attack,charge,\n
-  \      attack,charge,\n       attack,charge,\n       attack,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  cr=0.331 cd=0.7944;\n\nhurt every interval=300,900 amount=0,1000; options swap_delay=12
+  debug=true iteration=1000 duration=127 workers=30 mode=sl;\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\nactive sara;\nsara skill;\nfischl skill,attack;\nxingqiu
+  burst,attack;\nsara aim,attack;\nkeqing burst,attack:2,skill,skill,\n       attack,charge,\n
+  \      attack,charge,\n       attack,charge,\n       attack,charge;\nsara skill,aim;\nfischl
+  burst;\nxingqiu attack,skill,attack:2;\nsara burst;\nkeqing skill,skill,\n       attack,charge,\n
+  \      attack,charge,\n       attack,charge,\n       attack,charge,\n       attack,charge,\n
+  \      attack,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Keqing with 4*s.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -61,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41591.50626937113
+dps: 41630.19458371739
 mode: sl
 duration: 126.9999999999982
 target_count: 1

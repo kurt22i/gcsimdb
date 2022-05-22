@@ -1,6 +1,7 @@
 author: rf#5773
-config: "options swap_delay=12 debug=true iteration=1000 duration=150 workers=30 mode=sl;\n\n###
-  CHARACTERS, WEAPONS\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=150 workers=30 mode=sl;\n\n### CHARACTERS, WEAPONS\nsucrose
+  char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;\nxiangling
   add weapon=\"thecatch\" refine=5 lvl=90/90;\n   \nbennett char lvl=90/90 cons=6
@@ -60,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38267.00107038672
+dps: 38277.79065787729
 mode: sl
 duration: 150.0000000000028
 target_count: 1

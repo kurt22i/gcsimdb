@@ -1,5 +1,6 @@
 author: Arfoire#9219
 config: |+
+  hurt every interval=300,900 amount=0,1000;
   options swap_delay=12 debug=true iteration=1000 duration=95 workers=30 mode=sl;
 
   #Character Builds:
@@ -81,7 +82,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32752.821831922378
+dps: 32805.69077633193
 mode: sl
 duration: 94.9999999999991
 target_count: 1

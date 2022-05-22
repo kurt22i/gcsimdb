@@ -1,5 +1,6 @@
 author: Arfoire#9219
-config: "options swap_delay=12 debug=true iteration=1000 duration=93 workers=30 mode=sl;\n\n#-----------------------------------------------------\n#Character
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=93 workers=30 mode=sl;\n\n#-----------------------------------------------------\n#Character
   builds:\nyaemiko char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"favoniuscodex\"
   refine=3 lvl=90/90;\nyaemiko add set=\"shimenawasreminiscence\" count=2;\nyaemiko
   add set=\"thunderingfury\" count=2;\nyaemiko add stats hp=4780 atk=311 atk%=0.466
@@ -63,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35688.1814404447
+dps: 35686.14396905186
 mode: sl
 duration: 93.0000000000023
 target_count: 1

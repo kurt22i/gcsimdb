@@ -15,8 +15,9 @@ config: "klee char lvl=90/90 cons=0 talent=9,9,9;\nklee add weapon=\"thewidsith\
   count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
   cd=0.7282;\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1
-  anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\noptions
-  swap_delay=12 debug=true iteration=1000 duration=95 workers=30 mode=sl;\n\n#_____________________________________________________________\n\nactive
+  anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\nhurt every
+  interval=300,900 amount=0,1000; options swap_delay=12 debug=true iteration=1000
+  duration=95 workers=30 mode=sl;\n\n#_____________________________________________________________\n\nactive
   bennett;\n\nbennett skill;\nzhongli skill [hold=1], attack:2;\nbennett burst, skill;\nxiangling
   burst, skill;\nklee attack, burst, attack, skill [bounce=3, mine=8], attack, skill
   [bounce=3, mine=8],\n\t                                                                    attack,
@@ -80,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40040.2206514864
+dps: 40069.800160181534
 mode: sl
 duration: 94.9999999999991
 target_count: 1

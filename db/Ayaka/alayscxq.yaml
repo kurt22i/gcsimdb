@@ -1,27 +1,27 @@
 author: RoyM#2340
-config: "options swap_delay=12 debug=true iteration=1000 duration=114 workers=30 mode=sl;\nenergy
-  every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\n\nsucrose char lvl=90/90
-  cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\" refine=5
-  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780
-  atk=311 er=0.518 em=187 em=187;\nsucrose add stats hp%=0.0992 hp=507.88 atk%=0.3968
-  atk=33.08 def%=0.124 def=39.36 em=158.56 cr=0.0662 cd=0.1324 er=0.551;\n\nayaka
-  char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5
-  lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=5;\nayaka add stats hp=4780
-  atk=311 atk%=0.466 cryo%=0.466 cd=0.622;\nayaka add stats hp%=0.0992 hp=507.88 atk%=0.1984
-  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.3972 cd=0.662 er=0.1102;\n\naloy char
-  lvl=90/90 cons=0 talent=9,9,9;\naloy add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\naloy
-  add set=\"noblesseoblige\" count=5;\naloy add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466
-  cr=0.311;\naloy add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124
-  def=39.36 em=39.64 cr=0.331 cd=0.662 er=0.3306;\n\nxingqiu char lvl=90/90 cons=6
-  talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"blizzardstrayer\" count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
-  hydro%=0.466 cd=0.622;\nxingqiu add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08
-  def%=0.124 def=39.36 em=39.64 cr=0.3972 cd=0.662 er=0.2204;\n\n\nactive ayaka;\nayaka
-  dash,attack,skill; \nxingqiu burst[orbital=1], attack, skill, attack;\naloy skill,attack,burst;
-  \nsucrose attack,burst,attack,skill; \nayaka dash,attack,skill,attack,burst,attack,\n
-  \     dash,attack:2,charge,\n      dash,attack:2,charge;\nxingqiu attack;\nsucrose
-  attack, skill, attack;\naloy burst;\nayaka dash,attack:2,charge,\n      dash,attack:2,charge,\n
-  \     dash,attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=114 workers=30 mode=sl;\nenergy every interval=480,720 amount=1;\ntarget
+  lvl=100 resist=0.1;\n\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add
+  weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\"
+  count=5;\nsucrose add stats hp=4780 atk=311 er=0.518 em=187 em=187;\nsucrose add
+  stats hp%=0.0992 hp=507.88 atk%=0.3968 atk=33.08 def%=0.124 def=39.36 em=158.56
+  cr=0.0662 cd=0.1324 er=0.551;\n\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka
+  add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\"
+  count=5;\nayaka add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622;\nayaka
+  add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.3972 cd=0.662 er=0.1102;\n\naloy char lvl=90/90 cons=0 talent=9,9,9;\naloy
+  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\naloy add set=\"noblesseoblige\"
+  count=5;\naloy add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311;\naloy
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.331 cd=0.662 er=0.3306;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"blizzardstrayer\"
+  count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cd=0.622;\nxingqiu
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.3972 cd=0.662 er=0.2204;\n\n\nactive ayaka;\nayaka dash,attack,skill; \nxingqiu
+  burst[orbital=1], attack, skill, attack;\naloy skill,attack,burst; \nsucrose attack,burst,attack,skill;
+  \nayaka dash,attack,skill,attack,burst,attack,\n      dash,attack:2,charge,\n      dash,attack:2,charge;\nxingqiu
+  attack;\nsucrose attack, skill, attack;\naloy burst;\nayaka dash,attack:2,charge,\n
+  \     dash,attack:2,charge,\n      dash,attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayaka with Aloy.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33695.39829873288
+dps: 33722.16180008093
 mode: sl
 duration: 114.00000000000126
 target_count: 1

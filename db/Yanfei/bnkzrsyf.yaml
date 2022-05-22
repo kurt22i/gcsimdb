@@ -24,6 +24,7 @@ config: |
   rosaria add stats hp=4780 atk=311.0 er=0.5180 cr=0.3110 cryo%=0.4660;
   rosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;
 
+  hurt every interval=300,900 amount=0,1000;
   options swap_delay=12 iteration=1000 duration=108 mode=sl;
   target lvl=100 resist=0.1;
   energy every interval=480,720 amount=1;
@@ -86,7 +87,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32046.801324145617
+dps: 32050.532962541973
 mode: sl
 duration: 108.00000000000088
 target_count: 1

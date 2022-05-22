@@ -1,29 +1,30 @@
 author: Charliex3000#9403 and Zephyr#0177
-config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\nmona
-  char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"prototypeamber\" refine=5
-  lvl=90/90;\nmona add set=\"noblesseoblige\" count=5;\nmona add stats hp=4780 atk=311
-  er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats hp%=0.0992 hp=507.88 atk%=0.0992
-  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2317 cd=0.5958 er=0.551 ; #subs\n\nventi
-  char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"favoniuswarbow\" refine=3
-  lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats hp=4780
-  atk=311 atk%=0.466 cr=0.311 anemo%=0.466 ; #main\nventi add stats hp%=0.0992 hp=507.88
-  atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=79.28 cr=0.331 cd=0.7944 er=0.1102
-  ; #subs\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\"
-  refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=5;\nganyu add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\nkamisatoayaka char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add
-  weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nkamisatoayaka add set=\"blizzardstrayer\"
-  count=5;\nkamisatoayaka add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622
-  ; #main\nkamisatoayaka add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\n\ntarget lvl=100 pyro=0.1
-  dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n#target
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=102 workers=30 mode=sl;\n\nmona char lvl=90/90 cons=0 talent=9,9,9;
+  \nmona add weapon=\"prototypeamber\" refine=5 lvl=90/90;\nmona add set=\"noblesseoblige\"
+  count=5;\nmona add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.2317 cd=0.5958 er=0.551 ; #subs\n\nventi char lvl=90/90 cons=0 talent=9,9,9;
+  \nventi add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\"
+  count=5;\nventi add stats hp=4780 atk=311 atk%=0.466 cr=0.311 anemo%=0.466 ; #main\nventi
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=79.28
+  cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
+  \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
+  count=5;\nganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\nkamisatoayaka char lvl=90/90 cons=0 talent=9,9,9;
+  \nkamisatoayaka add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nkamisatoayaka
+  add set=\"blizzardstrayer\" count=5;\nkamisatoayaka add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622 ; #main\nkamisatoayaka add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\n\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\n#Should be about 53k primary target DPS against 2x enemies with [radius=1]\n\nenergy
-  every interval=480,720 amount=1;\n\nactive ayaka;\n\nayaka skill;\nganyu burst[radius=2],
-  skill;     # ruin guard should be about radius=2. In ST, this results in 18-20 icicle
-  hits.\nventi burst, attack[delay=10];\nmona skill, burst;\nayaka dash, skill, burst;\nganyu
-  skill[delay=10];\nventi skill, attack;\nmona attack:2;\nganyu aim[weakspot=1]:2;\n\nrestart;\n\n"
+  cryo=.1;\n#target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\n#Should be about 53k primary target DPS against 2x enemies
+  with [radius=1]\n\nenergy every interval=480,720 amount=1;\n\nactive ayaka;\n\nayaka
+  skill;\nganyu burst[radius=2], skill;     # ruin guard should be about radius=2.
+  In ST, this results in 18-20 icicle hits.\nventi burst, attack[delay=10];\nmona
+  skill, burst;\nayaka dash, skill, burst;\nganyu skill[delay=10];\nventi skill, attack;\nmona
+  attack:2;\nganyu aim[weakspot=1]:2;\n\nrestart;\n\n"
 description: Ganyu + Ayaka freeze. Assumes you proc Prototype Crescent. Using TTDS
   on Mona instead of Prototype Amber raises DPS by about 1k.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
@@ -64,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45485.06430761395
+dps: 45466.90834969516
 mode: sl
 duration: 102.00000000000051
 target_count: 1

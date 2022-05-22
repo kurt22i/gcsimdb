@@ -1,22 +1,23 @@
 author: Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\nraiden
-  char lvl=90/90 cons=0 talent=9,9,9; \nraiden add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nraiden add set=\"emblemofseveredfate\" count=5;\nraiden add stats hp=4780
-  atk=311 er=0.518 atk%=0.466 cr=0.311 ; #main\nraiden add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.2648 cd=0.5296;\n\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780
-  atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nrosaria add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\neula
-  char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
-  lvl=90/90 +params=[stacks=5];\neula add set=\"paleflame\" count=5;\neula add stats
-  hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622 ; #main\neula add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331
-  cd=0.662;\n\nqiqi char lvl=90/90 cons=0 talent=9,9,9; \nqiqi add weapon=\"theflute\"
-  refine=3 lvl=90/90;\nqiqi add set=\"oceanhuedclam\" count=5;\nqiqi add stats hp=4780
-  atk=311 er=0.518 atk%=0.466 heal=0.359 ; #main\nqiqi add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.2979 cd=0.4634;\ntarget
-  lvl=100 resist=.1;\n\nenergy every interval=480,720 amount=1;\nactive raiden;\n#-------------------------------------------\n\nraiden
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=100 workers=30 mode=sl;\n\nraiden char lvl=90/90 cons=0
+  talent=9,9,9; \nraiden add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nraiden
+  add set=\"emblemofseveredfate\" count=5;\nraiden add stats hp=4780 atk=311 er=0.518
+  atk%=0.466 cr=0.311 ; #main\nraiden add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.2648 cd=0.5296;\n\nrosaria char lvl=90/90
+  cons=6 talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria
+  add set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cr=0.311 ; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\neula char lvl=90/90
+  cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\neula
+  add set=\"paleflame\" count=5;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
+  cd=0.622 ; #main\neula add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nqiqi char lvl=90/90 cons=0
+  talent=9,9,9; \nqiqi add weapon=\"theflute\" refine=3 lvl=90/90;\nqiqi add set=\"oceanhuedclam\"
+  count=5;\nqiqi add stats hp=4780 atk=311 er=0.518 atk%=0.466 heal=0.359 ; #main\nqiqi
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102
+  em=39.64 cr=0.2979 cd=0.4634;\ntarget lvl=100 resist=.1;\n\nenergy every interval=480,720
+  amount=1;\nactive raiden;\n#-------------------------------------------\n\nraiden
   skill;\nrosaria skill;\neula skill, attack:2;\nqiqi burst;\nrosaria burst;\neula
   burst, attack:4, skill[hold=1],attack:4;\nrosaria skill;\nraiden burst,  attack:3,
   charge, attack:3, charge, attack:3, charge;\nrestart;\n\nrestart;\n\n\n\n\n\n"
@@ -59,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34146.771607609975
+dps: 34132.36104005135
 mode: sl
 duration: 99.9999999999986
 target_count: 1

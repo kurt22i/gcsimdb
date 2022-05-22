@@ -1,17 +1,17 @@
 author: Jhony75#8133
-config: "#Configs\noptions debug=true iteration=1000 duration=101 workers=30 mode=sl
-  swap_delay=12;\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#Chars
-  Builds\nyoimiya char lvl=90/90 cons=0 talent=9,9,9;\nyoimiya add weapon=\"rust\"
-  refine=3 lvl=90/90;\nyoimiya add set=\"shimenawasreminiscence\" count=4;\nyoimiya
-  add stats hp=4780 atk=311 cr=0.311 pyro%=0.466 atk%=0.466;\nyoimiya add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
-  cd=0.7944;\n\nyanfei char lvl=90/90 cons=6 talent=9,9,9;\nyanfei add weapon=\"favoniuscodex\"
-  refine=3 lvl=90/90;\nyanfei add set=\"crimsonwitchofflames\" count=4;\nyanfei add
-  stats hp=4780 atk=311 cr=0.311 em=187 em=187;\nyanfei add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.331 cd=0.662;\n\nfischl
-  char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3
-  lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4; #41735 DPS with 2TF
-  2GF\nfischl add stats hp=4780 atk=311 cr=0.311 electro%=0.466 atk%=0.466;\nfischl
+config: "#Configs\nhurt every interval=300,900 amount=0,1000; options debug=true iteration=1000
+  duration=101 workers=30 mode=sl swap_delay=12;\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\n#Chars Builds\nyoimiya char lvl=90/90 cons=0
+  talent=9,9,9;\nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya add set=\"shimenawasreminiscence\"
+  count=4;\nyoimiya add stats hp=4780 atk=311 cr=0.311 pyro%=0.466 atk%=0.466;\nyoimiya
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944;\n\nyanfei char lvl=90/90 cons=6 talent=9,9,9;\nyanfei
+  add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nyanfei add set=\"crimsonwitchofflames\"
+  count=4;\nyanfei add stats hp=4780 atk=311 cr=0.311 em=187 em=187;\nyanfei add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92
+  cr=0.331 cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4; #41735 DPS
+  with 2TF 2GF\nfischl add stats hp=4780 atk=311 cr=0.311 electro%=0.466 atk%=0.466;\nfischl
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
   em=39.64 cr=0.331 cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
   add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39701.75280105424
+dps: 39586.8292236958
 mode: sl
 duration: 100.9999999999993
 target_count: 1

@@ -1,25 +1,26 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\nganyu
-  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu
-  add set=\"wandererstroupe\" count=5;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466
-  cr=0.311 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nyanfei char lvl=90/90 cons=6
-  talent=9,9,9; \nyanfei add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nyanfei
-  add set=\"emblemofseveredfate\" count=4;\nyanfei add stats hp=4780 atk=311 er=0.518
-  pyro%=0.466 cr=0.311 ; #main\nyanfei add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.331 cd=0.3972;\n\nbennett char lvl=90/90
-  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
-  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
-  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2317 cd=0.5958;\n\nxiangling char lvl=90/90
-  cons=6 talent=9,9,9; \nxiangling add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nxiangling
-  add set=\"emblemofseveredfate\" count=4;\nxiangling add set=\"paleflame\" count=1;\nxiangling
-  add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main \nxiangling add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
-  em=39.64 cr=0.331 cd=0.5296;\n\n\nactive yanfei;\ntarget lvl=100 pyro=0.1 dendro=0.1
-  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
-  amount=1;\n\nyanfei skill, burst;\nbennett burst,skill;\nxiangling burst,skill;\nganyu
-  skill,aim,aim,aim,aim,aim, aim;\nbennett skill;\nxiangling attack:3;\nrestart;\n\n\n\n\n"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=107 workers=30 mode=sl;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
+  \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu add set=\"wandererstroupe\"
+  count=5;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311 ; #main\nganyu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944;\n\nyanfei char lvl=90/90 cons=6 talent=9,9,9; \nyanfei
+  add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nyanfei add set=\"emblemofseveredfate\"
+  count=4;\nyanfei add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nyanfei
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.331 cd=0.3972;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.2317 cd=0.5958;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add set=\"paleflame\" count=1;\nxiangling add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main \nxiangling add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;\n\n\nactive
+  yanfei;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nyanfei skill, burst;\nbennett
+  burst,skill;\nxiangling burst,skill;\nganyu skill,aim,aim,aim,aim,aim, aim;\nbennett
+  skill;\nxiangling attack:3;\nrestart;\n\n\n\n\n"
 description: Melt Ganyu with Shieldfei.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -59,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38950.3629772892
+dps: 38906.13429105997
 mode: sl
 duration: 106.99999999999939
 target_count: 1

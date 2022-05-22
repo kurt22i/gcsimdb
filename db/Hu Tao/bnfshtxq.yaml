@@ -1,11 +1,12 @@
 author: Xardas#5785, mina#4448 and Jhony75#8133
-config: "#Configs\noptions swap_delay=12 debug=true iteration=1000 duration=105 workers=30
-  mode=sl;\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#Chars\nhutao
-  char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"dragonsbane\" refine=3 lvl=90/90;
-  # 59118 DPS w/ DM R1 + SR\nhutao add set=\"shimenawasreminiscence\" count=4; # 58989
-  DPS w/ DB R3 + CW | 57890 DPS w/DM R1 + CW\nhutao add stats hp=4780 atk=311 em=187
-  cr=0.311 pyro%=0.466;\nhutao add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
+config: "#Configs\nhurt every interval=300,900 amount=0,1000; options swap_delay=12
+  debug=true iteration=1000 duration=105 workers=30 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\n#Chars\nhutao char lvl=90/90 cons=0 talent=9,9,9;\nhutao
+  add weapon=\"dragonsbane\" refine=3 lvl=90/90; # 59118 DPS w/ DM R1 + SR\nhutao
+  add set=\"shimenawasreminiscence\" count=4; # 58989 DPS w/ DB R3 + CW | 57890 DPS
+  w/DM R1 + CW\nhutao add stats hp=4780 atk=311 em=187 cr=0.311 pyro%=0.466;\nhutao
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
   char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3
   lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats
   hp=4780 atk=311 er=0.518 cr=0.311 hydro%=0.466;\nxingqiu add stats def=39.36 def%=0.124
@@ -78,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 60062.64778465634
+dps: 59931.917431334354
 mode: sl
 duration: 105.00000000000071
 target_count: 1

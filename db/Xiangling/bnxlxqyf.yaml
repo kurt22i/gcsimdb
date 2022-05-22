@@ -1,5 +1,6 @@
 author: danii#8748
 config: |+
+  hurt every interval=300,900 amount=0,1000;
   options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;
 
   #Character Builds:
@@ -94,7 +95,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44212.23399944172
+dps: 44165.55038648567
 mode: sl
 duration: 102.00000000000051
 target_count: 1

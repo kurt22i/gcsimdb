@@ -1,11 +1,12 @@
 author: Xardas#5785 and mina#4448
 config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\noptions
-  swap_delay=12 debug=true iteration=1000 duration=101 mode=sl;\n\n#Character Builds:\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1
-  lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780
-  atk=311 em=187 cryo%=0.466 cd=0.622 ; #main\nrosaria add stats def=39.36 def%=0.124
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1653 em=59.46 cr=0.3972 cd=0.662;\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nxiangling
+  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\nhurt
+  every interval=300,900 amount=0,1000; options swap_delay=12 debug=true iteration=1000
+  duration=101 mode=sl;\n\n#Character Builds:\nrosaria char lvl=90/90 cons=6 talent=9,9,9;
+  \nrosaria add weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add set=\"noblesseoblige\"
+  count=5;\nrosaria add stats hp=4780 atk=311 em=187 cryo%=0.466 cd=0.622 ; #main\nrosaria
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1653
+  em=59.46 cr=0.3972 cd=0.662;\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
   hp=4780 atk=311 er=0.518 pyro%=0.466 cd=0.622 ; #main\nxiangling add stats def=39.36
@@ -63,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 65239.26348934258
+dps: 64675.46128653461
 mode: sl
 duration: 100.9999999999993
 target_count: 1

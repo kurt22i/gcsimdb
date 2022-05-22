@@ -15,8 +15,8 @@ config: "klee char lvl=90/90 cons=0 talent=9,9,9;\nklee add weapon=\"thewidsith\
   add set=\"shimenawasreminiscence\" count=4;\nyoimiya add stats hp=4780 atk=311 atk%=0.466
   pyro%=0.466 cr=0.311;\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
   atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\noptions swap_delay=12 debug=true iteration=1000
-  duration=107 workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
+  every interval=480,720 amount=1;\nhurt every interval=300,900 amount=0,1000; options
+  swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
   yoimiya;\n\nyoimiya burst;\nkazuha attack, skill, high_plunge, burst, attack:2;\nbennett
   attack, skill, burst;\nklee attack, burst, attack, skill [bounce=3, mine=8], attack,
   charge,\n                                                      attack, charge,\n
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31427.922960150998
+dps: 31403.384805611684
 mode: sl
 duration: 106.99999999999939
 target_count: 1

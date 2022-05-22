@@ -16,13 +16,14 @@ config: "####----GENERATED CHARACTER BLOCK DO NOT EDIT----####\nraidenshogun cha
   add weapon=\"ironsting\" refine=5 lvl=90/90;\njean add set=\"viridescentvenerer\"
   count=5;\njean add stats hp=4780 atk=311 em=561 ; #main\njean add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.4408 em=118.92 cr=0.0662
-  cd=0.1324;\n####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####\n\noptions
-  swap_delay=12 mode=sl duration=98;\n\nactive raidenshogun;\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\n\nraiden skill, attack;\njean skill, attack, burst;\nbennett
-  attack, burst;\nraiden attack, burst, attack:3, charge, attack:3, charge, attack:2,
-  charge, attack, charge;\nbeidou skill, burst;\nbennett attack, skill, attack;\nwait
-  2;\nbennett attack:2, skill, attack;\njean skill;\nwait 20;\njean attack;\nbennett
-  attack:3, skill, attack;\nbeidou skill, attack;\nrestart;\n"
+  cd=0.1324;\n####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####\n\nhurt every
+  interval=300,900 amount=0,1000; options swap_delay=12 mode=sl duration=98;\n\nactive
+  raidenshogun;\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nraiden
+  skill, attack;\njean skill, attack, burst;\nbennett attack, burst;\nraiden attack,
+  burst, attack:3, charge, attack:3, charge, attack:2, charge, attack, charge;\nbeidou
+  skill, burst;\nbennett attack, skill, attack;\nwait 2;\nbennett attack:2, skill,
+  attack;\njean skill;\nwait 20;\njean attack;\nbennett attack:3, skill, attack;\nbeidou
+  skill, attack;\nrestart;\n"
 description: Sunfire Raiden/Beidou. Scales to 2 targets extremely well.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -62,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31020.760474363135
+dps: 30939.139144972527
 mode: sl
 duration: 97.9999999999992
 target_count: 1

@@ -20,6 +20,7 @@ config: |+
   bennett add set="instructor" count=4;
   bennett add stats def%=0.1240 def=39.36 hp=4079 hp%=0.09920 atk=265.1 atk%=0.09920 er=0.7176 em=198.2 cr=0.2982 cd=0.1324 pyro%=0.3480;
 
+  hurt every interval=300,900 amount=0,1000;
   options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;
 
   target lvl=100 resist=0.1;
@@ -105,7 +106,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40325.06973670773
+dps: 40337.37094079384
 mode: sl
 duration: 105.00000000000071
 target_count: 1

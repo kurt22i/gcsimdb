@@ -1,21 +1,21 @@
 author: Hessey#9122
-config: "options swap_delay=12 debug=true iteration=1000 duration=142 workers=30 mode=sl;\ntarget
-  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nayaka char lvl=90/90
-  cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka
-  add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780 atk=311 atk%=0.466
-  cryo%=0.466 cd=0.622; \nayaka add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\n\ntartaglia char
-  lvl=90/90 cons=0 talent=9,9,9;\ntartaglia add weapon=\"favoniuswarbow\" refine=3
-  lvl=90/90;\ntartaglia add set=\"blizzardstrayer\" count=4;\ntartaglia add stats
-  hp=4780 atk=311.0 atk%=0.4660 cd=0.6220 hydro%=0.4660;\ntartaglia add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
-  stats hp=4780 atk=311 em=561; \nkazuha add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\n\nshenhe
-  char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=5;\nshenhe add stats hp=4780
-  atk=311 atk%=0.466 er=0.518 atk%=0.466; \nshenhe add stats def%=0.124 def=39.36
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=142 workers=30 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka
+  add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\"
+  count=4;\nayaka add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; \nayaka
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\n\ntartaglia char lvl=90/90 cons=0 talent=9,9,9;\ntartaglia
+  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ntartaglia add set=\"blizzardstrayer\"
+  count=4;\ntartaglia add stats hp=4780 atk=311.0 atk%=0.4660 cd=0.6220 hydro%=0.4660;\ntartaglia
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
+  count=4;\nkazuha add stats hp=4780 atk=311 em=561; \nkazuha add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972
+  cd=0.1324;\n\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=5;\nshenhe add stats
+  hp=4780 atk=311 atk%=0.466 er=0.518 atk%=0.466; \nshenhe add stats def%=0.124 def=39.36
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=39.64 cr=0.3972 cd=0.3972;\nactive
   tartaglia;\n\ntartaglia burst;\nkazuha burst;\nshenhe skill,burst;\nkazuha skill,
   high_plunge, attack;\nayaka dash, attack, skill, dash, burst;\ntartaglia skill,
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38212.32329454536
+dps: 38157.11900405813
 mode: sl
 duration: 141.99999999999835
 target_count: 1

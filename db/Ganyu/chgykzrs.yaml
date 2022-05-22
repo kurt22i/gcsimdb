@@ -1,26 +1,27 @@
 author: RoyM#2340
-config: "options debug=true iteration=1000 duration=114 mode=sl;\n\n#Character builds:\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"wavebreakersfin\" refine=1
-  lvl=90/90;\nrosaria add set=\"blizzardstrayer\" count=5;\nrosaria add stats hp=4780
-  atk=311 atk%=0.466 cryo%=0.466 cd=0.622;\nrosaria add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;\n\nkazuha
-  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha
-  add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780 atk=311 em=187
-  em=187 em=187 ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.4960 er=0.551 em=118.92 cr=0.0662 cd=0.1324;\n\ntartaglia char
-  lvl=90/90 cons=0 talent=9,9,9; \ntartaglia add weapon=\"favoniuswarbow\" refine=3
-  lvl=90/90;\ntartaglia add set=\"noblesseoblige\" count=4;\ntartaglia add stats hp=4780
-  atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\ntartaglia add stats hp%=0.0992
-  hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944
-  er=0.1102;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\"
-  refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=4;\nganyu add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu add stats hp%=0.0992
-  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.662
-  er=0.3306;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
-  amount=1;\n\n#Action List:\nactive ganyu;\nganyu skill, aim[weakspot=1];\ntartaglia
-  burst;\nkazuha burst;\nrosaria skill;\nkazuha skill[hold=1],high_plunge,attack:3;\nrosaria
-  burst;\nganyu skill,burst[radius=2];\nrosaria skill;\ntartaglia skill,attack:3,charge,jump,attack:3,charge;\nrosaria
-  skill;\nkazuha skill,high_plunge,attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+config: "hurt every interval=300,900 amount=0,1000; options debug=true iteration=1000
+  duration=114 mode=sl;\n\n#Character builds:\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
+  add weapon=\"wavebreakersfin\" refine=1 lvl=90/90;\nrosaria add set=\"blizzardstrayer\"
+  count=5;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622;\nrosaria
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.3972 cd=0.662;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha
+  add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
+  count=4;\nkazuha add stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\nkazuha
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.4960 er=0.551
+  em=118.92 cr=0.0662 cd=0.1324;\n\ntartaglia char lvl=90/90 cons=0 talent=9,9,9;
+  \ntartaglia add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ntartaglia add set=\"noblesseoblige\"
+  count=4;\ntartaglia add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311;
+  #main\ntartaglia add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124
+  def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102;\n\nganyu char lvl=90/90 cons=0
+  talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu
+  add set=\"blizzardstrayer\" count=4;\nganyu add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622 ; #main\nganyu add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08
+  def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.662 er=0.3306;\n\n#Enemies and Particles:\ntarget
+  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action List:\nactive
+  ganyu;\nganyu skill, aim[weakspot=1];\ntartaglia burst;\nkazuha burst;\nrosaria
+  skill;\nkazuha skill[hold=1],high_plunge,attack:3;\nrosaria burst;\nganyu skill,burst[radius=2];\nrosaria
+  skill;\ntartaglia skill,attack:3,charge,jump,attack:3,charge;\nrosaria skill;\nkazuha
+  skill,high_plunge,attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -60,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32209.142127877138
+dps: 32205.899921237502
 mode: sl
 duration: 114.00000000000126
 target_count: 1

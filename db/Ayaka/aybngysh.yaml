@@ -1,26 +1,27 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=128 workers=30 mode=sl;\nayaka
-  char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5
-  lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780
-  atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nganyu
-  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5
-  lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=4;\nganyu add stats hp=4780
-  atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.3972 cd=0.5296;\n\nbennett
-  char lvl=90/90 cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
-  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
-  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nshenhe
-  char lvl=90/90 cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nshenhe add set=\"gladiatorsfinale\" count=2;\nshenhe add set=\"echoesofanoffering\"
-  count=3;\nshenhe add stats hp=4780 atk=311 atk%=0.4660 atk%=0.4660 atk%=0.4660;\nshenhe
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.2204
-  em=39.64 cr=0.3972 cd=0.3972;\n\n# ----\nenergy every interval=480,720 amount=1;\ntarget
-  lvl=100 resist=0.1;\n\n# ----\nactive ayaka;\nayaka dash,attack, skill,attack:2;\nbennett
-  burst,skill,attack;\nshenhe skill,burst;\nganyu burst[radius=2],attack, skill;\nayaka
-  dash, attack, attack;\nwait 5;\nayaka skill, burst;\nshenhe attack, skill;\nbennett
-  skill;\nganyu aim[weakspot=1]:2, skill;\nwait 10;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=128 workers=30 mode=sl;\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka
+  add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\"
+  count=4;\nayaka add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu
+  add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
+  count=4;\nganyu add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.3972 cd=0.5296;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=4;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe add set=\"gladiatorsfinale\"
+  count=2;\nshenhe add set=\"echoesofanoffering\" count=3;\nshenhe add stats hp=4780
+  atk=311 atk%=0.4660 atk%=0.4660 atk%=0.4660;\nshenhe add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.2204 em=39.64 cr=0.3972 cd=0.3972;\n\n#
+  ----\nenergy every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\n# ----\nactive
+  ayaka;\nayaka dash,attack, skill,attack:2;\nbennett burst,skill,attack;\nshenhe
+  skill,burst;\nganyu burst[radius=2],attack, skill;\nayaka dash, attack, attack;\nwait
+  5;\nayaka skill, burst;\nshenhe attack, skill;\nbennett skill;\nganyu aim[weakspot=1]:2,
+  skill;\nwait 10;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Bennett once again proving that he is a viable pair for every single
   unit in the game.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
@@ -61,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51374.06893333807
+dps: 51415.90822254544
 mode: sl
 duration: 128.00000000000009
 target_count: 1

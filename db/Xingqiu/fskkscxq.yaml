@@ -1,6 +1,7 @@
 author: Arfoire#9219
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=apl;\n\n#Character
-  builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"sacrificialfragments\"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=100 workers=30 mode=apl;\n\n#Character builds:\nsucrose
+  char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"sacrificialfragments\"
   refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
   stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.1986 cd=0.2648;\n\nfischl
@@ -65,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37248.05761885546
+dps: 37263.24494254434
 mode: apl
 duration: 99.9999999999986
 target_count: 1

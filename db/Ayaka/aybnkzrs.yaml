@@ -1,12 +1,12 @@
 author: Xardas#5785
 config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\noptions
-  swap_delay=12 debug=true iteration=1000 duration=101 mode=sl;\n\n#Character Builds:\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1
-  lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=5;\nrosaria add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nrosaria add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nkazuha
+  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\nhurt
+  every interval=300,900 amount=0,1000; options swap_delay=12 debug=true iteration=1000
+  duration=101 mode=sl;\n\n#Character Builds:\nrosaria char lvl=90/90 cons=6 talent=9,9,9;
+  \nrosaria add weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
+  count=5;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nrosaria
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nkazuha
   char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
   lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
   atk=311 em=559.5 ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52723.203077307255
+dps: 51545.971925764825
 mode: sl
 duration: 100.9999999999993
 target_count: 1

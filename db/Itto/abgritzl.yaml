@@ -1,29 +1,30 @@
 author: Aftermath#7658
-config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\n\nitto
-  char lvl=90/90 cons=0 talent=9,9,9;\nitto add weapon=\"serpentspine\" refine=1 lvl=90/90
-  +params=[stacks=5];\nitto add set=\"huskofopulentdreams\" count=4; #+params=[stacks=4];\nitto
-  add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cd=0.622 ; #main\nitto add stats
-  def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
-  cr=0.3972 cd=0.662;\n\ngorou char lvl=90/90 cons=6 talent=9,9,9;\ngorou add weapon=\"favoniuswarbow\"
-  refine=3 lvl=90/90;\ngorou add set=\"noblesseoblige\" count=4;\ngorou add stats
-  hp=4780 atk=311 er=0.518 geo%=0.466 cr=0.311 ; #main\ngorou add stats def%=0.248
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.331
-  cd=0.1324;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"blacktassel\"
-  refine=5 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli
-  add set=\"paleflame\" count=1;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466
-  cr=0.311 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nalbedo char lvl=90/90 cons=0
-  talent=9,9,9; \nalbedo add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo
-  add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nalbedo add set=\"paleflame\"
-  count=1;\nalbedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo
-  add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nactive zhongli;\ntarget lvl=100 pyro=0.1 dendro=0.1
-  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720
-  amount=1;\n\nzhongli skill[hold=1];\ngorou skill,burst;\n\nalbedo jump;\nwait 10;\nalbedo
-  skill;\n\nitto attack, burst, attack, skill, attack:2, charge:4, attack:4, charge:5,
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=102 workers=30 mode=sl;\n\n\nitto char lvl=90/90 cons=0
+  talent=9,9,9;\nitto add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nitto
+  add set=\"huskofopulentdreams\" count=4; #+params=[stacks=4];\nitto add stats hp=4780
+  atk=311 def%=0.583 geo%=0.466 cd=0.622 ; #main\nitto add stats def%=0.248 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\ngorou
+  char lvl=90/90 cons=6 talent=9,9,9;\ngorou add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\ngorou add set=\"noblesseoblige\" count=4;\ngorou add stats hp=4780 atk=311
+  er=0.518 geo%=0.466 cr=0.311 ; #main\ngorou add stats def%=0.248 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.331 cd=0.1324;\n\nzhongli
+  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"blacktassel\" refine=5
+  lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli add set=\"paleflame\"
+  count=1;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo
+  add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\"
+  count=4 +params=[stacks=4];\nalbedo add set=\"paleflame\" count=1;\nalbedo add stats
+  hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo add stats def%=0.248
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nactive zhongli;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
+  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\n\nzhongli
+  skill[hold=1];\ngorou skill,burst;\n\nalbedo jump;\nwait 10;\nalbedo skill;\n\nitto
+  attack, burst, attack, skill, attack:2, charge:4, attack:4, charge:5, skill, charge,
+  attack:2;\n\nzhongli skill[hold=1];\ngorou skill,burst;\n\nalbedo jump;\nwait 10;\nalbedo
+  skill;\n\nitto attack, burst, attack, skill, attack:2, charge:5, attack:4, charge:5,
   skill, charge, attack:2;\n\nzhongli skill[hold=1];\ngorou skill,burst;\n\nalbedo
-  jump;\nwait 10;\nalbedo skill;\n\nitto attack, burst, attack, skill, attack:2, charge:5,
-  attack:4, charge:5, skill, charge, attack:2;\n\nzhongli skill[hold=1];\ngorou skill,burst;\n\nalbedo
   jump;\nwait 10;\nalbedo skill;\n\nitto attack, burst, attack, skill, attack:2, charge:5,
   attack:4, charge:5, skill, charge, attack:2;\n\nzhongli skill[hold=1];\ngorou skill,burst;\n\nalbedo
   jump;\nwait 10;\nalbedo skill;\n\nitto attack, burst, attack, skill, attack:2, charge:5,
@@ -69,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53798.80780230385
+dps: 53885.13294258288
 mode: sl
 duration: 102.00000000000051
 target_count: 1

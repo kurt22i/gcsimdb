@@ -1,30 +1,30 @@
 author: Charliex3000#9403
-config: "options debug=true iteration=1000 duration=128 workers=30 mode=sl swap_delay=12;\n\nqiqi
-  char lvl=90/90 cons=0 talent=9,9,9;\nqiqi add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nqiqi add set=\"oceanhuedclam\" count=4;\nqiqi add stats hp=4780 atk=311
-  atk%=0.466 cr=0.331 atk%=0.466; #main\nqiqi add stats hp%=0.0992 hp=507.88 atk%=0.496
-  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.1324 er=0.3306 ; #subs\n\nkazuha
-  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=5;\nkazuha add stats hp=4780
-  atk=311 em=561 ; #main\nkazuha add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08
-  def%=0.124 def=39.36 em=118.92 er=0.4408 cr=0.3972 cd=0.1324; #subs\n\nkamisatoayaka
-  char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"amenomakageuchi\"
-  refine=5 lvl=90/90;\nkamisatoayaka add set=\"blizzardstrayer\" count=5;\nkamisatoayaka
-  add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nkamisatoayaka
-  add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.3972 cd=0.662 er=0.1102 ; #subs\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9;
-  \nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\"
-  count=5;\nshenhe add stats hp=4780 atk=311 atk%=0.466 er=0.518 cr=0.311; #main\nshenhe
+config: "hurt every interval=300,900 amount=0,1000; options debug=true iteration=1000
+  duration=128 workers=30 mode=sl swap_delay=12;\n\nqiqi char lvl=90/90 cons=0 talent=9,9,9;\nqiqi
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nqiqi add set=\"oceanhuedclam\"
+  count=4;\nqiqi add stats hp=4780 atk=311 atk%=0.466 cr=0.331 atk%=0.466; #main\nqiqi
   add stats hp%=0.0992 hp=507.88 atk%=0.496 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.331 cd=0.3972 er=0.1102 ; #subs\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
-  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n#target lvl=100 pyro=0.1 dendro=0.1
-  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n\nenergy every interval=480,720
-  amount=1;\n\nactive ayaka;\n\nayaka skill;\n\nkazuha skill,high_plunge,burst;\n\nshenhe
-  skill,burst;\n\nqiqi skill, burst, attack;\n\nayaka dash, skill, attack, burst;\n\nkazuha
-  skill,attack:2;\n\nshenhe attack, skill;\n\nayaka dash,attack:2,charge,attack:3;\n\n\nayaka
-  skill;\n\nkazuha skill,high_plunge,burst;\n\nshenhe skill,burst;\n\nqiqi attack,
-  burst, attack;\n\nayaka dash, skill, attack, burst;\n\nkazuha skill,attack:2;\n\nshenhe
-  attack, skill;\n\nayaka dash,attack:2,charge,attack:3;\n\nrestart;\n"
+  cr=0.331 cd=0.1324 er=0.3306 ; #subs\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;
+  \nkazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
+  count=5;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats hp%=0.0992
+  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=118.92 er=0.4408 cr=0.3972
+  cd=0.1324; #subs\n\nkamisatoayaka char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka
+  add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nkamisatoayaka add set=\"blizzardstrayer\"
+  count=5;\nkamisatoayaka add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622
+  ; #main\nkamisatoayaka add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124
+  def=39.36 em=39.64 cr=0.3972 cd=0.662 er=0.1102 ; #subs\n\nshenhe char lvl=90/90
+  cons=0 talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe
+  add set=\"noblesseoblige\" count=5;\nshenhe add stats hp=4780 atk=311 atk%=0.466
+  er=0.518 cr=0.311; #main\nshenhe add stats hp%=0.0992 hp=507.88 atk%=0.496 atk=33.08
+  def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.3972 er=0.1102 ; #subs\n\ntarget lvl=100
+  pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n#target
+  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
+  cryo=.1;\n\nenergy every interval=480,720 amount=1;\n\nactive ayaka;\n\nayaka skill;\n\nkazuha
+  skill,high_plunge,burst;\n\nshenhe skill,burst;\n\nqiqi skill, burst, attack;\n\nayaka
+  dash, skill, attack, burst;\n\nkazuha skill,attack:2;\n\nshenhe attack, skill;\n\nayaka
+  dash,attack:2,charge,attack:3;\n\n\nayaka skill;\n\nkazuha skill,high_plunge,burst;\n\nshenhe
+  skill,burst;\n\nqiqi attack, burst, attack;\n\nayaka dash, skill, attack, burst;\n\nkazuha
+  skill,attack:2;\n\nshenhe attack, skill;\n\nayaka dash,attack:2,charge,attack:3;\n\nrestart;\n"
 description: Ayaka Mono-Cryo with Qiqi.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38507.88879440952
+dps: 38479.23417870107
 mode: sl
 duration: 128.00000000000009
 target_count: 1

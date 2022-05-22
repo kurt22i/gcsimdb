@@ -1,28 +1,28 @@
 author: Kurt#5846, danii#8748 and mina#4448
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao
-  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"deathmatch\"
-  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
-  stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
-  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
-  stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\nyunjin char lvl=90/90 cons=6 talent=9,9,9;\nyunjin add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\nyunjin add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nyunjin
-  add stats hp=4780 atk=311 def%=1.749 ; #main\nyunjin add stats def%=0.372 def=78.72
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.3972 cd=0.1324;\n\nalbedo
-  char lvl=90/90 cons=0 talent=9,9,9;\nalbedo add weapon=\"cinnabarspindle\" refine=5
-  lvl=90/90;\nalbedo add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nalbedo
-  add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64
-  cr=0.2648 cd=0.5296;\n\nactive xingqiu;\ntarget lvl=100 resist=0.1;\nenergy every
-  interval=480,720 amount=1;\n\nxingqiu burst[orbital=1], attack:1, skill[orbital=1],
-  attack:2;\nalbedo skill, attack, burst, attack;\nyunjin skill, attack, burst, attack;\nhutao\n\tskill,
-  attack:2, charge, dash,\n\tattack:2, charge, dash,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:1, charge\n\t;\nyunjin attack, skill, attack:1;\nxingqiu
-  attack:2, dash, attack:2;\n\nrestart;\n\n"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao char lvl=90/90 cons=0 talent=9,9,9
+  start_hp=1;\nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\"
+  count=4;\nhutao add stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.3972 cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nyunjin char lvl=90/90 cons=6 talent=9,9,9;\nyunjin
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nyunjin add set=\"huskofopulentdreams\"
+  count=4 +params=[stacks=4];\nyunjin add stats hp=4780 atk=311 def%=1.749 ; #main\nyunjin
+  add stats def%=0.372 def=78.72 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.3972 cd=0.1324;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9;\nalbedo
+  add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\"
+  count=4 +params=[stacks=4];\nalbedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466
+  cr=0.311 ; #main\nalbedo add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.551 em=39.64 cr=0.2648 cd=0.5296;\n\nactive xingqiu;\ntarget lvl=100
+  resist=0.1;\nenergy every interval=480,720 amount=1;\n\nxingqiu burst[orbital=1],
+  attack:1, skill[orbital=1], attack:2;\nalbedo skill, attack, burst, attack;\nyunjin
+  skill, attack, burst, attack;\nhutao\n\tskill, attack:2, charge, dash,\n\tattack:2,
+  charge, dash,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:1,
+  charge\n\t;\nyunjin attack, skill, attack:1;\nxingqiu attack:2, dash, attack:2;\n\nrestart;\n\n"
 description: Hu Tao Double Geo except you're missing Zhongli...
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48374.7466918228
+dps: 48421.45096179466
 mode: sl
 duration: 105.00000000000071
 target_count: 1

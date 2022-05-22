@@ -24,6 +24,7 @@ config: |+
   mona add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main
   mona add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317 cd=0.7282;
 
+  hurt every interval=300,900 amount=0,1000;
   options swap_delay=12 debug=true iteration=1000 duration=112 workers=30 mode=sl;
 
   target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
@@ -81,7 +82,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41298.10060026072
+dps: 41261.75022679131
 mode: sl
 duration: 111.99999999999807
 target_count: 1

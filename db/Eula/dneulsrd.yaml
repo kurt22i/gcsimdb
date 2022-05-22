@@ -1,26 +1,27 @@
 author: Kurt#5846, Rare Possum#0511 and ShadowDawn#5332
-config: "options swap_delay=12 debug=true iteration=1000 duration=111 workers=30 mode=sl;\n\neula
-  char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
-  lvl=90/90 +params=[stacks=5];\neula add set=\"bloodstainedchivalry\" count=1;\neula
-  add set=\"paleflame\" count=4;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
-  cr=0.311 ; #main\neula add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nraidenshogun char lvl=90/90
-  cons=0 talent=9,9,9; \nraidenshogun add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nraidenshogun
-  add set=\"tenacityofthemillelith\" count=5;\nraidenshogun add stats hp=4780 atk=311
-  er=0.518 atk%=0.466 cr=0.311 ;  #main\nraidenshogun add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.331 cd=0.3972;\n\nlisa
-  char lvl=90/90 cons=0 talent=9,9,9; \nlisa add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nlisa add set=\"noblesseoblige\" count=5;\nlisa add stats hp=4780
-  atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nlisa add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306 em=39.64 cr=0.1655 cd=0.331;\n\ndiona
-  char lvl=90/90 cons=6 talent=9,9,9; \ndiona add weapon=\"sacrificialbow\" refine=3
-  lvl=90/90;\ndiona add set=\"tenacityofthemillelith\" count=2;\ndiona add set=\"maidenbeloved\"
-  count=2;\ndiona add stats hp=4780 atk=311 hp%=1.398; #main\ndiona add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.2317
-  cd=0.4634;\n\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=240,360 amount=1;\n\nraiden
-  skill;\ndiona skill[hold=1],skill[hold=1];\neula skill, attack:2;\nlisa burst;\neula
-  burst,attack:4,skill[hold=1];\nwait 14;\neula attack:4;\ndiona burst;\nraiden burst,attack:3,charge,attack:3,charge,attack,charge;\n\nrestart;\n\n"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=111 workers=30 mode=sl;\n\neula char lvl=90/90 cons=0 talent=9,9,9;
+  \neula add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\neula
+  add set=\"bloodstainedchivalry\" count=1;\neula add set=\"paleflame\" count=4;\neula
+  add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cr=0.311 ; #main\neula add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  cr=0.331 cd=0.7944;\n\nraidenshogun char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nraidenshogun add set=\"tenacityofthemillelith\"
+  count=5;\nraidenshogun add stats hp=4780 atk=311 er=0.518 atk%=0.466 cr=0.311 ;
+  \ #main\nraidenshogun add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.496 er=0.1102 em=39.64 cr=0.331 cd=0.3972;\n\nlisa char lvl=90/90 cons=0
+  talent=9,9,9; \nlisa add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nlisa
+  add set=\"noblesseoblige\" count=5;\nlisa add stats hp=4780 atk=311 er=0.518 electro%=0.466
+  cr=0.311 ; #main\nlisa add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.5952 er=0.3306 em=39.64 cr=0.1655 cd=0.331;\n\ndiona char lvl=90/90 cons=6
+  talent=9,9,9; \ndiona add weapon=\"sacrificialbow\" refine=3 lvl=90/90;\ndiona add
+  set=\"tenacityofthemillelith\" count=2;\ndiona add set=\"maidenbeloved\" count=2;\ndiona
+  add stats hp=4780 atk=311 hp%=1.398; #main\ndiona add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.2317 cd=0.4634;\n\n\nactive
+  raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=240,360 amount=1;\n\nraiden skill;\ndiona
+  skill[hold=1],skill[hold=1];\neula skill, attack:2;\nlisa burst;\neula burst,attack:4,skill[hold=1];\nwait
+  14;\neula attack:4;\ndiona burst;\nraiden burst,attack:3,charge,attack:3,charge,attack,charge;\n\nrestart;\n\n"
 description: Eula with Lisa.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -60,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35825.186075596495
+dps: 35885.44297842108
 mode: sl
 duration: 111.00000000000108
 target_count: 1

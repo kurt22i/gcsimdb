@@ -1,27 +1,27 @@
 author: Buki#7742
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 mode=apl;\n\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"dragonsbane\" refine=3
-  lvl=90/90;\nrosaria add set=\"emblemofseveredfate\" count=5;\nrosaria add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311;\nrosaria add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;\n\nxiangling
-  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
-  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
-  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311; \nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
-  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311; \nbennett add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.1986 cd=0.662;\n\njean
-  char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\njean add set=\"viridescentvenerer\" count=4;\njean add stats hp=4780
-  atk=311 em=561;\njean add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952000000000001
-  def=39.36 def%=0.124 em=118.92 er=0.5857 cr=0.0993 cd=0.1324;\n\ntarget lvl=100
-  pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy
-  every interval=480,720 amount=1;\n\n#Action List:\nactive bennett;\n\nbennett burst;\njean
-  skill,attack;\nxiangling burst;\nxiangling skill;\nbennett burst,skill;\njean burst;\nrosaria
-  skill;\nrosaria burst;\njean skill;\nbennett skill;\njean skill,attack;\nxiangling
-  skill;\nbennett skill;\n\nbennett attack +is_onfield;\nxiangling attack +is_onfield;\njean
-  attack +is_onfield;\nrosaria attack +is_onfield;\n"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=100 mode=apl;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;
+  \nrosaria add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
+  count=5;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311;\nrosaria
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
+  em=39.64 cr=0.2648 cd=0.662;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=5;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311; \nxiangling
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311; \nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
+  em=39.64 cr=0.1986 cd=0.662;\n\njean char lvl=90/90 cons=0 talent=9,9,9; \njean
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\njean add set=\"viridescentvenerer\"
+  count=4;\njean add stats hp=4780 atk=311 em=561;\njean add stats hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952000000000001 def=39.36 def%=0.124 em=118.92 er=0.5857 cr=0.0993
+  cd=0.1324;\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\n\n#Action List:\nactive
+  bennett;\n\nbennett burst;\njean skill,attack;\nxiangling burst;\nxiangling skill;\nbennett
+  burst,skill;\njean burst;\nrosaria skill;\nrosaria burst;\njean skill;\nbennett
+  skill;\njean skill,attack;\nxiangling skill;\nbennett skill;\n\nbennett attack +is_onfield;\nxiangling
+  attack +is_onfield;\njean attack +is_onfield;\nrosaria attack +is_onfield;\n"
 description: Sunfire Rosaria.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38885.90309953807
+dps: 38729.383740797326
 mode: apl
 duration: 99.9999999999986
 target_count: 1

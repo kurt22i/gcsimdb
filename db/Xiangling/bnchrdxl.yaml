@@ -1,14 +1,15 @@
 author: RoyM#2340
-config: "options swap_delay=12 debug=true iteration=1000 duration=111 workers=30 mode=sl;\n\nbennett
-  char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1
-  lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232.0
-  er=0.518 cr=0.2320 pyro%=0.3480;\nbennett add stats def=39.36 def%=0.124 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2979 cd=0.4634 ;\t\n\nxiangling
-  char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
-  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
-  hp=4780 atk=311.0 er=0.518 cr=0.311 pyro%=0.466;\nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
-  cd=0.7944;\n\ntartaglia char lvl=90/90 cons=0 talent=9,9,9;\ntartaglia add weapon=\"theviridescenthunt\"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=111 workers=30 mode=sl;\n\nbennett char lvl=90/90 cons=6
+  talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232.0 er=0.518 cr=0.2320
+  pyro%=0.3480;\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.1102 em=39.64 cr=0.2979 cd=0.4634 ;\t\n\nxiangling char lvl=90/90
+  cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311.0
+  er=0.518 cr=0.311 pyro%=0.466;\nxiangling add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\ntartaglia
+  char lvl=90/90 cons=0 talent=9,9,9;\ntartaglia add weapon=\"theviridescenthunt\"
   refine=1 lvl=90/90;\ntartaglia add set=\"noblesseoblige\" count=4;\ntartaglia add
   stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cd=0.622;\ntartaglia add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
@@ -59,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39954.8167117437
+dps: 39907.37903954995
 mode: sl
 duration: 111.00000000000108
 target_count: 1

@@ -1,23 +1,23 @@
 author: Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=102 mode=sl;\n\nkokomi
-  char lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"prototypeamber\" refine=5
-  lvl=90/90;\nkokomi add set=\"oceanhuedclam\" count=4;\nkokomi add stats hp=4780
-  atk=311 hp%=0.466 hydro%=0.466 heal=0.359; # main\nkokomi add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.496 atk=33.08 atk%=0.0992 er=0.4408 em=158.56 cr=0.0662 cd=0.1324;\n\nbeidou
-  char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"favoniusgreatsword\" refine=3
-  lvl=90/90;\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou add stats hp=4780
-  atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nbeidou add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.551 em=39.64 cr=0.1324 cd=0.1324;\n\nzhongli
-  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats
-  hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311; #main\nzhongli add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
-  cd=0.7944;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo add weapon=\"cinnabarspindle\"
-  refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nalbedo
-  add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311; #main\nalbedo add stats
-  def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
-  amount=1;\nactive kokomi;\n\nkokomi skill;\nzhongli burst,skill[hold=1];\nalbedo
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=102 mode=sl;\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9;\nkokomi
+  add weapon=\"prototypeamber\" refine=5 lvl=90/90;\nkokomi add set=\"oceanhuedclam\"
+  count=4;\nkokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.359; #
+  main\nkokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.0992
+  er=0.4408 em=158.56 cr=0.0662 cd=0.1324;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;
+  \nbeidou add weapon=\"favoniusgreatsword\" refine=3 lvl=90/90;\nbeidou add set=\"emblemofseveredfate\"
+  count=4;\nbeidou add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nbeidou
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.551
+  em=39.64 cr=0.1324 cd=0.1324;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
+  count=4;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311; #main\nzhongli
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo
+  add weapon=\"cinnabarspindle\" refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\"
+  count=4 +params=[stacks=4];\nalbedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466
+  cr=0.311; #main\nalbedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\nactive kokomi;\n\nkokomi skill;\nzhongli burst,skill[hold=1];\nalbedo
   skill,attack:2;\nbeidou skill,burst;\nkokomi burst,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2;\n\nkokomi
   skill;\nzhongli burst,skill[hold=1];\nalbedo skill,attack:2;\nbeidou skill[counter=2],burst;\nkokomi
   burst,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2;\nrestart;\n\n\n\n\n\n"
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31679.53470328497
+dps: 31807.708091030203
 mode: sl
 duration: 102.00000000000051
 target_count: 1

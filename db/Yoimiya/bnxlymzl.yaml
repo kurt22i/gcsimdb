@@ -1,29 +1,30 @@
 author: KurticusZen#5674 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=131 workers=30 mode=sl;\n\n\nyoimiya
-  char lvl=90/90 cons=0 talent=9,9,9; \nyoimiya add weapon=\"slingshot\" refine=5
-  lvl=90/90;\nyoimiya add set=\"shimenawasreminiscence\" count=5;\nyoimiya add stats
-  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cd=0.622 ; #main\nyoimiya add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662 ;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
-  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
-  add stats hp=4780 atk=311 er=.518 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats
-  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
-  cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;
-  \nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\n#zhongli add set=\"tenacityofthemillelith\"
-  count=4; #worst by around 1.5k dps \nzhongli add set=\"archaicpetra\" count=4;\nzhongli
-  add set=\"paleflame\" count=1;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466
-  cr=0.311; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6
-  talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
-  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
-  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;\n\nactive yoimiya;\ntarget
-  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nyoimiya burst;\nzhongli skill[hold=1],
-  burst;\nbennett burst, skill;\nxiangling burst, skill;\nyoimiya skill,attack:5,
-  dash ,attack:5, dash,attack:5, dash, attack:3;\n\nbennett skill;\nxiangling attack:3;\nzhongli
-  attack:3, skill[hold=1];\nbennett burst,  skill;\nxiangling burst, skill;\nyoimiya
-  skill,attack:5, dash ,attack:5, dash,attack:5, dash, attack:3;\nbennett skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=131 workers=30 mode=sl;\n\n\nyoimiya char lvl=90/90 cons=0
+  talent=9,9,9; \nyoimiya add weapon=\"slingshot\" refine=5 lvl=90/90;\nyoimiya add
+  set=\"shimenawasreminiscence\" count=5;\nyoimiya add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cd=0.622 ; #main\nyoimiya add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662 ;\n\nxiangling char
+  lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 er=.518
+  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\n\nzhongli
+  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\n#zhongli add set=\"tenacityofthemillelith\" count=4; #worst by around
+  1.5k dps \nzhongli add set=\"archaicpetra\" count=4;\nzhongli add set=\"paleflame\"
+  count=1;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311; #main\nzhongli
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
+  em=39.64 cr=0.2648 cd=0.662;\n\nactive yoimiya;\ntarget lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
+  amount=1;\n\nyoimiya burst;\nzhongli skill[hold=1], burst;\nbennett burst, skill;\nxiangling
+  burst, skill;\nyoimiya skill,attack:5, dash ,attack:5, dash,attack:5, dash, attack:3;\n\nbennett
+  skill;\nxiangling attack:3;\nzhongli attack:3, skill[hold=1];\nbennett burst,  skill;\nxiangling
+  burst, skill;\nyoimiya skill,attack:5, dash ,attack:5, dash,attack:5, dash, attack:3;\nbennett
+  skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Pure-Pyro Yoimiya with Shielding.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -63,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42332.02605095581
+dps: 42329.62844580041
 mode: sl
 duration: 131.0000000000002
 target_count: 1

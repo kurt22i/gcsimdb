@@ -1,34 +1,35 @@
 author: Lizz71#8986 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=120 workers=30 mode=sl;\n\nraidenshogun
-  char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
-  lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
-  add weapon=\"wavebreakersfin\" refine=1 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=5;\nxiangling add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311; #main\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.33 cd=0.7944;\n\nlisa char lvl=90/90 cons=0 talent=9,9,9; \nlisa add
-  weapon=\"hakushinring\" refine=5 lvl=90/90;\nlisa add set=\"emblemofseveredfate\"
-  count=4;\nlisa add stats hp=4780 atk=311 em=561; #main\nlisa add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.6612 em=118.92 cr=0.0662
-  cd=0.1324;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
-  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\n\nactive raiden;\ntarget lvl=100 resist=0.1;\n\nenergy every interval=480,720
-  amount=1;\n\n\nactive raiden;\n\nraiden skill;\nlisa skill,burst;\nbennett burst,
-  skill;\nxiangling burst, skill;\nraidenshogun burst, attack:14,charge,skill;\nbennett
-  skill;\nxiangling skill,attack:3;\nbennett attack,skill;\nxiangling attack:3;\n\nlisa
+config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+  iteration=1000 duration=120 workers=30 mode=sl;\n\nraidenshogun char lvl=90/90 cons=0
+  talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun
+  add set=\"emblemofseveredfate\" count=5;\nraidenshogun add stats hp=4780 atk=311
+  atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"wavebreakersfin\" refine=1
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
+  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311; #main\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.33
+  cd=0.7944;\n\nlisa char lvl=90/90 cons=0 talent=9,9,9; \nlisa add weapon=\"hakushinring\"
+  refine=5 lvl=90/90;\nlisa add set=\"emblemofseveredfate\" count=4;\nlisa add stats
+  hp=4780 atk=311 em=561; #main\nlisa add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.3968 er=0.6612 em=118.92 cr=0.0662 cd=0.1324;\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n\nactive raiden;\ntarget
+  lvl=100 resist=0.1;\n\nenergy every interval=480,720 amount=1;\n\n\nactive raiden;\n\nraiden
+  skill;\nlisa skill,burst;\nbennett burst, skill;\nxiangling burst, skill;\nraidenshogun
+  burst, attack:14,charge,skill;\nbennett skill;\nxiangling skill,attack:3;\nbennett
+  attack,skill;\nxiangling attack:3;\n\nlisa skill,burst;\nbennett burst, skill;\nxiangling
+  burst, skill;\nraidenshogun burst, attack:14,charge,skill;\nbennett skill;\nxiangling
+  skill,attack:3;\nbennett attack,skill;\nxiangling attack:3;\n\n\nlisa skill,burst;\nbennett
+  burst, skill;\nxiangling burst, skill;\nraidenshogun burst, attack:14,charge,skill;\nbennett
+  skill;\nxiangling skill,attack:3;\nbennett attack,skill;\nxiangling attack:3;\n\n\nlisa
   skill,burst;\nbennett burst, skill;\nxiangling burst, skill;\nraidenshogun burst,
   attack:14,charge,skill;\nbennett skill;\nxiangling skill,attack:3;\nbennett attack,skill;\nxiangling
   attack:3;\n\n\nlisa skill,burst;\nbennett burst, skill;\nxiangling burst, skill;\nraidenshogun
   burst, attack:14,charge,skill;\nbennett skill;\nxiangling skill,attack:3;\nbennett
-  attack,skill;\nxiangling attack:3;\n\n\nlisa skill,burst;\nbennett burst, skill;\nxiangling
-  burst, skill;\nraidenshogun burst, attack:14,charge,skill;\nbennett skill;\nxiangling
-  skill,attack:3;\nbennett attack,skill;\nxiangling attack:3;\n\n\nlisa skill,burst;\nbennett
-  burst, skill;\nxiangling burst, skill;\nraidenshogun burst, attack:14,charge,skill;\nbennett
-  skill;\nxiangling skill,attack:3;\nbennett attack,skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n"
+  attack,skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n"
 description: Raiden with Lisa.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -68,7 +69,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42661.26350739729
+dps: 42653.01494844986
 mode: sl
 duration: 120.00000000000152
 target_count: 1

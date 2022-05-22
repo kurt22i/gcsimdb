@@ -1,5 +1,6 @@
 author: KurticusZen#5674
 config: |+
+  hurt every interval=300,900 amount=0,1000;
   options swap_delay=12 debug=true iteration=1000 duration=168 workers=30 mode=sl;
 
   hutao char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;
@@ -115,7 +116,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45017.33441694919
+dps: 44897.45261732234
 mode: sl
 duration: 168.0000000000037
 target_count: 1
