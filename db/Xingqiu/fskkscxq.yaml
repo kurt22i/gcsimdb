@@ -28,7 +28,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   sucrose charge +is_onfield +if=.counter.sucrose>1;\nsucrose attack;\n\nsucrose attack
   +is_onfield;\nxingqiu attack +is_onfield;\nfischl attack +is_onfield;\n"
 description: A comfortable taser team.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37233.44253098549
+dps: 35850.68863770791
 mode: apl
 duration: 99.9999999999986
 target_count: 1

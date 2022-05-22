@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   burst;\nningguang skill,burst,skill,charge;\nbennett skill;\nningguang attack:2,charge;\nbennett
   skill;\nrestart;\n"
 description: Ningguang Carry with Fischl.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37842.76778035784
+dps: 37064.8636951262
 mode: sl
 duration: 93.0000000000023
 target_count: 1

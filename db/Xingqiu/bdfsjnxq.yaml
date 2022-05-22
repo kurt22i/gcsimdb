@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   \       attack:2,dash,\n        attack:2;\nbeidou skill;\njean skill,attack;\nxingqiu
   attack:2,dash,\n        attack:2,dash,\n        attack:2,dash,\n        attack:1;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Jean Taser.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39140.80220236452
+dps: 37139.2002146351
 mode: sl
 duration: 102.00000000000051
 target_count: 1

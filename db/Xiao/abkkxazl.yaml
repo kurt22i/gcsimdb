@@ -1,8 +1,8 @@
 author: Hessey#9122
 config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
-  duration=128 workers=30 mode=sl swap_delay=8;\n\nenergy every interval=480,720
-  amount=1;\n\ntarget lvl=100 resist=0.1;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli
-  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
+  duration=128 workers=30 mode=sl swap_delay=8;\n\nenergy every interval=480,720 amount=1;\n\ntarget
+  lvl=100 resist=0.1;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli add
+  weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
   count=5;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ;\nzhongli
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.331 cd=0.7944;\n\nxiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao add
@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   \ jump, high_plunge[collision=1],\n  jump, low_plunge[collision=1], jump, low_plunge[collision=1];\n
   \ \nrestart;\n\n\n\n\n\n"
 description: Double Geo Xiao with Kokomi.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41565.17394732634
+dps: 38498.08097722272
 mode: sl
 duration: 128.00000000000009
 target_count: 1

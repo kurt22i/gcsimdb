@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2,
   dash,\n    attack:2\n    ;\nbeidou skill[counter=1];\nrestart;\n\n"
 description: Mikomi Taser with Venti and no Fischl.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30375.499356955534
+dps: 30282.325222420674
 mode: sl
 duration: 99.9999999999986
 target_count: 1

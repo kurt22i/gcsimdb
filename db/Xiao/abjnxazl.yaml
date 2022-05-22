@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   \ jump, low_plunge[collision=1], jump, low_plunge[collision=1]; \njean skill;\nxiao
   attack, charge;\n\nrestart;\n\n\n\n\n\n"
 description: Double Geo Xiao with Jean.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40232.77067604955
+dps: 37628.79178217722
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -28,7 +28,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:2, skill;\nxingqiu attack:3;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
   skill, attack;\nxiangling attack:4;\n\nrestart;\n\n\n\n\n\n"
 description: Albedo National.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50278.85254530912
+dps: 45156.150764655584
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -32,7 +32,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   skill,high_plunge;\nxiangling burst,skill;\nyae burst,skill:3;\nkazuha skill,high_plunge;\nyae
   attack:2, charge;\nbennett skill;\nxiangling attack:2;\nkazuha skill,high_plunge;\n\nrestart;\n\n"
 description: OL Yae with Kazuha.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -70,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42392.43016093826
+dps: 40250.57111010404
 mode: sl
 duration: 109.99999999999949
 target_count: 1

@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack;\nnoelle attack:3, dash, attack:3, dash, attack:3, dash;\ngorou skill, attack;\nnoelle
   attack:3, dash, attack:2, dash;\nrestart;\n\n\n"
 description: Noelle with Fischl.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38744.416777124854
+dps: 37607.27353802705
 mode: sl
 duration: 78.9999999999992
 target_count: 1

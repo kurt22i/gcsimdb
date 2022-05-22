@@ -55,7 +55,7 @@ config: |+
 
 
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -93,7 +93,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33247.378296621035
+dps: 32616.20918396078
 mode: sl
 duration: 109.99999999999949
 target_count: 1

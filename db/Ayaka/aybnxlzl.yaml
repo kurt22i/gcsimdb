@@ -40,7 +40,7 @@ config: |+
 
 
 description: Reverse Melt Ayaka with shielding.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -78,7 +78,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 54959.4231869677
+dps: 50266.14849958893
 mode: sl
 duration: 102.00000000000051
 target_count: 1

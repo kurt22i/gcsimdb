@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   burst, skill ,skill, skill;\nventi attack, skill;\nsara skill, aim;\nraidenshogun
   burst, attack:3, charge, attack:3, charge, attack:3, charge;\n\nrestart;\n\n"
 description: Mono-Electro Raiden with Venti.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: raiden
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44491.73736513611
+dps: 42033.70116461281
 mode: sl
 duration: 115.99999999999967
 target_count: 1

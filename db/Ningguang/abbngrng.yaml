@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   skill;\ngorou skill;\n ningguang charge;\nbennett skill,burst;\nningguang skill,burst,skill,charge;\nbennett
   skill;\nningguang attack:2,charge,attack:2,charge;\nbennett skill;\nrestart;\n"
 description: Ningguang Carry without Zhongli.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31220.725018567617
+dps: 28643.483254212817
 mode: sl
 duration: 99.9999999999986
 target_count: 1

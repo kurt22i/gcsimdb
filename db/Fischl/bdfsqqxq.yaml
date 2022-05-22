@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:2, burst +if=.status.fischloz<120;\nbeidou attack, skill[counter=1], attack:2;\nbeidou
   burst;\nqiqi skill +limit=1;\nqiqi skill +timeout=1260;\nqiqi attack:2, jump;\n"
 description: Qiqi taser.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 29666.565705824756
+dps: 28507.96273456896
 mode: apl
 duration: 90.00000000000215
 target_count: 1

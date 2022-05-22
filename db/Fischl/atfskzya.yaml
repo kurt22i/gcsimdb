@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   skill, high_plunge, burst;\nfischl skill;\nayato skill, attack:15;\nkazuha skill,
   high_plunge;\nyae burst, skill, skill, skill;\nfischl burst;\nayato skill, attack:15;\n\nrestart;\n\n\n\n\n\n"
 description: Yaeyato taser.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayato
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46500.30200919415
+dps: 45545.88054062757
 mode: sl
 duration: 181.99999999999747
 target_count: 1

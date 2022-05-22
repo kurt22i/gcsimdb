@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   dash,\n  attack:2, dash,\n  attack:2, dash,\n  attack:2, dash,\n  attack:2, dash,\n
   \ attack:2\n  ;\nventi skill, attack;\nrestart;\n"
 description: Mikomi taser with Venti.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43600.7696562065
+dps: 42178.64007223068
 mode: sl
 duration: 99.9999999999986
 target_count: 1

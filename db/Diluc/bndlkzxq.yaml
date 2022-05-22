@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   high_plunge, attack;\ndiluc burst, attack, skill, attack:2, skill, attack:2, skill,
   attack:3;\nbennett attack,skill,attack;\nkazuha attack, skill, high_plunge,attack;\nrestart;\n\n"
 description: Vape Diluc.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38976.31342639661
+dps: 31076.325375939577
 mode: sl
 duration: 106.99999999999939
 target_count: 1

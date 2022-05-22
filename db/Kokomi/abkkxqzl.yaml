@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   burst,dash;\nkokomi burst,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2;\nrestart;\n"
 description: '"Petrichor": Kokomi + Geo, a basically invincible team that still deals
   nice damage.'
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42499.320639477424
+dps: 39984.44237202203
 mode: sl
 duration: 108.00000000000088
 target_count: 1

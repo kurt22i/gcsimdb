@@ -21,7 +21,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   every interval=480,720 amount=1;\n\ndiona burst, skill[hold=1];\nbennett burst,skill;\nxiangling
   burst,skill;\nganyu skill,aim:6;\nbennett skill, attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: Melt Ganyu with Diona.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43249.48672922361
+dps: 42098.14159001478
 mode: sl
 duration: 102.99999999999858
 target_count: 1

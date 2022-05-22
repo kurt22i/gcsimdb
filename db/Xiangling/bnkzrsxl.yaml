@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:3;\nbennett skill;\nrosaria skill;\nbennett skill, attack;\nxiangling attack:3;\nkazuha
   skill, high_plunge, attack;\n\nrestart;\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48435.05899420057
+dps: 44945.94964111348
 mode: sl
 duration: 102.99999999999858
 target_count: 1

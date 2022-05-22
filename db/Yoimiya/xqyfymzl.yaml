@@ -54,7 +54,7 @@ config: |+
   restart;
 
 description: Yoifei.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: xingqiu
   con: 6
@@ -92,7 +92,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34937.7857477179
+dps: 35365.819849334126
 mode: sl
 duration: 108.99999999999856
 target_count: 1

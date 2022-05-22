@@ -21,7 +21,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   skill;\nkazuha skill, high_plunge, burst;\nrosaria burst, skill;\nkaeya burst, skill;\nayato
   skill, attack:15;\nkaeya skill;\nkazuha skill, high_plunge,attack:3;\nrosaria skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayato Freeze.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayato
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28445.99463798598
+dps: 27830.524445494884
 mode: sl
 duration: 103.99999999999928
 target_count: 1

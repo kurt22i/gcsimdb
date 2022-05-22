@@ -22,7 +22,7 @@ config: "sucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thril
   attack:4,skill,attack:4,skill,attack:4,dash,attack:4,dash,attack:4,dash,attack:4,dash,attack:4,dash,attack:4;\n\nraiden
   burst,attack:3,charge,attack:3,charge;\n\nrestart;\n"
 description: Raiden/Beidou. Like most Beidou teams, does significantly better in multitarget.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27164.66907597083
+dps: 26875.704740457848
 mode: sl
 duration: 90.00000000000215
 target_count: 1

@@ -29,7 +29,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   jump,\n    attack:1, charge, jump,\n    attack:1, charge;\n\nyoimiya skill, attack:5,
   dash, \n        attack:5, dash, attack:5;\n        \n           \nrestart;\n\n\n\n\n"
 description: Hu Tao + Yoimiya.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: hutao
   con: 0
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49979.93068822433
+dps: 46490.35550490629
 mode: sl
 duration: 114.9999999999981
 target_count: 1

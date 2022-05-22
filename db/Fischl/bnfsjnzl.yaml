@@ -95,7 +95,7 @@ config: |+
 
 
 description: Zhunfire.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 5
@@ -133,7 +133,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32234.6471304072
+dps: 30829.20922385843
 mode: sl
 duration: 129.99999999999824
 target_count: 1

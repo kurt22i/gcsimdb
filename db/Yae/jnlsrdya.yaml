@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   skill,burst, attack;\nlisa burst;\nyaemiko attack, burst,skill,skill,skill, attack;\nwait
   7;\njean attack, skill, attack;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: jean
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32880.857997032734
+dps: 31397.12679082464
 mode: sl
 duration: 109.99999999999949
 target_count: 1

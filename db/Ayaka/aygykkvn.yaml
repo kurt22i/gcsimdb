@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack, skill, attack:3, charge;\nventi skill, attack;\nganyu skill,aim[weakspot=1];\nayaka
   dash, attack:2, charge, dash, attack:2, charge;\n\nrestart;\n"
 description: Ayaka Freeze with Venti and Kokomi.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40146.00677669531
+dps: 37405.06461326531
 mode: sl
 duration: 103.99999999999928
 target_count: 1

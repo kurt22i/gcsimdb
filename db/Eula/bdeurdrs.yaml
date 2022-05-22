@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   skill[hold=1];\nrosaria attack, skill;\nraiden attack, burst,  attack:3, charge,
   attack:3, charge, attack:3, charge;\n\nrestart;\n\n\n\n\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33294.232634129534
+dps: 32851.521890425945
 mode: sl
 duration: 102.00000000000051
 target_count: 1

@@ -45,7 +45,7 @@ config: |+
   restart;
 
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: gorou
   con: 6
@@ -83,7 +83,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33144.7097861629
+dps: 33017.36772318082
 mode: sl
 duration: 96.00000000000009
 target_count: 1

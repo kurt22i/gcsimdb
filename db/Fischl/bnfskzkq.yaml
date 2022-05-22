@@ -60,7 +60,7 @@ config: |+
 
 
 description: Electro Keqing.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -98,7 +98,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41854.990003745115
+dps: 40569.05515564416
 mode: sl
 duration: 99.9999999999986
 target_count: 1

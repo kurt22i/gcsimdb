@@ -69,7 +69,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   \            attack:2, charge, jump,\n             attack:1, charge, jump,\n             attack;\n\nbennett
   skill, attack:2;\n\nsucrose attack:2, skill;\n\nbennett attack:2, skill;    \n"
 description: Bennett-Tao with Sucrose.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -107,7 +107,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 58741.20975706451
+dps: 44772.05440298716
 mode: sl
 duration: 105.00000000000071
 target_count: 1

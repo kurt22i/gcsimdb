@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack;\neula attack, skill, attack;\nrosaria attack, burst;\neula burst,attack:4,skill[hold=1],
   attack:4;\nrosaria skill, attack;\neula attack:4,dash,attack:4;\nwait 11;\nrestart;\n\n\n\n"
 description: Eula with a 4* team.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: diona
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37013.2266383998
+dps: 35699.45968809991
 mode: sl
 duration: 109.99999999999949
 target_count: 1

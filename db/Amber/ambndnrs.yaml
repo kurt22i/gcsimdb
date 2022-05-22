@@ -69,7 +69,7 @@ config: |+
 
 
 description: Melt Amber.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: amber
   con: 0
@@ -107,7 +107,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33136.877406707856
+dps: 28165.882349325057
 mode: sl
 duration: 90.00000000000215
 target_count: 1

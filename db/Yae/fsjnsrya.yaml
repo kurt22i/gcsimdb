@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   burst;\nyaemiko burst,skill,skill,skill,attack:2,charge;\njean attack:2,skill;\nsara
   skill,aim;\nfischl burst,attack:3;\nyaemiko attack:2,charge;\nrestart;\n"
 description: Yae mono-electro.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32546.854371702175
+dps: 29152.22768698352
 mode: sl
 duration: 96.99999999999865
 target_count: 1

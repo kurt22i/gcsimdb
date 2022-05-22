@@ -99,7 +99,7 @@ config: |+
 
 
 description: Zhongli taser.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -137,7 +137,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35348.82934730928
+dps: 34795.70374220619
 mode: sl
 duration: 105.00000000000071
 target_count: 1

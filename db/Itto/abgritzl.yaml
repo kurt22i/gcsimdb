@@ -32,7 +32,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   jump;\nwait 10;\nalbedo skill;\n\nitto attack, burst, attack, skill, attack:2, charge:5,
   attack:4, charge:5, skill, charge, attack:2;\n"
 description: Itto mono-Geo.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -70,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53839.8684010212
+dps: 50063.270288871245
 mode: sl
 duration: 102.00000000000051
 target_count: 1

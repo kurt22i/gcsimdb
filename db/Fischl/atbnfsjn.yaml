@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   skill, burst;\nayato skill, attack:15;\nbennett attack:2, skill;\njean skill;\nfischl
   burst;\nbennett skill;\nayato skill, attack:15;\njean skill;\n\nrestart;\n\n\n"
 description: Sunfire Ayato.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayato
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39153.53122105465
+dps: 39018.5685221941
 mode: sl
 duration: 129.99999999999824
 target_count: 1

@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   attack:4,dash, attack:2, skill[hold=1];\nraiden attack, burst,  attack:3, charge,
   attack:3, charge, attack:3, charge;\n\nrestart;\n\n"
 description: Eula/Beidou.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30719.330720528043
+dps: 29650.408317517013
 mode: sl
 duration: 96.99999999999865
 target_count: 1

@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   dash,attack,skill,burst;\nshenhe skill;\nganyu aim[weakspot=1];\nwait 24;\nganyu
   skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\nwait 16;\n\nrestart;\n\n\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49802.128679797956
+dps: 47808.15798961743
 mode: sl
 duration: 129.99999999999824
 target_count: 1

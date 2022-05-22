@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack,burst;\nkaedeharakazuha attack,skill[hold=1],high_plunge,attack;\nyaemiko
   attack:2,charge,attack:2,charge, attack:2, charge;\nwait 4;\nrestart;\n\n\n\n"
 description: Yae Tazer.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47113.49129802142
+dps: 45173.20679839892
 mode: sl
 duration: 102.00000000000051
 target_count: 1

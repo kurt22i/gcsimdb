@@ -27,7 +27,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
   charge, jump,\n    attack:2, charge,attack;\nxiao burst,high_plunge[collision=1],high_plunge[collision=1],high_plunge[collision=1],high_plunge[collision=1];\n\nrestart;\n"
 description: Tired of all the fancy double VV setups? Introducing xiTao!
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36603.42310952642
+dps: 35901.92925696289
 mode: sl
 duration: 129.00000000000193
 target_count: 1

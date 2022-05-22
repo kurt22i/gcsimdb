@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   jump,\n    attack:1, charge, burst;\nfischl attack, skill;\nraiden attack, burst,
   attack:3, charge, attack:3, charge, attack:2, charge, attack, charge;\nrestart;\n\n\n\n\n"
 description: Taoden.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47194.80771955473
+dps: 44672.9536857158
 mode: sl
 duration: 188.99999999999537
 target_count: 1

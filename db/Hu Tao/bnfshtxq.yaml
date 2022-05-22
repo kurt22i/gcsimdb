@@ -41,7 +41,7 @@ config: "#Configs\nhurt every interval=0,1200 amount=0,3000; options swap_delay=
   jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge;\nbennett
   skill, attack:3;\nxingqiu attack:3;\nfischl attack:3;\n\nrestart;\n\n\n\n\n\n"
 description: Bennett-Tao with Fischl.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -79,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 59933.535135670005
+dps: 53977.58690430096
 mode: sl
 duration: 105.00000000000071
 target_count: 1

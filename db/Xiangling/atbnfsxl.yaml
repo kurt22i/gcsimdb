@@ -98,7 +98,7 @@ config: |+
 
 
 description: Fischl overvape with Ayato.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayato
   con: 0
@@ -136,7 +136,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57991.967690561294
+dps: 49503.82090270672
 mode: apl
 duration: 102.00000000000051
 target_count: 1

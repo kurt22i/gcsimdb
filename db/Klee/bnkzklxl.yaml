@@ -43,7 +43,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   mine=8], \n\tattack, charge,\n\tattack, charge,\n    attack, charge, attack, charge,
   attack, charge, attack;\n\n\n"
 description: Kleeeeeeeeee!
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47737.28141203981
+dps: 45766.71575635591
 mode: sl
 duration: 102.99999999999858
 target_count: 1

@@ -106,7 +106,7 @@ config: |+
 
 
 description: TF Bennett with Lisa.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -144,7 +144,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38630.02237696674
+dps: 25921.990852821415
 mode: sl
 duration: 114.00000000000126
 target_count: 1

@@ -52,7 +52,7 @@ config: |+
   restart;
 
 description: VV Vape Yanfei.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -90,7 +90,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44962.16805441034
+dps: 42699.195745757825
 mode: sl
 duration: 87.99999999999878
 target_count: 1

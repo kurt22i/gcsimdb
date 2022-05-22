@@ -29,7 +29,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump;\nrosaria skill,
   attack:2;\nkaeya skill;\n\n\nrestart;\n\n\n\n\n"
 description: Tao Freezemelt.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: hutao
   con: 0
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38343.13894341575
+dps: 38237.953172030204
 mode: sl
 duration: 114.00000000000126
 target_count: 1

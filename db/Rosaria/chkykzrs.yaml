@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   burst,skill;\nkaeya burst,skill;\ntartaglia skill,attack:3,charge,jump,attack:3,charge;\nkaeya
   attack,skill;\nkazuha skill,high_plunge,attack:3;\nrosaria skill;\ntartaglia aim[weakspot=1];\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Tartaglia Freeze.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: kaeya
   con: 2
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 25602.777617820047
+dps: 24612.267683509395
 mode: sl
 duration: 103.99999999999928
 target_count: 1

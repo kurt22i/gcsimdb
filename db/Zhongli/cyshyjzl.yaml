@@ -53,7 +53,7 @@ config: |+
 
 
 description: Cryo Zhongli.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: chongyun
   con: 6
@@ -91,7 +91,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28456.99770498917
+dps: 28493.739743883063
 mode: sl
 duration: 91.999999999999
 target_count: 1

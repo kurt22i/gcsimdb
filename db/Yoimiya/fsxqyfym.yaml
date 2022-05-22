@@ -22,7 +22,7 @@ config: "#Configs\nhurt every interval=0,1200 amount=0,3000; options debug=true 
   dash, attack:5;\nfischl attack, burst;\nyanfei skill, burst, attack:2, charge, attack:2,
   charge, attack:2, charge, attack:2, charge, skill, charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoifei without shields.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39628.68550144855
+dps: 40773.8915536407
 mode: sl
 duration: 100.9999999999993
 target_count: 1

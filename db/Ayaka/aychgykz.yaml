@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:3, charge, dash, attack:3, charge;\nkazuha skill, high_plunge, attack;\nayaka
   skill, dash, attack:3, charge;\nrestart;\n\n\n\n\n"
 description: Taryaka with Ganyu.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39070.60173128829
+dps: 37133.826933051656
 mode: sl
 duration: 168.0000000000037
 target_count: 1

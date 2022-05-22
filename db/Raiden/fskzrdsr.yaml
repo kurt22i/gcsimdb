@@ -20,7 +20,7 @@ config: "raiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"thecatc
   attack:2;\nsara burst;\nraiden burst, attack:14,charge;\nkazuha skill, high_plunge,
   attack:2;\nfischl skill, attack:2;\n\nrestart;\n\n\n\n\n\n"
 description: Mono-Electro Raiden without Bennett.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -58,7 +58,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44049.221986751276
+dps: 42744.32459054832
 mode: sl
 duration: 126.00000000000189
 target_count: 1

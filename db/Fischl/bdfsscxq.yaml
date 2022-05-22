@@ -71,7 +71,7 @@ config: |+
   restart;
 
 description: Sucrose Taser.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: beidou
   con: 6
@@ -109,7 +109,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49486.837502950555
+dps: 41555.837770422775
 mode: sl
 duration: 99.9999999999986
 target_count: 1

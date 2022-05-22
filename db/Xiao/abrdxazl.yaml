@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   high_plunge[collision=1], skill, attack;\n\nraiden skill;\n\nzhongli skill[hold=1],
   burst;\n\nalbedo skill;\n\nraiden burst, attack:5, dash, attack:4;\n\nrestart;\n\n\n\n\n\n\n"
 description: Xiaoden.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41513.13007290982
+dps: 39376.52251883332
 mode: sl
 duration: 265.99999999999744
 target_count: 1

@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   skill;\ntartaglia skill,attack:3,charge,jump,attack:3,charge;\nrosaria skill;\nkazuha
   skill,high_plunge,attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ganyu
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32245.40815676893
+dps: 31967.59453491252
 mode: sl
 duration: 114.00000000000126
 target_count: 1

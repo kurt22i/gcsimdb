@@ -22,7 +22,7 @@ config: "bennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"lions
   skill, attack, skill, \n        attack, skill, attack, skill, \n        attack,
   skill, attack;\nxingqiu attack:2;\nkazuha  attack, skill[hold=1], high_plunge, attack;\nrestart;\n\n\n\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53044.1864575317
+dps: 35438.59082132845
 mode: sl
 duration: 96.99999999999865
 target_count: 1

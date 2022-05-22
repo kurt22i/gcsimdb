@@ -76,7 +76,7 @@ config: |+
   restart;
 
 description: Hyper Kokomi.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: kokomi
   con: 0
@@ -114,7 +114,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32475.977256394177
+dps: 29981.86587009546
 mode: sl
 duration: 106.99999999999939
 target_count: 1

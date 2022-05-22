@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:3, charge, dash, attack:2, charge;\nkazuha skill, high_plunge, attack;\nayaka
   skill, attack:3, charge;\n\nrestart;\n\n\n\n"
 description: Ayaka Freeze with Childe.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38260.226949218064
+dps: 36013.0671630771
 mode: sl
 duration: 141.99999999999835
 target_count: 1

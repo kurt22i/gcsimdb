@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:2;\nrosaria skill;\nkujousara burst;\nayaka dash, \n  attack:2, charge, dash,
   \n  attack:2, charge, dash, \n  attack:2, skill, \n  attack:2, charge, \n  attack:2;\nrestart;\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Sara instead of VV-shred, Kokomi edition.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34463.56154682857
+dps: 31581.828765995415
 mode: sl
 duration: 99.9999999999986
 target_count: 1

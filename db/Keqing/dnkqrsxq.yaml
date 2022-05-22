@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   skill,\n       attack:3,\n       attack, charge,\n       attack, charge,\n       attack,
   charge,\n       attack, charge,\n       attack, charge;\n\nrestart;\n"
 description: Physical Keqing.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: diona
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27594.64558906237
+dps: 26689.336685573773
 mode: sl
 duration: 97.9999999999992
 target_count: 1

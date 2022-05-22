@@ -45,7 +45,7 @@ config: |+
 
 
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: chongyun
   con: 6
@@ -83,7 +83,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27919.130662118965
+dps: 24828.201864211493
 mode: sl
 duration: 120.00000000000152
 target_count: 1

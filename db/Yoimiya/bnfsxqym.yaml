@@ -51,7 +51,7 @@ config: |+
   restart;
 
 description: High-damage, high-risk Yoimiya comp that trades shielding for extra DPS.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -89,7 +89,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48440.151807004935
+dps: 49812.91686210043
 mode: sl
 duration: 131.0000000000002
 target_count: 1

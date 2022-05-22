@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:1,
   charge\n\t;\nyunjin attack, skill, attack:1;\nxingqiu attack:2, dash, attack:2;\n\nrestart;\n\n"
 description: Hu Tao Double Geo except you're missing Zhongli...
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48316.56312739215
+dps: 45078.05225519613
 mode: sl
 duration: 105.00000000000071
 target_count: 1

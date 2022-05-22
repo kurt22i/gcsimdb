@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   attack,skill,high_plunge,\n       attack:3,dash,\n       attack:3,dash,\n       attack:3,skill[hold=1],high_plunge;\njean
   skill;\nkazuha attack:3,dash,\n       attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: TF Kazuha.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42627.77052191968
+dps: 38981.70147765385
 mode: sl
 duration: 99.9999999999986
 target_count: 1

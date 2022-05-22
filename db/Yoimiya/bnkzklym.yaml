@@ -29,7 +29,7 @@ config: "klee char lvl=90/90 cons=0 talent=9,9,9;\nklee add weapon=\"thewidsith\
   attack:2;\nyoimiya skill,attack:5, dash ,attack:5, dash, attack:5, dash, attack;
   \  \nbennett attack, skill;\n\nrestart;\n\n\n"
 description: Boom, yes, boom!
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31427.18353297259
+dps: 29925.23327380321
 mode: sl
 duration: 106.99999999999939
 target_count: 1

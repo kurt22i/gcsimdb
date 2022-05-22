@@ -29,7 +29,7 @@ config: "\thurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=
   2E for cd sync\n\tfischl attack,skill;\n\t\n\tkazuha attack,charge;\n\tkazuha skill,high_plunge;\n\t\n\tbennett
   skill;\n\n\trestart;\n\n\n"
 description: Bennett/Fischl/Kazuha/Yae.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51523.27781449854
+dps: 47745.92360502863
 mode: sl
 duration: 91.999999999999
 target_count: 1

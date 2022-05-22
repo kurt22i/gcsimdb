@@ -21,7 +21,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   skill[hold=1];\nyunjin skill, attack:2, burst;\nbennett skill, burst;\nyoimiya skill,
   attack:5, attack:5, attack:5, attack:5;\n\nrestart;\n"
 description: Yoimiya with Yun Jin.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33333.269012060395
+dps: 32901.99165284512
 mode: sl
 duration: 96.00000000000009
 target_count: 1

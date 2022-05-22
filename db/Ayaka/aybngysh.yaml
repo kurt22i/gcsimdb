@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   skill;\nwait 10;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Bennett once again proving that he is a viable pair for every single
   unit in the game.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51347.81528509203
+dps: 49095.9155974731
 mode: sl
 duration: 128.00000000000009
 target_count: 1

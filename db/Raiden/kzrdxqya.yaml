@@ -45,7 +45,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack,burst,attack, skill,skill, attack,skill;\nkazuha attack, skill, high_plunge;\nraiden
   attack, burst,attack:5,dash,attack:5, attack:4, skill, attack;\n\nrestart;\n\n"
 description: Kazuha/Raiden/Xingqiu/Yae.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: kazuha
   con: 0
@@ -83,7 +83,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47580.02865704542
+dps: 44594.14092179988
 mode: sl
 duration: 118.99999999999979
 target_count: 1

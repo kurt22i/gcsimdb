@@ -22,7 +22,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   burst,attack:4,skill[hold=1],attack:4;\nshenhe skill,attack;\neula attack:2;\nrosaria
   skill;\neula attack:4;\nwait 9;\nzhongli attack:2;\nrestart;\n\n\n\n\n"
 description: Eula team without SC. Works surprisingly well.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: eula
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40751.2202657262
+dps: 40453.986314476446
 mode: sl
 duration: 93.99999999999868
 target_count: 1

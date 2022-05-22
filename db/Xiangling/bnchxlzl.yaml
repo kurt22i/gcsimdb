@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   skill[hold=1];\nbennett skill;\nxiangling skill,attack:2;\ntartaglia aim;\nbennett
   skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\nrestart;\n"
 description: International with Zhongli.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 5
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33801.152652176
+dps: 33086.736506035915
 mode: sl
 duration: 99.9999999999986
 target_count: 1

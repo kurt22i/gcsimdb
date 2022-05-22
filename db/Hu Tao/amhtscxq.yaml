@@ -27,7 +27,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
   charge, jump,\n\tattack:2, charge;\nsucrose attack:4,dash,attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hu Tao VV Vape with Sucrose instead of Kazuha.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: amber
   con: 2
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42264.139573142456
+dps: 36293.71963626379
 mode: sl
 duration: 188.99999999999537
 target_count: 1

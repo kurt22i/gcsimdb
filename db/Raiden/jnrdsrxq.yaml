@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack, burst,attack:4, dash, attack:4, dash, attack:4, dash, attack:3, charge,
   attack;\nwait 10;\nrestart;\n\n"
 description: Raiden without Bennett.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: jean
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38059.88959002543
+dps: 37055.211374119644
 mode: sl
 duration: 109.99999999999949
 target_count: 1

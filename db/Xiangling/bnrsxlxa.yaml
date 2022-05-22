@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   charge,\n  attack, jump, high_plunge[collision=1], charge;\nrestart;\n\n\n\n\n"
 description: Rev Melt Xiao. Assumes collisions on all plunges, which does take some
   practice.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44129.87392369785
+dps: 39679.3129608431
 mode: sl
 duration: 102.99999999999858
 target_count: 1

@@ -23,7 +23,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:2,burst;\nbennett skill, attack;\nbeidou attack, skill[counter=2], attack:2;\nbennett
   attack:2, skill, attack;\nayato skill, attack:15;\n\nrestart;\n"
 description: Ayato Taser.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayato
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 36253.72573443776
+dps: 35738.10547171519
 mode: sl
 duration: 156.00000000000313
 target_count: 1

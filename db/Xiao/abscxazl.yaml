@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   low_plunge[collision=1],\njump, low_plunge[collision=1];\n\nsucrose skill, dash;\n\nxiao
   attack:4;\n\nrestart;\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: albedo
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41039.72107162633
+dps: 36980.66345340083
 mode: sl
 duration: 99.0000000000003
 target_count: 1

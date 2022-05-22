@@ -36,7 +36,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   burst, attack;\nsara burst;\nraiden burst,\n       attack:4, dash, attack:4, dash,
   attack:4, dash, attack:3,\n       attack, skill;\nrestart;\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: raiden
   con: 0
@@ -74,7 +74,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42389.83268403466
+dps: 39983.1916842175
 mode: sl
 duration: 114.9999999999981
 target_count: 1

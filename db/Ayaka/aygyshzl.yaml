@@ -33,7 +33,7 @@ config: "#Option Configs\nhurt every interval=0,1200 amount=0,3000; options debu
   burst[radius=2], skill;\nayaka dash, attack, skill, burst;\nayaka dash, attack:3,
   charge;\nshenhe skill;\nganyu aim[weakspot=1]:2;\nganyu skill;\n\nrestart;\n\n"
 description: Mono-Cryo Ayaka with shielding.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -71,7 +71,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44695.5032760795
+dps: 43732.47300122909
 mode: sl
 duration: 108.00000000000088
 target_count: 1

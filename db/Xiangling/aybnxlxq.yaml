@@ -27,7 +27,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack, skill, attack;\nxiangling attack:3;\nkamisatoayaka dash, attack:2, skill,
   attack:3, charge;\n\nrestart;\n\n"
 description: Ayaka National.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57260.7493340666
+dps: 50080.27693165992
 mode: sl
 duration: 105.99999999999856
 target_count: 1

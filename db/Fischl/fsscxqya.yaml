@@ -32,7 +32,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   \   attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n    attack:2, charge,\n
   \   attack:1, charge\t\n    ;\nfischl attack;\nrestart;\n\n\n\n\n\n\n\n"
 description: Yae Tazer, Xingqiu version with Sucrose.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -70,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50596.99112304198
+dps: 47017.58291732561
 mode: sl
 duration: 151.99999999999864
 target_count: 1

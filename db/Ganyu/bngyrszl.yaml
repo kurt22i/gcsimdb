@@ -46,7 +46,7 @@ config: |+
 
 
 description: Mono-Cryo Ganyu with shielding and heals, Rosaria version.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -84,7 +84,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41165.90081906705
+dps: 39546.858064271466
 mode: sl
 duration: 106.99999999999939
 target_count: 1

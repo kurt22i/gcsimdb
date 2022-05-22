@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   charge;\nkazuha attack, skill, high_plunge, attack;\nbennett skill;\nxingqiu attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Tao with Bennett. Bennett's buff is more than enough to make up for the
   lost A4.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 63013.80146622589
+dps: 46285.94689857534
 mode: sl
 duration: 105.99999999999856
 target_count: 1

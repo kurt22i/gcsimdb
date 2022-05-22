@@ -43,7 +43,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   \      attack:4, dash, attack:4, skill, attack:4, dash, attack:3,\n       #in game
   this is 3n4d, n3c. very very very easy combo.\n       attack;\nbennett skill, attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Xiangling Overvape with optimal supports. Optimized rotation.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 68802.98643742944
+dps: 61933.99068010652
 mode: sl
 duration: 105.99999999999856
 target_count: 1

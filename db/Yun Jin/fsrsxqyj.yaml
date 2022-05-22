@@ -43,7 +43,7 @@ config: |+
 
 
 description: Pikejin.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37210.825500040344
+dps: 36137.080567931545
 mode: sl
 duration: 102.99999999999858
 target_count: 1

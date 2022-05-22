@@ -18,7 +18,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   jump,\n\tattack:2, jump,\n\tattack:2, jump,\n\tattack:2, jump,\n\tattack:2\n\t;\nwait
   10;\nrestart;\n\n"
 description: Tao Vape core, the rest is optional.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: hutao
   con: 0
@@ -38,7 +38,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30902.93276046492
+dps: 27769.608029824285
 mode: sl
 duration: 105.00000000000071
 target_count: 1

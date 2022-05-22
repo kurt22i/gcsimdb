@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   dash, attack, burst, skill;\nayaka attack:2, charge, dash;\nayaka attack:2, charge,
   dash;\nayaka attack:2, charge;\n\nrestart;\n\n"
 description: Swift as lightning, cold as ice.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40908.03433782391
+dps: 37626.21844980238
 mode: sl
 duration: 108.00000000000088
 target_count: 1

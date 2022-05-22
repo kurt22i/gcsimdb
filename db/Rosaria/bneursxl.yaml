@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack,skill, attack;\nxiangling attack:3;\nbennett attack,skill, attack;\neula
   attack:2;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: No, this is not Reverse Melt Eula, it's Reverse Melt Rosaria with Eula.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50361.88583766075
+dps: 43273.6206412512
 mode: sl
 duration: 108.00000000000088
 target_count: 1

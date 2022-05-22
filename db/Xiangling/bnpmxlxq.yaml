@@ -20,7 +20,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:3;\nbennett skill, attack;\nxiangling attack:3;\nbennett attack:4, skill,
   attack;\nrestart;\n\n\n\n\n"
 description: Who needs a 4th character?
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -49,7 +49,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41298.78189550773
+dps: 35419.89007900087
 mode: sl
 duration: 105.00000000000071
 target_count: 1

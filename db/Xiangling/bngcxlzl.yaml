@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:2;\n  xiangling attack:2;\n  travelergeo attack:3, skill;\n  xiangling attack:3;\n
   \ bennett attack,skill;\n  restart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43259.12235157848
+dps: 41783.225119213814
 mode: sl
 duration: 106.99999999999939
 target_count: 1

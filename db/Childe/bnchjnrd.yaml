@@ -22,7 +22,7 @@ config: "\nraiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"favon
   \         attack:3,charge,jump,\n          attack:3,charge,jump,\n          attack:3;\njean
   skill;\nbennett skill;\nraiden burst, attack:3,charge, attack:3,charge, attack:2;\nrestart;\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27861.519901571846
+dps: 27465.792962586573
 mode: sl
 duration: 125
 target_count: 1

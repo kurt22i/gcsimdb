@@ -24,7 +24,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   skill;\nxingqiu skill,burst;\nbennett skill,burst;\nyunjin skill,burst;\nyoimiya
   skill,attack:5,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
 description: Yoimiya Vape, no shield.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 5
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35348.28479855949
+dps: 35043.39095068466
 mode: sl
 duration: 91.999999999999
 target_count: 1

@@ -26,7 +26,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=tr
   attack:2,\n\tskill, attack,\n\tskill,attack;\nbennett attack, skill, attack;\ndiluc
   attack:3;\n\t\nrestart;\n\n"
 description: Diluc with Fischl.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: bennett
   con: 6
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37493.717729676646
+dps: 36962.903638656775
 mode: sl
 duration: 126.9999999999982
 target_count: 1

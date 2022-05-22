@@ -24,7 +24,7 @@ config: "keqing char lvl=90/90 cons=0 talent=9,9,9;\nkeqing add weapon=\"lionsro
   skill,skill,\n       attack,charge,\n       attack,charge,\n       attack,charge,\n
   \      attack,charge;\nkazuha skill,high_plunge,attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Keqing Taser.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: fischl
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45118.99895324298
+dps: 42808.8847975138
 mode: sl
 duration: 126.00000000000189
 target_count: 1
