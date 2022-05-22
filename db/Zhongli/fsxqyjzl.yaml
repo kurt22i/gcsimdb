@@ -22,7 +22,7 @@ config: |+
   yunjin add stats def%=2.121 def=78.72 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.3306 em=39.64 cr=0.3972 cd=0.1324;
 
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=125 workers=30 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=125 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
 

@@ -1,5 +1,5 @@
 author: Ocram2012#6693
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 workers=30 mode=sl\n\n#Options____\nduration=254;\nenergy every interval=480,720
   amount=1;\ntarget lvl=100 resist=0.1;\n\n#Characters\n\nkamisatoayaka char lvl=90/90
   cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nkamisatoayaka

@@ -29,7 +29,7 @@ config: |-
 
   # Default
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 iteration=1000 duration=101 mode=sl;
+  options swap_delay=8 iteration=1000 duration=101 mode=sl;
 
   # Default enemy
   target lvl=100 resist=.1;

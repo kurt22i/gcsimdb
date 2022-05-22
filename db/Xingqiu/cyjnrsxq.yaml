@@ -25,7 +25,7 @@ config: |+
   chongyun add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=110 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
 

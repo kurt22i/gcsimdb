@@ -1,7 +1,7 @@
 author: cyan#3224
 config: |
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=101 workers=30 mode=sl;
   kokomi char lvl=90/90 cons=0 talent=9,9,9;
   kokomi add weapon="hakushinring" refine=5 lvl=90/90;
   kokomi add set="oceanhuedclam" count=4;

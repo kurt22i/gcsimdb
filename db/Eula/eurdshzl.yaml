@@ -1,5 +1,5 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=105 workers=30 mode=sl;\n\neula char lvl=90/90 cons=0 talent=9,9,9;
   \neula add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\neula
   add set=\"paleflame\" count=4;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583

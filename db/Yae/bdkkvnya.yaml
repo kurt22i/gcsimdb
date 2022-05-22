@@ -1,5 +1,5 @@
 author: Arfoire#9219
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=100 workers=30 mode=sl;\n\n#-----------------------------------------------------\n\n\n#Character
   builds:\nyaemiko char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"oathsworneye\"
   refine=5 lvl=90/90;\nyaemiko add set=\"shimenawasreminiscence\" count=2;\nyaemiko

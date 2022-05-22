@@ -1,5 +1,5 @@
 author: Xardas#5785
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=102 workers=30 mode=sl;\nenergy every interval=480,720 amount=1;\ntarget
   lvl=100 resist=0.1;\n\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\"
   refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats

@@ -1,5 +1,5 @@
 author: Lettuce Hunt#5806 and Jhony75#8133
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=105 workers=30 mode=sl;\nkamisatoayaka char lvl=90/90 cons=0
   talent=9,9,9; \nkamisatoayaka add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nkamisatoayaka
   add set=\"emblemofseveredfate\" count=5;\nkamisatoayaka add stats hp=4780 atk=311

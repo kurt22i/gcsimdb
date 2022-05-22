@@ -25,7 +25,7 @@ config: |+
   mona add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317 cd=0.7282;
 
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=112 workers=30 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=112 workers=30 mode=sl;
 
   target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
 

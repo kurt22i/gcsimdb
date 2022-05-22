@@ -21,7 +21,7 @@ config: |
   kazuha add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.4408 em=679.9 cr=0.3972 cd=0.1324;
 
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=90 workers=30 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=90 workers=30 mode=sl;
 
   #Character Builds:
 

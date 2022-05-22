@@ -1,7 +1,7 @@
 author: Xardas#5785
 config: "#and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
   geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\nhurt
-  every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true iteration=1000
+  every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true iteration=1000
   duration=104 mode=sl;\n\n#Character Builds:\nxiangling char lvl=90/90 cons=6 talent=9,9,9;
   \nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
   count=5;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cd=0.622 ; #main\nxiangling

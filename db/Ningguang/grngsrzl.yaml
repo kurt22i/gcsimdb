@@ -22,7 +22,7 @@ config: |+
   gorou add stats def%=0.8310 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 geo%=0.4660;
 
   hurt every interval=0,1200 amount=0,3000;
-  options debug=true iteration=1000 duration=96 mode=sl swap_delay=12;
+  options debug=true iteration=1000 duration=96 mode=sl swap_delay=8;
 
   active zhongli;
 

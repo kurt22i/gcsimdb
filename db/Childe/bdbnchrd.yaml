@@ -1,7 +1,7 @@
 author: RoyM#2340
 config: |+
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=125 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=125 mode=sl;
   target lvl=100 resist=.1;
   energy every interval=480,720 amount=1;
 

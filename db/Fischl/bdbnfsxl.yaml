@@ -1,5 +1,5 @@
 author: Lizz71#8986
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=98 workers=30 mode=sl;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;
   \nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou
   add set=\"emblemofseveredfate\" count=4;\nbeidou add stats hp=4780 atk=311 atk%=0.466

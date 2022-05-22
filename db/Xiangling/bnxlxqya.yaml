@@ -1,5 +1,5 @@
 author: Kurt#5846, Charliex3000#9403, Rare Possum#0511, Lettuce Hunt#5806 and Lizz71#8986
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=96 workers=30 mode=sl; \n\n#Character Builds:\nyae char
   lvl=90/90 cons=0 talent=9,9,9;\nyae add weapon=\"solarpearl\" refine=1 lvl=90/90;\nyae
   add set=\"tenacityofthemillelith\" count=5;\nyae add stats hp=4780 atk=311 em=187

@@ -1,5 +1,5 @@
 author: bam#9648
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=99 workers=30 mode=sl;\n\n\nxiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao
   add weapon=\"deathmatch\" refine=1 lvl=90/90;\nxiao add set=\"vermillionhereafter\"
   count=4;\nxiao add stats hp=4780 atk=311 atk%=0.466 anemo%=0.466 cd=0.622;\nxiao

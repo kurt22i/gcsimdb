@@ -104,17 +104,17 @@ func run(skipDownload bool) error {
 
 	if upload || force {
 		//store on cloudflare kv
-		err = uploadResults(data)
+		//err = uploadResults(data)
 		if err != nil {
 			return errors.Wrap(err, "")
 		}
 
-		err = uploadIndex(data)
+		//err = uploadIndex(data)
 		if err != nil {
 			return errors.Wrap(err, "")
 		}
 
-		err = saveYaml(data, true)
+		//err = saveYaml(data, true)
 		if err != nil {
 			return errors.Wrap(err, "")
 		}

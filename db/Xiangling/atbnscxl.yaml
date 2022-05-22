@@ -1,5 +1,5 @@
 author: rf#5773
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=150 workers=30 mode=sl;\n\n### CHARACTERS, WEAPONS\nsucrose
   char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"favoniussword\"

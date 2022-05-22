@@ -22,7 +22,7 @@ config: |+
   bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.7384 em=39.64 cr=0.6420 cd=0.7944 pyro%=0.4660;
 
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=100 workers=30 mode=sl;
 
   target lvl=100 resist=.1;
 

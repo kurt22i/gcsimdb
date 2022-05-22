@@ -25,7 +25,7 @@ config: |
   qiqi add stats atk%=.3968 er=.4408 atk=66.16;
 
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=125 workers=30 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=125 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=.1;
 

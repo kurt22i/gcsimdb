@@ -1,7 +1,7 @@
 author: ""
 config: |
   hurt every interval=0,1200 amount=0,3000;
-  options swap_delay=12 debug=true iteration=1000 duration=105 mode=sl;
+  options swap_delay=8 debug=true iteration=1000 duration=105 mode=sl;
 
   ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
   ningguang char lvl=90/90 cons=6 talent=9,9,9;

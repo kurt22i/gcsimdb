@@ -1,5 +1,5 @@
 author: ShadowDawn#5332
-config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=8 debug=true
   iteration=1000 duration=150 mode=sl;\n# Note that bennett and xiangling both have
   a little bit too much ER\n# That's negligible DPS loss for a much more realistic
   build and a better looking curve \n\n#Character Builds:\nganyu char lvl=90/90 cons=0

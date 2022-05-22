@@ -1,6 +1,6 @@
 author: Jhony75#8133
 config: "#Configs\nhurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
-  duration=101 workers=30 mode=sl swap_delay=12;\ntarget lvl=100 resist=0.1;\nenergy
+  duration=101 workers=30 mode=sl swap_delay=8;\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\n\n#Chars Builds\nyoimiya char lvl=90/90 cons=0
   talent=9,9,9;\nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya add set=\"shimenawasreminiscence\"
   count=4;\nyoimiya add stats hp=4780 atk=311 cr=0.311 pyro%=0.466 atk%=0.466;\nyoimiya
