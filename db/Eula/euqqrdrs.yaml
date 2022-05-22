@@ -1,5 +1,5 @@
 author: Rare Possum#0511
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=100 workers=30 mode=sl;\n\nraiden char lvl=90/90 cons=0
   talent=9,9,9; \nraiden add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nraiden
   add set=\"emblemofseveredfate\" count=5;\nraiden add stats hp=4780 atk=311 er=0.518
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34132.36104005135
+dps: 34093.073604241625
 mode: sl
 duration: 99.9999999999986
 target_count: 1

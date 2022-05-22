@@ -1,5 +1,5 @@
 author: Kurt#5846 and Lizz71#8986
-config: "\thurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "\thurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=92 workers=30 mode=sl;\n\n\tyaemiko char lvl=90/90 cons=0
   talent=9,9,9; \n\tyaemiko add weapon=\"thewidsith\" refine=3 lvl=90/90;\n\tyaemiko
   add set=\"gladiatorsfinale\" count=2;\n\tyaemiko add set=\"thunderingfury\" count=2;\n\tyaemiko
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51566.99610811103
+dps: 51523.27781449854
 mode: sl
 duration: 91.999999999999
 target_count: 1

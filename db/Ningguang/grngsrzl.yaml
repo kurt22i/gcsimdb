@@ -21,7 +21,7 @@ config: |+
   gorou add set="noblesseoblige" count=4;
   gorou add stats def%=0.8310 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 geo%=0.4660;
 
-  hurt every interval=300,900 amount=0,1000;
+  hurt every interval=0,1200 amount=0,3000;
   options debug=true iteration=1000 duration=96 mode=sl swap_delay=12;
 
   active zhongli;
@@ -83,7 +83,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33043.052948372504
+dps: 33144.7097861629
 mode: sl
 duration: 96.00000000000009
 target_count: 1

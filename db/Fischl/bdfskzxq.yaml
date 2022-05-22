@@ -1,5 +1,5 @@
 author: RoyM#2340
-config: "hurt every interval=300,900 amount=0,1000; options debug=true iteration=1000
+config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
   duration=101 mode=sl;\n\n#Character builds:\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
   add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
   count=5;\nxingqiu add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nxingqiu
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52910.73329939466
+dps: 52954.329789100666
 mode: sl
 duration: 100.9999999999993
 target_count: 1

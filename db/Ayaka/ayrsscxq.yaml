@@ -1,5 +1,5 @@
 author: Arfoire#9219 and RoyM#2340
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=101 workers=30 mode=sl;\nenergy every interval=480,720 amount=1;\ntarget
   lvl=100 resist=0.1;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add
   weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\"
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41182.56378472996
+dps: 41184.33278207719
 mode: sl
 duration: 100.9999999999993
 target_count: 1

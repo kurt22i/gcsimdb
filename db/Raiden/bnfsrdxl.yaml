@@ -1,5 +1,5 @@
 author: Rare Possum#0511
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=103 workers=30 mode=sl;\n\nraidenshogun char lvl=90/90 cons=0
   talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun
   add set=\"emblemofseveredfate\" count=5;\nraidenshogun add stats hp=4780 atk=311
@@ -84,7 +84,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47640.104972110355
+dps: 47635.902914988474
 mode: sl
 duration: 102.99999999999858
 target_count: 1

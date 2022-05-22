@@ -533,7 +533,7 @@ func saveYaml(data []pack) error {
 
 // 	fmt.Println("Starting to clone git repo...")
 
-// 	r, err := git.PlainClone("./tmp", false, &git.Clonehurt every interval=300,900 amount=0,1000;
+// 	r, err := git.PlainClone("./tmp", false, &git.Clonehurt every interval=0,1200 amount=0,3000;
   options swap_delay=12{
 // 		URL:               "https://github.com/genshinsim/gcsim.git",
 // 		RecurseSubmodules: git.DefaultSubmoduleRecursionDepth,

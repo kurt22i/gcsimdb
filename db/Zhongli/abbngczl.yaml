@@ -1,5 +1,5 @@
 author: Kurt#5846
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=100 workers=30 mode=sl;\n  zhongli char lvl=90/90 cons=0
   talent=9,9,9; \n  zhongli add weapon=\"deathmatch\" refine=1 lvl=90/90;\n  zhongli
   add set=\"tenacityofthemillelith\" count=4;\n  zhongli add set=\"paleflame\" count=1;\n
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31361.870689112176
+dps: 31290.78243118002
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -1,5 +1,5 @@
 author: Rare Possum#0511
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=119 workers=30 mode=sl;\n\nyoimiya char lvl=90/90 cons=0
   talent=9,9,9; \nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya add set=\"lavawalker\"
   count=5;\nyoimiya add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nyoimiya
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34816.9511160128
+dps: 34810.52794640242
 mode: sl
 duration: 118.99999999999979
 target_count: 1

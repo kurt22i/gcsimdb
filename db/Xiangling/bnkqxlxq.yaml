@@ -1,5 +1,5 @@
 author: Charliex3000#9403, Kurt#5846, Monochrom9#8058 and Lettuce Hunt#5806
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=105 workers=30 mode=sl;\n\nkeqing char lvl=90/90 cons=0
   talent=9,9,9;\nkeqing add weapon=\"theblacksword\" refine=1 lvl=90/90;\nkeqing add
   set=\"shimenawasreminiscence\" count=4;\nkeqing add stats hp=4780 atk=311 atk%=0.466
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53513.73417482675
+dps: 53482.63679782059
 mode: sl
 duration: 105.00000000000071
 target_count: 1

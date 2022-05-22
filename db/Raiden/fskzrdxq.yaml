@@ -1,5 +1,5 @@
 author: rf#5773, EnigWa#4825 and solo#0180
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=126 workers=30 mode=sl;\n\nraidenshogun char lvl=90/90 cons=0
   talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun
   add set=\"emblemofseveredfate\" count=4;\nraidenshogun add stats hp=4780 atk=311
@@ -82,7 +82,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 55401.265279718464
+dps: 55481.122668192
 mode: sl
 duration: 126.00000000000189
 target_count: 1

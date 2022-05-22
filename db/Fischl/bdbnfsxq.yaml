@@ -1,5 +1,5 @@
 author: Arfoire#9219
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=100 workers=30 mode=sl;\n\n#Character Builds:\nbennett char
   lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
   add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780 atk=311 em=187 pyro%=0.466
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44227.19250110995
+dps: 44308.991372734235
 mode: sl
 duration: 99.9999999999986
 target_count: 1

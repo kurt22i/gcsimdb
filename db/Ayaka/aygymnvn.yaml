@@ -1,5 +1,5 @@
 author: Charliex3000#9403 and Zephyr#0177
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=102 workers=30 mode=sl;\n\nmona char lvl=90/90 cons=0 talent=9,9,9;
   \nmona add weapon=\"prototypeamber\" refine=5 lvl=90/90;\nmona add set=\"noblesseoblige\"
   count=5;\nmona add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45466.90834969516
+dps: 45452.68895983904
 mode: sl
 duration: 102.00000000000051
 target_count: 1

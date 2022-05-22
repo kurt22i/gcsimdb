@@ -1,5 +1,5 @@
 author: Rare Possum#0511
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=152 workers=30 mode=sl;\n\nsucrose char lvl=90/90 cons=6
   talent=9,9,9;\nsucrose add weapon=\"hakushinring\" refine=5 lvl=90/90;\nsucrose
   add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780 atk=311 em=561
@@ -70,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50592.44381338278
+dps: 50596.99112304198
 mode: sl
 duration: 151.99999999999864
 target_count: 1

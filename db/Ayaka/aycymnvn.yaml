@@ -1,5 +1,5 @@
 author: RoyM#2340
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=102 workers=30 mode=sl;\nenergy every interval=480,720 amount=1;\ntarget
   lvl=100 resist=0.1;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"thestringless\"
   refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\"count=5;\nventi add stats
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32357.04951116495
+dps: 32328.578249030095
 mode: sl
 duration: 102.00000000000051
 target_count: 1

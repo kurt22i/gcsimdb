@@ -1,6 +1,6 @@
 author: imring#3781 and AnaAna#5433
 config: |+
-  hurt every interval=300,900 amount=0,1000;
+  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 mode=sl;
 
   zhongli char lvl=90/90 cons=0 talent=9,9,9;
@@ -91,7 +91,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 28471.667030536555
+dps: 28456.99770498917
 mode: sl
 duration: 91.999999999999
 target_count: 1

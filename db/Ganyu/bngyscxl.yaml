@@ -1,5 +1,5 @@
 author: LettuceHunt#1336 and Rare Possum#0511
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=106 workers=30 mode=sl;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
   \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu add set=\"wandererstroupe\"
   count=4;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311 ; #main\nganyu
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45636.024664364566
+dps: 45495.58200148271
 mode: sl
 duration: 105.99999999999856
 target_count: 1

@@ -17,7 +17,7 @@ config: "\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"the
   count=4;\nventi add stats hp=4780 atk=311 atk%=0.466 anemo%=0.466 cr=0.311 ; #main\nventi
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\nhurt every interval=300,900 amount=0,1000; options
+  every interval=480,720 amount=1;\nhurt every interval=0,1200 amount=0,3000; options
   swap_delay=12 debug=true iteration=1000 duration=106  workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
   xingqiu;\nxingqiu burst,attack;\nbennett attack, skill,burst,attack;\nventi skill,
   burst;\nwait 10;\nxiangling burst, attack, skill, attack;\nxingqiu attack,skill,attack:2;\nbennett
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51902.009644240425
+dps: 51965.12189013099
 mode: sl
 duration: 105.99999999999856
 target_count: 1

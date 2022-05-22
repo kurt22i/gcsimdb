@@ -1,5 +1,5 @@
 author: RoyM#2340
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=106 workers=30 mode=sl;\n\nxingqiu char lvl=90/90 cons=6
   talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
   add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35231.01377892972
+dps: 35264.96585162095
 mode: sl
 duration: 105.99999999999856
 target_count: 1

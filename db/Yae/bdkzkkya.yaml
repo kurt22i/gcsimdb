@@ -1,5 +1,5 @@
 author: ""
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=90 workers=30 mode=sl;\n\n#Character builds:\nyaemiko char
   lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"thewidsith\" refine=3 lvl=90/90;\nyaemiko
   add set=\"gladiatorsfinale\" count=2;\nyaemiko add set=\"thunderingfury\" count=3;\nyaemiko
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31090.814384112902
+dps: 31146.733320997537
 mode: sl
 duration: 90.00000000000215
 target_count: 1

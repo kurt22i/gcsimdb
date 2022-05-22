@@ -1,5 +1,5 @@
 author: Aftermath#7658
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=102 workers=30 mode=sl;\n\n\nitto char lvl=90/90 cons=0
   talent=9,9,9;\nitto add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nitto
   add set=\"huskofopulentdreams\" count=4; #+params=[stacks=4];\nitto add stats hp=4780
@@ -70,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53885.13294258288
+dps: 53839.8684010212
 mode: sl
 duration: 102.00000000000051
 target_count: 1

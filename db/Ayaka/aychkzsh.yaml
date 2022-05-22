@@ -1,5 +1,5 @@
 author: Hessey#9122
-config: "hurt every interval=300,900 amount=0,1000; options swap_delay=12 debug=true
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
   iteration=1000 duration=142 workers=30 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\n\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka
   add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\"
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38157.11900405813
+dps: 38260.226949218064
 mode: sl
 duration: 141.99999999999835
 target_count: 1
