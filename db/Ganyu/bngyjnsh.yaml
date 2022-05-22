@@ -1,0 +1,67 @@
+author: Rare Possum#0511
+config: "options debug=true iteration=1000 duration=113 workers=30 mode=sl swap_delay=12;\n\nganyu
+  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu
+  add set=\"wandererstroupe\" count=5;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466
+  cr=0.311 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\njean char lvl=90/90 cons=0
+  talent=9,9,9; \njean add weapon=\"favoniussword\" refine=3 lvl=90/90;\njean add
+  set=\"viridescentvenerer\" count=5;\njean add stats hp=4780 atk=311 em=187 em=187
+  cr=0.311 ; #main\njean add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.4408 em=158.56 cr=0.331 cd=0.1324;\n\nshenhe char lvl=90/90 cons=0
+  talent=9,9,9; \nshenhe add weapon=\"favlance\" refine=3 lvl=90/90;\nshenhe add set=\"emblemofseveredfate\"
+  count=2;\nshenhe add set=\"vermillionhereafter\" count=2;\nshenhe add stats hp=4780
+  atk=311 atk%=0.932 cr=0.311 ; #main\nshenhe add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.3968 er=0.4408 em=39.64 cr=0.331 cd=0.1324 ;\n\nbennett
+  char lvl=90/90 cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311\t ; #main\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=237.84 cr=0.0993 cd=0.1986;\ntarget
+  lvl=100 resist=.1;\n\nenergy every interval=480,720 amount=1;\nactive shenhe;\n#-------------------------------------------\n\n#shenhe
+  attack, skill[hold=1];\n##ganyu burst[radius=2];\n#bennett burst;\n#jean skill,
+  burst;\n##ganyu skill, aim[weakspot=1], aim:4, skill;\n#jean skill, attack:2;\n#bennett
+  skill;\n\n\nshenhe skill[hold=1], attack, burst;\nbennett burst;\njean skill, burst;\nganyu
+  skill, aim:5, skill;\nbennett skill;\njean skill, attack:4;\nbennett attack, skill;\nrestart;\n\n\n"
+description: Gunfire with Shenhe.
+hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+team:
+- name: bennett
+  con: 5
+  weapon: thealleyflash
+  refine: 1
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: ganyu
+  con: 0
+  weapon: hamayumi
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 44639.50196840246
+mode: sl
+duration: 112.9999999999996
+target_count: 1
+viewer_key: ia-aXBvmsXOCDS4Q8VSUg
