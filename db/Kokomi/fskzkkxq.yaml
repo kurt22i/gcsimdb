@@ -1,0 +1,93 @@
+author: cyan#3224
+config: |
+  hurt every interval=0,1200 amount=0,3000;
+  options swap_delay=8 debug=true iteration=1000 duration=101 workers=30 mode=sl;
+  kokomi char lvl=90/90 cons=0 talent=9,9,9;
+  kokomi add weapon="hakushinring" refine=5 lvl=90/90;
+  kokomi add set="oceanhuedclam" count=4;
+  kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.359 ; #main
+  kokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.0662 cd=0.1324;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="thestringless" refine=3 lvl=90/90;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648 cd=0.662;
+
+  kazuha char lvl=90/90 cons=0 talent=9,9,9;
+  kazuha add weapon="ironsting" refine=5 lvl=90/90;
+  kazuha add set="viridescentvenerer" count=4;
+  kazuha add stats hp=4780 atk=311 em=561 ; #main
+  kazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.551 em=118.92 cr=0.0662 cd=0.1324;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="lionsroar" refine=3 lvl=90/90;
+  xingqiu add set="noblesseoblige" count=4;
+  xingqiu add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main
+  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3310 cd=0.7944;
+
+  # ----  Default Enemy
+  energy every interval=480,720 amount=1;
+  target lvl=100 resist=0.1;
+
+  # ----  Actions List
+  active fischl;
+
+  fischl skill, attack:2;
+  kokomi skill, attack;
+  kazuha skill, high_plunge, burst;
+  xingqiu burst, attack, skill, attack:3;
+  fischl attack:3, burst;
+  kazuha skill[hold=1], high_plunge;
+  kokomi burst,
+         attack:2, dash, attack:2, dash, attack:2, dash,
+         attack:2, dash, attack:2, dash, attack:2, dash,
+         attack:2, dash, attack:2, dash, attack:2;
+  kazuha skill, high_plunge;
+  fischl attack:4;
+
+  restart;
+description: Double-Hydro taser with Kazuha.
+hash: ""
+team:
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: ironsting
+  refine: 5
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: hakushinring
+  refine: 5
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: lionsroar
+  refine: 3
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 47352.65298015846
+mode: sl
+duration: 100.9999999999993
+target_count: 1
+viewer_key: iQUVeQM98caPS9LLhr3Vu
