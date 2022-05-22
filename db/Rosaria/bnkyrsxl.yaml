@@ -1,7 +1,7 @@
 author: Arfoire#9219, raph#2041 and Xardas#5785
 config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
   geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\nhurt
-  every interval=300,900 amount=0,1000; options swap_delay=12 debug=true iteration=1000
+  every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true iteration=1000
   duration=102 mode=sl;\n\n#Character Builds:\nrosaria char lvl=90/90 cons=6 talent=9,9,9;
   \nrosaria add weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add set=\"lavawalker\"
   count=5;\nrosaria add stats hp=4780 atk=311 em=186 cryo%=0.466 cd=0.622 ; #main\nrosaria
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45888.86902116846
+dps: 45930.61971818577
 mode: sl
 duration: 102.00000000000051
 target_count: 1

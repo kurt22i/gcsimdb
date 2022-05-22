@@ -1,7 +1,7 @@
 author: Ocram2012#6693
 config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
   geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\nhurt
-  every interval=300,900 amount=0,1000; options swap_delay=12 debug=true iteration=1000
+  every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true iteration=1000
   duration=125 mode=sl;\n\n#Character Builds:\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe
   add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\"
   count=4;\nshenhe add set=\"shimenawasreminiscence\" count=1;\nshenhe add stats hp=4780
@@ -24,9 +24,9 @@ config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 e
   charge;\nbennett burst, skill;\nshenhe attack, skill, burst;\nbennett skill, attack;\nxiangling
   attack, burst, skill;\nkamisatoayaka skill, dash, burst, attack;\nshenhe attack,
   skill, attack;\nkamisatoayaka attack:2, dash, attack:2;\nbennett skill, attack;\nkamisatoayaka
-  attack:2, charge, dash, attack:2, skill;\n\nrestart;\n\n\n\n"
+  attack:2, charge, dash, attack:2, skill;\n\nrestart;\n\n\n\n\n"
 description: Melt Ayaka, Shenhe version.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 65769.41427064761
+dps: 63114.118450218906
 mode: sl
 duration: 125
 target_count: 1
