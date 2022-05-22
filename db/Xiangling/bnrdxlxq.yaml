@@ -1,20 +1,20 @@
 author: Charliex3000#9403, cyan#3224, Rare Possum#0511, nova.#5877, Lettuce Hunt#5806,
   Hessey#9122 and Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\ntarget
-  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nraiden char lvl=90/90
-  cons=0 talent=9,9,9;\nraiden add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nraiden
-  add set=\"tenacityofthemillelith\" count=4;\nraiden add stats hp=4780 atk=311.0
-  er=0.5180 cr=0.3110 electro%=0.4660;\nraiden add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu
-  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5
-  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
-  atk=311.0 atk%=0.4660 cr=0.3110 hydro%=0.4660;\nxingqiu add stats def=39.36 def%=0.124
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944
-  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
-  count=4;\nbennett add stats hp=3571 atk=232.0 em=187.0 cr=0.2320 pyro%=0.3480;\nbennett
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=39.64 cr=0.2979 cd=0.4634 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=106 workers=30 mode=sl;\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\nraiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nraiden add set=\"tenacityofthemillelith\"
+  count=4;\nraiden add stats hp=4780 atk=311.0 er=0.5180 cr=0.3110 electro%=0.4660;\nraiden
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu add set=\"noblesseoblige\"
+  count=4;\nxingqiu add stats hp=4780 atk=311.0 atk%=0.4660 cr=0.3110 hydro%=0.4660;\nxingqiu
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.2648 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232.0
+  em=187.0 cr=0.2320 pyro%=0.3480;\nbennett add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2979 cd=0.4634 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
   hp=4780 atk=311.0 em=187.0 cr=0.3110 pyro%=0.4660;\nxiangling add stats def%=0.124
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 70185.74624108162
+dps: 68802.98643742944
 mode: sl
 duration: 105.99999999999856
 target_count: 1

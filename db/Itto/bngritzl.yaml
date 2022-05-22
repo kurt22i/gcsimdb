@@ -27,7 +27,8 @@ config: |-
 
   ####----END GENERATED CHARACTER BLOCK DO NOT EDIT----####
 
-  # Default options swap_delay=12
+  # Default
+  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 iteration=1000 duration=101 mode=sl;
 
   # Default enemy
@@ -130,7 +131,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35185.70354594598
+dps: 35138.17754005782
 mode: sl
 duration: 100.9999999999993
 target_count: 1

@@ -1,28 +1,28 @@
 author: Xardas#5785
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nbennett
-  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
-  lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\nbennett add stats
-  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
-  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
-  add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nxiangling add
-  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nxingqiu char lvl=90/90
-  cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
-  hydro%=0.466 cr=0.311; #main\nxingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\nyunjin
-  char lvl=90/90 cons=6 talent=9,9,9; \nyunjin add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nyunjin add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nyunjin
-  add stats hp=4780 atk=311 def%=0.587 def%=1.036 ; #main\nyunjin add stats def%=0.372
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.331
-  cd=0.1324;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
-  amount=1;\n\n##Actions List\n\nactive yunjin;\n\nyunjin attack, skill,burst;\nxingqiu
-  skill,burst,attack;\nbennett burst,attack,skill;\nxiangling attack,burst,attack,skill;\nbennett
-  attack:2, skill;\nxingqiu attack:3;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
-  attack:2, skill;\nxingqiu attack:3;\nxiangling attack:3;\nbennett attack:3, skill;\nxingqiu
-  attack:3;\nrestart;\n\n\n\n\n\n"
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=105 workers=30 mode=sl;\n\nbennett char lvl=90/90 cons=6
+  talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"crimsonwitchofflames\" count=4;\nbennett add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxiangling char lvl=90/90
+  cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944
+  ;\t\t\t\t\t\t\t\t\t\t\t\nyunjin char lvl=90/90 cons=6 talent=9,9,9; \nyunjin add
+  weapon=\"favoniuslance\" refine=3 lvl=90/90;\nyunjin add set=\"huskofopulentdreams\"
+  count=4 +params=[stacks=4];\nyunjin add stats hp=4780 atk=311 def%=0.587 def%=1.036
+  ; #main\nyunjin add stats def%=0.372 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.6612 em=39.64 cr=0.331 cd=0.1324;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n##Actions List\n\nactive yunjin;\n\nyunjin attack,
+  skill,burst;\nxingqiu skill,burst,attack;\nbennett burst,attack,skill;\nxiangling
+  attack,burst,attack,skill;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
+  attack:2, skill;\nxingqiu attack:3;\nbennett attack:2, skill;\nxingqiu attack:3;\nxiangling
+  attack:3;\nbennett attack:3, skill;\nxingqiu attack:3;\nrestart;\n\n\n\n\n\n"
 description: ""
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45638.73598457549
+dps: 45335.49089063251
 mode: sl
 duration: 105.00000000000071
 target_count: 1

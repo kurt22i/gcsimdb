@@ -1,27 +1,27 @@
 author: Alpha253#3018
-config: "options debug=true iteration=1000 duration=120 workers=30 mode=sl swap_delay=12;\n\nayato
-  char lvl=90/90 cons=0 talent=9,9,9; \nayato add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nayato add set=\"heartofdepth\" count=4;\nayato add stats hp=4780 atk=311
-  atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nayato add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nbennett
-  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
-  lvl=90/90 ;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
-  atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxiangling
-  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
-  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
-  hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
-  cd=0.7944;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"favoniusgreatsword\"
-  refine=3 lvl=90/90;\n# No perfect parries makes fav gs better than r1 serpent spine
-  with 5 stacks :favmen:\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nbeidou add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.331 cd=0.662;\n\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
-  amount=1;\n\nactive ayato;\n\nbennett skill,burst;\nayato burst;\nbeidou skill,burst;\nxiangling
-  attack, burst,attack,skill;\nayato skill, attack:16;\nbeidou skill,attack:2;\nbennett
-  attack,skill,attack:2;\nxiangling attack:2, skill;\nayato skill,attack:8;\nwait
-  9;\n\nrestart;\n\n\n"
+config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
+  duration=120 workers=30 mode=sl swap_delay=12;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;
+  \nayato add weapon=\"favoniussword\" refine=3 lvl=90/90;\nayato add set=\"heartofdepth\"
+  count=4;\nayato add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nayato
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90 ;\nbennett add set=\"noblesseoblige\"
+  count=4;\nbennett add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=5;\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9; \nbeidou
+  add weapon=\"favoniusgreatsword\" refine=3 lvl=90/90;\n# No perfect parries makes
+  fav gs better than r1 serpent spine with 5 stacks :favmen:\nbeidou add set=\"emblemofseveredfate\"
+  count=4;\nbeidou add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\n\ntarget lvl=100 resist=0.1;\nenergy every
+  interval=480,720 amount=1;\n\nactive ayato;\n\nbennett skill,burst;\nayato burst;\nbeidou
+  skill,burst;\nxiangling attack, burst,attack,skill;\nayato skill, attack:16;\nbeidou
+  skill,attack:2;\nbennett attack,skill,attack:2;\nxiangling attack:2, skill;\nayato
+  skill,attack:8;\nwait 9;\n\nrestart;\n\n\n"
 description: Ayato Vape with Beidou.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39163.15154839813
+dps: 39211.29450228859
 mode: sl
 duration: 120.00000000000152
 target_count: 1

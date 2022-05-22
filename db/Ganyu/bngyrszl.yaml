@@ -21,6 +21,7 @@ config: |+
   bennett add set="noblesseoblige" count=4;
   bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.9588 em=39.64 cr=0.5758 cd=0.6620 pyro%=0.4660;
 
+  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
@@ -83,7 +84,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41126.88559800382
+dps: 41165.90081906705
 mode: sl
 duration: 106.99999999999939
 target_count: 1

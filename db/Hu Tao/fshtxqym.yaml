@@ -1,31 +1,32 @@
 author: すいな#8092, Rare Possum#0511 and Jhony75#8133
-config: "options swap_delay=12 debug=true iteration=1000 duration=134 workers=30 mode=sl;\n\nhutao
-  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1000;\nhutao add weapon=\"dragonsbane\"
-  refine=3 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
-  stats hp=4780 atk=311 cr=0.311 pyro%=0.466 em=187;\nhutao add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nyoimiya
-  char lvl=90/90 cons=0 talent=9,9,9;\nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya
-  add set=\"shimenawasreminiscence\" count=4;\nyoimiya add stats hp=4780 atk=311 cr=0.311
-  pyro%=0.466 atk%=0.466;\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90
-  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 cr=0.311
-  hydro%=0.466 atk%=0.466;\nxingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nfischl char lvl=90/90
-  cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
-  add set=\"tenacityofthemillelith\" count=4;\nfischl add stats hp=4780 atk=311 cr=0.311
-  electro%=0.466 atk%=0.466;\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\n##Default Enemy\ntarget
-  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive fischl;\n\nfischl
-  skill;\n\nxingqiu skill[orbital=1], burst[orbital=1];\n\nhutao skill,\n  attack:2,
-  charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2,
-  charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2,
-  charge, jump,\n  attack:2, charge;\n\nyoimiya skill,\n  attack:5,dash,\n  attack:5,dash,\n
-  \ attack:5;\n\nfischl burst;\n\nxingqiu skill[orbital=1], burst[orbital=1], attack;\n\nhutao
-  skill,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge,
-  jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump, \n  attack:2, charge,
-  jump, \n  attack:2, charge, jump, \n  attack:2, charge;\n\nyoimiya skill,\n  attack:5,dash,\n
-  \ attack:5,dash,\n  attack:5;\nrestart;\n\n"
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=134 workers=30 mode=sl;\n\nhutao char lvl=90/90 cons=0 talent=9,9,9
+  start_hp=1000;\nhutao add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nhutao add
+  set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 cr=0.311
+  pyro%=0.466 em=187;\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08
+  atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nyoimiya char lvl=90/90 cons=0
+  talent=9,9,9;\nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya add set=\"shimenawasreminiscence\"
+  count=4;\nyoimiya add stats hp=4780 atk=311 cr=0.311 pyro%=0.466 atk%=0.466;\nyoimiya
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats hp=4780 atk=311 cr=0.311 hydro%=0.466 atk%=0.466;\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.331 cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
+  count=4;\nfischl add stats hp=4780 atk=311 cr=0.311 electro%=0.466 atk%=0.466;\nfischl
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.331 cd=0.662;\n\n##Default Enemy\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\nactive fischl;\n\nfischl skill;\n\nxingqiu skill[orbital=1],
+  burst[orbital=1];\n\nhutao skill,\n  attack:2, charge, jump,\n  attack:2, charge,
+  jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge,
+  jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge;\n\nyoimiya
+  skill,\n  attack:5,dash,\n  attack:5,dash,\n  attack:5;\n\nfischl burst;\n\nxingqiu
+  skill[orbital=1], burst[orbital=1], attack;\n\nhutao skill,\n  attack:2, charge,
+  jump,\n  attack:2, charge, jump,\n  attack:2, charge, jump,\n  attack:2, charge,
+  jump,\n  attack:2, charge, jump, \n  attack:2, charge, jump, \n  attack:2, charge,
+  jump, \n  attack:2, charge;\n\nyoimiya skill,\n  attack:5,dash,\n  attack:5,dash,\n
+  \ attack:5;\nrestart;\n\n"
 description: 'Tao + Yoimiya. Difficult to play: Has no shields, limited heals and
   tiring combos, but comes with high reward as well.'
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
@@ -66,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47140.773159838274
+dps: 47141.248913090094
 mode: sl
 duration: 133.9999999999997
 target_count: 1

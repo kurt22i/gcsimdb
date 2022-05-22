@@ -1,28 +1,28 @@
 author: KurticusZen#5674 and solo#0180
-config: "options swap_delay=12 debug=true iteration=1000 duration=99 workers=30 mode=sl;\n\n#Character
-  Builds:\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\"
-  refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main\nayaka add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats
-  hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.1986
-  cd=0.662;\n\nsara char lvl=90/90 cons=6 talent=9,9,9;\nsara add weapon=\"alleyhunter\"
-  refine=1 lvl=90/90 +params=[stacks=10];\nsara add set=\"tenacityofthemillelith\"
-  count=4;\nsara add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ; #main\nsara
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
-  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria add set=\"blizzardstrayer\"
-  count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main\nrosaria
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.3972 cd=0.662;\n\n#Enemies and Particles:\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\n\n#Actions List\nactive xingqiu;\n\nxingqiu skill[orbital=1],
-  burst[orbital=1], attack;\nsara skill, attack;\nrosaria skill, burst, attack;\nsara
-  aim, charge;\nayaka dash, attack, skill, dash, burst, dash, \n\tattack:3, charge,
-  dash,\n\tattack:3, charge, dash;\nsara skill, attack;\nayaka dash, \n    attack:3,
-  charge,\n\tattack:3, skill,\n\tattack:3, charge\n\t;\nrosaria skill;\nayaka dash,
-  attack:2, charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=99 workers=30 mode=sl;\n\n#Character Builds:\nayaka char
+  lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka
+  add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622; #main\nayaka add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nxingqiu char lvl=90/90
+  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  hydro%=0.466 cr=0.311; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.1986 cd=0.662;\n\nsara char lvl=90/90
+  cons=6 talent=9,9,9;\nsara add weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\nsara
+  add set=\"tenacityofthemillelith\" count=4;\nsara add stats hp=4780 atk=311 atk%=0.466
+  cr=0.311 electro%=0.466 ; #main\nsara add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984
+  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nrosaria char lvl=90/90
+  cons=6 talent=9,9,9;\nrosaria add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria
+  add set=\"blizzardstrayer\" count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;\n\n#Enemies and Particles:\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#Actions List\nactive
+  xingqiu;\n\nxingqiu skill[orbital=1], burst[orbital=1], attack;\nsara skill, attack;\nrosaria
+  skill, burst, attack;\nsara aim, charge;\nayaka dash, attack, skill, dash, burst,
+  dash, \n\tattack:3, charge, dash,\n\tattack:3, charge, dash;\nsara skill, attack;\nayaka
+  dash, \n    attack:3, charge,\n\tattack:3, skill,\n\tattack:3, charge\n\t;\nrosaria
+  skill;\nayaka dash, attack:2, charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Sara.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33306.93854507106
+dps: 33295.450927845195
 mode: sl
 duration: 99.0000000000003
 target_count: 1

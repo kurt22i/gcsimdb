@@ -1,32 +1,32 @@
 author: Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nhutao
-  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"deathmatch\"
-  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
-  stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972
-  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats
-  hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli add weapon=\"favoniuslance\"
-  lvl=90/90 refine=3;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli
-  add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311;\nzhongli add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
-  cd=0.7944;\n\nningguang char lvl=90/90 cons=6 talent=9,9,9;\nningguang add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nningguang add set=\"instructor\" count=4;\nningguang add stats
-  hp=3571 atk=232 atk%=0.466 cr=0.232 geo%=0.348 ; #main\nningguang add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.0993
-  cd=0.331;\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive
-  zhongli;\n\nzhongli skill[hold=1];\nxingqiu skill[orbitals=1], burst, attack:1;\nningguang
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=103 workers=30 mode=sl;\n\nhutao char lvl=90/90 cons=0 talent=9,9,9
+  start_hp=1;\nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\"
+  count=4;\nhutao add stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.3972 cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\"
+  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli
+  add weapon=\"favoniuslance\" lvl=90/90 refine=3;\nzhongli add set=\"tenacityofthemillelith\"
+  count=4;\nzhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311;\nzhongli
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nningguang char lvl=90/90 cons=6 talent=9,9,9;\nningguang
+  add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nningguang add
+  set=\"instructor\" count=4;\nningguang add stats hp=3571 atk=232 atk%=0.466 cr=0.232
+  geo%=0.348 ; #main\nningguang add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.496 er=0.1102 em=39.64 cr=0.0993 cd=0.331;\n\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\nactive zhongli;\n\nzhongli skill[hold=1];\nxingqiu
+  skill[orbitals=1], burst, attack:1;\nningguang skill, attack;\nhutao skill, attack,
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, jump,\n\tattack:1, charge, burst;\n\t\nzhongli attack:4;\nxingqiu attack:4;\nzhongli
+  attack:3;\n\nzhongli skill[hold=1];\nxingqiu skill[orbitals=1], burst, attack:1;\n\nningguang
   skill, attack;\nhutao skill, attack, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, burst;\n\t\nzhongli
-  attack:4;\nxingqiu attack:4;\nzhongli attack:3;\n\nzhongli skill[hold=1];\nxingqiu
-  skill[orbitals=1], burst, attack:1;\n\nningguang skill, attack;\nhutao skill, attack,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:1, charge, jump;\n\t\nzhongli attack:4;\nxingqiu attack:4;\nzhongli
-  attack:3;\nxingqiu attack:3;\n\nrestart;\n\n\n\n"
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, jump;\n\t\nzhongli
+  attack:4;\nxingqiu attack:4;\nzhongli attack:3;\nxingqiu attack:3;\n\nrestart;\n\n\n\n"
 description: Budget Tao Double Geo.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -66,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44041.12012014761
+dps: 44004.81729944512
 mode: sl
 duration: 102.99999999999858
 target_count: 1

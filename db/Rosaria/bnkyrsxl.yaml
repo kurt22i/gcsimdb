@@ -1,26 +1,27 @@
 author: Arfoire#9219, raph#2041 and Xardas#5785
 config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\noptions
-  swap_delay=12 debug=true iteration=1000 duration=102 mode=sl;\n\n#Character Builds:\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1
-  lvl=90/90;\nrosaria add set=\"lavawalker\" count=5;\nrosaria add stats hp=4780 atk=311
-  em=186 cryo%=0.466 cd=0.622 ; #main\nrosaria add stats def=39.36 def%=0.124 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\nxiangling
-  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
-  hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nbennett char lvl=90/90 cons=6 talent=9,9,9;
-  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=5;\nbennett add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\nkaeya char lvl=90/90 cons=2
-  talent=9,9,9; \nkaeya add weapon=\"lionsroar\" refine=3 lvl=90/90;\nkaeya add set=\"emblemofseveredfate\"
-  count=5;\nkaeya add stats hp=4780 atk=311 em=186 cryo%=0.466 cr=0.311 ; #main\nkaeya
+  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\nhurt
+  every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true iteration=1000
+  duration=102 mode=sl;\n\n#Character Builds:\nrosaria char lvl=90/90 cons=6 talent=9,9,9;
+  \nrosaria add weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add set=\"lavawalker\"
+  count=5;\nrosaria add stats hp=4780 atk=311 em=186 cryo%=0.466 cd=0.622 ; #main\nrosaria
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=79.28 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\n\n#Action List:\nactive kaeya;\n\nkaeya
-  skill;\nbennett burst, skill;\nrosaria skill, attack, burst;\nxiangling attack,burst,
-  skill;\nkaeya skill, burst;\nrosaria skill, attack;\nbennett attack,skill, attack;\nxiangling
+  em=79.28 cr=0.3972 cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\nxiangling char lvl=90/90 cons=6
+  talent=9,9,9; \nxiangling add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=5;\nxiangling add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
+  atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944
+  ;\t\t\t\t\t\t\t\t\t\t\t\nkaeya char lvl=90/90 cons=2 talent=9,9,9; \nkaeya add weapon=\"lionsroar\"
+  refine=3 lvl=90/90;\nkaeya add set=\"emblemofseveredfate\" count=5;\nkaeya add stats
+  hp=4780 atk=311 em=186 cryo%=0.466 cr=0.311 ; #main\nkaeya add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944
+  ;\t\t\t\t\t\t\t\t\t\t\t\n\n\n#Action List:\nactive kaeya;\n\nkaeya skill;\nbennett
+  burst, skill;\nrosaria skill, attack, burst;\nxiangling attack,burst, skill;\nkaeya
+  skill, burst;\nrosaria skill, attack;\nbennett attack,skill, attack;\nxiangling
   attack:3;\nbennett skill, attack;\nxiangling attack:3;\nrosaria attack,skill;\nbennett
   skill, attack;\nxiangling attack:3;\n\n\nrestart;\n\n"
 description: The traditional Reverse Melt team. Full 4* lineup.
@@ -62,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46065.333013325064
+dps: 45930.61971818577
 mode: sl
 duration: 102.00000000000051
 target_count: 1

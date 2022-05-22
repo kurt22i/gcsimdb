@@ -1,19 +1,19 @@
 author: KurticusZen#5674 and solo#0180
-config: "options swap_delay=12 debug=true iteration=1000 duration=114 workers=30 mode=sl;\n\nhutao
-  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1; \nhutao add weapon=\"deathmatch\"
-  refine=1 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\" count=5;\nhutao add
-  stats hp=4780 atk=311 em=187 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=5;\nxingqiu add stats
-  hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648
-  cd=0.662;\n\nsara char lvl=90/90 cons=6 talent=9,9,9;\nsara add weapon=\"alleyhunter\"
-  refine=1 lvl=90/90 +params=[stacks=10];\nsara add set=\"instructor\" count=4;\nsara
-  add stats hp=4780 atk=311 atk%=0.348 cr=0.232  cryo%=0.466 ; #main #main\nsara add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=39.64
-  cr=0.0662 cd=0.3972;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add
-  weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=114 workers=30 mode=sl;\n\nhutao char lvl=90/90 cons=0 talent=9,9,9
+  start_hp=1; \nhutao add weapon=\"deathmatch\" refine=1 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\"
+  count=5;\nhutao add stats hp=4780 atk=311 em=187 cd=0.622 pyro%=0.466 ; #main\nhutao
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\"
+  count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
+  em=39.64 cr=0.2648 cd=0.662;\n\nsara char lvl=90/90 cons=6 talent=9,9,9;\nsara add
+  weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\nsara add set=\"instructor\"
+  count=4;\nsara add stats hp=4780 atk=311 atk%=0.348 cr=0.232  cryo%=0.466 ; #main
+  #main\nsara add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496
+  er=0.1102 em=39.64 cr=0.0662 cd=0.3972;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;
+  \nrosaria add weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
   count=5;\nrosaria add stats hp=4780 atk=311 er=0.518 cd=0.622 cryo%=0.466 ; #main\nrosaria
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.3972 cd=0.662;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
@@ -67,7 +67,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40351.56557053081
+dps: 40276.31735360252
 mode: sl
 duration: 114.00000000000126
 target_count: 1

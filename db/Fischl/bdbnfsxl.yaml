@@ -1,34 +1,35 @@
 author: Lizz71#8986
-config: "options swap_delay=12 debug=true iteration=1000 duration=98 workers=30 mode=sl;\n\nbeidou
-  char lvl=90/90 cons=6 talent=9,9,9; \nbeidou add weapon=\"serpentspine\" refine=1
-  lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=4;\nbeidou
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cd=0.622;\nbeidou add stats
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=98 workers=30 mode=sl;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;
+  \nbeidou add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou
+  add set=\"emblemofseveredfate\" count=4;\nbeidou add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cd=0.622;\nbeidou add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.66;\n# er subs are calced
+  with no counters in mind\n# 10 cr, 8 cd, 2 attack\n\nfischl char lvl=90/90 cons=6
+  talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
+  add set=\"gladiatorsfinale\" count=2;\nfischl add set=\"thunderingfury\" count=2;\nfischl
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;\nfischl add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.3972 cd=0.66;\n# er subs are calced with no counters in mind\n# 10 cr, 8 cd,
-  2 attack\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
-  refine=3 lvl=90/90;\nfischl add set=\"gladiatorsfinale\" count=2;\nfischl add set=\"thunderingfury\"
-  count=2;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;\nfischl
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.33 cd=0.7944;\n# er subs are calced with no counters in mind\n# 10
-  cr, 8 cd, 2 attack\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=4;\nxiangling add stats hp=4780 em=187 atk=311 pyro%=0.466 cr=0.311 ; #main\nxiangling
-  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=120
-  cr=0.331 cd=0.66 er=0.1102; #subs\n# 8 cr, 8 cd, 4 em\n\nbennett char lvl=90/90
-  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
-  add set=\"noblesseoblige\" count=4;\nbennett add set=\"emblemofseveredfate\" count=1;\nbennett
-  add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.3306 em=237.84
-  cr=0.1352 cd=0.264;\n# 10 em, 4 er, 2 cr, 2 cd\n\n## Enemy Setting\ntarget lvl=100
-  pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\n\n##
-  HP Particles\nenergy every interval=480,720 amount=1;\n\nactive beidou;\n#activate
-  everyone's skill/burst\nbennett burst,skill;\nfischl attack:2,skill;\nbeidou skill,burst,attack;
-  # catch particle. trying to counter here might waste bennett ult fieldtime\nxiangling
-  attack,burst,skill;\n\nbennett attack,skill;\nxiangling attack:4;\n\n#refresh fischl
-  skill and snapshot\nfischl attack:2,burst,attack;\nbeidou skill,attack,attack; #
-  catch particle, counter depending on skill issue\n\nbennett attack,skill;\nxiangling
-  attack:4,skill; #na till guoba is up.\nxiangling attack:2;\n\nbeidou skill[counter=2],attack:2;
-  # catch particle, counter depending on skill issue\nrestart;\n\n\n\n"
+  cr=0.33 cd=0.7944;\n# er subs are calced with no counters in mind\n# 10 cr, 8 cd,
+  2 attack\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
+  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
+  add stats hp=4780 em=187 atk=311 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats
+  hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=120 cr=0.331
+  cd=0.66 er=0.1102; #subs\n# 8 cr, 8 cd, 4 em\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;
+  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=4;\nbennett add set=\"emblemofseveredfate\" count=1;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.3306 em=237.84 cr=0.1352 cd=0.264;\n#
+  10 em, 4 er, 2 cr, 2 cd\n\n## Enemy Setting\ntarget lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\n\n## HP Particles\nenergy
+  every interval=480,720 amount=1;\n\nactive beidou;\n#activate everyone's skill/burst\nbennett
+  burst,skill;\nfischl attack:2,skill;\nbeidou skill,burst,attack; # catch particle.
+  trying to counter here might waste bennett ult fieldtime\nxiangling attack,burst,skill;\n\nbennett
+  attack,skill;\nxiangling attack:4;\n\n#refresh fischl skill and snapshot\nfischl
+  attack:2,burst,attack;\nbeidou skill,attack,attack; # catch particle, counter depending
+  on skill issue\n\nbennett attack,skill;\nxiangling attack:4,skill; #na till guoba
+  is up.\nxiangling attack:2;\n\nbeidou skill[counter=2],attack:2; # catch particle,
+  counter depending on skill issue\nrestart;\n\n\n\n"
 description: Pyro + Electro 4*-only OL.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -68,7 +69,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39481.197609490984
+dps: 39448.69546070144
 mode: sl
 duration: 97.9999999999992
 target_count: 1

@@ -1,26 +1,26 @@
 author: Buki#7742 and rf#5773
-config: "options debug=true iteration=1000 duration=130 mode=sl;\n\n### CHARACTERS,
-  WEAPONS\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"lionsroar\"
-  refine=3 lvl=90/90;\n\njean char lvl=90/90 cons=0 talent=9,9,9;\njean add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\n   \nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add
-  weapon=\"thestringless\" refine=3 lvl=90/90;\n\n### ARTIFACTS\nbennett add set=\"noblesseoblige\"
-  count=4;\nayato add set=\"echoesofanoffering\" count=4;\njean add set=\"viridescentvenerer\"
-  count=4;\nfischl add set=\"shimenawasreminiscence\" count=2;\nfischl add set=\"thunderingfury\"
-  count=2;\n\n### MAIN STATS\nbennett add stats hp=4780 atk=311 pyro%=0.466 er=0.518
-  cr=0.311;\nayato add stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cr=0.311;\njean
-  add stats hp=4780 atk=311 em=187 em=187 em=187;\nfischl add stats hp=4780 atk=311
-  electro%=0.466 atk%=0.466 cr=0.311;\n\n### SUB ROLLS\nayato add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331
-  cd=0.662;\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.5952 er=0.1102 em=39.64 cr=0.2317 cd=0.4634;\nfischl add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979
-  cd=0.7282;\njean add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
-  er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\n\n##Actions List\nactive ayato;\n\nayato burst;\nbennett
-  skill, burst;\nfischl attack:2, skill;\njean skill, burst;\nayato skill, attack:15;\nbennett
-  attack:2, skill;\njean skill;\nfischl burst;\nbennett skill;\nayato skill, attack:15;\njean
-  skill;\n\nrestart;\n\n\n"
+config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
+  duration=130 mode=sl;\n\n### CHARACTERS, WEAPONS\nbennett char lvl=90/90 cons=6
+  talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\n\nayato
+  char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"lionsroar\" refine=3 lvl=90/90;\n\njean
+  char lvl=90/90 cons=0 talent=9,9,9;\njean add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\n   \nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\n\n### ARTIFACTS\nbennett add set=\"noblesseoblige\" count=4;\nayato
+  add set=\"echoesofanoffering\" count=4;\njean add set=\"viridescentvenerer\" count=4;\nfischl
+  add set=\"shimenawasreminiscence\" count=2;\nfischl add set=\"thunderingfury\" count=2;\n\n###
+  MAIN STATS\nbennett add stats hp=4780 atk=311 pyro%=0.466 er=0.518 cr=0.311;\nayato
+  add stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cr=0.311;\njean add stats hp=4780
+  atk=311 em=187 em=187 em=187;\nfischl add stats hp=4780 atk=311 electro%=0.466 atk%=0.466
+  cr=0.311;\n\n### SUB ROLLS\nayato add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\nbennett add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.2317
+  cd=0.4634;\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;\njean add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\n##Default
+  Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
+  List\nactive ayato;\n\nayato burst;\nbennett skill, burst;\nfischl attack:2, skill;\njean
+  skill, burst;\nayato skill, attack:15;\nbennett attack:2, skill;\njean skill;\nfischl
+  burst;\nbennett skill;\nayato skill, attack:15;\njean skill;\n\nrestart;\n\n\n"
 description: Sunfire Ayato.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39212.73704039778
+dps: 39153.53122105465
 mode: sl
 duration: 129.99999999999824
 target_count: 1

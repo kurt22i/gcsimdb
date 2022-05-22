@@ -1,24 +1,24 @@
 author: Charliex3000#9403, danii#8748 and phaZZi#6461
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\n#Character
-  Builds:\nxiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\nxiao add set=\"viridescentvenerer\" count=4;\nxiao add stats
-  hp=4780 atk=311 er=0.518 anemo%=0.466 cr=0.311; #main\nxiao add stats hp%=0.0992
-  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.3972
-  er=0.551 ; #subs\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=5;\nbennett
-  add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=4;\nxiangling add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ;
-  #main\nxiangling add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124
-  def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nxingqiu char lvl=90/90
-  cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
-  hydro%=0.466 cr=0.311; #main\nxingqiu add stats hp%=0.0992 hp=507.88 atk%=0.1984
-  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\n#Enemies
-  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
-  List\n\nactive xiangling;\nxiangling skill;\nxingqiu skill,burst,attack;\nbennett
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=105 workers=30 mode=sl;\n\n#Character Builds:\nxiao char
+  lvl=90/90 cons=0 talent=9,9,9;\nxiao add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nxiao
+  add set=\"viridescentvenerer\" count=4;\nxiao add stats hp=4780 atk=311 er=0.518
+  anemo%=0.466 cr=0.311; #main\nxiao add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08
+  def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.3972 er=0.551 ; #subs\n\nbennett char
+  lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"crimsonwitchofflames\" count=5;\nbennett add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxiangling char lvl=90/90
+  cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats hp%=0.0992 hp=507.88 atk%=0.1984
+  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats hp%=0.0992 hp=507.88
+  atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102
+  ; #subs\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\n\n##Actions List\n\nactive xiangling;\nxiangling skill;\nxingqiu skill,burst,attack;\nbennett
   burst,attack,skill;\nxiao skill, attack, skill;\nxiangling attack, burst, attack;\nbennett
   skill,attack;\nxingqiu attack:3;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
   attack:3, skill;\nxingqiu attack:3;\nxiao burst, attack;\nbennett attack:2, skill;\nxiangling
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51333.58010220051
+dps: 51047.159899315106
 mode: sl
 duration: 105.00000000000071
 target_count: 1

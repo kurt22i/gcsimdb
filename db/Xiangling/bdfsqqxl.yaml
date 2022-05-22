@@ -24,6 +24,7 @@ config: |
   qiqi add stats er=.518;
   qiqi add stats atk%=.3968 er=.4408 atk=66.16;
 
+  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=125 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=.1;
@@ -79,7 +80,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32863.50201116932
+dps: 32867.43849804937
 mode: sl
 duration: 125
 target_count: 1

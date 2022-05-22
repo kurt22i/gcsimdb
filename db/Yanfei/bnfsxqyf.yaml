@@ -15,11 +15,11 @@ config: "yanfei char lvl=90/90 cons=6 talent=9,9,9;\nyanfei add weapon=\"thewids
   refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
   add stats hp=4780 atk=311.0 atk%=0.4660 cr=0.3110 electro%=0.4660;\nfischl add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
-  cr=0.331 cd=0.7944;\n\noptions swap_delay=12 debug=true iteration=1000 duration=105
-  workers=30 mode=sl; \ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\nactive
-  xingqiu;\n\nxingqiu skill[orbital=1],burst[orbital=1],attack; #you have to hug enemies
-  to consistently vape\nbennett skill,attack,burst,attack;\nfischl attack,skill,attack;\nyanfei
-  skill,burst,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
+  cr=0.331 cd=0.7944;\n\nhurt every interval=0,1200 amount=0,3000; options swap_delay=12
+  debug=true iteration=1000 duration=105 workers=30 mode=sl; \ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\nactive xingqiu;\n\nxingqiu skill[orbital=1],burst[orbital=1],attack;
+  #you have to hug enemies to consistently vape\nbennett skill,attack,burst,attack;\nfischl
+  attack,skill,attack;\nyanfei skill,burst,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
   attack:3,skill,attack;\n\nxingqiu skill[orbital=1],burst[orbital=1],attack;\nbennett
   skill,attack,burst,attack;\nfischl attack,burst;\nyanfei attack,skill,charge,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
   attack:3,skill,attack;\n\nrestart;\n"
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44856.68747779915
+dps: 44769.845146557716
 mode: sl
 duration: 105.00000000000071
 target_count: 1

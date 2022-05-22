@@ -1,27 +1,27 @@
 author: Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\nganyu
-  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu
-  add set=\"wandererstroupe\" count=5;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466
-  cr=0.311 ; #main\nganyu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0
-  talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli
-  add set=\"tenacityofthemillelith\" count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli
-  add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats
-  def=39.36 def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944 ;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
-  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
-  em=39.64 cr=0.2648 cd=0.5296 ;\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling char lvl=90/90
-  cons=6 talent=9,9,9; \nxiangling add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nxiangling
-  add set=\"emblemofseveredfate\" count=4;\nxiangling add set=\"paleflame\" count=1;\nxiangling
-  add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main \nxiangling add
-  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4959
-  em=39.64 cr=0.2648 cd=0.5958 ;\t\t\t\t\t\t\t\t\t\t\t\n\n\nactive zhongli;\ntarget
-  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nzhongli skill[hold=1];\nbennett
-  burst,skill;\nxiangling burst,skill;\nganyu skill,aim:6;\nbennett skill, attack;\nxiangling
-  attack:3;\nwait 4;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=102 workers=30 mode=sl;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
+  \nganyu add weapon=\"hamayumi\" refine=5 lvl=90/90;\nganyu add set=\"wandererstroupe\"
+  count=5;\nganyu add stats hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311 ; #main\nganyu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
+  count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli add stats hp=4780 atk=311
+  hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648 cd=0.5296
+  ;\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add set=\"paleflame\" count=1;\nxiangling add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main \nxiangling add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4959 em=39.64 cr=0.2648 cd=0.5958
+  ;\t\t\t\t\t\t\t\t\t\t\t\n\n\nactive zhongli;\ntarget lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
+  amount=1;\n\nzhongli skill[hold=1];\nbennett burst,skill;\nxiangling burst,skill;\nganyu
+  skill,aim:6;\nbennett skill, attack;\nxiangling attack:3;\nwait 4;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Melt Ganyu. 6 CAs per rotation; the last one is still a melt but doesn't
   get buffed by Bennett.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50085.066812985184
+dps: 49901.49199682214
 mode: sl
 duration: 102.00000000000051
 target_count: 1

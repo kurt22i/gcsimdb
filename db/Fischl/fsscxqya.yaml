@@ -1,25 +1,26 @@
 author: Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=152 workers=30 mode=sl;\n\nsucrose
-  char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"hakushinring\" refine=5
-  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780
-  atk=311 em=561 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.5952 er=0.3306 em=118.92 cr=0.1324 cd=0.1324;\n\nyaemiko char lvl=90/90
-  cons=0 talent=9,9,9;\nyaemiko add weapon=\"thewidsith\" refine=3 lvl=90/90;\nyaemiko
-  add set=\"gladiatorsfinale\" count=2;\nyaemiko add set=\"thunderingfury\" count=2;\nyaemiko
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl
-  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
-  count=5;\n#fischl add set=\"thunderingfury\" count=3;\nfischl add stats hp=4780
-  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=152 workers=30 mode=sl;\n\nsucrose char lvl=90/90 cons=6
+  talent=9,9,9;\nsucrose add weapon=\"hakushinring\" refine=5 lvl=90/90;\nsucrose
+  add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780 atk=311 em=561
+  ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952
+  er=0.3306 em=118.92 cr=0.1324 cd=0.1324;\n\nyaemiko char lvl=90/90 cons=0 talent=9,9,9;\nyaemiko
+  add weapon=\"thewidsith\" refine=3 lvl=90/90;\nyaemiko add set=\"gladiatorsfinale\"
+  count=2;\nyaemiko add set=\"thunderingfury\" count=2;\nyaemiko add stats hp=4780
+  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=5;\nxingqiu add stats
-  hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
-  cd=0.7944;\n\n\nactive fischl;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\n\n\nfischl
-  skill;\nyaemiko skill,skill,skill;\nsucrose attack, burst;\nxingqiu skill,burst,attack;\nsucrose\n
+  cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=5;\n#fischl
+  add set=\"thunderingfury\" count=3;\nfischl add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"noblesseoblige\" count=5;\nxingqiu add stats hp=4780 atk=311 er=0.518
+  hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n\nactive
+  fischl;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\n\n\nfischl skill;\nyaemiko
+  skill,skill,skill;\nsucrose attack, burst;\nxingqiu skill,burst,attack;\nsucrose\n
   \   attack:1, skill, jump,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2,
   dash,\n    attack:2, dash\n    ;\nfischl attack,burst;\nyaemiko attack,skill,skill,attack,skill;\nsucrose\n
   \   attack:1, skill, jump,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2,
@@ -69,7 +70,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50604.764948087926
+dps: 50596.99112304198
 mode: sl
 duration: 151.99999999999864
 target_count: 1

@@ -15,12 +15,12 @@ config: "jean char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussw
   cd=0.7944;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"lionsroar\"
   refine=3 lvl=90/90;\nayato add set=\"heartofdepth\" count=4;\nayato add stats hp=4780
   atk=311 hydro%=0.466 atk%=0.466 cr=0.311;\nayato add stats hp%=.0992 hp=507.88 def%=.124
-  def=39.36 atk=33.08 er=.1102 em=39.64 atk%=.1984 cr=0.331 cd=0.7944;\n\noptions
-  swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\ntarget
-  lvl=100 resist=.1;\n\n\nenergy every interval=480,720 amount=1;\n\nactive ayato;\n\n\nayato
-  burst;\n\nfischl skill,attack;\n\njean skill,attack,burst;\n\nbeidou skill,attack,burst;\n\nayato
-  skill,attack:15;\n\nfischl burst;\n\njean jump:3;\n\njean attack,skill;\n\nbeidou
-  skill,attack;\n\nayato skill,attack:15;\n\n\nrestart;\n"
+  def=39.36 atk=33.08 er=.1102 em=39.64 atk%=.1984 cr=0.331 cd=0.7944;\n\nhurt every
+  interval=300,900 amount=0,1000; options swap_delay=12 debug=true iteration=1000
+  duration=100 workers=30 mode=sl;\n\ntarget lvl=100 resist=.1;\n\n\nenergy every
+  interval=480,720 amount=1;\n\nactive ayato;\n\n\nayato burst;\n\nfischl skill,attack;\n\njean
+  skill,attack,burst;\n\nbeidou skill,attack,burst;\n\nayato skill,attack:15;\n\nfischl
+  burst;\n\njean jump:3;\n\njean attack,skill;\n\nbeidou skill,attack;\n\nayato skill,attack:15;\n\n\nrestart;\n"
 description: Ayato Taser with Jean.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31733.696439690473
+dps: 31957.528717649668
 mode: sl
 duration: 99.9999999999986
 target_count: 1

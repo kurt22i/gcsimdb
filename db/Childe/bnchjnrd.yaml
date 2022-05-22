@@ -15,12 +15,12 @@ config: "\nraiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"favon
   char lvl=90/90 cons=0 talent=9,9,9;\njean add weapon=\"ironsting\" refine=5 lvl=90/90;\njean
   add set=\"viridescentvenerer\" count=4;\njean add stats hp=4780 atk=311 em=187 em=187
   em=187;\njean add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
-  er=0.6612 em=118.92 cr=0.2648 cd=0.1324;\n\noptions swap_delay=12 debug=true iteration=1000
-  duration=125 mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
-  amount=1;\n\nactive raiden;\nraiden skill;\nbennett skill,burst,attack;\njean skill,
-  burst;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n          attack:3,charge,jump,\n
-  \         attack:3,charge,jump,\n          attack:3;\njean skill;\nbennett skill;\nraiden
-  burst, attack:3,charge, attack:3,charge, attack:2;\nrestart;\n\n\n"
+  er=0.6612 em=118.92 cr=0.2648 cd=0.1324;\n\nhurt every interval=0,1200 amount=0,3000;
+  options swap_delay=12 debug=true iteration=1000 duration=125 mode=sl;\ntarget lvl=100
+  resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive raiden;\nraiden skill;\nbennett
+  skill,burst,attack;\njean skill, burst;\ntartaglia burst,skill,\n          attack:3,charge,jump,\n
+  \         attack:3,charge,jump,\n          attack:3,charge,jump,\n          attack:3;\njean
+  skill;\nbennett skill;\nraiden burst, attack:3,charge, attack:3,charge, attack:2;\nrestart;\n\n\n"
 description: ""
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 27851.4781631446
+dps: 27861.519901571846
 mode: sl
 duration: 125
 target_count: 1

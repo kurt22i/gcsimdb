@@ -20,6 +20,7 @@ config: |+
   yunjin add set="huskofopulentdreams" count=4;
   yunjin add stats def%=2.121 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.6612 em=39.64 cr=0.2648 cd=0.1324;
 
+  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;
   #Best Rotation: zhongli E for lower resistances -> xingqiu E Q N1 -> yunjin E N2 Q -> bennett N1 E N1 Q -> zhongli hE 5(N4D) N2 -> yunjin E N2 -> bennett N1 E N1 ->  loop
   #Simmed by Alpha253#3018, comp idea by EdisonsMathsClub#6469 while I was scrolling through tc-gen
@@ -89,7 +90,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34162.28027456888
+dps: 34119.60965610275
 mode: sl
 duration: 108.00000000000088
 target_count: 1

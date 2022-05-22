@@ -1,26 +1,26 @@
 author: Kurt#5846 and Veggie#0581
-config: "options debug=true iteration=1000 duration=105 workers=30 swap_delay=12 mode=sl;\n\nraiden
-  char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden
-  add set=\"emblemofseveredfate\" count=4;\nraiden add stats hp=4780 atk=311 atk%=0.466
-  electro%=0.466 cr=0.311 ; #main\nraiden add stats hp%=0.0992 hp=507.88 atk%=0.0992
-  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.2204 ;\n\nlisa char
-  lvl=90/90 cons=2 talent=9,9,9; \nlisa add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nlisa add set=\"emblemofseveredfate\" count=4;\nlisa add stats
-  hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311; #main\nlisa add stats hp%=0.0992
-  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2648 cd=0.5296
-  er=0.551 ;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"ironsting\"
-  refine=5 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
-  stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats hp%=0.0992 hp=507.88 atk%=0.0992
-  atk=33.08 def%=0.124 def=39.36 em=118.92 cr=0.2648 cd=0.1324 er=0.6612 ;\n\nbennett
-  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
-  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
-  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats hp%=0.0992 hp=507.88
-  atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2648 cd=0.5296 er=0.551
-  ;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\n#target lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\n\n##Actions List\n\n# rotation\n\nactive raiden;\n\nraiden
-  skill;\n\nbennett burst;\nkazuha skill[hold=1],high_plunge,burst;\nlisa attack,burst;\nraiden
-  burst,attack:3,charge,attack:3,charge,attack:3,charge,skill;\nkazuha skill,high_plunge,attack:2;\nbennett
-  skill,attack:3;\n\nbennett burst;\nkazuha skill[hold=1],high_plunge,burst;\nlisa
+config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
+  duration=105 workers=30 swap_delay=12 mode=sl;\n\nraiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden add set=\"emblemofseveredfate\"
+  count=4;\nraiden add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nraiden add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36
+  em=39.64 cr=0.331 cd=0.7944 er=0.2204 ;\n\nlisa char lvl=90/90 cons=2 talent=9,9,9;
+  \nlisa add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nlisa add
+  set=\"emblemofseveredfate\" count=4;\nlisa add stats hp=4780 atk=311 er=0.518 electro%=0.466
+  cr=0.311; #main\nlisa add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124
+  def=39.36 em=39.64 cr=0.2648 cd=0.5296 er=0.551 ;\n\nkazuha char lvl=90/90 cons=0
+  talent=9,9,9; \nkazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha add
+  set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=118.92
+  cr=0.2648 cd=0.1324 er=0.6612 ;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.2648 cd=0.5296 er=0.551 ;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\n#target
+  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions List\n\n#
+  rotation\n\nactive raiden;\n\nraiden skill;\n\nbennett burst;\nkazuha skill[hold=1],high_plunge,burst;\nlisa
+  attack,burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,skill;\nkazuha
+  skill,high_plunge,attack:2;\nbennett skill,attack:3;\n\nbennett burst;\nkazuha skill[hold=1],high_plunge,burst;\nlisa
   attack,burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,skill;\nkazuha
   skill,high_plunge,attack:2;\nbennett skill,attack:3;\n\nbennett burst;\nkazuha skill[hold=1],high_plunge,burst;\nlisa
   attack,burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,skill;\nkazuha
@@ -68,7 +68,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40161.91172341168
+dps: 40014.96744364426
 mode: sl
 duration: 105.00000000000071
 target_count: 1

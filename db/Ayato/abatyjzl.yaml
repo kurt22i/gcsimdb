@@ -15,14 +15,15 @@ config: "ayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"theblacks
   add weapon=\"deathmatch\" refine=1 lvl=90/90;\nzhongli add set=\"archaicpetra\"
   count=4;\nzhongli add stats hp=4780 atk=311 atk%=0.466 geo%=0.466 cd=0.661 ; #main\nzhongli
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.3972 cd=0.662; #sub\n\noptions swap_delay=12 debug=true iteration=1000
-  duration=90 workers=30 mode=sl;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval= 480, 720 amount=1;\n\nactive
-  albedo;\nalbedo skill, attack;\nzhongli attack, skill[hold=1];\nyunjin attack, skill,
-  burst;\nayato burst, skill, attack:17, attack:7; \nzhongli attack, burst, attack,
-  skill[hold=1];\nalbedo attack, skill, attack;\nyunjin attack, skill, attack, burst;\nayato
-  skill, attack:17, attack:7;\nrestart;\n#extra 7 attacks after ayato E ends to take
-  advantage of yunjin burst duration and to stall for yunjin burst CD\n"
+  em=39.64 cr=0.3972 cd=0.662; #sub\n\nhurt every interval=0,1200 amount=0,3000; options
+  swap_delay=12 debug=true iteration=1000 duration=90 workers=30 mode=sl;\ntarget
+  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
+  cryo=.1;\nenergy every interval= 480, 720 amount=1;\n\nactive albedo;\nalbedo skill,
+  attack;\nzhongli attack, skill[hold=1];\nyunjin attack, skill, burst;\nayato burst,
+  skill, attack:17, attack:7; \nzhongli attack, burst, attack, skill[hold=1];\nalbedo
+  attack, skill, attack;\nyunjin attack, skill, attack, burst;\nayato skill, attack:17,
+  attack:7;\nrestart;\n#extra 7 attacks after ayato E ends to take advantage of yunjin
+  burst duration and to stall for yunjin burst CD\n"
 description: Full-Geo Ayato.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -62,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38437.767190593026
+dps: 38435.02808300382
 mode: sl
 duration: 90.00000000000215
 target_count: 1

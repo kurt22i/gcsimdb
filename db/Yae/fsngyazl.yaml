@@ -1,5 +1,6 @@
 author: Kurt#5846
 config: |+
+  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=90 mode=sl;
 
   ####----GENERATED CHARACTER BLOCK DO NOT EDIT----####
@@ -85,7 +86,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39546.37222131113
+dps: 39452.363003069346
 mode: sl
 duration: 90.00000000000215
 target_count: 1

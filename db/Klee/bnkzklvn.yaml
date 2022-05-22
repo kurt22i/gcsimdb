@@ -15,8 +15,8 @@ config: "klee char lvl=90/90 cons=0 talent=9,9,9; \nklee add weapon=\"thewidsith
   add set=\"viridescentvenerer\" count=5;\nventi add stats hp=4780 atk=311 em=187
   em=187 em=187;\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
   atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\noptions swap_delay=12 debug=true iteration=1000
-  duration=109 workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
+  every interval=480,720 amount=1;\nhurt every interval=0,1200 amount=0,3000; options
+  swap_delay=12 debug=true iteration=1000 duration=109 workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
   bennett;\nbennett skill;\nkazuha skill[hold=1], high_plunge,burst;\nbennett burst;\nventi
   skill, burst;     \nklee attack,burst,attack,skill [bounce=3, mine=8],\n     attack,
   charge, attack;\nventi skill,attack;\nklee attack, charge;\n\nkazuha skill[hold=1],
@@ -77,7 +77,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31270.478716055302
+dps: 31275.40360009179
 mode: sl
 duration: 108.99999999999856
 target_count: 1

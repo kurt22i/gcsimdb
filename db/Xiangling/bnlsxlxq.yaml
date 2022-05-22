@@ -1,22 +1,23 @@
 author: Lizz71#8986
-config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30 mode=sl;\n\n#Character
-  Builds:\nlisa char lvl=90/90 cons=2 talent=9,9,9;\nlisa add weapon=\"favoniuscodex\"
-  refine=3 lvl=90/90;\nlisa add set=\"emblemofseveredfate\" count=4;\nlisa add set=\"wandererstroupe\"
-  count=1;\nlisa add stats hp=4780 atk=311 em=374 er=0.518 ; #main\nlisa add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=79.28
-  cr=0.3972 cd=0.1324;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;\nxiangling
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=5;\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.72 cr=0.331 cd=0.66;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=5;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
-  count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=39.64 cr=0.2648 cd=0.5296;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\n\nenergy
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=126 workers=30 mode=sl;\n\n#Character Builds:\nlisa char
+  lvl=90/90 cons=2 talent=9,9,9;\nlisa add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nlisa
+  add set=\"emblemofseveredfate\" count=4;\nlisa add set=\"wandererstroupe\" count=1;\nlisa
+  add stats hp=4780 atk=311 em=374 er=0.518 ; #main\nlisa add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=79.28 cr=0.3972 cd=0.1324;\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
+  hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.72 cr=0.331
+  cd=0.66;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=5;\nxingqiu add
+  stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
+  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett
+  add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
+  cr=0.2648 cd=0.5296;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\n\nenergy
   every interval=480,720 amount=1;\n\nactive bennett;\n\nbennett attack,burst,skill;\nlisa
   attack,burst;\nxiangling burst, skill;\nxingqiu burst, attack, skill, attack:2;\nbennett
   attack, skill, attack:2;\nxiangling attack:2;\nxingqiu attack:2, jump, attack;\nlisa
@@ -61,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53961.79064893526
+dps: 53876.73732776794
 mode: sl
 duration: 126.00000000000189
 target_count: 1

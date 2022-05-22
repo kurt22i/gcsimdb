@@ -1,20 +1,21 @@
 author: Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\n\n\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780
-  atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nrosaria add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\neula
-  char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
-  lvl=90/90 +params=[stacks=5];\neula add set=\"bloodstainedchivalry\" count=1;\neula
-  add set=\"paleflame\" count=4;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
-  cr=0.311 ; #main\neula add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.6612 em=39.64 cr=0.0993 cd=0.7282;\n\nzhongli char lvl=90/90 cons=0
-  talent=9,9,9; \nzhongli add weapon=\"blacktassel\" refine=5 lvl=90/90;\nzhongli
-  add set=\"tenacityofthemillelith\" count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli
-  add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\nalbedo char lvl=90/90 cons=0 talent=9,9,9; \nalbedo add weapon=\"cinnabarspindle\"
-  refine=5 lvl=90/90;\nalbedo add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nalbedo
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=110 workers=30 mode=sl;\n\n\n\n\nrosaria char lvl=90/90
+  cons=6 talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria
+  add set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cr=0.311 ; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\neula char lvl=90/90
+  cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\neula
+  add set=\"bloodstainedchivalry\" count=1;\neula add set=\"paleflame\" count=4;\neula
+  add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cr=0.311 ; #main\neula add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64
+  cr=0.0993 cd=0.7282;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add
+  weapon=\"blacktassel\" refine=5 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
+  count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli add stats hp=4780 atk=311
+  hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nalbedo
+  char lvl=90/90 cons=0 talent=9,9,9; \nalbedo add weapon=\"cinnabarspindle\" refine=5
+  lvl=90/90;\nalbedo add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nalbedo
   add set=\"paleflame\" count=1;\nalbedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466
   cr=0.311 ; #main\nalbedo add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
   atk%=0.0992 er=0.551 em=39.64 cr=0.2317 cd=0.5958;\n\n\nactive zhongli;\ntarget
@@ -61,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38025.398725405765
+dps: 38013.29533964407
 mode: sl
 duration: 109.99999999999949
 target_count: 1

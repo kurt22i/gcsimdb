@@ -20,6 +20,7 @@ config: |
   xingqiu add set="emblemofseveredfate" count=4;
   xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
 
+  hurt every interval=0,1200 amount=0,3000;
   options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;
 
   target lvl=100 resist=.1;
@@ -79,7 +80,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33672.98664218874
+dps: 33664.04126129684
 mode: sl
 duration: 109.99999999999949
 target_count: 1

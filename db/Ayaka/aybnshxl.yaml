@@ -1,12 +1,12 @@
 author: Ocram2012#6693
 config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
-  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\noptions
-  swap_delay=12 debug=true iteration=1000 duration=125 mode=sl;\n\n#Character Builds:\nshenhe
-  char lvl=90/90 cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add set=\"shimenawasreminiscence\"
-  count=1;\nshenhe add stats hp=4780 atk=311 atk%=0.4660 cryo%=0.466 cr=0.311;\nshenhe
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
-  em=39.64 cr=0.331 cd=0.3972;\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nxiangling
+  geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720 amount=1;\nhurt
+  every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true iteration=1000
+  duration=125 mode=sl;\n\n#Character Builds:\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\"
+  count=4;\nshenhe add set=\"shimenawasreminiscence\" count=1;\nshenhe add stats hp=4780
+  atk=311 atk%=0.4660 cryo%=0.466 cr=0.311;\nshenhe add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.331 cd=0.3972;\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=5;\nxiangling add stats
   hp=4780 atk=311 er=0.518 pyro%=0.466 cd=0.622 ; #main\nxiangling add stats def%=0.124
@@ -24,9 +24,9 @@ config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 e
   charge;\nbennett burst, skill;\nshenhe attack, skill, burst;\nbennett skill, attack;\nxiangling
   attack, burst, skill;\nkamisatoayaka skill, dash, burst, attack;\nshenhe attack,
   skill, attack;\nkamisatoayaka attack:2, dash, attack:2;\nbennett skill, attack;\nkamisatoayaka
-  attack:2, charge, dash, attack:2, skill;\n\nrestart;\n\n\n\n"
+  attack:2, charge, dash, attack:2, skill;\n\nrestart;\n\n\n\n\n"
 description: Melt Ayaka, Shenhe version.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: ""
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 67548.41600412551
+dps: 63114.118450218906
 mode: sl
 duration: 125
 target_count: 1

@@ -1,27 +1,27 @@
 author: KurticusZen#5674
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#Character
-  builds:\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\"
-  refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main\nayaka add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\" count=4;\nkokomi
-  add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590; #main\nkokomi add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306
-  em=158.56 cr=0.0662 cd=0.1324;\n\nsara char lvl=90/90 cons=6 talent=9,9,9;\nsara
-  add weapon=\"sacrificialbow\" refine=3 lvl=90/90;\nsara add set=\"emblemofseveredfate\"
-  count=4;\nsara add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nsara
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
-  em=39.64 cr=0.2648 cd=0.5296;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
-  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria add set=\"noblesseoblige\"
-  count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nrosaria
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\n#Enemies and Particles:\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\n\n#Actions List\nactive rosaria;\n\nkujousara
-  skill;\nrosaria skill, burst;\nsara aim, charge;\nkokomi skill;\nayaka dash, skill,
-  attack, burst, attack:2;\nrosaria skill;\nkujousara burst;\nayaka dash, \n  attack:2,
-  charge, dash, \n  attack:2, charge, dash, \n  attack:2, skill, \n  attack:2, charge,
-  \n  attack:2;\nrestart;\n\n\n\n\n\n\n"
+config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=true
+  iteration=1000 duration=100 workers=30 mode=sl;\n\n#Character builds:\nayaka char
+  lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka
+  add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622; #main\nayaka add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nkokomi char lvl=90/90
+  cons=0 talent=9,9,9;\nkokomi add weapon=\"thrillingtalesofdragonslayers\" refine=5
+  lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\" count=4;\nkokomi add stats
+  hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590; #main\nkokomi add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306 em=158.56 cr=0.0662
+  cd=0.1324;\n\nsara char lvl=90/90 cons=6 talent=9,9,9;\nsara add weapon=\"sacrificialbow\"
+  refine=3 lvl=90/90;\nsara add set=\"emblemofseveredfate\" count=4;\nsara add stats
+  hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nsara add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648
+  cd=0.5296;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=4;\nrosaria add stats
+  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nrosaria add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\n#Enemies and Particles:\ntarget lvl=100 resist=0.1;\nenergy every
+  interval=480,720 amount=1;\n\n#Actions List\nactive rosaria;\n\nkujousara skill;\nrosaria
+  skill, burst;\nsara aim, charge;\nkokomi skill;\nayaka dash, skill, attack, burst,
+  attack:2;\nrosaria skill;\nkujousara burst;\nayaka dash, \n  attack:2, charge, dash,
+  \n  attack:2, charge, dash, \n  attack:2, skill, \n  attack:2, charge, \n  attack:2;\nrestart;\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Sara instead of VV-shred, Kokomi edition.
 hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
 team:
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 34510.835129523824
+dps: 34463.56154682857
 mode: sl
 duration: 99.9999999999986
 target_count: 1
