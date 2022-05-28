@@ -17,10 +17,10 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=94 workers=30 
   hp=4780 atk=311 atk%=1.398 ; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.2976 er=0.3306 em=39.64 cr=0.3972 cd=0.2648;\n\nactive
   zhongli;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nzhongli
-  skill[hold=1];\nrosaria attack, skill, attack;\neula skill, attack;\nwait 2;\nshenhe
-  burst,skill;\nrosaria burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe
-  skill,attack;\neula attack:2;\nrosaria skill;\neula attack:4;\nwait 9;\nzhongli
-  attack:2;\nrestart;\n\n\n\n\n"
+  skill[hold=1], dash;\nrosaria attack, skill, attack;\neula skill, attack;\nwait
+  2;\nshenhe burst,skill;\nrosaria burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe
+  skill,attack;\neula attack:2;\nrosaria skill;\neula attack:4;\nwait 16;\nzhongli
+  attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: Eula team without SC. Works surprisingly well.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40742.927046041325
+dps: 40855.782951257606
 mode: sl
 duration: 93.99999999999868
 target_count: 1

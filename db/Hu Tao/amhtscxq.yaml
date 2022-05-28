@@ -18,14 +18,15 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30
   hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.0993 cd=0.1986;\n\ntarget
   lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu
   burst[orbital=1], attack:1, skill[orbital=1], attack:2;\namber burst;\nwait 60;\nsucrose
-  attack, skill;\nhutao skill, attack:1, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, burst;\nsucrose attack:2,
-  skill;\nxingqiu attack:2;\n\nxingqiu burst[orbital=1], attack:1, skill[orbital=1],
-  attack:2;\namber burst;\nwait 60;\nsucrose attack, skill;\nhutao attack,skill, attack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge;\nsucrose attack:4,dash,attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack, skill;\nhutao skill, attack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, burst;\nsucrose attack:2, skill;\nxingqiu attack:2;\n\nxingqiu burst[orbital=1],
+  attack:1, skill[orbital=1], attack:2;\namber burst;\nwait 60;\nsucrose attack, skill;\nhutao
+  attack,skill, attack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
+  jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
+  jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge;\nsucrose
+  attack:4,dash,attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hu Tao VV Vape with Sucrose instead of Kazuha.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -65,7 +66,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42281.05155930682
+dps: 44259.67365083942
 mode: sl
 duration: 188.99999999999537
 target_count: 1

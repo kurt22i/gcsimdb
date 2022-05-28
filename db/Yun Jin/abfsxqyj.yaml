@@ -1,0 +1,87 @@
+author: Monte#6857
+config: |+
+  albedo char lvl=90/90 cons=0 talent=9,9,9;
+  albedo add weapon="cinnabarspindle" refine=5 lvl=90/90;
+  albedo add set="huskofopulentdreams" count=4;
+  albedo add stats def%=0.8310 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 geo%=0.4660;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="thestringless" refine=3 lvl=90/90;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats hp=4780 atk=311 electro%=0.466 atk%=0.466 cr=0.311;
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3857 em=39.64 cr=0.2979 cd=0.662;
+
+  yunjin char lvl=90/90 cons=6 talent=9,9,9;
+  yunjin add weapon="crescentpike" refine=5 lvl=90/90;
+  yunjin add set="echoesofanoffering" count=4;
+  yunjin add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 phys%=0.5830;
+
+  options swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;
+  energy every interval=480,720 amount=1;
+  target lvl=100 resist=0.1;
+
+  active albedo;
+
+  albedo skill, attack, burst;
+  xingqiu skill,burst,attack;
+  fischl attack, skill;
+  yunjin attack,skill,attack,burst,attack:4,dash,attack:4,dash,attack:4, dash, attack:4;
+  fischl attack, burst;
+  yunjin attack,skill,attack:4,dash,attack:4,dash,attack:4;
+
+  restart;
+
+
+
+
+
+
+description: Pikejin Taser without Zhongli.
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
+team:
+- name: albedo
+  con: 0
+  weapon: cinnabarspindle
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.3857
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yunjin
+  con: 6
+  weapon: crescentpike
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 37314.10892280756
+mode: sl
+duration: 100.9999999999993
+target_count: 1
+viewer_key: Z9O6JX3zRtgOk3RhoIzGa

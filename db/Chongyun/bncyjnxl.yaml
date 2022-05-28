@@ -1,0 +1,94 @@
+author: Juampi65#5084
+config: |+
+  bennett char lvl=90/90 cons=5 talent=9,9,9;
+  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
+  bennett add set="noblesseoblige" count=4;
+  bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.1488 er=0.6833 em=39.64 cr=0.6420 cd=0.7944 pyro%=0.4660;
+
+  xiangling char lvl=90/90 cons=6 talent=9,9,9;
+  xiangling add weapon="thecatch" refine=5 lvl=90/90;
+  xiangling add set="emblemofseveredfate" count=4;
+  xiangling add stats def%=0.1240 def=39.36 hp=5290 hp%=0.09920 atk=344.1 atk%=0.2480 er=0.6282 em=39.64 cr=0.6089 cd=0.7944 pyro%=0.4660;
+
+  jean char lvl=90/90 cons=0 talent=9,9,9;
+  jean add weapon="favoniussword" refine=3 lvl=90/90;
+  jean add set="viridescentvenerer" count=4;
+  jean add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.9588 em=532.6 cr=0.3310 cd=0.1324;
+
+  chongyun char lvl=90/90 cons=6 talent=9,9,9;
+  chongyun add weapon="serpentspine" refine=1 lvl=90/90;
+  chongyun add set="blizzardstrayer" count=2;
+  chongyun add set="gladiatorsfinale" count=2;
+  chongyun add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.1102 em=79.28 cr=0.3972 cd=1.284 cryo%=0.4660;
+
+  options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;
+
+  target lvl=100 resist=0.1;
+  #target lvl=100 resist=0.1;
+  #target lvl=100 resist=0.1;
+  #target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
+
+  active bennett;
+
+  chongyun skill;
+  jean burst, skill;
+  bennett burst, skill;
+  xiangling skill, burst;
+  chongyun burst, skill, attack:4,dash ;
+
+  bennett skill, attack:1;
+
+  jean skill;
+
+  chongyun attack:4, dash;
+
+  xiangling skill, charge, charge,attack:2, charge;
+
+  restart;
+
+
+description: Chongyun Melt, good for breaking shields.
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
+team:
+- name: bennett
+  con: 5
+  weapon: thealleyflash
+  refine: 1
+  er: 0.6833
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: chongyun
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.9588
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 24972.5327126225
+mode: sl
+duration: 105.99999999999856
+target_count: 1
+viewer_key: MgTpqhYclVetlU30hdGB4

@@ -1,6 +1,6 @@
 author: Rare Possum#0511 and danii#8748
 config: |+
-  options debug=true iteration=1000 duration=192 workers=30 mode=sl swap_delay=12;
+  options debug=true iteration=1000 duration=173 workers=30 mode=sl swap_delay=12;
 
   ganyu char lvl=90/90 cons=0 talent=9,9,9;
   ganyu add weapon="prototypecrescent" refine=5 lvl=90/90;
@@ -31,7 +31,7 @@ config: |+
   target lvl=100 resist=.1;
   energy every interval=480,720 amount=1;
 
-  zhongli skill[hold=1];
+  zhongli skill[hold=1], dash;
   shenhe skill, burst;
   kazuha skill[hold=1], high_plunge, burst;
   ganyu
@@ -45,6 +45,9 @@ config: |+
       ;
 
   restart;
+
+
+
 
 description: Mono-Cryo Ganyu.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
@@ -85,8 +88,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46657.29629745441
+dps: 47023.63715304712
 mode: sl
-duration: 192.00000000000017
+duration: 173.0000000000013
 target_count: 1
 viewer_key: flwTZ-R01rgxJYyGsz35L

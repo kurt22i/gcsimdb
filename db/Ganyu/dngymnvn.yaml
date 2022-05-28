@@ -1,6 +1,6 @@
 author: Charliex3000#9403 and Rare Possum#0511
 config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=1000
-  duration=99 workers=30 mode=sl;\n\ndiona char lvl=90/90 cons=6 talent=9,9,9; \ndiona
+  duration=98 workers=30 mode=sl;\n\ndiona char lvl=90/90 cons=6 talent=9,9,9; \ndiona
   add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ndiona add set=\"tenacityofthemillelith\"
   count=5;\ndiona add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\ndiona
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
@@ -18,11 +18,11 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
   cd=0.662;\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\nactive
   diona;\n#-------------------------------------------\n\ndiona burst, skill[hold=1];\nganyu
-  skill, burst[radius=2];\nventi skill, burst;\nmona burst, attack:2, skill;\nganyu
+  skill, burst[radius=2];\nventi skill, burst;\nmona skill, burst, attack;\nganyu
   aim[weakspot=1], aim,attack;\nventi skill,attack;\nganyu aim[weakspot=1],attack;\nwait
   1;\ndiona attack;\nwait 16;\ndiona skill[hold=1];\nganyu skill, burst[radius=2];\nventi
-  skill, burst;\nmona burst, attack, skill;\nganyu aim[weakspot=1], aim, attack;\nventi
-  skill,attack;\nganyu aim[weakspot=1], attack;\nwait 3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill, burst;\nmona skill, burst, attack;\nganyu aim[weakspot=1], aim, attack;\nventi
+  skill,attack;\nganyu aim[weakspot=1, travel=0], attack;\nwait 3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: The traditional Morgana team.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -62,8 +62,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 37614.78887003799
+dps: 38138.35616224333
 mode: sl
-duration: 99.0000000000003
+duration: 97.9999999999992
 target_count: 1
 viewer_key: 8OOIkLjj4d0P4cFRwRQk6

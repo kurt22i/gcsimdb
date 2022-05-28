@@ -41,7 +41,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30
   attack;\nbennett burst, attack, skill;\nxiangling attack, burst, attack, skill;\nxingqiu
   attack, skill[orbital=1], attack:2;\nbennett attack, skill;\nraiden attack, burst,\n
   \      attack:4, dash, attack:4, skill, attack:4, dash, attack:3,\n       #in game
-  this is 3n4d, n3c. very very very easy combo.\n       attack;\nbennett skill, attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  this is 3n4d, n3c. very very very easy combo.\n       attack;\nbennett skill, attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Xiangling Overvape with optimal supports. Optimized rotation.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 70210.88975140906
+dps: 70222.96597271011
 mode: sl
 duration: 105.99999999999856
 target_count: 1

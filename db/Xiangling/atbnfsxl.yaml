@@ -1,4 +1,4 @@
-author: Charliex3000#9403, mina#4448, vigne#5943 and solo#0180
+author: Charliex3000#9403, mina#4448, vigne#5943, solo#0180 and Kurt#5846
 config: |+
   options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=apl;
 
@@ -10,7 +10,7 @@ config: |+
   kamisatoayato add weapon="favoniussword" refine=3 lvl=90/90;
 
   xiangling char lvl=90/90 cons=6 talent=9,9,9;
-  xiangling add weapon="thecatch" refine=5 lvl=90/90;
+  xiangling add weapon="kitaincrossspear" refine=5 lvl=90/90;
 
   bennett char lvl=90/90 cons=6 talent=9,9,9;
   bennett add weapon="thealleyflash" refine=1 lvl=90/90;
@@ -96,6 +96,7 @@ config: |+
 
 
 
+
 description: Fischl overvape with Ayato.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -128,14 +129,14 @@ team:
     burst: 9
 - name: xiangling
   con: 6
-  weapon: thecatch
+  weapon: kitaincrossspear
   refine: 5
   er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 58093.763106043254
+dps: 58598.392898206315
 mode: apl
 duration: 102.00000000000051
 target_count: 1

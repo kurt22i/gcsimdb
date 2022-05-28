@@ -1,4 +1,4 @@
-author: solo#3333 and Hessey#9122
+author: solo#3333, Hessey#9122 and RoyM#2340
 config: |+
   options swap_delay=12 debug=true iteration=1000 duration=116 workers=30 mode=sl;
 
@@ -6,11 +6,11 @@ config: |+
 
   target lvl=100 resist=.10;
 
-  kaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9;
-  kaedeharakazuha add weapon="favoniussword" refine=3 lvl=90/90;
-  kaedeharakazuha add set="viridescentvenerer" count=4;
-  kaedeharakazuha add stats hp=4780 atk=311 em=187 em=187 em=187;
-  kaedeharakazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.2204 em=118.92 cr=0.3972 cd=0.1324;
+  kazuha char lvl=90/90 cons=0 talent=9,9,9;
+  kazuha add weapon="favoniussword" refine=3 lvl=90/90;
+  kazuha add set="viridescentvenerer" count=4;
+  kazuha add stats hp=4780 atk=311 em=187 em=187 em=187;
+  kazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.2204 em=118.92 cr=0.3972 cd=0.1324;
 
   tartaglia char lvl=90/90 cons=0 talent=9,9,9;
   tartaglia add weapon="theviridescenthunt" refine=1 lvl=90/90;
@@ -39,16 +39,29 @@ config: |+
   tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
   kazuha skill, high_plunge;
   bennett skill;
-  xiangling skill, attack:2;
+  xiangling attack,skill, attack:2;
   tartaglia aim;
   bennett skill;
   xiangling attack:2;
   kazuha skill, high_plunge;
-  bennett skill;
+  bennett attack,skill;
   xiangling attack:2;
   tartaglia aim;
 
   restart;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 description: International, scales well in multitarget.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
@@ -89,7 +102,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40044.44383193216
+dps: 40084.00018847013
 mode: sl
 duration: 115.99999999999967
 target_count: 1

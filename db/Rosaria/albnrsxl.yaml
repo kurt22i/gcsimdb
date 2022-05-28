@@ -1,0 +1,68 @@
+author: Xardas#5785
+config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
+  atk=311 atk%=0.466 pyro%=0.466 cr=0.311; #main\nbennett add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2755 em=39.64 cr=0.2979 cd=0.7944
+  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nxiangling char lvl=90/90 cons=6 talent=9,9,9;
+  \nxiangling add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ;
+  #main\nxiangling add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.3306 em=39.64 cr=0.2648 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\nrosaria char lvl=90/90
+  cons=6 talent=9,9,9; \nrosaria add weapon=\"deathmatch\" refine=1 lvl=90/90;\nrosaria
+  add set=\"lavawalker\" count=4;\nrosaria add stats hp=4780 atk=311 em=187 cryo%=0.466
+  cd=0.622; #main\nrosaria add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\naloy
+  char lvl=90/90 cons=0 talent=9,9,9; \naloy add weapon=\"thestringless\" refine=3
+  lvl=90/90;\naloy add set=\"lavawalker\" count=4;\naloy add stats hp=4780 atk=311
+  em=186 cryo%=0.466 cr=0.311; #main\naloy add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n##Default
+  Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
+  List\n\nactive aloy;\n\naloy skill;\nrosaria skill;\nbennett burst,skill;\nrosaria
+  burst, attack;\nxiangling burst,skill;\nrosaria skill, attack;\nbennett skill, attack;\nxiangling
+  attack:3;\naloy burst;\nbennett attack, skill;\nrosaria skill, attack:2;\nbennett
+  skill, attack;\nxiangling attack:3, dash, attack:3;\n\nrestart;\n\n\n\n"
+description: Reverse Melt Rosaria with Aloy.
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
+team:
+- name: aloy
+  con: 0
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.2755
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: favoniuslance
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 42790.92954801031
+mode: sl
+duration: 102.00000000000051
+target_count: 1
+viewer_key: mxgLC29XmU9OvHSBQZTaT

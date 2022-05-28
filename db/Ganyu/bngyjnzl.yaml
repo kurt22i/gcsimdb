@@ -18,10 +18,10 @@ config: "options debug=true iteration=1000 duration=86 workers=30 mode=sl swap_d
   def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648
   cd=0.5296 ;\ntarget lvl=100 resist=.1;\n\nenergy every interval=480,720 amount=1;\nactive
   zhongli;\n#-------------------------------------------\n\nganyu skill, burst;\nzhongli
-  skill[hold=1];\nbennett burst;\njean skill, burst;\nganyu aim[weakspot=1], skill,aim:4;\njean
-  skill, attack;\nbennett skill[hold=1];\n\n\nganyu skill, aim;\nzhongli skill[hold=1];\nbennett
-  burst;\njean skill, burst;\nganyu aim[weakspot=1], skill,aim:4;\njean skill, attack;\nbennett
-  skill[hold=1];\n\nrestart;\n\n\n\n\n\n\n\n"
+  skill[hold=1], dash, attack;\nbennett burst;\njean skill, burst;\nganyu aim[weakspot=1],
+  skill,aim:4;\njean skill, attack;\nbennett skill[hold=1];\n\n\nganyu skill, aim;\nzhongli
+  skill[hold=1], dash, attack;\nbennett burst;\njean skill, burst;\nganyu aim[weakspot=1],
+  skill,aim:4;\njean skill, attack;\nbennett skill[hold=1];\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Gunfire.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44743.140391680085
+dps: 45199.959352845646
 mode: sl
 duration: 85.99999999999883
 target_count: 1

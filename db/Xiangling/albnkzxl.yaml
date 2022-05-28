@@ -1,0 +1,63 @@
+author: Juampi65#5084
+config: "aloy char lvl=90/90 cons=0 talent=9,9,9;\naloy add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\naloy add set=\"emblemofseveredfate\" count=4;\naloy add stats
+  def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.4959 em=39.64
+  cr=0.5758 cd=0.5958 cryo%=0.4660;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
+  count=4;\nkazuha add stats def%=0.1240 def=39.36 hp=5288 hp%=0.1984 atk=344.1 atk%=0.09920
+  er=0.4408 em=679.9 cr=0.3310 cd=0.1324;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=4;\nbennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1
+  atk%=0.09920 er=0.8486 em=39.64 cr=0.6089 cd=0.7282 pyro%=0.4660;\n\nxiangling char
+  lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats def%=0.1240 def=39.36
+  hp=5288 hp%=0.09920 atk=344.1 atk%=0.2480 er=0.6282 em=39.64 cr=0.6089 cd=0.7944
+  pyro%=0.4660;\n\noptions swap_delay=12 debug=true iteration=1000 duration=106 workers=30
+  mode=sl;\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive
+  aloy;\n\naloy skill;\nkazuha skill, high_plunge, burst;\nbennett skill, burst; \nxiangling
+  skill, burst;\naloy burst;\naloy attack:4, dash;\naloy attack:4;\nkazuha skill,
+  high_plunge;\naloy attack:4;\nbennett skill;\nxiangling skill;\n\nrestart;\n\n\n"
+description: Melt Aloy.
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
+team:
+- name: aloy
+  con: 0
+  weapon: thestringless
+  refine: 3
+  er: 0.4959
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 23194.128902198532
+mode: sl
+duration: 105.99999999999856
+target_count: 1
+viewer_key: qbiGGb8J8oro156Q-cdMr

@@ -1,6 +1,6 @@
 author: Rare Possum#0511, Jhony75#8133 and danii#8748
 config: |+
-  options debug=true iteration=1000 duration=130 workers=30 mode=sl swap_delay=12;
+  options debug=true iteration=1000 duration=129 workers=30 mode=sl swap_delay=12;
 
   ganyu char lvl=90/90 cons=0 talent=9,9,9;
   ganyu add weapon="prototypecrescent" refine=5 lvl=90/90;
@@ -32,7 +32,7 @@ config: |+
 
   albedo skill;
   shenhe skill, burst;
-  zhongli skill[hold=1];
+  zhongli skill[hold=1], dash;
   ganyu
       aim[weakspot=1],
       skill, burst[radius=2],
@@ -42,6 +42,10 @@ config: |+
   ganyu aim[weakspot=1]:3, skill, aim[weakspot=1]:1;
 
   restart;
+
+
+
+
 
 description: Melt Ganyu but there's no melt, just crystallize (and it still works).
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
@@ -82,8 +86,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48549.03181352368
+dps: 48675.912102312
 mode: sl
-duration: 129.99999999999824
+duration: 129.00000000000193
 target_count: 1
 viewer_key: aev33C3EpuZ742kuozM5k

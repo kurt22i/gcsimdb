@@ -1,0 +1,71 @@
+author: Jhony75#8133
+config: "#Configs \ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\noptions
+  swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\n#Chars\nraidenshogun
+  char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
+  add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311; #main\nraidenshogun
+  add stats  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\n#bennett add set=\"noblesseoblige\"
+  count=4;\n#bennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311; #noblesse
+  oblige set\n#bennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.2204 em=79.28 cr=0.331 cd=0.662; #noblesse oblige\n\nbennett add
+  set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232 er=0.518 pyro%=0.348
+  cr=0.232; #instructor set\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.2648 cd=0.5296; #instructor set -
+  14 subs\n\n\njean char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"ironsting\"
+  refine=5 lvl=90/90;\njean add set=\"viridescentvenerer\" count=5;\njean add stats
+  hp=4780 atk=311 em=187 em=187 em=187; #main\njean add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=118.92 cr=0.2648 cd=0.1324;\n\n\nkujousara
+  char lvl=90/90 cons=6 talent=9,9,9; \nkujousara add weapon=\"mouunsmoon\" refine=1
+  lvl=90/90;\nkujousara add set=\"noblesseoblige\" count=5;\nkujousara add stats hp=4780
+  atk=311 er=0.518 electro%=0.466 cr=0.311; #main\nkujousara add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\n\n#Rotation\nactive raiden;\n\nraiden skill;\nbennett skill, burst;\njean
+  skill, burst;\nkujousara skill, burst;\nraiden burst, attack:4, dash, attack:4,
+  dash, attack:4, dash, attack:3, dash, attack:3;\nkujousara aim[weakspot=1];\njean
+  skill, attack;\nbennett skill, attack;\n\nrestart;\n"
+description: Sunfire Raiden with Sara.
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: ironsting
+  refine: 5
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sara
+  con: 6
+  weapon: mouunsmoon
+  refine: 1
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 44623.574170468375
+mode: sl
+duration: 105.99999999999856
+target_count: 1
+viewer_key: ylEb6es9DFts8z31mqL5e

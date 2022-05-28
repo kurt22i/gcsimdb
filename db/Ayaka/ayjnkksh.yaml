@@ -1,0 +1,65 @@
+author: Monte#6857
+config: "ayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\"
+  refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats
+  def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64
+  cr=0.3972 cd=1.284 cryo%=0.4660;\n\njean char lvl=90/90 cons=0 talent=9,9,9;\njean
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\njean add set=\"viridescentvenerer\"
+  count=5;\njean add stats hp=4780 atk=311 cr=0.311 anemo%=0.466 atk%=0.466;\njean
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.331 cd=0.662;\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9;\nkokomi
+  add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\"
+  count=4;\nkokomi add stats def%=0.1240 def=39.36 hp=5796 hp%=0.9620 atk=344.1 atk%=0.5952
+  er=0.1102 em=39.64 cr=0.06620 cd=0.1324 heal=0.3590 hydro%=0.4660;\n\nshenhe char
+  lvl=90/90 cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe
+  add set=\"noblesseoblige\" count=4;\nshenhe add stats hp=4780 atk=311 atk%=0.466
+  cr=0.311 cryo%=0.466 ;\nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;\n\noptions swap_delay=12
+  debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\nenergy every interval=480,720
+  amount=1; \ntarget lvl=100 resist=0.1;\n\nactive ayaka;\n\nayaka dash, attack, charge;\njean
+  skill, burst;\nshenhe skill, burst;\nkokomi skill;\nayaka skill, dash, burst, attack:2,
+  charge;\njean skill, attack:2;\nshenhe skill;\nayaka dash, attack, charge, attack,
+  charge, skill, dash, attack, charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
+description: Skill issue Ayaka Freeze.
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
+team:
+- name: ayaka
+  con: 0
+  weapon: amenomakageuchi
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kokomi
+  con: 0
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 43339.396884629634
+mode: sl
+duration: 103.99999999999928
+target_count: 1
+viewer_key: 0SlmR0_0LELcYqD3Mgjgg
