@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=98 workers=30 
   amount=1;\n\nzhongli skill[hold=1];\nrosaria skill,burst;\nkaeya skill,burst;\nningguang
   skill,burst,skill,charge;\nrosaria skill;\nkaeya skill;\nningguang attack:2,charge;\nrestart;\n"
 description: Geo + Cryo quickswap.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: kaeya
   con: 2
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30414.458702203152
+dps: 30440.634508300478
 mode: sl
 duration: 97.9999999999992
 target_count: 1

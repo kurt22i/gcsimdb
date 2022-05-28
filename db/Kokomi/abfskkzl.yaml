@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 mode=sl;\n
   skill;\nzhongli burst,skill[hold=1];\nalbedo skill,burst;\nfischl burst;\nkokomi
   burst,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2;\nrestart;\n\n\n\n\n\n"
 description: Geo Kokomi with Fischl.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: albedo
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38288.15817342464
+dps: 38221.883530299485
 mode: sl
 duration: 105.00000000000071
 target_count: 1

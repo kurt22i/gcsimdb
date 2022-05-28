@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 
   skill,attack:5,attack:5,attack:5,attack:3;\n\nzhongli skill[hold=1],burst;\nyae
   skill,skill,skill;\nalbedo skill,burst;\nyoimiya skill,attack:5,attack:5,attack:5,attack:3;\nrestart;\n"
 description: An interesting EM Yae team with Yoimiya and the Geo Bros.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: albedo
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 31641.32370572428
+dps: 31626.574672712595
 mode: sl
 duration: 91.999999999999
 target_count: 1

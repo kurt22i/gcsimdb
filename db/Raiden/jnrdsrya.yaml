@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=111 workers=30
   skill;\nyaemiko attack, skill,skill,skill;\njean skill,burst, attack;\nsara skill,aim;\nyaemiko
   burst,skill,skill,skill;\nwait 2;\njean skill, attack;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: A new popular Yae team that sacrifices damage for comfort and waifu.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: jean
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39261.351317494686
+dps: 39270.41550119854
 mode: sl
 duration: 111.00000000000108
 target_count: 1

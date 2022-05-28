@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30
   skill;\n\nventi skill, attack;\n\nayaka dash,attack:2,charge,attack:2,charge,attack:2,charge;\n\nrestart;\n"
 description: Ayaka Freeze with VV and Shenhe. Can also use Prototype Amber on Mona
   for healing; this reduces DPS by about 4k.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayaka
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50486.33040932837
+dps: 50749.46694661273
 mode: sl
 duration: 102.00000000000051
 target_count: 1

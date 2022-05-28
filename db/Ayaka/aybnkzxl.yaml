@@ -26,7 +26,7 @@ config: "#and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0
   attack;\nayaka skill, dash, attack, charge;\nbennett skill;\nxiangling attack:3;\nayaka
   dash, attack, charge;\nkazuha skill, high_plunge, attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Pure Melt Ayaka.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 48540.7512618656
+dps: 48194.920282362276
 mode: sl
 duration: 103.99999999999928
 target_count: 1

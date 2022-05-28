@@ -46,7 +46,7 @@ config: |+
 
 
 description: Taryato.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayato
   con: 0
@@ -84,7 +84,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38438.3384814814
+dps: 38503.00660515828
 mode: sl
 duration: 123.99999999999817
 target_count: 1

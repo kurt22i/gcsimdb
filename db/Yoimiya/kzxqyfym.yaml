@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=88 workers=30 
   skill, high_plunge, attack;\nyoimiya skill,attack:18;\nkazuha skill, high_plunge,
   attack:2;\nwait 26;\nyanfei attack:2;\n\n\n\nrestart;\n\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: kazuha
   con: 0
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32977.260212248184
+dps: 32296.066329300982
 mode: sl
 duration: 87.99999999999878
 target_count: 1

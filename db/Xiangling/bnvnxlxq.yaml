@@ -24,7 +24,7 @@ config: "\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"the
   attack:2, skill,attack;\nventi skill,attack:2;\nxingqiu attack:2;\nbennett attack:3,skill,attack:2;\nxiangling
   attack:3;\nxingqiu attack:2;\nventi skill,attack:2;\nxingqiu attack:2;\nrestart;\n\n"
 description: Venti National.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52117.37310045881
+dps: 52050.228862516284
 mode: sl
 duration: 105.99999999999856
 target_count: 1

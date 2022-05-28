@@ -50,7 +50,7 @@ config: "#Configs \ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amo
   rainsword procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor
   buff\n\nxingqiu attack;\n\n#---------------\n\n\n"
 description: Sunfire Raiden.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -88,7 +88,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 55716.66721821183
+dps: 55772.94316610743
 mode: sl
 duration: 105.99999999999856
 target_count: 1

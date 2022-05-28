@@ -53,7 +53,7 @@ config: |+
 
 
 description: Melt Ayaka. Competative with her freeze teams when it works.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayaka
   con: 0
@@ -91,7 +91,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45341.94531842662
+dps: 45347.13235476619
 mode: sl
 duration: 109.99999999999949
 target_count: 1

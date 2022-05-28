@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=97 workers=30 mode=sl;\n\nra
   attack:4,dash, attack:2, skill[hold=1];\nraiden attack, burst,  attack:3, charge,
   attack:3, charge, attack:3, charge;\n\nrestart;\n\n"
 description: Eula/Beidou.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: beidou
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30656.71569475258
+dps: 30772.91776447715
 mode: sl
 duration: 96.99999999999865
 target_count: 1

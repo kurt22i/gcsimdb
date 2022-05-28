@@ -59,7 +59,7 @@ config: |+
 
 
 description: Pikeli.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: fischl
   con: 6
@@ -97,7 +97,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39585.90870712922
+dps: 39663.689635940624
 mode: sl
 duration: 100.9999999999993
 target_count: 1

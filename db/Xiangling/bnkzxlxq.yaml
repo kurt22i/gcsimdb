@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=127 workers=30
   attack:2,skill,high_plunge,attack,burst;\nbennett attack, skill, attack:2;\nxiangling
   attack:2;\nxingqiu attack:2;\nkazuha attack:3;\n\n\n\n\nrestart;\n\n\n\n\n\n\n"
 description: 'Kazuha National: Sucrose National with better grouping.'
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57669.0304337736
+dps: 57772.70321739194
 mode: sl
 duration: 126.9999999999982
 target_count: 1

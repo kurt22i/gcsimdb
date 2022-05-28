@@ -48,7 +48,7 @@ config: |
 
   restart;
 description: Yanfei with Rosaria.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -86,7 +86,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32058.73231153734
+dps: 32032.40647638616
 mode: sl
 duration: 108.00000000000088
 target_count: 1

@@ -21,7 +21,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   burst,attack;\nventi skill,burst;\nkokomi skill;\nayaka dash,attack,skill,burst;\nventi
   skill, attack;\nkokomi burst;\ndiona skill[hold=1];\nayaka dash,attack:2,charge,attack:2,charge,skill,dash,attack:2,charge;\nrestart;\n\n\n"
 description: Ayaka Freeze with both shields and heals.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayaka
   con: 0
@@ -59,7 +59,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30157.96339107419
+dps: 30190.454055079317
 mode: sl
 duration: 99.9999999999986
 target_count: 1

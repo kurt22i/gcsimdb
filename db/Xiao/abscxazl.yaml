@@ -25,7 +25,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=99 workers=30 
   low_plunge[collision=1],\njump, low_plunge[collision=1];\n\nsucrose skill, dash;\n\nxiao
   attack:4;\n\nrestart;\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: albedo
   con: 0
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41041.572558290114
+dps: 41038.67639229917
 mode: sl
 duration: 99.0000000000003
 target_count: 1

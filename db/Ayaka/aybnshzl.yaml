@@ -37,7 +37,7 @@ config: |+
 
 
 description: Mono-Cryo Ayaka with shielding and heals.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayaka
   con: 0
@@ -75,7 +75,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49306.185969355174
+dps: 49317.47710881249
 mode: sl
 duration: 102.99999999999858
 target_count: 1

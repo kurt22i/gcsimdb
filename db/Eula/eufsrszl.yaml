@@ -26,7 +26,7 @@ config: "eula char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspi
   burst,skill[hold=1],attack:4,dash,attack:4;\nrosaria skill;\neula attack:4,dash,attack:2;\nzhongli
   attack;\nrestart;\n\n\n"
 description: Eula.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: eula
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38807.98658074852
+dps: 38895.680916028105
 mode: sl
 duration: 90.00000000000215
 target_count: 1

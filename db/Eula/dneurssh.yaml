@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30
   burst,skill;\nrosaria skill,burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe
   skill,attack;\neula attack:2;\nrosaria skill;\neula attack:4;\n\nrestart;\n\n\n\n\n\n"
 description: Mono-Cryo Eula.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: diona
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38946.77859690992
+dps: 38930.73860329536
 mode: sl
 duration: 106.99999999999939
 target_count: 1

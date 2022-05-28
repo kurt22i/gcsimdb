@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   attack,charge;\nkeqing attack,charge;\nkeqing attack:4;\n\n\nkazuha skill,high_plunge;\nwait
   40;\nbennett skill;\nxiangling attack:3;\nbennett attack:3;\n    \nrestart;\n"
 description: Pyro Keqing.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38457.460544300164
+dps: 38542.97997078971
 mode: sl
 duration: 105.00000000000071
 target_count: 1

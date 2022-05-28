@@ -26,7 +26,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30
   attack, skill, attack;\nxiangling attack:3;\nkamisatoayaka dash, attack:2, skill,
   attack:3, charge;\n\nrestart;\n\n"
 description: Ayaka National.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 58181.70259161552
+dps: 58253.4797279544
 mode: sl
 duration: 105.99999999999856
 target_count: 1

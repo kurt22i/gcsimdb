@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=115 mode=sl;\n
   skill,attack;\nxiangling attack:2;\njean skill,attack:3;\nbennett skill;\nxiangling
   attack:2;\ntartaglia aim;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Childe Sunfire.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 35277.90547355229
+dps: 35237.99144894678
 mode: sl
 duration: 114.9999999999981
 target_count: 1

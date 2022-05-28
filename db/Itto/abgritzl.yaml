@@ -31,7 +31,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30
   jump;\nwait 10;\nalbedo skill;\n\nitto attack, burst, attack, skill, attack:2, charge:5,
   attack:4, charge:5, skill, charge, attack:2;\n"
 description: Itto mono-Geo.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: albedo
   con: 0
@@ -69,7 +69,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53784.367057968506
+dps: 53807.84186737295
 mode: sl
 duration: 102.00000000000051
 target_count: 1

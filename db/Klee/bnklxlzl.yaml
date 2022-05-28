@@ -42,7 +42,7 @@ config: "klee char lvl=90/90 cons=0 talent=9,9,9;\nklee add weapon=\"thewidsith\
   charge, \n\t                                  attack, charge, \n\t                                  attack;\nxiangling
   attack:3;\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -80,7 +80,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40003.35669628415
+dps: 40050.788827823526
 mode: sl
 duration: 94.9999999999991
 target_count: 1

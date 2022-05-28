@@ -43,7 +43,7 @@ config: |+
   restart;
 
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ganyu
   con: 0
@@ -81,7 +81,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 41251.45659540925
+dps: 41262.01360786644
 mode: sl
 duration: 111.99999999999807
 target_count: 1

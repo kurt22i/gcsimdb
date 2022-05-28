@@ -33,7 +33,7 @@ config: "#Enemies and Particles:\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 e
   skill;\nrosaria skill;\nraiden attack, burst, attack:5, attack:5, attack:4, skill,
   attack;\nbennett skill, attack;\nxiangling attack:3;\n\n\nrestart;\n\n"
 description: Raiden National without Xingqiu.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -71,7 +71,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50704.07860740826
+dps: 50741.57825292633
 mode: sl
 duration: 102.00000000000051
 target_count: 1

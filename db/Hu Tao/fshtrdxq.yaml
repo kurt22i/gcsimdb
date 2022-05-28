@@ -24,7 +24,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30
   jump,\n    attack:1, charge, burst;\nfischl attack, skill;\nraiden attack, burst,
   attack:3, charge, attack:3, charge, attack:2, charge, attack, charge;\nrestart;\n\n\n\n\n"
 description: Taoden.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: fischl
   con: 6
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47208.10452435419
+dps: 47236.11587512314
 mode: sl
 duration: 188.99999999999537
 target_count: 1

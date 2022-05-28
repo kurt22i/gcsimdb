@@ -25,7 +25,7 @@ config: "hurt every interval=0,1200 amount=0,3000; options swap_delay=12 debug=t
   +is_onfield;\nbeidou attack +is_onfield;\n\n\n\n\n\n"
 description: The ultimate comfort team, at the expense of some damage. Still does
   enough though.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: beidou
   con: 6
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 25173.761143423922
+dps: 25176.752070120412
 mode: apl
 duration: 90.00000000000215
 target_count: 1

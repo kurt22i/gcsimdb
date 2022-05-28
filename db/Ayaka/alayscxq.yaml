@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=114 workers=30
   attack, skill, attack;\naloy burst;\nayaka dash,attack:2,charge,\n      dash,attack:2,charge,\n
   \     dash,attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayaka with Aloy.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: aloy
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 33694.37596502253
+dps: 33700.965857738614
 mode: sl
 duration: 114.00000000000126
 target_count: 1

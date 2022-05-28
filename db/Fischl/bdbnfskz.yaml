@@ -33,7 +33,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
   attack:3,dash;\nkazuha attack:3;\n\nbeidou skill[counter=2],attack:2; # catch particle,
   counter depending on skill issue\nfischl attack;\n\nrestart;\n\n\n"
 description: Hyper Beidou.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: beidou
   con: 6
@@ -71,7 +71,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 43071.12092355792
+dps: 41456.42953077701
 mode: sl
 duration: 99.9999999999986
 target_count: 1

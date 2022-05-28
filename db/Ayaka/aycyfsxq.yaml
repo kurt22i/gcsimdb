@@ -26,7 +26,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30
   skill;\nayaka attack:2, charge, dash;\nayaka attack:2, charge, dash;\nayaka attack:2,
   charge;\n\nrestart;\n\n"
 description: Swift as lightning, cold as ice.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayaka
   con: 0
@@ -64,7 +64,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40737.55609590523
+dps: 40808.38162680139
 mode: sl
 duration: 108.00000000000088
 target_count: 1

@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30
   attack:3;\nbennett attack, skill, attack:2;\nxiangling attack:2;\nxingqiu attack:2;\nlisa
   attack:2,skill[hold=1];\nrestart;\n\n\n\n\n\n\n\n\n"
 description: Lisa National.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53961.79064893526
+dps: 53942.54954992582
 mode: sl
 duration: 126.00000000000189
 target_count: 1

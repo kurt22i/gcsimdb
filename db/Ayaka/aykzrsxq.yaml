@@ -22,7 +22,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=109 workers=30
   skill, dash, burst, dash, \n\tattack:3, charge, dash,\n\tattack:3, charge, dash,\n\tattack\n\t;\nkazuha
   skill, high_plunge, attack;\nayaka skill, attack:3, charge;\n\nrestart;\n\n"
 description: Ayaka Freeze with Xingqiu.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayaka
   con: 0
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 42546.72628949342
+dps: 41825.72521256024
 mode: sl
 duration: 108.99999999999856
 target_count: 1

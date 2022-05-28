@@ -41,7 +41,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\nsucrose
   attack, skill, attack, charge, attack, charge, attack:4;\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: fischl
   con: 6
@@ -79,7 +79,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51134.180300298154
+dps: 51116.10865460428
 mode: sl
 duration: 109.99999999999949
 target_count: 1

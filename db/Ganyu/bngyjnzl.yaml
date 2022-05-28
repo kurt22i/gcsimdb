@@ -23,7 +23,7 @@ config: "options debug=true iteration=1000 duration=86 workers=30 mode=sl swap_d
   burst;\njean skill, burst;\nganyu aim[weakspot=1], skill,aim:4;\njean skill, attack;\nbennett
   skill[hold=1];\n\nrestart;\n\n\n\n\n\n\n\n"
 description: Gunfire.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44693.1121518215
+dps: 44743.140391680085
 mode: sl
 duration: 85.99999999999883
 target_count: 1

@@ -27,7 +27,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   skill;\nkeqing attack, skill;\nxiangling attack;\nkeqing attack, charge;\nbennett
   attack;\n\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Keqing Vape. Sounds like a meme team, but the numbers say otherwise.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 53657.78320806966
+dps: 53640.37496280101
 mode: sl
 duration: 105.00000000000071
 target_count: 1

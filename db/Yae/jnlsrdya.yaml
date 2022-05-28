@@ -23,7 +23,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   burst;\nyaemiko attack, burst,skill,skill,skill, attack;\nwait 7;\njean attack,
   skill, attack;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n\n\n\n"
 description: ""
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: jean
   con: 0
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 32882.46036456012
+dps: 32890.07935905342
 mode: sl
 duration: 109.99999999999949
 target_count: 1

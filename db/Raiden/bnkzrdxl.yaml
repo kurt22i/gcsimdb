@@ -22,7 +22,7 @@ config: "options debug=true iteration=1000 duration=107 workers=30 swap_delay=12
   burst,skill;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nkazuha
   skill,high_plunge;\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n\n"
 description: OL Raiden. Why? Good question.
-hash: 2f018d6609352e2d0e1284bed106047a3e53bf78
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: bennett
   con: 6
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 49705.6053740406
+dps: 49495.72571833832
 mode: sl
 duration: 106.99999999999939
 target_count: 1
