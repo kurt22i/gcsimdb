@@ -20,9 +20,9 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   diona;\n#-------------------------------------------\n\ndiona burst, skill[hold=1];\nganyu
   skill, burst[radius=2];\nventi skill, burst;\nmona skill, burst, attack;\nganyu
   aim[weakspot=1], aim,attack;\nventi skill,attack;\nganyu aim[weakspot=1],attack;\nwait
-  1;\ndiona attack;\nwait 16;\ndiona skill[hold=1];\nganyu skill, burst[radius=2];\nventi
+  1;\ndiona attack;\nwait 3;\ndiona skill[hold=1];\nwait 12;\nganyu skill, burst[radius=2];\nventi
   skill, burst;\nmona skill, burst, attack;\nganyu aim[weakspot=1], aim, attack;\nventi
-  skill,attack;\nganyu aim[weakspot=1, travel=0], attack;\nwait 3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill,attack;\nganyu aim[weakspot=1, travel=0], attack;\nwait 3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: The traditional Morgana team.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -62,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 38138.35616224333
+dps: 38427.77801351298
 mode: sl
 duration: 97.9999999999992
 target_count: 1

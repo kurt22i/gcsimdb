@@ -20,7 +20,7 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\nenergy every interval=480,720 amount=1;\n\nzhongli attack:1, skill[hold=1],
   dash;\nbennett burst,skill;\nxiangling burst,skill;\nganyu skill,aim:6;\nbennett
-  skill, attack;\nxiangling attack:3;\nwait 12;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill, attack;\nxiangling attack:3;\nwait 12;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Melt Ganyu. 6 CAs per rotation; the last one is still a melt but doesn't
   get buffed by Bennett.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 50676.66085912905
+dps: 50679.88403973649
 mode: sl
 duration: 100.9999999999993
 target_count: 1

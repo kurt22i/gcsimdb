@@ -49,6 +49,7 @@ config: |+
 
 
 
+
 description: Mono-Cryo Ganyu.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -88,7 +89,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 47023.63715304712
+dps: 47024.48801714411
 mode: sl
 duration: 173.0000000000013
 target_count: 1

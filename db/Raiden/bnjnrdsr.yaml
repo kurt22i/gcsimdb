@@ -1,6 +1,6 @@
-author: Jhony75#8133
+author: Jhony75#8133 and RoyM#2340
 config: "#Configs \ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\noptions
-  swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\n#Chars\nraidenshogun
+  swap_delay=12 debug=true iteration=1000 duration=112 workers=30 mode=sl;\n\n#Chars\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311; #main\nraidenshogun
@@ -21,10 +21,10 @@ config: "#Configs \ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amo
   lvl=90/90;\nkujousara add set=\"noblesseoblige\" count=5;\nkujousara add stats hp=4780
   atk=311 er=0.518 electro%=0.466 cr=0.311; #main\nkujousara add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\n\n#Rotation\nactive raiden;\n\nraiden skill;\nbennett skill, burst;\njean
+  cd=0.7944;\n\n\n#Rotation\nactive raiden;\n\nraiden skill;\nbennett skill, burst,attack;\njean
   skill, burst;\nkujousara skill, burst;\nraiden burst, attack:4, dash, attack:4,
   dash, attack:4, dash, attack:3, dash, attack:3;\nkujousara aim[weakspot=1];\njean
-  skill, attack;\nbennett skill, attack;\n\nrestart;\n"
+  skill, attack;\nbennett skill, attack;\n\nrestart;\n\n\n\n"
 description: Sunfire Raiden with Sara.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -64,8 +64,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44623.574170468375
+dps: 44228.28119422055
 mode: sl
-duration: 105.99999999999856
+duration: 111.99999999999807
 target_count: 1
 viewer_key: ylEb6es9DFts8z31mqL5e

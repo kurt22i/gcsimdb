@@ -1,4 +1,4 @@
-author: RoyM#2340 and solo#0180
+author: RoyM#2340, solo#0180 and Connor#6000
 config: "keqing char lvl=90/90 cons=0 talent=9,9,9;\nkeqing add weapon=\"lionsroar\"
   refine=3 lvl=90/90;\nkeqing add set=\"thundersoother\" count=4;\nkeqing add stats
   hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466 ; #main\nkeqing add stats def%=0.124
@@ -16,13 +16,13 @@ config: "keqing char lvl=90/90 cons=0 talent=9,9,9;\nkeqing add weapon=\"lionsro
   count=4;\nxingqiu add stats hp=4780 atk=311 er=.518 cr=0.311 hydro%=0.466 ; #main\nxingqiu
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.331 cd=0.7944;\n\noptions swap_delay=12 debug=true iteration=1000
-  duration=104 workers=30 mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  duration=300 workers=30 mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
   amount=1;\n\nactive fischl;\nfischl skill;\nxingqiu burst, attack;\nkazuha burst,
   attack, skill, high_plunge, attack;\nkeqing skill, burst,skill,\n       attack,charge,\n
   \      attack,charge,\n       attack,charge,\n       attack,charge;\n       \nkazuha
   attack, skill, high_plunge;\nfischl attack, burst;\nxingqiu attack, skill,attack:2;\nkeqing
   skill, skill,\n       attack,charge,\n       attack,charge,\n       attack,charge,\n
-  \      attack,charge;\nkazuha skill, high_plunge, attack:4;\nfischl attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  \      attack,charge;\nkazuha skill, high_plunge, attack:4;\nfischl attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Keqing Taser.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -62,8 +62,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45330.255792908705
+dps: 45890.652568181395
 mode: sl
-duration: 103.99999999999928
+duration: 300.0000000000056
 target_count: 1
 viewer_key: xbUBjgFxXCEZkv75FTtIZ

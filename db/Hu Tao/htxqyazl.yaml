@@ -28,15 +28,15 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   em=39.64 cr=0.331 cd=0.7944;\n\n#Enemies and Particles:\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\n\n#Action List:\n\nactive yae;\nyae skill:3;\nxingqiu
   skill[orbital=1], burst[orbital=1], attack;\nzhongli attack, skill[hold=1], attack;\nhutao
-  skill,\n\tattack:1, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge,
-  jump,\n\tattack:2, charge, dash,\n\tattack:2, charge, jump,\n\tattack:2, charge,
-  dash,\n\tattack:2, charge, jump,\n\tattack:2, charge\n\t;\nxingqiu attack:2, dash,
+  skill,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
+  jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
+  jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge\n\t;\nyae
   attack:2;\nzhongli attack:4;\nxingqiu attack:2;\n\nyae skill:3, attack;\nxingqiu
   skill[orbital=1], burst[orbital=1], attack;\nzhongli attack, skill[hold=1], attack;\nhutao
-  skill,\n\tattack:2, charge, dash,\n\tattack:1, charge, jump,\n\tattack:2, charge,
-  jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, dash,\n\tattack:2, charge,
-  jump,\n\tattack:2, charge, jump,\n\tattack:2, charge\n\t;\n\nxingqiu attack:2, dash,
-  attack:2;\nzhongli attack:4;\nxingqiu attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
+  jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
+  jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge\n\t;\n\nyae
+  attack:2;\nzhongli attack:4;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hu Tao with Yae and shielding.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -76,7 +76,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 44149.23254987327
+dps: 46254.41802538663
 mode: sl
 duration: 105.00000000000071
 target_count: 1

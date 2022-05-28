@@ -1,53 +1,26 @@
-author: Juampi65#5084
-config: |+
-  ayaka char lvl=90/90 cons=0 talent=9,9,9;
-  ayaka add weapon="amenomakageuchi" refine=5 lvl=90/90;
-  ayaka add set="blizzardstrayer" count=4;
-  ayaka add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.3972 cd=1.284 cryo%=0.4660;
-
-  shenhe char lvl=90/90 cons=0 talent=9,9,9;
-  shenhe add weapon="thecatch" refine=5 lvl=90/90;
-  shenhe add set="noblesseoblige" count=4;
-  shenhe add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=476.4 atk%=0.9620 er=0.2204 em=39.64 cr=0.4434 cd=0.1324 cryo%=0.4660;
-
-  jean char lvl=90/90 cons=0 talent=9,9,9;
-  jean add weapon="amenomakageuchi" refine=5 lvl=90/90;
-  jean add set="viridescentvenerer" count=4;
-  jean add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.2204 em=39.64 cr=0.6420 cd=0.7944 anemo%=0.4660;
-
-  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
-  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
-  xingqiu add set="gladiatorsfinale" count=2;
-  xingqiu add set="heartofdepth" count=2;
-  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
-
-  options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;
-
-  target lvl=100 resist=0.1;
-  #target lvl=100 resist=0.1;
-  #target lvl=100 resist=0.1;
-  #target lvl=100 resist=0.1;
-  energy every interval=480,720 amount=1;
-
-  active ayaka;
-
-  ayaka dash, skill, charge;
-  jean skill, burst;
-  shenhe skill, burst;
-  xingqiu skill[orbital=1], burst[orbital=1];
-  ayaka burst, attack:4, dash, skill, charge ;
-  shenhe skill;
-  ayaka attack:4, dash, attack:4, dash ;
-  xingqiu skill[orbital=1];
-  ayaka attack:4, dash, attack:4, dash ;
-  shenhe skill;
-  jean skill, attack:1;
-  ayaka attack:4, dash, attack:4, dash;
-  ayaka attack:4, dash, attack:4, dash;
-
-  restart;
-
-
+author: Juampi65#5084 and RoyM#2340
+config: "options swap_delay=12 debug=true iteration=1000 duration=115 workers=30 mode=sl;\n\njean
+  char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\njean add set=\"viridescentvenerer\" count=4;\njean add stats hp=4780
+  atk=311 atk%=0.466 anemo%=0.466 cr=0.311; #main\njean add stats hp%=0.0992 hp=507.88
+  atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.662 er=0.2204
+  ;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
+  stats hp=4780 atk%=0.466 atk=311 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\"
+  refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats
+  hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220; #main\nayaka add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
+  cd=0.662;\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats
+  hp=4780 atk=311 atk%=0.466 atk%=0.466 cr=0.311; #main\nshenhe add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.2204 em=39.64 cr=0.331
+  cd=0.5296;\n\nenergy every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nactive
+  ayaka;\nayaka dash,attack,skill;\nshenhe burst,skill;\nxingqiu skill,burst,attack;\njean
+  attack,skill,attack,burst,attack;\nayaka dash,attack:2,skill,attack,burst;\nshenhe
+  attack,skill;\njean attack,skill;\nayaka dash,attack:3,charge,\n      dash,attack:3,charge,\n
+  \     dash,attack:2;\njean skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Jean.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -62,8 +35,8 @@ team:
     burst: 9
 - name: jean
   con: 0
-  weapon: amenomakageuchi
-  refine: 5
+  weapon: favoniussword
+  refine: 3
   er: 0.2204
   talents:
     attack: 9
@@ -71,8 +44,8 @@ team:
     burst: 9
 - name: shenhe
   con: 0
-  weapon: thecatch
-  refine: 5
+  weapon: favoniuslance
+  refine: 3
   er: 0.2204
   talents:
     attack: 9
@@ -87,8 +60,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 24889.751296042217
+dps: 41586.604553460245
 mode: sl
-duration: 105.99999999999856
+duration: 114.9999999999981
 target_count: 1
 viewer_key: _8Y-EVilsUIPvPc9dJaWp
