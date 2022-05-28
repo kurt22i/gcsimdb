@@ -1,6 +1,6 @@
 author: RoyM#2340 and Jhony75#8133
 config: "options debug=true iteration=1000 duration=102 mode=sl swap_delay=12;\n\n#Character
-  builds:\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\"
+  builds:\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\"
   refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=5;\nxingqiu add
   stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
@@ -18,9 +18,8 @@ config: "options debug=true iteration=1000 duration=102 mode=sl swap_delay=12;\n
   attack:2,dash,\n        attack:2,dash,\n        attack:2,dash,\n        attack:2,dash,\n
   \       attack,skill,attack:2,\n        attack:2,dash,\n        attack:2;\nbeidou
   skill,attack;\nfischl burst;\nxingqiu attack:2,dash,\n        attack:2,dash,\n        attack:2,dash,\n
-  \       attack:2,dash,\n        attack:2,dash,\n        attack:2;\nbeidou attack,skill;\nxingqiu
-  attack:2,dash,\n        attack:2,dash,\n        attack:2,dash,\n        attack:2,dash,\n
-  \       attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  \       attack:2,dash,\n        attack:2;\nbeidou attack,skill;\nxingqiu attack:2,dash,\n
+  \       attack:2,dash,\n        attack:2,dash,\n        attack:2,dash,\n        attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: The 4* Taser core without Sucrose.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
@@ -51,7 +50,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 30618.61694260795
+dps: 31074.868596395
 mode: sl
 duration: 102.00000000000051
 target_count: 1
