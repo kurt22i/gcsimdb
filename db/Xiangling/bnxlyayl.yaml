@@ -1,0 +1,81 @@
+author: Lettuce Hunt#5806
+config: "options swap_delay=12 debug=true iteration=1000 duration=96 workers=30 mode=sl;
+  \n\n#Character Builds:\nyae char lvl=90/90 cons=0 talent=9,9,9;\nyae add weapon=\"solarpearl\"
+  refine=1 lvl=90/90;\nyae add set=\"tenacityofthemillelith\" count=5;\nyae add stats
+  hp=4780 atk=311 em=187 electro%=0.466 cd=0.622 ; #main\nyae add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.2204 em=39.84 cr=0.331
+  cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\n#yelan add weapon=\"thestringless\" refine=3 lvl=90/90;\n#yelan add
+  set=\"emblemofseveredfate\" count=4;\nyelan add set=\"noblesseoblige\" count=4;\nyelan
+  add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats
+  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
+  hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3310
+  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\n#bennett add set=\"instructor\" count=4;\n#bennett add stats hp=3571
+  atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\n#bennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.1986 cd=0.662;\nbennett
+  add set=\"crimsonwitchofflames\" count=4;\n#bennett add set=\"noblesseoblige\" count=4;\nbennett
+  add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  cr=0.331 cd=0.7944;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n#Action List:\nactive yae;\n\nxiangling skill;\nyae
+  attack, skill:3, attack;\nyelan burst, attack;\nbennett burst, attack, skill;\nyelan
+  attack, skill;\nbennett attack, skill;\nxiangling attack, burst, attack:2, skill;\nbennett
+  attack, skill, attack:2;\nxiangling attack;\nyae burst, attack, skill, attack;\nwait
+  7;\nyelan attack, skill;\nyae attack, skill:2, attack;\nbennett skill, attack;\nxiangling
+  attack;\n\n#--2, no yae burst\n\nxiangling skill;\nyelan aim, burst, attack;\nbennett
+  burst, attack, skill;\nyelan attack, skill;\nxiangling attack, burst, attack;\nyae
+  skill, attack, skill, attack, skill, attack;\nxiangling attack, skill;\nbennett
+  attack, skill, attack:2;\nxiangling attack;\nbennett attack, skill;\nyelan attack,
+  skill, attack;\nbennett skill;\nyelan aim;\nbennett attack, skill;\nyelan aim;\nxiangling
+  attack:2;\n\nrestart;\n\n"
+description: ""
+hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yaemiko
+  con: 0
+  weapon: solarpearl
+  refine: 1
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 53098.39854319902
+mode: sl
+duration: 96.00000000000009
+target_count: 1
+viewer_key: roAabYw18-yR9wBdkWoFG

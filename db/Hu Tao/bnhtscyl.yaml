@@ -1,0 +1,69 @@
+author: Johanz3#7076
+config: "hutao char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
+  stats hp=4780 atk=311 em=186.5 cd=0.622 pyro%=0.466 ;\nhutao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
+  cd=0.662; \t\t\t\t\t\t\t\t\t\t\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan
+  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\"
+  count=4;\nyelan add stats def%=0.1240 def=39.36 hp=5288 hp%=0.5652 atk=344.1 atk%=0.09920
+  er=0.4408 em=39.64 cr=0.5427 cd=0.7282 hydro%=0.4660;\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nsucrose
+  char lvl=90/90 cons=6 talent=9,9,9; \nsucrose add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
+  stats hp=4780 atk=311 em=559.5 ; \nsucrose add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=118.92 cr=0.331 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944
+  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\noptions swap_delay=12
+  debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\n\nactive yelan;\n\nyelan skill, burst, attack:2;\nbennett
+  burst, skill;\nsucrose attack, skill, attack;\nhutao skill,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge;\nbennett skill, attack:2;\nsucrose
+  attack:2, skill;\nbennett skill, attack:2;\n\nrestart;\n\n\n\n\n"
+description: VV Tao with Yelan.
+hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: hutao
+  con: 0
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 47148.6150499903
+mode: sl
+duration: 102.99999999999858
+target_count: 1
+viewer_key: cqDlKaGIqMijz5rZpWaHn

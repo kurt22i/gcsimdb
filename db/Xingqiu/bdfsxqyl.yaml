@@ -1,0 +1,72 @@
+author: Lettuce Hunt#5806
+config: "options debug=true iteration=1000 duration=100 mode=sl;\n\n#Character builds:\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\n#xingqiu
+  add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu add set=\"noblesseoblige\"
+  count=5;\n#xingqiu add set=\"emblemofseveredfate\" count=5;\nxingqiu add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"thestringless\" refine=3
+  lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\n#yelan add set=\"noblesseoblige\"
+  count=4;\nyelan add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.331 cd=0.7944 er=0.2204 ;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
+  count=4;\nfischl add stats hp=4780 atk=311 cr=0.311 electro%=0.466 atk%=0.466;\nfischl
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;\nbeidou
+  add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\n#beidou add
+  set=\"emblemofseveredfate\" count=5;\nbeidou add set=\"thunderingfury\" count=2;\nbeidou
+  add set=\"noblesseoblige\" count=2;\nbeidou add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cd=0.622 ; #main\nbeidou add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\t\t\t\t\n#Enemies
+  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
+  List:\nactive fischl;\nfischl skill;\nxingqiu burst, attack:2;\nyelan attack, skill,
+  attack, burst;\nbeidou attack, skill[counter=2], attack, burst, attack;\nxingqiu
+  skill, dash, attack, jump, attack:2, dash, attack:2;\nfischl attack:3, burst;\nbeidou
+  attack, skill[counter=2], attack:2;\nyelan attack, skill;\nxingqiu attack:2, jump,
+  attack, dash,\n        attack:2, jump, \n        attack:2, jump,\n        attack:2;\nbeidou
+  attack:2, skill[counter=2];\nyelan aim;\nfischl attack:2, dash, attack:4;\n\nrestart;\n\n\n\n"
+description: ""
+hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+team:
+- name: beidou
+  con: 6
+  weapon: serpentspine
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: alleyhunter
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: lionsroar
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: thestringless
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 53758.193319954364
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: cTePU54jU5ZKv7ZHPNkGM

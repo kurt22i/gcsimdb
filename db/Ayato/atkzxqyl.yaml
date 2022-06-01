@@ -1,0 +1,67 @@
+author: Buki#7742
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\t\t\t\t\t\t\t\t\t\t\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5
+  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
+  atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ;\nxingqiu add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" lvl=90/90
+  refine=3;\t\nyelan add set=\"emblemofseveredfate\" count=4;\t\t\t\t\t\t\t\t\t\t\nyelan
+  add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311;\nyelan add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\t\t\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
+  stats hp=4780 atk=311 em=187 em=187 em=187;\nkazuha add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=118.92 cr=0.2648 cd=0.1324;\n\nayato
+  char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"theblacksword\" refine=1
+  lvl=90/90;\nayato add set =\"echoesofanoffering\" count=4;\nayato add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nayato add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+  #sub\n\t\t\t\t\t\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#--------------------------------------------\n
+  active ayato;\n ayato burst;\n kazuha skill[hold=1], high_plunge, burst;\n xingqiu
+  skill, burst, attack;\n yelan skill, burst, attack;\n ayato skill, attack:15;\n
+  kazuha skill[hold=1], high_plunge, attack;\n yelan attack, skill, attack, aim[weakspot=1],
+  attack:2, attack:2;\n ayato skill, attack:11;\n restart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: ""
+hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+team:
+- name: ayato
+  con: 0
+  weapon: theblacksword
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: harbingerofdawn
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 45048.49430323476
+mode: sl
+duration: 105.00000000000071
+target_count: 1
+viewer_key: p2ylk8RvIvmu2P0C8uSs9
