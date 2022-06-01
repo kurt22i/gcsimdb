@@ -1,4 +1,4 @@
-author: Buki#7742
+author: Buki#7742 and Cory#0004
 config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\t\t\t\t\t\t\t\t\t\t\nxingqiu
   char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5
   lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
@@ -60,7 +60,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 45048.49430323476
+dps: 44957.628939152804
 mode: sl
 duration: 105.00000000000071
 target_count: 1

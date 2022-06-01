@@ -20,23 +20,23 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=126 workers=30
   raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
   physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nraiden skill;\nxingqiu
   burst, attack, skill, attack;\nyelan skill, attack, burst;\nkazuha attack, burst,
-  attack, skill, high_plunge, attack;\nraiden burst,attack:5, dash, attack:5, dash,
-  attack:4, skill, attack;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nxingqiu
+  attack, skill, high_plunge, attack;\nraiden burst, attack:4, dash, attack:4, skill,
+  attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nxingqiu
   burst, attack, skill, attack;\nyelan skill, attack, burst;\nkazuha attack, burst,
-  attack, skill, high_plunge, attack;\nraiden burst,attack:5, dash, attack:5, dash,
-  attack:4, skill, attack;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nxingqiu
+  attack, skill, high_plunge, attack;\nraiden burst, attack:4, dash, attack:4, skill,
+  attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nxingqiu
   burst, attack, skill, attack;\nyelan skill, attack, burst;\nkazuha attack, burst,
-  attack, skill, high_plunge, attack;\nraiden burst,attack:5, dash, attack:5, dash,
-  attack:4, skill, attack;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nxingqiu
+  attack, skill, high_plunge, attack;\nraiden burst, attack:4, dash, attack:4, skill,
+  attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nxingqiu
   burst, attack, skill, attack;\nyelan skill, attack, burst;\nkazuha attack, burst,
-  attack, skill, high_plunge, attack;\nraiden burst,attack:5, dash, attack:5, dash,
-  attack:4, skill, attack;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nxingqiu
+  attack, skill, high_plunge, attack;\nraiden burst, attack:4, dash, attack:4, skill,
+  attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nxingqiu
   burst, attack, skill, attack;\nyelan skill, attack, burst;\nkazuha attack, burst,
-  attack, skill, high_plunge, attack;\nraiden burst,attack:5, dash, attack:5, dash,
-  attack:4, skill, attack;\nkazuha attack, skill, high_plunge;\nyelan aim;\n\nxingqiu
+  attack, skill, high_plunge, attack;\nraiden burst, attack:4, dash, attack:4, skill,
+  attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge;\nyelan aim;\n\nxingqiu
   burst, attack, skill, attack;\nyelan skill, attack, burst;\nkazuha attack, burst,
-  attack, skill, high_plunge, attack;\nraiden burst,attack:5, dash, attack:5, dash,
-  attack:4, skill, attack;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nrestart;\n\n\n\n\n"
+  attack, skill, high_plunge, attack;\nraiden burst, attack:4, dash, attack:4, skill,
+  attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nrestart;\n\n\n\n\n"
 description: ""
 hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
 team:
@@ -76,7 +76,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 54399.100075699964
+dps: 55424.28831839272
 mode: sl
 duration: 126.00000000000189
 target_count: 1

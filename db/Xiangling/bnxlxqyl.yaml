@@ -20,10 +20,10 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30
   cr=0.331 cd=0.7944 er=0.2204 ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
   every interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\nxingqiu skill,
   dash, burst, attack;\nyelan skill, attack, burst, attack;\nbennett burst, attack,
-  skill;\nxiangling attack, burst, attack, skill;\nbennett attack, skill;\nxingqiu
-  attack:2;\nbennett attack, skill;\nyelan attack, skill;\nbennett attack, skill;\nxingqiu
-  attack:2;\nbennett attack, skill, attack:2, dash,\n        attack:2, skill,\n        attack:2,
-  dash, attack:2, skill;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill;\nxiangling attack, burst, skill;\nbennett attack, skill;\nxingqiu attack:2;\nbennett
+  attack, skill;\nyelan attack, skill;\nbennett attack, skill;\nxingqiu attack:2;\nbennett
+  attack, skill, attack:2, dash,\n        attack:2, skill,\n        attack:2, dash,
+  attack:2, skill;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yelan National, featuring DPS Bennett.
 hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
 team:
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 68695.44726186073
+dps: 69658.0441917793
 mode: sl
 duration: 105.99999999999856
 target_count: 1

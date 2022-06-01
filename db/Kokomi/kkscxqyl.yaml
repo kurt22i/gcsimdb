@@ -1,5 +1,5 @@
 author: imring#3781
-config: "options swap_delay=12 debug=true mode=sl iteration=1000 duration=106 workers=30;\n\nkokomi
+config: "options swap_delay=12 debug=true mode=sl iteration=1000 duration=103 workers=30;\n\nkokomi
   char lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"prototypeamber\" refine=5
   lvl=90/90;\nkokomi add set=\"oceanhuedclam\" count=4;\nkokomi add stats hp=4780
   atk=311 hp%=0.466 hydro%=0.466 heal=0.359; # main\nkokomi add stats def%=0.124 def=39.36
@@ -16,17 +16,17 @@ config: "options swap_delay=12 debug=true mode=sl iteration=1000 duration=106 wo
   refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
   stats hp=4780 atk=311 er=0.518 em=374; # main\nsucrose add stats def%=0.124 def=39.36
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.4408 em=158.56 cr=0.0662 cd=0.1324;\n\ntarget
-  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive kokomi;\n\nyelan
-  skill, aim, attack;\nkokomi skill;\nsucrose attack:2, skill,\n        attack:2,
-  burst;\nxingqiu skill, burst, attack:2;\nyelan burst, attack;\nkokomi burst,\n       attack:2,
+  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive kokomi;\n\nkokomi
+  skill;\nsucrose attack:2, skill,\n        attack:2, burst;\nxingqiu skill, burst,
+  attack:2;\nyelan burst, attack;\nkokomi burst,\n       attack:2, dash,\n       attack:2,
   dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n
   \      attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2,
-  dash,\n       attack:2, dash,\n       attack:2;\n       \n# ----------------------\n\nyelan
-  skill, aim, attack;\nkokomi skill;\nsucrose attack:2, skill,\n        attack:2;\nxingqiu
-  skill, burst, attack:2;\nyelan burst, attack;\nkokomi burst,\n       attack:2, dash,\n
+  dash,\n       attack:2;\nyelan skill, aim, attack;\n       \n# ----------------------\n\nkokomi
+  skill;\nsucrose attack:2, skill,\n        attack:2;\nxingqiu skill, burst, attack:2;\nyelan
+  burst, attack;\nkokomi burst,\n       attack:2, dash,\n       attack:2, dash,\n
   \      attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2,
   dash,\n       attack:2, dash,\n       attack:2, dash,\n       attack:2, dash,\n
-  \      attack:2, dash,\n       attack:2;\n\nrestart;\n\n\n"
+  \      attack:2;\nyelan skill, aim, attack;\n\nrestart;\n\n"
 description: Mono-Hydro with Sucrose.
 hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
 team:
@@ -66,8 +66,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 39188.25285031787
+dps: 40086.86354291552
 mode: sl
-duration: 105.99999999999856
+duration: 102.99999999999858
 target_count: 1
 viewer_key: bTRCQ6XuVJQACN0qlvNFk
