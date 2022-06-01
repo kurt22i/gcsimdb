@@ -52,10 +52,46 @@ config: "#Configs \ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amo
   attack:4, dash, attack:4, dash, attack:3, dash, attack, skill, attack;\n#15 yelansword
   procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor buff\n\n\n\n\n"
 description: Sunfire Raiden with Yelan.
-hash: ""
-team: []
-dps: 0
-mode: ""
-duration: 0
-target_count: 0
-viewer_key: ""
+hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: jean
+  con: 0
+  weapon: ironsting
+  refine: 5
+  er: 0.6612
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 54120.38670975939
+mode: sl
+duration: 105.99999999999856
+target_count: 1
+viewer_key: gT5jkmf-fJTqDqyH964ZW
