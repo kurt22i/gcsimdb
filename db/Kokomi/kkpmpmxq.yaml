@@ -1,20 +1,21 @@
 author: Xardas#5785, Lizz71#8986, Rare Possum#0511 and Lettuce Hunt#5806
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\ntarget
-  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nxingqiu char lvl=90/90
-  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
-  cr=0.311 hydro%=0.466;\nxingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\t\n\n\nkokomi char
-  lvl=90/90 cons=0 talent=9,9,9; \nkokomi add weapon=\"prototypeamber\" refine=5 lvl=90/90;\nkokomi
-  add set=\"oceanhuedclam\" count=5;\nkokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466
-  heal=0.359 ; #main\nkokomi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08
-  atk%=0.3968 er=0.4408 em=39.64 cr=0.0662 cd=0.1324;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\n\nactive
-  kokomi;\n\nkokomi skill;\nxingqiu burst[orbital=1], attack, skill[orbital=1], dash,\n
-  \                         attack, jump, attack:2, jump, \n                          attack,
-  jump, attack:2, jump;\nkokomi attack, burst, \n                  attack:2, jump,\n
-  \                 attack:2, dash, \n  attack:2, jump, attack:2, dash, \n  attack:2,
-  jump, \n  attack:2, jump, \n  attack:2, jump, attack:2, dash, \n  attack:2;\nxingqiu
-  attack:3, jump, attack:2, dash, attack:2, charge;\n\nwait 7;\n\nkokomi attack;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=apl;\n\n#-----------------------------------------------------\n\n\n#Character
+  builds:\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
+  stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466;\nxingqiu add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\t\n\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9; \nkokomi add weapon=\"prototypeamber\"
+  refine=5 lvl=90/90;\nkokomi add set=\"oceanhuedclam\" count=5;\nkokomi add stats
+  hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.359 ; #main\nkokomi add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.496 atk=33.08 atk%=0.2976 er=0.551 em=39.64 cr=0.0662
+  cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n#-----------------------------------------------------\n\n\n#Enemies
+  and particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n\n#-----------------------------------------------------\n\nactive
+  kokomi;\n#Action List:\nkokomi attack, skill, attack;\nxingqiu burst, attack;\nxingqiu
+  attack, skill, attack;\nkokomi attack, burst +if=.status.kokomiskill<120;\nkokomi
+  attack:2, jump +is_onfield +if=.stam<20&&.status.kokomiburst>1;\nkokomi attack:2,
+  dash +is_onfield +if=.stam>=20&&.status.kokomiburst>1;\n\nkokomi attack:2, jump
+  +is_onfield +if=.stam<20;\nkokomi attack:2, dash +is_onfield +if=.stam>=20;\nxingqiu
+  attack +is_onfield ;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Double Hydro + Double Paimon.
 hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
 team:
@@ -22,7 +23,7 @@ team:
   con: 0
   weapon: prototypeamber
   refine: 5
-  er: 0.4408
+  er: 0.551
   talents:
     attack: 9
     skill: 9
@@ -36,8 +37,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 24388.646151002155
-mode: sl
+dps: 24552.124897282247
+mode: apl
 duration: 105.00000000000071
 target_count: 1
 viewer_key: bnsn1oSWfGFJcRRR4Z1dU
