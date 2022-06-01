@@ -1,0 +1,73 @@
+author: Spring MsSteak#8744
+config: "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;\n\nhutao
+  char lvl=90/90 cons=0 talent=9,9,9 start_hp=1; \nhutao add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=5;\nhutao add
+  stats hp=4780 atk=311 em=187 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3972
+  cd=0.662;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\"
+  refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=5;\nyelan add stats
+  hp=4780 atk=311 hp%=0.466 cr=0.311 hydro%=0.466 ; #main\nyelan add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2979
+  cd=0.5958;\n\nkaeya char lvl=90/90 cons=2 talent=9,9,9; \nkaeya add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nkaeya add set=\"instructor\" count=4;\nkaeya add stats hp=4780
+  atk=311 atk%=0.348 cr=0.311  cryo%=0.348 ; #main\nkaeya add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.3972;\n\nrosaria
+  char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=5;\nrosaria add stats hp=4780
+  atk=311 atk%=0.466 cr=0.311 cryo%=0.466 ; #main\nrosaria add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n##Default
+  Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive
+  yelan;\n\nyelan burst, attack, skill, attack:2;\nrosaria skill, attack, burst;\nkaeya
+  skill, burst;\nhutao skill, attack:1, charge, jump,\n    attack:1, charge, jump,\n
+  \   attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge,
+  jump, attack, burst;\nrosaria skill, attack:2; \nkaeya skill;\n\nyelan burst, attack,
+  skill, attack:2;\nrosaria skill, attack, burst;\nkaeya skill, burst;\nhutao skill,
+  attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n
+  \   attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge,
+  jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump;\nrosaria skill,
+  attack:2;\nkaeya skill;\n\n\nrestart;\n\n\n\n\n\n\n"
+description: Vapemelt Tao with Yelan.
+hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+team:
+- name: hutao
+  con: 0
+  weapon: deathmatch
+  refine: 1
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kaeya
+  con: 2
+  weapon: favoniussword
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: rosaria
+  con: 6
+  weapon: favoniuslance
+  refine: 3
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.4408
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 41369.33678519402
+mode: sl
+duration: 108.00000000000088
+target_count: 1
+viewer_key: ZqjsIxz6GHgDmQUuyI_oH
