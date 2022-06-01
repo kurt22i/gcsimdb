@@ -1,34 +1,33 @@
 author: Ocram2012#6693
-config: "options swap_delay=12 debug=true iteration=1000 duration=113 workers=30 mode=sl;\n\nayato
-  char lvl=90/90 cons=0 talent=9,9,9; \nayato add weapon=\"favoniussword\" refine=3
+config: "options swap_delay=12 debug=true iteration=1000 duration=111 workers=30 mode=sl;\n\nayato
+  char lvl=90/90 cons=0 talent=9,9,9; \nayato add weapon=\"harbingerofdawn\" refine=5
   lvl=90/90;\nayato add set=\"noblesseoblige\" count=4;\nayato add stats hp=4780 atk=311
-  atk%=0.466 hydro%=0.466 cr=0.311; #main\nayato add stats hp%=0.0992 hp=507.88 atk%=0.1984
-  atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nraidenshogun
-  char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\nraidenshogun add set=\"tenacityofthemillelith\" count=4;\nraidenshogun
-  add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nraidenshogun
-  add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;
-  \nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=4;\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.2648 cd=0.7944; #subs\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;
-  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
-  count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=237.84 cr=0.0993 cd=0.1986; #subs\n\ntarget lvl=100 resist=0.1;\n\nenergy every
-  interval=480,720 amount=1;\n\nactive raiden;\n\nraiden skill;\nbennett burst;\nayato
-  burst[radius=2];\nxiangling burst, skill;\nraiden burst, attack:3, charge, attack:3,
-  charge, attack:3, charge, attack:2;\nayato skill, attack:11;\nbennett skill;\nxiangling
-  attack:3;\nrestart;\n\n"
+  er=0.5180 hydro%=0.466 cr=0.311; #main\nayato add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nraiden
+  char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nraiden add set=\"tenacityofthemillelith\" count=4;\nraiden add stats
+  hp=4780 atk=311.0 er=0.5180 cr=0.3110 electro%=0.4660;\nraiden add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\"
+  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
+  add stats hp=4780 atk=311.0 em=187.0 cr=0.3110 pyro%=0.4660;\nxiangling add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add
+  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett
+  add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=237.84
+  cr=0.0993 cd=0.1986;\n\ntarget lvl=100 resist=0.1;\n\nenergy every interval=480,720
+  amount=1;\n\nactive raiden;\nraiden skill;\nbennett skill, burst;\nayato attack,
+  burst[radius=2];\nbennett skill;\nxiangling burst, skill;\nraiden burst, attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:3;\nayato skill, attack:12;\n\nrestart;\n\n"
 description: Rayato.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
 - name: ayato
   con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
+  weapon: harbingerofdawn
+  refine: 5
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
@@ -55,13 +54,13 @@ team:
   con: 6
   weapon: thecatch
   refine: 5
-  er: 0.3306
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 43777.3052305893
+dps: 46608.70473757329
 mode: sl
-duration: 112.9999999999996
+duration: 111.00000000000108
 target_count: 1
 viewer_key: en3NA74YuALbpAvRqPkyd

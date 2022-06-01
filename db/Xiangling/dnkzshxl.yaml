@@ -1,0 +1,69 @@
+author: Juampi65#5084
+config: "shenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats
+  hp=4780 hp%=0 atk%=0.932 atk=311 def%=0 em=0 heal=0 phys%=0 er=0.518 cr=0 cryo%=0
+  cd=0;\nshenhe add stats def=39.36 def%=0.124 em=39.64 atk=33.08 hp=507.88 hp%= 0.0992
+  atk%=0.3968 er=0.3306 cr=0.3972 cd=0.1324 ;\n\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
+  count=4;\nkazuha add stats hp=4780 hp%=0 atk%=0 atk=311 def%=0 em=561 heal=0 phys%=0
+  er=0 cr=0 anemo%=0 cd=0;\nkazuha add stats def=39.36 def%=0.124 em=118.92 atk=33.08
+  hp=507.88 hp%= 0.0992 atk%=0.0992 er=0.551 cr=0.331 cd=0.1324 ;\n\ndiona char lvl=90/90
+  cons=6 talent=9,9,9;\ndiona add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ndiona
+  add set=\"emblemofseveredfate\" count=4;\ndiona add stats hp=4780 hp%=0 atk%=0 atk=311
+  def%=0 em=0 heal=0 phys%=0 er=0.518 cr=0.311 cryo%=0.466 cd=0;\ndiona add stats
+  def=39.36 def%=0.124 em=79.28 atk=33.08 hp=507.88 hp%= 0.0992 atk%=0.0992 er=0.1102
+  cr=0.331 cd=0.7944 ;\n\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;\nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add stats hp=4780 hp%=0 atk%=0.466 atk=311 def%=0 em=0 heal=0
+  phys%=0 er=0 cr=0.311 pyro%=0.466 cd=0;\nxiangling add stats def=39.36 def%=0.124
+  em=39.64 atk=33.08 hp=507.88 hp%= 0.0992 atk%=0.0992 er=0.6061 cr=0.2317 cd=0.5296
+  ;\n\t\t\t\t\noptions swap_delay=12 debug=true iteration=1000 duration=146 workers=30
+  mode=sl;\t\t\t\t\t\ntarget lvl=100 resist=.1;\t\t\t\t\t\nenergy every interval=480,720
+  amount=1;\t\t\t\t\t\n\nactive xiangling;\n\nxiangling skill;\nkazuha skill, high_plunge;\nshenhe
+  skill, burst;\ndiona  burst, skill, aim;\nxiangling burst;\nkazuha burst;\nxiangling
+  skill;\nshenhe skill;\nkazuha skill, high_plunge;\ndiona skill, aim, aim, aim, aim;\nxiangling
+  attack:4, dash, attack:4;\n\nrestart;\n\n\n"
+description: ""
+hash: 260bedd71516b06616f694e1d6f86046631a96c8
+team:
+- name: diona
+  con: 6
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: kazuha
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.551
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: shenhe
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiangling
+  con: 6
+  weapon: thecatch
+  refine: 5
+  er: 0.6061
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 23209.51937778041
+mode: sl
+duration: 145.99999999999898
+target_count: 1
+viewer_key: rg-orsqbBPcKc3KjXVYVM
