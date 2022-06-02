@@ -10,7 +10,6 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"io/fs"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -82,44 +81,14 @@ func run(skipDownload bool) error {
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
 
 	//loop through db folder; check hash
-	data, err := loadData("./db")
-	if err != nil {
-		return errors.Wrap(err, "")
-	}
+	data := loadData("./db")
 
 	//process
 	err = process(data, hash)
-	if err != nil {
-		return errors.Wrap(err, "")
-	}
 
-	// for i := range data {
-	// 	sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
-	// }
-
-	err = saveYaml(data, true)
-	//allow time to inspect the teams one last time
-	fmt.Print("\nPress 'Enter' to continue...")
-	bufio.NewReader(os.Stdin).ReadBytes('\n')
-
-	if upload || force {
-		//store on cloudflare kv
-		//err = uploadResults(data)
-		if err != nil {
-			return errors.Wrap(err, "")
-		}
-
-		//err = uploadIndex(data)
-		if err != nil {
-			return errors.Wrap(err, "")
-		}
-
-		//err = saveYaml(data, true)
-		if err != nil {
-			return errors.Wrap(err, "")
-		}
-	}
-
+	out, _ := json.Marshal(data)
+	//os.Remove(data[i].filepath)
+	os.WriteFile("results.json", out, 0755)
 	return nil
 }
 
@@ -462,36 +431,49 @@ type FloatResult struct {
 	Mean float64 `json:"mean"`
 	SD   float64 `json:"sd"`
 }
+type DBData struct {
+	Author      string  `json:"author"`
+	Description string  `json:"description"`
+	Hash        string  `json:"hash"`
+	Config      string  `json:"config"`
+	DPS         float64 `json:"dps"`
+	ViewerKey   string  `json:"viewer_key"`
+}
 
-func loadData(dir string) ([]pack, error) {
+var myClient = &http.Client{Timeout: 10 * time.Second}
+
+func getJson(url string, target interface{}) error {
+	r, err := myClient.Get(url)
+	if err != nil {
+		return err
+	}
+	defer r.Body.Close()
+
+	return json.NewDecoder(r.Body).Decode(target)
+}
+
+func loadData(dir string) []pack {
 	var data []pack
 
-	err := filepath.Walk(dir, func(path string, info fs.FileInfo, err error) error {
-		if err != nil {
-			return errors.Wrap(err, "")
-		}
-		//do nothing if is directory
-		if info.IsDir() || strings.Contains(path, ".gz") {
-			return nil
-		}
-		fmt.Printf("\tReading file: %v at %v\n", info.Name(), path)
-		file, err := os.ReadFile(path)
-		if err != nil {
-			return errors.Wrap(err, "")
-		}
+	var data2 []DBData
+	getJson("https://viewer.gcsim.workers.dev/gcsimdb", &data2)
+
+	for i := range data2 {
 		var d pack
-		err = yaml.Unmarshal(file, &d)
-		if err != nil {
-			return errors.Wrap(err, "")
-		}
-		d.filepath = path
-
+		d.Author = data2[i].Author
+		d.Description = data2[i].Description
+		d.Hash = data2[i].Hash
+		d.Config = changeConfig(data2[i].Config)
 		data = append(data, d)
+	}
 
-		return nil
-	})
+	return data
+}
 
-	return data, err
+func changeConfig(config string) string {
+	cfg := config
+	cfg = strings.Replace(cfg, "swap_delay=12", "", -1)
+	return cfg
 }
 
 var reIter = regexp.MustCompile(`iteration=(\d+)`)
@@ -543,17 +525,6 @@ func process(data []pack, latest string) error {
 		match := reMode.FindStringSubmatch(data[i].Config)
 		if match != nil {
 			data[i].Mode = match[1]
-		}
-
-		//overwrite yaml
-		out, err := yaml.Marshal(data[i])
-		if err != nil {
-			return errors.Wrap(err, "")
-		}
-		os.Remove(data[i].filepath)
-		err = os.WriteFile(data[i].filepath, out, 0755)
-		if err != nil {
-			return errors.Wrap(err, "")
 		}
 
 		//write gz
