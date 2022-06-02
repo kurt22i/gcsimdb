@@ -31,14 +31,36 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   skill,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
   jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
   jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge\n\t;\nyae
-  attack:2;\nzhongli attack:4;\nxingqiu attack:2;\n\nyae skill:3, attack;\nxingqiu
+  attack:1,skill;\nzhongli attack:4;\nxingqiu attack:2;\n\nyae skill, attack,skill,
+  attack,skill, attack;\nxingqiu skill[orbital=1], burst[orbital=1], attack;\nzhongli
+  attack, skill[hold=1], attack;\nhutao skill,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge\n\t;\n\nyae attack:1,skill;\nzhongli attack:4;\nxingqiu
+  attack:2;\n\n\nyae skill, attack,skill, attack,skill, attack;\nxingqiu skill[orbital=1],
+  burst[orbital=1], attack;\nzhongli attack, skill[hold=1], attack;\nhutao skill,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge\n\t;\n\nyae attack:1,skill;\nzhongli
+  attack:4;\nxingqiu attack:2;\n\nyae skill, attack,skill, attack,skill, attack;\nxingqiu
   skill[orbital=1], burst[orbital=1], attack;\nzhongli attack, skill[hold=1], attack;\nhutao
   skill,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
   jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge,
   jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge\n\t;\n\nyae
-  attack:2;\nzhongli attack:4;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack:1,skill;\nzhongli attack:4;\nxingqiu attack:2;\n\nyae skill, attack,skill,
+  attack,skill, attack;\nxingqiu skill[orbital=1], burst[orbital=1], attack;\nzhongli
+  attack, skill[hold=1], attack;\nhutao skill,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge\n\t;\n\nyae attack:1,skill;\nzhongli attack:4;\nxingqiu
+  attack:2;\n\nyae skill, attack,skill, attack,skill, attack;\nxingqiu skill[orbital=1],
+  burst[orbital=1], attack;\nzhongli attack, skill[hold=1], attack;\nhutao skill,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1,
+  charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge\n\t;\n\nyae attack:1,skill;\nzhongli
+  attack:4;\nxingqiu attack:2;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hu Tao with Yae and shielding.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
 - name: hutao
   con: 0
@@ -76,7 +98,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 46254.41802538663
+dps: 48340.99264881957
 mode: sl
 duration: 105.00000000000071
 target_count: 1

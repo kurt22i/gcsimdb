@@ -23,7 +23,7 @@ config: "options swap_delay=13 debug=true iteration=1000 duration=107 workers=30
   skill, attack, burst, attack;\nbennett burst, attack, skill;\nxiangling attack,
   burst, skill;\nbennett attack, skill;\nxingqiu attack:2;\nbennett attack, skill;\nyelan
   attack, skill;\nbennett attack, skill;\nxingqiu attack:2;\nbennett  attack,skill,
-  attack, dash,\n        attack:3, skill,\n        attack:2, charge, skill;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack, dash,\n        attack:3, skill,\n        attack:2, charge, skill;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yelan National, featuring DPS Bennett.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -63,7 +63,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 70630.71949085925
+dps: 70630.15788012817
 mode: sl
 duration: 106.99999999999939
 target_count: 1

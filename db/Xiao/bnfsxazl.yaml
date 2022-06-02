@@ -1,0 +1,126 @@
+author: rf#5773
+config: |+
+  options debug=true iteration=1000 duration=110 workers=30 mode=sl swap_delay=12;
+
+  energy every interval=480,720 amount=1;
+
+  target lvl=100 resist=0.1;
+
+  zhongli char lvl=90/90 cons=0 talent=9,9,9;
+  zhongli add weapon="favoniuslance" refine=3 lvl=90/90;
+  zhongli add set="tenacityofthemillelith" count=5;
+  zhongli add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ;
+  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  xiao char lvl=90/90 cons=0 talent=9,9,9;
+  xiao add weapon="deathmatch" refine=1 lvl=90/90;
+  xiao add set="vermillionhereafter" count=5;
+  xiao add stats hp=4780 atk=311 er=0.518 anemo%=0.466 cd=0.622;
+  xiao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="alleyhunter" refine=1 lvl=90/90 +params=[stacks=10];
+  fischl add set="thunderingfury" count=2;
+  fischl add set="shimenawasreminiscence" count=2;
+  fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="favoniussword" refine=3 lvl=90/90;
+  bennett add set="noblesseoblige" count=5;
+  bennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ;
+  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.4408 em=39.64 cr=0.331 cd=0.1324;
+
+  active zhongli;
+
+  zhongli skill[hold=1];
+  bennett skill, burst;
+  fischl attack, skill;
+  xiao skill:2, burst,
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1];
+
+  zhongli skill[hold=1];
+  bennett skill, burst;
+  fischl attack, burst;
+  xiao skill:2, burst,
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, high_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1],
+  jump, low_plunge[collision=1];
+
+  restart;
+
+
+
+
+
+
+
+
+
+
+description: ""
+hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+team:
+- name: bennett
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.9588000000000001
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: alleyhunter
+  refine: 1
+  er: 0.2204
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xiao
+  con: 0
+  weapon: deathmatch
+  refine: 1
+  er: 0.8486
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: zhongli
+  con: 0
+  weapon: favoniuslance
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 40220.384447202094
+mode: sl
+duration: 109.99999999999949
+target_count: 1
+viewer_key: q1R36VI4C5s1tmpEqFlfS
