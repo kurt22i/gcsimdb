@@ -311,7 +311,7 @@ func readURL(url string) (data2 jsondata) {
 	}
 
 	//fmt.Printf("%v", url)
-	urlreal := "https://viewer.gcsim.workers.dev/" + url[strings.LastIndex(url, "/"):]
+	urlreal := "https://viewer.gcsim.workers.dev" + url[strings.LastIndex(url, "/"):]
 
 	req, err := http.NewRequest(http.MethodGet, urlreal, nil)
 	if err != nil {
