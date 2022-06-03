@@ -505,7 +505,7 @@ func process(data []pack, latest string) error {
 		data[i].Config = reIter.ReplaceAllString(data[i].Config, "iteration=1000")
 		data[i].Config = reWorkers.ReplaceAllString(data[i].Config, "workers=30")
 		//re run sim
-		fmt.Printf("\tRerunning %v\n", data[i].Description)
+		fmt.Printf("\tRerunning %v", data[i].Description)
 		outPath := fmt.Sprintf("./tmp/%v", time.Now().Nanosecond())
 		err := runSim(data[i].Config, outPath)
 		if err != nil {
@@ -533,6 +533,7 @@ func process(data []pack, latest string) error {
 
 		data[i].raw = jsonData
 		data[i].gzPath = outPath + ".gz"
+		fmt.Printf("\t%v\n", data[i].DPS)
 	}
 
 	return nil
