@@ -1,5 +1,5 @@
-author: rf#5773
-config: "options swap_delay=12 debug=true iteration=1000 duration=119 workers=30 mode=sl;\n\nraidenshogun
+author: rf#5773 and Veggie#0581
+config: "options swap_delay=12 debug=true iteration=1000 duration=115 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=4;\nraidenshogun
   add stats hp=4780 atk=311 atk%=0.466 atk%=0.466 cr=0.311 ; #main\nraidenshogun add
@@ -17,29 +17,24 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=119 workers=30
   lvl=90/90;\nyelan add set=\"noblesseoblige\" count=4;\nyelan add stats hp=4780 atk=311
   hp%=0.466 hydro%=0.466 cr=0.311 ; #main\nyelan add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nactive
-  raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
-  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nraiden skill;\nyelan
+  raiden;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nraiden
+  skill;\nyelan skill, aim, burst;\nfischl attack, burst;\nkazuha attack, skill, high_plunge,
+  attack, burst, attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4,
+  dash, attack:3;\nfischl skill, attack;\nkazuha attack, skill, high_plunge, attack;\n\nyelan
   skill, aim, burst;\nfischl attack, burst;\nkazuha attack, skill, high_plunge, attack,
   burst, attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nkazuha
-  attack, skill, high_plunge, attack, charge;\nfischl skill;\n\nyelan skill, aim,
-  burst;\nfischl attack, burst;\nkazuha attack, skill, high_plunge, attack, burst,
-  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nkazuha
-  attack, skill, high_plunge, attack, charge;\n\nyelan skill, aim, burst;\nfischl
-  attack, burst;\nkazuha attack, skill, high_plunge, attack, burst, attack;\nraiden
-  burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nkazuha attack,
-  skill, high_plunge, attack, charge;\nfischl skill;\n\nyelan skill, aim, burst;\nfischl
-  attack, burst;\nkazuha attack, skill, high_plunge, attack, burst, attack;\nraiden
-  burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nkazuha attack,
-  skill, high_plunge, attack, charge;\n\nyelan skill, aim, burst;\nfischl attack,
+  attack, skill, high_plunge, attack;\n\nyelan skill, aim, burst;\nfischl attack,
+  burst;\nkazuha attack, skill, high_plunge, attack, burst, attack;\nraiden burst,
+  attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nfischl skill, attack;\nkazuha
+  attack, skill, high_plunge, attack;\n\nyelan skill, aim, burst;\nfischl attack,
   burst;\nkazuha attack, skill, high_plunge, attack, burst, attack;\nraiden burst,
   attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nkazuha attack, skill,
-  high_plunge, attack, charge;\nfischl skill;\n\nyelan skill, aim, burst;\nfischl
-  attack, burst;\nkazuha attack, skill, high_plunge, attack, burst, attack;\nraiden
-  burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nkazuha attack,
-  skill, high_plunge, attack, charge;\n\nyelan skill, aim, burst;\nfischl attack,
-  burst;\nkazuha attack, skill, high_plunge, attack, burst, attack;\nraiden burst,
-  attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nkazuha attack, skill,
-  high_plunge, attack, charge;\nfischl skill;\nrestart;\n"
+  high_plunge, attack;\n\nyelan skill, aim, burst;\nfischl attack, burst;\nkazuha
+  attack, skill, high_plunge, attack, burst, attack;\nraiden burst, attack:4, dash,
+  attack:4, skill, attack:4, dash, attack:3;\nfischl skill, attack;\nkazuha attack,
+  skill, high_plunge, attack;\n\nyelan skill, aim, burst;\nfischl attack, burst;\nkazuha
+  attack, skill, high_plunge, attack, burst, attack;\nraiden burst, attack:4, dash,
+  attack:4, skill, attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge, attack;\n\nrestart;\n\n"
 description: ""
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -79,8 +74,8 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 57719.1407408758
+dps: 58274.99047282838
 mode: sl
-duration: 118.99999999999979
+duration: 114.9999999999981
 target_count: 1
 viewer_key: hl4fE5FEB8ELEHUs_cB8X
