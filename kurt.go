@@ -73,12 +73,12 @@ func run(skipDownload bool) error {
 
 	//update DB with new and updated teams
 	if !force {
-		updateData()
+		//updateData()
 	}
 
 	//allow time to put aside the teams that were updated multiple times
-	fmt.Print("\nPress 'Enter' to continue...")
-	bufio.NewReader(os.Stdin).ReadBytes('\n')
+	//fmt.Print("\nPress 'Enter' to continue...")
+	//bufio.NewReader(os.Stdin).ReadBytes('\n')
 
 	//loop through db folder; check hash
 	data := loadData("./db")
@@ -225,15 +225,15 @@ func getName(data jsondata) string {
 
 var chars = []string{"Ayato", "YaeMiko", "Shenhe", "YunJin", "Itto", "Gorou", "Thoma", "Kokomi", "Raiden", "Sara", "Aloy", "Yoimiya", "Sayu", "Ayaka", "Kazuha",
 	"Eula", "Yanfei", "Rosaria", "HuTao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Tartaglia", "Diona", "Klee", "Venti", "Keqing", "Mona",
-	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "TravelerGeo", "TravelerElectro"}
+	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "TravelerGeo", "TravelerElectro", "Yelan"}
 
 var foldernames = []string{"Ayato", "Yae", "Shenhe", "Yun Jin", "Itto", "Gorou", "Thoma", "Kokomi", "Raiden", "Sara", "Aloy", "Yoimiya", "Sayu", "Ayaka", "Kazuha",
 	"Eula", "Yanfei", "Rosaria", "Hu Tao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Childe", "Diona", "Klee", "Venti", "Keqing", "Mona",
-	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "GMC", "EMC"}
+	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "GMC", "EMC", "Yelan"}
 
 var abbrs = []string{"at", "ya", "sh", "yj", "it", "gr", "tm", "kk", "rd", "sr", "al", "ym", "sy", "ay", "kz",
 	"eu", "yf", "rs", "ht", "xa", "gy", "ab", "zl", "xy", "ch", "dn", "kl", "vn", "kq", "mn",
-	"qq", "dl", "jn", "sc", "cy", "nl", "bn", "fs", "ng", "xq", "bd", "xl", "rz", "bb", "ls", "ky", "am", "pm", "gc", "em"}
+	"qq", "dl", "jn", "sc", "cy", "nl", "bn", "fs", "ng", "xq", "bd", "xl", "rz", "bb", "ls", "ky", "am", "pm", "gc", "em", "yl"}
 
 func charid(c string) int {
 	for i := range chars {
@@ -493,10 +493,10 @@ func process(data []pack, latest string) error {
 
 	for i := range data {
 		//only rerun if changed or forced
-		if !force && data[i].Hash != "" {
+		/*if !force && data[i].Hash != "" {
 			fmt.Printf("\tSkipping %v\n", data[i].filepath)
 			continue
-		}
+		}*/
 		data[i].changed = true
 
 		//sort.Slice(data[i].Team, func(k, j int) bool { return data[i].Team[k].Name < data[i].Team[j].Name })
@@ -505,7 +505,7 @@ func process(data []pack, latest string) error {
 		data[i].Config = reIter.ReplaceAllString(data[i].Config, "iteration=1000")
 		data[i].Config = reWorkers.ReplaceAllString(data[i].Config, "workers=30")
 		//re run sim
-		fmt.Printf("\tRerunning %v\n", data[i].filepath)
+		fmt.Printf("\tRerunning %v\n", data[i].Description)
 		outPath := fmt.Sprintf("./tmp/%v", time.Now().Nanosecond())
 		err := runSim(data[i].Config, outPath)
 		if err != nil {
