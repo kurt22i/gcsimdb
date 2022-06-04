@@ -1,0 +1,89 @@
+author: Lettuce Hunt#5806
+config: "yelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\"
+  refine=3 lvl=90/90;\n#yelan add weapon=\"thestringless\" refine=3 lvl=90/90;\n#yelan
+  add set=\"noblesseoblige\" count=4;\nyelan add set=\"emblemofseveredfate\" count=5;\nyelan
+  add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311 ; #main\nyelan add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\n\nraidenshogun char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\n#raidenshogun add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\n#raidenshogun add weapon=\"favoniuslance\" refine=3 lvl=90/90;\n#raidenshogun
+  add set=\"tenacityofthemillelith\" count=4;\nraidenshogun add set=\"emblemofseveredfate\"
+  count=4;\nraidenshogun add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;
+  #main\nraidenshogun add stats  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\t\n\nxingqiu char lvl=90/90 cons=6
+  talent=9,9,9; \n#xingqiu add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nxingqiu
+  add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\n#xingqiu add weapon=\"lionsroar\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\n#xingqiu add set=\"heartofdepth\"
+  count=2;\n#xingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944
+  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\njean char lvl=90/90 cons=0 talent=9,9,9;
+  \njean add weapon=\"favoniussword\" refine=3 lvl=90/90;\n#jean add weapon=\"amenomakageuchi\"
+  refine=5 lvl=90/90;\n#jean add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\njean
+  add set=\"viridescentvenerer\" count=4;\njean add stats hp=4780 atk=311 atk%=0.466
+  anemo%=0.466 cr=0.311 ; #main\njean add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\noptions
+  iteration=1000 swap_delay=12 duration=107 mode=sl;\ntarget lvl=90 resist=.1;\nactive
+  raiden;\n\nraiden skill;\n#-------------\nyelan skill;\njean skill;\nxingqiu burst,
+  attack:2;\nyelan attack, burst;\nxingqiu attack, skill, attack:2;\njean attack:2,
+  skill, attack:2, burst;\nyelan attack, skill;\nraiden attack, burst,\n       attack:4,
+  skill,\n       attack:4, dash,\n       attack:4, dash,\n\t   attack:2, charge;\n\nyelan
+  skill;\njean skill;\nxingqiu burst, attack:2;\nyelan attack, burst;\nxingqiu attack,
+  skill, attack:2;\njean attack:2, skill, attack:2, burst;\nyelan attack, skill;\nraiden
+  attack, burst,\n       attack:4, skill,\n       attack:4, dash,\n       attack:4,
+  dash,\n\t   attack:2, charge;\n\t   \n\t   \nyelan skill;\njean skill;\nxingqiu
+  burst, attack:2;\nyelan attack, burst;\nxingqiu attack, skill, attack:2;\njean attack:2,
+  skill, attack:2, burst;\nyelan attack, skill;\nraiden attack, burst,\n       attack:4,
+  skill,\n       attack:4, dash,\n       attack:4, dash,\n\t   attack:2, charge;\n\t
+  \  \n\t   \n\t   \nyelan skill;\njean skill;\nxingqiu burst, attack:2;\nyelan attack,
+  burst;\nxingqiu attack, skill, attack:2;\njean attack:2, skill, attack:2, burst;\nyelan
+  attack, skill;\nraiden attack, burst,\n       attack:4, skill,\n       attack:4,
+  dash,\n       attack:4, dash,\n\t   attack:2, charge;\n\t   \n\t   \n\t   \nyelan
+  skill;\njean skill;\nxingqiu burst, attack:2;\nyelan attack, burst;\nxingqiu attack,
+  skill, attack:2;\njean attack:2, skill, attack:2, burst;\nyelan attack, skill;\nraiden
+  attack, burst,\n       attack:4, skill,\n       attack:4, dash,\n       attack:4,
+  dash,\n\t   attack:2, charge;\n\n"
+description: ""
+hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+team:
+- name: jean
+  con: 0
+  weapon: favoniussword
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: raiden
+  con: 0
+  weapon: thecatch
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: xingqiu
+  con: 6
+  weapon: harbingerofdawn
+  refine: 5
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 51986.69131877164
+mode: sl
+duration: 106.99999999999939
+target_count: 1
+viewer_key: NXVbPXwHHHgIFOLCs17H2

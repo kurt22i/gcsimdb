@@ -1,0 +1,71 @@
+author: Toneiro-UmSiri#4291
+config: "klee char lvl=90/90 cons=0 talent=9,9,9;\nklee add weapon=\"thewidsith\"
+  refine=3 lvl=90/90;\nklee add set=\"crimsonwitchofflames\" count=4;\nklee add stats
+  def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64
+  cr=0.6420 cd=0.7944 pyro%=0.4660;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan
+  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\"
+  count=4;\nyelan add stats def%=0.1240 def=39.36 hp=5288 hp%=0.6644 atk=344.1 atk%=0.09920
+  er=0.1104 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;\n\nfischl char lvl=90/90 cons=6
+  talent=9,9,9;\nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add
+  set=\"tenacityofthemillelith\" count=4;\nfischl add stats def%=0.1240 def=39.36
+  hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944
+  electro%=0.4660;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats
+  def%=0.1240 def=39.36 hp=4079 hp%=0.09920 atk=265.1 atk%=0.09920 er=0.6282 em=39.64
+  cr=0.5630 cd=0.3972 pyro%=0.3480;\n\noptions swap_delay=12 debug=true iteration=1000
+  duration=100 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
+  amount=1;\n\n#__________________________________________________________________________________\n\nactive
+  bennett;\n\nyelan attack,skill,attack,burst,attack;\nbennett burst, skill, attack;\nfischl
+  skill,attack;\nklee attack, burst, attack, skill[bounce=3, mine=8],\n     attack,
+  charge,\n     attack, charge,\n     attack, charge,\n     attack;\nyelan attack,
+  skill, attack;\nfischl attack, burst;\nbennett attack:2, skill;     \nklee attack:2,
+  charge, \n     attack:2, charge,\n     attack;\n\nyelan attack,skill,attack,burst,attack;\nbennett
+  burst, skill, attack;\nfischl attack, skill;\nklee attack, skill[bounce=3, mine=8],\n
+  \    attack, charge,\n     attack:2, charge,\n     attack, charge,\n     attack:2,
+  charge,\n     attack;\nyelan attack, skill, attack;\nfischl attack, burst;\nbennett
+  attack:2, skill;   \nklee attack:2, charge, \n     attack:2, charge,\n     attack;\n
+  \     \nrestart;\n\n\n"
+description: ""
+hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+team:
+- name: bennett
+  con: 6
+  weapon: thealleyflash
+  refine: 1
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: fischl
+  con: 6
+  weapon: thestringless
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: klee
+  con: 0
+  weapon: thewidsith
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 0.1104
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 40242.02868693655
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: 2gqpiCG4r71FtrW43EJn_

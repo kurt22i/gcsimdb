@@ -18,10 +18,11 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
   cd=0.662;\n\t\t\t\t\t\t\t\t\t\t\t\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
   amount=1;\n\n#--------------------------------------------\n\nactive kokomi;\n\nkokomi
-  attack:2;\nwait 21;\nkazuha skill, high_plunge, burst;\nkokomi skill;\nrosaria skill,
-  burst;\nganyu skill, burst[radius=2];\nkazuha skill, high_plunge;\nkokomi burst,\n
-  \ attack:2, charge,\n  attack:2, dash,\n  attack:2, charge,\n  attack:2, dash,\n
-  \ attack:2, dash,\n  attack:2, dash,\n  attack:2, jump;\nrestart;\n\n\n\n\n"
+  attack:2;\nkazuha skill, high_plunge, burst;\nkokomi skill;\nrosaria skill, burst;\nganyu
+  skill, burst[radius=2];\nkazuha skill, high_plunge;\nkokomi burst,\n  attack:2,
+  walk,\n  attack:2, walk,\n  attack:2, walk,\n  attack:2, walk,\n  attack:2, walk,\n
+  \ attack:2, walk,\n  attack:2, walk,\n  attack:2, walk,\n  attack:2, walk, attack:1,
+  walk;\nwait 3;\nrestart;\n\n"
 description: Crit Kokomi.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -61,7 +62,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 24852.038220843686
+dps: 25355.301486948745
 mode: sl
 duration: 102.99999999999858
 target_count: 1

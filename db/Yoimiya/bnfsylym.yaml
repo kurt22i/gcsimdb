@@ -35,13 +35,7 @@ config: |+
 
   yelan skill, burst, aim[weakspot=1];
   bennett attack, skill, burst, attack;
-  fischl attack, burst;
-  yoimiya skill, attack:5, dash, attack:5, dash, attack:5;
-  bennett attack, skill;
-
-  yelan skill, burst, aim[weakspot=1];
-  bennett attack, skill, burst, attack;
-  fischl attack, skill;
+  fischl skill, attack;
   yoimiya skill, attack:5, dash, attack:5, dash, attack:5;
   bennett attack, skill;
 
@@ -53,7 +47,7 @@ config: |+
 
   yelan skill, burst, aim[weakspot=1];
   bennett attack, skill, burst, attack;
-  fischl attack, skill;
+  fischl skill, attack;
   yoimiya skill, attack:5, dash, attack:5, dash, attack:5;
   bennett attack, skill;
 
@@ -65,18 +59,19 @@ config: |+
 
   yelan skill, burst, aim[weakspot=1];
   bennett attack, skill, burst, attack;
-  fischl attack, skill;
+  fischl skill, attack;
+  yoimiya skill, attack:5, dash, attack:5, dash, attack:5;
+  bennett attack, skill;
+
+  yelan skill, burst, aim[weakspot=1];
+  bennett attack, skill, burst, attack;
+  fischl attack, burst;
   yoimiya skill, attack:5, dash, attack:5, dash, attack:5;
   bennett attack, skill;
 
   restart;
 
-
-
-
-
-
-description: Yoimiya overvape with Yelan.
+description: Yoimiya Overvape with Yelan.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
 - name: bennett
@@ -115,7 +110,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 51595.91550661596
+dps: 52306.2750319192
 mode: sl
 duration: 90.00000000000215
 target_count: 1

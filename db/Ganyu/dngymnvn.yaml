@@ -3,34 +3,35 @@ config: "hurt every interval=0,1200 amount=0,3000; options debug=true iteration=
   duration=98 workers=30 mode=sl;\n\ndiona char lvl=90/90 cons=6 talent=9,9,9; \ndiona
   add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ndiona add set=\"tenacityofthemillelith\"
   count=5;\ndiona add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\ndiona
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
   em=39.64 cr=0.331 cd=0.7944;\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona
   add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nmona add set=\"noblesseoblige\"
   count=5;\nmona add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.551
-  em=39.64 cr=0.331 cd=0.1324 ;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi
   add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\"
-  count=5;\nventi add stats hp=4780 atk=311 em=374 cr=0.311; #main\nventi add stats
-  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.248 er=0.2755 em=158.56
-  cr=0.331 cd=0.1324 ;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\"
-  refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=5;\nganyu add stats
-  hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\nactive
-  diona;\n#-------------------------------------------\n\ndiona burst, skill[hold=1];\nganyu
-  skill, burst[radius=2];\nventi skill, burst;\nmona skill, burst, attack;\nganyu
-  aim[weakspot=1], aim,attack;\nventi skill,attack;\nganyu aim[weakspot=1],attack;\nwait
-  1;\ndiona attack;\nwait 3;\ndiona skill[hold=1];\nwait 12;\nganyu skill, burst[radius=2];\nventi
-  skill, burst;\nmona skill, burst, attack;\nganyu aim[weakspot=1], aim, attack;\nventi
-  skill,attack;\nganyu aim[weakspot=1, travel=0], attack;\nwait 3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  count=5;\nventi add stats hp=4780 atk=311 anemo%=0.466 atk%=0.466 cr=0.311; #main\nventi
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu
+  add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
+  count=5;\nganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
+  amount=1;\nactive diona;\n#-------------------------------------------\n\ndiona
+  burst, skill[hold=1];\nganyu skill, burst[radius=2];\nventi skill, burst;\nmona
+  skill, burst, attack;\nganyu aim[weakspot=1], aim,attack;\nventi skill,attack;\nganyu
+  aim[weakspot=1],attack;\nwait 1;\ndiona attack;\nwait 3;\ndiona skill[hold=1];\nwait
+  12;\nganyu skill, burst[radius=2];\nventi skill, burst;\nmona skill, burst, attack;\nganyu
+  aim[weakspot=1], aim, attack;\nventi skill,attack;\nganyu aim[weakspot=1, travel=0],
+  attack;\nwait 3;\nrestart;\n\n"
 description: The traditional Morgana team.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
 - name: diona
   con: 6
   weapon: favoniuswarbow
   refine: 3
-  er: 0.1102
+  er: 0.2204
   talents:
     attack: 9
     skill: 9
@@ -48,7 +49,7 @@ team:
   con: 0
   weapon: favoniuscodex
   refine: 3
-  er: 1.069
+  er: 0.6282
   talents:
     attack: 9
     skill: 9
@@ -57,12 +58,12 @@ team:
   con: 0
   weapon: favoniuswarbow
   refine: 3
-  er: 0.2755
+  er: 0.1102
   talents:
     attack: 9
     skill: 9
     burst: 9
-dps: 38427.77801351298
+dps: 39575.89768054492
 mode: sl
 duration: 97.9999999999992
 target_count: 1

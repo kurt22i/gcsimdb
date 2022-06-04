@@ -30,7 +30,7 @@ config: |+
 
   xingqiu skill,burst,attack;
   bennett attack,skill,attack,burst,attack;
-  fischl attack,skill;
+  fischl  skill,attack;
   yunjin attack,skill,attack,burst,attack:5,dash,attack:5,dash,attack:5,dash,attack:5;
   bennett attack,skill;
   fischl attack, burst;
@@ -44,8 +44,10 @@ config: |+
 
 
 
+
+
 description: Overvape Yun Jin.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
 - name: bennett
   con: 6
@@ -83,7 +85,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 40876.859982661175
+dps: 41531.39171716739
 mode: sl
 duration: 102.99999999999858
 target_count: 1
