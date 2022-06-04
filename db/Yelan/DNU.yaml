@@ -1,4 +1,4 @@
-author: RoyM#2340 and リオリオ#1534
+author: リオリオ#1534
 config: "yelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"recurvebow\"
   refine=5 lvl=90/90;\nyelan add set=\"thundersoother\" count=4;\nyelan add stats
   hp=4780 atk=311 hp%=0.466 hydro%=0.466 cd=0.622 ; #main\nyelan add stats def=39.36
@@ -61,7 +61,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 52279.74191021507
+dps: 52329.45140848618
 mode: sl
 duration: 102.99999999999858
 target_count: 1

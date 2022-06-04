@@ -21,11 +21,19 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
   cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
   every interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\nxingqiu burst,
-  attack;\nyelan skill, attack, burst, attack;\nbennett burst, attack, skill;\nxiangling
-  attack, burst, attack, skill;\nbennett attack, skill;\nxingqiu attack:2;\nbennett
-  attack, skill;\nyelan attack, skill;\nbennett attack, skill;\nxingqiu attack:2;\nbennett
-  attack, skill;\nxingqiu attack, skill, dash, attack:3;\nbennett attack, skill, attack:2;\nxiangling
-  attack;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack;\nyelan skill, attack, burst, attack;\n#enable double rainswords, yelan catches
+  her own particles\n\nbennett burst, attack, skill;\nxiangling attack, burst, attack,
+  skill;\n#snapshot pyronado and guoba\n\nbennett attack, skill;\nxingqiu attack:2;\nbennett
+  attack, skill;\n#bennett comes on field to use his e with the cd, and to reacquire
+  the buff, xingqiu comes on field to dynamically buff rainswords\n\nyelan attack,
+  skill;\n#mash out second e as close to the cooldown timer as you can to keep the
+  rotation tight\n\nbennett attack, skill;\nxingqiu attack:2;\nbennett attack, skill;\nxingqiu
+  attack, skill, dash, attack:3;\n#at the very end of yelan's a4, you're going to
+  use xingqiu's skill and swing until you proc your final rainswords, xq catches his
+  own particles\n\nbennett attack, skill, attack:2;\nxiangling attack;\n#funnel xl
+  one time - not necessary but helps with ER constraints. xl can survive with no er
+  + the catch and emblem, but this gives you something to do to keep yourself from
+  yolo swap bursting on xq - remember it's a 21s rotation, not 20s\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yelan National, featuring DPS Bennett.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -65,7 +73,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 72166.8406675602
+dps: 72221.90962860669
 mode: sl
 duration: 105.00000000000071
 target_count: 1
