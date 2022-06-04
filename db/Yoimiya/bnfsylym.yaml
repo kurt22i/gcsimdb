@@ -22,10 +22,10 @@ config: "#Configs\ntarget lvl=100 resist=0.1; \nenergy every interval=480,720 am
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=237.84 cr=0.1324 cd=0.3972; #20 liquid
   subs\n\n#Rotation: Yelan E N1 Q N1 > Bennett N1 E N1 Q N1 > Fischl N1 Q/E > Yoimiya
   E 3N5D > Bennett N1 E > Restart\nactive yelan;\n\nyelan skill, attack, burst, attack;\nbennett
-  attack, skill, attack, burst, attack;\nfischl attack, skill;\nyoimiya skill, attack:5,
+  attack, skill, attack, burst, attack;\nfischl  skill,attack;\nyoimiya skill, attack:5,
   dash, attack:5, dash, attack:5;\nbennett attack, skill;\n\nyelan skill, attack,
   burst, attack;\nbennett attack, skill, attack, burst, attack;\nfischl attack, burst;\nyoimiya
-  skill, attack:5, dash, attack:5, dash, attack:5;\nbennett attack, skill;\n\nrestart;\n\n"
+  skill, attack:5, dash, attack:5, dash, attack:5;\nbennett attack, skill;\n\nrestart;\n\n\n"
 description: Yoimiya Overvape with Yelan.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -65,7 +65,7 @@ team:
     attack: 9
     skill: 9
     burst: 9
-dps: 54441.07713079878
+dps: 54914.84322958684
 mode: sl
 duration: 88.99999999999893
 target_count: 1
