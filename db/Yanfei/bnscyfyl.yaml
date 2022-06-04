@@ -1,0 +1,88 @@
+author: raph#2041
+config: |
+  yanfei char lvl=90/90 cons=6 talent=9,9,9;
+  yanfei add weapon="thewidsith" refine=3 lvl=90/90;
+  yanfei add set="crimsonwitchofflames" count=4;
+  yanfei add stats hp=4780 atk=311.0 em=186.5 cr=0.3110 pyro%=0.4660;
+  yanfei add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="favoniussword" refine=3 lvl=90/90;
+  bennett add set="noblesseoblige" count=4;
+  bennett add stats hp=4780 atk=311.0 em=186.5 cr=0.3110 pyro%=0.4660;
+  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.496 er=0.3306 em=39.64 cr=0.331 cd=0.1324;
+
+  yelan char lvl=90/90 cons=0 talent=9,9,9;
+  yelan add weapon="favoniuswarbow" refine=3 lvl=90/90;
+  yelan add set="emblemofseveredfate" count=4;
+  yelan add stats hp=4780 atk=311 er=0.518 cr=0.311 hydro%=0.466 ; #main
+  yelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2979 cd=0.4634;
+
+  sucrose char lvl=90/90 cons=6 talent=9,9,9;
+  sucrose add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
+  sucrose add set="viridescentvenerer" count=4;
+  sucrose add stats hp=4780 atk=311.0 em=373 er=0.518;
+  sucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=158.56 cr=0.3641 cd=0.4634;
+
+  options swap_delay=12 debug=true iteration=1000 duration=101 mode=sl;
+  energy every interval=480,720 amount=1;
+  target lvl=100 resist=0.1;
+  active bennett;
+
+  bennett attack:2,skill;
+  yelan burst,attack,skill,attack;
+  bennett attack,burst,skill;
+  sucrose attack,burst,attack,skill;
+  yanfei attack,skill,burst,attack,charge,attack:2,charge,attack:2,charge,attack:2,charge,attack,skill,charge;
+
+  bennett attack:2,skill;
+  yelan burst,attack,skill,attack;
+  bennett attack,burst,skill;
+  sucrose attack:3,skill;
+  yanfei attack,skill,attack,charge,attack:2,charge,attack:2,charge,attack:3,charge,attack,skill,attack,charge;
+
+  restart;
+description: ""
+hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+team:
+- name: bennett
+  con: 6
+  weapon: favoniussword
+  refine: 3
+  er: 0.3306
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: sucrose
+  con: 6
+  weapon: thrillingtalesofdragonslayers
+  refine: 5
+  er: 0.6282
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yanfei
+  con: 6
+  weapon: thewidsith
+  refine: 3
+  er: 0.1102
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+- name: yelan
+  con: 0
+  weapon: favoniuswarbow
+  refine: 3
+  er: 1.069
+  talents:
+    attack: 9
+    skill: 9
+    burst: 9
+dps: 50092.00613895846
+mode: sl
+duration: 100.9999999999993
+target_count: 1
+viewer_key: FElIFHVM-tlmmw9uH4hQE
