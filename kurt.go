@@ -472,7 +472,8 @@ func loadData(dir string) []pack {
 
 func changeConfig(config string) string {
 	cfg := config
-	cfg = strings.Replace(cfg, "swap_delay=12", "", -1)
+	//cfg = strings.Replace(cfg, "swap_delay=12", "", -1)
+	cfg += "\ntarget lvl=100 resist=.1;\n"
 	return cfg
 }
 
