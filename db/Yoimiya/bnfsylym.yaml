@@ -23,12 +23,12 @@ config:
   pyro%=0.466 cr=0.311; #main 5* set\nbennett add stats def=39.36 def%=0.124 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=237.84 cr=0.1324 cd=0.3972; #20 liquid
   subs\n\n#Rotation: Yelan E N1 Q N1 > Bennett N1 E N1 Q N1 > Fischl E N1 / N1 Q >
-  Yoimiya E 3N5D > Bennett N1 E > Restart\nactive yelan;\n\nyelan skill, attack, burst,
+  Yoimiya E 3N5D > Bennett E N1 > Restart\nactive yelan;\n\nyelan skill, attack, burst,
   attack;\nbennett attack, skill, attack, burst, attack;\nfischl  skill,attack;\nyoimiya
   skill, attack:5, dash, attack:5, dash, attack:5;\nbennett skill,attack;\n\nyelan
   skill, attack, burst, attack;\nbennett attack, skill, attack, burst, attack;\nfischl
   attack, burst;\nyoimiya skill, attack:5, dash, attack:5, dash, attack:5;\nbennett
-  skill,attack;\n\nrestart;\n\n\n\n\n\n"
+  skill,attack;\n\nrestart;\n\n\n\n\n\n\n\n\n"
 description: Yoimiya Overvape with Yelan.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 56000.005670406405
+dps: 56085.242332232076
 mode: sl
 duration: 90.00000000000215
 target_count: 1
