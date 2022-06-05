@@ -16,9 +16,9 @@ config:
   cd=0.5296;\n\noptions swap_delay=12 debug=true iteration=1000 duration=92 workers=30
   mode=sl;\n\nenergy every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nactive
   ayaka;\nayaka dash, attack, skill, attack:3;\nshenhe burst,skill;\nyelan  skill,
-  burst;\nkazuha attack, skill, high_plunge, attack, burst; \nayaka dash,attack,skill,attack:2,burst;\nshenhe
+  burst;\nkazuha attack, skill, high_plunge, attack, burst; \nayaka dash,attack,skill,attack,burst;\nshenhe
   attack,skill;\nyelan attack, skill;\nayaka dash,attack:3,charge,\n      dash, attack:3,charge;\nkazuha
-  attack, skill, high_plunge;\nrestart;\n\n\n\n\n\n\n\n\n"
+  attack, skill, high_plunge;\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: Ayalan Freeze Hyper offensive.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -58,7 +58,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 56765.661173750996
+dps: 57090.236205112386
 mode: sl
 duration: 91.999999999999
 target_count: 1
