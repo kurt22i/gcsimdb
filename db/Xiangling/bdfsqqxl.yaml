@@ -43,42 +43,42 @@ config: |
 description: Qiqi Fireworks.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: beidou
-  con: 6
-  weapon: serpentspine
-  refine: 1
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: qiqi
-  con: 0
-  weapon: sacrificialsword
-  refine: 3
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: kitaincrossspear
-  refine: 5
-  er: 0.6612
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: beidou
+    con: 6
+    weapon: serpentspine
+    refine: 1
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: qiqi
+    con: 0
+    weapon: sacrificialsword
+    refine: 3
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: kitaincrossspear
+    refine: 5
+    er: 0.6612
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 32857.507342527155
 mode: sl
 duration: 125

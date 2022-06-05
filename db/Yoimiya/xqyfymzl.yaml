@@ -55,42 +55,42 @@ config: |+
 description: Yoifei.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yanfei
-  con: 6
-  weapon: thewidsith
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yoimiya
-  con: 0
-  weapon: rust
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yanfei
+    con: 6
+    weapon: thewidsith
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yoimiya
+    con: 0
+    weapon: rust
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 34962.55355100048
 mode: sl
 duration: 108.99999999999856

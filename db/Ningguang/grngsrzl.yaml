@@ -46,42 +46,42 @@ config: |+
 description: ""
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: gorou
-  con: 6
-  weapon: favoniuswarbow
-  refine: 4
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: ningguang
-  con: 6
-  weapon: solarpearl
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sara
-  con: 6
-  weapon: sacrificialbow
-  refine: 3
-  er: 0.9588
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: gorou
+    con: 6
+    weapon: favoniuswarbow
+    refine: 4
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: ningguang
+    con: 6
+    weapon: solarpearl
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sara
+    con: 6
+    weapon: sacrificialbow
+    refine: 3
+    er: 0.9588
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 33016.03858704155
 mode: sl
 duration: 96.00000000000009

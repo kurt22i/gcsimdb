@@ -1,5 +1,6 @@
 author: Water#4568, ShadowDawn#5332 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=129 workers=30 mode=sl;\nenergy
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=129 workers=30 mode=sl;\nenergy
   every interval=480,720 amount=1;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1
   geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;
   \nganyu add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
@@ -20,46 +21,47 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=129 workers=30
   cd=0.4634;\n\nactive ganyu;\nganyu burst[radius=2],skill;\nventi skill,burst;\nrosaria
   skill,burst;\nganyu aim[weakspot=1];\nmona skill,attack, burst;\nventi skill, attack;\nrosaria
   skill;\n\nrestart;\n\n\n\n\n\n\n"
-description: CN Morgana. 2 CAs with Ganyu might not always be possible. Scales well
+description:
+  CN Morgana. 2 CAs with Ganyu might not always be possible. Scales well
   in multitarget.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ganyu
-  con: 0
-  weapon: prototypecrescent
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: mona
-  con: 0
-  weapon: favoniuscodex
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: venti
-  con: 0
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ganyu
+    con: 0
+    weapon: prototypecrescent
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: mona
+    con: 0
+    weapon: favoniuscodex
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: venti
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 39115.766838736025
 mode: sl
 duration: 129.00000000000193

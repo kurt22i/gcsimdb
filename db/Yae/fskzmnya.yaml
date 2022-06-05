@@ -51,42 +51,42 @@ config: |+
 description: Yae tazer team with Mona as the Hydro. Prototype Amber for healing.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: theviridescenthunt
-  refine: 1
-  er: 0.102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: mona
-  con: 0
-  weapon: prototypeamber
-  refine: 5
-  er: 0.306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: thewidsith
-  refine: 3
-  er: 0.255
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: theviridescenthunt
+    refine: 1
+    er: 0.102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: ironsting
+    refine: 5
+    er: 0.204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: mona
+    con: 0
+    weapon: prototypeamber
+    refine: 5
+    er: 0.306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: thewidsith
+    refine: 3
+    er: 0.255
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 43659.57466534636
 mode: sl
 duration: 93.99999999999868

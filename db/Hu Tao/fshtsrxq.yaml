@@ -79,42 +79,42 @@ config: |+
 description: Tao Overvape with Sara.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: hutao
-  con: 0
-  weapon: dragonsbane
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sara
-  con: 6
-  weapon: favoniuswarbow
-  refine: 3
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: hutao
+    con: 0
+    weapon: dragonsbane
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sara
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 44904.816296922625
 mode: sl
 duration: 168.0000000000037

@@ -1,5 +1,6 @@
 author: Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=102 mode=sl;\n\nkokomi
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=102 mode=sl;\n\nkokomi
   char lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"prototypeamber\" refine=5
   lvl=90/90;\nkokomi add set=\"oceanhuedclam\" count=4;\nkokomi add stats hp=4780
   atk=311 hp%=0.466 hydro%=0.466 heal=0.359; # main\nkokomi add stats def%=0.124 def=39.36
@@ -24,42 +25,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=102 mode=sl;\n
 description: Geo Kokomi with Beidou.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: albedo
-  con: 0
-  weapon: cinnabarspindle
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: beidou
-  con: 6
-  weapon: favoniusgreatsword
-  refine: 3
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: prototypeamber
-  refine: 5
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: albedo
+    con: 0
+    weapon: cinnabarspindle
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: beidou
+    con: 6
+    weapon: favoniusgreatsword
+    refine: 3
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: prototypeamber
+    refine: 5
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 31724.80693697845
 mode: sl
 duration: 102.00000000000051

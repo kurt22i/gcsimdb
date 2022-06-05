@@ -1,5 +1,6 @@
 author: Rare Possum#0511
-config: "ganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu add weapon=\"prototypecrescent\"
+config:
+  "ganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu add weapon=\"prototypecrescent\"
   refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=5;\nganyu add stats
   hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622;\nganyu add stats def=39.36 def%=0.124
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662
@@ -15,24 +16,24 @@ config: "ganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu add weapon=\"prototype
 description: ""
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ganyu
-  con: 0
-  weapon: prototypecrescent
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ganyu
+    con: 0
+    weapon: prototypecrescent
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 26667.009008947036
 mode: apl
 duration: 899.9999999999849

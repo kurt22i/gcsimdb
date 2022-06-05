@@ -1,5 +1,6 @@
 author: Kurt#5846 and Lizz71#8986
-config: "\toptions swap_delay=12 debug=true iteration=1000 duration=92 workers=30
+config:
+  "\toptions swap_delay=12 debug=true iteration=1000 duration=92 workers=30
   mode=sl;\n\n\tyaemiko char lvl=90/90 cons=0 talent=9,9,9; \n\tyaemiko add weapon=\"thewidsith\"
   refine=3 lvl=90/90;\n\tyaemiko add set=\"gladiatorsfinale\" count=2;\n\tyaemiko
   add set=\"thunderingfury\" count=2;\n\tyaemiko add stats hp=4780 atk=311 atk%=0.466
@@ -31,42 +32,42 @@ config: "\toptions swap_delay=12 debug=true iteration=1000 duration=92 workers=3
 description: Bennett/Fischl/Kazuha/Yae.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: thewidsith
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: thewidsith
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 51533.14905874121
 mode: sl
 duration: 91.999999999999

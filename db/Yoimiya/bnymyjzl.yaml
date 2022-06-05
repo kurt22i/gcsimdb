@@ -1,5 +1,6 @@
 author: Kurt#5846 and imring#3781
-config: "options swap_delay=12 debug=true iteration=1000 duration=96 workers=30 mode=sl;\n\nyoimiya
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=96 workers=30 mode=sl;\n\nyoimiya
   char lvl=90/90 cons=0 talent=9,9,9; \nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya
   add set=\"shimenawasreminiscence\" count=5;\nyoimiya add stats hp=4780 atk=311 atk%=0.466
   pyro%=0.466 cr=0.311 ; #main\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -22,42 +23,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=96 workers=30 
 description: Yoimiya with Yun Jin.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yoimiya
-  con: 0
-  weapon: rust
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yunjin
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yoimiya
+    con: 0
+    weapon: rust
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yunjin
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 33314.94456314541
 mode: sl
 duration: 96.00000000000009

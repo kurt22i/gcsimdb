@@ -59,46 +59,47 @@ config: |+
 
 
 
-description: Xiao Double Geo, but you forgot the second Geo, so now you have Yae instead
+description:
+  Xiao Double Geo, but you forgot the second Geo, so now you have Yae instead
   of heals and shields.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: albedo
-  con: 0
-  weapon: cinnabarspindle
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: fischl
-  con: 6
-  weapon: alleyhunter
-  refine: 1
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiao
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: thewidsith
-  refine: 3
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: albedo
+    con: 0
+    weapon: cinnabarspindle
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: alleyhunter
+    refine: 1
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiao
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: thewidsith
+    refine: 3
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 33432.60532904467
 mode: sl
 duration: 102.99999999999858

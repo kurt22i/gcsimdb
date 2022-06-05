@@ -51,42 +51,42 @@ config: |+
 description: ""
 hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
 team:
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: hakushinring
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yelan
-  con: 0
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: ironsting
+    refine: 5
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: hakushinring
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 51604.398398478756
 mode: sl
 duration: 102.00000000000051

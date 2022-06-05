@@ -50,42 +50,42 @@ config: |
 description: International but you don't have Kazuha.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: tartaglia
-  con: 0
-  weapon: theviridescenthunt
-  refine: 1
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: tartaglia
+    con: 0
+    weapon: theviridescenthunt
+    refine: 1
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 40083.239592993814
 mode: sl
 duration: 218.99999999999608

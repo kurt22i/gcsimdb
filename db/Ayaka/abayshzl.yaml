@@ -52,42 +52,42 @@ config: |+
 description: Geo Ayaka.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: albedo
-  con: 0
-  weapon: cinnabarspindle
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: ayaka
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: shenhe
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: albedo
+    con: 0
+    weapon: cinnabarspindle
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: ayaka
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: shenhe
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 49899.232119590284
 mode: sl
 duration: 141.99999999999835

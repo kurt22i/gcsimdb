@@ -1,5 +1,6 @@
 author: Charliex3000#9403
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nayaka
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nayaka
   char lvl=90/90 cons=0 talent=9,9,9; \nayaka add weapon=\"amenomakageuchi\" refine=5
   lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=5;\nayaka add stats hp=4780
   atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nayaka add stats hp%=0.0992 hp=507.88
@@ -21,46 +22,47 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
   dash,skill,attack:2,charge;\ndiona burst,attack;\nventi skill, burst;\nmona skill,burst;\nayaka
   dash,attack,skill,burst;\nmona attack:2;\nventi skill, attack;\ndiona skill[hold=1];\nayaka
   dash,attack:2,charge;\nrestart;\n\n\n\n"
-description: '"Morganya": Morgana with Ayaka. Better than the original in single target,
+description:
+  '"Morganya": Morgana with Ayaka. Better than the original in single target,
   but also not Ayaka''s best team.'
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: diona
-  con: 6
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.2755
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: mona
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: venti
-  con: 0
-  weapon: windblumeode
-  refine: 5
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: diona
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.2755
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: mona
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: venti
+    con: 0
+    weapon: windblumeode
+    refine: 5
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 37330.67384602617
 mode: sl
 duration: 105.00000000000071

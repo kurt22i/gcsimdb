@@ -1,5 +1,6 @@
 author: Lettuce Hunt#5806 and Jhony75#8133
-config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\nkamisatoayaka
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\nkamisatoayaka
   char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"harbingerofdawn\"
   refine=5 lvl=90/90;\nkamisatoayaka add set=\"emblemofseveredfate\" count=5;\nkamisatoayaka
   add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nkamisatoayaka
@@ -29,42 +30,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30
 description: Sunfire Ayaka. Much better with C2.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: harbingerofdawn
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 5
-  weapon: thealleyflash
-  refine: 1
-  er: 0.9588000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: diona
-  con: 6
-  weapon: favoniuswarbow
-  refine: 3
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: jean
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: harbingerofdawn
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 5
+    weapon: thealleyflash
+    refine: 1
+    er: 0.9588000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: diona
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 42395.083317915596
 mode: sl
 duration: 105.00000000000071

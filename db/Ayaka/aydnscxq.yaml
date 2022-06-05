@@ -1,5 +1,6 @@
 author: RoyM#2340
-config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;\nenergy
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;\nenergy
   every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nsucrose char lvl=90/90
   cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\" refine=5
   lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780
@@ -25,42 +26,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30
 description: 4* Ayaka Freeze.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: diona
-  con: 6
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: diona
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 36502.88770000668
 mode: sl
 duration: 103.99999999999928

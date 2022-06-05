@@ -1,5 +1,6 @@
 author: bam#9648 and Hessey#9122
-config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl swap_delay=12;\nenergy
+config:
+  "options debug=true iteration=1000 duration=100 workers=30 mode=sl swap_delay=12;\nenergy
   every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nzhongli char lvl=90/90
   cons=0 talent=9,9,9;\nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli
   add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats hp=4780 atk=311 atk%=0.466
@@ -26,42 +27,42 @@ config: "options debug=true iteration=1000 duration=100 workers=30 mode=sl swap_
 description: Double Geo Xiao with Jean.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: albedo
-  con: 0
-  weapon: cinnabarspindle
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: jean
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiao
-  con: 0
-  weapon: deathmatch
-  refine: 1
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: albedo
+    con: 0
+    weapon: cinnabarspindle
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 40232.690084622605
 mode: sl
 duration: 99.9999999999986

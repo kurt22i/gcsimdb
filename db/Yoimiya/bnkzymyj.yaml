@@ -1,5 +1,6 @@
 author: Rare Possum#0511 and Jhony75#8133
-config: "options swap_delay=12 debug=true iteration=1000 duration=84 workers=30 mode=sl;\n\nyoimiya
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=84 workers=30 mode=sl;\n\nyoimiya
   char lvl=90/90 cons=0 talent=9,9,9; \nyoimiya add weapon=\"slingshot\" refine=5
   lvl=90/90;\nyoimiya add set=\"lavawalker\" count=5;\nyoimiya add stats hp=4780 atk=311
   atk%=0.466 pyro%=0.466 cd=0.622 ; #main\nyoimiya add stats def%=0.124 def=39.36
@@ -27,42 +28,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=84 workers=30 
 description: Yoimiya with Yun Jin.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yoimiya
-  con: 0
-  weapon: slingshot
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yunjin
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yoimiya
+    con: 0
+    weapon: slingshot
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yunjin
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 39013.52782789935
 mode: sl
 duration: 84.00000000000185

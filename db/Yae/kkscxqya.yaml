@@ -52,42 +52,42 @@ config: |+
 description: Double Hydro Yae taser.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: kokomi
-  con: 0
-  weapon: hakushinring
-  refine: 5
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: sacrificialfragments
-  refine: 3
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: thewidsith
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: kokomi
+    con: 0
+    weapon: hakushinring
+    refine: 5
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: sacrificialfragments
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: thewidsith
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 31350.378022637284
 mode: apl
 duration: 90.00000000000215

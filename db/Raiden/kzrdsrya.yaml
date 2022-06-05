@@ -1,5 +1,6 @@
 author: Kurt#5846 and Xardas#5785
-config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nraidenshogun
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
@@ -21,46 +22,47 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nyaemiko skill,skill,skill;\nkazuha
   skill[hold=1],high_plunge;\nraiden skill;\nsara skill;\nyaemiko attack, burst,skill,skill,skill;\nkazuha
   burst,skill[hold=1],high_plunge;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3;\nrestart;\n\n"
-description: Raiden Hypercarry when Bennett is locked on the other team. No shielding
+description:
+  Raiden Hypercarry when Bennett is locked on the other team. No shielding
   or healing, have fun.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: kazuha
-  con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: thecatch
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sara
-  con: 6
-  weapon: sacrificialbow
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: oathsworneye
-  refine: 5
-  er: 0.2755
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: kazuha
+    con: 0
+    weapon: ironsting
+    refine: 5
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sara
+    con: 6
+    weapon: sacrificialbow
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: oathsworneye
+    refine: 5
+    er: 0.2755
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 44514.38257991549
 mode: sl
 duration: 109.99999999999949

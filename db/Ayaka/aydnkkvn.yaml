@@ -1,5 +1,6 @@
 author: Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\n\n\n\nayaka
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n\n\n\n\n\nayaka
   char lvl=90/90 cons=0 talent=9,9,9; \nayaka add weapon=\"amenomakageuchi\" refine=5
   lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=5;\nayaka add stats hp=4780
   atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nayaka add stats def%=0.124 def=39.36
@@ -23,42 +24,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
 description: Ayaka Freeze with both shields and heals.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: diona
-  con: 6
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: venti
-  con: 0
-  weapon: thestringless
-  refine: 3
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: diona
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: venti
+    con: 0
+    weapon: thestringless
+    refine: 3
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 30190.454055079317
 mode: sl
 duration: 99.9999999999986

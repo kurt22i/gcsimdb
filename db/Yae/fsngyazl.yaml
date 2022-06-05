@@ -49,42 +49,42 @@ config: |+
 description: Yae + Geo comfort version. Make sure to pick up shards for 4AP.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: ningguang
-  con: 6
-  weapon: hakushinring
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: oathsworneye
-  refine: 5
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.6612
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: ningguang
+    con: 6
+    weapon: hakushinring
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: oathsworneye
+    refine: 5
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.6612
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 39415.70265726646
 mode: sl
 duration: 90.00000000000215

@@ -48,42 +48,42 @@ config: |
 description: Ning with Electro supports.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: theviridescenthunt
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: ningguang
-  con: 6
-  weapon: thewidsith
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sara
-  con: 6
-  weapon: sacrificialbow
-  refine: 1
-  er: 1.079
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2755
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: theviridescenthunt
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: ningguang
+    con: 6
+    weapon: thewidsith
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sara
+    con: 6
+    weapon: sacrificialbow
+    refine: 1
+    er: 1.079
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2755
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 41408.02310547005
 mode: sl
 duration: 105.00000000000071

@@ -100,42 +100,42 @@ config: |+
 description: Xiangling Overvape when Bennett is on vacation.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: raiden
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: lionsroar
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yanfei
-  con: 6
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.9588000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: raiden
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: lionsroar
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yanfei
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.9588000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 47473.76864618632
 mode: sl
 duration: 105.99999999999856

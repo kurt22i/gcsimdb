@@ -40,42 +40,42 @@ config: |+
 description: A new popular Yae team that sacrifices damage for comfort and waifu.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: jean
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: thecatch
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sara
-  con: 6
-  weapon: mouunsmoon
-  refine: 1
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: oathsworneye
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sara
+    con: 6
+    weapon: mouunsmoon
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: oathsworneye
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 40309.790252453044
 mode: sl
 duration: 111.00000000000108

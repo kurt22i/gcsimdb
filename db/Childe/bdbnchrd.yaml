@@ -69,42 +69,42 @@ config: |+
 description: Childe Fireworks with Raiden.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: beidou
-  con: 6
-  weapon: serpentspine
-  refine: 1
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: tartaglia
-  con: 0
-  weapon: theviridescenthunt
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: beidou
+    con: 6
+    weapon: serpentspine
+    refine: 1
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: tartaglia
+    con: 0
+    weapon: theviridescenthunt
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 26697.72603702919
 mode: sl
 duration: 125

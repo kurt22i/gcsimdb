@@ -1,5 +1,6 @@
 author: Buki#7742
-config: "sucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
+config:
+  "sucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
   refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
   stats hp=4780 atk=311 em=561; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=118.92 cr=0.331 cd=0.1324;\n\nxingqiu
@@ -23,42 +24,42 @@ config: "sucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thril
 description: Raiden/Beidou. Like most Beidou teams, does significantly better in multitarget.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: beidou
-  con: 6
-  weapon: serpentspine
-  refine: 1
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: thecatch
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: thrillingtalesofdragonslayers
-  refine: 3
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: beidou
+    con: 6
+    weapon: serpentspine
+    refine: 1
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 3
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 27115.887898333876
 mode: sl
 duration: 90.00000000000215

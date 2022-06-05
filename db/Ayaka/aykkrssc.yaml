@@ -51,42 +51,42 @@ config: |+
 description: Ayaka Freeze with Kokomi and 4*s.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: favoniuscodex
-  refine: 3
-  er: 0.6612
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: favoniuscodex
+    refine: 3
+    er: 0.6612
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 34036.00156621342
 mode: sl
 duration: 103.99999999999928

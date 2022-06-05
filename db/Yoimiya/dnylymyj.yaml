@@ -48,42 +48,42 @@ config: |+
 description: Yoi without Bennett.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
-- name: diona
-  con: 6
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.9588
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yelan
-  con: 0
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yoimiya
-  con: 0
-  weapon: hamayumi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yunjin
-  con: 6
-  weapon: favoniuslance
-  refine: 5
-  er: 0.7935000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: diona
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.9588
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yoimiya
+    con: 0
+    weapon: hamayumi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yunjin
+    con: 6
+    weapon: favoniuslance
+    refine: 5
+    er: 0.7935000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 37026.01941926601
 mode: sl
 duration: 105.99999999999856

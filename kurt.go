@@ -791,7 +791,7 @@ func saveYaml(data []pack, end bool) error {
 		}
 		os.Remove(data[i].filepath)
 		//err = os.WriteFile(data[i].filepath2, data[i].Config, 0755)
-		if end && force {
+		if end && force && !strings.Contains(data[i].filepath, "DNU") {
 			maxdps := 0.0
 			maxdpschar := -1
 			for j := range data[i].jd.CharDPS {

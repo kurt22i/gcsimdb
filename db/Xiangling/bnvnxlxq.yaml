@@ -1,5 +1,6 @@
 author: Toneiro#4389 and RoyM#2340
-config: "\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
+config:
+  "\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
   refine=1 lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats
   hp=3571 atk=232.0 atk%=0.348 cr=0.2320 pyro%=0.466;\nbennett add stats def=39.36
   def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2979
@@ -26,42 +27,42 @@ config: "\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"the
 description: Venti National.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: venti
-  con: 0
-  weapon: thestringless
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: venti
+    con: 0
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 52050.228862516284
 mode: sl
 duration: 105.99999999999856

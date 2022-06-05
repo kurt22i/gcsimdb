@@ -1,5 +1,6 @@
 author: EnigWa#4825 and solo#0180
-config: "raiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"thecatch\"
+config:
+  "raiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"thecatch\"
   refine=5 lvl=90/90;\nraiden add set=\"emblemofseveredfate\" count=4;\nraiden add
   stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102
   em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl
@@ -21,42 +22,42 @@ config: "raiden char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"thecatc
 description: Mono-Electro Raiden without Bennett.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: alleyhunter
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: thecatch
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sara
-  con: 6
-  weapon: mouunsmoon
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: alleyhunter
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: ironsting
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sara
+    con: 6
+    weapon: mouunsmoon
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 43754.61654790581
 mode: sl
 duration: 126.00000000000189

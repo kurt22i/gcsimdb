@@ -1,5 +1,6 @@
 author: RoyM#2340
-config: "options swap_delay=12 debug=true iteration=1000 duration=104 mode=sl;\n\n#Character
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=104 mode=sl;\n\n#Character
   builds:\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=5;\nxingqiu add stats
   hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124
@@ -25,42 +26,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=104 mode=sl;\n
 description: Sukokomon with Xingqiu.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.6612
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: kitaincrossspear
-  refine: 5
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.6612
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: kitaincrossspear
+    refine: 5
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 45265.75307036118
 mode: sl
 duration: 103.99999999999928

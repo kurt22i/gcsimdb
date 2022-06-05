@@ -1,5 +1,6 @@
 author: Karl Cruz#9995
-config: "####----GENERATED CHARACTER BLOCK DO NOT EDIT----####\nraidenshogun char
+config:
+  "####----GENERATED CHARACTER BLOCK DO NOT EDIT----####\nraidenshogun char
   lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun
   add set=\"emblemofseveredfate\" count=5;\nraidenshogun add stats hp=4780 atk=311
   er=0.518 electro%=0.466 cr=0.311 ; #main\nraidenshogun add stats def%=0.124 def=39.36
@@ -26,42 +27,42 @@ config: "####----GENERATED CHARACTER BLOCK DO NOT EDIT----####\nraidenshogun cha
 description: Sunfire Raiden/Beidou. Scales to 2 targets extremely well.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: beidou
-  con: 6
-  weapon: serpentspine
-  refine: 1
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: jean
-  con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: thecatch
-  refine: 5
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: beidou
+    con: 6
+    weapon: serpentspine
+    refine: 1
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: jean
+    con: 0
+    weapon: ironsting
+    refine: 5
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 31016.454767471067
 mode: sl
 duration: 97.9999999999992

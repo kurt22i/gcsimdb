@@ -41,42 +41,42 @@ config: |+
 description: Mono-Cryo Ayaka with shielding and heals, Rosaria version.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: harbingerofdawn
-  refine: 5
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 5
-  weapon: thealleyflash
-  refine: 1
-  er: 0.9588
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: harbingerofdawn
+    refine: 5
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 5
+    weapon: thealleyflash
+    refine: 1
+    er: 0.9588
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 42579.509338877724
 mode: sl
 duration: 103.99999999999928

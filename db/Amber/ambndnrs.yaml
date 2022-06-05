@@ -70,42 +70,42 @@ config: |+
 description: Melt Amber.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: amber
-  con: 0
-  weapon: hamayumi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: diona
-  con: 6
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.9588000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: amber
+    con: 0
+    weapon: hamayumi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: diona
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.9588000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 33182.60609843045
 mode: sl
 duration: 90.00000000000215

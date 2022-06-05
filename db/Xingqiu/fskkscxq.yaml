@@ -1,5 +1,6 @@
 author: Arfoire#9219
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=apl;\n\n#Character
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=apl;\n\n#Character
   builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"sacrificialfragments\"
   refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
   stats hp=4780 atk=311 em=560 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
@@ -29,42 +30,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
 description: A comfortable taser team.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: sacrificialfragments
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: lionsroar
-  refine: 3
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: sacrificialfragments
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: lionsroar
+    refine: 3
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 37239.61389855942
 mode: apl
 duration: 99.9999999999986

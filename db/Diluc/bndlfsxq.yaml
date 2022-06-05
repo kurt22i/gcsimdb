@@ -1,5 +1,6 @@
 author: Rare Possum#0511 and Hessey#9122
-config: "options swap_delay=12 debug=true iteration=1000 duration=127 workers=30 mode=sl;\n\ndiluc
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=127 workers=30 mode=sl;\n\ndiluc
   char lvl=90/90 cons=0 talent=9,9,9; \ndiluc add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\ndiluc add set=\"thunderingfury\" count=4;\ndiluc
   add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\ndiluc add stats def%=0.124
@@ -27,42 +28,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=127 workers=30
 description: Diluc with Fischl.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: diluc
-  con: 0
-  weapon: serpentspine
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: diluc
+    con: 0
+    weapon: serpentspine
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 37689.45847176422
 mode: sl
 duration: 126.9999999999982

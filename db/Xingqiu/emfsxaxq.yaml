@@ -63,42 +63,42 @@ config: |
 description: EM Xiao meme team.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: travelerelectro
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiao
-  con: 0
-  weapon: dragonsbane
-  refine: 3
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: travelerelectro
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiao
+    con: 0
+    weapon: dragonsbane
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 30223.130233892316
 mode: sl
 duration: 120.00000000000152

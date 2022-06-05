@@ -1,5 +1,6 @@
 author: rf#5773
-config: "options debug=true iteration=1000 duration=182 mode=sl swap_delay=12;\n\n###
+config:
+  "options debug=true iteration=1000 duration=182 mode=sl swap_delay=12;\n\n###
   CHARACTERS, WEAPONS\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"ironsting\"
   refine=5 lvl=90/90;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;\nayato add weapon=\"lionsroar\"
   refine=3 lvl=90/90;\n\nyae char lvl=90/90 cons=0 talent=9,9,9;\nyae add weapon=\"thewidsith\"
@@ -23,42 +24,42 @@ config: "options debug=true iteration=1000 duration=182 mode=sl swap_delay=12;\n
 description: Yaeyato taser.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayato
-  con: 0
-  weapon: lionsroar
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: thewidsith
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayato
+    con: 0
+    weapon: lionsroar
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: ironsting
+    refine: 5
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: thewidsith
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 46536.42079101513
 mode: sl
 duration: 181.99999999999747

@@ -1,5 +1,6 @@
 author: Arfoire#9219, danii#8748, Lettuce Hunt#5806 and Charliex3000#9403
-config: "options swap_delay=12 debug=true iteration=1000 duration=113 workers=30 mode=sl;\n\n\n\nbennett
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=113 workers=30 mode=sl;\n\n\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\nbennett add stats
   hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
@@ -26,42 +27,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=113 workers=30
 description: Sucrose National. A very strong 4* only team.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 55130.52318955319
 mode: sl
 duration: 112.9999999999996

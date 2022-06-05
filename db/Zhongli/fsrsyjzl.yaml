@@ -61,42 +61,42 @@ config: |+
 description: Pikeli.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yunjin
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: crescentpike
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yunjin
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: crescentpike
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 39663.689635940624
 mode: sl
 duration: 100.9999999999993

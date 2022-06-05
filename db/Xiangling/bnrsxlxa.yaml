@@ -1,5 +1,6 @@
 author: Cold MsSteak#8744 and Xardas#5785
-config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\n#Character
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\n#Character
   builds:\nxiao char lvl=90/90 cons=0 talent=9,9,9;\nxiao add weapon=\"favoniuslance\"
   refine=3 lvl=90/90;\nxiao add set=\"viridescentvenerer\" count=4;\nxiao add stats
   hp=4780 atk=311 er=0.518 anemo%=0.466 cr=0.311; #Main stats\nxiao add stats def=39.36
@@ -24,46 +25,47 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
   attack:3;\nrosaria skill, burst;\nxiao attack, skill;\nxiangling burst, skill;\nbennett
   skill, attack;\nrosaria skill;\nxiao skill, burst, \n  attack, jump, high_plunge[collision=1],
   charge,\n  attack, jump, high_plunge[collision=1], charge;\nrestart;\n\n\n\n\n"
-description: Rev Melt Xiao. Assumes collisions on all plunges, which does take some
+description:
+  Rev Melt Xiao. Assumes collisions on all plunges, which does take some
   practice.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: deathmatch
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.2755
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiao
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: deathmatch
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.2755
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiao
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 44121.94575095747
 mode: sl
 duration: 102.99999999999858

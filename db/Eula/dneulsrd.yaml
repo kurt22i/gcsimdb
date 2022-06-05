@@ -1,5 +1,6 @@
 author: Kurt#5846, Rare Possum#0511 and ShadowDawn#5332
-config: "options swap_delay=12 debug=true iteration=1000 duration=111 workers=30 mode=sl;\n\neula
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=111 workers=30 mode=sl;\n\neula
   char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\neula add set=\"bloodstainedchivalry\" count=1;\neula
   add set=\"paleflame\" count=4;\neula add stats hp=4780 atk=311 atk%=0.466 phys%=0.583
@@ -24,42 +25,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=111 workers=30
 description: Eula with Lisa.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: diona
-  con: 6
-  weapon: sacrificialbow
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: eula
-  con: 0
-  weapon: serpentspine
-  refine: 1
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: lisa
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: diona
+    con: 6
+    weapon: sacrificialbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: eula
+    con: 0
+    weapon: serpentspine
+    refine: 1
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: lisa
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 35985.41907081384
 mode: sl
 duration: 111.00000000000108

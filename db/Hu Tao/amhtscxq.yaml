@@ -1,5 +1,6 @@
 author: rf#5773 and Lovonix#6905
-config: "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30 mode=sl;\n\nhutao
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"deathmatch\"
   refine=1 lvl=90/90;\nhutao add set=\"crimsonwitchofflames\" count=4;\nhutao add
   stats hp=4780 atk=311 hp%=0.466 cd=0.622 pyro%=0.466 ; #main\nhutao add stats def%=0.124
@@ -30,42 +31,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=189 workers=30
 description: Hu Tao VV Vape with Sucrose instead of Kazuha.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: amber
-  con: 2
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.49720000000000003
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: hutao
-  con: 0
-  weapon: deathmatch
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: amber
+    con: 2
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.49720000000000003
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: hutao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 44259.67365083942
 mode: sl
 duration: 188.99999999999537

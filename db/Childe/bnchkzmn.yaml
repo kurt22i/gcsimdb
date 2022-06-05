@@ -1,5 +1,6 @@
 author: RoyM#2340
-config: "options debug=true iteration=1000 duration=112 mode=sl;\n\n#Character builds:\n\nbennett
+config:
+  "options debug=true iteration=1000 duration=112 mode=sl;\n\n#Character builds:\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232
   er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88
@@ -25,42 +26,42 @@ config: "options debug=true iteration=1000 duration=112 mode=sl;\n\n#Character b
 description: Hydro Eula.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: mona
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: tartaglia
-  con: 0
-  weapon: theviridescenthunt
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: mona
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: tartaglia
+    con: 0
+    weapon: theviridescenthunt
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 25043.525225045494
 mode: sl
 duration: 111.99999999999807

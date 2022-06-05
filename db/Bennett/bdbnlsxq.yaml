@@ -126,42 +126,42 @@ config: |+
 description: TF Bennett with Lisa.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: beidou
-  con: 6
-  weapon: favoniusgreatsword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: lisa
-  con: 2
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: lionsroar
-  refine: 3
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: beidou
+    con: 6
+    weapon: favoniusgreatsword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: lisa
+    con: 2
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: lionsroar
+    refine: 3
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 40805.85074475917
 mode: sl
 duration: 128.00000000000009

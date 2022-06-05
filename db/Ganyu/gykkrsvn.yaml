@@ -1,5 +1,6 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=83 workers=30 mode=sl;\n\nrosaria
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=83 workers=30 mode=sl;\n\nrosaria
   char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"favoniuslance\" refine=3
   lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=4;\nrosaria add stats hp=4780
   atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nrosaria add stats def%=0.124 def=39.36
@@ -24,42 +25,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=83 workers=30 
 description: Freeze Ganyu with Kokomi and Rosaria.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ganyu
-  con: 0
-  weapon: prototypecrescent
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: venti
-  con: 0
-  weapon: thestringless
-  refine: 3
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ganyu
+    con: 0
+    weapon: prototypecrescent
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: venti
+    con: 0
+    weapon: thestringless
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 36491.48396290978
 mode: sl
 duration: 82.99999999999875

@@ -62,42 +62,42 @@ config: |+
 description: Double Geo Xiao with Bennett.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: albedo
-  con: 0
-  weapon: cinnabarspindle
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiao
-  con: 0
-  weapon: deathmatch
-  refine: 1
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: albedo
+    con: 0
+    weapon: cinnabarspindle
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 44803.91527449069
 mode: sl
 duration: 109.99999999999949

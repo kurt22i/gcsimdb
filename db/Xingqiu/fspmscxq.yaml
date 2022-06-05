@@ -1,5 +1,6 @@
 author: vigne#5943
-config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=apl;\n\n#Character
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=apl;\n\n#Character
   builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"sacrificialfragments\"
   refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
   stats hp=4780 atk=311 em=560 ; #main\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;
@@ -23,33 +24,33 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30
 description: The 4* taser core. Do you really even need a 4th?
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: fischl
-  con: 6
-  weapon: thestringless
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: sacrificialfragments
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: sacrificialfragments
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 34750.99344381537
 mode: apl
 duration: 99.9999999999986

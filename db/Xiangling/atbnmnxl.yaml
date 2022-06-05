@@ -1,5 +1,6 @@
 author: Ocram2012#6693
-config: "options swap_delay=12 debug=true iteration=1000 duration=173 workers=30 mode=sl;\n\n###
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=173 workers=30 mode=sl;\n\n###
   Characters\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nmona add set=\"tenacityofthemillelith\" count=5;\nmona add
   stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124
@@ -24,42 +25,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=173 workers=30
 description: Monato.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayato
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: mona
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayato
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: mona
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 44686.16895285963
 mode: sl
 duration: 173.0000000000013

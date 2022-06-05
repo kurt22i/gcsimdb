@@ -1,5 +1,6 @@
 author: noops#6056
-config: "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\ntravelerelectro
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\ntravelerelectro
   char lvl=90/90 cons=6 talent=9,9,9;\ntravelerelectro add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\ntravelerelectro add set=\"instructor\" count=4;\ntravelerelectro
   add set=\"emblemofseveredfate\" count=1;\ntravelerelectro add stats hp=3571 atk=232.0
@@ -28,42 +29,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30
 description: EMC National.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: travelerelectro
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.0882
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: harbingerofdawn
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: travelerelectro
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.0882
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: harbingerofdawn
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 47300.55726707316
 mode: sl
 duration: 106.99999999999939

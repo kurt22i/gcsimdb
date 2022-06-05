@@ -1,5 +1,6 @@
 author: Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\n#
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\n#
   ---- Characters\nyunjin char lvl=90/90 cons=6 talent=9,9,9; \nyunjin add weapon=\"favoniuslance\"
   refine=3 lvl=90/90 +params=[stacks=5];\nyunjin add set=\"noblesseoblige\" count=4;\nyunjin
   add stats hp=4780 atk=311 er=0.518 cr=0.311 def%=0.583 ; #main\nyunjin add stats
@@ -26,42 +27,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
 description: Physchl.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: fischl
-  con: 6
-  weapon: rust
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yunjin
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: rust
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yunjin
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 30175.791614885457
 mode: sl
 duration: 102.99999999999858

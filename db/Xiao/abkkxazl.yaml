@@ -1,5 +1,6 @@
 author: Hessey#9122
-config: "options debug=true iteration=1000 duration=128 workers=30 mode=sl swap_delay=12;\n\nenergy
+config:
+  "options debug=true iteration=1000 duration=128 workers=30 mode=sl swap_delay=12;\n\nenergy
   every interval=480,720 amount=1;\n\ntarget lvl=100 resist=0.1;\n\nzhongli char lvl=90/90
   cons=0 talent=9,9,9;\nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli
   add set=\"tenacityofthemillelith\" count=5;\nzhongli add stats hp=4780 atk=311 hp%=0.466
@@ -26,42 +27,42 @@ config: "options debug=true iteration=1000 duration=128 workers=30 mode=sl swap_
 description: Double Geo Xiao with Kokomi.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: albedo
-  con: 0
-  weapon: cinnabarspindle
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiao
-  con: 0
-  weapon: deathmatch
-  refine: 1
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: albedo
+    con: 0
+    weapon: cinnabarspindle
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 41536.50705112442
 mode: sl
 duration: 128.00000000000009

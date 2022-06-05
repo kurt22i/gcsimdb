@@ -1,5 +1,6 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "options debug=true iteration=1000 duration=97 workers=30 mode=sl;\n\nraiden
+config:
+  "options debug=true iteration=1000 duration=97 workers=30 mode=sl;\n\nraiden
   char lvl=90/90 cons=0 talent=9,9,9; \nraiden add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden
   add set=\"tenacityofthemillelith\" count=5;\nraiden add stats hp=4780 atk=311 er=0.518
   atk%=0.466 cr=0.311 ; #main\nraiden add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -24,42 +25,42 @@ config: "options debug=true iteration=1000 duration=97 workers=30 mode=sl;\n\nra
 description: Eula/Beidou.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: beidou
-  con: 6
-  weapon: serpentspine
-  refine: 1
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: diona
-  con: 6
-  weapon: sacrificialbow
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: eula
-  con: 0
-  weapon: serpentspine
-  refine: 1
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: thecatch
-  refine: 5
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: beidou
+    con: 6
+    weapon: serpentspine
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: diona
+    con: 6
+    weapon: sacrificialbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: eula
+    con: 0
+    weapon: serpentspine
+    refine: 1
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 30772.91776447715
 mode: sl
 duration: 96.99999999999865

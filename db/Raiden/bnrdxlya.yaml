@@ -1,5 +1,6 @@
 author: Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\nraidenshogun
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30 mode=sl;\n\n\nraidenshogun
   char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
   lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
@@ -35,42 +36,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=110 workers=30
 description: Raiden National, but with a fox instead of Xingqiu. Rotation by elijam#7142.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 5
-  weapon: thealleyflash
-  refine: 1
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: raiden
-  con: 0
-  weapon: thecatch
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: wavebreakersfin
-  refine: 1
-  er: 0.8486
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yaemiko
-  con: 0
-  weapon: thewidsith
-  refine: 3
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 5
+    weapon: thealleyflash
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: wavebreakersfin
+    refine: 1
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: thewidsith
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 44347.7427179034
 mode: sl
 duration: 109.99999999999949

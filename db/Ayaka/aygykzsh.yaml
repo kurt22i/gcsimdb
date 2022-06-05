@@ -1,6 +1,8 @@
-author: Watter#7122, cyan#3224, Eves#6666, KQMC Complainer#8306, Hessey#9122 and Rare
+author:
+  Watter#7122, cyan#3224, Eves#6666, KQMC Complainer#8306, Hessey#9122 and Rare
   Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=230 workers=30 mode=sl;\nenergy
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=230 workers=30 mode=sl;\nenergy
   every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nayaka char lvl=90/90
   cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka
   add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780 atk=311 atk%=0.4660
@@ -54,42 +56,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=230 workers=30
 description: Mono-cryo Ayaka. No shielding or healing.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: ganyu
-  con: 0
-  weapon: prototypecrescent
-  refine: 5
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.6612
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: shenhe
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: ganyu
+    con: 0
+    weapon: prototypecrescent
+    refine: 5
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: ironsting
+    refine: 5
+    er: 0.6612
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: shenhe
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 61760.2355194783
 mode: sl
 duration: 229.9999999999962

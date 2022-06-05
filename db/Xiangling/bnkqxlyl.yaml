@@ -1,5 +1,6 @@
 author: Lettuce Hunt#5806
-config: "options swap_delay=13 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nkeqing
+config:
+  "options swap_delay=13 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nkeqing
   char lvl=90/90 cons=0 talent=9,9,9;\n#keqing add weapon=\"theblacksword\" refine=1
   lvl=90/90;\n#keqing add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nkeqing add
   weapon=\"favoniussword\" refine=3 lvl=90/90;\nkeqing add set=\"shimenawasreminiscence\"
@@ -51,42 +52,42 @@ config: "options swap_delay=13 debug=true iteration=1000 duration=103 workers=30
 description: Vape Keqing with Yelan.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: keqing
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yelan
-  con: 0
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: keqing
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 48766.45319703373
 mode: sl
 duration: 102.99999999999858

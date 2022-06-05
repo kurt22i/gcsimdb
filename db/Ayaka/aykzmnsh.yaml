@@ -1,5 +1,6 @@
 author: Charliex3000#9403, cyan#3224 and rf#5773
-config: "options swap_delay=12 debug=true iteration=1000 duration=145 workers=30 mode=sl;\nayaka
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=145 workers=30 mode=sl;\nayaka
   char lvl=90/90 cons=0 talent=9,9,9; \nayaka add weapon=\"amenomakageuchi\" refine=5
   lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780
   atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main;\nayaka add stats hp%=0.0992 hp=507.88
@@ -24,46 +25,47 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=145 workers=30
   dash, attack:2, skill, attack:2;\nkazuha skill[hold=1], high_plunge;\nshenhe burst,
   skill;\nkazuha burst;\nmona skill, burst;\nayaka skill, dash, burst, attack, charge;\nshenhe
   skill, attack;\nkazuha skill, high_plunge;\nayaka dash, attack:3, charge;\n\nrestart;\n\n\n\n"
-description: Ayaka Freeze with VV and Shenhe. Can also use Prototype Amber on Mona
+description:
+  Ayaka Freeze with VV and Shenhe. Can also use Prototype Amber on Mona
   for healing; this reduces DPS by about 4.5k.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.1653
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: mona
-  con: 0
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: shenhe
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.6612
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.1653
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: mona
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: shenhe
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.6612
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 59124.807906983464
 mode: sl
 duration: 145.00000000000006

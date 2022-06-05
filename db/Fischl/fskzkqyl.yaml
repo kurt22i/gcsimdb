@@ -20,22 +20,22 @@ config: |+
   fischl add set="thundersoother" count=4;
   fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=129 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=177 workers=30 mode=sl;
 
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
 
   active fischl;
   fischl skill;
-  yelan skill,burst,attack;
-  kazuha burst,attack, skill,high_plunge;
+  yelan burst,attack,skill;
+  kazuha attack,burst,attack, skill,high_plunge;
 
   keqing attack,skill,skill,
   attack,charge,
   attack,charge,
   attack,charge,
   attack,charge,
-  attack,charge;
+  attack:2;
 
   fischl attack,burst;
   yelan attack,skill;
@@ -46,53 +46,54 @@ config: |+
   attack,charge,
   attack,charge,
   attack,charge,
-  attack;
-  kazuha skill,high_plunge,attack:3;
-  fischl attack;
+  attack:2;
+  kazuha skill,high_plunge,attack:2;
+
   restart;
+
 
 
 description: Keqing Taser with Yelan.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
-- name: fischl
-  con: 6
-  weapon: alleyhunter
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: ironsting
-  refine: 5
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: keqing
-  con: 0
-  weapon: lionsroar
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: yelan
-  con: 0
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-dps: 49788.7943868025
+  - name: fischl
+    con: 6
+    weapon: alleyhunter
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: ironsting
+    refine: 5
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: keqing
+    con: 0
+    weapon: lionsroar
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 51115.00930627734
 mode: sl
-duration: 129.00000000000193
+duration: 177.00000000000023
 target_count: 1
 viewer_key: yDOFQ7gMGWjEf0PEsNCom

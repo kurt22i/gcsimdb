@@ -40,42 +40,42 @@ config: |+
 description: Mono-Cryo Ganyu with shielding and heals.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.9588
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: ganyu
-  con: 0
-  weapon: prototypecrescent
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: shenhe
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.9588
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: ganyu
+    con: 0
+    weapon: prototypecrescent
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: shenhe
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 41741.49931579029
 mode: sl
 duration: 112.9999999999996

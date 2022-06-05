@@ -1,5 +1,6 @@
 author: Lettuce Hunt#5806
-config: "options swap_delay=12 debug=true iteration=1000 duration=124 workers=30 mode=sl;\n\nkamisatoayaka
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=124 workers=30 mode=sl;\n\nkamisatoayaka
   char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"harbingerofdawn\"
   refine=5 lvl=90/90;\nkamisatoayaka add set=\"emblemofseveredfate\" count=5;\nkamisatoayaka
   add stats hp=4780 atk=311 er=0.518 cryo%=0.466 cr=0.311 ; #main\nkamisatoayaka add
@@ -35,42 +36,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=124 workers=30
 description: Ayaka Melt with "grouping".
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: harbingerofdawn
-  refine: 5
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 1.069
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: sucrose
-  con: 6
-  weapon: thrillingtalesofdragonslayers
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: harbingerofdawn
+    refine: 5
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 49103.589537925
 mode: sl
 duration: 123.99999999999817

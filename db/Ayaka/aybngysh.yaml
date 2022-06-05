@@ -1,5 +1,6 @@
 author: Kurt#5846 and Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=128 workers=30 mode=sl;\nayaka
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=128 workers=30 mode=sl;\nayaka
   char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5
   lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780
   atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124 def=39.36
@@ -21,46 +22,47 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=128 workers=30
   burst,skill,attack;\nshenhe skill,burst;\nganyu burst[radius=2],attack, skill;\nayaka
   dash, attack, attack;\nwait 5;\nayaka skill, burst;\nshenhe attack, skill;\nbennett
   skill;\nganyu aim[weakspot=1]:2, skill;\nwait 10;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n"
-description: Bennett once again proving that he is a viable pair for every single
+description:
+  Bennett once again proving that he is a viable pair for every single
   unit in the game.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: ayaka
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: bennett
-  con: 5
-  weapon: thealleyflash
-  refine: 1
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: ganyu
-  con: 0
-  weapon: prototypecrescent
-  refine: 5
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: shenhe
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ayaka
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 5
+    weapon: thealleyflash
+    refine: 1
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: ganyu
+    con: 0
+    weapon: prototypecrescent
+    refine: 5
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: shenhe
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 51446.62362192256
 mode: sl
 duration: 128.00000000000009

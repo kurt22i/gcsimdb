@@ -1,5 +1,6 @@
 author: ShadowDawn#5332
-config: "options swap_delay=12 debug=true iteration=1000 duration=150 mode=sl;\n#
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=150 mode=sl;\n#
   Note that bennett and xiangling both have a little bit too much ER\n# That's negligible
   DPS loss for a much more realistic build and a better looking curve \n\n#Character
   Builds:\nganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu add weapon=\"thestringless\"
@@ -23,46 +24,47 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=150 mode=sl;\n
   attack;\nwait 52;\nrosaria skill;\nganyu skill,burst;\nbennett skill;\nxiangling
   burst,skill;\nrosaria skill,burst;\nganyu aim,skill;\nbennett skill;\nxiangling
   attack;\nwait 52;\nrosaria skill;\nganyu aim;\n\nrestart;\n\n\n"
-description: Reverse Melt Rosaria + Melt Ganyu + Xiangling doing all the damage like
+description:
+  Reverse Melt Rosaria + Melt Ganyu + Xiangling doing all the damage like
   usual.
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: bennett
-  con: 6
-  weapon: thealleyflash
-  refine: 1
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: ganyu
-  con: 0
-  weapon: thestringless
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: deathmatch
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xiangling
-  con: 6
-  weapon: thecatch
-  refine: 5
-  er: 0.7384000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: ganyu
+    con: 0
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: deathmatch
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 48235.37110519489
 mode: sl
 duration: 150.0000000000028

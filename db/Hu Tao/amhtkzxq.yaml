@@ -1,5 +1,6 @@
 author: rf#5773, clrE#6290, Sadeye#1043 and Rare Possum#0511
-config: "hutao char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon= \"deathmatch\"
+config:
+  "hutao char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon= \"deathmatch\"
   refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
   stats hp=4780 atk=311 em=186.5 pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3972
@@ -23,46 +24,47 @@ config: "hutao char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=
   jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
   jump, \n    attack:1, charge, jump, \n    attack:1, charge, jump;\n    \nkazuha
   attack, skill, high_plunge,attack;  \nxingqiu attack:2;\nrestart;\n\n\n"
-description: VV Vape Tao with Amber. Hu Tao dying drops the DPS to 0, so make sure
+description:
+  VV Vape Tao with Amber. Hu Tao dying drops the DPS to 0, so make sure
   your dodging is good enough to play this.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
-- name: amber
-  con: 2
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.6282
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: hutao
-  con: 0
-  weapon: deathmatch
-  refine: 1
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.6612
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: amber
+    con: 2
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: hutao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.6612
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 50583.958813178644
 mode: sl
 duration: 188.99999999999537

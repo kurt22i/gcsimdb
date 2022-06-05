@@ -1,5 +1,6 @@
 author: imring#3781 and Kurt#5846
-config: "options swap_delay=12 debug=true iteration=1000 duration=108 mode=sl;\n\nkokomi
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=108 mode=sl;\n\nkokomi
   char lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"prototypeamber\" refine=5
   lvl=90/90;\nkokomi add set=\"oceanhuedclam\" count=4;\nkokomi add stats hp=4780
   atk=311 hp%=0.466 hydro%=0.466 heal=0.359; # main\nkokomi add stats def%=0.124 def=39.36
@@ -21,46 +22,47 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=108 mode=sl;\n
   lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\nactive kokomi;\n\nkokomi
   skill;\nzhongli skill[hold=1],dash;\nalbedo skill,attack:2;\nxingqiu skill,burst,attack:3;\nalbedo
   skill,attack:2;\nzhongli burst,dash;\nkokomi burst,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2,dash,attack:2;\nrestart;\n"
-description: '"Petrichor": Kokomi + Geo, a basically invincible team that still deals
+description:
+  '"Petrichor": Kokomi + Geo, a basically invincible team that still deals
   nice damage.'
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: albedo
-  con: 0
-  weapon: cinnabarspindle
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: prototypeamber
-  refine: 5
-  er: 0.551
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: zhongli
-  con: 0
-  weapon: favoniuslance
-  refine: 3
-  er: 0.2204
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: albedo
+    con: 0
+    weapon: cinnabarspindle
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: prototypeamber
+    refine: 5
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 42511.2347302435
 mode: sl
 duration: 108.00000000000088

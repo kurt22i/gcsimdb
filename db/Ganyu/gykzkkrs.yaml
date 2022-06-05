@@ -1,5 +1,6 @@
 author: Rare Possum#0511
-config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nrosaria
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nrosaria
   char lvl=90/90 cons=6 talent=9,9,9 start_hp=1;\nrosaria add weapon=\"favoniuslance\"
   refine=3 lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=4;\nrosaria add stats
   hp=4780 atk=311 atk%=0.466 cr=0.311 cryo%=0.466 ;\nrosaria add stats def%=0.124
@@ -26,42 +27,42 @@ config: "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30
 description: Crit Kokomi.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
-- name: ganyu
-  con: 0
-  weapon: favoniuswarbow
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kazuha
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.3306
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kokomi
-  con: 0
-  weapon: solarpearl
-  refine: 1
-  er: 0.9588000000000001
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: rosaria
-  con: 6
-  weapon: favoniuslance
-  refine: 3
-  er: 0.4408
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: ganyu
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: solarpearl
+    refine: 1
+    er: 0.9588000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 25355.301486948745
 mode: sl
 duration: 102.99999999999858

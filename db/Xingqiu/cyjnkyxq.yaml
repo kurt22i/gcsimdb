@@ -46,42 +46,42 @@ config: |+
 description: ""
 hash: 260bedd71516b06616f694e1d6f86046631a96c8
 team:
-- name: chongyun
-  con: 6
-  weapon: favoniusgreatsword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: jean
-  con: 0
-  weapon: favoniussword
-  refine: 3
-  er: 0.7384
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: kaeya
-  con: 0
-  weapon: amenomakageuchi
-  refine: 5
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
-- name: xingqiu
-  con: 6
-  weapon: favoniussword
-  refine: 3
-  er: 0.1102
-  talents:
-    attack: 9
-    skill: 9
-    burst: 9
+  - name: chongyun
+    con: 6
+    weapon: favoniusgreatsword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.7384
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kaeya
+    con: 0
+    weapon: amenomakageuchi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
 dps: 27922.267484814965
 mode: sl
 duration: 120.00000000000152
