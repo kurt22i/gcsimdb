@@ -21,42 +21,41 @@ config:
   add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
   cr=0.331 cd=0.7944;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every
-  interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\n\n\n\nyelan skill,
-  burst, attack;\nxingqiu burst, attack;\n#enable double rainswords, yelan catches
-  her own particles\n\nbennett burst, attack, skill;\nxiangling attack, burst, attack,
-  skill;\n#snapshot pyronado and guoba\nbennett attack, skill;\nxingqiu attack:2;\nyelan
+  interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\n\n\n\nyelan attack:2,
+  skill, burst, attack;\nxingqiu burst, attack;\n#enable double rainswords, yelan
+  catches her own particles\n\nbennett burst, attack, skill;\nxiangling attack, burst,
+  attack, skill;\n#snapshot pyronado and guoba\nbennett attack, skill;\nxingqiu attack:2;\nyelan
   attack, skill;\nxingqiu attack:3, skill, dash, attack:2, jump, attack;\nbennett
   skill, attack:2;\nxiangling attack:2;\nbennett skill, attack:2, dash, attack:2,
-  skill, attack;\nyelan attack:2;\nwait 2;\n\nrestart;\n#put conceptually, this team
-  has three objectives beyond the \"normal ones\" like snapshotting pyronado in bennett
-  buff and getting as many rainsword procs as possible - you want to cast yelan e
-  on cooldown, you want to cast bennett's e on cooldown while he has his buff up for
-  the cdr, you want to cast xq at the bottom of yelan's a4. the sim does not forward
-  vape the hit but you can try to forward vape at least one of the two hits.\n\n#the
-  point of this team is to take advantage of bennett's cdr provided by his buff to
-  relax ER requirements for the entire party. he casts e enough times that crimson
-  witch is actually the play on him over, say, instructors, because the users who
-  would benefit from instructors dynamically (yelan and xingqiu) are maintaining aura
-  rather than reacting\n\n#elemental reactions: the combination of rainswords and
-  yerainswords are enough to easy vape no matter the strength of pyro application
-  - the only time you cleanse hydro aura is when gouba/pyronado/bennett e all hit
-  at once, and subsequently any auto swing will instantly clean any stray pyro and
-  reapply hydro. that makes getting value out of this comp easier than it might seem\n\n#this
-  is very poor on 2+ targets - everyone but xiangling has a single target focus\n\n#performance
-  in game will likely exceed performance in sims. both xl and xq scale decently well
-  with better artifacts, and sim assumes that you're hugging your enemy, so orbitals
-  will kill any chance of forward vaping xingqiu's e. in game, it's very, very easy
-  to do so, and incredibly potent. combined with an almost complete lack of ER requirements,
-  the weapons you will use in game will likely be a crit weapon, or anything that
-  just gives big damage.\n\n#in regards to whalescaling, yelan constellations increase
-  her personal damage significantly, but aren't anything drastic. jade cutter (or
-  any of mist/jade/haran) will balloon xq's damage to the tune of 15-20%. engulfing
-  lightning on xl, or homa + er sands, will both make xl's pyronado ticks effectively
-  go up in damage by ~30-40%, which approaches the point of hilarity. the largest
-  gain on this team, however, is mistsplitter on bennett. the number of e casts, combined
-  with the highest base attack in the game makes it the premiere choice for this team.
-  freedom sworn, while not as numerically monolithic, is almost as good. elegy on
-  yelan is, similarly, worth considering.\n\n\n\n"
+  skill, attack;\nwait 2;\n\nrestart;\n\n\n#put conceptually, this team has three
+  objectives beyond the \"normal ones\" like snapshotting pyronado in bennett buff
+  and getting as many rainsword procs as possible - you want to cast yelan e on cooldown,
+  you want to cast bennett's e on cooldown while he has his buff up for the cdr, you
+  want to cast xq at the bottom of yelan's a4. the sim does not forward vape the hit
+  but you can try to forward vape at least one of the two hits.\n\n#the point of this
+  team is to take advantage of bennett's cdr provided by his buff to relax ER requirements
+  for the entire party. he casts e enough times that crimson witch is actually the
+  play on him over, say, instructors, because the users who would benefit from instructors
+  dynamically (yelan and xingqiu) are maintaining aura rather than reacting\n\n#elemental
+  reactions: the combination of rainswords and yerainswords are enough to easy vape
+  no matter the strength of pyro application - the only time you cleanse hydro aura
+  is when gouba/pyronado/bennett e all hit at once, and subsequently any auto swing
+  will instantly clean any stray pyro and reapply hydro. that makes getting value
+  out of this comp easier than it might seem\n\n#this is very poor on 2+ targets -
+  everyone but xiangling has a single target focus\n\n#performance in game will likely
+  exceed performance in sims. both xl and xq scale decently well with better artifacts,
+  and sim assumes that you're hugging your enemy, so orbitals will kill any chance
+  of forward vaping xingqiu's e. in game, it's very, very easy to do so, and incredibly
+  potent. combined with an almost complete lack of ER requirements, the weapons you
+  will use in game will likely be a crit weapon, or anything that just gives big damage.\n\n#in
+  regards to whalescaling, yelan constellations increase her personal damage significantly,
+  but aren't anything drastic. jade cutter (or any of mist/jade/haran) will balloon
+  xq's damage to the tune of 15-20%. engulfing lightning on xl, or homa + er sands,
+  will both make xl's pyronado ticks effectively go up in damage by ~30-40%, which
+  approaches the point of hilarity. the largest gain on this team, however, is mistsplitter
+  on bennett. the number of e casts, combined with the highest base attack in the
+  game makes it the premiere choice for this team. freedom sworn, while not as numerically
+  monolithic, is almost as good. elegy on yelan is, similarly, worth considering.\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yelan National, featuring DPS Bennett.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -96,7 +95,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 71899.94415959073
+dps: 72025.50277335168
 mode: sl
 duration: 105.99999999999856
 target_count: 1
