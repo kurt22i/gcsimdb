@@ -120,6 +120,31 @@ func run(skipDownload bool) error {
 		}
 	}
 
+	/*cmd := exec.Command("cmd", "/C", "npx")
+	err = cmd.Run()
+	if err != nil {
+		return errors.Wrap(err, "")
+	}*/
+	cmd := exec.Command("cmd", "/C", "npx prettier --write --end-of-line=crlf db/**")
+	//err = cmd.Run()
+	if err != nil {
+		return errors.Wrap(err, "")
+	}
+	var out bytes.Buffer
+	var stderr bytes.Buffer
+	cmd.Stdout = &out
+	cmd.Stderr = &stderr
+	err = cmd.Run()
+	if err != nil {
+		fmt.Println(fmt.Sprint(err) + ": " + stderr.String())
+
+	}
+	/*cmd = exec.Command("cmd", "/C", "exit")
+	err = cmd.Run()
+	if err != nil {
+		return errors.Wrap(err, "")
+	}*/
+
 	return nil
 }
 

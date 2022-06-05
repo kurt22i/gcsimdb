@@ -15,10 +15,10 @@ config:
   def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420
   cd=0.7944 cryo%=0.4660;\n\noptions swap_delay=12 debug=true iteration=1000 duration=110
   workers=30 mode=sl;\n\nenergy every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nactive
-  ayaka;\nayaka dash, skill, attack:3, charge;\ndiona skill, burst, aim[weakspot=1];\nyelan
-  \ skill, burst, attack;\nkazuha skill,  high_plunge, burst; \nayaka dash,attack,skill,attack:2,burst,
+  ayaka;\nayaka dash, skill, attack:3, charge;\ndiona skill, burst;\nyelan  skill,
+  burst, attack;\nkazuha attack, skill,  high_plunge, attack, burst; \nayaka dash,attack,skill,attack:2,burst,
   attack;\nkazuha skill,  high_plunge,attack;\nyelan skill, attack;\nayaka dash,attack:3,charge,\n
-  \     dash, attack:3,charge;\nrestart;\n\n\n\n\n\n\n\n"
+  \     dash, attack:3,charge;\nrestart;\n\n\n\n\n\n\n\n\n"
 description: Ayalan Freeze.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -58,7 +58,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49304.41495302486
+dps: 49850.350149458136
 mode: sl
 duration: 109.99999999999949
 target_count: 1
