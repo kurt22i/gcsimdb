@@ -1,6 +1,6 @@
 author: RoyM#2340, Lettuce Hunt#5806, Lizz71#8986, Kurt#5846 and Hessey#9122
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=128 workers=30 mode=sl;\n\nbennett
+  "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\nbennett add stats
   hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
@@ -9,43 +9,36 @@ config:
   refine=5 lvl=90/90;\n#xiangling add weapon=\"deathmatch\" refine=1 lvl=90/90;\n#xiangling
   add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
   count=4;\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9; \nyelan
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9; \nyelan
   add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\n#yelan add set=\"emblemofseveredfate\"
   count=4;\nyelan add set=\"noblesseoblige\" count=4;\nyelan add stats hp=4780 atk=311
-  hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n \nxingqiu
-  char lvl=90/90 cons=6 talent=9,9,9; \n#xingqiu add weapon=\"amenomakageuchi\" refine=5
-  lvl=90/90;\nxingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\n#xingqiu
+  hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n
+  \nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \n#xingqiu add weapon=\"amenomakageuchi\"
+  refine=5 lvl=90/90;\nxingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\n#xingqiu
   add set=\"noblesseoblige\" count=4;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu
   add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
   cr=0.331 cd=0.7944;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every
-  interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\nxingqiu burst,
-  attack;\nyelan skill, attack, burst, attack;\n#enable double rainswords, yelan catches
+  interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\n\n\n\nyelan skill,
+  burst, attack;\nxingqiu burst, attack;\n#enable double rainswords, yelan catches
   her own particles\n\nbennett burst, attack, skill;\nxiangling attack, burst, attack,
-  skill;\n#snapshot pyronado and guoba\n\nbennett attack, skill;\nxingqiu attack:2;\nbennett
-  attack, skill;\n#bennett comes on field to use his e with the cd, and to reacquire
-  the buff, xingqiu comes on field to dynamically buff rainswords\n\nyelan attack,
-  skill;\n#mash out second e as close to the cooldown timer as you can to keep the
-  rotation tight\n\nbennett attack, skill;\nxingqiu attack:2;\nbennett attack, skill;\nxingqiu
-  attack, skill, dash, attack:3;\n#at the very end of yelan's a4, you're going to
-  use xingqiu's skill and swing until you proc your final rainswords, xq catches his
-  own particles\n\nbennett attack, skill, attack:2;\nxiangling attack;\n#funnel xl
-  one time - not necessary but helps with ER constraints. xl can survive with no er
-  + the catch and emblem, but this gives you something to do to keep yourself from
-  yolo swap bursting on xq - remember it's a 21s rotation, not 20s\n\nrestart;\n\n#put
-  conceptually, this team has three objectives beyond the \"normal ones\" like snapshotting
-  pyronado in bennett buff and getting as many rainsword procs as possible - you want
-  to cast yelan e on cooldown, you want to cast bennett's e on cooldown while he has
-  his buff up for the cdr, you want to cast xq at the bottom of yelan's a4. the sim
-  does not forward vape the hit but you can try to forward vape at least one of the
-  two hits.\n\n#the point of this team is to take advantage of bennett's cdr provided
-  by his buff to relax ER requirements for the entire party. he casts e enough times
-  that crimson witch is actually the play on him over, say, instructors, because the
-  users who would benefit from instructors dynamically (yelan and xingqiu) are maintaining
-  aura rather than reacting\n\n#elemental reactions: the combination of rainswords
-  and yerainswords are enough to easy vape no matter the strength of pyro application
+  skill;\n#snapshot pyronado and guoba\nbennett attack, skill;\nxingqiu attack:2;\nyelan
+  attack, skill;\nxingqiu attack:3, skill, dash, attack:2, jump, attack;\nbennett
+  skill, attack:2;\nxiangling attack:2;\nbennett skill, attack:2, dash, attack:2,
+  skill, attack;\nyelan attack:2;\nwait 2;\n\nrestart;\n#put conceptually, this team
+  has three objectives beyond the \"normal ones\" like snapshotting pyronado in bennett
+  buff and getting as many rainsword procs as possible - you want to cast yelan e
+  on cooldown, you want to cast bennett's e on cooldown while he has his buff up for
+  the cdr, you want to cast xq at the bottom of yelan's a4. the sim does not forward
+  vape the hit but you can try to forward vape at least one of the two hits.\n\n#the
+  point of this team is to take advantage of bennett's cdr provided by his buff to
+  relax ER requirements for the entire party. he casts e enough times that crimson
+  witch is actually the play on him over, say, instructors, because the users who
+  would benefit from instructors dynamically (yelan and xingqiu) are maintaining aura
+  rather than reacting\n\n#elemental reactions: the combination of rainswords and
+  yerainswords are enough to easy vape no matter the strength of pyro application
   - the only time you cleanse hydro aura is when gouba/pyronado/bennett e all hit
   at once, and subsequently any auto swing will instantly clean any stray pyro and
   reapply hydro. that makes getting value out of this comp easier than it might seem\n\n#this
@@ -63,7 +56,7 @@ config:
   gain on this team, however, is mistsplitter on bennett. the number of e casts, combined
   with the highest base attack in the game makes it the premiere choice for this team.
   freedom sworn, while not as numerically monolithic, is almost as good. elegy on
-  yelan is, similarly, worth considering.\n\n"
+  yelan is, similarly, worth considering.\n\n\n\n"
 description: Yelan National, featuring DPS Bennett.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -103,8 +96,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 71445.80051930636
+dps: 71899.94415959073
 mode: sl
-duration: 128.00000000000009
+duration: 105.99999999999856
 target_count: 1
 viewer_key: NRkUR_ZwvKP4wo9YmR7pi

@@ -1,4 +1,6 @@
-author: ShadowDawn#5332
+author:
+  "ShadowDawn#5332 and lulu \U0001D502 \U0001D4FE \U0001D4F7  \U0001D4F3 \U0001D4F2
+  \U0001D4F7 ♡#4236"
 config:
   "options swap_delay=12 debug=true iteration=1000 duration=99 workers=30 mode=sl;\ntarget
   lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nyoimiya char lvl=90/90
@@ -13,14 +15,14 @@ config:
   cons=0 talent=9,9,9;\nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli
   add set=\"tenacityofthemillelith\" count=5;\nzhongli add stats hp=4780 atk=311 hp%=0.466
   geo%=0.466 cr=0.311 ; #main\nzhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nyunjin char lvl=90/90
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nyunjin char lvl=90/90
   cons=6 talent=9,9,9; \nyunjin add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nyunjin
   add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nyunjin add set=\"noblesseoblige\"
   count=1;\nyunjin add stats hp=4780 atk=311 def%=1.749 ; #main\nyunjin add stats
   def%=0.372 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64
   cr=0.3972 cd=0.1324;\n\nactive yelan;\n\nyelan skill, burst, attack;\nzhongli skill[hold=1],
   attack:2;\nyunjin skill, attack:2, burst;\nyoimiya skill, attack:5, dash, attack:5,
-  dash, attack:5, dash, attack:2;\nyunjin skill[delay=3], attack:4;\n\nrestart;\n\n"
+  dash, attack:5, dash, attack:2;\nyunjin skill[delay=3], attack:4;\n\nrestart;\n\n\n\n"
 description: ""
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -55,12 +57,12 @@ team:
     con: 0
     weapon: favoniuslance
     refine: 3
-    er: 0.2204
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 48763.752665134634
+dps: 48809.001773061136
 mode: sl
 duration: 99.0000000000003
 target_count: 1
