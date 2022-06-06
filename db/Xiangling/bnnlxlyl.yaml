@@ -1,4 +1,4 @@
-author: Juampi65#5084
+author: Juampi65#5084 and Monte#6857
 config:
   "noelle char lvl=90/90 cons=6 talent=9,9,9;\nnoelle add weapon=\"favoniusgreatsword\"
   refine=3 lvl=90/90;\nnoelle add set=\"huskofopulentdreams\" count=4;\nnoelle add
@@ -17,12 +17,12 @@ config:
   add set=\"emblemofseveredfate\" count=4;\nyelan add stats hp=4780 hp%=0.466 atk%=0
   atk=311 def%=0 em=0 heal=0 phys%=0 er=0 cr=0.311 hydro%=0.466 cd=0;\nyelan add stats
   def=39.36 def%=0.124 em=39.64 atk=33.08 hp=507.88 hp%= 0.1984 atk%=0.0992 er=0.1102
-  cr=0.331 cd=0.7944 ;\n\n\noptions swap_delay=12 debug=true iteration=1000 duration=127
+  cr=0.331 cd=0.7944 ;\n\n\noptions swap_delay=12 debug=true iteration=1000 duration=106
   workers=30 mode=sl;\n\nactive xiangling;\ntarget lvl=100 resist=.1;\nenergy every
   interval=480,720 amount=1;\n\nxiangling skill, attack;\nyelan skill, burst, attack:2;\nbennett
-  skill, burst;\nxiangling burst;\nnoelle burst;\nnoelle attack:3, dash, attack:3,
-  dash;\nxiangling skill;\nbennett skill, attack;\nyelan skill, charge;\nnoelle attack:3,
-  dash, attack:3, dash;\nnoelle attack:3, skill;\nbennett skill, attack;\n\n\t\nrestart;\n\n\n"
+  skill, attack, burst;\nxiangling burst;\nnoelle burst;\nnoelle attack:3, dash, attack:3,
+  dash;\nxiangling attack,skill;\nbennett skill, attack;\nyelan attack, skill;\nnoelle
+  attack:3, dash, attack:3, dash;\nnoelle attack:4, skill;\nbennett skill, attack;\n\t\nrestart;\n\n\n\n\n\n\n\n"
 description: Noelle with Yelan.
 hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
 team:
@@ -62,8 +62,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 36550.92449369328
+dps: 38491.654922871734
 mode: sl
-duration: 126.9999999999982
+duration: 105.99999999999856
 target_count: 1
 viewer_key: 7ci0aQSQn8BA5yh-hfOag
