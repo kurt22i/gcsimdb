@@ -1,9 +1,9 @@
-author: Charliex3000#9403 and Lettuce Hunt#5806
+author: Charliex3000#9403, Lettuce Hunt#5806 and Rare Possum#0511
 config:
   "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;
   \n\n#Character Builds:\ndiluc char lvl=90/90 cons=0 talent=9,9,9;\ndiluc add weapon=
   \"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\n#diluc add weapon=\"favoniusgreatsword\"
-  refine=3 lvl=90/90;\ndiluc add set=\"shimenawasreminiscence\" count=4;\ndiluc add
+  refine=3 lvl=90/90;\ndiluc add set=\"crimsonwitchofflames\" count=4;\ndiluc add
   stats hp=4780 atk=311 em=186.5 pyro%=0.466 cd=0.622;\n#diluc add stats hp=4780 atk=311
   em=186.5 pyro%=0.466 cr=0.311;\ndiluc add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
   atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662;\t\t\n#diluc add stats
@@ -34,7 +34,7 @@ config:
   attack, burst;\nyelan attack, skill;\ndiluc attack, skill,\n    attack, skill,\n
   \   attack, dash,\n    attack, skill,\n    attack:4;\nbennett attack, skill;\nxingqiu
   attack:2;\nyelan attack, skill;\nxingqiu attack, skill, attack:2;\nbennett attack,
-  skill, attack;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n"
+  skill, attack;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -74,7 +74,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49368.20682243131
+dps: 49790.71061246317
 mode: sl
 duration: 105.00000000000071
 target_count: 1

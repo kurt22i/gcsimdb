@@ -6,7 +6,7 @@ config:
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraidenshogun
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.331 cd=0.7944;\n\nyaemiko char lvl=90/90 cons=0 talent=9,9,9;\nyaemiko
-  add weapon=\"thewidsith\" refine=5 lvl=90/90;\nyaemiko add set=\"emblemofseveredfate\"
+  add weapon=\"thewidsith\" refine=3 lvl=90/90;\nyaemiko add set=\"emblemofseveredfate\"
   count=4;\nyaemiko add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
   #main\nyaemiko add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
   er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nkaedeharakazuha char lvl=90/90 cons=0
@@ -21,7 +21,7 @@ config:
   pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy
   every interval=480,720 amount=1;\n\nyaemiko skill,skill,skill;\nkazuha skill,high_plunge;\nraiden
   skill, attack;\nsara skill, aim;\nyaemiko attack, burst,skill,skill,skill;\nwait
-  2;\nkazuha skill[hold=1],high_plunge, burst;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3;\nrestart;\n\n\n"
+  2;\nkazuha skill[hold=1],high_plunge, burst;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3;\nrestart;\n\n"
 description:
   Raiden Hypercarry when Bennett is locked on the other team. No shielding
   or healing, have fun.
@@ -57,13 +57,13 @@ team:
   - name: yaemiko
     con: 0
     weapon: thewidsith
-    refine: 5
+    refine: 3
     er: 0.2204
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 48019.21734462163
+dps: 47387.7352708571
 mode: sl
 duration: 109.99999999999949
 target_count: 1

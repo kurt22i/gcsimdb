@@ -2,33 +2,42 @@ author:
   Charliex3000#9403, cyan#3224, Rare Possum#0511, nova.#5877, Lettuce Hunt#5806,
   Hessey#9122 and Kurt#5846
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\ntarget
-  lvl=100 resist=.1;\nenergy every interval=480,720 amount=10;\n\n\nraiden char lvl=90/90
-  cons=0 talent=9,9,9;\nraiden add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nraiden
-  add set=\"tenacityofthemillelith\" count=4;\n#raiden add set=\"emblemofseveredfate\"
+  "options swap_delay=12 debug=true iteration=1000 duration=105.35 workers=30
+  mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n\nraiden
+  char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nraiden add set=\"tenacityofthemillelith\" count=4;\n#raiden add set=\"emblemofseveredfate\"
   count=4;\nraiden add stats hp=4780 atk=311.0 er=0.518 cr=0.3110 electro%=0.4660;\nraiden
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2755
-  em=39.64 cr=0.331 cd=0.7282 ;\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu char lvl=90/90 cons=6
-  talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu
-  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311.0 atk%=0.4660
-  cr=0.3110 hydro%=0.4660;\nxingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\n#xingqiu add stats
-  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
-  cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1488 er=0.1653
+  em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5
+  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
+  atk=311.0 atk%=0.4660 cr=0.3110 hydro%=0.4660;\n#xingqiu add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944
+  ;\t\t\nxingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.3306 em=39.64 cr=0.2648 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232.0
   em=187.0 cr=0.2320 pyro%=0.3480;\nbennett add stats def=39.36 def%=0.124 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2979 cd=0.4634 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
-  hp=4780 atk=311.0 em=187.0 cr=0.3110 pyro%=0.4660;\nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
-  cd=0.7944;\t\t\t\t\t\t\t\t\t\t\n\nactive raiden;\n\nraiden skill;\n#------\nxingqiu
+  hp=4780 atk=311.0 em=187.0 cr=0.3110 pyro%=0.4660;\nxiangling add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
+  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nactive raiden;\n#the new
+  raiden national rotation, with some new innovations and some old innovations. like
+  previous rotations, you disjoint xingqiu q and e so you get to try to foward vape
+  it.\n#the most supportive variation of raiden yet - you're looking to proc fav on
+  her.\n\nraiden attack, skill;\n#proc fav on raiden to prefunnel xingqiu\n\nxingqiu
   burst, attack;\nbennett burst, attack, skill, attack;\nxiangling burst, attack,
-  skill;\nxingqiu attack:3, skill, dash, attack:3;\nbennett skill, attack;\nraiden
-  skill, attack, burst,\n       attack:4, dash, attack:4, dash, attack:4, dash, attack;\n
-  \      #it really do be 3n4d n4 , attack:2, charge;\nbennett attack, skill;\nwait
-  2;\nrestart;\n\n\n\n\n\n"
+  skill;\n#snapshot pyronado, acquire some rainswords\n\nxingqiu attack:3, skill,
+  dash, attack:3;\n#forward vape. i suggest, in game, not swinging at all but looking
+  for the ! over gouba and just hitting e when you see it, you have roughly a 50/50
+  chance of getting the double forward vape\n\nbennett skill, attack;\n#reapply instructors,
+  also get some particles from using bennett's e\n\nraiden burst,\n       #stall for
+  rainswords by pressing raiden's e\n       attack:4, dash, attack:4, dash, attack:4,
+  dash, attack:3;\n       #yes you're cutting it off early\n\nbennett attack, skill;\n#reapply
+  instructors. if you're very fast with this sequence, bennett's particles will funnel
+  to xingqiu, further lowering er reqs etc\nwait 7;\nrestart;\n\n\n\n\n\n"
 description: Xiangling Overvape with optimal supports. Optimized rotation.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -45,7 +54,7 @@ team:
     con: 0
     weapon: favoniuslance
     refine: 3
-    er: 0.7935000000000001
+    er: 0.6833
     talents:
       attack: 9
       skill: 9
@@ -63,13 +72,13 @@ team:
     con: 6
     weapon: harbingerofdawn
     refine: 5
-    er: 0.1102
+    er: 0.3306
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 73647.41915286175
+dps: 72960.64559844842
 mode: sl
-duration: 105.99999999999856
+duration: 105.35000000000113
 target_count: 1
 viewer_key: te_IALQ1HZ_dJmkAeiIcf
