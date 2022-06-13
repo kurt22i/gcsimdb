@@ -22,7 +22,7 @@ config:
   burst;\nxingqiu skill, burst, attack;\nyelan burst,attack,skill,attack;\nyelan attack,skill,attack;\n\nfischl
   attack,skill;\nfischl attack, burst +if=.cd.fischl.skill<900;\n\nqiqi attack:3,jump;\n\n\n\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38156.47923179724
+dps: 37567.81689599812
 mode: apl
 duration: 99.9999999999986
 target_count: 1

@@ -24,7 +24,7 @@ config:
   attack:2,skill,high_plunge,attack,burst;\nbennett attack, skill, attack:2;\nxiangling
   attack:2;\nxingqiu attack:2;\nkazuha attack:3;\n\n\n\n\nrestart;\n\n\n\n\n\n\n"
 description: "Kazuha National: Sucrose National with better grouping."
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 57772.70321739194
+dps: 57759.85667717855
 mode: sl
 duration: 126.9999999999982
 target_count: 1

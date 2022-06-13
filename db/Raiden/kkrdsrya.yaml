@@ -43,7 +43,7 @@ config:
   charge, skill,skill,skill;\nsara skill, aim;\nkokomi skill;\nyaemiko burst,skill,skill,skill;\nkokomi
   burst;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,skill;\n\nrestart;\n\n\n\n\n"
 description: Kokomi/Raiden/Sara/Yae.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: kokomi
     con: 0
@@ -81,7 +81,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35490.9921048148
+dps: 35517.52497907213
 mode: sl
 duration: 114.9999999999981
 target_count: 1

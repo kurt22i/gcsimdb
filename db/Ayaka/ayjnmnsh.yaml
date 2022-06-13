@@ -22,7 +22,7 @@ config:
   charge;\njean skill, attack:2;\nshenhe skill;\nayaka dash, attack, charge, attack,
   charge, skill, dash, attack, charge;\n\nrestart;\n\n\n"
 description: Ayaka Freeze with Mona and heals.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47213.82275172651
+dps: 47152.90965381778
 mode: sl
 duration: 111.99999999999807
 target_count: 1

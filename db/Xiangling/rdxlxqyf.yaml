@@ -98,7 +98,7 @@ config: |+
   restart;
 
 description: Xiangling Overvape when Bennett is on vacation.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: raiden
     con: 0
@@ -136,7 +136,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47473.76864618632
+dps: 47519.85509218092
 mode: sl
 duration: 105.99999999999856
 target_count: 1

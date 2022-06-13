@@ -26,7 +26,7 @@ config:
   dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbeidou skill[counter=1],
   attack;\nventi skill, attack;\nrestart;\n\n\n"
 description: Yae/Beidou taser with Venti.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: beidou
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35680.77196539688
+dps: 35688.48439051009
 mode: sl
 duration: 93.0000000000023
 target_count: 1

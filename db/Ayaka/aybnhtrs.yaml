@@ -31,7 +31,7 @@ config:
   charge, jump,\n      attack, charge, jump;\nbennett skill;\nrosaria skill;\nayaka
   skill, dash, attack:2, charge;\n\nwait 3;\n\nrestart;\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47284.04408153597
+dps: 47323.946153563375
 mode: sl
 duration: 84.00000000000185
 target_count: 1

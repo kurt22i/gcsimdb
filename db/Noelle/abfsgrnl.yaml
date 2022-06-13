@@ -24,7 +24,7 @@ config:
   attack;\nnoelle attack:3, dash, attack:3, dash, attack:3, dash;\ngorou skill, attack;\nnoelle
   attack:3, dash, attack:2, dash;\nrestart;\n\n\n"
 description: Noelle with Fischl.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38722.46732574009
+dps: 38705.51037386941
 mode: sl
 duration: 78.9999999999992
 target_count: 1

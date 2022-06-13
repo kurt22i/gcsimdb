@@ -24,7 +24,7 @@ config:
   skill;\nfischl skill;\nyunjin skill, burst;\neula skill[hold=1],  attack:4, dash,
   attack:4;\neula attack:4, dash, attack:4;\neula attack:4, dash, attack:4;\n\nrestart;\n\n"
 description: Eula without burst?
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: eula
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 28946.359002520916
+dps: 28898.491058211308
 mode: sl
 duration: 145.99999999999898
 target_count: 1

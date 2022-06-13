@@ -24,7 +24,7 @@ config:
   walk, attack:2, walk, attack:2, walk, attack:2, walk, attack:2, walk;\nkazuha skill,
   high_plunge;\nwait 10;\n\nrestart;\n\n"
 description: Mono-Hydro.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: kazuha
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53483.49510331218
+dps: 53115.95373903265
 mode: sl
 duration: 105.99999999999856
 target_count: 1

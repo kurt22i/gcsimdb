@@ -51,7 +51,7 @@ config: |+
 
 
 description: Ning with Sara, quick rotation.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -89,7 +89,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43341.38625460376
+dps: 43359.986924079116
 mode: sl
 duration: 82.99999999999875
 target_count: 1

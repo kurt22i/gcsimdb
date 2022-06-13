@@ -24,7 +24,7 @@ config:
   dash,attack:3,charge;\nsucrose attack,skill,dash;\nayaka dash,attack:2,charge;\nkaeya
   skill,attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayaka Freeze with 4*s.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 37027.28041402526
+dps: 37016.93350227018
 mode: sl
 duration: 102.99999999999858
 target_count: 1

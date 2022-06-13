@@ -38,7 +38,7 @@ config:
   dash, attack:4, skill, attack:4, dash, attack:2, charge;\nyelan attack, skill;\nbennett
   skill, attack:2;\nxiangling attack;\n\nrestart;\n\n\n"
 description: Xiangling Overvape with Yelan.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -76,7 +76,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 66470.1496674486
+dps: 63270.175401386114
 mode: sl
 duration: 105.00000000000071
 target_count: 1

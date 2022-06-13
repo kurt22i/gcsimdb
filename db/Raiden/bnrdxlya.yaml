@@ -34,7 +34,7 @@ config:
   burst,skill;\nyaemiko burst,skill,skill,skill;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,charge,skill;\nbennett
   skill;\nxiangling attack;\nrestart;\n"
 description: Raiden National, but with a fox instead of Xingqiu. Rotation by elijam#7142.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 5
@@ -72,7 +72,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44347.7427179034
+dps: 44477.941759900685
 mode: sl
 duration: 109.99999999999949
 target_count: 1

@@ -26,7 +26,7 @@ config:
   attack:3, skill[hold=1], dash;\nbennett burst,  skill;\nxiangling burst, skill;\nyoimiya
   skill,attack:5, dash ,attack:5, dash,attack:5, dash, attack:3;\nbennett skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Pure-Pyro Yoimiya with Shielding.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42810.409761276656
+dps: 42847.81386678183
 mode: sl
 duration: 129.00000000000193
 target_count: 1

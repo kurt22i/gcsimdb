@@ -34,7 +34,7 @@ config:
   skill, burst[radius=2], aim[weakspot=1];\nventi skill, burst;\nrosaria skill;\nganyu
   aim[weakspot=1]:2;\nayato skill, attack:5;\nventi skill, attack;\n\nrestart;\n\n\n"
 description: Freeze Ganyu with Ayato.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayato
     con: 0
@@ -72,7 +72,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 30346.853775796164
+dps: 30365.5880388931
 mode: sl
 duration: 105.00000000000071
 target_count: 1

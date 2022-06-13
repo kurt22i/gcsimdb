@@ -18,7 +18,7 @@ config:
   +is_onfield +if=.stam<20;\nkokomi attack:2, dash +is_onfield +if=.stam>=20;\nxingqiu
   attack +is_onfield ;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Double Hydro + Double Paimon.
-hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: kokomi
     con: 0
@@ -38,7 +38,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 24552.124897282247
+dps: 24556.29628934526
 mode: apl
 duration: 105.00000000000071
 target_count: 1

@@ -23,7 +23,7 @@ config:
   burst;\nbennett skill;\nrosaria skill, attack, burst;\nkazuha skill, high_plunge;\nchongyun
   attack;\n\nrestart;\n\n\n\n\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42226.336666042764
+dps: 42242.90530813566
 mode: sl
 duration: 120.00000000000152
 target_count: 1

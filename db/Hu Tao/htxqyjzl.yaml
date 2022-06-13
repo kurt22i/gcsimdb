@@ -27,7 +27,7 @@ config:
 description:
   Hu Tao + Geo Bros except with an opera singer instead of Albedo. Works
   just as well as the original.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: hutao
     con: 0
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48251.71127018353
+dps: 48378.73633366206
 mode: sl
 duration: 105.00000000000071
 target_count: 1

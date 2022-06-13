@@ -24,7 +24,7 @@ config:
   burst;\nyaemiko attack, burst,skill,skill,skill, attack;\nwait 7;\njean attack,
   skill, attack;\nraiden burst,attack:3,charge,attack:3,charge,attack:3,charge;\nrestart;\n\n\n\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: jean
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 32890.07935905342
+dps: 32912.13454806886
 mode: sl
 duration: 109.99999999999949
 target_count: 1

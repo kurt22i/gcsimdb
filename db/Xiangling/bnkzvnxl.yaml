@@ -23,7 +23,7 @@ config:
   skill,attack;\nbennett skill,jump;\nkazuha skill,high_plunge,attack:5;\nventi skill,attack;\nrestart;
   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Double Anemo + Double Pyro.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40172.07842534313
+dps: 40189.196908768805
 mode: sl
 duration: 99.9999999999986
 target_count: 1

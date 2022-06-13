@@ -26,7 +26,7 @@ config:
   burst;\nningguang skill,burst,skill,charge;\nbennett skill;\nningguang attack:2,charge;\nbennett
   skill;\nrestart;\n"
 description: Ningguang Carry with Fischl.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 37925.28390719989
+dps: 37921.83777967376
 mode: sl
 duration: 93.0000000000023
 target_count: 1

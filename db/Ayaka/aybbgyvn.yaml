@@ -27,7 +27,7 @@ config:
   skill;\nbarbara attack:3;\nganyu skill, aim[weakspot=1], aim[weakspot=1];\nayaka
   dash, skill, attack:3, charge;\nwait 5;\n\nrestart;\n\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Barbara.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35048.16692322408
+dps: 35062.63439220563
 mode: sl
 duration: 121.9999999999999
 target_count: 1

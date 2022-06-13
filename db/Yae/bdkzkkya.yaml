@@ -29,7 +29,7 @@ config:
   dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2\n\t;\nkaedeharakazuha
   attack, skill, high_plunge, attack;\nbeidou skill, attack;\n\nrestart;\n"
 description: Yae/Beidou Tazer with Kokomi.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: beidou
     con: 5
@@ -67,7 +67,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 31074.79810621321
+dps: 31120.39819260186
 mode: sl
 duration: 90.00000000000215
 target_count: 1

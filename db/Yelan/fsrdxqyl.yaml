@@ -30,7 +30,7 @@ config:
   \      attack:4, dash,\n       attack:2, charge;\nyelan attack, skill, attack, aim,
   attack:2;\n\nrestart;\n\n"
 description: ""
-hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 54414.67466932907
+dps: 54412.59591191609
 mode: sl
 duration: 105.00000000000071
 target_count: 1

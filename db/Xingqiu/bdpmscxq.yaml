@@ -39,7 +39,7 @@ config: |+
   sucrose attack;
 
 description: Fischl where?
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: beidou
     con: 6
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 23527.00004438416
+dps: 23538.613828127036
 mode: apl
 duration: 90.00000000000215
 target_count: 1

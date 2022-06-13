@@ -25,7 +25,7 @@ config:
   attack:3, skill;\nxingqiu attack:3;\nxiao burst, attack;\nbennett attack:2, skill;\nxiangling
   attack:2;\n\nrestart;\n\n\n\n"
 description: Xiangling vape carry supported by Bennett and 4VV Xiao.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 51318.539276469586
+dps: 51387.956935943155
 mode: sl
 duration: 105.00000000000071
 target_count: 1

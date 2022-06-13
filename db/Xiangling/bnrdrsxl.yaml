@@ -34,7 +34,7 @@ config:
   skill;\nrosaria skill;\nraiden attack, burst, attack:5, attack:5, attack:4, skill,
   attack;\nbennett skill, attack;\nxiangling attack:3;\n\n\nrestart;\n\n"
 description: Raiden National without Xingqiu.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -72,7 +72,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50741.57825292633
+dps: 50717.11821273302
 mode: sl
 duration: 102.00000000000051
 target_count: 1

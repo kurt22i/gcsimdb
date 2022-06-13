@@ -23,7 +23,7 @@ config:
   skill;\nsucrose attack,skill;\nmona skill;\nayaka dash,attack,charge,\n      dash,attack,charge,
   \n      dash,attack,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayaka Freeze.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 37960.57951819718
+dps: 37942.59495831163
 mode: sl
 duration: 103.99999999999928
 target_count: 1

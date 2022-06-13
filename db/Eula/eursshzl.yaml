@@ -23,7 +23,7 @@ config:
   skill,attack;\neula attack:2;\nrosaria skill;\neula attack:4;\nwait 16;\nzhongli
   attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: Eula team without SC. Works surprisingly well.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: eula
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40855.782951257606
+dps: 40880.00259106794
 mode: sl
 duration: 93.99999999999868
 target_count: 1

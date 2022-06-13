@@ -29,7 +29,7 @@ config:
   rainswords and favonius\nzhongli attack:3;\nxingqiu attack:2;\nzhongli attack:2;\nxingqiu
   attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hu Tao with Geobros.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -67,7 +67,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 52399.80842067659
+dps: 52458.313365180264
 mode: sl
 duration: 105.99999999999856
 target_count: 1

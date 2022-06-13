@@ -25,7 +25,7 @@ config:
   skill;\nshenhe skill;\nkazuha skill, high_plunge;\ndiona skill, aim, aim, aim, aim;\nxiangling
   attack:4, dash, attack:4;\n\nrestart;\n\n\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: diona
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 25876.740268621747
+dps: 25798.25685341853
 mode: sl
 duration: 145.99999999999898
 target_count: 1

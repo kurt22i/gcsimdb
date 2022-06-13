@@ -30,7 +30,7 @@ config:
   attack:2;\nyoimiya skill,attack:5, dash ,attack:5, dash, attack:5, dash, attack;
   \  \nbennett attack, skill;\n\nrestart;\n\n\n"
 description: Boom, yes, boom!
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 31352.851021332288
+dps: 31312.64118963689
 mode: sl
 duration: 106.99999999999939
 target_count: 1

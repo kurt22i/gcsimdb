@@ -30,7 +30,7 @@ config:
   charge, jump,\n        attack:2, charge, jump,\n        attack:2, charge, jump,\n
   \       attack:2, charge, jump,\n        attack:1, charge;\nzhongli attack:4;\nrestart;\n\n\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 57984.92769152975
+dps: 58836.91175561734
 mode: sl
 duration: 144.0000000000025
 target_count: 1

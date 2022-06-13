@@ -28,7 +28,7 @@ config:
   attack:2, skill;\nxingqiu attack:3;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
   skill, attack;\nxiangling attack:4;\n\nrestart;\n\n\n\n\n\n"
 description: Albedo National.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -66,7 +66,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50368.58661723458
+dps: 50412.96992999081
 mode: sl
 duration: 105.00000000000071
 target_count: 1

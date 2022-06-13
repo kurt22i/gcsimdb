@@ -25,7 +25,7 @@ config:
   skill, burst, attack, \n\tskill, attack:2, \n\tskill, attack:2,\n\tskill, attack:2,\n\tskill,
   attack,\n\tskill;\n\t\nrestart;\n\n"
 description: TF Diluc with Yelan.
-hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40881.47518940485
+dps: 40772.777463398015
 mode: sl
 duration: 109.99999999999949
 target_count: 1

@@ -28,7 +28,7 @@ config:
 description:
   Rev Melt Xiao. Assumes collisions on all plunges, which does take some
   practice.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -66,7 +66,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44121.94575095747
+dps: 44126.32423865655
 mode: sl
 duration: 102.99999999999858
 target_count: 1

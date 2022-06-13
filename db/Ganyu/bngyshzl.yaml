@@ -38,7 +38,7 @@ config: |+
 
 
 description: Mono-Cryo Ganyu with shielding and heals.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -76,7 +76,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41741.49931579029
+dps: 41748.71873594138
 mode: sl
 duration: 112.9999999999996
 target_count: 1

@@ -21,7 +21,7 @@ config:
   skill, attack;\nyelan skill, attack;\nayaka dash,attack:3,charge,\n      attack:3,charge;\njean
   attack, skill;\nrestart;\n\n\n\n\n\n\n"
 description: Ayalan Freeze with healing.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -59,7 +59,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50846.77210026787
+dps: 48507.106409471766
 mode: sl
 duration: 90.99999999999874
 target_count: 1

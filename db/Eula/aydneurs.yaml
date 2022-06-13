@@ -41,7 +41,7 @@ config: |+
 
 
 description: Eula with Ayaka.
-hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -79,7 +79,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 31963.478399730982
+dps: 31881.479207022123
 mode: sl
 duration: 108.00000000000088
 target_count: 1

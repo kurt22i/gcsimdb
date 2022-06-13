@@ -26,7 +26,7 @@ config:
   skill;\nkeqing skill,\n       attack:3,\n       attack, charge,\n       attack,
   charge,\n       attack, charge,\n       attack, charge,\n       attack, charge;\n\nrestart;\n"
 description: Physical Keqing.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: diona
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 27597.48527046834
+dps: 27587.721146404398
 mode: sl
 duration: 97.9999999999992
 target_count: 1

@@ -28,7 +28,7 @@ config:
   attack:2,charge;\nbennett skill;\nningguang attack:2,charge,skill,burst,skill,charge;\nbennett
   skill;\n\nrestart;\n"
 description: Full 4* Ning team.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 5
@@ -66,7 +66,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 32247.65834016859
+dps: 32298.88665641306
 mode: sl
 duration: 97.9999999999992
 target_count: 1

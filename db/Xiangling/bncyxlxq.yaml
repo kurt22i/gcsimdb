@@ -24,7 +24,7 @@ config:
   dash,\n    attack:2, dash,\n    attack:2, dash,\n    attack:2\n    ;\nbennett attack,
   skill;\nxiangling attack:3;\nbennett attack:2, skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n\n\n"
 description: The original National Team with Chongyun.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41248.63575520185
+dps: 41276.52068067181
 mode: sl
 duration: 102.99999999999858
 target_count: 1

@@ -29,7 +29,7 @@ config:
   charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
   charge, jump,\n    attack:2, charge, jump;\nganyu aim[weakspot=1];\nrestart;\n"
 description: Premium Tao Freezemelt team.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -67,7 +67,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41488.78396610066
+dps: 41439.171601167654
 mode: sl
 duration: 126.00000000000189
 target_count: 1

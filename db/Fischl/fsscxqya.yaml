@@ -32,7 +32,7 @@ config:
   \   attack:2, dash,\n    attack:2, dash,\n    attack:1, charge,\n    attack:2, charge,\n
   \   attack:1, charge\t\n    ;\nfischl attack;\nrestart;\n\n\n\n\n\n\n\n"
 description: Yae Tazer, Xingqiu version with Sucrose.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -70,7 +70,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50601.92476720123
+dps: 50601.9938487111
 mode: sl
 duration: 151.99999999999864
 target_count: 1

@@ -25,7 +25,7 @@ config:
   skill[hold=1];\nbennett skill;\nxiangling skill,attack:2;\ntartaglia aim;\nbennett
   skill;\nxiangling attack:2;\ntartaglia aim;\nbennett skill;\ntartaglia aim;\nrestart;\n"
 description: International with Zhongli.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 5
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 33794.751519370635
+dps: 33850.92239244462
 mode: sl
 duration: 99.9999999999986
 target_count: 1

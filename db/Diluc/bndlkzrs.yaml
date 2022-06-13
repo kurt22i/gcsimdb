@@ -22,7 +22,7 @@ config:
   burst, skill;\nkazuha skill, high_plunge;\nrosaria skill, burst;\ndiluc skill, burst,
   attack, skill, attack, skill;\nbennett skill;\nkazuha skill, high_plunge;\n\nrestart;\n\n\n\n"
 description: Melt Diluc with Rosaria.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42153.997409560805
+dps: 42156.52196677166
 mode: sl
 duration: 126.00000000000189
 target_count: 1

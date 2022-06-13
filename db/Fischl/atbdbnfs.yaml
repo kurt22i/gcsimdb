@@ -23,7 +23,7 @@ config:
   attack:2,burst;\nbennett skill, attack;\nbeidou attack, skill[counter=2], attack:2;\nayato
   skill, attack:12;\n\nrestart;\n\n\n"
 description: Ayato Taser.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayato
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38369.68878203631
+dps: 38374.217957208675
 mode: sl
 duration: 151.00000000000068
 target_count: 1

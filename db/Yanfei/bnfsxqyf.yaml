@@ -25,7 +25,7 @@ config:
   skill,attack,burst,attack;\nfischl attack,burst;\nyanfei attack,skill,charge,attack:3,charge,attack:3,charge,attack:3,charge,skill,charge;\nbennett
   attack:3,skill,attack;\n\nrestart;\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44841.9654916229
+dps: 44778.825982814764
 mode: sl
 duration: 105.00000000000071
 target_count: 1

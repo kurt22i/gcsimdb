@@ -32,7 +32,7 @@ config:
   skill,high_plunge;\nxiangling burst,skill;\nyae burst,skill:3;\nkazuha skill,high_plunge;\nyae
   attack:2, charge;\nbennett skill;\nxiangling attack:2;\nkazuha skill,high_plunge;\n\nrestart;\n\n"
 description: OL Yae with Kazuha.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -70,7 +70,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42430.06737847054
+dps: 42401.41825582123
 mode: sl
 duration: 109.99999999999949
 target_count: 1

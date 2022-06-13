@@ -25,7 +25,7 @@ config:
 description:
   '"Petrichor": Kokomi + Geo, a basically invincible team that still deals
   nice damage.'
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42511.2347302435
+dps: 42496.70384000818
 mode: sl
 duration: 108.00000000000088
 target_count: 1

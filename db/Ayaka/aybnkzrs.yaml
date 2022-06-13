@@ -27,7 +27,7 @@ config:
   skill;\nrosaria skill;\nkamisatoayaka attack:2, dash, attack:2, dash, attack:3,
   skill;\nkazuha skill, high_plunge, attack;\nkamisatoayaka attack:2, dash, attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 52478.44586028284
+dps: 52357.99597505219
 mode: sl
 duration: 100.9999999999993
 target_count: 1

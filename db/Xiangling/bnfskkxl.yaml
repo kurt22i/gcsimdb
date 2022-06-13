@@ -30,7 +30,7 @@ config:
   dash, attack:2, dash, attack:2, dash, attack:2, dash, attack:2, dash, attack:2,
   dash, attack:3;\nbennett attack,skill, attack;\nxiangling attack:3;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 51139.730530527646
+dps: 51129.66459407995
 mode: sl
 duration: 102.00000000000051
 target_count: 1

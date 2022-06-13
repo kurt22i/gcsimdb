@@ -46,7 +46,7 @@ config:
   attack, skill, high_plunge;\nraiden attack, burst,attack:5,dash,attack:5, attack:4,
   skill, attack;\n\nrestart;\n\n"
 description: Kazuha/Raiden/Xingqiu/Yae.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: kazuha
     con: 0
@@ -84,7 +84,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47159.35079090135
+dps: 47092.45589166007
 mode: sl
 duration: 118.99999999999979
 target_count: 1

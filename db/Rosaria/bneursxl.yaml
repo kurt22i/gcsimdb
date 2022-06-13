@@ -26,7 +26,7 @@ config:
   attack,skill, attack;\nxiangling attack:3;\nbennett attack,skill, attack;\neula
   attack:2;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: No, this is not Reverse Melt Eula, it's Reverse Melt Rosaria with Eula.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50859.84392085021
+dps: 50782.422723776675
 mode: sl
 duration: 108.00000000000088
 target_count: 1

@@ -43,7 +43,7 @@ config:
   charge, \n\t                                  attack, charge, \n\t                                  attack;\nxiangling
   attack:3;\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -81,7 +81,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40050.788827823526
+dps: 40043.95303658637
 mode: sl
 duration: 94.9999999999991
 target_count: 1

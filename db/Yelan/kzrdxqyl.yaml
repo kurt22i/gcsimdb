@@ -39,7 +39,7 @@ config:
   attack, skill, high_plunge, attack;\nraiden burst, attack:4, dash, attack:4, skill,
   attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge, attack;\nyelan aim;\n\nrestart;\n\n\n\n\n"
 description: ""
-hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: kazuha
     con: 0
@@ -77,7 +77,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55424.28831839272
+dps: 55034.14174263269
 mode: sl
 duration: 126.00000000000189
 target_count: 1

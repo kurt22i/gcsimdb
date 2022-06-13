@@ -20,7 +20,7 @@ config:
   attack:3;\nbennett skill, attack;\nxiangling attack:3;\nbennett attack:4, skill,
   attack;\nrestart;\n\n\n\n\n"
 description: Who needs a 4th character?
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -49,7 +49,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41524.12728770898
+dps: 41545.527461567624
 mode: sl
 duration: 105.00000000000071
 target_count: 1

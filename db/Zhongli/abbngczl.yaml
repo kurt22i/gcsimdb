@@ -27,7 +27,7 @@ config:
 description:
   Ever wanted to play without using your mouse? Try this keyboard-only
   Geo team.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 31381.458751884104
+dps: 31320.216553992967
 mode: sl
 duration: 99.9999999999986
 target_count: 1

@@ -32,7 +32,7 @@ config:
   jump;\nwait 10;\nalbedo skill;\n\nitto attack, burst, attack, skill, attack:2, charge:5,
   attack:4, charge:5, skill, charge, attack:2;\n"
 description: Itto mono-Geo.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -70,7 +70,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53807.84186737295
+dps: 53906.41497703927
 mode: sl
 duration: 102.00000000000051
 target_count: 1

@@ -28,7 +28,7 @@ config:
   skill;\n#must acquire bennett buff for this to work out\njean skill;\nayaka dash,
   attack, charge;\n#get some cryo on to melt off\nbennett skill;\n\nrestart;\n\n\n\n\n\n"
 description: Sunfire Ayaka. Much better with C2.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -66,7 +66,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42395.083317915596
+dps: 42316.59909160091
 mode: sl
 duration: 105.00000000000071
 target_count: 1

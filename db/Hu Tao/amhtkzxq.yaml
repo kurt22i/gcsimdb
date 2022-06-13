@@ -27,7 +27,7 @@ config:
 description:
   VV Vape Tao with Amber. Hu Tao dying drops the DPS to 0, so make sure
   your dodging is good enough to play this.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: amber
     con: 2
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50583.958813178644
+dps: 50639.5301417468
 mode: sl
 duration: 188.99999999999537
 target_count: 1

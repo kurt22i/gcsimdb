@@ -33,7 +33,7 @@ config:
   attack, skill;\nkeqing attack, skill;\nxiangling attack;\nkeqing attack, charge;\nbennett
   skill;\n\nrestart;\n\n\n\n\n\n\n"
 description: Keqing Vape. Sounds like a meme team, but the numbers say otherwise.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -71,7 +71,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55061.02014091813
+dps: 55110.24499712528
 mode: sl
 duration: 105.99999999999856
 target_count: 1

@@ -25,7 +25,7 @@ config:
   skill, high_plunge, attack:1;\nshenhe skill;\nayaka dash, attack:2, charge, dash,
   attack:1, charge, dash, attack:1, charge;\n\nrestart;\n\n\n\n\n"
 description: Mono-Cryo Ayaka with Anemo and heals.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 56766.32928366386
+dps: 56725.75074158289
 mode: sl
 duration: 253.9999999999964
 target_count: 1

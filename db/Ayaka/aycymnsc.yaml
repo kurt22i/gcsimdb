@@ -23,7 +23,7 @@ config:
   burst;\nsucrose skill,attack;\nmona skill;\nayaka dash,attack:2,charge,\n      dash,attack:2,charge,\n
   \     dash,attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayaka Freeze with Chongyun.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 37022.78445182391
+dps: 37005.49486398219
 mode: sl
 duration: 105.99999999999856
 target_count: 1

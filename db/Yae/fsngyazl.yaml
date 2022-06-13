@@ -47,7 +47,7 @@ config: |+
   restart;
 
 description: Yae + Geo comfort version. Make sure to pick up shards for 4AP.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -85,7 +85,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 39415.70265726646
+dps: 39513.3381161834
 mode: sl
 duration: 90.00000000000215
 target_count: 1

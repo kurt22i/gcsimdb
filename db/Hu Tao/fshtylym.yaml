@@ -31,7 +31,7 @@ config:
   charge, jump,\n    attack:1, charge, jump,\n    attack;   \nyoimiya skill, attack:5,
   dash, attack:5;\n\nrestart;\n\n\n\n\n\n\n"
 description: TaoMiya with Yelan.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 0
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43597.434277332686
+dps: 44251.402712531955
 mode: sl
 duration: 123.0000000000017
 target_count: 1

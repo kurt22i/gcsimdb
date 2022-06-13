@@ -25,7 +25,7 @@ config:
   charge,\n     attack, charge,\n     attack;\nbennett attack:2, skill;\nklee attack,
   charge, skill[bounce=3, mine=8];     \nrestart;\n\n\n"
 description: Klee Vape with double Hydro.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43187.93220857932
+dps: 42817.55623370956
 mode: sl
 duration: 84.00000000000185
 target_count: 1

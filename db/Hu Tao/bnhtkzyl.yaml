@@ -25,7 +25,7 @@ config:
   charge, jump,\n    attack:1, charge, jump;\nkazuha attack, skill, high_plunge;\nbennett
   skill, dash;\nrestart;\n\n\n\n\n\n\n"
 description: Bennett-Tao with Yelan.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 71661.96703163972
+dps: 70737.7313327507
 mode: sl
 duration: 100.9999999999993
 target_count: 1

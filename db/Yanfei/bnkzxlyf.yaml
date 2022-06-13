@@ -23,7 +23,7 @@ config:
   skill;\nkazuha skill,high_plunge,burst;\nbennett burst,skill;\nxiangling burst,skill;\nkazuha
   skill,high_plunge;\nyanfei skill,charge,attack:2,charge,attack:2,charge,attack:2,charge,attack:2,charge,skill,charge;\n\nrestart;\n"
 description: Mono-Pyro Yanfei.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41149.83188464281
+dps: 41097.10652498999
 mode: sl
 duration: 105.00000000000071
 target_count: 1

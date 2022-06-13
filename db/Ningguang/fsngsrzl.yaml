@@ -46,7 +46,7 @@ config: |
 
   restart;
 description: Ning with Electro supports.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -84,7 +84,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41408.02310547005
+dps: 41386.33501739279
 mode: sl
 duration: 105.00000000000071
 target_count: 1

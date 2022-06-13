@@ -62,7 +62,7 @@ config:
   game makes it the premiere choice for this team. freedom sworn, while not as numerically
   monolithic, is almost as good. elegy on yelan is, similarly, worth considering.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yelan National, featuring on-field Bennett.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -100,7 +100,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 72220.95932838591
+dps: 69446.43451979585
 mode: sl
 duration: 105.99999999999856
 target_count: 1

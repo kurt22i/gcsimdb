@@ -27,7 +27,7 @@ config:
   charge, jump,\n    attack;\nzhongli attack:3;\nxingqiu attack:3;\nyelan attack:2;\nxingqiu
   attack:2, jump, attack;\nzhongli attack;\n\nrestart;\n\n"
 description: Double-Hydro Tao.
-hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: hutao
     con: 0
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55430.17904037132
+dps: 55002.55816747799
 mode: sl
 duration: 105.00000000000071
 target_count: 1

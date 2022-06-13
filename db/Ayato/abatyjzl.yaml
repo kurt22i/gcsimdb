@@ -25,7 +25,7 @@ config:
   skill, attack:17, attack:7;\nrestart;\n#extra 7 attacks after ayato E ends to take
   advantage of yunjin burst duration and to stall for yunjin burst CD\n"
 description: Full-Geo Ayato.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38547.78945616782
+dps: 38483.03598480841
 mode: sl
 duration: 90.00000000000215
 target_count: 1

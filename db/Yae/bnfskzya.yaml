@@ -30,7 +30,7 @@ config:
   attack,skill;\n\t\n\tkazuha attack,charge;\n\tkazuha skill,high_plunge;\n\t\n\tbennett
   skill;\n\n\trestart;\n\n\n"
 description: Bennett/Fischl/Kazuha/Yae.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 51533.14905874121
+dps: 51513.893899372
 mode: sl
 duration: 91.999999999999
 target_count: 1

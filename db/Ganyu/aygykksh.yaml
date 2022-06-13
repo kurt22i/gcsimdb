@@ -23,7 +23,7 @@ config:
   dash,attack,skill,burst;\nshenhe skill;\nganyu aim[weakspot=1];\nwait 24;\nganyu
   skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\nwait 16;\n\nrestart;\n\n\n\n\n\n"
 description: ""
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49797.55086823635
+dps: 49814.628018459276
 mode: sl
 duration: 129.99999999999824
 target_count: 1

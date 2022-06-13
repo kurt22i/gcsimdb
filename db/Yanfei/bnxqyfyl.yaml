@@ -45,7 +45,7 @@ config: |+
 
 
 description: Double-Hydro Yanfei Vape.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -83,7 +83,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48691.440140332794
+dps: 48260.332643994996
 mode: sl
 duration: 126.9999999999982
 target_count: 1

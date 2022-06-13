@@ -27,7 +27,7 @@ config:
   attack:2, skill;   \nklee attack:2, charge, \n     attack:2, charge,\n     attack;\n
   \     \nrestart;\n\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40242.02868693655
+dps: 38927.06883144737
 mode: sl
 duration: 99.9999999999986
 target_count: 1

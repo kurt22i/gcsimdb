@@ -25,7 +25,7 @@ config:
   attack, skill, burst;\nfischl attack, burst, attack:5, dash, attack:5, dash, attack:2;\nrosaria
   skill, attack;\nbennett skill, attack:2;\n\nrestart;\n\n\n\n\n"
 description: Physchl.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 30175.791614885457
+dps: 30213.042328564192
 mode: sl
 duration: 102.99999999999858
 target_count: 1

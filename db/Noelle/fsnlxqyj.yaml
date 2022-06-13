@@ -30,7 +30,7 @@ config:
   burst;\nnoelle attack:3,dash,\n       attack:3,dash,\n       attack:3;\nyunjin skill,attack;\nnoelle
   attack:3;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35191.87081938141
+dps: 35235.314416291614
 mode: sl
 duration: 126.9999999999982
 target_count: 1

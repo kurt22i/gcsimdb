@@ -38,7 +38,7 @@ config: |+
   restart;
 
 description: A new popular Yae team that sacrifices damage for comfort and waifu.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: jean
     con: 0
@@ -76,7 +76,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40309.790252453044
+dps: 40386.858373388095
 mode: sl
 duration: 111.00000000000108
 target_count: 1

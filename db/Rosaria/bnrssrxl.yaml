@@ -21,7 +21,7 @@ config:
   attack:2, skill, burst;\n\nbennett skill;\nxiangling attack:3;\n\n \nrosaria  skill,
   attack:3;\n \n\nbennett skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n\n"
 description: Rosaria Reverse Melt with Sara.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -59,7 +59,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40309.72251303163
+dps: 40267.84402133263
 mode: sl
 duration: 102.99999999999858
 target_count: 1

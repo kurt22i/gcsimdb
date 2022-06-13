@@ -26,7 +26,7 @@ config:
   dash, attack:4, dash, attack:4, dash, attack:2, charge, attack;\nyelan attack, skill,
   attack:4;\n\n\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: raiden
     con: 0
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 58061.22864779985
+dps: 54844.61830547025
 mode: sl
 duration: 106.99999999999939
 target_count: 1

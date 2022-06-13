@@ -20,7 +20,7 @@ config:
   attack:2, burst;\nkazuha skill, high_plunge, attack:2;\nsara burst;\nraiden burst,
   attack:14,charge;\nkazuha skill, high_plunge, attack:2;\nfischl skill, attack:2;\n\nrestart;\n\n\n\n\n\n"
 description: Mono-Electro Raiden without Bennett.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -58,7 +58,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43754.61654790581
+dps: 43789.72341725085
 mode: sl
 duration: 126.00000000000189
 target_count: 1

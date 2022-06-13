@@ -40,7 +40,7 @@ config:
   [bounce=3, mine=8],\n     attack, charge, attack;\nventi skill,attack;\nklee attack,
   charge;                        \nrestart;\n"
 description: Klee with double grouping.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -78,7 +78,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 31273.969569673052
+dps: 31231.202881452402
 mode: sl
 duration: 108.99999999999856
 target_count: 1

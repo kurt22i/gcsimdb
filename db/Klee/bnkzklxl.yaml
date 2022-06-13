@@ -44,7 +44,7 @@ config:
   mine=8], \n\tattack, charge,\n\tattack, charge,\n    attack, charge, attack, charge,
   attack, charge, attack;\n\n\n"
 description: Kleeeeeeeeee!
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -82,7 +82,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47818.95780250302
+dps: 47775.32517476654
 mode: sl
 duration: 102.99999999999858
 target_count: 1

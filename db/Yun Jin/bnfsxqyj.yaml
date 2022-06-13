@@ -47,7 +47,7 @@ config: |+
 
 
 description: Overvape Yun Jin.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -85,7 +85,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41531.39171716739
+dps: 41576.73998054127
 mode: sl
 duration: 102.99999999999858
 target_count: 1

@@ -23,7 +23,7 @@ config:
   dash, attack:5;\nfischl attack, burst;\nyanfei skill, burst, attack:2, charge, attack:2,
   charge, attack:2, charge, attack:2, charge, skill, charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoifei without shields.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 39573.58250792048
+dps: 39655.42198142306
 mode: sl
 duration: 100.9999999999993
 target_count: 1

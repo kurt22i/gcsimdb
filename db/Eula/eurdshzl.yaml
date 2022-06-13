@@ -24,7 +24,7 @@ config:
   burst,attack:4,skill[hold=1], attack:4;\nshenhe skill, attack;\neula attack:2;\nraiden
   burst,  attack:3, charge, attack:3, charge, attack:2;\nrestart;\n\n"
 description: Full 5* Eula team with big flashy numbers and comfortable gameplay.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: eula
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41606.7408131634
+dps: 41417.130355789945
 mode: sl
 duration: 96.99999999999865
 target_count: 1

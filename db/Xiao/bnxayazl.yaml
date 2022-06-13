@@ -24,7 +24,7 @@ config:
   high_plunge[collision=1],\n    jump, high_plunge[collision=1],\n    jump, high_plunge[collision=1]\n
   \   ;\n    \nrestart;\n\n\n\n"
 description: Xiao + Yae.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 32606.339990175384
+dps: 32633.565684621517
 mode: sl
 duration: 109.99999999999949
 target_count: 1

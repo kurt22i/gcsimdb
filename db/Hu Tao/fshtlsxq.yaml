@@ -30,7 +30,7 @@ config:
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:1, charge, jump\n\t;\n\tlisa
   attack:3, skill[hold=1];\nxingqiu attack:2, dash, attack;\nrestart;\n\n\n\n\n"
 description: Tao Taser with Lisa.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53407.94344043393
+dps: 53320.36584801552
 mode: sl
 duration: 126.00000000000189
 target_count: 1

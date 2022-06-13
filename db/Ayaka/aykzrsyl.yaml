@@ -23,7 +23,7 @@ config:
   skill, attack;\nkazuha attack, skill[hold=1], high_plunge, attack;\nayaka dash,
   attack:2, charge, skill, dash, attack:2, charge;\n\nrestart;\n\n"
 description: Ayaka Freeze with Yelan.
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47165.824825964795
+dps: 46576.26490670314
 mode: sl
 duration: 108.99999999999856
 target_count: 1

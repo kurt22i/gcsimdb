@@ -26,7 +26,7 @@ config:
   \n\tskill, attack:2,\n\tskill, attack:2,\n\tskill, attack,\n\tskill,attack;\nbennett
   attack, skill, attack;\ndiluc attack:3;\n\t\nrestart;\n\n"
 description: Diluc with Fischl.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 37689.45847176422
+dps: 37694.57099912383
 mode: sl
 duration: 126.9999999999982
 target_count: 1

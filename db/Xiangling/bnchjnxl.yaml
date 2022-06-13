@@ -24,7 +24,7 @@ config:
   skill,attack;\nxiangling attack:2;\njean skill,attack:3;\nbennett skill;\nxiangling
   attack:2;\ntartaglia aim;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Childe Sunfire.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35237.99144894678
+dps: 35230.68808098688
 mode: sl
 duration: 114.9999999999981
 target_count: 1

@@ -25,7 +25,7 @@ config:
   attack:3, skill;\nxingqiu attack:3;\nbennett skill, attack;\nxiangling attack:3;\nbennett
   attack:4, skill, attack;\n\nrestart;\n\n\n\n\n\n\n"
 description: Sucrose National. A very strong 4* only team.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55130.52318955319
+dps: 55119.26185974161
 mode: sl
 duration: 112.9999999999996
 target_count: 1

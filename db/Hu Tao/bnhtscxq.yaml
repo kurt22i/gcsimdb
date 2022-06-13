@@ -69,7 +69,7 @@ config:
   \            attack:2, charge, jump,\n             attack:1, charge, jump,\n             attack;\n\nbennett
   skill, attack:2;\n\nsucrose attack:2, skill;\n\nbennett attack:2, skill;    \n"
 description: Bennett-Tao with Sucrose.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -107,7 +107,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 58752.13599943361
+dps: 58845.104599793645
 mode: sl
 duration: 105.00000000000071
 target_count: 1

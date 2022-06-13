@@ -34,7 +34,7 @@ config:
   charge;\nbennett attack, skill, attack:2;\nxiangling attack;\nbennett attack, skill,
   attack:2;\nxiangling attack;\n\nrestart;\n"
 description: Ayaka Melt with "grouping".
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
     con: 0
@@ -72,7 +72,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49103.589537925
+dps: 49035.8533536633
 mode: sl
 duration: 123.99999999999817
 target_count: 1

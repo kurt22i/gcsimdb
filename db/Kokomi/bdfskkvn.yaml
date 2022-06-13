@@ -25,7 +25,7 @@ config:
   dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2, dash,\n\tattack:2,
   dash,\n\tattack:2\n\t;\nventi skill, attack;\nbeidou skill, attack:2;\nkokomi attack:2;\n\nrestart;\n\n"
 description: Kokomi taser with Venti.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: beidou
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 36416.48145255158
+dps: 36401.42629881973
 mode: sl
 duration: 99.9999999999986
 target_count: 1

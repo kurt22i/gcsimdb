@@ -16,7 +16,7 @@ config:
   \n  attack:2, jump, attack:2, dash, \n  attack:2;\nyelan attack, skill, charge,
   attack:4, attack:4, attack:4, attack:4, attack:2;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: kokomi
     con: 0
@@ -36,7 +36,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 26442.39066626634
+dps: 20415.64617829103
 mode: sl
 duration: 106.99999999999939
 target_count: 1

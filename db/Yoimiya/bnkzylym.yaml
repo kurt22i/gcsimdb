@@ -20,7 +20,7 @@ config:
   high_plunge,attack;\n\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5;\n\nkazuha
   \ skill, high_plunge;\nbennett skill, dash;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -58,7 +58,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 54510.91454112674
+dps: 53540.499569061736
 mode: sl
 duration: 102.00000000000051
 target_count: 1

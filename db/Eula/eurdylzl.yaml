@@ -23,7 +23,7 @@ config:
   dash;\nyelan burst,skill,attack;\neula skill, attack;\neula burst,attack:5, skill[hold=1],attack:4,dash,attack:1;\nyelan
   skill, attack;\neula attack:2;\nraiden burst,  attack:3, charge, attack:3, charge,attack:2;\nrestart;\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: eula
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44646.063699324885
+dps: 44080.73977480403
 mode: sl
 duration: 102.00000000000051
 target_count: 1

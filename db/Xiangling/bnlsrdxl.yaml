@@ -31,7 +31,7 @@ config:
   burst, skill;\nxiangling burst, skill;\nraidenshogun burst, attack:14,charge,skill;\nbennett
   skill;\nxiangling skill,attack:3;\nbennett attack,skill;\nxiangling attack:3;\n\nrestart;\n\n\n\n"
 description: Raiden with Lisa.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42653.592969101686
+dps: 42678.50500852737
 mode: sl
 duration: 120.00000000000152
 target_count: 1

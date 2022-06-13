@@ -35,7 +35,7 @@ config:
 description:
   When you can't decide between Raiden National and Raiden Hyper. Rotation
   by elijam#7142.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 5
@@ -73,7 +73,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43146.78420958796
+dps: 43304.005273325994
 mode: sl
 duration: 99.9999999999986
 target_count: 1

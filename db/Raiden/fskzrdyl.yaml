@@ -37,7 +37,7 @@ config:
   attack, skill, high_plunge, attack, burst, attack;\nraiden burst, attack:4, dash,
   attack:4, skill, attack:4, dash, attack:3;\nkazuha attack, skill, high_plunge, attack;\n\nrestart;\n\n\n"
 description: ""
-hash: 1bf01c6f7f88a2cb3a57835fab1128dcf38e4b42
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: fischl
     con: 6
@@ -75,7 +75,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 59415.73874241879
+dps: 55032.400883522
 mode: sl
 duration: 114.9999999999981
 target_count: 1

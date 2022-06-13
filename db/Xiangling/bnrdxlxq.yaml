@@ -42,7 +42,7 @@ config:
   skill;\nraiden attack, burst,\n       attack:4, dash, attack:4, skill, attack:4,
   dash, attack:2, charge, attack;\nbennett skill, attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Xiangling Overvape with optimal supports. Optimized rotation.
-hash: a2dfa72a5876da3d5924a7e4e7b183a4514798f7
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -80,7 +80,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 70247.7746336623
+dps: 70108.25797652778
 mode: sl
 duration: 105.99999999999856
 target_count: 1

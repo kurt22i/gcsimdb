@@ -27,7 +27,7 @@ config:
 description:
   Reverse Melt Rosaria + Melt Ganyu + Xiangling doing all the damage like
   usual.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48235.37110519489
+dps: 48257.21765905162
 mode: sl
 duration: 150.0000000000028
 target_count: 1

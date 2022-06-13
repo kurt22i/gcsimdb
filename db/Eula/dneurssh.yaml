@@ -23,7 +23,7 @@ config:
   burst,skill;\nrosaria skill,burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe
   skill,attack;\neula attack:2;\nrosaria skill;\neula attack:4;\n\nrestart;\n\n\n\n\n\n"
 description: Mono-Cryo Eula.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: diona
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38930.73860329536
+dps: 38996.175090758974
 mode: sl
 duration: 106.99999999999939
 target_count: 1

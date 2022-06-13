@@ -23,7 +23,7 @@ config:
   amount=1;\n\nzhongli skill[hold=1],burst;\ngorou skill;\nalbedo skill;\nningguang
   skill,burst,charge,attack:2,charge,attack:2,charge;\nrestart;\n\n\n\n\n"
 description: Ning with Gorou, quick rotation.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40788.20550179767
+dps: 40740.13539316118
 mode: sl
 duration: 97.9999999999992
 target_count: 1

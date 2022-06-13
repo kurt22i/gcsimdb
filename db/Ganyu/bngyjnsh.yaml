@@ -23,7 +23,7 @@ config:
   skill;\n\n\nshenhe skill[hold=1], attack, burst;\nbennett burst;\njean skill, burst;\nganyu
   skill, aim:5, skill;\nbennett skill;\njean skill, attack:4;\nbennett attack, skill;\nrestart;\n\n\n"
 description: Gunfire with Shenhe.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 5
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44714.6738053555
+dps: 44678.947115186485
 mode: sl
 duration: 112.9999999999996
 target_count: 1

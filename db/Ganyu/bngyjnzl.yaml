@@ -24,7 +24,7 @@ config:
   skill[hold=1], dash, attack;\nbennett burst;\njean skill, burst;\nganyu aim[weakspot=1],
   skill,aim:4;\njean skill, attack;\nbennett skill[hold=1];\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Gunfire.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 45199.959352845646
+dps: 45179.86862315769
 mode: sl
 duration: 85.99999999999883
 target_count: 1

@@ -22,7 +22,7 @@ config:
   burst;\nxiangling skill, burst;\nayato skill, attack:15;\nbennett skill;\nxiangling
   skill;\nkaeya skill;\nayato skill, attack:15;\nrestart;\n\n"
 description: 4* Ayato Vapemelt.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayato
     con: 0
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 30985.655234834783
+dps: 31001.418847569275
 mode: sl
 duration: 108.00000000000088
 target_count: 1

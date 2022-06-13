@@ -23,7 +23,7 @@ config:
   skill;\neula skill, attack:2;\nrosaria burst;\neula burst,attack:5,skill[hold=1],attack:4;\nwait
   37;\nrosaria skill, attack;\neula attack:3;\nrestart;\n\n\n"
 description: Double Geo Eula, a comfortable team that surprisingly works very well.
-hash: 260bedd71516b06616f694e1d6f86046631a96c8
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: albedo
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43561.84745077714
+dps: 43589.84813539563
 mode: sl
 duration: 108.99999999999856
 target_count: 1
