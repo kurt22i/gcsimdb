@@ -2,11 +2,11 @@ author: Hessey#9122 and Refrigerante134a#6895
 config:
   "mona char lvl=90/90 cons=0 talent=9,9,9;\nmona add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nmona add set=\"noblesseoblige\" count=4;\nmona add stats def%=0.1240
-  def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5952 er=0.9588 em=39.64 cr=0.4434
-  cd=0.2648 hydro%=0.4660;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add
+  def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5952 er=1.069 em=39.64 cr=0.4103
+  cd=0.1986 hydro%=0.4660;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add
   weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
-  count=4;\nkazuha add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920
-  er=0.1102 em=679.9 cr=0.3972 cd=0.5296;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu
+  count=4;\nkazuha add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.3968
+  er=0.1102 em=679.9 cr=0.3972 cd=0.1324;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9;\nganyu
   add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
   count=4;\nganyu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652
   er=0.2204 em=39.64 cr=0.3972 cd=1.284 cryo%=0.4660;\n\nayaka char lvl=90/90 cons=0
@@ -15,10 +15,10 @@ config:
   hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.3972 cd=1.284 cryo%=0.4660;\n\noptions
   swap_delay=12 debug=true iteration=1000 duration=147 workers=30 mode=sl;\n\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nactive ayaka;\n\nayaka skill;\nganyu
+  cryo=.1;\n\nenergy every interval=480,720 amount=1;\n\nactive ayaka;\n\nayaka skill;\nganyu
   burst[radius=2], skill;     \nkazuha skill[hold=1], high_plunge, burst;\nmona skill,burst;\nayaka
   dash,skill,burst;\nganyu skill,aim[weakspot=1];\nkazuha skill, high_plunge;\nayaka
-  dash,attack:3,charge;\n\nrestart;\n\n\n\n"
+  dash,attack:3,charge;\n\nrestart;\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -53,12 +53,12 @@ team:
     con: 0
     weapon: thrillingtalesofdragonslayers
     refine: 5
-    er: 0.9588
+    er: 1.069
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 53745.35385285122
+dps: 55484.080387533446
 mode: sl
 duration: 147.00000000000082
 target_count: 1

@@ -1,33 +1,76 @@
-author: CPM#7653
-config:
-  "yelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\"
-  refine=3 lvl=90/90;\nyelan add set=\"noblesseoblige\" count=4;\nyelan add stats
-  def%=0.1240 def=39.36 hp=5288 hp%=0.6644 atk=344.1 atk%=0.09920 er=0.1102 em=39.64
-  cr=0.6420 cd=0.7944 hydro%=0.4660;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
-  add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=4;\nxingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1
-  atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;\n\nbennett char
-  lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"ironsting\" refine=5 lvl=90/90;\nbennett
-  add set=\"thunderingfury\" count=4;\nbennett add stats def%=0.1240 def=39.36 hp=5288
-  hp%=0.09920 atk=344.1 atk%=0.09920 er=0.1102 em=79.28 cr=0.6420 cd=0.7944 pyro%=0.4660
-  em=186.5;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\"
-  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
-  add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.8486
-  em=39.64 cr=0.6089 cd=0.7282 pyro%=0.4660;\n\n#Enemies and Particles:\ntarget lvl=100
-  resist=.1;\nenergy every interval=480,720 amount=1;\noptions debug=true iteration=1000
-  duration=101 mode=sl;\n#Action List:\n\nactive fischl;\n\nfischl skill, attack;\nxingqiu
-  attack, burst, attack;\nyelan skill, attack, burst;\nbennett attack, skill, attack,
-  burst;\nxingqiu skill, dash, attack;\nbennett attack:2, skill,\n        attack:2,
-  skill,\n        attack:2, skill,\n        attack:2, skill;\nfischl attack, burst;\nyelan
-  skill, attack;\nbennett attack:2, skill,\n        attack:2, skill,\n        attack:2,
-  skill,\n        attack:3, skill,\n        attack:3, skill;\n    \nrestart;\n\n\n"
+author: CPM#7653 and RoyM#2340
+config: |+
+  yelan char lvl=90/90 cons=0 talent=9,9,9;
+  yelan add weapon="favoniuswarbow" refine=3 lvl=90/90;
+  yelan add set="noblesseoblige" count=4;
+  yelan add stats def%=0.1240 def=39.36 hp=5288 hp%=0.6644 atk=344.1 atk%=0.09920 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="lionsroar" refine=3 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
+
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
+  bennett add set="crimsonwitchofflames" count=4;
+  bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.1102 em=265.8 cr=0.6420 cd=0.7944 pyro%=0.4660;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="thestringless" refine=3 lvl=90/90;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 pyro%=0.4660;
+
+  #fischl add weapon="fadingtwilight" refine=5 lvl=90/90;
+
+  #Enemies and Particles:
+  target lvl=100 resist=.1;
+  energy every interval=480,720 amount=1;
+  options debug=true iteration=1000 duration=101.2 mode=sl;
+  #Action List:
+
+  active fischl;
+
+  fischl skill, attack;
+  xingqiu skill, burst, attack;
+  yelan attack, skill, attack, burst;
+  bennett attack, burst,attack,skill;
+  xingqiu attack:2;
+  bennett attack:2,skill;
+  xingqiu attack:2;
+  bennett attack:2,skill;
+  fischl attack,burst;
+  bennett attack:2,skill;
+  yelan attack,skill;
+  bennett attack:2,skill;
+  xingqiu attack:2;
+  bennett attack:2,skill;
+  xingqiu attack:2;
+  bennett attack:2,skill;
+  xingqiu attack:2;
+  bennett attack:3,dash,
+          attack:3,skill;
+  restart;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 description: 4TF Bennett with Double Hydro.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
     con: 6
-    weapon: ironsting
-    refine: 5
+    weapon: thealleyflash
+    refine: 1
     er: 0.1102
     talents:
       attack: 9
@@ -37,7 +80,7 @@ team:
     con: 6
     weapon: thestringless
     refine: 3
-    er: 0.8486
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -60,8 +103,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 45791.91358682407
+dps: 54909.99946645603
 mode: sl
-duration: 100.9999999999993
+duration: 101.2000000000015
 target_count: 1
 viewer_key: fa5P1s_E_vmk_0bDT7fpU

@@ -21,9 +21,9 @@ config:
   ;\t\n\noptions swap_delay=12 debug=true iteration=1000 duration=85 workers=30 mode=sl;\n\ntarget
   lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive xingqiu;\n\nxingqiu
   burst, attack:2;\nyelan attack, burst;\nbennett attack, skill, attack, burst;\nyelan
-  attack, skill;\n\nyoimiya skill, attack:4, attack, dash, attack:4, attack, dash,
-  attack:4, attack;\n\nyelan attack, skill;\nxingqiu attack, skill, attack:2;\nbennett
-  attack:2, skill;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack, skill;\n\nyoimiya skill, attack:4, attack[travel=0], dash, attack:4, attack[travel=0],
+  dash, attack:4, attack[travel=0];\n\nyelan attack, skill;\nxingqiu attack, skill,
+  attack:2;\nbennett attack:2, skill;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoimiya Double Hydro with Bennett.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53702.21501421607
+dps: 57848.27792242547
 mode: sl
 duration: 84.999999999999
 target_count: 1

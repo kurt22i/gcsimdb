@@ -24,7 +24,7 @@ config:
   skill, attack, skill;\nyelan skill, burst, attack;\nbennett skill,attack,burst;\nfischl
   attack:2, burst;\ndiluc burst, skill, attack:2, skill, attack:2, skill, attack,
   dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack, skill, attack,
-  skill, attack, skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill, attack, skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: TF Diluc with Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40905.0946673526
+dps: 40904.516416542945
 mode: sl
 duration: 102.99999999999858
 target_count: 1

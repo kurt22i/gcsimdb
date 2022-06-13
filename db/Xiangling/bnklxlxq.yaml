@@ -30,21 +30,25 @@ config: |+
   energy every interval=480,720 amount=1;
 
   active xingqiu;
-  xingqiu burst[orbital=0];
+  xingqiu burst, attack:2;
   bennett attack, burst, attack, skill;
   klee attack, skill[bounce=3, mine=8], attack;
   xiangling skill, attack, burst;
-  wait 5;
-  xingqiu skill, dash, attack:2;
-  wait 15;
-  bennett attack:3, skill;
-  xingqiu attack:3;
+  wait 7;
+  xingqiu skill, attack:2;
   wait 2;
-  bennett skill;
-  xingqiu attack:5;
-  bennett skill, attack;
-  xingqiu attack:5, dash, attack:3;
+  bennett attack, skill;
+  xingqiu attack:2;
+  bennett attack, skill;
+  xingqiu attack:2;
+  bennett attack, skill;
+  xingqiu attack:2, jump, attack:2;
+  bennett attack, skill;
+  xingqiu attack:2, dash, attack:2, dash, attack:2;
+  wait 10;
   restart;
+
+
 
 description: Klee National.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
@@ -85,7 +89,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 51375.56733721008
+dps: 52893.41403738085
 mode: sl
 duration: 106.99999999999939
 target_count: 1

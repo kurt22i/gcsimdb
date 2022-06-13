@@ -1,6 +1,6 @@
 author: FLOOFY | Jacky15x#5005
 config: |+
-  options swap_delay=12 debug=true iteration=1000 duration=138 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=142 workers=30 mode=sl;
 
   energy every interval=480,720 amount=1;
 
@@ -16,7 +16,7 @@ config: |+
   sucrose add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
   sucrose add set="viridescentvenerer" count=4;
   sucrose add stats hp=4780 atk=311 em=187 em=187 em=187; #main
-  sucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.3306 em=118.92 cr=0.3972 cd=0.1324;
+  sucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.3972 cd=0.5296;
 
   bennett char lvl=90/90 cons=5 talent=9,9,9;
   bennett add weapon="thealleyflash" refine=1 lvl=90/90;
@@ -28,7 +28,7 @@ config: |+
   xiangling add weapon="thecatch" refine=5 lvl=90/90;
   xiangling add set="emblemofseveredfate" count=4;
   xiangling add stats hp=4780 atk=311.0 er=0.5180 cr=0.3110 pyro%=0.4660; #main
-  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;
+  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;
 
   active barbara;
 
@@ -46,6 +46,22 @@ config: |+
   barbara charge;
 
   restart;
+
+  # Vaporize DPS Barbara team
+
+  # The goal is to get Barbara to vaporize as many CAs as possible during Xiangling's Q, while holding as many buffs as possible.
+
+  # In practice, it is possible to avoid Barbara's E from stealing vape reactions from her CAs by keeping distance from the enemy, but due to the current limitations of the simulator, I had to adjust her NA/CA order in order to get as many vaped CAs as possible. When playing, just keep distance from the enemy and spam CAs during Xiangling's Q, and switch to N2C(J) or N4(J) to conserve stamina when necessary.
+
+  # In this rotation, there is a total of 4 vaped CAs during Barbara's DPS window, which I believe is a realistic (slightly optimistic?) estimate after factoring in stamina management. The first vaped CA has all the team buffs applied to it (Sucrose EM buff/4VV/TTDS, Bennett ATK buff/4NO).
+
+  # The first part of the rotation (Barbara > Bennett) was added to accomodate for Freedom-Sworn Bennett, allowing him to gain 1 Sigil, therefore allowing him to get 2 Sigils when he casts his Q and activate the FS team buff before Barbara's DPS window. I wasn't able to stop the FS team buff from getting desynced from the second rotation onwards.
+
+  # From the second rotation onwards, it is possible for Barbara to pick up Guoba's chili pepper for a small ATK% boost.
+
+  # There might be room for improvement to allow more hits of Pyronado to reverse vape without compromising on the amount of forward vapes by Barbara's CAs.
+
+  # Substats were distributed using the desktop version of gcsim (Substat Optimizer Mode), therefore there might be room for improvement.
 
 description: Barbara Vape.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
@@ -72,7 +88,7 @@ team:
     con: 6
     weapon: thrillingtalesofdragonslayers
     refine: 5
-    er: 0.3306
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -86,8 +102,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 22148.775479568085
+dps: 21779.648981081733
 mode: sl
-duration: 138.00000000000256
+duration: 141.99999999999835
 target_count: 1
 viewer_key: JHGWZ1gmKC-lzlt4grTKR

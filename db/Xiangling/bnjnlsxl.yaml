@@ -9,8 +9,8 @@ config: |+
   lisa char lvl=90/90 cons=2 talent=9,9,9;
   lisa add weapon="favoniuscodex" refine=3 lvl=90/90;
   lisa add set="noblesseoblige" count=4;
-  lisa add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311; #main 5* set
-  lisa add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944; #20 liquid subs
+  lisa add stats hp=4780 atk=311 er=0.518 em=187 em=187; #main 5* set
+  lisa add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=158.56 cr=0.3972 cd=0.2648; #20 liquid subs
 
   xiangling char lvl=90/90 cons=6 talent=9,9,9;
   xiangling add weapon="thecatch" refine=5 lvl=90/90;
@@ -49,6 +49,11 @@ config: |+
   bennett attack,skill;
 
   restart;
+
+
+
+
+
 
 
 
@@ -113,7 +118,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 37134.06455756485
+dps: 39962.41122139363
 mode: sl
 duration: 127.79999999999698
 target_count: 1

@@ -6,8 +6,8 @@ config:
   count=4; #@50.2k\nbennett add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311
   ; #main\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
   er=0.2755 em=39.64 cr=0.331 cd=0.7282 ;\t\n#bennett add stats def=39.36 def%=0.124
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662
-  ;\t#pamber sucrose\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;
+  #pamber/oath \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
   hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
@@ -19,23 +19,24 @@ config:
   def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
   cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n \nsucrose
   char lvl=90/90 cons=6 talent=9,9,9;\n#sucrose add weapon=\"prototypeamber\" refine=5
-  lvl=90/90; #@53.4k with ER sands\nsucrose add weapon=\"favoniuscodex\" refine=3
+  lvl=90/90; #@53.4k with ER sands\n#sucrose add weapon=\"oathsworneye\" refine=5
+  lvl=90/90; #@53.6k with ER sands\nsucrose add weapon=\"favoniuscodex\" refine=3
   lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add stats hp=4780
-  atk=311.0 em=561.0;\n#sucrose add stats hp=4780 atk=311 er=0.518 em=373;\nsucrose
+  atk=311.0 em=561.0;\n#sucrose add stats hp=4780 atk=311 er=0.518 em=373; #pamber/oath\nsucrose
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612
   em=118.92 cr=0.2648 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n#sucrose
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
-  em=158.56 cr=0.2648 cd=0.1324 ;\t#pamber\t\t\t\t\t\t\t\t\t\t\n##Default Enemy\ntarget
-  lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions List\n\nactive
-  bennett;\n\nbennett skill, dash;\n#apply pyro\nyelan skill, burst, attack;\n#vape
-  it off\nsucrose attack, burst;\n#burst infuses hydro\n\nbennett attack, burst, attack,
-  skill;\nxiangling attack, burst, attack, skill, attack;\n#snapshots pyronado\n\nsucrose
-  attack, skill;\n#swirl pyro\n\nyelan skill, attack:2;\nsucrose attack:3;\nyelan
-  attack:2;\n#recast yelan skill on cd to change reaction direction, you're trying
-  to save your rainsword to apply immediately after\n#stayhydrated with sucrose nodders\n\nbennett
-  attack, skill, attack;\nxiangling attack, dash, attack:2;\n#refresh crimson witch
-  on bennett, funnel to xiangling\n\nbennett attack, skill;\nsucrose attack:2;\nxiangling
-  attack:2;\n#cool funnel\n\nrestart;\n\n\n\n\n\n"
+  em=158.56 cr=0.2648 cd=0.1324 ;\t#pamber/oath\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n##Default
+  Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
+  List\n\nactive bennett;\n\nbennett skill, dash;\n#apply pyro\nyelan skill, burst,
+  attack;\n#vape it off\nsucrose attack, burst;\n#burst infuses hydro\n\nbennett attack,
+  burst, attack, skill;\nxiangling attack, burst, attack, skill, attack;\n#snapshots
+  pyronado\n\nsucrose attack, skill;\n#swirl pyro\n\nyelan skill, attack:2;\nsucrose
+  attack:3;\nyelan attack:2;\n#recast yelan skill on cd to change reaction direction,
+  you're trying to save your rainsword to apply immediately after\n#stayhydrated with
+  sucrose nodders\n\nbennett attack, skill, attack;\nxiangling attack, dash, attack:2;\n#refresh
+  crimson witch on bennett, funnel to xiangling\n\nbennett attack, skill;\nsucrose
+  attack:2;\nxiangling attack:2;\n#cool funnel\n\nrestart;\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -75,7 +76,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55717.426738870185
+dps: 55617.22305070235
 mode: sl
 duration: 106.99999999999939
 target_count: 1

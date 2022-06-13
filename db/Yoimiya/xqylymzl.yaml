@@ -16,23 +16,15 @@ config:
   refine=1 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli
   add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102
   em=39.64 cr=0.3972 cd=1.284 geo%=0.4660;\n\n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-  \           \noptions \nswap_delay=12 debug=true iteration=1000 duration=90 workers=30
+  \           \noptions \nswap_delay=12 debug=true iteration=1000 duration=86 workers=30
   mode=sl;\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive
-  zhongli;\n\nzhongli skill[hold=1]; \nxingqiu burst, attack, skill, attack:2; \nyelan
-  attack, skill, burst, attack;\nyoimiya skill, attack:4, attack[travel=0], dash,
-  attack:4, attack[travel=0], dash, attack:4, attack[travel=0];\nyelan attack, skill,
-  attack:2; \nxingqiu attack:2, dash,attack:2, dash,attack:2;\nzhongli burst;\n\nzhongli
-  skill[hold=1]; \nxingqiu burst, attack, skill, attack:2; \nyelan attack, skill,
-  burst, attack;\nyoimiya skill, attack:4, attack[travel=0], dash, attack:4, attack[travel=0],
-  dash, attack:4, attack[travel=0];\nyelan attack, skill, attack:2; \nxingqiu attack:2,
-  dash, \n        attack:2, dash,\n        attack:2;\nyoimiya attack:3;\n\nzhongli
-  skill[hold=1]; \nxingqiu burst, attack, skill, attack:2; \nyelan attack, skill,
-  burst, attack;\nyoimiya skill, attack:4, attack[travel=0], dash, attack:4, attack[travel=0],
-  dash, attack:4, attack[travel=0];\nyelan attack, skill, attack:2; \nxingqiu attack:2,
-  dash,attack:2, dash,attack:2;\nzhongli burst;\n\nzhongli skill[hold=1]; \nxingqiu
-  burst, attack, skill, attack:2; \nyelan attack, skill, burst, attack;\nyoimiya skill,
+  xingqiu;\n\nxingqiu burst, attack:2;\nyelan attack, burst;\nzhongli skill[hold=1],attack:3;\nyelan
+  attack, skill;\nyoimiya skill, attack:4, attack[travel=0], dash, attack:4, attack[travel=0],
+  dash, attack:4, attack[travel=0];\nyelan attack, skill, attack:2; \nxingqiu attack,
+  skill, attack:2,dash,attack:2,dash,attack:2;\n\nxingqiu burst, attack:2;\nyelan
+  attack, burst;\nzhongli skill[hold=1],attack:3;\nyelan attack, skill;\nyoimiya skill,
   attack:4, attack[travel=0], dash, attack:4, attack[travel=0], dash, attack:4, attack[travel=0];\nyelan
-  attack, skill, attack:2; \nxingqiu attack:2, dash, \n        attack:2, dash,\n        attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n"
+  attack, skill, attack:2; \nxingqiu attack, skill, attack:2,dash,attack:2,dash,attack;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoimiya Double Hydro with shielding.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -72,8 +64,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49247.408261919314
+dps: 49703.987087188456
 mode: sl
-duration: 90.00000000000215
+duration: 85.99999999999883
 target_count: 1
 viewer_key: VIVigkqTeIvqPth2NT7hX

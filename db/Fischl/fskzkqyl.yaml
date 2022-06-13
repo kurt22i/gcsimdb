@@ -1,4 +1,6 @@
-author: RoyM#2340 and Capu_2#0523
+author:
+  "RoyM#2340, Capu_2#0523 and lulu \U0001D502 \U0001D4FE \U0001D4F7  \U0001D4F3
+  \U0001D4F2 \U0001D4F7 ♡#4236"
 config: |+
   keqing char lvl=90/90 cons=0 talent=9,9,9;
   keqing add weapon="lionsroar" refine=3 lvl=90/90;
@@ -16,7 +18,7 @@ config: |+
   kazuha add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5952 er=0.2204 em=679.9 cr=0.1986 cd=0.1324;
 
   fischl char lvl=90/90 cons=6 talent=9,9,9;
-  fischl add weapon="alleyhunter" refine=1 lvl=90/90;
+  fischl add weapon="alleyhunter" refine=1 lvl=90/90 +params=[stacks=10];
   fischl add set="thundersoother" count=4;
   fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
 
@@ -50,6 +52,7 @@ config: |+
   kazuha skill,high_plunge,attack:2;
 
   restart;
+
 
 
 
@@ -93,7 +96,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48919.93704037173
+dps: 49101.74942499692
 mode: sl
 duration: 277.99999999999886
 target_count: 1

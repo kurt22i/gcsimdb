@@ -1,8 +1,8 @@
 author: Lettuce Hunt#5806
 config:
-  "hutao char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon= \"deathmatch\"
-  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
-  stats hp=4780 atk=311 em=186.5 pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124
+  "hutao char lvl=90/90 cons=0 talent=9,9,9 start_hp=50;\nhutao add weapon=
+  \"deathmatch\" refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao
+  add stats hp=4780 atk=311 em=186.5 pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
   cd=0.662;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\"
   refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats
@@ -24,7 +24,7 @@ config:
   jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
   jump,\n    attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
   jump,\n    attack:1, charge, jump;\nyelan attack, skill;\nkazuha skill, high_plunge,
-  attack:3;\n\nrestart;\n\n\n\n\n\n\n\n"
+  attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 60442.67990095011
+dps: 60962.808749826545
 mode: sl
 duration: 108.99999999999856
 target_count: 1
