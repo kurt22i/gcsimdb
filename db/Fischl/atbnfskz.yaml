@@ -1,4 +1,4 @@
-author: Gamy#1417
+author: Gamy#1417 and Hessey#9122
 config:
   "options debug=true iteration=1000 duration=98 mode=sl swap_delay=12 workers=30;\n\n##Characters
   stats\nayato char lvl=90/90 cons=0 talent=9,9,9; \nayato add weapon=\"favoniussword\"
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38058.80031183344
+dps: 38059.120686885355
 mode: sl
 duration: 97.9999999999992
 target_count: 1

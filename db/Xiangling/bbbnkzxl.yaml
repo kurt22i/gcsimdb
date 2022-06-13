@@ -25,19 +25,20 @@ config: |+
   target lvl=100 resist=0.1;
   energy every interval=480,720 amount=1;
 
-  active barbara;
+  active bennett;
 
   bennett burst, skill;
   kazuha skill, high_plunge, burst;
   barbara attack;
   xiangling skill, burst;
-  barbara skill[orbital=1], attack:4, dash, attack:4, dash, attack:4, dash;
+  barbara skill, attack:4, dash, attack:4, dash, attack:4, dash;
   barbara attack:4, charge;
   bennett skill;
   xiangling skill, charge;
   kazuha skill, high_plunge;
 
   restart;
+
 
 
 description: Rev Vape Barbara.
@@ -79,7 +80,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 28188.1820546446
+dps: 28688.896423282244
 mode: sl
 duration: 105.99999999999856
 target_count: 1

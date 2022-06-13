@@ -17,7 +17,7 @@ config:
   attack:2; \nbennett attack, skill;\nxingqiu attack, skill, attack:2;\nbennett attack,
   skill;\nxingqiu attack:2;\nbennett attack, skill;\nxingqiu attack:2;\nbennett attack,
   skill;\nxingqiu attack:2; \nbennett attack, skill, attack:2;\nxingqiu attack:2;\nbennett
-  attack, skill;\nxingqiu attack:2, dash, attack:2, dash, attack:2;\n\nrestart;\n\n\n\n"
+  attack:2, skill;\nxingqiu attack:2, dash, attack:2, dash, attack;\n\nrestart;\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -39,7 +39,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 27888.81613646625
+dps: 28341.26875777431
 mode: sl
 duration: 105.99999999999856
 target_count: 1

@@ -27,7 +27,7 @@ config:
   attack;\nklee    attack, skill[bounce=3, mine=8],\n        attack, charge,\n        attack,
   charge,\n        attack, charge,\n        attack, charge,\n        attack, charge,\n
   \       attack;\nbennett attack, skill, attack;\nklee    attack, charge, attack,
-  charge;     \nrestart;\n\n\n\n"
+  charge;     \nrestart;\n\n\n\n\n"
 description: Klee Vape with double Hydro.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -67,7 +67,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 45184.34120738714
+dps: 45201.52831683506
 mode: sl
 duration: 87.000000000002
 target_count: 1

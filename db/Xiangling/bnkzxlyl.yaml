@@ -24,7 +24,7 @@ config:
   attack, burst, attack, skill;\nxiangling attack, burst, attack, skill;\nkazuha attack,
   skill, high_plunge, attack, dash;\nyelan attack, skill;\nxiangling attack:2;\nyelan
   attack:2;\nbennett attack, skill, attack:2;\nxiangling attack:2;\nkazuha attack,
-  skill[hold=1], high_plunge, attack:2;\n\nrestart;\n\n"
+  skill[hold=1], high_plunge, attack:2;\n\nrestart;\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53855.18324782941
+dps: 53897.76214025042
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -20,7 +20,7 @@ config: |+
   fischl add set="thundersoother" count=4;
   fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=177 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=278 workers=30 mode=sl;
 
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
@@ -93,8 +93,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48715.25241769459
+dps: 48919.93704037173
 mode: sl
-duration: 177.00000000000023
+duration: 277.99999999999886
 target_count: 1
 viewer_key: yDOFQ7gMGWjEf0PEsNCom

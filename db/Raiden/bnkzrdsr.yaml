@@ -22,7 +22,7 @@ config:
   raiden;\n\nraidenshogun skill;\nbennett burst;\nkujousara skill, aim;\nwait 10;\nkaedeharakazuha
   skill, high_plunge, burst;\nkujousara burst;\nraidenshogun burst, attack:3, charge,
   attack:3, charge, attack:3, charge;\nkaedeharakazuha skill, high_plunge, attack:2;\nbennett
-  skill, attack:3;\n\nrestart;\n\n\n\n\n"
+  skill, attack:3;\n\nrestart;\n\n\n\n\n\n"
 description:
   Hypercarry Raiden with C6 Sara. Scales well in multitarget and with Raiden
   constellations.
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48194.51791451379
+dps: 48323.4704210988
 mode: sl
 duration: 103.99999999999928
 target_count: 1

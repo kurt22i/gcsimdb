@@ -1,33 +1,40 @@
-author: Charliex3000#9403
+author: Charliex3000#9403 and Lettuce Hunt#5806
 config:
   "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;
   \n\n#Character Builds:\ndiluc char lvl=90/90 cons=0 talent=9,9,9;\ndiluc add weapon=
-  \"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\ndiluc add set=\"crimsonwitchofflames\"
-  count=4;\ndiluc add stats hp=4780 atk=311 em=186.5 pyro%=0.466 cr=0.311;\ndiluc
-  add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
-  cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;
-  \nyelan add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\n#yelan add weapon=\"thestringless\"
-  refine=3 lvl=90/90;\n#yelan add weapon=\"fadingtwilight\" refine=5 lvl=90/90;\nyelan
-  add set=\"emblemofseveredfate\" count=4;\n#yelan add set=\"noblesseoblige\" count=4;\nyelan
-  add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats
-  hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331
-  cd=0.7944 er=0.2204 ; #subs\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"instructor\"
-  count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.2317 cd=0.4634;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n
-  \nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \n#xingqiu add weapon=\"amenomakageuchi\"
-  refine=5 lvl=90/90;\nxingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\n#xingqiu
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\n#xingqiu add set=\"noblesseoblige\"
-  count=4;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780
-  atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats hp%=0.0992 hp=507.88
-  atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.2204
-  ; #subs\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n#Enemies
-  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive
+  \"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\n#diluc add weapon=\"favoniusgreatsword\"
+  refine=3 lvl=90/90;\ndiluc add set=\"shimenawasreminiscence\" count=4;\ndiluc add
+  stats hp=4780 atk=311 em=186.5 pyro%=0.466 cd=0.622;\n#diluc add stats hp=4780 atk=311
+  em=186.5 pyro%=0.466 cr=0.311;\ndiluc add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662;\t\t\n#diluc add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28
+  cr=0.3331 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\n#yelan add weapon=\"thestringless\" refine=3 lvl=90/90;\n#yelan add
+  weapon=\"fadingtwilight\" refine=5 lvl=90/90;\nyelan add set=\"emblemofseveredfate\"
+  count=4;\n#yelan add set=\"noblesseoblige\" count=4;\nyelan add stats hp=4780 atk=311
+  hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\n#bennett add set=\"instructor\" count=4;\n#bennett add set=\"crimsonwitchofflames\"
+  count=4;\nbennett add set=\"noblesseoblige\" count=4;\n#bennett add stats hp=3571
+  atk=232 er=0.518 cr=0.232 pyro%=0.348 ; #main\n#bennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.2317 cd=0.4634;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nbennett
+  add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats
+  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28
+  cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n \nxingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  \n#xingqiu add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nxingqiu add weapon=\"harbingerofdawn\"
+  refine=5 lvl=90/90;\n#xingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\n#xingqiu
+  add set=\"noblesseoblige\" count=4;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu
+  add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
+  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n#Enemies
+  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=100;\n\nactive
   xingqiu;\n\nxingqiu burst, attack:2;\nyelan attack, burst;\nbennett attack, skill,
   attack, burst;\nyelan attack, skill;\ndiluc attack, skill,\n    attack, skill,\n
-  \   attack, skill,\n    attack:4, dash,\n    attack:4;  \nyelan attack, skill;\nxingqiu
-  attack, skill, attack:2;\nbennett attack:2, skill;\nxingqiu attack:2;\nrestart;\n\n\n"
+  \   attack, dash,\n    attack, skill,\n    attack:4;\nbennett attack, skill;\nxingqiu
+  attack:2;\nyelan attack, skill;\nxingqiu attack, skill, attack:2;\nbennett attack,
+  skill, attack;\nxingqiu attack:2;\nrestart;\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -35,7 +42,7 @@ team:
     con: 6
     weapon: thealleyflash
     refine: 1
-    er: 0.7384000000000001
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
@@ -53,7 +60,7 @@ team:
     con: 6
     weapon: harbingerofdawn
     refine: 5
-    er: 0.2204
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -62,12 +69,12 @@ team:
     con: 0
     weapon: favoniuswarbow
     refine: 3
-    er: 0.2204
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 45271.376071150684
+dps: 49326.38279286555
 mode: sl
 duration: 105.00000000000071
 target_count: 1

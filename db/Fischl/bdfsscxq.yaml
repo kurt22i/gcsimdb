@@ -16,7 +16,7 @@ config: |+
   beidou add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
 
   fischl char lvl=90/90 cons=6 talent=9,9,9;
-  fischl add weapon="alleyhunter" refine=3 lvl=90/90 +params=[stacks=10];
+  fischl add weapon="alleyhunter" refine=1 lvl=90/90 +params=[stacks=10];
   fischl add set="tenacityofthemillelith" count=5;
   fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
   fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
@@ -86,7 +86,7 @@ team:
   - name: fischl
     con: 6
     weapon: alleyhunter
-    refine: 3
+    refine: 1
     er: 0.1102
     talents:
       attack: 9
@@ -110,7 +110,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50705.03003807106
+dps: 49968.22175037104
 mode: sl
 duration: 99.9999999999986
 target_count: 1

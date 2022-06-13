@@ -2,15 +2,15 @@ author: Ocram2012#6693, Johanz3#7076 and rf#5773
 config:
   "hutao char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon= \"deathmatch\"
   refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
-  stats hp=4780 atk=311 em=186.5 pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
-  cd=0.662;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\"
-  refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats
-  hp=4780 atk=311 hp%=0.466 cr=0.311 hydro%=0.466 ; #main\nyelan add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331
-  cd=0.662;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
-  stats hp=4780 atk=311 em=559.5 ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88
+  stats hp=4780 atk=311 em=187 pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662;\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats hp=4780
+  atk=311 hp%=0.466 cr=0.311 hydro%=0.466 ; #main\nyelan add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
+  atk=311 em=187 em=187 em=187 ; #main\nkazuha add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6061 em=59.46 cr=0.3972 cd=0.1324;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232
@@ -23,7 +23,7 @@ config:
   charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1,
   charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1,
   charge, jump,\n    attack:1, charge, jump;\nkazuha attack, skill, high_plunge;\nbennett
-  skill, dash;\nrestart;\n\n\n\n\n\n\n\n\n"
+  skill, dash;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Bennett-Tao with Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 70785.41601695964
+dps: 71000.93881296438
 mode: sl
 duration: 100.76666666666799
 target_count: 1

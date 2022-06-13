@@ -20,7 +20,7 @@ config:
   burst;\nxingqiu skill, dash, attack;\nbennett attack:2, skill,\n        attack:2,
   skill,\n        attack:2, skill,\n        attack:2, skill;\nfischl attack, burst;\nyelan
   skill, attack;\nbennett attack:2, skill,\n        attack:2, skill,\n        attack:2,
-  skill,\n        attack:3, skill,\n        attack:3, skill;\n    \nrestart;\n\n"
+  skill,\n        attack:3, skill,\n        attack:3, skill;\n    \nrestart;\n\n\n"
 description: 4TF Bennett with Double Hydro.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 45799.00101533462
+dps: 45791.91358682407
 mode: sl
 duration: 100.9999999999993
 target_count: 1

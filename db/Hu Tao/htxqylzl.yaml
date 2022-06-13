@@ -25,7 +25,7 @@ config:
   charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge, dash,\n    attack:1,
   charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:2,
   charge, jump,\n    attack;\nzhongli attack:3;\nxingqiu attack:3;\nyelan attack:2;\nxingqiu
-  attack:2, jump, attack;\nzhongli attack;\n\nrestart;\n\n\n\n"
+  attack:2, jump, attack;\nzhongli attack;\n\nrestart;\n\n\n\n\n"
 description: Double-Hydro Tao.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55877.56950629522
+dps: 55887.95876536849
 mode: sl
 duration: 105.00000000000071
 target_count: 1

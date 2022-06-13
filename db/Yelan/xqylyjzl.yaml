@@ -2,25 +2,23 @@ author: "lulu \U0001D502 \U0001D4FE \U0001D4F7  \U0001D4F3 \U0001D4F2 \U0001D4F7
 config:
   "yunjin char lvl=90/90 cons=6 talent=9,9,9;\nyunjin add weapon=\"crescentpike\"
   refine=5 lvl=90/90;\nyunjin add set=\"echoesofanoffering\" count=4;\nyunjin add
-  stats def%=0.1240 def=39.36 hp=5288 hp%=0.0992 atk=344.1 atk%=0.6644 er=0.1102 em=39.64
-  cr=0.6420 cd=0.7944 phys%=0.5830;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan
-  add weapon=\"favoniuswarbow\" lvl=90/90 refine=3;\t\nyelan add set=\"emblemofseveredfate\"
-  count=4;\t\t\t\t\t\t\t\t\t\t\nyelan add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466
-  cr=0.311;\nyelan add stats def=39.36 def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992
-  er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
-  add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ;\nxingqiu
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3857
-  em=39.64 cr=0.2979 cd=0.662 ;\n\t\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli
-  add weapon=\"favoniuslance\" lvl=90/90 refine=3;\nzhongli add set=\"tenacityofthemillelith\"
-  count=4;\nzhongli add stats hp=4780 atk=311 atk%=0.466 geo%=0.466 cr=0.311;\nzhongli
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944 ;\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\noptions swap_delay=12
-  debug=true iteration=1000 duration=87 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy
+  stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102
+  em=39.64 cr=0.6420 cd=0.7944 phys%=0.5830;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan
+  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\"
+  count=4;\nyelan add stats def%=0.1240 def=39.36 hp=5288 hp%=0.6644 atk=344.1 atk%=0.09920
+  er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;\n\nxingqiu char lvl=90/90
+  cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu
+  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats def%=0.1240 def=39.36
+  hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.3857 em=39.64 cr=0.6089 cd=0.6620
+  hydro%=0.4660;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nzhongli add set=\"archaicpetra\" count=4;\nzhongli add stats
+  def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64
+  cr=0.6420 cd=0.7944 geo%=0.4660;\n\n\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\noptions
+  swap_delay=12 debug=true iteration=1000 duration=85 mode=sl;\ntarget lvl=100 resist=0.1;\nenergy
   every interval=480,720 amount=1;\n\nactive xingqiu;\nxingqiu burst, attack:2;\nyelan
   attack, burst;\nzhongli attack,skill[hold=1],attack;\nyelan skill,attack:2;\n\nyunjin
   attack,skill,attack,burst,attack:4,dash,attack:4,dash,attack:4;\n\nyunjin attack,skill;\nyelan
-  attack, skill;\nxingqiu attack, skill, attack:2;\nzhongli burst,attack;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack, skill;\nxingqiu attack, skill, dash, attack:2;\nzhongli attack, burst;\n\nrestart;\n\n"
 description: Double Hydro Pikejin with shielding.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -60,8 +58,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42929.86535867944
+dps: 45246.68330783681
 mode: sl
-duration: 87.000000000002
+duration: 84.999999999999
 target_count: 1
 viewer_key: IV3s_Fmw1afyMLT8vIDjG

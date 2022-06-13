@@ -15,8 +15,8 @@ config:
   em=39.64 cr=0.331 cd=0.7944;\t\t\n#yelan add stats def=39.36 def%=0.124 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n#-----------------------------------------------------\n\n\n#Enemies
   and particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n\n#-----------------------------------------------------\n\nactive
-  yelan;\nxingqiu skill,burst,attack;\nyelan attack,burst,attack,skill,attack;\nyelan
-  skill,attack;\nyelan attack;\nxingqiu attack;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  yelan;\nxingqiu skill,burst,attack;\nyelan burst,attack:2;\nyelan attack,skill,attack;\nyelan
+  attack;\n#xingqiu attack;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -38,7 +38,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 26485.28375335638
+dps: 29221.891832947225
 mode: apl
 duration: 105.00000000000071
 target_count: 1

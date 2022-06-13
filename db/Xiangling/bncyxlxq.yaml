@@ -1,7 +1,7 @@
 author: Charliex3000#9403 and Arfoire#9219
 config:
   "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nchongyun
-  char lvl=90/90 cons=0 talent=9,9,9; \nchongyun add weapon=\"favoniusgreatsword\"
+  char lvl=90/90 cons=6 talent=9,9,9; \nchongyun add weapon=\"favoniusgreatsword\"
   refine=3 lvl=90/90;\nchongyun add set=\"instructor\" count=4;\nchongyun add stats
   hp=3571 atk=232 atk%=0.348 cr=0.311 cryo%=0.348 ; #main\nchongyun add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=237.84 cr=0.1324
@@ -19,11 +19,11 @@ config:
   hydro%=0.466 cr=0.311; #main\nxingqiu add stats hp%=0.0992 hp=507.88 atk%=0.0992
   atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.2204 ; #subs\n\n##Default
   Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
-  List\n\nactive xingqiu;\nxingqiu skill,burst,attack;\nbennett burst,attack,skill;\nxiangling
+  List\n\nactive xingqiu;\nxingqiu skill,dash,burst,attack;\nbennett burst,attack,skill;\nxiangling
   attack,burst,attack,skill;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
   attack:2, skill;\nxingqiu attack:3;\nbennett attack:2, skill;\nxingqiu attack:3;\nbennett
   skill, attack;\nxiangling attack:3;\nchongyun attack[delay=9], skill, attack;\nbennett
-  skill, attack;\nrestart;\n\n\n\n\n"
+  skill, attack:2;\nwait 17;\nrestart;\n\n\n\n\n"
 description: The original National Team with Chongyun.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -37,7 +37,7 @@ team:
       skill: 9
       burst: 9
   - name: chongyun
-    con: 0
+    con: 6
     weapon: favoniusgreatsword
     refine: 3
     er: 0.1102
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50446.516843789446
+dps: 51019.672285357745
 mode: sl
 duration: 105.00000000000071
 target_count: 1

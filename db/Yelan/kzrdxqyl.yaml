@@ -17,31 +17,31 @@ config:
   cons=6 talent=9,9,9; \nxingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\n#xingqiu
   add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\"
   count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1488 er=0.1653
   em=39.64 cr=0.331 cd=0.7944;\n\nactive raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1
   hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n#target lvl=100 pyro=0.1
   dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy
   every interval=480,720 amount=1;\n\nraiden skill;\nxingqiu burst, attack, skill,
   attack;\nyelan burst;\nkazuha attack, burst, attack, skill, high_plunge, attack;\nyelan
-  skill, attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4,dash, attack:3;\nyelan
+  skill, attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:5, attack:3;\nyelan
   skill;\nkazuha skill, high_plunge;\n\nxingqiu burst, attack, skill, attack;\nyelan
   burst;\nkazuha attack, burst, attack, skill, high_plunge, attack;\nyelan skill,
-  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nyelan
+  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:5, attack:3;\nyelan
   skill;\nkazuha skill, high_plunge;\n\nxingqiu burst, attack, skill, attack;\nyelan
   burst;\nkazuha attack, burst, attack, skill, high_plunge, attack;\nyelan skill,
-  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nyelan
+  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:5, dash, attack:3;\nyelan
   skill;\nkazuha skill, high_plunge;\n\nxingqiu burst, attack, skill, attack;\nyelan
   burst;\nkazuha attack, burst, attack, skill, high_plunge, attack;\nyelan skill,
-  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nyelan
+  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:5, dash, attack:3;\nyelan
   skill;\nkazuha skill, high_plunge;\n\nxingqiu burst, attack, skill, attack;\nyelan
   burst;\nkazuha attack, burst, attack, skill, high_plunge, attack;\nyelan skill,
-  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nyelan
+  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:5, dash, attack:3;\nyelan
   skill;\nkazuha skill, high_plunge;\n\nxingqiu burst, attack, skill, attack;\nyelan
   burst;\nkazuha attack, burst, attack, skill, high_plunge, attack;\nyelan skill,
-  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nyelan
+  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:5, dash, attack:3;\nyelan
   skill;\nkazuha skill, high_plunge;\n\nxingqiu burst, attack, skill, attack;\nyelan
   burst;\nkazuha attack, burst, attack, skill, high_plunge, attack;\nyelan skill,
-  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:3;\nyelan
+  attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:5, dash, attack:3;\nyelan
   skill;\nkazuha skill, high_plunge;\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
@@ -68,7 +68,7 @@ team:
     con: 6
     weapon: harbingerofdawn
     refine: 5
-    er: 0.2204
+    er: 0.1653
     talents:
       attack: 9
       skill: 9
@@ -82,7 +82,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 56810.445911494906
+dps: 59118.413231506405
 mode: sl
 duration: 126.9999999999982
 target_count: 1

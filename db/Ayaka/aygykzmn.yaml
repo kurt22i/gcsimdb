@@ -18,7 +18,7 @@ config:
   cryo=.1;\nenergy every interval=480,720 amount=1;\n\nactive ayaka;\n\nayaka skill;\nganyu
   burst[radius=2], skill;     \nkazuha skill[hold=1], high_plunge, burst;\nmona skill,burst;\nayaka
   dash,skill,burst;\nganyu skill,aim[weakspot=1];\nkazuha skill, high_plunge;\nayaka
-  dash,attack:3,charge;\n\nrestart;\n\n\n"
+  dash,attack:3,charge;\n\nrestart;\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -58,7 +58,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53646.968664361266
+dps: 53745.35385285122
 mode: sl
 duration: 147.00000000000082
 target_count: 1

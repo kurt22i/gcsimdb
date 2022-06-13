@@ -19,10 +19,10 @@ config:
   electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;\n\n##Default
   Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive
-  fischl;\n\nfischl skill;\ngorou burst,dash;\nalbedo attack:2, skill;\ngorou skill,
+  noelle;\n\nfischl skill;\ngorou burst,dash;\nalbedo attack:2, skill;\ngorou skill,
   attack;\nnoelle skill, attack, burst, attack:3, dash, attack:3, dash;\nfischl burst;\ngorou
   skill, attack,dash;\nnoelle attack:3, dash, attack:3, dash, attack:3, dash;\ngorou
-  skill, attack;\nnoelle attack:3, dash, attack:2, dash;\nrestart;\n\n\n\n\n\n\n\n"
+  skill, attack;\nnoelle attack:3, dash, attack:2, dash;\nrestart;\n\n\n\n\n\n\n\n\n"
 description: Noelle with Fischl.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 39137.599129478374
+dps: 40044.70154294492
 mode: sl
 duration: 78.9999999999992
 target_count: 1
