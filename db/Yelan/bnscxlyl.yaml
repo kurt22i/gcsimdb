@@ -1,0 +1,86 @@
+author: Lettuce Hunt#5806
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=130 workers=30 mode=sl;\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\n#bennett add set=\"noblesseoblige\"
+  count=4; #@50.2k\nbennett add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311
+  ; #main\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.3306 em=39.64 cr=0.331 cd=0.662; #nofavsucrose\n#bennett add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331
+  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling char lvl=90/90
+  cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 em=187
+  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\n#yelan add set=\"noblesseoblige\"
+  count=4; #needs ~120-130% er to function @48k\nyelan add stats hp=4780 atk=311 hp%=0.466
+  hydro%=0.466 cr=0.311; #main\nyelan add stats def=39.36 def%=0.124 hp=507.88 hp%=0.1984
+  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n
+  \nsucrose char lvl=90/90 cons=6 talent=9,9,9;\n#sucrose add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90; #@49.5k with current rotation, changing it to buff xl is scuffed\nsucrose
+  add weapon=\"sacrificialfragments\" refine=3 lvl=90/90;\n#sucrose add weapon=\"prototypeamber\"
+  refine=5 lvl=90/90; #@49.3k, very to have chill to have 2 healers\n#sucrose add
+  weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\"
+  count=4;\nsucrose add stats hp=4780 atk=311.0 em=561.0;\nsucrose add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=118.92 cr=0.2648
+  cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n##Actions List\n\nactive bennett;\n\n#bursting
+  every other rotation with sucrose, basically.=========================================================\n\nbennett
+  skill, dash;\n#apply pyro\nyelan skill, burst, attack;\n#vape it off\nsucrose attack,
+  burst;\n#burst infuses hydro\n\nbennett attack, burst, attack, skill;\nxiangling
+  attack, burst, attack, skill, attack;\n#snapshots pyronado\n\nsucrose attack, skill;\n#swirl
+  pyro\n\nyelan skill, attack:2;\nsucrose attack:3;\nyelan attack:2;\n#recast yelan
+  skill on cd to change reaction direction, you're trying to save your rainsword to
+  apply immediately after\n#stayhydrated with sucrose nodders\n\nbennett attack, skill,
+  attack;\nxiangling attack, dash, attack:2;\n#refresh crimson witch on bennett, funnel
+  to xiangling\n\nbennett attack, skill;\nsucrose attack:2;\nxiangling attack:2;\n#cool
+  funnel\n\n#second rotation, no sucrose burst===========================================================================\n\nbennett
+  skill, dash;\nyelan skill, burst, attack;\nsucrose attack:2, skill;\nbennett burst,
+  attack, skill;\nxiangling attack, burst, attack, skill;\nsucrose attack:2;\nyelan
+  skill, attack:2;\nsucrose attack:3, skill, attack;\nbennett attack, skill;\nxiangling
+  attack, dash, attack:2;\nbennett attack, skill;\nsucrose attack:2;\nxiangling attack:2;\n\nrestart;\n\n"
+description: ""
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: sacrificialfragments
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 50569.4988972621
+mode: sl
+duration: 129.99999999999824
+target_count: 1
+viewer_key: lzvNG8eS1liqn3h1CMS0q

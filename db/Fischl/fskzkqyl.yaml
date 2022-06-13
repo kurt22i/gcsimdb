@@ -53,6 +53,7 @@ config: |+
 
 
 
+
 description: Keqing Taser with Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -92,7 +93,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48695.38927823204
+dps: 48715.25241769459
 mode: sl
 duration: 177.00000000000023
 target_count: 1

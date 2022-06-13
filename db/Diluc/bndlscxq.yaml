@@ -1,0 +1,72 @@
+author: Voidrev#2697
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\nsucrose
+  char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
+  stats hp=4780 atk=311 em=559.5 ; #main\nsucrose add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.496 er=0.1102 em=118.92 cr=0.331 cd=0.1324;\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4406 em=39.64 cr=0.331 cd=0.5296;\n\ndiluc
+  char lvl=90/90 cons=0 talent=9,9,9; \ndiluc add weapon=\"serpentspine\" refine=1
+  lvl=90/90 +params=[stacks=5];\ndiluc add set=\"crimsonwitchofflames\" count=4;\ndiluc
+  add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cd=0.622; #main\ndiluc add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.40
+  cr=0.3972 cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add
+  weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3302
+  em=39.64 cr=0.331 cd=0.662;\n\n# ----  Default Enemy\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n# ----  Actions List\n\nactive xingqiu;\nxingqiu
+  burst, attack, skill, attack:2;\nbennett skill, burst;\nsucrose attack, skill, attack;\ndiluc
+  attack, skill, attack:2, skill, attack:2, skill, attack, dash,\n      attack:3,
+  dash,\n      attack:3, dash,\n      attack, skill, attack, skill, attack, skill,
+  attack, burst;\nxingqiu burst, attack, skill, attack:2;\nbennett skill, burst;\nsucrose
+  attack, skill, attack;\ndiluc attack, skill, attack:2, skill, attack:2, skill, attack,
+  dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack, skill, attack,
+  skill, attack, skill, attack, burst;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: ""
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.9586
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: diluc
+    con: 0
+    weapon: serpentspine
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.3302
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 40434.52760113164
+mode: sl
+duration: 106.99999999999939
+target_count: 1
+viewer_key: EdFMuId-VXujQyLEhK6Es

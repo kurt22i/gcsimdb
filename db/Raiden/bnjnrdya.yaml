@@ -1,0 +1,69 @@
+author: Rare Possum#0511
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=110.7 workers=30
+  mode=sl;\n\nraidenshogun char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add
+  weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\"
+  count=5;\nraidenshogun add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311
+  ; #main\nraidenshogun add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nyaemiko char lvl=90/90 cons=0
+  talent=9,9,9;\nyaemiko add weapon=\"oathsworneye\" refine=5 lvl=90/90;\nyaemiko
+  add set=\"emblemofseveredfate\" count=4;\nyaemiko add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cr=0.311 ; #main\nyaemiko add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\njean
+  char lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\njean add set=\"viridescentvenerer\" count=5;\njean add stats hp=4780
+  atk=311 em=561 ; #main\njean add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.3306 em=118.92 cr=0.3972 cd=0.1324;\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.5952 er=0.1102 em=237.84 cr=0.0662 cd=0.1324;\n\nactive yaemiko;\ntarget
+  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
+  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nyaemiko skill,skill,skill;\njean
+  skill;\nraiden skill, attack;\nbennett skill, burst;\njean burst;\nyaemiko burst,
+  skill:3;\njean skill;\nraiden burst, attack:3, charge, attack:3, charge, attack:3,
+  charge;\nbennett skill, attack;\nrestart;\n\n"
+description: ""
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yaemiko
+    con: 0
+    weapon: oathsworneye
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 41270.83233878477
+mode: sl
+duration: 110.69999999999811
+target_count: 1
+viewer_key: AvIXxTG3CiRGZGH18Y1b-

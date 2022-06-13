@@ -1,0 +1,68 @@
+author: RoyM#2340
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=126.5 workers=30
+  mode=sl;\n\n#Character Builds:\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"thunderingfury\"
+  count=5;\nbennett add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311; #main\nbennett
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=79.28
+  cr=0.331 cd=0.7944 er=0.1102;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;\nbeidou
+  add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\"
+  count=5;\nbeidou add stats hp=4780 atk=311 er=0.518 electro%=0.466 cd=0.622 ; #main\nbeidou
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662;\t\t\n\nlisa char lvl=90/90 cons=2 talent=9,9,9;\nlisa
+  add weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90 ;\nlisa add set=\"noblesseoblige\"
+  count=5;\nlisa add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main;\nlisa
+  add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.2648 cd=0.5296 er=0.5510;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan
+  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\"
+  count=4;\nyelan add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311 ; #main\nyelan
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944 ;\t\n\n#Enemies and Particles:\nenergy every interval=480,720
+  amount=1;\ntarget lvl=100 resist=.1;\n#Action list:\nactive yelan;\nyelan skill,burst,attack;\nbennett
+  skill,burst;\nlisa burst;\nbeidou skill[counter=2],burst,attack;\nbennett skill,attack:2,skill,\n
+  \       attack,skill,\n        attack,skill,\n        attack,skill,\n        attack,skill,\n
+  \       attack,skill,\n        attack:2,skill,\n        attack:2;\nlisa attack:3,skill[hold=1];\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: TF Bennett with Lisa & Yelan.
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: beidou
+    con: 6
+    weapon: serpentspine
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: lisa
+    con: 2
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 1.069
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 42751.034309622475
+mode: sl
+duration: 126.49999999999653
+target_count: 1
+viewer_key: c_6wfh2EZzCSDVtLCtYMm

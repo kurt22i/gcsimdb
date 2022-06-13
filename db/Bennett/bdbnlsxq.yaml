@@ -1,136 +1,35 @@
 author: RoyM#2340
-config: |+
-  options swap_delay=12 debug=true iteration=1000 duration=128 workers=30 mode=sl;
-
-  #Character Builds:
-  bennett char lvl=90/90 cons=6 talent=9,9,9;
-  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
-  bennett add set="thunderingfury" count=5;
-  bennett add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311; #main
-  bennett add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=79.28 cr=0.331 cd=0.7944 er=0.1102;
-
-  beidou char lvl=90/90 cons=6 talent=9,9,9;
-  beidou add weapon="favoniusgreatsword" refine=3 lvl=90/90;
-  beidou add set="emblemofseveredfate" count=5;
-  beidou add stats hp=4780 atk=311 cr=0.311 electro%=0.466 atk%=0.466 ; #main
-  beidou add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.7944 er=0.1102;
-
-  lisa char lvl=90/90 cons=2 talent=9,9,9;
-  lisa add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90 ;
-  lisa add set="noblesseoblige" count=5;
-  lisa add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main;
-  lisa add stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2648 cd=0.5296 er=0.5510;
-
-  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
-  xingqiu add weapon="lionsroar" refine=3 lvl=90/90;
-  xingqiu add set="emblemofseveredfate" count=5;
-  xingqiu add stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main
-  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
-
-  #Enemies and Particles:
-  energy every interval=480,720 amount=1;
-  target lvl=100 resist=.1;
-  #Action list:
-  active beidou;
-
-  xingqiu skill,burst,attack;
-  bennett skill,burst;
-  lisa burst;
-  beidou skill[counter=2],burst,attack;
-  bennett skill,attack:2,skill,
-          attack,skill,
-          attack,skill,
-          attack,skill,
-          attack,skill,
-          attack,skill,
-          attack,skill,
-          attack,skill;
-  beidou skill;
-  bennett attack,skill,attack:2;
-  restart;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=130 workers=30 mode=sl;\n\n#Character
+  Builds:\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"thunderingfury\" count=5;\nbennett add stats
+  hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311; #main\nbennett add stats hp%=0.0992
+  hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=79.28 cr=0.331 cd=0.7944
+  er=0.1102;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;\nbeidou add weapon=\"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=5];\nbeidou add set=\"emblemofseveredfate\" count=5;\nbeidou
+  add stats hp=4780 atk=311 er=0.518 electro%=0.466 cd=0.622 ; #main\nbeidou add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.3972 cd=0.662;\t\t\n\nlisa char lvl=90/90 cons=2 talent=9,9,9;\nlisa add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90 ;\nlisa add set=\"noblesseoblige\" count=5;\nlisa add stats hp=4780
+  atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main;\nlisa add stats hp%=0.0992 hp=507.88
+  atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.2648 cd=0.5296 er=0.5510;\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"emblemofseveredfate\" count=5;\nxingqiu add stats hp=4780 atk=311 er=0.518
+  hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\n#Enemies
+  and Particles:\nenergy every interval=480,720 amount=1;\ntarget lvl=100 resist=.1;\n#Action
+  list:\nactive beidou;\n\nxingqiu skill,burst,attack;\nbennett skill,burst;\nlisa
+  burst;\nbeidou skill[counter=2],burst,attack;\nbennett skill,attack:2,skill,\n        attack,skill,\n
+  \       attack,skill,\n        attack,skill,\n        attack,skill,\n        attack,skill,\n
+  \       attack,skill,\n        attack,skill,\n        attack:2,skill;\nlisa skill[hold=1];\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: TF Bennett with Lisa.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: beidou
     con: 6
-    weapon: favoniusgreatsword
-    refine: 3
-    er: 0.1102
+    weapon: serpentspine
+    refine: 1
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
@@ -157,13 +56,13 @@ team:
     con: 6
     weapon: lionsroar
     refine: 3
-    er: 0.7384000000000001
+    er: 0.8486
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 40878.7996434675
+dps: 42984.55997428837
 mode: sl
-duration: 128.00000000000009
+duration: 129.99999999999824
 target_count: 1
 viewer_key: xnLiMw4LPfkvGuFiLkhFW

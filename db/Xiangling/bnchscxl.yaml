@@ -1,5 +1,5 @@
-author: Kurt#5846 and Hessey#9122
-config: |
+author: Kurt#5846, Hessey#9122 and RoyM#2340
+config: |+
   options swap_delay=12 debug=true iteration=1000 duration=219 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=.1;
@@ -33,6 +33,22 @@ config: |
   tartaglia skill;
   bennett burst;
   xiangling jump, skill;
+  sucrose attack:2, skill,dash,burst;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
   sucrose attack:2, skill;
   xiangling burst;
   tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
@@ -46,7 +62,156 @@ config: |
   bennett attack, skill;
   tartaglia aim;
 
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill,dash,burst;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill,dash,burst;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill,dash,burst;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
+
+  tartaglia skill;
+  bennett burst;
+  xiangling jump, skill;
+  sucrose attack:2, skill;
+  xiangling burst;
+  tartaglia burst, skill, attack:3, charge, dash, attack:3, charge, dash, attack:2, charge;
+  bennett attack, skill;
+  xiangling skill, attack:2;
+  tartaglia aim;
+  sucrose skill, attack;
+  bennett attack, skill;
+  xiangling attack:3;
+  tartaglia aim;
+  bennett attack, skill;
+  tartaglia aim;
   restart;
+
+
+
+
+
+
 description: International but you don't have Kazuha.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -86,7 +251,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40061.082753838375
+dps: 40194.740890848334
 mode: sl
 duration: 218.99999999999608
 target_count: 1

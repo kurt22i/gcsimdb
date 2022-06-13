@@ -1,0 +1,90 @@
+author: raph#2041
+config: |+
+  zhongli char lvl=90/90 cons=0 talent=9,9,9;
+  zhongli add weapon="favoniuslance" refine=3 lvl=90/90;
+  zhongli add set="tenacityofthemillelith" count=4;
+  zhongli add stats hp=4780 atk=311.0 atk%=0.4660 cr=0.3110 geo%=0.4660;
+  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+
+  yelan char lvl=90/90 cons=0 talent=9,9,9;
+  yelan add weapon="favoniuswarbow" refine=3 lvl=90/90;
+  yelan add set="emblemofseveredfate" count=4;
+  yelan add stats hp=4780 hp%=0.4660 atk=311.0 cr=0.3110 hydro%=0.4660;
+  yelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64 cr=0.331 cd=0.2648;
+
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
+  bennett add set="noblesseoblige" count=4;
+  bennett add stats hp=4780 atk=311.0 er=0.5180 cr=0.3110 pyro%=0.4660;
+  bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;
+
+  yanfei char lvl=90/90 cons=6 talent=9,9,9;
+  yanfei add weapon="thewidsith" refine=3 lvl=90/90;
+  yanfei add set="crimsonwitchofflames" count=4;
+  yanfei add stats hp=4780 atk=311.0 em=186.5 cr=0.3110 pyro%=0.4660;
+  yanfei add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  options swap_delay=12 debug=true iteration=1000 duration=107 mode=sl;
+  target lvl=100 resist=.1;
+  energy every interval=480,720 amount=1;
+  active zhongli;
+
+  zhongli skill[hold=1],burst;
+  yelan skill,burst,attack;
+  bennett burst,attack,skill,attack;
+  yanfei skill,burst,attack:3,charge,attack:3,charge,attack:3,charge,attack,skill;
+  #forgot to add disclaimer on my other sims, dont follow the yanfei combo I set just do whatever kqm suggests. this applies to all my sims
+  bennett skill;
+
+  zhongli skill[hold=1],burst;
+  yelan skill,burst,attack;
+  bennett burst,attack,skill,attack;
+  yanfei skill,attack,charge,attack:3,charge,attack:3,charge,attack:3,charge,attack,skill;
+  bennett skill;
+
+  restart;
+
+description: ""
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yanfei
+    con: 6
+    weapon: thewidsith
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.6612
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 37635.53032483912
+mode: sl
+duration: 106.99999999999939
+target_count: 1
+viewer_key: 15LAsWt_lTq-ymyzbpc5a

@@ -1,4 +1,4 @@
-author: vibe checker#5502 and solo#0180
+author: vibe checker#5502, solo#0180 and Kurt#5846
 config:
   "options swap_delay=12 debug=true iteration=1000 duration=79 workers=30 mode=sl;\n\n\nnoelle
   char lvl=90/90 cons=6 talent=9,9,9; \nnoelle add weapon=\"serpentspine\" refine=1
@@ -10,19 +10,19 @@ config:
   add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311 ; #main\nalbedo add stats
   def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
   cr=0.331 cd=0.7944;\n\ngorou char lvl=90/90 cons=6 talent=9,9,9; \ngorou add weapon=\"favoniuswarbow\"
-  refine=3 lvl=90/90;\ngorou add set=\"emblemofseveredfate\" count=2;\ngorou add stats
-  hp=4780 atk=311 er=0.518 def%=0.583 cr=0.311 ; #main\ngorou add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"alleyhunter\"
-  refine=1 lvl=90/90\n     +params=[stacks=10];\nfischl add set=\"gladiatorsfinale\"
-  count=2;\nfischl add set=\"thunderingfury\" count=2;\nfischl add stats hp=4780 atk=311
-  atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;\n\n##Default
+  refine=3 lvl=90/90;\ngorou add set=\"archaicpetra\" count=4;\ngorou add stats hp=4780
+  atk=311 er=0.518 def%=0.583 cr=0.311 ; #main\ngorou add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.3306 em=39.64 cr=0.331 cd=0.5296;\n\nfischl
+  char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"alleyhunter\" refine=1
+  lvl=90/90\n     +params=[stacks=10];\nfischl add set=\"gladiatorsfinale\" count=2;\nfischl
+  add set=\"thunderingfury\" count=2;\nfischl add stats hp=4780 atk=311 atk%=0.466
+  electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2648 cd=0.662;\n\n##Default
   Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive
-  fischl;\n\nfischl skill;\ngorou burst;\nalbedo attack:2, skill;\ngorou skill, attack;\nnoelle
-  skill, attack, burst, attack:3, dash, attack:3, dash;\nfischl burst;\ngorou skill,
-  attack;\nnoelle attack:3, dash, attack:3, dash, attack:3, dash;\ngorou skill, attack;\nnoelle
-  attack:3, dash, attack:2, dash;\nrestart;\n\n\n"
+  fischl;\n\nfischl skill;\ngorou burst,dash;\nalbedo attack:2, skill;\ngorou skill,
+  attack;\nnoelle skill, attack, burst, attack:3, dash, attack:3, dash;\nfischl burst;\ngorou
+  skill, attack,dash;\nnoelle attack:3, dash, attack:3, dash, attack:3, dash;\ngorou
+  skill, attack;\nnoelle attack:3, dash, attack:2, dash;\nrestart;\n\n\n\n\n\n\n\n"
 description: Noelle with Fischl.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -48,7 +48,7 @@ team:
     con: 6
     weapon: favoniuswarbow
     refine: 3
-    er: 0.6282
+    er: 0.8486
     talents:
       attack: 9
       skill: 9
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38705.51037386941
+dps: 39137.599129478374
 mode: sl
 duration: 78.9999999999992
 target_count: 1

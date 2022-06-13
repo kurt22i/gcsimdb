@@ -18,9 +18,9 @@ config:
   every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nactive ayaka;\nayaka
   dash, attack, skill, attack:3;\nshenhe burst,skill;\nyelan  skill, burst, attack;\njean
   skill, attack, burst, attack; \nayaka dash,attack,skill,attack:2,burst, attack;\nshenhe
-  skill, attack;\nyelan skill, attack;\nayaka dash,attack:3,charge,\n      attack:3,charge;\njean
-  attack, skill;\nrestart;\n\n\n\n\n\n\n"
-description: Ayalan Freeze with healing.
+  skill, attack;\nyelan skill, attack;\nayaka dash,attack:3,charge,\n      dash, attack:3,charge;\njean
+  attack, skill;\nrestart;\n\n\n\n\n\n\n\n\n"
+description: Ayalan Freeze with healing and Shenhe.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ayaka
@@ -59,7 +59,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48507.106409471766
+dps: 48517.74154905779
 mode: sl
 duration: 90.99999999999874
 target_count: 1

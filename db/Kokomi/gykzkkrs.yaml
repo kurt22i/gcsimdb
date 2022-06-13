@@ -1,37 +1,59 @@
-author: Rare Possum#0511
-config:
-  "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\nrosaria
-  char lvl=90/90 cons=6 talent=9,9,9 start_hp=1;\nrosaria add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=4;\nrosaria add stats
-  hp=4780 atk=311 atk%=0.466 cr=0.311 cryo%=0.466 ;\nrosaria add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331
-  cd=0.5296;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
-  stats hp=4780 atk=311 em=561 ;\nkazuha add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.3306 em=118.92 cr=0.3972 cd=0.1324;\n\nkokomi
-  char lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"solarpearl\" lvl=90/90
-  refine=1;\nkokomi add set=\"blizzardstrayer\" count=4;\nkokomi add stats hp=4780
-  atk=311 er=0.518 hydro%=0.466 cr=0.311;\nkokomi add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2979 cd=0.5958;\n\nganyu
-  char lvl=90/90 cons=0 talent=9,9,9;\nganyu add weapon=\"favoniuswarbow\" lvl=90/90
-  refine=3;\t\nganyu add set=\"blizzardstrayer\" count=4;\t\t\t\t\t\t\t\t\t\t\nganyu
-  add stats hp=4780 atk=311 atk%=0.466 cd=0.622 cryo%=0.466;\nganyu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
-  cd=0.662;\n\t\t\t\t\t\t\t\t\t\t\t\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
-  amount=1;\n\n#--------------------------------------------\n\nactive kokomi;\n\nkokomi
-  attack:2;\nkazuha skill, high_plunge, burst;\nkokomi skill;\nrosaria skill, burst;\nganyu
-  skill, burst[radius=2];\nkazuha skill, high_plunge;\nkokomi burst,\n  attack:2,
-  walk,\n  attack:2, walk,\n  attack:2, walk,\n  attack:2, walk,\n  attack:2, walk,\n
-  \ attack:2, walk,\n  attack:2, walk,\n  attack:2, walk,\n  attack:2, walk, attack:1,
-  walk;\nwait 3;\nrestart;\n\n"
-description: Crit Kokomi.
+author: Rare Possum#0511 and Moloch#2235
+config: |
+  options swap_delay=12 debug=true iteration=1000 duration=122 workers=30 mode=sl;
+  rosaria char lvl=90/90 cons=6 talent=9,9,9;
+  rosaria add weapon="favoniuslance" refine=3 lvl=90/90;
+  rosaria add set="blizzardstrayer" count=4;
+  rosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main
+  rosaria add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=39.64 cr=0.2648 cd=0.662;
+
+  kokomi char lvl=90/90 cons=0 talent=9,9,9;
+  kokomi add weapon="thrillingtalesofdragonslayers" refine=5 lvl=90/90;
+  kokomi add set="tenacityofthemillelith" count=4;
+  kokomi add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.359; #main
+  #kokomi add stats def%=0.1240 def=39.36 hp=1015.76 hp%=0.4960 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.0662 cd=0.1324;
+  kokomi add stats def%=0.1240 def=39.36 hp=2539.40 hp%=0.4960 atk=33.08 atk%=0.2976 er=0.1102 em=39.64 cr=0.0662 cd=0.1324;
+
+  kazuha char lvl=90/90 cons=0 talent=9,9,9;
+  kazuha add weapon="favoniussword" refine=3 lvl=90/90;
+  kazuha add set="viridescentvenerer" count=4;
+  kazuha add stats hp=4780 atk=311 em=561; #main
+  kazuha add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=118.92 cr=0.3972 cd=0.1324;
+  #kazuha add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.3972 cd=0.5296;
+
+  ganyu char lvl=90/90 cons=0 talent=9,9,9;
+  ganyu add weapon="prototypecrescent" refine=5 lvl=90/90;
+  ganyu add set="blizzardstrayer" count=4;
+  ganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622; #main
+  #ganyu add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
+  ganyu add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.2204 em=39.64 cr=0.3310 cd=0.6620;
+
+  # ----
+  energy every interval=480,720 amount=1;
+  target lvl=100 resist=0.1;
+
+  # ----
+  active rosaria;
+
+  rosaria skill;
+  kazuha  skill, high_plunge, burst;
+  kokomi skill;
+  ganyu burst[radius=2];
+  kazuha skill, high_plunge;
+  rosaria burst, skill;
+  ganyu skill, aim[weakspot=1]:2;
+  kazuha skill, high_plunge;
+  ganyu aim[weakspot=1];
+
+  restart;
+description: Freeze Ganyu with Kokomi.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: ganyu
     con: 0
-    weapon: favoniuswarbow
-    refine: 3
-    er: 0.1102
+    weapon: prototypecrescent
+    refine: 5
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
@@ -40,16 +62,16 @@ team:
     con: 0
     weapon: favoniussword
     refine: 3
-    er: 0.3306
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
   - name: kokomi
     con: 0
-    weapon: solarpearl
-    refine: 1
-    er: 0.9588000000000001
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -58,13 +80,13 @@ team:
     con: 6
     weapon: favoniuslance
     refine: 3
-    er: 0.4408
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 25394.366911515775
+dps: 37550.26053599971
 mode: sl
-duration: 102.99999999999858
+duration: 121.9999999999999
 target_count: 1
 viewer_key: DQlyl6SFZFUignElfb3DJ

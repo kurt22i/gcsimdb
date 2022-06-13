@@ -21,7 +21,7 @@ config:
   rosaria;\n\nrosaria skill, burst;\nyelan skill, burst, attack;\nkazuha skill[hold=1],
   high_plunge, burst, attack;\nayaka dash, skill, attack, burst;\nrosaria skill, attack;\nyelan
   skill, attack;\nkazuha attack, skill[hold=1], high_plunge, attack;\nayaka dash,
-  attack:2, charge, skill, dash, attack:2, charge;\n\nrestart;\n\n"
+  attack:2, charge, skill, dash, attack:2, charge;\n\nrestart;\n\n\n"
 description: Ayaka Freeze with Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 46576.26490670314
+dps: 46561.72008743803
 mode: sl
 duration: 108.99999999999856
 target_count: 1

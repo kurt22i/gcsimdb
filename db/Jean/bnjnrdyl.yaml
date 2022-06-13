@@ -51,7 +51,7 @@ config:
   burst, attack;\n\njean attack, skill, attack, burst, attack;\n#swirl electrocharge
   for double vv when you proc raiden e\n\nwait 5;\n\nraiden burst, attack:4, dash,
   attack:4, dash, attack:4, dash, attack:3, dash, attack, skill, attack;\n#15 yelansword
-  procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor buff\n\n\n\n\n"
+  procs\n\njean skill;\n#swirls hydro\n\nbennett skill;\n#acquire instructor buff\n\n\n\n\n\n"
 description: Sunfire Raiden with Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -91,7 +91,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 52749.803644322266
+dps: 52839.53004918028
 mode: sl
 duration: 105.99999999999856
 target_count: 1

@@ -46,7 +46,7 @@ config:
   charge, jump,\n             attack:2, charge, jump,\n             attack:2, charge,
   jump,\n             attack:2, charge, jump,\n             attack:2, charge, jump,\n
   \            attack:1, charge, jump,\n             attack;\n\nbennett skill, attack:2;\n\nsucrose
-  attack:2, skill;\n\nbennett attack:2, skill;\n\n\n\n"
+  attack:2, skill;\n\nbennett attack:2, skill;\n\n\n\n\n"
 description: VV Tao with Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -86,7 +86,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 59066.058690585225
+dps: 59126.99718689575
 mode: sl
 duration: 105.00000000000071
 target_count: 1

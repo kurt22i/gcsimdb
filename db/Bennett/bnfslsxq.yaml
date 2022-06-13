@@ -1,0 +1,71 @@
+author: Ocram2012#6693
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=100.95 workers=30
+  mode=sl;\n\nlisa char lvl=90/90 cons=2 talent=9,9,9; \nlisa add weapon=\"thewidsith\"
+  refine=3 lvl=90/90;\nlisa add set=\"emblemofseveredfate\"count=1;\nlisa add set=\"noblesseoblige\"
+  count=4;\nlisa add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466; #main\nlisa
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.331 cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
+  em=39.64 cr=0.2648 cd=0.662;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"thunderingfury\"
+  count=4;\nbennett add stats hp=4780 atk=311 em=187 pyro%=0.466 em=187 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=39.64 cr=0.3972 cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
+  count=4;\nfischl add set=\"shimenawasreminiscence\" count=1;\nfischl add stats hp=4780
+  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive
+  xingqiu;\n\nxingqiu burst, attack;\nlisa burst;\nbennett attack, skill, attack,
+  burst;\nfischl attack:2, burst;\nxingqiu skill, attack;\nbennett attack:3,skill,\n
+  \       attack:2,skill,\n        attack:2,skill,\n        attack:2,skill,\n        attack:3,skill,\n
+  \       attack:2,skill,\n        attack:2,skill,\n        attack:2,skill, attack;\nfischl
+  skill, attack;\nbennett skill, attack;\nxingqiu attack:3;\nlisa skill[hold=1];\nbennett
+  skill, dash;\n\nrestart;\n\n\n"
+description: ""
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: lisa
+    con: 2
+    weapon: thewidsith
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: lionsroar
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 50305.456864144835
+mode: sl
+duration: 100.94999999999834
+target_count: 1
+viewer_key: sy6G2AW156VZ4rq9AdXPa

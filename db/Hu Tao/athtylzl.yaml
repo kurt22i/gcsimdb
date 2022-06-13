@@ -1,0 +1,67 @@
+author: Monte#6857
+config:
+  "hutao char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
+  stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.1102
+  em=266.3 cr=0.3972 cd=1.284 pyro%=0.4660;\n\nayato char lvl=90/90 cons=0 talent=9,9,9;\nayato
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nayato add set=\"echoesofanoffering\"
+  count=4;\nayato add stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cr=0.311;\nayato
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\"
+  count=4;\nzhongli add stats def%=0.1240 def=39.36 hp=5288 hp%=0.6644 atk=344.1 atk%=0.09920
+  er=0.1102 em=39.64 cr=0.6420 cd=0.7944 geo%=0.4660;\n\nyelan char lvl=90/90 cons=0
+  talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan add
+  set=\"emblemofseveredfate\" count=4;\nyelan add stats def%=0.1240 def=39.36 hp=5288
+  hp%=0.5652 atk=344.1 atk%=0.09920 er=0.2204 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;\n\noptions
+  swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\n\t\t\t\t\t\t\t\t\t\t\t\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#--------------------------------------------\n\nactive
+  zhongli;\n\nzhongli skill[hold=1];\nyelan skill, burst, attack;\nayato burst;\nhutao
+  skill,\n    attack:1, charge, dash,\n    attack:1, charge, jump,\n    attack:1,
+  charge, jump,\n    attack:2, charge, dash,\n    attack:1, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack;\nayato
+  skill, attack:13;\nrestart;\n\n\n\n\n\n\n\n"
+description: Double-Hydro Tao without Xingqiu.
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: ayato
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: hutao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 43230.738890197536
+mode: sl
+duration: 102.00000000000051
+target_count: 1
+viewer_key: H9U7Y8zMkxHsfpzIsWiag

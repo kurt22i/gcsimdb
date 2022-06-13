@@ -1,0 +1,73 @@
+author: Jhony75#8133
+config:
+  "#Configs\ntarget lvl=100 resist=0.1; #Default Res\nenergy every interval=480,720
+  amount=1; #Approximated to Perpetual Mechanical Array\noptions swap_delay=12 debug=true
+  iteration=1000 duration=120 workers=30 mode=sl;\n\n#Chars Builds\nlisa char lvl=90/90
+  cons=2 talent=9,9,9;\nlisa add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nlisa
+  add set=\"emblemofseveredfate\" count=4;\nlisa add stats hp=4780 atk=311 em=187
+  em=187 em=187; #main 5* set\nlisa add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.551 em=118.92 cr=0.331 cd=0.1324; #20 liquid subs\n\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
+  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311; #main 5* set\nxiangling add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944; #20 liquid subs\n\njean char lvl=90/90 cons=0 talent=9,9,9;\njean
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\njean add set=\"viridescentvenerer\"
+  count=4;\njean add stats hp=4780 atk=311 er=0.518 em=187 em=187; #main 5* set\njean
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=158.56 cr=0.3972 cd=0.1324; #20 liquid subs\n\nbennett char lvl=90/90 cons=6
+  talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311; #main 5* set\nbennett add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944; #20 liquid
+  subs\n\n#Rotation: Bennett E Q > Jean E Q > Lisa tE Q tE > Xiangling E Q > Lisa
+  hE N3 > Funneling\n#Funneling: Bennett E > Xiangling N2 > Jean E > Xiangling E N5\nactive
+  bennett;\n\nbennett skill, burst;\njean skill, burst; # Activate Pyro VV\nlisa skill,
+  burst, skill; \nxiangling skill, burst;\nlisa skill[hold=1], attack:3; # N3 to catch
+  Lisa's particles and proc Fav Codex\nbennett skill; # Funneling for Xiangling \nxiangling
+  attack:2; # Catch Bennett's particles\njean skill; # Refresh Pyro VV\nxiangling
+  skill, attack:5; # Xiangling E and N5 to catch some Guoba's particles\n\nrestart;\n\n"
+description: "Jean x Lisa: Explosive Love."
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: lisa
+    con: 2
+    weapon: favoniuscodex
+    refine: 3
+    er: 0.551
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 31266.707196542768
+mode: sl
+duration: 120.00000000000152
+target_count: 1
+viewer_key: rbf_uXjmSB4xxqWVWRyqE

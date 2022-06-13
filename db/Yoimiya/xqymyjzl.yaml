@@ -1,28 +1,45 @@
-author: Kurt#5846
-config:
-  "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\n\n\n\n\nyoimiya
-  char lvl=90/90 cons=0 talent=9,9,9; \nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya
-  add set=\"shimenawasreminiscence\" count=5;\nyoimiya add stats hp=4780 atk=311 atk%=0.466
-  pyro%=0.466 cr=0.311 ; #main\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;\n\nzhongli char lvl=90/90
-  cons=0 talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli
-  add set=\"tenacityofthemillelith\" count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli
-  add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cd=0.622 ; #main\nzhongli add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.3306 em=39.64
-  cr=0.3972 cd=0.1324;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add
-  weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=4;\nxingqiu add set=\"paleflame\" count=1;\nxingqiu add stats hp=4780 atk=311
-  atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;\n\nyunjin
-  char lvl=90/90 cons=6 talent=9,9,9; \nyunjin add weapon=\"favoniuslance\" refine=3
-  lvl=90/90;\nyunjin add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nyunjin
-  add set=\"gladiatorsfinale\" count=1;\nyunjin add stats hp=4780 atk=311 def%=0.587
-  def%=1.166 ; #main\nyunjin add stats def%=0.372 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
-  atk%=0.0992 er=0.551 em=39.64 cr=0.331 cd=0.1324;\n\n\n\nactive yoimiya;\ntarget
-  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\nenergy every interval=480,720 amount=1;\n\nyoimiya burst;\nzhongli skill[hold=1],burst;\nxingqiu
-  skill,burst;\nyunjin skill,burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:3;\n\nzhongli
-  skill[hold=1],burst;\nxingqiu skill,burst;\nyunjin skill,burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:3;\nrestart;\n"
+author:
+  "Kurt#5846 and lulu \U0001D502 \U0001D4FE \U0001D4F7  \U0001D4F3 \U0001D4F2
+  \U0001D4F7 ♡#4236"
+config: |+
+  yoimiya char lvl=90/90 cons=0 talent=9,9,9;
+  yoimiya add weapon="rust" refine=3 lvl=90/90;
+  yoimiya add set="shimenawasreminiscence" count=4;
+  yoimiya add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 pyro%=0.4660;
+
+  zhongli char lvl=90/90 cons=0 talent=9,9,9;
+  zhongli add weapon="deathmatch" refine=1 lvl=90/90;
+  zhongli add set="tenacityofthemillelith" count=4;
+  zhongli add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.3972 cd=1.284 geo%=0.4660;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.2204 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
+
+  yunjin char lvl=90/90 cons=6 talent=9,9,9;
+  yunjin add weapon="favoniuslance" refine=3 lvl=90/90;
+  yunjin add set="noblesseoblige" count=4;
+  yunjin add stats def%=2.121 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.4408 em=39.64 cr=0.3972 cd=0.1324;
+
+  target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;
+  energy every interval=480,720 amount=1;
+
+  options swap_delay=12 debug=true iteration=1000 duration=89 workers=30 mode=sl;
+
+  active xingqiu;
+
+  xingqiu burst,attack,skill,attack:2;
+  zhongli attack,skill[hold=1],attack:2;
+  yunjin attack,skill,attack,burst,attack;
+  yoimiya skill, attack:4, attack, dash, attack:4, attack, dash, attack:4, attack,dash,attack:2;
+  yunjin attack,skill;
+  zhongli attack,burst;
+  xingqiu attack;
+  restart;
+
+
+
 description: Yoimiya Double Geo.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -30,7 +47,7 @@ team:
     con: 6
     weapon: favoniussword
     refine: 3
-    er: 0.4408
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
@@ -39,7 +56,7 @@ team:
     con: 0
     weapon: rust
     refine: 3
-    er: 0.3306
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -48,22 +65,22 @@ team:
     con: 6
     weapon: favoniuslance
     refine: 3
-    er: 0.551
+    er: 0.4408
     talents:
       attack: 9
       skill: 9
       burst: 9
   - name: zhongli
     con: 0
-    weapon: favoniuslance
-    refine: 3
-    er: 0.3306
+    weapon: deathmatch
+    refine: 1
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 36133.08184146664
+dps: 44628.736003103666
 mode: sl
-duration: 91.999999999999
+duration: 88.99999999999893
 target_count: 1
 viewer_key: r0YWwYoSONNMhpBbm1V8W

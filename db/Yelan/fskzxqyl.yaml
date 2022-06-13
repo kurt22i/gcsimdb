@@ -26,7 +26,7 @@ config:
   attack, skill, attack:4, dash, attack:4, dash, attack:3;\nfischl  attack, burst;\nkazuha
   \ attack, skill[hold=1], high_plunge, attack;\nyelan   attack:4, dash, attack:4,
   skill, attack:4, dash, attack:4;\nkazuha  attack:2, skill, high_plunge,attack;\nfischl
-  attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: DPS Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -66,7 +66,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 54677.48812484139
+dps: 54638.38155067522
 mode: sl
 duration: 102.00000000000051
 target_count: 1

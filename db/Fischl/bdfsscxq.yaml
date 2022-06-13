@@ -1,4 +1,4 @@
-author: Arfoire#9219, EnigWa#4825 and danii#8748
+author: Arfoire#9219, EnigWa#4825, danii#8748 and CPM#7653
 config: |+
   options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;
 
@@ -16,7 +16,7 @@ config: |+
   beidou add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;
 
   fischl char lvl=90/90 cons=6 talent=9,9,9;
-  fischl add weapon="thestringless" refine=3 lvl=90/90;
+  fischl add weapon="alleyhunter" refine=3 lvl=90/90 +params=[stacks=10];
   fischl add set="tenacityofthemillelith" count=5;
   fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
   fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
@@ -69,6 +69,8 @@ config: |+
 
   restart;
 
+
+
 description: Sucrose Taser.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -83,7 +85,7 @@ team:
       burst: 9
   - name: fischl
     con: 6
-    weapon: thestringless
+    weapon: alleyhunter
     refine: 3
     er: 0.1102
     talents:
@@ -108,7 +110,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49471.51471697838
+dps: 50705.03003807106
 mode: sl
 duration: 99.9999999999986
 target_count: 1

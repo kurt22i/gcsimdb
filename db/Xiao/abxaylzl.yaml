@@ -1,0 +1,156 @@
+author: Voidrev#2697
+config: |+
+  options debug=true iteration=1000 duration=106 workers=30 mode=sl swap_delay=12;
+
+  energy every interval=480,720 amount=1;
+
+  target lvl=100 resist=0.1;
+
+
+  zhongli char lvl=90/90 cons=0 talent=9,9,9;
+  zhongli add weapon="favoniuslance" refine=3 lvl=90/90;
+  zhongli add set="tenacityofthemillelith" count=5;
+  zhongli add stats hp=4780 atk=311 atk%=0.466 geo%=0.466 cr=0.311 ;
+  zhongli add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  xiao char lvl=90/90 cons=0 talent=9,9,9;
+  xiao add weapon="deathmatch" refine=1 lvl=90/90;
+  xiao add set="vermillionhereafter" count=5;
+  xiao add stats hp=4780 atk=311 er=0.518 anemo%=0.466 cd=0.622;
+  xiao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.2202 em=39.64 cr=0.331 cd=0.662;
+
+  albedo char lvl=90/90 cons=0 talent=9,9,9;
+  albedo add weapon="cinnabarspindle" refine=5 lvl=90/90;
+  albedo add set="huskofopulentdreams" count=5 +params=[stacks=5];
+  albedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311;
+  albedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+
+  yelan char lvl=90/90 cons=0 talent=9,9,9;
+  yelan add weapon="favoniuswarbow" refine=3 lvl=90/90;
+  yelan add set="emblemofseveredfate" count=4;
+  yelan add stats hp=4780 atk=311 hp%=0.466 cr=0.311 hydro%=0.466 ; #main
+  yelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3302 em=39.64 cr=0.331 cd=0.662;
+
+  active albedo;
+
+  albedo skill;
+  zhongli skill[hold=1];
+  yelan skill, burst, attack;
+  xiao skill:2, burst,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1], attack,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1], attack,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1], attack,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1], attack,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1];
+  zhongli skill[hold=1];
+  albedo skill;
+  yelan skill, burst, attack;
+  xiao skill:2, burst,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1], attack,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1], attack,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1], attack,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1], attack,
+  jump, high_plunge[collision=1], attack,
+  jump, low_plunge[collision=1];
+
+  restart;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+description: Double Geo Xiao with Yelan.
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: albedo
+    con: 0
+    weapon: cinnabarspindle
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.7382
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.3302
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 44024.30831003748
+mode: sl
+duration: 105.99999999999856
+target_count: 1
+viewer_key: 3l7NIa6sthmVBUMTSIJAW

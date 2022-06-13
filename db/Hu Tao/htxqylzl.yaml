@@ -1,4 +1,4 @@
-author: Lettuce Hunt#5806
+author: Lettuce Hunt#5806 and josh1411#6530
 config:
   "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"deathmatch\"
@@ -21,11 +21,11 @@ config:
   er=0.2204 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\ntarget
   lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#--------------------------------------------\n\nactive
   zhongli;\n\nzhongli skill[hold=1];\nyelan skill, burst, attack;\nxingqiu burst,
-  attack, skill, attack:2;\nhutao skill,\n    attack:1, charge, dash,\n    attack:1,
+  attack, skill, attack:2;\nhutao skill,\n    attack:2, charge, dash,\n    attack:1,
   charge, jump,\n    attack:1, charge, jump,\n    attack:2, charge, dash,\n    attack:1,
-  charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:1,
+  charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:2,
   charge, jump,\n    attack;\nzhongli attack:3;\nxingqiu attack:3;\nyelan attack:2;\nxingqiu
-  attack:2, jump, attack;\nzhongli attack;\n\nrestart;\n\n"
+  attack:2, jump, attack;\nzhongli attack;\n\nrestart;\n\n\n\n"
 description: Double-Hydro Tao.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55002.55816747799
+dps: 55877.56950629522
 mode: sl
 duration: 105.00000000000071
 target_count: 1

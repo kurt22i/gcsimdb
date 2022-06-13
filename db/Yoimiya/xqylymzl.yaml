@@ -1,0 +1,66 @@
+author: Maxi#0692
+config:
+  "yoimiya char lvl=90/90 cons=0 talent=9,9,9;\nyoimiya add weapon=\"rust\"
+  refine=3 lvl=90/90;\nyoimiya add set=\"shimenawasreminiscence\" count=4;\nyoimiya
+  add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102
+  em=39.64 cr=0.6420 cd=0.7944 pyro%=0.4660;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1
+  atk%=0.5652 er=0.3857 em=39.64 cr=0.6089 cd=0.6620 hydro%=0.4660;\n\nyelan char
+  lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan
+  add set=\"emblemofseveredfate\" count=4;\nyelan add stats def%=0.1240 def=39.36
+  hp=5288 hp%=0.5652 atk=344.1 atk%=0.09920 er=0.2204 em=39.64 cr=0.6420 cd=0.7944
+  hydro%=0.4660;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9; zhongli add weapon=\"favoniuslance\"
+  lvl=90/90 refine=3; zhongli add set=\"tenacityofthemillelith\" count=4; zhongli
+  add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311; zhongli add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944 ;\t\n\n \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\toptions
+  swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\n\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive zhongli;\nzhongli
+  skill[hold=1]; yelan skill, burst, attack; \nxingqiu burst, attack, skill, attack:2;
+  \n\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5;\n\nzhongli attack:3; \nxingqiu
+  attack:3;\nyelan attack:2; \nxingqiu attack:3; \nzhongli attack;\nrestart;\n"
+description: Yoimiya Double Hydro with shielding.
+hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+team:
+  - name: xingqiu
+    con: 6
+    weapon: harbingerofdawn
+    refine: 5
+    er: 0.3857
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yoimiya
+    con: 0
+    weapon: rust
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 43031.92771190532
+mode: sl
+duration: 102.00000000000051
+target_count: 1
+viewer_key: VIVigkqTeIvqPth2NT7hX

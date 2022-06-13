@@ -60,7 +60,7 @@ config:
   approaches the point of hilarity. the largest gain on this team, however, is mistsplitter
   on bennett. the number of e casts, combined with the highest base attack in the
   game makes it the premiere choice for this team. freedom sworn, while not as numerically
-  monolithic, is almost as good. elegy on yelan is, similarly, worth considering.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  monolithic, is almost as good. elegy on yelan is, similarly, worth considering.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yelan National, featuring on-field Bennett.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -100,7 +100,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 69446.43451979585
+dps: 69447.75768796889
 mode: sl
 duration: 105.99999999999856
 target_count: 1

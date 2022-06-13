@@ -1,29 +1,53 @@
-author: Toneiro#4389 and RoyM#2340
-config:
-  "\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats
-  hp=3571 atk=232.0 atk%=0.348 cr=0.2320 pyro%=0.466;\nbennett add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2979
-  cd=0.4634 ;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\"
-  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
-  add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\nxiangling add
-  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=79.28 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
-  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780
-  atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def=39.36 def%=0.124
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662
-  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nventi char lvl=90/90 cons=0 talent=9,9,9;\nventi
-  add weapon=\"thestringless\" refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\"
-  count=4;\nventi add stats hp=4780 atk=311 atk%=0.466 anemo%=0.466 cr=0.311 ; #main\nventi
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\noptions swap_delay=12 debug=true iteration=1000
-  duration=106  workers=30 mode=sl;\n\n#______________________________________________________________________\n\nactive
-  xingqiu;\nxingqiu burst,attack;\nbennett attack, skill,burst,attack;\nventi skill,
-  burst;\nwait 10;\nxiangling burst, attack, skill, attack;\nxingqiu attack,skill,attack:2;\nbennett
-  attack:2, skill,attack;\nventi skill,attack:2;\nxingqiu attack:2;\nbennett attack:3,skill,attack:2;\nxiangling
-  attack:3;\nxingqiu attack:2;\nventi skill,attack:2;\nxingqiu attack:2;\nrestart;\n\n"
+author: Toneiro#4389, RoyM#2340 and Toneiro-UmSiri#4291
+config: |+
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
+  bennett add set="noblesseoblige" count=4;
+  bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.1984 er=0.1102 em=226.6 cr=0.6420 cd=0.7944 pyro%=0.4660;
+
+  xiangling char lvl=90/90 cons=6 talent=9,9,9;
+  xiangling add weapon="thecatch" refine=5 lvl=90/90;
+  xiangling add set="emblemofseveredfate" count=4;
+  xiangling add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.1102 em=266.3 cr=0.6420 cd=0.7944 pyro%=0.4660;
+
+  xingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  xingqiu add weapon="favoniussword" refine=3 lvl=90/90;
+  xingqiu add set="emblemofseveredfate" count=4;
+  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
+
+  venti char lvl=90/90 cons=0 talent=9,9,9;
+  venti add weapon="thestringless" refine=3 lvl=90/90;
+  venti add set="viridescentvenerer" count=4;
+  venti add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 anemo%=0.4660;
+
+  target lvl=100 resist=0.1;
+  energy every interval=480,720 amount=1;
+  options swap_delay=12 debug=true iteration=1000 duration=89  workers=30 mode=sl;
+
+  #______________________________________________________________________
+
+  active xingqiu;
+
+  xingqiu burst, attack;
+  bennett attack, skill, burst, attack;
+  venti skill, burst;
+  wait 10;
+  xiangling burst, attack, skill, attack;
+  xingqiu attack, skill, attack:2;
+  bennett attack:2, skill, attack;
+  venti skill, attack:2;
+  xingqiu attack:2;
+  bennett attack:3, skill, attack:2;
+  xiangling attack:3;
+  xingqiu attack:3;
+  venti skill, attack:2;
+  xingqiu attack:2;
+
+  restart;
+
+
+
+
 description: Venti National.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -58,13 +82,13 @@ team:
     con: 6
     weapon: favoniussword
     refine: 3
-    er: 0.3306
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 52072.75297455981
+dps: 53573.58358347887
 mode: sl
-duration: 105.99999999999856
+duration: 88.99999999999893
 target_count: 1
 viewer_key: -XPZI9_CO1BPIgAjwhqo-

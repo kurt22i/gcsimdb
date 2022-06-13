@@ -1,11 +1,17 @@
 author: Lettuce Hunt#5806
 config:
-  "\noptions swap_delay=12 debug=true iteration=1000 duration=105 workers=30
+  "\noptions swap_delay=12 debug=true iteration=1000 duration=105.01 workers=30
   mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nraiden
-  char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"deathmatch\" refine=1 lvl=90/90;\nraiden
-  add set=\"emblemofseveredfate\" count=4;\nraiden add stats hp=4780 atk=311.0 atk%=0.466
-  cd=0.6220 electro%=0.4660;\nraiden add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.3857 em=39.64 cr=0.3641 cd=0.5296 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"deathmatch\" refine=1 lvl=90/90;\n#raiden
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\n#raiden add weapon=\"thecatch\"
+  refine=5 lvl=90/90;\nraiden add set=\"emblemofseveredfate\" count=4;\n#raiden add
+  stats hp=4780 atk=311.0 er=0.518 cd=0.6220 atk%=0.4660;\nraiden add stats hp=4780
+  atk=311.0 er=0.518 cd=0.6220 electro%=0.4660;\n#raiden add stats hp=4780 atk=311.0
+  er=0.518 cr=0.311 electro%=0.4660;\nraiden add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662 ;\t\n#raiden
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.3972 cd=0.662 ;\n#raiden add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nyelan
   char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" refine=3
   lvl=90/90;\n#yelan add set=\"emblemofseveredfate\" count=4;\nyelan add set=\"noblesseoblige\"
   count=4;\nyelan add stats hp=4780 atk=311 hp%=0.466 cr=0.311 hydro%=0.466 ; #main\nyelan
@@ -16,27 +22,15 @@ config:
   em=187.0 cr=0.2320 pyro%=0.3480;\nbennett add stats def=39.36 def%=0.124 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.2979 cd=0.4634 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9;\n#xiangling add weapon=\"dragonsbane\" refine=3
-  lvl=90/90;\nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add
-  set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311.0 em=187
-  cr=0.311 pyro%=0.4660;\nxiangling add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nactive
-  raiden;\n\nraiden skill;\n\n#---\nyelan burst, attack;\nbennett burst, attack, skill;\nxiangling
-  attack, burst, attack, skill;\nyelan attack, skill;\nraiden attack, burst,\n       attack:4,
-  dash, attack:4, skill, attack:4, dash, attack:2, charge;\nyelan attack, skill;\nbennett
-  skill, attack:2;\nxiangling attack;\n\nyelan burst, attack;\nbennett burst, attack,
-  skill;\nxiangling attack, burst, attack, skill;\nyelan attack, skill;\nraiden attack,
-  burst,\n       attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\nyelan
-  attack, skill;\nbennett skill, attack:2;\nxiangling attack;\n\nyelan burst, attack;\nbennett
-  burst, attack, skill;\nxiangling attack, burst, attack, skill;\nyelan attack, skill;\nraiden
-  attack, burst,\n       attack:4, dash, attack:4, skill, attack:4, dash, attack:2,
-  charge;\nyelan attack, skill;\nbennett skill, attack:2;\nxiangling attack;\n\nyelan
-  burst, attack;\nbennett burst, attack, skill;\nxiangling attack, burst, attack,
-  skill;\nyelan attack, skill;\nraiden attack, burst,\n       attack:4, dash, attack:4,
-  skill, attack:4, dash, attack:2, charge;\nyelan attack, skill;\nbennett skill, attack:2;\nxiangling
-  attack;\n\nyelan burst, attack;\nbennett burst, attack, skill;\nxiangling attack,
-  burst, attack, skill;\nyelan attack, skill;\nraiden attack, burst,\n       attack:4,
-  dash, attack:4, skill, attack:4, dash, attack:2, charge;\nyelan attack, skill;\nbennett
-  skill, attack:2;\nxiangling attack;\n\nrestart;\n\n\n"
+  lvl=90/90;\nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\n#xiangling add
+  weapon=\"wavebreakersfin\" refine=1 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add stats hp=4780 atk=311.0 em=187 cr=0.311 pyro%=0.4660;\nxiangling
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1653
+  em=59.46 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nactive
+  raiden;\n\nraiden attack, skill;\nyelan burst, attack;\nbennett burst, attack, skill;\nxiangling
+  attack, burst, attack, skill, dash;\nyelan attack, skill;\nraiden attack, burst,\n
+  \      attack:4, dash, attack:4, dash, attack:4, dash, attack:4;\nwait 2;           \nyelan
+  attack, skill, attack:3;\nbennett attack, skill;\nrestart;\n\n\n\n\n"
 description: Xiangling Overvape with Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -53,7 +47,7 @@ team:
     con: 0
     weapon: deathmatch
     refine: 1
-    er: 0.3857
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
@@ -62,7 +56,7 @@ team:
     con: 6
     weapon: thecatch
     refine: 5
-    er: 0.1102
+    er: 0.1653
     talents:
       attack: 9
       skill: 9
@@ -76,7 +70,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 63270.175401386114
+dps: 63684.43751977546
 mode: sl
 duration: 105.00000000000071
 target_count: 1

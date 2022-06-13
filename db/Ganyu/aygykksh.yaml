@@ -1,27 +1,27 @@
 author: Watter#7122 and Rare Possum#0511
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=130 workers=30 mode=sl;\nayaka
-  char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5
-  lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats hp=4780
-  atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nganyu
-  char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\" refine=5
-  lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=4;\nganyu add stats hp=4780
-  atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nkokomi
-  char lvl=90/90 cons=0 talent=9,9,9; \nkokomi add weapon=\"thrillingtalesofdragonslayers\"
+  "options swap_delay=12 debug=true iteration=1000 duration=124.2 workers=30
+  mode=sl;\nayaka char lvl=90/90 cons=0 talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\"
+  refine=5 lvl=90/90;\nayaka add set=\"blizzardstrayer\" count=4;\nayaka add stats
+  hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nayaka add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
+  cd=0.662;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"prototypecrescent\"
+  refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\" count=4;\nganyu add stats
+  hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220;\nganyu add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
+  cd=0.662;\n\nkokomi char lvl=90/90 cons=0 talent=9,9,9; \nkokomi add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nkokomi add set=\"tenacityofthemillelith\" count=5;\nkokomi
   add stats hp=4780 atk=311 er=0.518 hydro%=0.466 atk%=0.466\t; #main\nkokomi add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=165.4 atk%=0.496 er=0.3306 em=39.64
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.496 atk=33.08 atk%=0.496 er=0.3306 em=39.64
   cr=0.0662 cd=0.1324;\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\"
   refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats
   hp=4780 atk=311 atk%=0.4660 atk%=0.4660 atk%=0.4660;\nshenhe add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.3306 em=39.64 cr=0.3972
-  cd=0.2648;\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102 em=39.64 cr=0.3972
+  cd=0.5296;\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1
   anemo=0.1 physical=.1 cryo=.1;\n\nenergy every interval=480,720 amount=1;\n\nactive
   shenhe;\nshenhe skill, burst;\nkokomi skill;\nganyu skill, burst[radius=2];\nayaka
-  dash,attack,skill,burst;\nshenhe skill;\nganyu aim[weakspot=1];\nwait 24;\nganyu
-  skill, aim[weakspot=1]:2;\nayaka dash, skill, attack:3, charge;\nwait 16;\n\nrestart;\n\n\n\n\n\n"
+  dash,skill,burst;\nshenhe skill, attack;\nganyu aim[weakspot=1], attack:2;\nganyu
+  skill, aim[weakspot=1];\nayaka dash, attack, skill, attack:4, charge;\nshenhe attack;\nrestart;\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -56,13 +56,13 @@ team:
     con: 0
     weapon: favoniuslance
     refine: 3
-    er: 0.3306
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 49814.628018459276
+dps: 51401.63524110648
 mode: sl
-duration: 129.99999999999824
+duration: 124.20000000000117
 target_count: 1
 viewer_key: ULNbHbwq7yYh2lsFUFlIC
