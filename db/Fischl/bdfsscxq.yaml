@@ -40,7 +40,7 @@ config:
   attack, charge, attack:2, charge, attack;                                                                                                                                  beidou
   skill, attack:2;                                                                                                                                  sucrose
   attack:1, charge;                                                                                                                                  fischl
-  attack:2;  \n\n\n\n\n\n"
+  attack:2;  \n\n\n\n\n\n\n"
 description: Sucrose Taser.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -80,7 +80,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49065.05435624204
+dps: 49079.96863259271
 mode: sl
 duration: 105.00000000000071
 target_count: 1

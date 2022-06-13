@@ -28,7 +28,7 @@ config:
   skill;\nxingqiu attack:3, skill, dash, attack:3;\nbennett skill, attack;\nraiden
   skill, attack, burst,\n       attack:4, dash, attack:4, dash, attack:4, dash, attack;\n
   \      #it really do be 3n4d n4 , attack:2, charge;\nbennett attack, skill;\nwait
-  2;\nrestart;\n\n\n\n"
+  2;\nrestart;\n\n\n\n\n"
 description: Xiangling Overvape with optimal supports. Optimized rotation.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 73660.37153272695
+dps: 73637.19885973811
 mode: sl
 duration: 105.99999999999856
 target_count: 1
