@@ -25,7 +25,7 @@ config:
   List:\nactive raiden;\n\nraiden attack, skill;\nyelan skill, burst, attack;\nbennett
   skill, attack, burst, attack;\nkazuha attack, burst, attack, skill, high_plunge;\nraiden
   attack, burst,\n       attack:4, dash, attack:4, dash, attack:4, dash, attack:4,
-  dash, attack;\nkazuha skill, high_plunge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  dash, attack;\nkazuha skill, high_plunge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 56393.23189273589
+dps: 56427.48469001409
 mode: sl
 duration: 97.89999999999921
 target_count: 1
