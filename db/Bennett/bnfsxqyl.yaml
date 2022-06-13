@@ -46,8 +46,8 @@ config:
   skill;\n#fischl attack, burst;\n#yelan attack, skill, attack;\n#bennett attack:2,
   skill,\n        #attack:2, skill,\n        #attack:2, skill,\n        #attack:3,
   skill;\n#yelan attack:3;\n#xingqiu attack:2, dash, attack:2;\n#bennett attack:2,
-  skill;\n#fischl attack:2;\n    \n#restart;\n\n\n\n"
-description: 4TF Bennett with Double Hydro.
+  skill;\n#fischl attack:2;\n    \n#restart;\n\n\n\n\n"
+description: Bennett Vape with Fischl.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: bennett
@@ -86,7 +86,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 58696.448851417954
+dps: 58755.01950376756
 mode: sl
 duration: 112.9999999999996
 target_count: 1
