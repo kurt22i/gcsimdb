@@ -8,29 +8,29 @@ config:
   refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats
   hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats hp=507.88
   hp%=0.1984 def=39.36 def%=0.124 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
-  stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
-  hp=507.88 hp%=0.0992 def=39.36 def%=0.124 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
-  cr=0.331 cd=0.7944;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add
-  weapon=\"thrillingtalesofdragonslayers\" refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\"
-  count=4;\nsucrose add stats hp=4780 atk=311 em=186.5 em=186.5 em=186.5; #main\nsucrose
-  add stats hp=507.88 hp%=0.0992 def=39.36 def%=0.124 atk=33.08 atk%=0.1984 er=0.1102
-  em=118.92 cr=0.3972 cd=0.3972; \n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\noptions debug=true iteration=1000 duration=81
-  mode=sl;\n#Action List:\n\nactive xingqiu;\nxingqiu skill, dash, burst,attack;\nyelan
-  attack, skill, attack, burst;\nsucrose attack, skill,dash,burst;\nxiao attack,skill,
-  attack, skill, attack, burst,\n    attack, jump, high_plunge[collision=1],\n    attack,
+  cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"harbingerofdawn\"
+  refine=5 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
+  stats hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311; #main\nxingqiu add stats hp=507.88
+  hp%=0.0992 def=39.36 def%=0.124 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
+  stats hp=4780 atk=311 em=186.5 em=186.5 em=186.5; #main\nsucrose add stats hp=507.88
+  hp%=0.0992 def=39.36 def%=0.124 atk=33.08 atk%=0.1984 er=0.1102 em=118.92 cr=0.3972
+  cd=0.3972; \n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy every
+  interval=480,720 amount=1;\noptions debug=true iteration=1000 duration=80.6 mode=sl;\n#Action
+  List:\n\nactive xingqiu;\nxingqiu skill, dash, burst, attack;\nyelan skill, attack,
+  burst;\nsucrose attack, skill,dash,burst;\nxiao skill, attack, skill, attack, burst,\n
+  \   attack, jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n
+  \   attack, jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n
+  \   attack, jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n
+  \   attack, jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1];\n
+  \  \nxingqiu skill, dash, burst, attack;\nyelan skill, attack, burst;\nsucrose attack,
+  skill, dash ,attack;\nxiao skill, attack, skill, attack, burst,\n    attack, jump,
+  high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n    attack,
   jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n    attack,
   jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n    attack,
-  jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n    attack,
-  jump, high_plunge[collision=1];\n   \nxingqiu skill, dash, burst,attack;\nyelan
-  attack, skill, attack, burst;\nsucrose attack, skill,dash,attack;\nxiao skill, attack,
-  skill, attack, burst,\n    attack, jump, high_plunge[collision=1],\n    attack,
-  jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n    attack,
-  jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n    attack,
-  jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n    attack,
-  jump, high_plunge[collision=1],\n    attack;    \nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  jump, high_plunge[collision=1],\n    attack, jump, high_plunge[collision=1],\n    attack;
+  \   \nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Xiao Double Hydro.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -54,9 +54,9 @@ team:
       burst: 9
   - name: xingqiu
     con: 6
-    weapon: favoniussword
-    refine: 3
-    er: 0.1102
+    weapon: harbingerofdawn
+    refine: 5
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
@@ -70,8 +70,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42865.77558086223
+dps: 43801.73101308212
 mode: sl
-duration: 81.00000000000173
+duration: 80.5999999999997
 target_count: 1
 viewer_key: sJ-BrNOWQUOzKQQa2gNCx

@@ -1,4 +1,4 @@
-author: Hessey#9122 and Refrigerante134a#6895
+author: Hessey#9122, Refrigerante134a#6895 and Rare Possum#0511
 config:
   "mona char lvl=90/90 cons=0 talent=9,9,9;\nmona add weapon=\"thrillingtalesofdragonslayers\"
   refine=5 lvl=90/90;\nmona add set=\"noblesseoblige\" count=4;\nmona add stats def%=0.1240
@@ -13,12 +13,12 @@ config:
   talent=9,9,9;\nayaka add weapon=\"amenomakageuchi\" refine=5 lvl=90/90;\nayaka add
   set=\"blizzardstrayer\" count=5;\nayaka add stats def%=0.1240 def=39.36 hp=5288
   hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.3972 cd=1.284 cryo%=0.4660;\n\noptions
-  swap_delay=12 debug=true iteration=1000 duration=147 workers=30 mode=sl;\n\ntarget
+  swap_delay=12 debug=true iteration=1000 duration=146 workers=30 mode=sl;\n\ntarget
   lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
   cryo=.1;\n\nenergy every interval=480,720 amount=1;\n\nactive ayaka;\n\nayaka skill;\nganyu
-  burst[radius=2], skill;     \nkazuha skill[hold=1], high_plunge, burst;\nmona skill,burst;\nayaka
-  dash,skill,burst;\nganyu skill,aim[weakspot=1];\nkazuha skill, high_plunge;\nayaka
-  dash,attack:3,charge;\n\nrestart;\n\n\n"
+  burst[radius=2], skill;     \nkazuha skill[hold=1], high_plunge, burst;\nmona skill,
+  burst;\nayaka dash,skill,burst;\nganyu skill,aim[weakspot=1];\nkazuha skill, high_plunge;\nayaka
+  dash,attack:3,charge, attack;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -58,8 +58,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55571.26725746482
+dps: 55809.22000899855
 mode: sl
-duration: 147.00000000000082
+duration: 145.99999999999898
 target_count: 1
 viewer_key: P0NI02-gexuw278Il4GXj

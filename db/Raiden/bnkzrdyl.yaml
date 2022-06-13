@@ -1,47 +1,31 @@
-author: Rare Possum#0511
+author: Rare Possum#0511 and Lettuce Hunt#5806
 config:
-  "options swap_delay=12 iteration=1000 duration=97 workers=30 mode=sl;\n\nraidenshogun
-  char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\" refine=5
-  lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
-  add stats hp=4780 atk=311 atk%=0.466 er=0.518 cr=0.311 ; #main\nraidenshogun add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.2979 cd=0.7282;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=237.84 cr=0.1986 cd=0.5296;\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9;
-  \nkaedeharakazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkaedeharakazuha
-  add set=\"viridescentvenerer\" count=5;\nkaedeharakazuha add stats hp=4780 atk=311
-  em=561 ; #main\nkaedeharakazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.496 er=0.551 em=118.92 cr=0.0662 cd=0.1324;\n\nyelan char lvl=90/90
-  cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan
-  add set=\"emblemofseveredfate\" count=5;\nyelan add stats hp=4780 atk=311 hp%=0.466
-  hydro%=0.466 cr=0.311; #main\nyelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2979 cd=0.5958;\n\nactive raiden;\ntarget
-  lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1
-  cryo=.1;\n#target lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
-  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nraiden skill;\nyelan
-  burst;\nkaedeharakazuha attack, skill, high_plunge, attack;\nyelan skill, attack;\nbennett
-  skill, attack, burst;\nkaedeharakazuha attack, burst, attack, skill, high_plunge;\nraiden
-  attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\n\nyelan
-  burst;\nkaedeharakazuha attack, skill, high_plunge, attack;\nyelan skill, attack;\nbennett
-  skill, attack, burst;\nkaedeharakazuha attack, burst, attack, skill, high_plunge;\nraiden
-  attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\n\nyelan
-  burst;\nkaedeharakazuha attack, skill, high_plunge, attack;\nyelan skill, attack;\nbennett
-  skill, attack, burst;\nkaedeharakazuha attack, burst, attack, skill, high_plunge;\nraiden
-  attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\n\nyelan
-  burst;\nkaedeharakazuha attack, skill, high_plunge, attack;\nyelan skill, attack;\nbennett
-  skill, attack, burst;\nkaedeharakazuha attack, burst, attack, skill, high_plunge;\nraiden
-  attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\n\nyelan
-  burst;\nkaedeharakazuha attack, skill, high_plunge, attack;\nyelan skill, attack;\nbennett
-  skill, attack, burst;\nkaedeharakazuha attack, burst, attack, skill, high_plunge;\nraiden
-  attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\n\nyelan
-  burst;\nkaedeharakazuha attack, skill, high_plunge, attack;\nyelan skill, attack;\nbennett
-  skill, attack, burst;\nkaedeharakazuha attack, burst, attack, skill, high_plunge;\nraiden
-  attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\n\nyelan
-  burst;\nkaedeharakazuha attack, skill, high_plunge, attack;\nyelan skill, attack;\nbennett
-  skill, attack, burst;\nkaedeharakazuha attack, burst, attack, skill, high_plunge;\nraiden
-  attack, burst, attack:4, dash, attack:4, skill, attack:4, dash, attack:2, charge;\n\nrestart;\n\n\n\n\n\n\n"
+  "options debug=true iteration=1000 duration=97.9 mode=sl;\n\n#Character builds:\n\nraiden
+  char lvl=90/90 cons=0 talent=9,9,9;\nraiden add weapon=\"thecatch\" refine=5 lvl=90/90;\n#raiden
+  add set=\"tenacityofthemillelith\" count=4;\nraiden add set=\"emblemofseveredfate\"
+  count=4;\nraiden add stats hp=4780 atk=311.0 er=0.518 cr=0.3110 electro%=0.4660;\nraiden
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1488 er=0.1653
+  em=39.64 cr=0.331 cd=0.7944 ;\t\n#raiden add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nkazuha
+  char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha
+  add set=\"viridescentvenerer\" count=4;\n#kazuha add stats hp=4780 atk=311 em=373
+  er=0.518 ; #main\nkazuha add stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nkazuha
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.6612
+  em=118.92 cr=0.0662 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\n#yelan add set=\"noblesseoblige\"
+  count=4;\nyelan add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan
+  add stats hp%=0.1984 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64
+  cr=0.331 cd=0.7944 er=0.1102 ;\t\t\t\t\t\t\t\t\t\t\t\n\nbennett char lvl=90/90 cons=6
+  talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.3306 em=79.28 cr=0.2648 cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\n#Enemies
+  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
+  List:\nactive raiden;\n\nraiden attack, skill;\nyelan skill, burst, attack;\nbennett
+  skill, attack, burst, attack;\nkazuha attack, burst, attack, skill, high_plunge;\nraiden
+  attack, burst,\n       attack:4, dash, attack:4, dash, attack:4, dash, attack:4,
+  dash, attack;\nkazuha skill, high_plunge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -49,7 +33,7 @@ team:
     con: 6
     weapon: thealleyflash
     refine: 1
-    er: 0.6282
+    er: 0.8486
     talents:
       attack: 9
       skill: 9
@@ -58,7 +42,7 @@ team:
     con: 0
     weapon: ironsting
     refine: 5
-    er: 0.551
+    er: 0.6612
     talents:
       attack: 9
       skill: 9
@@ -67,7 +51,7 @@ team:
     con: 0
     weapon: thecatch
     refine: 5
-    er: 0.8486
+    er: 0.6833
     talents:
       attack: 9
       skill: 9
@@ -76,13 +60,13 @@ team:
     con: 0
     weapon: favoniuswarbow
     refine: 3
-    er: 0.4408
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 54261.56098563026
+dps: 56433.004263754534
 mode: sl
-duration: 96.99999999999865
+duration: 97.89999999999921
 target_count: 1
 viewer_key: XCp36oxB6dV55nDciuI_1
