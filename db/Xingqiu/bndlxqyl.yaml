@@ -34,7 +34,7 @@ config:
   attack, burst;\nyelan attack, skill;\ndiluc attack, skill,\n    attack, skill,\n
   \   attack, dash,\n    attack, skill,\n    attack:4;\nbennett attack, skill;\nxingqiu
   attack:2;\nyelan attack, skill;\nxingqiu attack, skill, attack:2;\nbennett attack,
-  skill, attack;\nxingqiu attack:2;\nrestart;\n\n\n\n"
+  skill, attack;\nxingqiu attack:2;\nrestart;\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -74,7 +74,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49326.38279286555
+dps: 49333.09911841928
 mode: sl
 duration: 105.00000000000071
 target_count: 1

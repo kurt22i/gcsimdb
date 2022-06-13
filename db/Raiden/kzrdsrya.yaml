@@ -21,7 +21,7 @@ config:
   pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy
   every interval=480,720 amount=1;\n\nyaemiko skill,skill,skill;\nkazuha skill,high_plunge;\nraiden
   skill, attack;\nsara skill, aim;\nyaemiko attack, burst,skill,skill,skill;\nwait
-  2;\nkazuha skill[hold=1],high_plunge, burst;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3;\nrestart;\n\n"
+  2;\nkazuha skill[hold=1],high_plunge, burst;\nsara burst;\nraiden burst,attack:3,charge,attack:3,charge,attack:3;\nrestart;\n\n\n"
 description:
   Raiden Hypercarry when Bennett is locked on the other team. No shielding
   or healing, have fun.
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48023.29758898958
+dps: 48019.21734462163
 mode: sl
 duration: 109.99999999999949
 target_count: 1

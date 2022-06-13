@@ -1,6 +1,6 @@
 author: Rare Possum#0511, Voidrev#2697 and RoyM#2340
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=103 workers=30 mode=sl;\n\ndiluc
+  "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\ndiluc
   char lvl=90/90 cons=0 talent=9,9,9; \ndiluc add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\ndiluc add set=\"crimsonwitchofflames\" count=4;\ndiluc
   add stats hp=4780 atk=311 em=187 pyro%=0.466 cd=0.622 ; #main\ndiluc add stats def%=0.124
@@ -24,7 +24,7 @@ config:
   skill, attack, skill;\nyelan skill, burst, attack;\nbennett skill,attack,burst;\nfischl
   attack:2, burst;\ndiluc burst, skill, attack:2, skill, attack:2, skill, attack,
   dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack, skill, attack,
-  skill, attack, skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill, attack, skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: TF Diluc with Yelan.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -64,8 +64,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40904.516416542945
+dps: 41389.21824970109
 mode: sl
-duration: 102.99999999999858
+duration: 105.99999999999856
 target_count: 1
 viewer_key: 5zV7Q9T5p4ptiPIYVuySY

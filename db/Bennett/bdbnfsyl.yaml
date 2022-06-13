@@ -33,7 +33,7 @@ config: |+
   fischl attack, skill, attack;
   yelan attack, skill, burst , attack;
   bennett attack, skill, attack, burst;
-  beidou  attack , skill[counter=1], attack ,burst;
+  beidou  attack , skill[counter=2], attack ,burst;
   bennett attack:2, skill,
           attack:2, skill,
           attack:2, skill,
@@ -45,7 +45,7 @@ config: |+
           attack:2, skill,
           attack:2, skill;
   yelan attack:3;
-  beidou attack, skill[counter=1], attack;
+  beidou attack, skill[counter=0], attack;
   bennett attack:3, skill;
 
   restart;
@@ -98,7 +98,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47944.67927188267
+dps: 48562.28410548947
 mode: sl
 duration: 102.00000000000051
 target_count: 1

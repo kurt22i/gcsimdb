@@ -1,4 +1,4 @@
-author: Moloch#2235
+author: Moloch#2235 and Hessey#9122
 config:
   "#Configs\noptions swap_delay=12 debug=true iteration=1000 duration=110 workers=30
   mode=sl;\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#Chars\nhutao
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 63650.82103725243
+dps: 63756.84560870585
 mode: sl
 duration: 109.99999999999949
 target_count: 1

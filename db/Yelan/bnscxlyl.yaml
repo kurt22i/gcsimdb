@@ -1,30 +1,35 @@
 author: Lettuce Hunt#5806
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\nbennett
+  "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\n#bennett add set=\"noblesseoblige\"
-  count=4; #@50.2k\nbennett add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311
-  ; #main\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
-  er=0.2755 em=39.64 cr=0.331 cd=0.7282 ;\t\n#bennett add stats def=39.36 def%=0.124
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;
-  #pamber/oath \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
+  count=4; #@54.8k with EM sands\nbennett add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466
+  cr=0.311;\n#bennett add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #noblesse\nbennett
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2755
+  em=39.64 cr=0.331 cd=0.7282 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n#bennett
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944 ; #high crit fav sucrose\t\t\t\t\t\t\t\t\t\t\n#bennett
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
+  em=39.64 cr=0.331 cd=0.662; #pamber/oath \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\" refine=5
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
   hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
   cd=0.7944;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\"
   refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\n#yelan add
-  set=\"noblesseoblige\" count=4; #needs ~120-130% er to function @48k\nyelan add
-  stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n \nsucrose
-  char lvl=90/90 cons=6 talent=9,9,9;\n#sucrose add weapon=\"prototypeamber\" refine=5
-  lvl=90/90; #@53.4k with ER sands\n#sucrose add weapon=\"oathsworneye\" refine=5
-  lvl=90/90; #@53.6k with ER sands\nsucrose add weapon=\"favoniuscodex\" refine=3
-  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add stats hp=4780
-  atk=311.0 em=561.0;\n#sucrose add stats hp=4780 atk=311 er=0.518 em=373; #pamber/oath\nsucrose
-  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612
-  em=118.92 cr=0.2648 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n#sucrose
+  set=\"noblesseoblige\" count=4; #needs ~120-130% er to function @54.2k with er sands
+  high crit sucrose\nyelan add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311;
+  #main\nyelan add stats def=39.36 def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n
+  \nsucrose char lvl=90/90 cons=6 talent=9,9,9;\n#sucrose add weapon=\"prototypeamber\"
+  refine=5 lvl=90/90; #@53.4k with ER sands\n#sucrose add weapon=\"oathsworneye\"
+  refine=5 lvl=90/90; #@53.6k with ER sands\nsucrose add weapon=\"favoniuscodex\"
+  refine=3 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add
+  stats hp=4780 atk=311.0 em=561.0;\n#sucrose add stats hp=4780 atk=311 er=0.518 em=373;
+  #pamber/oath\nsucrose add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.6612 em=118.92 cr=0.2648 cd=0.1324;\t\n#sucrose add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102 em=158.56 cr=0.3972
+  cd=0.1324; #ersandsfav @54.5k\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n#sucrose
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551
   em=158.56 cr=0.2648 cd=0.1324 ;\t#pamber/oath\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n##Default
   Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n##Actions
@@ -35,8 +40,8 @@ config:
   attack:3;\nyelan attack:2;\n#recast yelan skill on cd to change reaction direction,
   you're trying to save your rainsword to apply immediately after\n#stayhydrated with
   sucrose nodders\n\nbennett attack, skill, attack;\nxiangling attack, dash, attack:2;\n#refresh
-  crimson witch on bennett, funnel to xiangling\n\nbennett attack, skill;\nsucrose
-  attack:2;\nxiangling attack:2;\n#cool funnel\n\nrestart;\n\n\n\n\n\n\n\n"
+  crimson witch on bennett, funnel to xiangling\n\nbennett skill, attack:2;\nxiangling
+  attack;\n#no cool funnel cuz lizz hates everything fun and cool\n\nsucrose attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -76,8 +81,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55617.22305070235
+dps: 55871.2338544673
 mode: sl
-duration: 106.99999999999939
+duration: 108.00000000000088
 target_count: 1
 viewer_key: lzvNG8eS1liqn3h1CMS0q

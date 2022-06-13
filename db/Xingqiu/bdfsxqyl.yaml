@@ -24,7 +24,7 @@ config:
   attack:3, burst;\nbeidou attack, skill, dash, attack:2;\nyelan attack, skill, attack:2,
   dash, attack:3;\nxingqiu attack:2, dash, attack,\n        attack:2, jump, \n        attack:2,
   jump,\n        attack:2;\nbeidou attack:2, skill;\nyelan aim, attack:3;\nfischl
-  attack;\n\nrestart;\n\n\n\n"
+  attack;\n\nrestart;\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50238.39610867901
+dps: 50254.20715578899
 mode: sl
 duration: 99.9999999999986
 target_count: 1

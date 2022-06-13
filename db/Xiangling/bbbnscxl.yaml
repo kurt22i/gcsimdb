@@ -1,14 +1,14 @@
-author: FLOOFY | Jacky15x#5005
+author: FLOOFY | Jacky15x#5005 and RoyM#2340
 config: |+
-  options swap_delay=12 debug=true iteration=1000 duration=142 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=115 workers=30 mode=sl;
 
   energy every interval=480,720 amount=1;
 
   target lvl=100 resist=.10;
 
   barbara char lvl=90/90 cons=6 talent=9,9,9;
-  barbara add weapon="mappamare" refine=5 lvl=90/90;
-  barbara add set="wandererstroupe" count=4;
+  barbara add weapon="thewidsith" refine=3 lvl=90/90;
+  barbara add set="oceanhuedclam" count=4;
   barbara add stats hp=4780 atk=311.0 atk%=0.4660 cr=0.3110 hydro%=0.4660; #main
   barbara add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
@@ -18,7 +18,7 @@ config: |+
   sucrose add stats hp=4780 atk=311 em=187 em=187 em=187; #main
   sucrose add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=118.92 cr=0.3972 cd=0.5296;
 
-  bennett char lvl=90/90 cons=5 talent=9,9,9;
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
   bennett add weapon="thealleyflash" refine=1 lvl=90/90;
   bennett add set="noblesseoblige" count=4;
   bennett add stats hp=4780 atk=311.0 er=0.5180 cr=0.3110 pyro%=0.4660; #main
@@ -28,23 +28,54 @@ config: |+
   xiangling add weapon="thecatch" refine=5 lvl=90/90;
   xiangling add set="emblemofseveredfate" count=4;
   xiangling add stats hp=4780 atk=311.0 er=0.5180 cr=0.3110 pyro%=0.4660; #main
-  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2979 cd=0.7282;
+  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
   active barbara;
 
   barbara attack:3;
   bennett skill;
   xiangling attack:3;
-  barbara charge, attack:4;
-  sucrose skill;
+  barbara charge;
+  xiangling jump,skill;
+  sucrose attack:2,skill,dash,burst;
   barbara skill;
   bennett burst, skill;
-  xiangling burst, skill;
-  barbara charge, attack:2, charge, charge, attack:2, charge, charge, attack:4;
-  bennett attack:1, skill;
-  xiangling attack:1, skill;
+  xiangling burst;
+  barbara charge, attack:2,charge,charge;
+  xiangling attack, skill;
+  sucrose attack:2,skill;
+  bennett attack,skill;
+  barbara attack:3,charge,attack:3,charge,attack:3,charge;
+  #-------------------------------------------------------
+  barbara attack:3;
+  bennett skill;
+  xiangling attack:3;
   barbara charge;
-
+  xiangling jump,skill;
+  sucrose attack:2,skill;
+  barbara skill;
+  bennett burst, skill;
+  xiangling burst;
+  barbara charge, attack:2,charge,charge;
+  xiangling attack, skill;
+  sucrose attack:2,skill;
+  bennett attack,skill;
+  barbara attack:3,charge,attack:3,charge,attack:3,charge;
+  #-------------------------------------------------------
+  barbara attack:3;
+  bennett skill;
+  xiangling attack:3;
+  barbara charge;
+  xiangling jump,skill;
+  sucrose attack:2,skill;
+  barbara skill;
+  bennett burst, skill;
+  xiangling burst;
+  barbara charge, attack:2,charge,charge;
+  xiangling attack, skill;
+  sucrose attack:2,skill;
+  bennett attack,skill;
+  barbara attack:3,charge,attack:3,charge,attack:3,charge;
   restart;
 
   # Vaporize DPS Barbara team
@@ -63,20 +94,40 @@ config: |+
 
   # Substats were distributed using the desktop version of gcsim (Substat Optimizer Mode), therefore there might be room for improvement.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 description: Barbara Vape.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
   - name: barbara
     con: 6
-    weapon: mappamare
-    refine: 5
+    weapon: thewidsith
+    refine: 3
     er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
   - name: bennett
-    con: 5
+    con: 6
     weapon: thealleyflash
     refine: 1
     er: 0.7384000000000001
@@ -97,13 +148,13 @@ team:
     con: 6
     weapon: thecatch
     refine: 5
-    er: 0.8486
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 21779.648981081733
+dps: 30064.201984931664
 mode: sl
-duration: 141.99999999999835
+duration: 114.9999999999981
 target_count: 1
 viewer_key: JHGWZ1gmKC-lzlt4grTKR
