@@ -16,17 +16,17 @@ config:
   cr=0.6420 cd=0.7944 pyro%=0.4660;\n\n#bennett add set=\"instructor\" count=4;\n#bennett
   add stats def%=0.1240 def=39.36 hp=4079 hp%=0.09920 atk=265.1 atk%=0.09920 er=0.6282
   em=39.64 cr=0.5630 cd=0.3972 pyro%=0.3480;\n\noptions swap_delay=12 debug=true iteration=1000
-  duration=86\n mode=sl;\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
+  duration=84\n mode=sl;\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720
   amount=1;\n\n#__________________________________________________________________________________\n\nactive
   xingqiu; \n  \nxingqiu skill, dash, attack, burst, attack;\nyelan   attack, skill,
   attack, burst;\nbennett attack,skill, attack, burst, attack;\nklee    burst, attack,
   skill[bounce=3, mine=8],\n        attack, charge,\n        attack, charge,\n        attack,
   charge,\n        attack, charge,\n        attack, charge,\n        attack;\nbennett
-  attack, skill;\nklee    attack, charge, attack;     \n\nxingqiu skill, dash, attack,
+  attack, skill;\nklee    attack, charge,attack;     \n\nxingqiu skill, dash, attack,
   burst, attack;\nyelan   attack, skill, attack, burst;\nbennett attack, skill, attack,
   burst, attack;\nklee    attack, skill[bounce=3, mine=8],\n        attack, charge,\n
   \       attack, charge,\n        attack, charge,\n        attack, charge,\n        attack,
-  charge,\n        attack;\nbennett attack, skill; \nklee    attack, charge, attack;\nrestart;\n\n\n\n\n\n"
+  charge,\n        attack;\nbennett attack, skill; \nklee    attack, charge;\nrestart;\n\n\n\n\n\n"
 description: Double Hydro Klee.
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -66,8 +66,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 45889.24298234797
+dps: 46251.16324466686
 mode: sl
-duration: 85.99999999999883
+duration: 84.00000000000185
 target_count: 1
 viewer_key: Eah9s1WsdEW5bENbOFx70

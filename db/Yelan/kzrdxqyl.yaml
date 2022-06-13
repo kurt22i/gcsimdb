@@ -42,7 +42,7 @@ config:
   skill;\nkazuha skill, high_plunge;\n\nxingqiu burst, attack, skill, attack;\nyelan
   burst;\nkazuha attack, burst, attack, skill, high_plunge, attack;\nyelan skill,
   attack;\nraiden burst, attack:4, dash, attack:4, skill, attack:5, dash, attack:3;\nyelan
-  skill;\nkazuha skill, high_plunge;\n\n\n\n\n\n\n\n\n"
+  skill;\nkazuha skill, high_plunge;\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -82,7 +82,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 59196.53602027746
+dps: 59131.10780852418
 mode: sl
 duration: 126.9999999999982
 target_count: 1
