@@ -29,7 +29,7 @@ config:
   charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1,
   charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:1,
   charge, jump;\nyelan attack, skill;\nxingqiu attack, skill, dash, attack;\nxiangling
-  attack:3;\nxingqiu attack;\nwait 11;\nrestart;\n\n\n\n"
+  attack:3;\nxingqiu attack;\nwait 11;\nrestart;\n\n\n\n\n"
 description: ""
 hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
 team:
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 64138.96176729295
+dps: 64193.98504943954
 mode: sl
 duration: 105.00000000000071
 target_count: 1
