@@ -36,7 +36,7 @@ config:
   add set=\"shimenawasreminiscence\" count=2;\n#jean add stats hp=4780 atk=311 em=187
   em=187 cr=0.311; #main 5* set (two or more enemies)\n#jean add stats def=39.36 def%=0.124
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=158.56 cr=0.331 cd=0.5296;
-  #20 liquid subs\n\n\n\n\n"
+  #20 liquid subs\n\n\n\n\n\n"
 description: Jean Torpedo.
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
@@ -76,7 +76,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 51495.91418586743
+dps: 51507.94360950935
 mode: apl
 duration: 175.0000000000016
 target_count: 1

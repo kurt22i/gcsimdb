@@ -29,7 +29,7 @@ config:
   skill,attack:3;\n\nyelan attack,charge,skill,burst,attack;\nbennett attack, skill,
   attack, burst, attack:2;\nfischl attack, burst;\nyoimiya skill, attack:4, attack[travel=0],
   dash, attack:4, attack[travel=0], dash, attack:4, attack[travel=0];\nbennett skill,attack:3;\nyelan
-  attack,charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack,charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoimiya Overvape with Yelan.
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 60351.16761337823
+dps: 60291.503642839285
 mode: sl
 duration: 72.99999999999949
 target_count: 1
