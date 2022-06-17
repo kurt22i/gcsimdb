@@ -1,0 +1,83 @@
+author: Jhony75#8133
+config:
+  "#Configs\ntarget lvl=100 resist=0.1; #Default Res\nenergy every interval=480,720
+  amount=1; #Approximated to Perpetual Mechanical Array\noptions swap_delay=12 debug=true
+  iteration=1000 duration=175 workers=30 mode=apl;\n\n#Character Builds\njean char
+  lvl=90/90 cons=0 talent=9,9,9; \njean add weapon=\"favoniussword\" refine=3 lvl=90/90;\njean
+  add set=\"viridescentvenerer\" count=4;\njean add stats hp=4780 atk=311 atk%=0.466
+  anemo%=0.466 cr=0.311; #main\njean add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944; #20 liquid subs\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  hydro%=0.466 cr=0.311; #main\nxingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944; #20 liquid subs\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats hp=4780
+  atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3310 cd=0.7944;
+  #20 liquid subs\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
+  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311; #main\nfischl add
+  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\t#20 liquid subs\n\n#Action List\nactive fischl;\n\nfischl
+  burst +if=.status.fischloz<=0&&(.energy.fischl>=60);\nfischl skill, attack +if=.status.fischloz<=0;\nxingqiu
+  burst[orbital=1], attack, skill[orbital=1], dash, attack +if=.cd.xingqiu.skill<=1260;\nyelan
+  attack, burst, attack +if=.cd.yelan.burst<=1080;\nyelan attack, skill, attack +if=.cd.yelan.skill<=500;\njean
+  attack, burst, attack +if=.cd.jean.burst>=1200&&(.energy.jean>=80);\njean attack,
+  skill, attack +if=.cd.jean.skill<=300;\nxingqiu attack:2;\nyelan attack:2;\n\n###-------------------------------------------------------------------------------------------------------------------------------------###\n\n####
+  Notes:\n# Both Xingqiu ESF and Xingqiu NO give similar results, just use the one
+  with better stats\n# Fischl: TOTM + R3 STRINGLESS >>> TOTM + R1 ALLEY HUNTER >>>
+  2TF 2SR + R1 ALLEY HUNTER = 51260 >>> 2TF 2SR + R3 STRINGLESS = 51090\n# In multitarget
+  Jean scales better with EM (Please don't use this team in multitarget, it's a bad
+  idea)\n\n#### Alternative Builds:\n#xingqiu add set=\"emblemofseveredfate\" count=4;\n#xingqiu
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944; #20 liquid subs\n#fischl add weapon=\"alleyhunter\"
+  refine=1 lvl=90/90 +params=[stacks=10];\n#fischl add set=\"thunderingfury\" count=2;\n#fischl
+  add set=\"shimenawasreminiscence\" count=2;\n#jean add stats hp=4780 atk=311 em=187
+  em=187 cr=0.311; #main 5* set (two or more enemies)\n#jean add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=158.56 cr=0.331 cd=0.5296;
+  #20 liquid subs\n\n\n\n\n"
+description: Jean Torpedo.
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+team:
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: lionsroar
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 51495.91418586743
+mode: apl
+duration: 175.0000000000016
+target_count: 1
+viewer_key: X3EBZz8EXzlkscUpJJTGM

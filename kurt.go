@@ -42,6 +42,7 @@ func main() {
 	flag.BoolVar(&upload, "u", false, "upload to db")
 	flag.Parse()
 
+	fmt.Printf("ju9n")
 	err := run(d)
 
 	if err != nil {

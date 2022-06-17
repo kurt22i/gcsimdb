@@ -1,0 +1,70 @@
+author: RoyM#2340
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=106.5 mode=sl;\n\n#Character
+  builds:\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"slingshot\"
+  refine=5 lvl=90/90;\n#yelan add weapon=\"recurvebow\" refine=2 lvl=90/90;\nyelan
+  add set=\"emblemofseveredfate\" count=4;\nyelan add stats hp=4780 atk=311 hp%=0.466
+  hydro%=0.466 cd=0.622 ; #main\nyelan add stats def=39.36 def%=0.124 hp=507.88 hp%=0.1984
+  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.3972 cd=0.662 ;\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\nfischl
+  char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\" refine=3
+  lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl add stats
+  hp=4780 atk=311 cr=0.311 electro%=0.466 atk%=0.466;\nfischl add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nbeidou char lvl=90/90 cons=6 talent=9,9,9;\nbeidou add weapon=\"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=5];\nbeidou add set=\"noblesseoblige\" count=5;\nbeidou
+  add stats hp=4780 atk=311 cd=0.662 electro%=0.466 atk%=0.466 ; #main\nbeidou add
+  stats hp%=0.0992 hp=507.88 atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.3972
+  cd=0.622 er=0.2204;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"kitaincrossspear\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=5;\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
+  em=39.64 cr=0.2648 cd=0.662;\t\t\t\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\n#Action List:\nactive fischl;\nfischl skill;\nxiangling
+  attack,skill;\nyelan skill,burst,attack;\nbeidou skill[counter=2],burst,attack;\nxiangling
+  burst;\nyelan attack:4,dash,attack:4;\nbeidou skill,attack;\nfischl burst;\nxiangling
+  attack,skill;\nyelan attack:4,skill,attack:4,dash,attack:4;\nbeidou skill,attack;\nyelan
+  attack:4;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: ""
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+team:
+  - name: beidou
+    con: 6
+    weapon: serpentspine
+    refine: 1
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: kitaincrossspear
+    refine: 5
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: slingshot
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 43790.843046815295
+mode: sl
+duration: 106.49999999999795
+target_count: 1
+viewer_key: RoPhY55rbmoptg7X-ghDv

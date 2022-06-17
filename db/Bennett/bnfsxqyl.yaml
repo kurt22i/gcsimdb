@@ -15,14 +15,14 @@ config:
   count=4;\nfischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644
   er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;\n\n#fischl add weapon=\"thestringless\"
   refine=3 lvl=90/90;\n\n#Enemies and Particles:\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\noptions debug=true iteration=1000 duration=113
-  mode=sl;\n#Action List:\n\nactive fischl;\n\nfischl attack, skill;\nbennett attack,
+  every interval=480,720 amount=1;\noptions debug=true iteration=1000 duration=92
+  mode=sl;\n\n#Action List:\n\nactive fischl;\n\nfischl attack, skill;\nbennett attack,
   skill;\nxingqiu burst, attack;\nyelan skill, attack, burst, attack;\nbennett burst,
-  attack, skill;\nfischl attack:2;\nbennett attack, skill;\nfischl attack, burst;\nbennett
-  attack, skill;\nfischl attack:2;\nbennett attack, skill;\nyelan attack, skill;\nbennett
+  attack, skill;\nxingqiu attack:2;\nbennett attack, skill;\nfischl attack, burst;\nbennett
+  attack, skill;\nxingqiu attack:2;\nbennett attack, skill;\nyelan attack, skill;\nbennett
   attack, skill;\nxingqiu attack:3, skill, dash, attack:3;\nbennett attack:2, skill;\nfischl
-  attack:2;\n\nrestart;\n\n\n#_____________________________________________________________________________\n\n\n#TF
-  Version - Dps: 50145\n\n\n\n#yelan char lvl=90/90 cons=0 talent=9,9,9;\n#yelan add
+  attack:2;\n\nrestart;\n\n#_____________________________________________________________________________\n\n#TF
+  Version - Dps: 48.064\n\n\n#yelan char lvl=90/90 cons=0 talent=9,9,9;\n#yelan add
   weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\n#yelan add set=\"noblesseoblige\"
   count=4;\n#yelan add stats def%=0.1240 def=39.36 hp=5288 hp%=0.6644 atk=344.1 atk%=0.09920
   er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;\n\n#xingqiu char lvl=90/90
@@ -39,16 +39,18 @@ config:
   add weapon=\"thestringless\" refine=3 lvl=90/90;\n#fischl add set=\"tenacityofthemillelith\"
   count=4;\n#fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1
   atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 pyro%=0.4660;\n\n#options debug=true
-  iteration=1000 duration=101 mode=sl;\n\n#Action List:\n\n#active fischl;\n\n#fischl
-  attack, skill, attack;\n#xingqiu attack, burst, attack:2;\n#yelan attack, skill,
-  attack, burst;\n#bennett attack, skill, attack, burst;\n#xingqiu skill, dash, attack;\n#bennett
-  attack:2, skill,\n        #attack:2, skill,\n        #attack:2, skill,\n        #attack:2,
+  iteration=1000 duration=101 mode=sl;\n\n#Enemies and Particles:\n#target lvl=100
+  resist=.1;\n#energy every interval=480,720 amount=1;\n#options debug=true iteration=1000
+  duration=102.5 mode=sl;\n\n#Action List:\n\n#active fischl;\n\n#fischl attack, skill,
+  attack;\n#xingqiu attack, burst, attack:2;\n#yelan attack, skill, attack, burst;\n#bennett
+  attack, skill, attack, burst;\n#xingqiu skill, dash, attack;\n#bennett attack:2,
+  skill,\n        #attack:2, skill,\n        #attack:2, skill,\n        #attack:2,
   skill;\n#fischl attack, burst;\n#yelan attack, skill, attack;\n#bennett attack:2,
   skill,\n        #attack:2, skill,\n        #attack:2, skill,\n        #attack:3,
   skill;\n#yelan attack:3;\n#xingqiu attack:2, dash, attack:2;\n#bennett attack:2,
-  skill;\n#fischl attack:2;\n    \n#restart;\n\n\n\n\n"
+  skill;\n#fischl attack:2;\n    \n#restart;\n"
 description: Bennett Vape with Fischl.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: bennett
     con: 6
@@ -86,8 +88,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 58755.01950376756
+dps: 59100.18219279602
 mode: sl
-duration: 112.9999999999996
+duration: 91.999999999999
 target_count: 1
 viewer_key: fa5P1s_E_vmk_0bDT7fpU

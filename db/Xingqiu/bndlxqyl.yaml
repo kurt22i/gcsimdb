@@ -29,14 +29,14 @@ config:
   add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
   def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
   cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n#Enemies
-  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=100;\n\nactive
+  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive
   xingqiu;\n\nxingqiu burst, attack:2;\nyelan attack, burst;\nbennett attack, skill,
   attack, burst;\nyelan attack, skill;\ndiluc attack, skill,\n    attack, skill,\n
   \   attack, dash,\n    attack, skill,\n    attack:4;\nbennett attack, skill;\nxingqiu
   attack:2;\nyelan attack, skill;\nxingqiu attack, skill, attack:2;\nbennett attack,
-  skill, attack;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n"
+  skill, attack;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: bennett
     con: 6
@@ -74,7 +74,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49790.71061246317
+dps: 49691.77295367175
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -21,7 +21,7 @@ config: |+
   bennett add set="noblesseoblige" count=4;
   bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.9588 em=39.64 cr=0.5758 cd=0.6620 pyro%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
 
@@ -44,8 +44,15 @@ config: |+
 
 
 
+
+
+
+
+
+
+
 description: Mono-Cryo Ganyu with shielding and heals, Rosaria version.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: bennett
     con: 6
@@ -83,8 +90,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41257.168293850526
+dps: 41302.220471581466
 mode: sl
-duration: 106.99999999999939
+duration: 103.99999999999928
 target_count: 1
 viewer_key: 2EVQa0i6PgO6ikiAkOlLa

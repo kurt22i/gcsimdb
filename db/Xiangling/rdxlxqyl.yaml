@@ -20,12 +20,12 @@ config:
   count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu
   add stats hp%=0.0992 hp=507.88 atk%=0.1984 atk=33.08 def%=0.124 def=39.36 em=39.64
   cr=0.331 cd=0.7944 er=0.1102 ; #subs\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\n\n##Actions List\n\nactive raiden;\nraiden attack:2,
+  every interval=480,720 amount=1;\n\n##Actions List\n\nactive raiden;\nraiden attack,
   skill, attack:2;\nxingqiu skill, dash, burst, attack;\nxiangling attack, burst,
   attack, skill;\nyelan attack, burst, attack, skill;\nraiden attack, burst,\n       attack:4,
-  dash, attack:4, dash, attack:4, dash, attack:4;\nyelan attack, skill, attack:4;\n\n\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  dash, attack:4, dash, attack:4, dash, attack:4;\nyelan attack, skill, attack:3;\n\n\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: raiden
     con: 0
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55596.72035849605
+dps: 57354.0050481548
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -1,57 +1,57 @@
 author: RoyM#2340, Lettuce Hunt#5806, Lizz71#8986, Kurt#5846, Hessey#9122 and EnigWa#4825
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\nbennett
-  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
-  lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\nbennett add stats
-  hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
-  refine=5 lvl=90/90;\n#xiangling add weapon=\"deathmatch\" refine=1 lvl=90/90;\n#xiangling
-  add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=4;\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=79.28 cr=0.331 cd=0.7944;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9; \nyelan
-  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\n#yelan add set=\"emblemofseveredfate\"
-  count=4;\nyelan add set=\"noblesseoblige\" count=4;\nyelan add stats hp=4780 atk=311
-  hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats def=39.36 def%=0.124 hp=507.88
-  hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n
+  "options swap_delay=12 debug=true iteration=1000 duration=106.15 workers=30
+  mode=sl;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\nbennett
+  add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\n#xiangling add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\n#xiangling add weapon=\"dragonsbane\" refine=3 lvl=90/90;\nxiangling
+  add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 em=187
+  pyro%=0.466 cr=0.311 ; #main\nxiangling add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\n#yelan add set=\"emblemofseveredfate\" count=4;\nyelan add set=\"noblesseoblige\"
+  count=4;\nyelan add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n
   \nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \n#xingqiu add weapon=\"amenomakageuchi\"
   refine=5 lvl=90/90;\nxingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\n#xingqiu
   add set=\"noblesseoblige\" count=4;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu
   add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu add stats
   def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
   cr=0.331 cd=0.7944;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every
-  interval=480,720 amount=1;\n\n##Actions List\n\nactive yelan;\n\n\n\nyelan skill,
-  burst, attack;\nxingqiu burst, attack;\n#enable double rainswords, yelan catches
-  her own particles\n\nbennett burst, attack, skill;\nxiangling attack, burst, attack,
-  skill;\n#snapshot pyronado and guoba\n\nxingqiu attack:2;\n#acquire bennett buff
-  on xq to buff rainswords\nbennett attack, skill;\n\n\nyelan attack, skill;\n#cast
-  yelan e on cd\n\nxingqiu attack:3, skill, dash, attack:2, jump, attack;\n#forward
-  vapes a hit of xq e\n\nbennett skill, attack:2;\nxiangling attack:2;\n#funnel Xiangling
-  best dps in Teyvat\n\nbennett skill, attack:2, jump, attack:2, skill, attack;\n#go
-  ham on bennett, basically you can funnel whoever needs it if you have to\n\nyelan
-  attack:2;\n#primes the rotation/gives energy consistency with fav\nwait 2;\nrestart;\n\n\n#put
-  conceptually, this team has three objectives beyond the \"normal ones\" like snapshotting
-  pyronado in bennett buff and getting as many rainsword procs as possible - you want
-  to cast yelan e on cooldown, you want to cast bennett's e on cooldown while he has
-  his buff up for the cdr, you want to cast xq near the bottom of yelan's a4, but
-  not at the very bottom because you want the expiration of it to give you bennett
-  buff on bennett to lower his e cooldown. the sim casts the xingqiu e at that spot
-  to funnel xq with yelan. \n\n#the point of this team is to take advantage of bennett's
-  cdr provided by his buff to relax ER requirements for the entire party. he casts
-  e enough times that crimson witch is actually the play on him over, say, instructors,
-  because the users who would benefit from instructors dynamically (yelan and xingqiu)
-  are maintaining aura rather than reacting\n\n#elemental reactions: the combination
-  of rainswords and yerainswords are enough to easy vape no matter the strength of
-  pyro application - the only time you cleanse hydro aura is when gouba/pyronado/bennett
-  e all hit at once, and subsequently any auto swing will instantly clean any stray
-  pyro and reapply hydro. that makes getting value out of this comp easier than it
-  might seem\n\n#this is very poor on 2+ targets - everyone but Xiangling best dps
-  in Teyvat has a single target focus\n\n#performance in game will likely exceed performance
-  in sims. both xl and xq scale decently well with better artifacts, and sim assumes
-  that you're hugging your enemy, so orbitals will make it hard to forward vape both
-  hits of xq's e (or even 1 hit, with most rotations). in game, it's very, very easy
-  to do so, and incredibly potent. combined with an almost complete lack of ER requirements,
+  interval=480,720 amount=1;\n\n##Actions List\n\nactive yelan;\n\nyelan skill, burst,
+  attack;\nxingqiu burst, attack;\n#enable double rainswords, yelan catches her own
+  particles\n\nbennett burst, attack, skill;\nxiangling attack, burst, attack, skill;\n#snapshot
+  pyronado and guoba\n\nxingqiu attack:2;\n#acquire bennett buff on xq to buff rainswords\nbennett
+  attack, skill;\n\n\nyelan attack, skill;\n#cast yelan e on cd\n\nxingqiu attack:3,
+  skill, dash, attack:2, jump, attack;\n#forward vapes a hit of xq e\n\nbennett skill,
+  attack:2;\nxiangling attack:2;\n#funnel Xiangling best dps in Teyvat\n\nbennett
+  skill, attack:2, dash, attack:2, skill;\n#go ham on bennett, basically you can funnel
+  whoever needs it if you have to\n\nyelan attack:2;\n\nrestart;\n\n\n#put conceptually,
+  this team has three objectives beyond the \"normal ones\" like snapshotting pyronado
+  in bennett buff and getting as many rainsword procs as possible - you want to cast
+  yelan e on cooldown, you want to cast bennett's e on cooldown while he has his buff
+  up for the cdr, you want to cast xq near the bottom of yelan's a4, but not at the
+  very bottom because you want the expiration of it to give you bennett buff on bennett
+  to lower his e cooldown. the sim casts the xingqiu e at that spot to funnel xq with
+  yelan. \n\n#the point of this team is to take advantage of bennett's cdr provided
+  by his buff to relax ER requirements for the entire party. he casts e enough times
+  that crimson witch is actually the play on him over, say, instructors, because the
+  users who would benefit from instructors dynamically (yelan and xingqiu) are maintaining
+  aura rather than reacting\n\n#elemental reactions: the combination of rainswords
+  and yerainswords are enough to easy vape no matter the strength of pyro application
+  - the only time you cleanse hydro aura is when gouba/pyronado/bennett e all hit
+  at once, and subsequently any auto swing will instantly clean any stray pyro and
+  reapply hydro. that makes getting value out of this comp easier than it might seem\n\n#this
+  is very poor on 2+ targets - everyone but Xiangling best dps in Teyvat has a single
+  target focus\n\n#performance in game will likely exceed performance in sims. both
+  xl and xq scale decently well with better artifacts, and sim assumes that you're
+  hugging your enemy, so orbitals will make it hard to forward vape both hits of xq's
+  e (or even 1 hit, with most rotations). in game, it's very, very easy to do so,
+  and incredibly potent. combined with an almost complete lack of ER requirements,
   the weapons you will use in game will likely be a crit weapon, or anything that
   just gives big damage.\n\n#in regards to whalescaling, yelan constellations increase
   her personal damage significantly, but aren't anything drastic. jade cutter (or
@@ -61,9 +61,9 @@ config:
   gain on this team, however, is mistsplitter on bennett. the number of e casts, combined
   with the highest base attack in the game makes it the premiere choice for this team.
   freedom sworn, while not as numerically monolithic, is almost as good. elegy on
-  yelan is, similarly, worth considering.\n\n\n\n\n"
+  yelan is, similarly, worth considering.\n\n\n\n\n\n\n"
 description: Yelan National, featuring on-field Bennett.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: bennett
     con: 6
@@ -101,8 +101,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 72283.44461388959
+dps: 72006.14236174255
 mode: sl
-duration: 105.99999999999856
+duration: 106.14999999999958
 target_count: 1
 viewer_key: NRkUR_ZwvKP4wo9YmR7pi

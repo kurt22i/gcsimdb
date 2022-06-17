@@ -20,7 +20,7 @@ config: |+
   fischl add set="tenacityofthemillelith" count=4;
   fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=111 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=111.5 workers=30 mode=sl;
 
   target lvl=100 resist=0.1;
   energy every interval=480,720 amount=1;
@@ -34,7 +34,7 @@ config: |+
   yelan attack:3;
 
   albedo skill, attack:2;
-  yelan skill, attack, burst, attack:2;
+  yelan attack, skill, burst, attack;
   albedo skill, attack;
   fischl attack, burst;
   yoimiya skill, attack:5, dash, attack:5, dash, attack:5, dash, attack;
@@ -42,8 +42,16 @@ config: |+
   restart;
 
 
+
+
+
+
+
+
+
+
 description: Yoimiya Overvape with Yelan and crystallize shields.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: albedo
     con: 0
@@ -81,8 +89,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41769.91115069078
+dps: 42272.10511703949
 mode: sl
-duration: 111.00000000000108
+duration: 111.50000000000257
 target_count: 1
 viewer_key: GQEnrwUt-3tt1AQOFUI9A

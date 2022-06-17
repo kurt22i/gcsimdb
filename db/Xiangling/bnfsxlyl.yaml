@@ -1,0 +1,76 @@
+author: RoyM#2340
+config:
+  "#Configs\t\t\t\t\t\t\t\t\t\ntarget lvl=100 resist=0.1; #Default Res\t\t\t\t\t\t\t\t\t\nenergy
+  every interval=480,720 amount=1; #Approximated to Perpetual Mechanical Array\t\t\t\t\t\t\t\t\t\noptions
+  swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n#Chars
+  Builds\t\t\t\t\t\t\t\t\t\nyelan char lvl=90/90 cons=0 talent=9,9,9;\t\t\t\t\t\t\t\t\t\nyelan
+  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\t\t\t\t\t\t\t\t\t\nyelan add set=\"noblesseoblige\"
+  count=4;\t\t\t\t\t\t\t\t\t\nyelan add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466
+  cr=0.311; #main 5* set\t\t\t\t\t\t\t\t\t\nyelan add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944; #20 liquid
+  subs\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\nbennett char lvl=90/90 cons=6 talent=9,9,9;\t\t\t\t\t\t\t\t\t\nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\t\t\t\t\t\t\t\t\t\nbennett add
+  set=\"crimsonwitchofflames\" count=4;\t\t\t\t\t\t\t\t\t\nbennett add stats hp=4780
+  atk=311 em=187 pyro%=0.466 cr=0.311; #main 5* set\t\t\t\t\t\t\t\t\t\nbennett add
+  stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944; #20 liquid subs\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\nfischl
+  char lvl=90/90 cons=6 talent=9,9,9;\t\t\t\t\t\t\t\t\t\nfischl add weapon=\"fadingtwilight\"
+  refine=5 lvl=90/90;\t\t\t\t\t\t\t\nfischl add set=\"tenacityofthemillelith\" count=4;\t\t\t\t\t\t\t\t\t\nfischl
+  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311; #main 5* set\t\t\t\t\t\t\t\t\t\nfischl
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944; #20 liquid subs\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\nxiangling
+  char lvl=90/90 cons=6 talent=9,9,9;\t\t\t\t\t\t\t\t\t\nxiangling add weapon=\"wavebreakersfin\"
+  refine=1 lvl=90/90;\t\t\t\t\t\t\t\t\t\nxiangling add set=\"crimsonwitchofflames\"
+  count=4;\t\t\t\t\t\t\t\t\t\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466
+  cr=0.311; #main 5* set\t\t\t\t\t\t\t\t\t\nxiangling add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+  #20 liquid subs\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n#Rotation Duration = 25.8s
+  (x5 rotations)\t\t\t\t\t\t\t\t\t\nactive fischl;\nfischl skill;\nyelan skill,burst,attack;\nbennett
+  burst,attack,skill;\nxiangling attack,burst,attack,skill;\nbennett attack,skill;\nyelan
+  attack:2;\nbennett attack,skill;\nyelan attack,skill;\nbennett attack,skill;\nfischl
+  attack,burst;\nbennett attack,skill;\nyelan attack:2;\nbennett attack,skill;\nxiangling
+  attack:3,skill;\nbennett attack:3,skill;\nxiangling attack:4;\nfischl attack:2;\t\t\t\t\t\t\t\t\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: ""
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: fadingtwilight
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: wavebreakersfin
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 57170.74271558529
+mode: sl
+duration: 100.9999999999993
+target_count: 1
+viewer_key: ytsrL1nCTQnA8BqHQMn2Y

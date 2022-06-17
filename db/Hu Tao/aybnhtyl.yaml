@@ -1,0 +1,72 @@
+author: Xardas#5785
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\n\n\nkamisatoayaka
+  char lvl=90/90 cons=0 talent=9,9,9; \nkamisatoayaka add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nkamisatoayaka add set=\"emblemofseveredfate\" count=5;\nkamisatoayaka
+  add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nkamisatoayaka
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3857
+  em=39.64 cr=0.331 cd=0.5958 ;\n\t\t\t\nhutao char lvl=90/90 cons=0 talent=9,9,9;\nhutao
+  add weapon= \"deathmatch\" refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\"
+  count=4;\nhutao add stats hp=4780 atk=311 em=187 pyro%=0.466 cd=0.622;\nhutao add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.3972 cd=0.662 ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nbennett char
+  lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311 ; #main\nbennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944 ;\t\n\nyelan char lvl=90/90
+  cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan
+  add set=\"emblemofseveredfate\" count=4;\n#yelan add set=\"noblesseoblige\" count=4;\nyelan
+  add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats
+  def=39.36 def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944 ;\t\n\t\t\t\t\t\t\t\t\t\t\t\t\ntarget lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=0.1 cryo=0.1;\nenergy every interval=480,720
+  amount=1;\nactive bennett;\n\nbennett burst, attack, skill;\nkamisatoayaka dash,
+  attack, skill, attack, burst, attack;\nyelan burst, attack, skill;\nhutao skill,\n
+  \   attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump;\nyelan attack:2, skill, attack:4;\nrestart;\n\n\n\n\n\n"
+description: ""
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+team:
+  - name: ayaka
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.3857
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: hutao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 57525.20722223609
+mode: sl
+duration: 106.99999999999939
+target_count: 1
+viewer_key: GPW1iUsf081LujGyg25de
