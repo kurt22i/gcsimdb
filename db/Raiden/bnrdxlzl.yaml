@@ -14,16 +14,16 @@ config:
   ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett
   char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1
   lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
-  atk=311 pyro%=0.466 em=187 cr=0.311;\nbennett add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
+  atk=311 pyro%=0.466 atk%=0.466 cr=0.311;\nbennett add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
-  hp=4780 atk=311.0 em=187.0 cr=0.3110 pyro%=0.4660;\nxiangling add stats def=39.36
+  hp=4780 atk=311.0 atk%=0.466 cr=0.3110 pyro%=0.4660;\nxiangling add stats def=39.36
   def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
   cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nactive raiden;\nraiden
   attack, skill;\nzhongli attack, skill[hold=1];\nbennett burst, attack, skill, attack;\nxiangling
   burst,skill;\nbennett skill, attack;\nraiden burst,\n       attack:4, dash, attack:4,
-  dash, attack:4, dash, attack:3;\nbennett attack, skill;\nzhongli burst;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  dash, attack:4, dash, attack:3;\nbennett attack, skill;\nzhongli burst;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44070.19814566023
+dps: 44898.98218671251
 mode: sl
 duration: 105.35000000000113
 target_count: 1

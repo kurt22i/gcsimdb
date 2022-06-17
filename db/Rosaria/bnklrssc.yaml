@@ -1,12 +1,12 @@
-author: CPM#7653
+author: CPM#7653 and Toneiro-UmSiri#4291
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=101.8 workers=30
-  mode=sl;\nenergy every interval=480,720 amount=1;\n\nklee char lvl=90/90 cons=0
-  talent=9,9,9;\nklee add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nklee add set=\"lavawalker\"
-  count=4;\nklee add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311; #main\nklee
-  add stats hp=507.88 atk=33.08 def=39.36 hp%=0.0992 def%=0.1240 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
+  "options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;\nenergy
+  every interval=480,720 amount=1;\n\nklee char lvl=90/90 cons=0 talent=9,9,9;\nklee
+  add weapon=\"favoniuscodex\" refine=3 lvl=90/90;\nklee add set=\"lavawalker\" count=4;\nklee
+  add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311; #main\nklee add stats
+  hp=507.88 atk=33.08 def=39.36 hp%=0.0992 def%=0.1240 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add
+  weapon=\"thecatch\" refine=5 lvl=90/90;\nrosaria add set=\"emblemofseveredfate\"
   count=4;\nrosaria add stats hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311; #main\nrosaria
   add stats hp=507.88 atk=33.08 def=39.36 hp%=0.0992 def%=0.1240 atk%=0.0992 er=0.1102
   em=79.28 cr=0.331 cd=0.7944;\n\nsucrose char lvl=90/90 cons=6 talent=9,9,9;\nsucrose
@@ -18,26 +18,25 @@ config:
   count=4;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311; #main\nbennett
   add stats hp=507.88 atk=33.08 def=39.36 hp%=0.0992 def%=0.1240 atk%=0.0992 er=0.3857
   em=39.64 cr=0.331 cd=0.5958;\n\n\ntarget lvl=100 resist=0.1;\n\nactive rosaria;\n\nrosaria
-  skill, attack:2;\nsucrose skill;\nbennett burst, skill;\nrosaria burst, attack:2,
+  skill, attack:2;\nsucrose skill, burst;\nbennett burst, skill;\nrosaria burst, attack:2,
   skill;\nsucrose skill, dash, attack;\nklee burst, attack, skill[bounce=3, mine=8],
   \n     attack, charge,\n     attack, skill[bounce=3, mine=8],\n     attack, charge,\n
-  \    attack, charge;\nsucrose attack;\n\nrosaria skill, attack;\nsucrose attack,
-  charge;\nbennett burst, attack, skill;\nrosaria burst, attack:2, skill;\nsucrose
-  skill, dash, attack;\nklee burst, attack, skill[bounce=3, mine=8],\n     attack,
-  charge,\n     attack, charge,\n     attack, charge,\n     attack, charge;\nbennett
+  \    attack;\nsucrose attack;\n\nrosaria skill, attack;\nsucrose attack, charge;\nbennett
+  burst, attack, skill;\nrosaria burst, attack:2, skill;\nsucrose skill, dash, attack;\nklee
+  burst, attack, skill[bounce=3, mine=8],\n     attack, charge,\n     attack, charge,\n
+  \    attack, charge,\n     attack;\nbennett attack, skill;\nsucrose attack, charge;\n\nrosaria
+  skill, attack;\nsucrose attack, charge, burst;\nbennett burst, attack, skill;\nrosaria
+  burst, attack:2, skill;\nsucrose skill, dash, attack;\nklee burst, attack, skill[bounce=3,
+  mine=8],\n     attack, charge,\n     attack, charge,\n     attack, charge,\n     attack;\nbennett
   attack, skill;\nsucrose attack, charge;\n\nrosaria skill, attack;\nsucrose attack,
   charge;\nbennett burst, attack, skill;\nrosaria burst, attack:2, skill;\nsucrose
   skill, dash, attack;\nklee burst, attack, skill[bounce=3, mine=8],\n     attack,
-  charge,\n     attack, charge,\n     attack, charge,\n     attack, charge;\nbennett
-  attack, skill;\nsucrose attack, charge;\n\nrosaria skill, attack;\nsucrose attack,
-  charge;\nbennett burst, attack, skill;\nrosaria burst, attack:2, skill;\nsucrose
+  charge,\n     attack, charge,\n     attack, charge,\n     attack;\nbennett attack,
+  skill;\nsucrose attack, charge;\n\nrosaria skill, attack;\nsucrose attack, charge,
+  burst;\nbennett burst, attack, skill;\nrosaria burst, attack:2, skill;\nsucrose
   skill, dash, attack;\nklee burst, attack, skill[bounce=3, mine=8],\n     attack,
-  charge,\n     attack, charge,\n     attack, charge,\n     attack, charge;\nbennett
-  attack, skill;\nsucrose attack, charge;\n\nrosaria skill, attack;\nsucrose attack,
-  charge;\nbennett burst, attack, skill;\nrosaria burst, attack:2, skill;\nsucrose
-  skill, dash, attack;\nklee burst, attack, skill[bounce=3, mine=8],\n     attack,
-  charge,\n     attack, charge,\n     attack, charge,\n     attack, charge;\nbennett
-  attack, skill;\nsucrose attack, charge;\n"
+  charge,\n     attack, charge,\n     attack, charge,\n     attack;\nbennett attack,
+  skill;\nsucrose attack, charge;\n\n\n"
 description: Reverse Melt Rosaria with Klee and Sucrose.
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
@@ -77,8 +76,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35407.08457552832
+dps: 36878.247838467054
 mode: sl
-duration: 101.79999999999828
+duration: 102.00000000000051
 target_count: 1
 viewer_key: SHFf0v3FZMUdqgbtQK9T_

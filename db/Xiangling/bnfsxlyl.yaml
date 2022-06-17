@@ -27,9 +27,9 @@ config:
   #20 liquid subs\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n#Rotation Duration = 25.8s
   (x5 rotations)\t\t\t\t\t\t\t\t\t\nactive fischl;\nfischl skill;\nyelan skill,burst,attack;\nbennett
   burst,attack,skill;\nxiangling attack,burst,attack,skill;\nbennett attack,skill;\nyelan
-  attack:2;\nbennett attack,skill;\nyelan attack,skill;\nbennett attack,skill;\nfischl
-  attack,burst;\nbennett attack,skill;\nyelan attack:2;\nbennett attack,skill;\nxiangling
-  attack:3,skill;\nbennett attack:3,skill;\nxiangling attack:4;\nfischl attack:2;\t\t\t\t\t\t\t\t\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack:2;\nbennett attack,skill;\nyelan skill;\nbennett attack,skill;\nfischl attack,burst;\nbennett
+  attack,skill;\nyelan attack:2;\nbennett attack,skill;\nxiangling attack:3,skill;\nbennett
+  attack:3,skill;\nxiangling attack:4;\nfischl attack:2;\t\t\t\t\t\t\t\t\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 57170.74271558529
+dps: 58842.64794208967
 mode: sl
 duration: 100.9999999999993
 target_count: 1
