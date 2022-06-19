@@ -28,9 +28,9 @@ config:
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1653
   em=59.46 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nactive
   raiden;\n\nraiden attack,skill;\nyelan burst;\nbennett burst,attack, skill;\nxiangling
-  attack, burst, attack:2, skill;\nwait 1;\nyelan attack,skill;\nraiden  attack, burst,\n
-  \      attack:4, dash, attack:4, dash, attack:4, dash, attack:4;  \nwait 1;               \nyelan
-  attack, skill, attack:2;\nbennett attack, skill;\nrestart;\n\n\n\n\n\n\n"
+  attack, burst, attack:2, skill;\n\nyelan attack,skill;\nraiden  attack, burst,\n
+  \      attack:4, dash, attack:4, dash, attack:4, dash, attack:4;  \n              \nyelan
+  attack, skill, attack:2;\nbennett attack, skill;\nrestart;\n\n\n\n\n\n\n\n"
 description: Xiangling Overvape with Yelan.
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
@@ -70,7 +70,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 67095.61306462754
+dps: 67488.12362941803
 mode: sl
 duration: 105.00000000000071
 target_count: 1

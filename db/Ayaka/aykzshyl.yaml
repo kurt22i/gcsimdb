@@ -13,11 +13,11 @@ config:
   add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\"
   count=4;\nshenhe add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=1.329
   er=0.2204 em=39.64 cr=0.6420 cd=0.3972;\n\noptions swap_delay=12 debug=true iteration=1000
-  duration=91.3 workers=30 mode=sl;\n\nenergy every interval=480,720 amount=1;\ntarget
-  lvl=100 resist=0.1;\n\nactive ayaka;\nayaka dash, attack, skill, attack:2;\nshenhe
-  burst,skill;\nyelan  skill, burst;\nkazuha attack, skill, high_plunge, attack, burst;
+  duration=90.3 workers=30 mode=sl;\n\nenergy every interval=480,720 amount=1;\ntarget
+  lvl=100 resist=0.1;\n\nactive ayaka;\nayaka dash, attack, skill, attack;\nshenhe
+  burst,skill;\nyelan skill, burst;\nkazuha attack, skill, high_plunge, attack, burst;
   \nayaka dash,attack,skill,attack,burst;\nshenhe attack,skill;\nyelan attack, skill;\nayaka
-  dash,attack:3,charge,\n      dash, attack:3,charge;\nkazuha attack, skill, high_plunge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  dash,attack:3,charge,\n      dash, attack:3,charge;\nkazuha attack, skill, high_plunge;\nrestart;\n\n\n\n\n"
 description: Ayalan Freeze Hyper offensive.
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
@@ -57,8 +57,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 57671.93815374183
+dps: 57842.088314418426
 mode: sl
-duration: 91.30000000000018
+duration: 90.29999999999924
 target_count: 1
 viewer_key: -nHgVf5iXBepw08WFvCbi
