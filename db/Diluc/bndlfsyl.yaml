@@ -24,8 +24,8 @@ config:
   skill, attack, skill, attack, skill, attack, burst;\nyelan skill, burst, charge,
   attack;\nbennett skill, attack, burst;\nfischl attack:1, burst;\ndiluc attack, skill,
   attack:2, skill, attack:2, skill, attack, dash,\n      attack:3, dash,\n      attack:3,
-  dash,\n      attack, skill, attack, skill, attack, skill, attack, burst;\n\n\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-description: TF Diluc with Yelan.
+  dash,\n      attack, skill, attack, skill, attack, skill, attack, burst;\n\n\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: Diluc Overvape with Yelan.
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: bennett
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48692.67595347913
+dps: 48661.85846707311
 mode: sl
 duration: 105.99999999999856
 target_count: 1
