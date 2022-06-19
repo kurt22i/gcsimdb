@@ -8,7 +8,7 @@ config:
   cd=0.662;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\"
   refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats
   hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nyelan add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3304 em=39.64 cr=0.331
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3301 em=39.64 cr=0.331
   cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
   refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
@@ -17,16 +17,16 @@ config:
   add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=4;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
-  em=39.64 cr=0.331 cd=0.5296;\n\nactive yelan;\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\nyelan skill, burst, attack;\nbennett skill, attack,
-  burst;\nfischl attack:1, skill;\ndiluc attack, skill, attack:2, skill, attack:2,
+  em=39.64 cr=0.2648 cd=0.662;\n\nactive yelan;\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\nyelan skill, burst, charge, attack;\nbennett skill,
+  attack, burst;\nfischl attack:1, skill;\ndiluc attack, skill, attack:2, skill, attack:2,
   skill, attack, dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack,
-  skill, attack, skill, attack, skill, attack, burst;\nyelan skill, burst, attack;\nbennett
-  skill, attack, burst;\nfischl attack:1, burst;\ndiluc attack, skill, attack:2, skill,
-  attack:2, skill, attack, dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack,
-  skill, attack, skill, attack, skill, attack, burst;\n\n\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill, attack, skill, attack, skill, attack, burst;\nyelan skill, burst, charge,
+  attack;\nbennett skill, attack, burst;\nfischl attack:1, burst;\ndiluc attack, skill,
+  attack:2, skill, attack:2, skill, attack, dash,\n      attack:3, dash,\n      attack:3,
+  dash,\n      attack, skill, attack, skill, attack, skill, attack, burst;\n\n\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: TF Diluc with Yelan.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: bennett
     con: 6
@@ -59,12 +59,12 @@ team:
     con: 0
     weapon: favoniuswarbow
     refine: 3
-    er: 0.8484
+    er: 0.8481000000000001
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 46708.79450398976
+dps: 48692.67595347913
 mode: sl
 duration: 105.99999999999856
 target_count: 1

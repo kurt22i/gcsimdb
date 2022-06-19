@@ -8,23 +8,22 @@ config:
   count=4;\nyelan add stats def%=0.1240 def=39.36 hp=5288 hp%=0.6644 atk=344.1 atk%=0.09920
   er=0.1102 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;\n\nsucrose char lvl=90/90
   cons=6 talent=9,9,9;\nsucrose add weapon=\"thrillingtalesofdragonslayers\" refine=5
-  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add stats hp=4780
-  atk=311 em=559.5 ; #main\nsucrose add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.496 er=0.1102 em=118.92 cr=0.331 cd=0.1324 ;\n\ndiona char lvl=90/90
-  cons=6 talent=9,9,9;\ndiona add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ndiona
-  add set=\"noblesseoblige\" count=4;\ndiona add stats def%=0.1240 def=39.36 hp=5288
-  hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 cryo%=0.4660;\n\noptions
-  swap_delay=12 debug=true iteration=1000 duration=130.1 workers=30 mode=sl;\n\nenergy
-  every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nactive ayaka;\nayaka
-  dash, attack, skill, attack:3, charge;\ndiona skill, burst;\nyelan  attack,skill,
-  burst, attack;\nsucrose attack, skill, jump, burst; \nayaka dash,attack:2,skill,attack,burst,
-  attack:2;\ndiona skill, attack;\nyelan skill, attack;\nsucrose attack:2;\nayaka
+  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add stats def%=0.1240
+  def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.4960 er=0.1102 em=678.4 cr=0.3310
+  cd=0.1324;\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\" count=4;\nshenhe add stats
+  def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=1.696 er=0.4408 em=39.64
+  cr=0.3972 cd=0.1324;\n\noptions swap_delay=12 debug=true iteration=1000 duration=91.6
+  workers=30 mode=sl;\n\nenergy every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\nactive
+  ayaka;\nayaka dash, attack, skill, attack:3, charge;\nshenhe skill, burst;\nyelan
+  \ attack,skill, burst, attack;\nsucrose attack, skill, jump, burst; \nayaka dash,attack:2,skill,attack,burst,
+  attack:2;\nshenhe skill, attack;\nyelan skill, attack;\nsucrose attack:2;\nayaka
   dash,attack:3,charge,\n      dash, attack:2,charge;\n      \nayaka dash, attack,
-  skill, attack:3, charge;\ndiona skill, burst;\nyelan  attack, skill, burst, attack;\nsucrose
-  attack, skill, jump, attack; \nayaka dash,attack:2,skill,attack,burst, attack:2;\ndiona
+  skill, attack:3, charge;\nshenhe skill, burst;\nyelan  attack, skill, burst, attack;\nsucrose
+  attack, skill, jump, attack; \nayaka dash,attack:2,skill,attack,burst, attack:2;\nshenhe
   skill, attack;\nyelan skill, attack;\nsucrose attack:2;\nayaka dash,attack:3,charge,\n
-  \     dash, attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-description: Ayalan Freeze with Sucrose.
+  \     dash, attack:2,charge;\nrestart;\n\n\n\n\n\n\n\n"
+description: Ayalan Freeze Hyper offensive with Sucrose.
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: ayaka
@@ -36,11 +35,11 @@ team:
       attack: 9
       skill: 9
       burst: 9
-  - name: diona
-    con: 6
-    weapon: favoniuswarbow
+  - name: shenhe
+    con: 0
+    weapon: favoniuslance
     refine: 3
-    er: 0.1102
+    er: 0.4408
     talents:
       attack: 9
       skill: 9
@@ -63,8 +62,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44599.36317763282
+dps: 51789.68946365535
 mode: sl
-duration: 130.09999999999897
+duration: 91.59999999999971
 target_count: 1
-viewer_key: f9m3s6y-zKHo9DVyWNobP
+viewer_key: T63AIZ1FY65iMTG5QdHh3

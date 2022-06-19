@@ -1,35 +1,36 @@
-author: Eves#6666 and Rare Possum#0511
+author: Eves#6666, Rare Possum#0511 and Charliex3000#9403
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=107 workers=30 mode=sl;\nkazuha
-  char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
-  atk=311 em=187 em=187 em=187;\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324;\n\nbennett char lvl=90/90
-  cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
-  add set=\"theexile\" count=4;\nbennett add stats hp=3571 atk=232 er=0.518 cr=0.232
-  pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.5952 er=0.1102 em=79.28 cr=0.0662 cd=0.1324;\n\ndiluc char lvl=90/90
-  cons=0 talent=9,9,9; \ndiluc add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\ndiluc
-  add set=\"crimsonwitchofflames\" count=4;\ndiluc add stats hp=4780 atk=311 em=187
-  pyro%=0.466 cd=0.622 ; #main\ndiluc add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nxingqiu char lvl=90/90
-  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
-  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
-  cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n# ----
-  \ Default Enemy\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#
-  ----  Actions List\n\nactive xingqiu;\nxingqiu skill, burst, attack;\nkazuha burst,
-  attack;\nbennett skill, attack, burst, attack;\nkazuha attack:2, skill[hold=1],
-  high_plunge, attack;\ndiluc burst, attack, skill, attack:2, skill, attack:2, skill,
-  attack:3;\nbennett attack,skill,attack;\nkazuha attack, skill, high_plunge,attack;\nrestart;\n\n"
+  "options swap_delay=12 debug=true iteration=1000 duration=105.6 workers=30
+  mode=sl;\n\ndiluc char lvl=90/90 cons=0 talent=9,9,9;\ndiluc add weapon= \"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=5];\ndiluc add set=\"crimsonwitchofflames\" count=4;\ndiluc
+  add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cd=0.622;\ndiluc add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
+  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
+  stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add
+  stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\nkazuha add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324
+  ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nbennett
+  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
+  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780
+  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats hp%=0.0992 hp=507.88
+  atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=39.64 cr=0.331 cd=0.3972 er=0.551
+  ; #subs\n\ntarget lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive
+  xingqiu;\n\nxingqiu burst, attack, skill, attack:2;\nkazuha attack, burst;\nbennett
+  attack, skill, attack, burst, attack;\nkazuha skill[hold=1], high_plunge, attack;\ndiluc
+  skill,\n      attack:2, skill,\n      attack, skill,\n      attack:4, dash,\n      attack:4;\nkazuha
+  skill, high_plunge, attack, dash;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Vape Diluc.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: bennett
     con: 6
     weapon: thealleyflash
     refine: 1
-    er: 0.6282
+    er: 1.069
     talents:
       attack: 9
       skill: 9
@@ -61,8 +62,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 39128.461259688585
+dps: 44098.019100014804
 mode: sl
-duration: 106.99999999999939
+duration: 105.59999999999891
 target_count: 1
 viewer_key: Wo0MrJqVTravyqiTKeNpt

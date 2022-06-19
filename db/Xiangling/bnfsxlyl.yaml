@@ -24,11 +24,12 @@ config:
   add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311; #main 5* set\t\t\t\t\t\t\t\t\t\nxiangling
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.331 cd=0.7944; #20 liquid subs\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n#Rotation
-  Duration = 25.8s (x5 rotations)\t\t\t\t\t\t\t\t\t\nactive fischl;\nfischl skill;\nyelan
-  skill,burst,attack;\nbennett burst,attack,skill;\nxiangling attack,burst,attack,skill;\nbennett
+  Duration = 25.8s (x5 rotations)\t\t\t\t\t\t\t\t\t\nactive fischl;\nfischl skill,attack;\nyelan
+  attack,burst,attack;\nbennett burst,attack,skill;\nxiangling attack,burst,attack,skill;\nbennett
   attack,skill;\nyelan attack:2;\nbennett attack,skill;\nyelan skill;\nbennett attack,skill;\nfischl
-  attack,burst;\nbennett attack,skill;\nyelan attack:2;\nbennett attack,skill;\nxiangling
-  attack:3,skill;\nbennett attack:3,skill;\nxiangling attack:4;\nfischl attack:2;\t\t\t\t\t\t\t\t\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack,burst;\nbennett attack,skill;\nyelan attack:2;\nbennett attack,skill,attack;\nxiangling
+  attack:3,skill;\nbennett attack:3,skill;\nyelan skill;\nxiangling attack:3;\nfischl
+  attack:2;\t\t\t\t\t\t\t\t\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
@@ -68,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 60365.12239024491
+dps: 62366.1516524592
 mode: sl
 duration: 201.9999999999986
 target_count: 1

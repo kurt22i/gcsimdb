@@ -21,7 +21,7 @@ config: |+
   fischl add set="thunderingfury" count=2;
   fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=128 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=127.9 workers=30 mode=sl;
 
   target lvl=100 resist=0.1;
   energy every interval=480,720 amount=1;
@@ -50,8 +50,11 @@ config: |+
 
 
 
+
+
+
 description: Yoimiya Overvape with shielding.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: fischl
     con: 6
@@ -89,8 +92,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41130.16057276872
+dps: 41221.330442174694
 mode: sl
-duration: 128.00000000000009
+duration: 127.89999999999768
 target_count: 1
 viewer_key: wuW6EVCd_VTSYG0mzPhpn

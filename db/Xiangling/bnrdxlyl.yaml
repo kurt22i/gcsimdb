@@ -1,4 +1,4 @@
-author: Lettuce Hunt#5806
+author: Lettuce Hunt#5806 and Juampi65#5084
 config:
   "\noptions swap_delay=12 debug=true iteration=1000 duration=105.01 workers=30
   mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nraiden
@@ -27,12 +27,12 @@ config:
   count=4;\nxiangling add stats hp=4780 atk=311.0 em=187 cr=0.311 pyro%=0.4660;\nxiangling
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1653
   em=59.46 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nactive
-  raiden;\n\nraiden attack, skill;\nyelan burst, attack;\nbennett burst, attack, skill;\nxiangling
-  attack, burst, attack, skill, dash;\nyelan attack, skill;\nraiden attack, burst,\n
-  \      attack:4, dash, attack:4, dash, attack:4, dash, attack:4;\nwait 2;           \nyelan
-  attack, skill, attack:3;\nbennett attack, skill;\nrestart;\n\n\n\n\n"
+  raiden;\n\nraiden attack,skill;\nyelan burst;\nbennett burst,attack, skill;\nxiangling
+  attack, burst, attack:2, skill;\nwait 1;\nyelan attack,skill;\nraiden  attack, burst,\n
+  \      attack:4, dash, attack:4, dash, attack:4, dash, attack:4;  \nwait 1;               \nyelan
+  attack, skill, attack:2;\nbennett attack, skill;\nrestart;\n\n\n\n\n\n\n"
 description: Xiangling Overvape with Yelan.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: be5c9954e3826485b931e7e07953d6a64dd804ed
 team:
   - name: bennett
     con: 6
@@ -70,7 +70,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 63684.43751977546
+dps: 67095.61306462754
 mode: sl
 duration: 105.00000000000071
 target_count: 1
