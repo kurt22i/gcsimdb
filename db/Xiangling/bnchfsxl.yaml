@@ -1,10 +1,10 @@
 author: Charliex3000#9403, solo#3333 and RoyM#2340
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=102.5 workers=30
-  mode=sl;\n\ntartaglia char lvl=90/90 cons=0 talent=9,9,9; \ntartaglia add weapon=\"theviridescenthunt\"
+  "options swap_delay=12 debug=true iteration=1000 duration=104 workers=30 mode=sl;\n\ntartaglia
+  char lvl=90/90 cons=0 talent=9,9,9; \ntartaglia add weapon=\"theviridescenthunt\"
   refine=1 lvl=90/90;\ntartaglia add set=\"heartofdepth\" count=4;\ntartaglia add
   stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cd=0.622 ; #main\ntartaglia add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
   cr=0.3972 cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
   refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
   add stats hp=4780 atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nfischl add stats
@@ -18,11 +18,11 @@ config:
   count=5;\nbennett add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
   em=39.64 cr=0.331 cd=0.662;\n\nactive bennett;\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\n\n\n\nbennett skill,burst;\nfischl attack:2, skill;\nxiangling
-  burst,skill;\ntartaglia burst, skill,\n          attack:5, dash,\n          attack:5,
-  dash,\n          attack:4;\nfischl  attack:2,burst;\nbennett attack,skill,attack;\nxiangling
-  attack:3, skill;\ntartaglia aim;\nbennett skill;\nxiangling attack:3;\ntartaglia
-  aim:2;\nbennett attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  every interval=480,720 amount=1;\n\ntartaglia skill;\nbennett attack,skill,burst;\nfischl
+  attack:2, skill;\nxiangling burst,skill;\ntartaglia burst, skill,\n          attack:5,
+  dash,\n          attack:5, dash,\n          attack:4;\nfischl  attack:2,burst;\nbennett
+  attack,skill,attack;\nxiangling attack:3, skill;\ntartaglia aim;\nbennett skill;\nxiangling
+  attack:3;\ntartaglia aim:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Childe with Fischl, a Childe team that also excels at ST.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -48,7 +48,7 @@ team:
     con: 0
     weapon: theviridescenthunt
     refine: 1
-    er: 0.2204
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -62,8 +62,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48194.00839825377
+dps: 48437.753476554215
 mode: sl
-duration: 102.50000000000189
+duration: 103.99999999999928
 target_count: 1
 viewer_key: WZ1-hGERefcisYogBs0Lt

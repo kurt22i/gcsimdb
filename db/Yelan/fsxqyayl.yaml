@@ -1,68 +1,47 @@
-author: CPM#7653 and RoyM#2340
+author: CPM#7653, RoyM#2340 and Rare Possum#0511
 config: |+
   xingqiu char lvl=90/90 cons=6 talent=9,9,9;
   xingqiu add weapon="lionsroar" refine=3 lvl=90/90;
   xingqiu add set="emblemofseveredfate" count=4;
-  xingqiu add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.5652 er=0.2204 em=39.64 cr=0.6420 cd=0.7944 hydro%=0.4660;
+  xingqiu add stats hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466;
+  xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
 
   yelan char lvl=90/90 cons=0 talent=9,9,9;
   yelan add weapon="slingshot" refine=5 lvl=90/90;
   yelan add set="thundersoother" count=4;
-  yelan add stats def%=0.1240 def=39.36 hp=5288 hp%=0.5652 atk=344.1 atk%=0.09920 er=0.2204 em=39.64 cr=0.3972 cd=1.284 hydro%=0.4660;
+  yelan add stats hp=4780 atk=311 hp%=0.466 cd=0.622 hydro%=0.466;
+  yelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3972 cd=0.662;
 
   fischl char lvl=90/90 cons=6 talent=9,9,9;
   fischl add weapon="thestringless" refine=3 lvl=90/90;
-  fischl add set="shimenawasreminiscence" count=2;
-  fischl add set="thunderingfury" count=2;
-  fischl add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
+  fischl add set="tenacityofthemillelith" count=4;
+  fischl add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466;
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
   yaemiko char lvl=90/90 cons=0 talent=9,9,9;
-  yaemiko add weapon="thewidsith" refine=3 lvl=90/90;
-  yaemiko add set="tenacityofthemillelith" count=4;
-  yaemiko add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102 em=39.64 cr=0.6420 cd=0.7944 electro%=0.4660;
+  yaemiko add weapon="hakushinring" refine=5 lvl=90/90;
+  yaemiko add set="thundersoother" count=4;
+  yaemiko add stats hp=4780 atk=311 atk%=0.466 cr=0.311 electro%=0.466;
+  yaemiko add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
 
-  options debug=true iteration=1000 duration=102 mode=sl;
+  options debug=true iteration=1000 duration=150 mode=sl;
   target lvl=100 resist=.1;
   energy every interval=480,720 amount=1;
 
   #Action List:
 
-  active yelan;
+  active yaemiko;
 
   yaemiko skill:3;
   fischl attack, skill;
   xingqiu burst, attack:2;
-  yelan attack, skill, attack, burst;
-  xingqiu attack,skill, attack:2;
-  yelan attack:4,dash,attack:4;
-  fischl attack:3, burst;
-  yaemiko attack, skill:3, attack;
-  yelan attack:4, skill,attack:4,dash,attack:4,dash,attack:2;
-  yaemiko burst;
-
-  yaemiko skill:3;
-  fischl attack, skill;
-  xingqiu burst, attack:2;
-  yelan attack, skill, attack, burst;
-  xingqiu attack,skill, attack:2;
-  yelan attack:4,dash,attack:4;
-  fischl attack:3, burst;
-  yaemiko attack, skill:3, attack;
-  yelan attack:4, skill,attack:4,dash,attack:4,dash,attack:2;
-  yaemiko attack;
-
+  yelan attack, burst, attack, skill, attack;
+  xingqiu attack, skill, attack;
+  yelan attack:4;
+  yaemiko attack, burst, attack, skill, attack, skill, attack, skill, attack;
+  fischl attack, burst;
+  yelan attack, skill, attack:4, dash, attack:4, dash, attack:4, dash, attack:3;
   restart;
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -89,9 +68,9 @@ team:
       burst: 9
   - name: yaemiko
     con: 0
-    weapon: thewidsith
-    refine: 3
-    er: 0.1102
+    weapon: hakushinring
+    refine: 5
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
@@ -105,8 +84,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47796.29974889554
+dps: 48833.66275246835
 mode: sl
-duration: 102.00000000000051
+duration: 150.0000000000028
 target_count: 1
 viewer_key: SQamtd0cv6E_5e47BqPnH

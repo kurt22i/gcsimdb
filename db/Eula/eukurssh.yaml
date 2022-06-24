@@ -1,26 +1,26 @@
-author: Juampi65#5084 and RoyM#2340
+author: Juampi65#5084, RoyM#2340 and Lizz71#8986
 config:
-  "eula char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\"
-  refine=1 lvl=90/90 +params=[stacks=5];\neula add set=\"paleflame\" count=4;\neula
+  "options swap_delay=12 debug=true iteration=1000 duration=117.5 workers=30
+  mode=sl;\n\neula char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=0];\neula add set=\"paleflame\" count=4;\neula
   add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622 ; #main\neula add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
-  cr=0.3972 cd=0.5296;\n\nkuki char lvl=90/90 cons=6 talent=9,9,9;\nkuki add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nkuki add set=\"tenacityofthemillelith\" count=4;\nkuki add
-  stats hp=4780 atk=311 hp%=0.466 electro%=0.466 cr=0.311; #main\nkuki add stats def%=0.1240
-  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"favoniuslance\"
-  refine=3 lvl=90/90;\nrosaria add set=\"blizzardstrayer\" count=2;\nrosaria add set=\"gladiatorsfinale\"
-  count=2;\nrosaria add stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08
-  atk%=0.6644 er=0.1102 em=39.64 cr=0.642 cd=0.7944 cryo%=0.466;\n\nshenhe char lvl=90/90
-  cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe
-  add set=\"noblesseoblige\" count=4;\nshenhe add stats def%=0.124 def=39.36 hp=5287.88
-  hp%=0.0992 atk=344.08 atk%=1.3288 er=0.2204 em=39.64 cr=0.642 cd=0.3972;\n\ntarget
-  lvl=100 resist=0.1; \nenergy every interval=480,720 amount=1; #Approximated to Perpetual
-  Mechanical Array\noptions swap_delay=12 debug=true iteration=1000 duration=99.7
-  workers=30 mode=sl;\n\n#rotation\n\nactive kuki;\n\nkuki skill, attack;\nshenhe
-  skill, burst, attack;\nrosaria skill,burst,attack;\neula skill, burst, attack:4,
-  skill[hold=1], attack:4, dash, attack:2;\nshenhe skill;\nrosaria skill;\neula skill,
-  attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64
+  cr=0.3972 cd=0.662;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9; \nrosaria add
+  weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria add set=\"noblesseoblige\"
+  count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311 ; #main\nrosaria
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nkuki char lvl=90/90 cons=6 talent=9,9,9;\nkuki add
+  weapon=\"favoniussword\" refine=3 lvl=90/90;\nkuki add set=\"tenacityofthemillelith\"
+  count=4;\nkuki add stats hp=4780 atk=311 hp%=0.466 hp%=0.466 cr=0.311; #main 5*
+  set\nkuki add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.3306 em=39.64 cr=0.331 cd=0.662; #20 liquid subs\n\nshenhe char lvl=90/90 cons=0
+  talent=9,9,9; \nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe
+  add set=\"blizzardstrayer\" count=4;\nshenhe add stats hp=4780 atk=311 atk%=1.398
+  ; #main\nshenhe add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976
+  er=0.3306 em=39.64 cr=0.3972 cd=0.2648;\n\nactive kuki;\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\nkuki skill;\nrosaria attack, skill, attack;\neula
+  skill, attack;\nwait 2;\nshenhe burst,skill;\nrosaria burst;\neula burst,attack:4,skill[hold=1],attack:4;\nshenhe
+  skill,attack;\neula attack:2;\nrosaria skill;\neula attack:4;\nkuki burst;\nrestart;\n\n\n\n\n\n\n\n\n\n\n"
 description: Eula with Kuki.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -28,7 +28,7 @@ team:
     con: 0
     weapon: serpentspine
     refine: 1
-    er: 0.3306
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
@@ -37,7 +37,7 @@ team:
     con: 6
     weapon: favoniussword
     refine: 3
-    er: 0.1102
+    er: 0.3306
     talents:
       attack: 9
       skill: 9
@@ -46,7 +46,7 @@ team:
     con: 6
     weapon: favoniuslance
     refine: 3
-    er: 0.1102
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
@@ -55,13 +55,13 @@ team:
     con: 0
     weapon: favoniuslance
     refine: 3
-    er: 0.2204
+    er: 0.3306
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 34534.94690727966
+dps: 39735.45762138055
 mode: sl
-duration: 99.69999999999884
+duration: 117.50000000000297
 target_count: 1
 viewer_key: ptqKEAZKO9RkairiZHy8J

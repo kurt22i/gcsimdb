@@ -12,7 +12,7 @@ config:
   talent=9,9,9;\nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu add
   set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
   hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def=39.36 def%=0.124 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\njean
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\n\njean
   char lvl=90/90 cons=0 talent=6,8,8;\njean add weapon=\"favoniussword\" refine=3
   lvl=90/90;\njean add set=\"viridescentvenerer\" count=4;\njean add stats hp=4780
   atk=311 atk%=0.466 anemo%=0.466 cr=0.311 ; #main\njean add stats def=39.36 def%=0.124
@@ -22,7 +22,7 @@ config:
   attack, skill;\nxingqiu burst, attack, skill, dash, attack;\nyelan burst, attack;\n\njean
   skill, attack, burst;\nyelan attack, skill;\nraiden burst,\n       attack:4, dash,\n\t
   \  attack:4, dash,\n\t   attack:4, dash,\n\t   attack:2, charge;\nyelan attack,
-  skill;\njean attack:3, skill;\n\nrestart;\n\n\n\n\n\n"
+  skill;\njean attack:3, skill;\n\nrestart;\n\n\n\n\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -48,7 +48,7 @@ team:
     con: 6
     weapon: lionsroar
     refine: 3
-    er: 0.2204
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53340.45099614335
+dps: 53646.2550154125
 mode: sl
 duration: 105.99999999999856
 target_count: 1
