@@ -1,0 +1,69 @@
+author: Lizz71#8986
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=106.8 workers=30
+  mode=sl;\n\nraidenshogun char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add
+  weapon=\"thecatch\" refine=5 lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\"
+  count=4;\nraidenshogun add stats hp=4780 atk=311 atk%=0.466 atk%=0.466 cr=0.311
+  ; #main\nraidenshogun add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nkuki char lvl=90/90 cons=6
+  talent=9,9,9;\nkuki add weapon=\"ironsting\" refine=5 lvl=90/90;\nkuki add set=\"tenacityofthemillelith\"
+  count=4;\nkuki add stats hp=4780 atk=311 em=187 em=187 em=187; #main 5* set\nkuki
+  add stats def=39.36 def%=0.124 hp=2031.52 hp%=0.5952 atk=33.08 atk%=0.0992 er=0.1102
+  em=118.92 cr=0.0662 cd=0.1324 ;\t\t\t\t\t\t\t\t\t\t\n\nyelan char lvl=90/90 cons=0
+  talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan add
+  set=\"emblemofseveredfate\" count=4;\nyelan add stats hp=4780 atk=311 hp%=0.466
+  hydro%=0.466 cr=0.311 ; #main\nyelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984
+  atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90
+  cons=6 talent=9,9,9; \nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1988 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nactive
+  raiden;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nkuki skill;\nraiden
+  skill;\nxingqiu burst, attack, skill, attack;\nyelan burst;\nyelan attack,skill,
+  attack;\nraiden burst, attack:4, dash, attack:4, dash, attack:5, attack:3;\nyelan
+  attack,skill,attack:4;\nyelan attack:2;\nrestart;\n\n\n\n\n\n\n\n"
+description: Double Hydro Raiden EC.
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: kuki
+    con: 6
+    weapon: ironsting
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: lionsroar
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 44594.38065941429
+mode: sl
+duration: 106.80000000000264
+target_count: 1
+viewer_key: 0So_A_lGaGbszy395EhkE

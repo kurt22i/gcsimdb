@@ -1,45 +1,37 @@
-author: Rare Possum#0511 and Veggie#0581
+author: Rare Possum#0511, Veggie#0581 and Raikh / Valien#8564
 config:
-  "options debug=true iteration=1000 duration=120 workers=30 swap_delay=12 mode=sl;
-  \nraiden char lvl=90/90 cons=0 talent=9,9,9; \nraiden add weapon=\"thecatch\" refine=5
-  lvl=90/90;\nraiden add set=\"emblemofseveredfate\" count=5;\nraiden add stats hp=4780
-  atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nraiden add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\n\nyaemiko char lvl=90/90 cons=0 talent=9,9,9; \nyaemiko add weapon=\"thewidsith\"
-  refine=3 lvl=90/90;\nyaemiko add set=\"tenacityofthemillelith\" count=5;\nyaemiko
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nyaemiko add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9; \nkazuha
-  add weapon=\"ironsting\" refine=5 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
-  count=5;\nkazuha add stats hp=4780 atk=311 em=561 ; #main\nkazuha add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=118.92 cr=0.2648
-  cd=0.1324;\n\n\nbennett char lvl=90/90 cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
-  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.2648
-  cd=0.5296 ;\t\t\t\t\t\t\t\t\t\t\n\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
-  amount=1;\n\nactive raiden;\n\nyaemiko skill:3;\nraiden skill;\nkazuha skill[hold=1],high_plunge,
-  attack:2;\nbennett skill,burst;\nyaemiko burst, skill:3;\nkazuha burst;\nraiden
-  burst, attack:3, charge, attack:3, charge, attack:3, charge, skill;\nkazuha skill,
-  high_plunge;\n\nyaemiko skill:3;\nbennett skill, burst;\nkazuha skill[hold=1], high_plunge,
-  burst;\nraiden burst, attack:3, charge, attack:3, charge, attack:3, charge, skill;\n\nyaemiko
-  skill:3;\nkazuha skill[hold=1], high_plunge, attack:2;\nbennett skill,burst;\nyaemiko
-  burst, skill:3;\nkazuha burst;\nraiden burst, attack:3, charge, attack:3, charge,
-  attack:3, charge, skill;\nkazuha skill, high_plunge;\n\nyaemiko skill:3;\nbennett
-  skill, burst;\nkazuha skill[hold=1], high_plunge, burst;\nraiden burst, attack:3,
-  charge, attack:3, charge, attack:3, charge, skill;\n\nyaemiko skill:3;\nkazuha skill[hold=1],
-  high_plunge, attack:2;\nbennett skill,burst;\nyaemiko burst, skill:3;\nkazuha burst;\nraiden
-  burst, attack:3, charge, attack:3, charge, attack:3, charge, skill;\nkazuha skill,
-  high_plunge;\n\nyaemiko skill:3;\nbennett skill, burst;\nkazuha skill[hold=1], high_plunge,
-  burst;\nraiden burst, attack:3, charge, attack:3, charge, attack:3, charge, skill;\n\n"
+  "raidenshogun char lvl=90/90 cons=0 talent=9,9,9; \nraidenshogun add weapon=\"thecatch\"
+  refine=5 lvl=90/90;\nraidenshogun add set=\"emblemofseveredfate\" count=5;\nraidenshogun
+  add stats hp=4780 atk=311 electro%=0.466 atk%=0.466 cr=0.311 ; #main\nraidenshogun
+  add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 def=39.36 def%=0.124 em=39.64
+  er=0.1102 cr=0.331 cd=0.7944 ; #subs\n\nyaemiko char lvl=90/90 cons=0 talent=9,9,9;
+  \nyaemiko add weapon=\"thewidsith\" refine=3 lvl=90/90;\nyaemiko add set =\"tenacityofthemillelith\"
+  count=5;\n#yaemiko add set=\"emblemofseveredfate\" count=5;\n#yaemiko add set=\"gladiatorsfinale\"
+  count=2;\n#yaemiko add set=\"thunderingfury\" count=3;\nyaemiko add stats hp=4780
+  atk=311 er=0.518 electro%=0.466 cr=0.311 ; #main\nyaemiko add stats hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 def=39.36 def%=0.124 em=39.64 er=0.1102 cr=0.331 cd=0.7944
+  ; #subs\n\nkaedeharakazuha char lvl=90/90 cons=0 talent=9,9,9; \nkaedeharakazuha
+  add weapon=\"ironsting\" refine=5 lvl=90/90;\nkaedeharakazuha add set=\"viridescentvenerer\"
+  count=5;\nkaedeharakazuha add stats hp=4780 atk=311 em=561 ; #main\nkaedeharakazuha
+  add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.4464 def=39.36 def%=0.124 em=118.92
+  er=0.4408 cr=0.1655 cd=0.1324 ; #subs\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;
+  \nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 def=39.36 def%=0.124 em=39.64
+  er=0.1102 cr=0.331 cd=0.7944 ; #subs\n\noptions debug=true iteration=1000 duration=110.6
+  workers=30 mode=sl;\ntarget lvl=100 resist=.1;\n#target lvl=100 resist=.1;\nenergy
+  every interval=240,360 amount=1;\nactive yaemiko;\n\nyaemiko skill:3;\nraidenshogun
+  skill, attack;\nkaedeharakazuha skill, high_plunge;\nbennett skill, burst;\nyaemiko
+  burst, skill:3;\nkaedeharakazuha burst;\nraidenshogun burst, attack:3, charge, attack:3,
+  charge, attack:3, charge;\nkaedeharakazuha skill, high_plunge;\nbennett skill;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: "Raikou: Raiden Hypercarry with Yae."
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
-    con: 5
+    con: 6
     weapon: thealleyflash
     refine: 1
-    er: 1.069
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
@@ -48,7 +40,7 @@ team:
     con: 0
     weapon: ironsting
     refine: 5
-    er: 0.6612
+    er: 0.4408
     talents:
       attack: 9
       skill: 9
@@ -66,13 +58,13 @@ team:
     con: 0
     weapon: thewidsith
     refine: 3
-    er: 0.1102
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 48754.033022761454
+dps: 49796.59849014568
 mode: sl
-duration: 120.00000000000152
+duration: 110.6000000000018
 target_count: 1
 viewer_key: n5kUIlZOn9Mhtj5ogfJwN

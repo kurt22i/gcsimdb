@@ -1,4 +1,4 @@
-author: Kurt#5846, Charliex3000#9403 and danii#8748
+author: Kurt#5846, Charliex3000#9403, danii#8748 and Johanz3#7076
 config:
   "options swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9 start_hp=1;\nhutao add weapon=\"dragonsbane\"
@@ -10,25 +10,27 @@ config:
   hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
   cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\"
-  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli
-  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nzhongli add set=\"instructor\"
-  count=4;\nzhongli add stats hp=3571 atk=232 atk%=0.348 geo%=0.348 cr=0.311; #main\nzhongli
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=39.64 cr=1.1324 cd=0.7944;\n\n#Enemies and Particles:\ntarget lvl=100 resist=0.1;\nenergy
-  every interval=480,720 amount=1;\n\n#Action List:\n\nactive xingqiu;\n\nxingqiu\n\tburst[orbital=1],
-  attack:2,\n\tskill[orbital=1], attack:2\n\t;\nzhongli attack, skill[hold=1], attack;\nfischl
-  skill, attack;\nhutao skill,\n\tattack:1, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, dash,\n\tattack:2, charge, jump,\n\tattack:2,
-  charge, dash,\n\tattack:2, charge, jump,\n\tattack:2, charge\n\t;\n\nxingqiu attack:2,
-  dash, attack:2;\nzhongli attack:4;\nxingqiu attack:2;\nwait 10;\n\nxingqiu\n\tburst[orbital=1],
-  attack:2,\n\tskill[orbital=1], attack:2\n\t;\nzhongli attack, skill[hold=1], attack;\nfischl
-  attack, burst;\nhutao skill,\n\tattack:2, charge, dash,\n\tattack:1, charge, jump,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, dash,\n\tattack:2,
-  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge\n\t;\n\nxingqiu attack:2,
-  dash, attack:2;\nzhongli attack:4;\nxingqiu attack:3;\n\nrestart;\n\n\n"
+  refine=3 lvl=90/90;\nfischl add set=\"thunderingfury\" count=2;\nfischl add set=\"shimenawasreminiscence\"
+  count=2;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\t\t\t\t\t\t\t\t\t\t\nzhongli
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\t\t\t\t\t\t\t\t\t\t\nzhongli add
+  set=\"tenacityofthemillelith\" count=4;\t\t\t\t\t\t\t\t\t\nzhongli add stats hp=4780
+  atk=311 atk%=0.466 geo%=0.466 cr=0.311; #main 5* set\t\t\t\t\t\t\t\t\t\t\nzhongli
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\t\t\t\t\t\t\t\t\t\n\n#Enemies and Particles:\ntarget
+  lvl=100 resist=0.1;\nenergy every interval=480,720 amount=1;\n\n#Action List:\n\nactive
+  xingqiu;\n\nxingqiu\n\tburst[orbital=1], attack:2,\n\tskill[orbital=1], attack:2\n\t;\nzhongli
+  attack, skill[hold=1], attack;\nfischl skill, attack;\nhutao skill,\n\tattack:1,
+  charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
+  charge, dash,\n\tattack:2, charge, jump,\n\tattack:2, charge, dash,\n\tattack:2,
+  charge, jump,\n\tattack:2, charge\n\t;\n\nxingqiu attack:2, dash, attack:2;\nzhongli
+  attack:4;\nxingqiu attack:2;\nwait 10;\n\nxingqiu\n\tburst[orbital=1], attack:2,\n\tskill[orbital=1],
+  attack:2\n\t;\nzhongli attack, skill[hold=1], attack;\nfischl attack, burst;\nhutao
+  skill,\n\tattack:2, charge, dash,\n\tattack:1, charge, jump,\n\tattack:2, charge,
+  jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, dash,\n\tattack:2, charge,
+  jump,\n\tattack:2, charge, jump,\n\tattack:2, charge\n\t;\n\nxingqiu attack:2, dash,
+  attack:2;\nzhongli attack:4;\nxingqiu attack:3;\n\nrestart;\n\n\n\n\n"
 description:
   Hu Tao with Fischl and Zhongli, a fairly comfortable HT team that still
   does impressive damage.
@@ -65,12 +67,12 @@ team:
     con: 0
     weapon: favoniuslance
     refine: 3
-    er: 0.1102
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 51977.55113076977
+dps: 51645.81790609773
 mode: sl
 duration: 105.00000000000071
 target_count: 1

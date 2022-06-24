@@ -1,0 +1,75 @@
+author: CPM#7653
+config:
+  "#char builds\n\nkuki char lvl=90/90 cons=6 talent=9,9,9;\nkuki add weapon=\"theblacksword\"
+  refine=1 lvl=90/90;\nkuki add set=\"echoesofanoffering\" count=4;\n#kuki add set=\"shimenawasreminiscence\"
+  count=4;\n#kuki add set=\"paleflame\" count=2;\n#kuki add set=\"bloodstainedchivalry\"
+  count=2;\nkuki add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622; #main\nkuki
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.662; # 20 liquid subs\n\n\nrosaria char lvl=90/90 cons=6
+  talent=9,9,9;\nrosaria add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria
+  add set=\"noblesseoblige\" count=4;\nrosaria add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cr=0.311; #main\nrosaria add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944; # 20 liquid subs\n\nyunjin
+  char lvl=90/90 cons=6 talent=9,9,9; \nyunjin add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nyunjin add set=\"huskofopulentdreams\" count=4 +params=[stacks=4];\nyunjin
+  add stats hp=4780 atk=311 def%=1.749 ; #main\nyunjin add stats def%=0.372 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.3972 cd=0.1324;
+  # 20 liquid subs\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli
+  add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64
+  cr=0.331 cd=0.7944; # 20 liquid subs\n\n#Configs\ntarget lvl=100 resist=0.1; \nenergy
+  every interval=480,720 amount=1; #Approximated to Perpetual Mechanical Array\noptions
+  swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#roation\n\nactive
+  rosaria;\n\nrosaria skill;\nkuki skill, attack:2;\nzhongli skill[hold=1];\nyunjin
+  skill, burst;\nrosaria burst, skill;\nkuki attack:3, jump,\n     attack:3, jump,\n
+  \    attack:3, jump,\n     attack:3, jump,\n     attack:3, jump,\n     attack, skill;\nrosaria
+  skill;\nkuki attack:3, jump,\n     attack:3, jump,\n     attack:3, jump,\n     attack:3;\n\nrosaria
+  skill;\nkuki attack:3;\nzhongli skill[hold=1];\nyunjin skill[delay=3], burst;\nrosaria
+  burst, skill;\nkuki skill, attack:3, jump,\n     attack:3, jump,\n     attack:3,
+  jump,\n     attack:3;\nrosaria skill;\nkuki attack:3, jump,\n     attack:3, jump,\n
+  \    attack:3, jump,\n     attack:3;\n\nrestart;\n\n\n"
+description: Physical Shinobu.
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: kuki
+    con: 6
+    weapon: theblacksword
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yunjin
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 20927.275926000326
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: PkoytDSNGadA46fhDisJE

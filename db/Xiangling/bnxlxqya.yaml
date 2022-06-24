@@ -1,36 +1,29 @@
 author: Kurt#5846, Charliex3000#9403, Rare Possum#0511, Lettuce Hunt#5806 and Lizz71#8986
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=96 workers=30 mode=sl;
-  \n\n#Character Builds:\nyae char lvl=90/90 cons=0 talent=9,9,9;\nyae add weapon=\"solarpearl\"
-  refine=1 lvl=90/90;\nyae add set=\"tenacityofthemillelith\" count=5;\nyae add stats
-  hp=4780 atk=311 em=187 electro%=0.466 cd=0.622 ; #main\nyae add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.2204 em=39.84 cr=0.331
-  cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\nxingqiu
-  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3
-  lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats
-  hp=4780 atk=311 atk%=0.466 cr=0.311 hydro%=0.466 ; #main\nxingqiu add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.3310
-  cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling add weapon=\"thecatch\"
-  refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling
-  add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling add stats
-  def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28
-  cr=0.3310 cd=0.7944 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\nbennett
-  char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=1
-  lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats hp=3571 atk=232
-  er=0.518 cr=0.232 pyro%=0.348 ; #main\nbennett add stats def%=0.124 def=39.36 hp=507.88
-  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.1986 cd=0.662;\n\n\n#Enemies
-  and Particles:\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#Action
-  List:\nactive yae;\nyae skill:3;\nxingqiu skill[orbital=1], burst[orbital=1], attack;\nbennett
-  burst, attack, skill, attack;\nxiangling attack, burst, attack:2, skill, attack;\nxingqiu
-  attack:2;\nyae attack:2, skill, attack, skill, attack, skill;\n\nbennett attack;\nwait
-  20; #wait for field tick\nbennett skill, attack;\n\nxiangling attack:2;\nbennett
-  skill, attack;\nxiangling attack:2;\nbennett attack, skill;\nxiangling attack:1,skill;\n\nyae
-  attack,burst;\n\nwait 10; # leeway time for second rot\n\n# second rot with no burst\nyae
-  skill:3;\nxingqiu skill[orbital=1], burst[orbital=1], attack;\nbennett burst, attack,
-  skill, attack;\nxiangling attack, burst, attack:2, skill, attack;\nxingqiu attack:2;\nyae
-  attack:2, skill, attack, skill, attack, skill;\nbennett attack, skill, attack;\nxiangling
-  attack:2;\nbennett skill, attack;\nxiangling attack:2;\nbennett attack, skill;\nxiangling
-  attack:1,skill;\n\nyae attack,charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n"
+  "options swap_delay=12 debug=true iteration=1000 duration=105.8 workers=30
+  mode=sl;\n\nyae char lvl=90/90 cons=0 talent=9,9,9; \nyae add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nyae add set=\"tenacityofthemillelith\" count=4;\nyae add stats
+  hp=4780 atk=311 em=187 em=187 em=187; #main\nyae add stats hp%=0.0992 hp=507.88
+  atk%=0.0992 atk=33.08 def%=0.124 def=39.36 em=118.92 cr=0.3972 cd=0.5296 er=0.1102
+  ; #subs\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"crimsonwitchofflames\" count=4;\nbennett
+  add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28
+  cr=0.331 cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.28 cr=0.331 cd=0.7944;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu
+  add weapon=\"favoniussword\" refine=5 lvl=90/90;\n#xingqiu add weapon=\"harbingerofdawn\"
+  refine=5 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\n#xingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944;\n\n\ntarget lvl=100 resist=0.1; \nenergy every interval=480,720
+  amount=1;\n\n#rotation\n\nactive yae ;\nyae attack, skill:2;\nxingqiu skill,dash,burst,
+  attack:2;\nbennett burst,attack,skill;\nyae skill;\nxiangling attack,burst, skill;\nbennett
+  attack,skill;\nxingqiu attack:2;\nbennett attack,skill;\nxingqiu attack:2;\nbennett
+  attack,skill;\nxingqiu attack:2;\nbennett attack,skill;\nxingqiu attack:2;\nbennett
+  attack,skill,attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yae National, featuring EM Yae.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -38,7 +31,7 @@ team:
     con: 6
     weapon: thealleyflash
     refine: 1
-    er: 0.6282
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -55,23 +48,23 @@ team:
   - name: xingqiu
     con: 6
     weapon: favoniussword
-    refine: 3
-    er: 0.2204
+    refine: 5
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
   - name: yaemiko
     con: 0
-    weapon: solarpearl
-    refine: 1
-    er: 0.2204
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 52010.3550455593
+dps: 54292.48655375824
 mode: sl
-duration: 96.00000000000009
+duration: 105.80000000000129
 target_count: 1
 viewer_key: dZx1RRI4uvDH3u08sUDo1

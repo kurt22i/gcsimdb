@@ -10,10 +10,10 @@ config:
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
   stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
   em=39.64 cr=0.331 cd=0.7944;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  add weapon=\"kitaincrossspear\" refine=5 lvl=90/90;\nxiangling add set=\"crimsonwitchofflames\"
   count=5;\nxiangling add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
-  em=79.28 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
   add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=5;\nbennett add stats hp=4780 atk=311 em=187 pyro%=0.466 cr=0.311 ; #main\nbennett
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
@@ -22,7 +22,7 @@ config:
   burst,skill;\ntartaglia burst, skill,\n          attack:5, dash,\n          attack:5,
   dash,\n          attack:4;\nfischl  attack:2,burst;\nbennett attack,skill,attack;\nxiangling
   attack:3, skill;\ntartaglia aim;\nbennett skill;\nxiangling attack:3;\ntartaglia
-  aim:2;\nbennett attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  aim:2;\nbennett attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Childe with Fischl, a Childe team that also excels at ST.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -55,14 +55,14 @@ team:
       burst: 9
   - name: xiangling
     con: 6
-    weapon: thecatch
+    weapon: kitaincrossspear
     refine: 5
-    er: 0.1102
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 47845.80482204925
+dps: 47901.62498235489
 mode: sl
 duration: 102.50000000000189
 target_count: 1

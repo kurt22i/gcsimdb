@@ -8,32 +8,35 @@ config: |+
   xiangling char lvl=90/90 cons=6 talent=9,9,9;
   xiangling add weapon="thecatch" refine=5 lvl=90/90;
   xiangling add set="emblemofseveredfate" count=4;
-  xiangling add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.8486 em=39.64 cr=0.5758 cd=0.7944 pyro%=0.4660;
+  xiangling add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.6282 em=79.28 cr=0.3972 cd=1.284 pyro%=0.4660;
 
   ayaka char lvl=90/90 cons=0 talent=9,9,9;
   ayaka add weapon="harbingerofdawn" refine=5 lvl=90/90;
   ayaka add set="emblemofseveredfate" count=4;
-  ayaka add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.7384 em=39.64 cr=0.6420 cd=0.7944 cryo%=0.4660;
+  ayaka add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.1488 er=0.6833 em=39.64 cr=0.6420 cd=0.7944 cryo%=0.4660;
 
   bennett char lvl=90/90 cons=5 talent=9,9,9;
   bennett add weapon="thealleyflash" refine=1 lvl=90/90;
   bennett add set="noblesseoblige" count=4;
   bennett add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.09920 er=0.9588 em=39.64 cr=0.5758 cd=0.6620 pyro%=0.4660;
 
-  options swap_delay=12 debug=true iteration=1000 duration=102 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=102.2 workers=30 mode=sl;
   energy every interval=480,720 amount=1;
   target lvl=100 resist=0.1;
 
   active zhongli;
   zhongli skill[hold=1];
   bennett burst, skill;
-  xiangling attack:2, burst, skill;
-  ayaka skill, dash, attack, burst, attack:3, charge, dash, attack, charge;
+  xiangling attack, burst, skill;
+  ayaka skill, dash, attack, burst, attack:3, charge, dash, attack:3, charge;
   bennett skill, attack;
   xiangling attack:3;
-  ayaka attack, skill, dash, attack, charge, attack, charge;
+  ayaka attack, skill, dash, attack:3, charge;
+  bennett skill, attack;
 
   restart;
+
+
 
 
 
@@ -45,7 +48,7 @@ team:
     con: 0
     weapon: harbingerofdawn
     refine: 5
-    er: 0.7384
+    er: 0.6833
     talents:
       attack: 9
       skill: 9
@@ -63,7 +66,7 @@ team:
     con: 6
     weapon: thecatch
     refine: 5
-    er: 0.8486
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
@@ -77,8 +80,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55006.300202939376
+dps: 55024.85803967931
 mode: sl
-duration: 102.00000000000051
+duration: 102.19999999999963
 target_count: 1
 viewer_key: KUcnsSBQsTyQm4YIpbReW

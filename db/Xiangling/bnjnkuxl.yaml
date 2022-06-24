@@ -1,0 +1,151 @@
+author: RoyM#2340
+config: |+
+  #Configs
+  target lvl=100 resist=0.1; #Default Res
+  energy every interval=480,720 amount=1; #Approximated to Perpetual Mechanical Array
+  options swap_delay=12 debug=true iteration=1000 duration=126.5 workers=30 mode=sl;
+
+  #Chars Builds
+  kuki char lvl=90/90 cons=6 talent=9,9,9;
+  kuki add weapon="favoniussword" refine=3 lvl=90/90;
+  kuki add set="tenacityofthemillelith" count=4;
+  kuki add stats hp=4780 atk=311 em=187 em=187 em=187; #main 5* set
+  kuki add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=118.92 cr=0.3972 cd=0.3972; #20 liquid subs
+
+  xiangling char lvl=90/90 cons=6 talent=9,9,9;
+  xiangling add weapon="thecatch" refine=5 lvl=90/90;
+  xiangling add set="emblemofseveredfate" count=4;
+  xiangling add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311; #main 5* set
+  xiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944; #20 liquid subs
+
+  jean char lvl=90/90 cons=0 talent=9,9,9;
+  jean add weapon="favoniussword" refine=3 lvl=90/90;
+  jean add set="viridescentvenerer" count=4;
+  jean add stats hp=4780 atk=311 em=187 anemo%=0.466 cr=0.311; #main 5* set
+  jean add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944; #20 liquid subs
+
+  bennett char lvl=90/90 cons=6 talent=9,9,9;
+  bennett add weapon="thealleyflash" refine=1 lvl=90/90;
+  bennett add set="crimsonwitchofflames" count=4;
+  bennett add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311; #main 5* set
+  bennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944; #20 liquid subs
+
+
+  active kuki;
+  kuki burst;
+  jean skill,burst;
+  bennett skill,burst;
+  kuki skill;
+  xiangling burst,skill;
+  jean attack,skill;
+  bennett attack,skill;
+  kuki attack:2;
+  bennett attack,skill;
+  kuki attack:2;
+  bennett attack,skill;
+  jean skill,attack;
+  bennett attack,skill;
+  kuki attack:2;
+  bennett attack,skill;
+  kuki attack;
+  restart;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+description: Kuki Overload.
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kuki
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 34605.14621020774
+mode: sl
+duration: 126.49999999999653
+target_count: 1
+viewer_key: 2_NCjFgo6M6xH06k_Jj1Z
