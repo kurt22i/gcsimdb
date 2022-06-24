@@ -15,23 +15,23 @@ config:
   lvl=90/90;\nxingqiu add set=\"blizzardstrayer\" count=5;\nxingqiu add stats hp=4780
   atk=311 atk%=0.466 hydro%=0.466 cd=0.622; #main\nxingqiu add stats def=39.36 def%=0.124
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.4960 er=0.2204 em=39.64 cr=0.1324 cd=0.662
-  ;\t\t\t\t\t\t\t\t\t\t\t\n\nchongyun char lvl=90/90 cons=6 talent=9,9,9;\nchongyun
-  add weapon=\"favoniusgreatsword\" refine=3 lvl=90/90;\nchongyun add set=\"noblesseoblige\"
-  count=5;\nchongyun add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cr=0.311; #main\nchongyun
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\n# rotation length=20s\n#my auntie is cooler than
-  your auntie\n#my auntie is wetter than your auntie\n#HUH?\nactive xingqiu;\nxingqiu
-  burst;\nchongyun attack, skill;\nyelan attack, burst, attack, skill;\nshenhe attack,
-  skill, attack, burst;\nchongyun attack, burst;\nxingqiu attack, skill, dash, attack:3;\nyelan
-  attack:2, skill;\nshenhe attack,skill;\nxingqiu attack:2;\nshenhe attack:3;\nyelan
-  attack:3;\nxingqiu attack;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  ;\t\t\t\t\t\t\t\t\t\t\t\n\nchongyun char lvl=90/90 cons=6 talent=9,9,9; \nchongyun
+  add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\nchongyun add
+  set=\"noblesseoblige\"  count=4;\nchongyun add stats hp=4780 atk=311 atk%=0.466
+  cryo%=0.466 cd=0.622; #main\nchongyun add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662 ;\t\n# rotation length=20s\n#my
+  auntie is cooler than your auntie\n#my auntie is wetter than your auntie\n#HUH?\nactive
+  xingqiu;\nxingqiu burst;\nchongyun attack, skill;\nyelan attack, burst, attack,
+  skill;\nshenhe attack, skill, attack, burst;\nchongyun attack, burst;\nxingqiu attack,
+  skill, dash, attack:3;\nyelan attack:2, skill;\nshenhe attack,skill;\nxingqiu attack:2;\nshenhe
+  attack:3;\nyelan attack:3;\nxingqiu attack;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: chongyun
     con: 6
-    weapon: favoniusgreatsword
-    refine: 3
+    weapon: serpentspine
+    refine: 1
     er: 0.1102
     talents:
       attack: 9
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43775.95716392135
+dps: 45630.518903483004
 mode: sl
 duration: 99.9999999999986
 target_count: 1
