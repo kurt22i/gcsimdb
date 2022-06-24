@@ -28,6 +28,7 @@ config:
   attack:2;\nbennett attack,skill;\nxingqiu attack:2;\nbennett attack,skill;\nkuki
   attack:3;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
+description: Kuki National.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
@@ -61,12 +62,13 @@ team:
     con: 6
     weapon: favoniussword
     refine: 5
+    refine: 3
     er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 54279.81782120449
+dps: 53749.051462335774
 mode: sl
 duration: 104.50000000000132
 target_count: 1
