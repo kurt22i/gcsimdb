@@ -43,7 +43,7 @@ config: |+
 
 
 description: Mono-Cryo Ganyaka with shielding and heals.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayaka
     con: 0
@@ -81,7 +81,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44977.69052634036
+dps: 44963.793675394525
 mode: sl
 duration: 102.09999999999742
 target_count: 1

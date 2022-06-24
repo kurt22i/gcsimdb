@@ -22,7 +22,7 @@ config:
   attack, skill, burst, attack;\nfischl attack, burst;\nyoimiya skill, attack:5, dash,
   attack:5, dash, attack:5, dash, attack:5;\nxingqiu attack:3;\nrestart;\n\n\n\n\n\n"
 description: Yoimiya Overvape with shields from crystallized.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: albedo
     con: 0
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40997.66931608651
+dps: 41008.1975410896
 mode: sl
 duration: 126.00000000000189
 target_count: 1

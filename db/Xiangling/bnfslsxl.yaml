@@ -111,7 +111,7 @@ config: |+
 
 
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -149,7 +149,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44681.77311086362
+dps: 44664.44678259133
 mode: sl
 duration: 129.99999999999824
 target_count: 1

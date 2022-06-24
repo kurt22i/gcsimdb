@@ -28,7 +28,7 @@ config:
   attack:2, charge;\nbennett skill, attack, charge, skill;\njean skill, attack:2;\n\nrestart;
   \n\n\n"
 description: Ayaka Sunfire with Shenhe.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayaka
     con: 0
@@ -66,7 +66,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47420.96023125572
+dps: 47428.228318694826
 mode: sl
 duration: 109.99999999999949
 target_count: 1

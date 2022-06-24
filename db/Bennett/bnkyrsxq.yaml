@@ -24,7 +24,7 @@ config:
   \   attack:4, skill, attack\n    ;\nrosaria attack, skill, attack;\nkaeya attack,
   skill, attack;\nrestart;\n\n"
 description: Melt Bennett meme team.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 33877.68953811054
+dps: 33900.89667616883
 mode: sl
 duration: 106.99999999999939
 target_count: 1

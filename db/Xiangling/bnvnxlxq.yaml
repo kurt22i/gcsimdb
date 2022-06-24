@@ -49,7 +49,7 @@ config: |+
 
 
 description: Venti National.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -87,7 +87,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53573.58358347887
+dps: 53641.20056090898
 mode: sl
 duration: 88.99999999999893
 target_count: 1

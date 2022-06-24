@@ -26,7 +26,7 @@ config:
   dash,\n  attack:2, dash,\n  attack:2, dash,\n  attack:2, dash,\n  attack:2, dash,\n
   \ attack:2\n  ;\nventi skill, attack;\nrestart;\n"
 description: Mikomi taser with Venti.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: fischl
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43678.82224506002
+dps: 43793.13856062614
 mode: sl
 duration: 99.9999999999986
 target_count: 1

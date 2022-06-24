@@ -22,7 +22,7 @@ config:
   skill, burst;\ntartaglia skill, attack:3, charge, dash, attack:3, charge;\nkazuha
   skill, high_plunge, attack;\nayaka skill, dash, attack:3, charge;\nrestart;\n\n\n\n\n"
 description: Taryaka with Ganyu.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayaka
     con: 0
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38065.47436517748
+dps: 38038.11455828364
 mode: sl
 duration: 168.0000000000037
 target_count: 1

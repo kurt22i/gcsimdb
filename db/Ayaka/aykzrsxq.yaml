@@ -23,7 +23,7 @@ config:
   skill, dash, burst, dash, \n\tattack:3, charge, dash,\n\tattack:3, charge, dash,\n\tattack\n\t;\nkazuha
   skill, high_plunge, attack;\nayaka skill, attack:3, charge;\n\nrestart;\n\n"
 description: Ayaka Freeze with Xingqiu.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayaka
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41803.31199074571
+dps: 41826.793309124245
 mode: sl
 duration: 108.99999999999856
 target_count: 1

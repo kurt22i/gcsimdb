@@ -39,7 +39,7 @@ config:
   charge,\n     attack, charge,\n     attack, charge,\n     attack, charge,\n     attack;\nbennett
   attack, skill;\nsucrose attack, charge;\n\n\n"
 description: Reverse Melt Rosaria with Klee and Sucrose.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -77,7 +77,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 37214.20741823003
+dps: 37246.75504638338
 mode: sl
 duration: 105.99999999999856
 target_count: 1

@@ -41,7 +41,7 @@ config:
   attack, skill[bounce=3, mine=8], attack, burst, \n\tattack, charge,\n\tattack, charge,\n\tattack,
   charge, attack, charge, attack, charge, attack;\n\n"
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -79,7 +79,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41069.893572257846
+dps: 41075.025133803814
 mode: sl
 duration: 102.99999999999858
 target_count: 1

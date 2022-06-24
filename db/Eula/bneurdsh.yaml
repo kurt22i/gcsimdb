@@ -24,7 +24,7 @@ config:
   skill,attack;\neula attack:2;\nraiden burst,  attack:3, charge, attack:3, charge,
   attack:2;\nrestart;\n\n"
 description: Eula with Raiden and Shenhe.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 5
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 46555.040351005904
+dps: 46652.28777904667
 mode: sl
 duration: 94.9999999999991
 target_count: 1

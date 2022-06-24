@@ -29,7 +29,7 @@ config:
   jump,\n\tattack:1, charge, jump,\n\tattack:1, charge, jump,\n\tattack:1, charge;\nsucrose
   attack:4,dash,attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Hu Tao VV Vape with Sucrose instead of Kazuha.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: amber
     con: 2
@@ -67,7 +67,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44314.86439767775
+dps: 44610.275918571686
 mode: sl
 duration: 188.99999999999537
 target_count: 1

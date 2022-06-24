@@ -24,7 +24,7 @@ config:
   charge, dash, \n  attack:2, charge, dash, \n  attack:2, skill, \n  attack:2, charge,
   \n  attack:2;\nrestart;\n"
 description: Ayaka Freeze with Venti and Rosaria.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayaka
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40755.985841810805
+dps: 40806.61051861659
 mode: sl
 duration: 99.9999999999986
 target_count: 1

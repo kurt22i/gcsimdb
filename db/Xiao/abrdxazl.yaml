@@ -26,7 +26,7 @@ config:
   skill, attack;\n\nraiden skill;\n\nzhongli skill[hold=1], burst;\n\nalbedo skill;\n\nraiden
   burst, attack:5, dash, attack:4;\n\nrestart;\n\n\n\n\n\n\n"
 description: Xiaoden.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: albedo
     con: 0
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41541.4680703128
+dps: 41556.295397519694
 mode: sl
 duration: 265.99999999999744
 target_count: 1

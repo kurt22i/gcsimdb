@@ -27,7 +27,7 @@ config:
   jump,\n    attack:1, charge, jump;\nxingqiu attack:3;    \nbennett attack:2, skill,
   attack;\nxiangling attack:2;\nwait 19;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Bennett-Tao with Xiangling (Tao National).
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 63648.80571771314
+dps: 64043.334683490706
 mode: sl
 duration: 106.99999999999939
 target_count: 1

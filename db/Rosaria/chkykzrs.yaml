@@ -23,7 +23,7 @@ config:
   skill,attack:3,charge,jump,attack:3,charge;\nkaeya attack,skill;\nkazuha skill,high_plunge,attack:3;\nrosaria
   skill;\ntartaglia aim[weakspot=1];\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Tartaglia Freeze.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: kaeya
     con: 2
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 25190.281733611686
+dps: 25184.822765862904
 mode: sl
 duration: 103.99999999999928
 target_count: 1

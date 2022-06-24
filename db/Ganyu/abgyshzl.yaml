@@ -48,7 +48,7 @@ config: |+
 
 
 description: Melt Ganyu but there's no melt, just crystallize (and it still works).
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: albedo
     con: 0
@@ -86,7 +86,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48669.26560862598
+dps: 48682.202338540665
 mode: sl
 duration: 129.00000000000193
 target_count: 1

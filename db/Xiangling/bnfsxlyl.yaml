@@ -31,7 +31,7 @@ config:
   attack:3,skill;\nbennett attack:3,skill;\nyelan skill;\nxiangling attack:3;\nfischl
   attack;\t\t\t\t\t\t\t\t\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 62991.37486771026
+dps: 63014.775008367746
 mode: sl
 duration: 201.9999999999986
 target_count: 1

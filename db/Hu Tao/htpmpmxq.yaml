@@ -18,7 +18,7 @@ config:
   jump,\n\tattack:2, jump,\n\tattack:2, jump,\n\tattack:2, jump,\n\tattack:2\n\t;\nwait
   10;\nrestart;\n\n"
 description: Tao Vape core, the rest is optional.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: hutao
     con: 0
@@ -38,7 +38,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 30872.3248419297
+dps: 31343.719473646375
 mode: sl
 duration: 105.00000000000071
 target_count: 1

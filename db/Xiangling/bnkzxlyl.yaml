@@ -26,7 +26,7 @@ config:
   attack:2;\nbennett attack, skill, attack:2;\nxiangling attack:2;\nkazuha attack,
   skill[hold=1], high_plunge, attack:2;\n\nrestart;\n\n\n"
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53897.76214025042
+dps: 53840.42049891604
 mode: sl
 duration: 105.00000000000071
 target_count: 1

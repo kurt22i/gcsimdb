@@ -14,7 +14,7 @@ config:
   skill[hold=1];\nganyu aim[weakspot=1] +limit=1;\nganyu aim[weakspot=1] +timeout=480;\nganyu
   skill;\nganyu burst[radius=2];\nganyu aim;\n\n\n\n\n\n\n"
 description: Solo Ganyu + shields.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: diona
     con: 6
@@ -34,7 +34,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 21438.467393872248
+dps: 21451.65944456289
 mode: apl
 duration: 899.9999999999849
 target_count: 1

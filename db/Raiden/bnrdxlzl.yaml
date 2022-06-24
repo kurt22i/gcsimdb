@@ -25,7 +25,7 @@ config:
   burst,skill;\nbennett skill, attack;\nraiden burst,\n       attack:4, dash, attack:4,
   dash, attack:4, dash, attack:3;\nbennett attack, skill;\nzhongli burst;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 45367.787616382775
+dps: 45252.50632113254
 mode: sl
 duration: 105.35000000000113
 target_count: 1

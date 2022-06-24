@@ -49,7 +49,7 @@ config: |+
 
 
 description: Freeze Ganyu with Kokomi.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ganyu
     con: 0
@@ -87,7 +87,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38791.35319555242
+dps: 38761.99958204111
 mode: sl
 duration: 111.00000000000108
 target_count: 1

@@ -23,7 +23,7 @@ config:
   skill, attack:15;\nbennett attack,skill;\nkazuha attack,skill, high_plunge;\nbennett
   attack,skill;\nxingqiu attack,skill, attack;\nayato attack,skill, attack:12;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayato
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 39516.91609309768
+dps: 39521.735091869625
 mode: sl
 duration: 102.00000000000051
 target_count: 1

@@ -23,7 +23,7 @@ config:
   skill, attack;\nbennett skill;\nxiangling skill, attack:2;\nayato attack:4, skill,
   attack:6;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Monato.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayato
     con: 0
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44662.84319461807
+dps: 44681.029413030206
 mode: sl
 duration: 173.0000000000013
 target_count: 1

@@ -47,7 +47,7 @@ config: |+
 
 
 description: Kaeya Freeze wit- wait where's Kaeya?
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: chongyun
     con: 6
@@ -85,7 +85,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35135.984551596535
+dps: 35127.7924346168
 mode: sl
 duration: 109.99999999999949
 target_count: 1

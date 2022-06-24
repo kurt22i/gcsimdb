@@ -27,7 +27,7 @@ config:
 description:
   Double Geo Vape Yoimiya, a very comfortable team to play with respectable
   damage.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: albedo
     con: 0
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 39033.23097129525
+dps: 39088.69148673985
 mode: sl
 duration: 93.99999999999868
 target_count: 1

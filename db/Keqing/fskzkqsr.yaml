@@ -24,7 +24,7 @@ config:
   skill,high_plunge,attack:3;\nsara burst;\nkeqing skill,skill,\n       attack,charge,\n
   \      attack,charge,\n       attack,charge,\n       attack,charge;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Mono-Electro Keqing.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: fischl
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43514.9151392979
+dps: 43561.51381298159
 mode: sl
 duration: 128.00000000000009
 target_count: 1

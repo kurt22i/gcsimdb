@@ -20,7 +20,7 @@ config:
   attack,skill;\nyelan attack,skill;\nayaka dash,attack:3,charge,\n      dash, attack:3,charge;\nventi
   skill, attack;      \nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Ayalan Freeze Hyper offensive with Venti.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayaka
     con: 0
@@ -58,7 +58,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 51766.50135393442
+dps: 51783.930921610794
 mode: sl
 duration: 90.19999999999969
 target_count: 1

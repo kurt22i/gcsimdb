@@ -25,7 +25,7 @@ config:
   skill, attack;\nwait 10;\nsucrose skill, dash;\nsucrose burst, attack:3, dash,\n\tattack:3,
   dash,\n\tattack:3, dash,\n\tattack:3, dash,\n\tattack:3\n\t;\n\nrestart;\n\n"
 description: Sukokomon. Notoriously difficult team to play, so consider this a warning.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: fischl
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 39357.89236922471
+dps: 39400.89816983933
 mode: sl
 duration: 100.49999999999783
 target_count: 1

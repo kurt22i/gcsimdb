@@ -27,7 +27,7 @@ config:
   dash, attack:4, dash, attack:3, dash, attack:3;\nkujousara aim[weakspot=1];\njean
   skill, attack;\nbennett skill, attack;\n\nrestart;\n\n\n\n"
 description: Sunfire Raiden with Sara.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44088.094950779945
+dps: 44149.942059612345
 mode: sl
 duration: 111.99999999999807
 target_count: 1

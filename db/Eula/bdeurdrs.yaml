@@ -24,7 +24,7 @@ config:
   skill[hold=1];\nrosaria attack, skill;\nraiden attack, burst,  attack:3, charge,
   attack:3, charge, attack:3, charge;\n\nrestart;\n\n\n\n\n\n\n\n"
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: beidou
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 33357.93651385214
+dps: 33379.091065903565
 mode: sl
 duration: 102.00000000000051
 target_count: 1

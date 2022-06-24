@@ -22,7 +22,7 @@ config:
   skill, high_plunge, burst;\nfischl skill;\nayato skill, attack:15;\nkazuha skill,
   high_plunge;\nyae burst, skill, skill, skill;\nfischl burst;\nayato skill, attack:15;\n\nrestart;\n\n\n\n\n\n"
 description: Yaeyato taser.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayato
     con: 0
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 46579.6268129584
+dps: 46562.25475269912
 mode: sl
 duration: 181.99999999999747
 target_count: 1

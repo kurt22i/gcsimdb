@@ -24,7 +24,7 @@ config:
   attack:2;\nyunjin skill, attack:2, burst;\nyoimiya skill, attack:5, dash, attack:5,
   dash, attack:5, dash, attack:2;\nyunjin skill[delay=3], attack:4;\n\nrestart;\n\n\n\n"
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: yelan
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48471.87937655597
+dps: 48565.172219372376
 mode: sl
 duration: 99.0000000000003
 target_count: 1

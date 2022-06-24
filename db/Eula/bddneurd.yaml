@@ -23,7 +23,7 @@ config:
   attack:4,dash, attack:2, skill[hold=1];\nraiden attack, burst,  attack:3, charge,
   attack:3, charge, attack:3, charge;\n\nrestart;\n\n"
 description: Eula/Beidou.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: beidou
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 30691.123474073913
+dps: 30818.655719662234
 mode: sl
 duration: 96.99999999999865
 target_count: 1

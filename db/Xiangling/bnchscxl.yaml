@@ -213,7 +213,7 @@ config: |+
 
 
 description: International but you don't have Kazuha.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -251,7 +251,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40194.740890848334
+dps: 40202.067649980396
 mode: sl
 duration: 218.99999999999608
 target_count: 1

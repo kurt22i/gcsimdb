@@ -30,7 +30,7 @@ config:
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
   charge, jump;\nrosaria skill, attack:2;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n"
 description: Tao Overvapemelt (yes).
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: hutao
     con: 0
@@ -68,7 +68,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40288.92692918622
+dps: 40667.54913992809
 mode: sl
 duration: 114.00000000000126
 target_count: 1

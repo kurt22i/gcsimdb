@@ -24,7 +24,7 @@ config:
   skill[hold=1],attack:4,dash,attack:1;\nyelan skill,attack;\neula attack:3;\nraiden
   burst,  attack:3, charge, attack:3, charge,attack:2;\nrestart;\n\n\n"
 description: Eula with Yelan.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 5
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 43724.079449976045
+dps: 44004.16420332577
 mode: sl
 duration: 111.50000000000257
 target_count: 1

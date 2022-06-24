@@ -29,7 +29,7 @@ config:
   charge, jump,\n    attack:2, charge, jump,\n    attack:2, charge, jump,\n    attack:2,
   charge, jump;\nbeidou attack, skill[counter=2], attack:2, dash, attack:2;\nrestart;\n"
 description: Hu Tao tazer. No shield, but lots of damage reduction.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: beidou
     con: 6
@@ -67,7 +67,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40584.85685550698
+dps: 40935.21750238766
 mode: sl
 duration: 151.00000000000068
 target_count: 1

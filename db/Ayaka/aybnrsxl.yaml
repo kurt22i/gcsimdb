@@ -26,7 +26,7 @@ config:
   skill, attack;\nxiangling attack:3;\nrosaria attack, skill;\nbennett attack:2, skill;\nkamisatoayaka
   attack:2, dash, attack:2, skill, dash, attack:2, charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Reverse Melt Ayaka, except she's not melting, yet it still works.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayaka
     con: 0
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 65335.69380178039
+dps: 65172.571508426685
 mode: sl
 duration: 100.9999999999993
 target_count: 1

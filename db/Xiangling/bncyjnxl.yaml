@@ -52,7 +52,7 @@ config: |+
 
 
 description: Chongyun Melt, good for breaking shields.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -90,7 +90,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 32643.309777053306
+dps: 32597.258038791108
 mode: sl
 duration: 102.00000000000051
 target_count: 1

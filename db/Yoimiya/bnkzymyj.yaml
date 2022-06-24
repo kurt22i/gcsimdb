@@ -26,7 +26,7 @@ config:
   skill, attack:5, dash, attack:5, dash, attack:5, dash, attack:2;\nbennett skill;\nkazuha
   skill, high_plunge;\n\nrestart;\n"
 description: Yoimiya with Yun Jin.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 38954.66826959963
+dps: 39015.126865009726
 mode: sl
 duration: 84.00000000000185
 target_count: 1

@@ -25,7 +25,7 @@ config:
   dash, attack:4, attack[travel=0];\n\nyelan attack, skill;\nxingqiu attack, skill,
   attack:2;\nbennett skill,dash;\nxingqiu attack:1;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoimiya Double Hydro with Bennett.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 57879.8432720446
+dps: 57943.0351393329
 mode: sl
 duration: 84.00000000000185
 target_count: 1

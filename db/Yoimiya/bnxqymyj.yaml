@@ -23,7 +23,7 @@ config:
   attack[travel=0];\nbennett attack,skill,attack:2;\nyunjin attack,skill;\nxingqiu
   attack:2;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoimiya Vape, no shield.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47442.29757028788
+dps: 47389.884026541906
 mode: sl
 duration: 84.00000000000185
 target_count: 1

@@ -25,7 +25,7 @@ config:
   skill, attack;\nxiangling attack:3;\nchongyun attack[delay=9], skill, attack;\nbennett
   skill, attack:2;\nwait 17;\nrestart;\n\n\n\n\n"
 description: The original National Team with Chongyun.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 51019.672285357745
+dps: 50946.55851423333
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -52,7 +52,7 @@ config: |
 
   restart;
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: amber
     con: 0
@@ -90,7 +90,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 33363.94656914325
+dps: 33364.90775695165
 mode: sl
 duration: 90.00000000000215
 target_count: 1

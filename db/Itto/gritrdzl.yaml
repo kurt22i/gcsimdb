@@ -21,7 +21,7 @@ config:
   attack:2;\n\nraiden skill; \n\nzhongli skill [hold=1], burst;\n\nraiden burst, attack:4,
   dash, attack:4, dash, attack:4;\n\nrestart;\n\n\n\n\n\n"
 description: Ittoden.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: gorou
     con: 6
@@ -59,7 +59,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35152.08802903059
+dps: 35168.43122665173
 mode: sl
 duration: 100.09999999999854
 target_count: 1

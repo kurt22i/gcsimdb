@@ -26,7 +26,7 @@ config:
   attack:2, skill, attack, dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack,
   skill, attack, skill, attack, skill, attack;\n\n\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Diluc Overvape with Yelan.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 51570.098987026606
+dps: 51600.636993636996
 mode: sl
 duration: 118.99999999999979
 target_count: 1

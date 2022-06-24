@@ -29,7 +29,7 @@ config:
   charge, jump,\n\tattack:2, charge, jump,\n\tattack:2, charge, jump,\n\tattack:2,
   charge, jump,\n\tattack:1, charge, jump\n\t;\nxingqiu attack:2, dash, attack;\nrestart;\n\n\n\n\n\n\n\n"
 description: Tao Taser with Yae.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: fischl
     con: 6
@@ -67,7 +67,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48012.24413427746
+dps: 48396.98653218752
 mode: sl
 duration: 123.99999999999817
 target_count: 1

@@ -31,7 +31,7 @@ config:
   vv when you proc raiden e\nwait 5;\nraiden burst,\n       attack:4, dash, attack:4,
   dash, attack:4, dash, attack:3;\njean skill;\nbennett attack, skill;\njean attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n"
 description: Sunfire Raiden with Yelan.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53705.46736708523
+dps: 53729.59085911616
 mode: sl
 duration: 102.99999999999858
 target_count: 1

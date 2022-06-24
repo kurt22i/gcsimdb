@@ -28,7 +28,7 @@ config:
   \       attack, charge,\n        attack, charge,\n        attack, charge,\n        attack,
   charge,\n        attack;\nbennett attack, skill; \nklee    attack, charge;\nrestart;\n\n\n"
 description: Double Hydro Klee.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -66,7 +66,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 46086.191489500794
+dps: 46088.6378862061
 mode: sl
 duration: 84.999999999999
 target_count: 1

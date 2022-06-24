@@ -48,7 +48,7 @@ config: |+
   restart;
 
 description: DPS Yelan.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: fischl
     con: 6
@@ -86,7 +86,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 66146.01611828149
+dps: 66342.26186413484
 mode: sl
 duration: 100.9999999999993
 target_count: 1

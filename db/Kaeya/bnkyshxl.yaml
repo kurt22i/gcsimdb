@@ -23,7 +23,7 @@ config:
   attack;\nxiangling attack:3;\nshenhe attack, skill;\nkaeya attack, skill;\nshenhe
   attack:3;\nbennett attack,skill, attack;\nxiangling attack:3;\n\nrestart;\n"
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 41700.86194207036
+dps: 41647.94962589788
 mode: sl
 duration: 102.99999999999858
 target_count: 1

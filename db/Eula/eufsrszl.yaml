@@ -27,7 +27,7 @@ config:
   skill, attack:2;\nrosaria attack, burst;\neula burst,attack:4, skill[hold=1], attack:4;\nrosaria
   attack, skill, attack;\neula attack:4,dash,attack:2;\nzhongli attack:3;\nwait 9;\nrestart;\n\n"
 description: Eula.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: eula
     con: 0
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 40469.83347687414
+dps: 40369.36476243638
 mode: sl
 duration: 90.00000000000215
 target_count: 1

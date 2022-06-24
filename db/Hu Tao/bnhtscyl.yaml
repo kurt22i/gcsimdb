@@ -48,7 +48,7 @@ config:
   \            attack:1, charge, jump,\n             attack;\n\nbennett skill, attack:2;\n\nsucrose
   attack:2, skill;\n\nbennett attack:2, skill;\n\n\n\n\n"
 description: VV Tao with Yelan.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -86,7 +86,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 59126.99718689575
+dps: 59065.893461879736
 mode: sl
 duration: 105.00000000000071
 target_count: 1

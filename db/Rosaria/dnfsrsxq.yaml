@@ -23,7 +23,7 @@ config:
   attack,skill,attack:2;\nrosaria attack:5,skill,\n        attack:5,dash,\n        attack:5,skill,\n
   \       attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Physical Rosaria.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: diona
     con: 6
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35245.207352423735
+dps: 35221.64320876112
 mode: sl
 duration: 105.99999999999856
 target_count: 1

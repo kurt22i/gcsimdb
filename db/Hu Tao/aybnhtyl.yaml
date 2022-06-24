@@ -27,7 +27,7 @@ config:
   jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
   jump;\nyelan attack:2, skill, attack:4;\nrestart;\n\n\n\n\n\n"
 description: ""
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayaka
     con: 0
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 57525.20722223609
+dps: 57437.025276634784
 mode: sl
 duration: 106.99999999999939
 target_count: 1

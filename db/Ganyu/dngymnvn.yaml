@@ -26,7 +26,7 @@ config:
   aim[weakspot=1], aim, attack;\nventi skill,attack;\nganyu aim[weakspot=1, travel=0],
   attack;\nwait 3;\nrestart;\n\n"
 description: The traditional Morgana team.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: diona
     con: 6
@@ -64,7 +64,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 39595.4322720121
+dps: 39623.87411486889
 mode: sl
 duration: 97.9999999999992
 target_count: 1

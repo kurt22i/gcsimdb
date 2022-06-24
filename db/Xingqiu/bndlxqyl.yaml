@@ -36,7 +36,7 @@ config:
   attack:2;\nyelan attack, skill;\nxingqiu attack, skill, attack:2;\nbennett attack,
   skill, attack;\nxingqiu attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: ""
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -74,7 +74,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49691.77295367175
+dps: 49682.72416494649
 mode: sl
 duration: 105.00000000000071
 target_count: 1

@@ -24,7 +24,7 @@ config:
   attack,skill;\nxiangling attack:2;\nbennett attack,skill;\nyelan attack,skill;\nkamisatoayato
   skill,attack:14;\nbennett attack,skill;\n\nrestart;\n"
 description: Ayato Vape.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: ayato
     con: 0
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48675.959914093546
+dps: 48674.30523880411
 mode: sl
 duration: 105.00000000000071
 target_count: 1

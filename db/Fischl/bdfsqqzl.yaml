@@ -27,7 +27,7 @@ config:
 description:
   The ultimate comfort team, at the expense of some damage. Still does
   enough though.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: beidou
     con: 6
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 25173.252727776486
+dps: 25214.604519106742
 mode: apl
 duration: 90.00000000000215
 target_count: 1

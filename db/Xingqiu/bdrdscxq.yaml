@@ -22,7 +22,7 @@ config:
   skill,attack,burst;\n\nxingqiu skill,attack,burst;\n\nsucrose attack:4,skill,attack:4,skill,attack:4,dash,attack:4,dash,attack:4,dash,attack:4,dash,attack:4,dash,attack:4;\n\nraiden
   burst,attack:3,charge,attack:3,charge;\n\nrestart;\n"
 description: Raiden/Beidou. Like most Beidou teams, does significantly better in multitarget.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: beidou
     con: 6
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 27124.584435417408
+dps: 27142.579912371093
 mode: sl
 duration: 90.00000000000215
 target_count: 1

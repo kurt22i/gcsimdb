@@ -31,7 +31,7 @@ config:
   dash, attack:4, attack[travel=0], dash, attack:4, attack[travel=0];\nbennett skill,attack:3;\nyelan
   attack,charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoimiya Overvape with Yelan.
-hash: be5c9954e3826485b931e7e07953d6a64dd804ed
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -69,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 60291.503642839285
+dps: 60350.04854674026
 mode: sl
 duration: 72.99999999999949
 target_count: 1

@@ -36,7 +36,7 @@ config:
   burst,skill,skill,skill;\nsucrose skill, attack;\nsara burst;\nraiden burst,\n       attack:4,
   dash, attack:4, dash, attack:4, dash, attack:3,\n       attack, skill;\nrestart;\n\n\n\n"
 description: ""
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: raiden
     con: 0
@@ -74,7 +74,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44181.08884931179
+dps: 44192.950931033236
 mode: sl
 duration: 114.9999999999981
 target_count: 1

@@ -24,7 +24,7 @@ config:
 description:
   Kazooka Meltyu. Currently, the sim is unable to perform the preferred
   Bennett Q miss combo.
-hash: e84f71146e15f2fa5151a80a5cbd46b9ab1fef5d
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 6
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35232.065615514024
+dps: 35183.81758511329
 mode: sl
 duration: 121.9999999999999
 target_count: 1

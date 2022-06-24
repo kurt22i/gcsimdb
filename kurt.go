@@ -282,15 +282,15 @@ func getName(data jsondata) string {
 
 var chars = []string{"Ayato", "YaeMiko", "Shenhe", "YunJin", "Itto", "Gorou", "Thoma", "Kokomi", "Raiden", "Sara", "Aloy", "Yoimiya", "Sayu", "Ayaka", "Kazuha",
 	"Eula", "Yanfei", "Rosaria", "HuTao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Tartaglia", "Diona", "Klee", "Venti", "Keqing", "Mona",
-	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "TravelerGeo", "TravelerElectro", "Yelan"}
+	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "TravelerGeo", "TravelerElectro", "Yelan", "Kuki"}
 
 var foldernames = []string{"Ayato", "Yae", "Shenhe", "Yun Jin", "Itto", "Gorou", "Thoma", "Kokomi", "Raiden", "Sara", "Aloy", "Yoimiya", "Sayu", "Ayaka", "Kazuha",
 	"Eula", "Yanfei", "Rosaria", "Hu Tao", "Xiao", "Ganyu", "Albedo", "Zhongli", "Xinyan", "Childe", "Diona", "Klee", "Venti", "Keqing", "Mona",
-	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "GMC", "EMC", "Yelan"}
+	"Qiqi", "Diluc", "Jean", "Sucrose", "Chongyun", "Noelle", "Bennett", "Fischl", "Ningguang", "Xingqiu", "Beidou", "Xiangling", "Razor", "Barbara", "Lisa", "Kaeya", "Amber", "Paimon", "GMC", "EMC", "Yelan", "Kuki"}
 
 var abbrs = []string{"at", "ya", "sh", "yj", "it", "gr", "tm", "kk", "rd", "sr", "al", "ym", "sy", "ay", "kz",
 	"eu", "yf", "rs", "ht", "xa", "gy", "ab", "zl", "xy", "ch", "dn", "kl", "vn", "kq", "mn",
-	"qq", "dl", "jn", "sc", "cy", "nl", "bn", "fs", "ng", "xq", "bd", "xl", "rz", "bb", "ls", "ky", "am", "pm", "gc", "em", "yl"}
+	"qq", "dl", "jn", "sc", "cy", "nl", "bn", "fs", "ng", "xq", "bd", "xl", "rz", "bb", "ls", "ky", "am", "pm", "gc", "em", "yl", "ku"}
 
 func charid(c string) int {
 	for i := range chars {
