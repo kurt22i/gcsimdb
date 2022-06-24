@@ -25,7 +25,7 @@ config:
   skill,burst, attack:2;\nbennett burst,attack,skill;\nkuki skill;\nxiangling attack,burst,
   skill;\nbennett attack,skill;\nxingqiu attack:2;\nbennett attack,skill;\nkuki attack:2;\nbennett
   attack,skill;\nxingqiu attack:2;\nbennett attack,skill;\nxingqiu attack:2;\nbennett
-  attack,skill,attack;\nxiangling attack:3;\nkuki attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack,skill,attack;\nxiangling attack:3;\nkuki attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -65,7 +65,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49298.84033870748
+dps: 49295.37082082584
 mode: sl
 duration: 105.00000000000071
 target_count: 1
