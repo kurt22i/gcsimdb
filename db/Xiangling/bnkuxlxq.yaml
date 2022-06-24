@@ -1,10 +1,13 @@
 author: Juampi65#5084
 config:
   "kuki char lvl=90/90 cons=6 talent=9,9,9;\nkuki add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nkuki add set=\"tenacityofthemillelith\" count=4;\nkuki add
+  refine=3 lvl=90/90;\nkuki add set=\"tenacityofthemillelith\" count=4;\n#kuki add
   stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.1102
-  em=385.2 cr=0.642 cd=0.3972 electro%=0.466;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
-  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"crimsonwitchofflames\"
+  em=385.2 cr=0.642 cd=0.3972 electro%=0.466;\nkuki add stats hp=4780 hp%=0 atk%=0
+  atk=311 def%=0 em=374 heal=0 phys%=0 er=0 cr=0.311 electro%=0 cd=0;\nkuki add stats
+  def=39.36 def%=0.124 em=158.56 atk=33.08 hp=507.88 hp%= 0.0992 atk%=0.0992 er=0.1102
+  cr=0.331 cd=0.5296 ;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add
+  weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"crimsonwitchofflames\"
   count=4;\nbennett add stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08
   atk%=0.1984 er=0.1102 em=226.64 cr=0.642 cd=0.7944 pyro%=0.466;\n\nxiangling char
   lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling
@@ -12,14 +15,13 @@ config:
   hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.6282 em=79.28 cr=0.642 cd=0.7944
   pyro%=0.466;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\"
   refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\" count=4;\nxingqiu add stats
-  hp=4780 hp%=0 atk%=0 atk=311 def%=0 em=0 heal=0 phys%=0 er=0.518 cr=0.311 hydro%=0.466
-  cd=0;\nxingqiu add stats def=39.36 def%=0.124 em=39.64 atk=33.08 hp=507.88 hp%=
-  0.0992 atk%=0.1984 er=0.1102 cr=0.331 cd=0.7944 ;\n\ntarget lvl=100 resist=0.1;
-  \nenergy every interval=480,720 amount=1; #Approximated to Perpetual Mechanical
-  Array\noptions swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#rotation\n\nactive
-  kuki;\n\nkuki skill, attack:2;\nxingqiu skill,burst, attack:2;\nbennett burst;\nxiangling
-  burst, skill;\nbennett skill, attack:4, dash, attack:4, skill, attack:4, skill,
-  attack:4, skill,attack:4, skill;\nrestart;\n\n\n\n"
+  def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.1984 er=0.6282 em=39.64
+  cr=0.642 cd=0.7944 hydro%=0.466;\n\ntarget lvl=100 resist=0.1; \nenergy every interval=480,720
+  amount=1; #Approximated to Perpetual Mechanical Array\noptions swap_delay=12 debug=true
+  iteration=1000 duration=100 workers=30 mode=sl;\n\n#rotation\n\nactive kuki;\n\nkuki
+  skill, attack:2;\nxingqiu skill,burst, attack:2;\nbennett burst;\nxiangling burst,
+  skill;\nbennett skill, attack:4, dash, attack:4, skill, attack:4, skill, attack:4,
+  skill,attack:4, skill;\nrestart;\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -59,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 46301.49856260383
+dps: 46424.88351052849
 mode: sl
 duration: 99.9999999999986
 target_count: 1

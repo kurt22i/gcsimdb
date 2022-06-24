@@ -1,4 +1,4 @@
-author: Lettuce Hunt#5806
+author: Lettuce Hunt#5806 and ragz#8600
 config:
   "yelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"slingshot\"
   refine=5 lvl=90/90;\nyelan add set=\"noblesseoblige\" count=4;\nyelan add stats
@@ -62,7 +62,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53332.14415687813
+dps: 53340.45099614335
 mode: sl
 duration: 105.99999999999856
 target_count: 1

@@ -19,7 +19,7 @@ config:
   duration=99 workers=30 mode=sl;\n\nenergy every interval=480,720 amount=1;\ntarget
   lvl=100 resist=0.1;\n\nactive yelan;\nyelan skill,burst,attack;\nkuki attack:2,skill,attack:2;\nkazuha
   attack,skill[hold=1],high_plunge,attack,burst,attack ;\nkeqing skill,burst,skill,\nattack,charge,\nattack,charge,\nattack,charge,\nattack,charge;\nkazuha
-  attack,skill,high_plunge;\nkuki burst;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack,skill,high_plunge;\nkuki burst;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Keqing Taser with Kuki.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -59,7 +59,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 34964.6377232269
+dps: 34981.75656226803
 mode: sl
 duration: 99.0000000000003
 target_count: 1

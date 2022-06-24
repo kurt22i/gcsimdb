@@ -105,6 +105,7 @@ config: |+
 
 
 
+
 description: Kuki Overload.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -144,7 +145,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 34605.14621020774
+dps: 34634.31013639733
 mode: sl
 duration: 126.49999999999653
 target_count: 1

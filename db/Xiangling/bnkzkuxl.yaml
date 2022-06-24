@@ -21,7 +21,7 @@ config:
   amount=1;\n\nactive kuki;\nkuki burst;\nkazuha skill,high_plunge;\nbennett skill,burst;\nkazuha
   burst;\nkuki skill;\nxiangling burst,skill;\nkazuha skill,high_plunge;\nbennett
   attack,skill;\nkuki attack:2;\nbennett attack,skill;\nkuki attack:2;\nbennett attack,skill;\nkazuha
-  skill,high_plunge,attack:3;\nbennett attack,skill;\nkuki attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill,high_plunge,attack:3;\nbennett attack,skill;\nkuki attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Kuki Overload with Kazuha.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 37055.775812303036
+dps: 37125.413116009404
 mode: sl
 duration: 108.99999999999856
 target_count: 1

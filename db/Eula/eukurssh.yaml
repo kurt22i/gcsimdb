@@ -1,25 +1,26 @@
-author: Juampi65#5084
+author: Juampi65#5084 and RoyM#2340
 config:
-  "eula char lvl=90/90 cons=0 talent=9,9,9;\neula add weapon=\"serpentspine\"
-  refine=1 lvl=90/90;\neula add set=\"paleflame\" count=4;\neula add stats def%=0.124
-  def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.5652 er=0.2755 em=39.64 cr=0.642
-  cd=0.7282 phys%=0.583;\n\nkuki char lvl=90/90 cons=6 talent=9,9,9;\nkuki add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nkuki add set=\"oceanhuedclam\" count=4;\nkuki add stats def%=0.124
-  def=39.36 hp=6303.64 hp%=1.3288 atk=344.08 atk%=0.0992 er=0.11019999999999999 em=39.64
-  cr=0.3972 cd=0.1324 heal=0.359;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
-  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nrosaria add set=\"blizzardstrayer\"
-  count=2;\nrosaria add set=\"gladiatorsfinale\" count=2;\nrosaria add stats hp=4780
-  hp%=0 atk%=0.466 atk=311 def%=0 em=0 heal=0 phys%=0 er=0 cr=0.311 cryo%=0.466 cd=0;\nrosaria
-  add stats def=39.36 def%=0.124 em=39.64 atk=33.08 hp=507.88 hp%= 0.0992 atk%=0.1984
-  er=0.1102 cr=0.331 cd=0.7944 ;\n\nshenhe char lvl=90/90 cons=0 talent=9,9,9;\nshenhe
-  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe add set=\"noblesseoblige\"
-  count=4;\nshenhe add stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08
-  atk%=1.3288 er=0.2204 em=39.64 cr=0.642 cd=0.3972;\n\ntarget lvl=100 resist=0.1;
-  \nenergy every interval=480,720 amount=1; #Approximated to Perpetual Mechanical
-  Array\noptions swap_delay=12 debug=true iteration=1000 duration=99.7 workers=30
-  mode=sl;\n\n#rotation\n\nactive kuki;\n\nkuki skill, attack;\nshenhe skill, burst,
-  attack;\nrosaria burst, skill, attack;\neula skill, burst, attack:4, skill[hold=1],
-  attack:4, dash, attack:2;\nshenhe skill;\nrosaria skill;\neula skill, attack:4;\n\nrestart;\n\n\n"
+  "eula char lvl=90/90 cons=0 talent=9,9,9; \neula add weapon=\"serpentspine\"
+  refine=1 lvl=90/90 +params=[stacks=5];\neula add set=\"paleflame\" count=4;\neula
+  add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cd=0.622 ; #main\neula add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
+  cr=0.3972 cd=0.5296;\n\nkuki char lvl=90/90 cons=6 talent=9,9,9;\nkuki add weapon=\"favoniussword\"
+  refine=3 lvl=90/90;\nkuki add set=\"tenacityofthemillelith\" count=4;\nkuki add
+  stats hp=4780 atk=311 hp%=0.466 electro%=0.466 cr=0.311; #main\nkuki add stats def%=0.1240
+  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nrosaria add set=\"blizzardstrayer\" count=2;\nrosaria add set=\"gladiatorsfinale\"
+  count=2;\nrosaria add stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08
+  atk%=0.6644 er=0.1102 em=39.64 cr=0.642 cd=0.7944 cryo%=0.466;\n\nshenhe char lvl=90/90
+  cons=0 talent=9,9,9;\nshenhe add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nshenhe
+  add set=\"noblesseoblige\" count=4;\nshenhe add stats def%=0.124 def=39.36 hp=5287.88
+  hp%=0.0992 atk=344.08 atk%=1.3288 er=0.2204 em=39.64 cr=0.642 cd=0.3972;\n\ntarget
+  lvl=100 resist=0.1; \nenergy every interval=480,720 amount=1; #Approximated to Perpetual
+  Mechanical Array\noptions swap_delay=12 debug=true iteration=1000 duration=99.7
+  workers=30 mode=sl;\n\n#rotation\n\nactive kuki;\n\nkuki skill, attack;\nshenhe
+  skill, burst, attack;\nrosaria skill,burst,attack;\neula skill, burst, attack:4,
+  skill[hold=1], attack:4, dash, attack:2;\nshenhe skill;\nrosaria skill;\neula skill,
+  attack:4;\n\nrestart;\n\n\n\n\n\n\n\n\n\n"
 description: Eula with Kuki.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -27,7 +28,7 @@ team:
     con: 0
     weapon: serpentspine
     refine: 1
-    er: 0.2755
+    er: 0.3306
     talents:
       attack: 9
       skill: 9
@@ -36,7 +37,7 @@ team:
     con: 6
     weapon: favoniussword
     refine: 3
-    er: 0.11019999999999999
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -59,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 30741.07525748313
+dps: 34534.94690727966
 mode: sl
 duration: 99.69999999999884
 target_count: 1
