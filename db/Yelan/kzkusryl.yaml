@@ -1,4 +1,4 @@
-author: CPM#7653
+author: CPM#7653 and RoyM#2340
 config: |+
   #char builds
 
@@ -109,7 +109,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 27188.484585151986
+dps: 27200.95751885121
 mode: sl
 duration: 204.00000000000102
 target_count: 1

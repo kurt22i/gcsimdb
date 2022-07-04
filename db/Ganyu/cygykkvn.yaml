@@ -11,8 +11,8 @@ config:
   stats def%=0.124 def=39.36 hp=507.88 hp%=0.5952 atk=33.08 atk%=0.3968 er=0.1102
   em=39.64 cr=0.1655 cd=0.1986;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi
   add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\"
-  count=5;\nventi add stats hp=4780 atk=311 atk%=0.466 anemo%=0.466 cr=0.311; #main\nventi
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  count=5;\nventi add stats hp=4780 atk=311 em=187 em=187 cr=0.311; #main\nventi add
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
   em=79.28 cr=0.331 cd=0.7944;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu
   add weapon=\"prototypecrescent\" refine=5 lvl=90/90;\nganyu add set=\"blizzardstrayer\"
   count=5;\nganyu add stats hp=4780 atk=311 atk%=0.466 cryo%=0.466 cd=0.622 ; #main\nganyu
@@ -20,8 +20,8 @@ config:
   em=39.64 cr=0.3972 cd=0.662;\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720
   amount=1;\nactive chongyun;\n#-------------------------------------------\n\nchongyun
   burst, skill;\nganyu aim[weakspot=1];\nkokomi attack, skill, attack;\nganyu attack,
-  skill, burst;\nventi skill, burst;\nganyu aim[weakspot=1], aim;\nventi skill, attack;\nganyu
-  attack, aim;\nrestart;\n\n"
+  skill, burst[radius=2];\nventi skill, burst;\nganyu aim[weakspot=1], aim;\nventi
+  skill, attack;\nganyu attack, aim;\nrestart;\n\n\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -61,7 +61,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 35160.4902498019
+dps: 37029.51980912341
 mode: sl
 duration: 103.94999999999843
 target_count: 1

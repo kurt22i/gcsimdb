@@ -1,35 +1,35 @@
-author: Raikh / Valien#8564
+author: Raikh / Valien#8564 and RoyM#2340
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=97.22 workers=30
-  mode=sl;\n\n#Character Builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9; \nsucrose
-  add weapon=\"hakushinring\" refine=5 lvl=90/90;\n#sucrose add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add
-  stats hp=4780 atk=311 em=187 em=187 em=187 ; #main\nsucrose add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.4959 er=0.5510 em=118.92 cr=0.0662
-  cd=0.1324;\n\n#xiangling char lvl=90/90 cons=6 talent=9,9,9; \n#xiangling add weapon=\"thecatch\"
-  refine=5 lvl=90/90;\n#xiangling add set=\"emblemofseveredfate\" count=5;\n#xiangling
-  add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\n#xiangling add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306
-  em=39.64 cr=0.2317 cd=0.662;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
-  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
-  count=5;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nxiangling
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
-  em=39.64 cr=0.331 cd=0.7944;\n\nkuki char lvl=90/90 cons=6 talent=9,9,9;\nkuki add
-  weapon=\"favoniussword\" refine=3 lvl=90/90;\nkuki add set=\"tenacityofthemillelith\"
+  "options swap_delay=12 debug=true iteration=1000 duration=100 workers=30 mode=sl;\n\n#Character
+  Builds:\nsucrose char lvl=90/90 cons=6 talent=9,9,9; \nsucrose add weapon=\"hakushinring\"
+  refine=5 lvl=90/90;\n#sucrose add weapon=\"thrillingtalesofdragonslayers\" refine=5
+  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=5;\nsucrose add stats hp=4780
+  atk=311 em=187 em=187 em=187 ; #main\nsucrose add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.4959 er=0.5510 em=118.92 cr=0.0662 cd=0.1324;\n\n#xiangling
+  char lvl=90/90 cons=6 talent=9,9,9; \n#xiangling add weapon=\"thecatch\" refine=5
+  lvl=90/90;\n#xiangling add set=\"emblemofseveredfate\" count=5;\n#xiangling add
+  stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ; #main\n#xiangling add stats
+  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
+  cr=0.2317 cd=0.662;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"kitaincrossspear\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=5;\nxiangling add stats hp=4780 atk=311 atk%=0.466 pyro%=0.466 cr=0.311 ;
+  #main\nxiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\nkuki char lvl=90/90 cons=6 talent=9,9,9;\nkuki
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkuki add set=\"tenacityofthemillelith\"
   count=5;\nkuki add stats hp=4780 atk=311 em=187 em=187 em=187; #main 5* set\nkuki
   add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
   em=118.92 cr=0.3972 cd=0.1324 ;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
-  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"noblesseoblige\"
-  count=5;\n#xingqiu add set=\"emblemofseveredfate\" count=5;\nxingqiu add stats hp=4780
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\n#xingqiu add set=\"noblesseoblige\"
+  count=5;\nxingqiu add set=\"emblemofseveredfate\" count=5;\nxingqiu add stats hp=4780
   atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36
   hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\n#Enemies
   and Particles:\ntarget lvl=100 resist=.1;\n#target lvl=100 resist=.1;\n\nenergy
   every interval=480,720 amount=1;\n\n#Action List:\nactive xingqiu;\n\nxingqiu skill,
-  dash, burst, attack;\nkuki skill, attack;\nxiangling skill, attack;\nwait 10;\nsucrose
-  skill, dash, attack;\nxiangling burst, attack;\nsucrose burst, attack:3, dash,\n
-  \              attack:3, dash,\n               attack:1;\nkuki burst, attack;\nxiangling
-  skill, attack;\nwait 10;\nsucrose skill,dash, attack:3, charge;\nsucrose\n        attack:3,
-  dash,\n        attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  dash, burst, attack;\nkuki skill, attack;\nxiangling attack,skill;\nwait 10;\nsucrose
+  attack,   skill,\n        attack:3;\nxiangling attack,burst;\nsucrose burst, attack:3,
+  dash,\n               attack:3, dash,\n               attack:1;\nkuki burst, attack;\nxiangling
+  attack,skill;\nwait 10;\nsucrose attack,skill,dash, attack:3, charge;\nsucrose\n
+  \       attack:3, dash,\n        attack:3;\nkuki attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -53,9 +53,9 @@ team:
       burst: 9
   - name: xiangling
     con: 6
-    weapon: thecatch
+    weapon: kitaincrossspear
     refine: 5
-    er: 0.6282
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
@@ -69,8 +69,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 34080.53038001549
+dps: 34783.23778810557
 mode: sl
-duration: 97.21666666666778
+duration: 99.9999999999986
 target_count: 1
 viewer_key: fqOdo3iLdYGtcmwJv5dET

@@ -1,6 +1,6 @@
-author: Rare Possum#0511 and Zephyr#0177
+author: Rare Possum#0511, Zephyr#0177 and Xardas#5785
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=104.8 workers=30
+  "options swap_delay=12 debug=true iteration=1000 duration=104.5 workers=30
   mode=sl;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"hamayumi\"
   refine=5 lvl=90/90;\nganyu add set=\"wandererstroupe\" count=5;\nganyu add stats
   hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311 ; #main\nganyu add stats def%=0.124
@@ -18,10 +18,10 @@ config:
   add set=\"emblemofseveredfate\" count=4;\nxiangling add stats hp=4780 atk=311 er=0.518
   pyro%=0.466 cr=0.311 ; #main \nxiangling add stats def=39.36 def%=0.124 hp=507.88
   hp%=0.0992 atk=33.08 atk%=0.0992 er=0.551 em=39.64 cr=0.1986 cd=0.662 ;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\nactive
-  bennett;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
+  zhongli;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
   physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\n\nzhongli attack,
   skill[hold=1],dash;\nbennett burst,skill;\nxiangling burst,skill;\nganyu skill,
-  aim:5,skill,aim;\nbennett skill,attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  aim[weakspot=1]:5,skill,aim[weakspot=1];\nbennett skill,attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description:
   Melt Ganyu. 6 CAs per rotation; the last one is still a melt but doesn't
   get buffed by Bennett.
@@ -63,8 +63,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 53215.2784430424
+dps: 54531.36790808822
 mode: sl
-duration: 104.79999999999822
+duration: 104.50000000000132
 target_count: 1
 viewer_key: v6RuXGukQ9sHHScW9VVvY

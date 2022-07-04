@@ -1,14 +1,14 @@
 author: Ocram2012#6693
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=108.38 workers=30
+  "options swap_delay=12 debug=true iteration=1000 duration=108.52 workers=30
   mode=sl;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\"
   refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats
   hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main\nyelan add stats def=39.36
   def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
-  cd=0.7944;\t\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thrillingtalesofdragonslayers\"
-  refine=5 lvl=90/90;\nmona add set=\"noblesseoblige\" count=5;\nmona add stats hp=4780
-  atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.1986 cd=0.5296;\n\nhutao
+  cd=0.7944;\t\n\nmona char lvl=90/90 cons=0 talent=9,9,9; \nmona add weapon=\"thewidsith\"
+  refine=3 lvl=90/90;\nmona add set=\"noblesseoblige\" count=5;\nmona add stats hp=4780
+  atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nmona add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\nhutao
   char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon= \"deathmatch\" refine=1 lvl=90/90;\nhutao
   add set=\"shimenawasreminiscence\" count=4;\nhutao add stats hp=4780 atk=311 em=187
   pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984
@@ -16,14 +16,13 @@ config:
   cons=6 talent=9,9,9; \nxingqiu add weapon=\"harbingerofdawn\" refine=5 lvl=90/90;\nxingqiu
   add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
   hydro%=0.466 cr=0.311; #main\nxingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\n\ntarget lvl=100
-  resist=0.1;\nenergy every interval=480,720 amount=1;\n\nactive xingqiu;\nxingqiu
-  burst, attack:2;\nyelan attack, burst, attack;\nmona skill, attack, burst, attack;\nyelan
-  skill, attack;\nhutao skill,\n    attack:1, charge, jump,\n    attack:1, charge,
-  jump,\n    attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:1, charge,
-  jump,\n    attack:2, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
-  jump,\n    attack:1, charge, jump;\nyelan attack, skill, attack;\nxingqiu attack,
-  skill, attack;\n\n\nrestart;\n\n\n\n"
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\ntarget lvl=100 resist=0.1;\nenergy
+  every interval=480,720 amount=1;\n\nactive yelan;\nyelan burst, attack:2;\nxingqiu
+  attack, burst, attack;\nmona skill, attack, burst, attack;\nyelan skill, attack;\nhutao
+  skill,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:2,
+  charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1,
+  charge, jump;\nyelan attack, skill, attack;\nxingqiu attack, skill, attack:2;\n\n\nrestart;\n\n\n\n\n\n\n"
 description: Mona-Tao with triple Hydro.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -38,9 +37,9 @@ team:
       burst: 9
   - name: mona
     con: 0
-    weapon: thrillingtalesofdragonslayers
-    refine: 5
-    er: 0.6282
+    weapon: thewidsith
+    refine: 3
+    er: 0.3306
     talents:
       attack: 9
       skill: 9
@@ -63,8 +62,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 55297.32614404336
+dps: 57263.29472666224
 mode: sl
-duration: 108.36666666666791
+duration: 108.51666666666952
 target_count: 1
 viewer_key: cKyh8EAEhE9EV1CXRAc0V

@@ -1,28 +1,28 @@
 author: RoyM#2340
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=207 mode=sl;\n\nxiangling
+  "options swap_delay=12 debug=true iteration=1000 duration=197.5 mode=sl;\n\nxiangling
   char lvl=90/90 cons=6 talent=9,9,9;\nxiangling add weapon=\"thecatch\" refine=5
   lvl=90/90;\nxiangling add set=\"emblemofseveredfate\" count=4;\nxiangling add stats
   hp=4780 atk=311.0 atk%=0.466 cr=0.311 pyro%=0.466;\nxiangling add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
   cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
   refine=1 lvl=90/90;\nbennett add set=\"instructor\" count=4;\nbennett add stats
-  hp=3571 atk=232 er=0.387 cr=0.232 pyro%=0.466 ; #main\nbennett add stats def%=0.124
+  hp=3571 atk=232 atk%=0.348 cr=0.232 pyro%=0.466 ; #main\nbennett add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.2317
   cd=0.4634;\n\ntartaglia char lvl=90/90 cons=0 talent=9,9,9;\ntartaglia add weapon=\"theviridescenthunt\"
   refine=1 lvl=90/90;\ntartaglia add set=\"heartofdepth\" count=4;\ntartaglia add
   stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cd=0.622;\ntartaglia add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.3972
-  cd=0.5296;\n\ndiona char lvl=90/90 cons=6 talent=9,9,9; \ndiona add weapon=\"favoniuswarbow\"
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972
+  cd=0.662;\n\ndiona char lvl=90/90 cons=6 talent=9,9,9; \ndiona add weapon=\"favoniuswarbow\"
   refine=3 lvl=90/90;\ndiona add set=\"noblesseoblige\" count=4;\ndiona add stats
   hp=4780 atk=311 er=0.518 cryo%=0.466 cr=0.311 ; #main\ndiona add stats def=39.36
-  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331
-  cd=0.5296;\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\nactive
-  bennett;\nbennett burst,attack,skill;\ndiona attack:2,burst,skill[hold=1];\nxiangling
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331
+  cd=0.7944;\n\ntarget lvl=100 resist=.1;\n\nenergy every interval=480,720 amount=1;\n\nactive
+  bennett;\ntartaglia skill;\nbennett burst,attack,skill;\ndiona attack:2,burst,skill[hold=1];\nxiangling
   attack,burst, skill;\ntartaglia burst, skill,\n          attack:3, charge, dash,\n
   \         attack:3, charge, dash,\n          attack:2, charge;\nbennett attack,skill,attack;\ntartaglia
   aim;\nxiangling skill;\ndiona attack,skill;\nbennett attack,skill,attack;\nxiangling
-  attack:3;\ntartaglia aim:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  attack:3;\ntartaglia aim;\nbennett attack,skill,attack;\ntartaglia aim;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -30,7 +30,7 @@ team:
     con: 6
     weapon: thealleyflash
     refine: 1
-    er: 0.49720000000000003
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -39,7 +39,7 @@ team:
     con: 6
     weapon: favoniuswarbow
     refine: 3
-    er: 0.9588000000000001
+    er: 0.7384000000000001
     talents:
       attack: 9
       skill: 9
@@ -48,7 +48,7 @@ team:
     con: 0
     weapon: theviridescenthunt
     refine: 1
-    er: 0.3306
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -57,13 +57,13 @@ team:
     con: 6
     weapon: thecatch
     refine: 5
-    er: 0.3306
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 37687.75726815498
+dps: 38307.09632847973
 mode: sl
-duration: 206.9999999999958
+duration: 197.49999999999824
 target_count: 1
 viewer_key: Da_KlK5NuSSFcwSc_Ikky

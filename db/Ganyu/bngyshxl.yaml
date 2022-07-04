@@ -1,6 +1,6 @@
 author: LettuceHunt#1336 and Rare Possum#0511
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=84.13 workers=30
+  "options swap_delay=12 debug=true iteration=1000 duration=83.87 workers=30
   mode=sl;\n\nganyu char lvl=90/90 cons=0 talent=9,9,9; \nganyu add weapon=\"hamayumi\"
   refine=5 lvl=90/90;\nganyu add set=\"wandererstroupe\" count=4;\nganyu add stats
   hp=4780 atk=311 em=187 cryo%=0.466 cr=0.311 ; #main\nganyu add stats def%=0.124
@@ -21,9 +21,9 @@ config:
   hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\n\nenergy every interval=480,720
   amount=1;\n\nactive shenhe;\n\nshenhe skill[hold=1],burst;\nbennett burst, skill;\nxiangling
   burst, skill;\nganyu aim, aim, aim, aim, aim, skill,aim;\nshenhe attack:2;\nbennett
-  skill, attack;\nxiangling attack:3;\n\nshenhe attack:1, skill[hold=1];\nbennett
+  skill, attack;\nxiangling attack:2;\nwait 20;\nshenhe attack:1, skill[hold=1];\nbennett
   burst, skill;\nxiangling burst, skill;\nganyu aim, aim, aim, aim, aim, skill,aim;\nbennett
-  skill, attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  skill, attack;\nxiangling attack:3;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description:
   Melt Ganyu with Shenhe. Assumes 5 CAs, but with no shield it can be hard
   to do this.
@@ -65,8 +65,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 48935.25913742496
+dps: 49042.07823200493
 mode: sl
-duration: 84.11666666666832
+duration: 83.86666666666571
 target_count: 1
 viewer_key: JKgDQqv0l48fCzlka12M3

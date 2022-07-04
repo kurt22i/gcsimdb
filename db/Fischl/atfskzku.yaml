@@ -4,13 +4,13 @@ config: |+
 
   ### CHARACTERS, WEAPONS
   kazuha char lvl=90/90 cons=0 talent=9,9,9;
-  kazuha add weapon="favoniussword" refine=3 lvl=90/90;
+  kazuha add weapon="ironsting" refine=3 lvl=90/90;
 
   ayato char lvl=90/90 cons=0 talent=9,9,9;
   ayato add weapon="lionsroar" refine=3 lvl=90/90;
 
   kuki char lvl=90/90 cons=6 talent=9,9,9;
-  kuki add weapon="ironsting" refine=5 lvl=90/90;
+  kuki add weapon="favoniussword" refine=3 lvl=90/90;
 
   fischl char lvl=90/90 cons=6 talent=9,9,9;
   fischl add weapon="thestringless" refine=3 lvl=90/90;
@@ -41,15 +41,15 @@ config: |+
   active ayato;
 
   ayato burst[radius=2];
-  kuki skill;
+  kuki attack,skill;
   kazuha skill, high_plunge, burst;
   fischl skill;
   kuki burst;
   ayato skill, attack:15;
-  kazuha attack, skill, high_plunge, attack;
-  kuki skill;
+  kazuha skill, high_plunge;
+  kuki attack,skill;
   fischl attack, burst;
-  ayato attack:2, dash, attack, skill, attack:13;
+  ayato attack:2,skill, attack:15;
 
   restart;
 
@@ -76,7 +76,7 @@ team:
       burst: 9
   - name: kazuha
     con: 0
-    weapon: favoniussword
+    weapon: ironsting
     refine: 3
     er: 0.3306
     talents:
@@ -85,14 +85,14 @@ team:
       burst: 9
   - name: kuki
     con: 6
-    weapon: ironsting
-    refine: 5
+    weapon: favoniussword
+    refine: 3
     er: 0.2204
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 32564.01202142288
+dps: 33479.51457380648
 mode: sl
 duration: 156.00000000000313
 target_count: 1
