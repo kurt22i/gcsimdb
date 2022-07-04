@@ -1,0 +1,71 @@
+author: Xardas#5785
+config:
+  "#Configs\ntarget lvl=100 resist=0.1; #Default Res\nenergy every interval=480,720
+  amount=1; #Approximated to Perpetual Mechanical Array\noptions swap_delay=12 debug=true
+  iteration=1000 duration=105 workers=30 mode=sl;\n\n#Chars Builds\nyoimiya char lvl=90/90
+  cons=0 talent=9,9,9;\nyoimiya add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyoimiya
+  add set=\"echoesofanoffering\" count=4;\nyoimiya add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cr=0.311; #main 5* set\nyoimiya add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats hp=4780
+  atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main 5* set\nyelan add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944 ;\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\njean char lvl=90/90 cons=0 talent=9,9,9;
+  \njean add weapon=\"favoniussword\" refine=3 lvl=90/90;\njean add set=\"viridescentvenerer\"
+  count=4;\njean add stats hp=4780 atk=311 er=0.518 anemo%=0.466 cr=0.311; #main\njean
+  add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.331 cd=0.7944; #20 liquid subs\n\nyunjin char lvl=90/90 cons=6 talent=9,9,9;\nyunjin
+  add weapon=\"favoniuslance\" refine=3 lvl=90/90;\nyunjin add set=\"archaicpetra\"
+  count=4;\nyunjin add stats hp=4780 atk=311 def%=0.583 def%=0.583 def%=0.583;\nyunjin
+  add stats def=39.36 def%=0.31 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4959
+  em=39.64 cr=0.3972 cd=0.1324 ;\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n#Rotation
+  Duration = 20.6s\n#Yelan E N1 Q N1 > Kazuha Q N1 > Bennett Q E N1 > Kazuha hEP N1
+  > Yoimiya E 3N5D > Kazuha tEP > Bennett E > Restart\nactive yoimiya;\n\nyoimiya
+  burst;\nyelan skill, attack, burst, attack;\nyunjin attack, skill, attack, burst,
+  attack;\njean attack, skill, burst;\nyoimiya skill, attack:5, dash, attack:5, dash,
+  attack:5;\njean attack, skill, attack;\n\nrestart;\n\n\n"
+description: ""
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: jean
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yoimiya
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yunjin
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.4959
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 35425.616325968884
+mode: sl
+duration: 105.00000000000071
+target_count: 1
+viewer_key: YTiEgfP2dpGw9okFpLppM

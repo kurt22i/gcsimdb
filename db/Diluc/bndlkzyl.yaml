@@ -1,6 +1,6 @@
-author: Rare Possum#0511
+author: Rare Possum#0511 and Voidrev#2697
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=98 workers=30 mode=sl;\nkazuha
+  "options swap_delay=12 debug=true iteration=1000 duration=101 workers=30 mode=sl;\nkazuha
   char lvl=90/90 cons=0 talent=9,9,9;\nkazuha add weapon=\"favoniussword\" refine=3
   lvl=90/90;\nkazuha add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780
   atk=311 em=187 em=187 em=187;\nkazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
@@ -12,16 +12,16 @@ config:
   cons=0 talent=9,9,9; \ndiluc add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\ndiluc
   add set=\"crimsonwitchofflames\" count=4;\ndiluc add stats hp=4780 atk=311 em=187
   pyro%=0.466 cd=0.622 ; #main\ndiluc add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\nyelan char lvl=90/90
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.40 cr=0.3972 cd=0.662;\n\nyelan char lvl=90/90
   cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan
   add set=\"emblemofseveredfate\" count=4;\nyelan add stats hp=4780 atk=311 hp%=0.466
   cr=0.311 hydro%=0.466 ; #main\nyelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
   atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;\n\n# ----  Default Enemy\ntarget
   lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n# ----  Actions List\n\nactive
-  yelan;\nyelan skill, burst, charge, attack;\nkazuha burst, attack;\nbennett skill,
-  attack, burst;\nkazuha skill[hold=1], high_plunge;\ndiluc burst, attack, skill,
-  attack:2, skill, attack:2, skill, attack:2;\nbennett attack,skill,attack;\nkazuha
-  skill, high_plunge;\nrestart;\n\n\n"
+  yelan;\nyelan skill, burst, charge[weakpoint=1], attack;\nkazuha attack, burst;\nbennett
+  attack, skill, attack, burst, attack;\nkazuha skill[hold=1], high_plunge, attack;\ndiluc
+  skill, attack:2, skill, attack, skill, attack:4, dash, attack:4;\nkazuha skill,
+  high_plunge, attack:2;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -61,8 +61,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 42899.321200876904
+dps: 45357.420099975694
 mode: sl
-duration: 97.9999999999992
+duration: 100.9999999999993
 target_count: 1
 viewer_key: XoIJstbLYEesXA_znJDmh

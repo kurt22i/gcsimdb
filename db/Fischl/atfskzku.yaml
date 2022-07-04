@@ -1,0 +1,99 @@
+author: Buki#7742
+config: |+
+  options swap_delay=12 debug=true iteration=1000 duration=156 mode=sl;
+
+  ### CHARACTERS, WEAPONS
+  kazuha char lvl=90/90 cons=0 talent=9,9,9;
+  kazuha add weapon="favoniussword" refine=3 lvl=90/90;
+
+  ayato char lvl=90/90 cons=0 talent=9,9,9;
+  ayato add weapon="lionsroar" refine=3 lvl=90/90;
+
+  kuki char lvl=90/90 cons=6 talent=9,9,9;
+  kuki add weapon="ironsting" refine=5 lvl=90/90;
+
+  fischl char lvl=90/90 cons=6 talent=9,9,9;
+  fischl add weapon="thestringless" refine=3 lvl=90/90;
+
+  ### ARTIFACTS
+  kazuha add set="viridescentvenerer" count=4;
+  ayato add set="echoesofanoffering" count=4;
+  fischl add set="gladiatorsfinale" count=2;
+  fischl add set="thunderingfury" count=2;
+  kuki add set="tenacityofthemillelith" count=4;
+  ### MAIN STATS
+  kazuha add stats hp=4780 atk=311 em=187 em=187 em=187;
+  ayato add stats hp=4780 atk=311 hydro%=0.466 atk%=0.466 cr=0.311;
+  kuki add stats hp=4780 atk=311 hp%=0.466 electro%=0.466 cr=0.311;
+  fischl add stats hp=4780 atk=311 electro%=0.466 atk%=0.466 cr=0.311;
+
+  ### SUB ROLLS
+  ayato add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.331 cd=0.662;
+  kuki add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
+  fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+  kazuha add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952 er=0.3306 em=118.92 cr=0.1324 cd=0.1324;
+
+  ##Default Enemy
+  target lvl=100 resist=.1;
+  energy every interval=480,720 amount=1;
+
+  ##Actions List
+  active ayato;
+
+  ayato burst[radius=2];
+  kuki skill;
+  kazuha skill, high_plunge, burst;
+  fischl skill;
+  kuki burst;
+  ayato skill, attack:15;
+  kazuha attack, skill, high_plunge, attack;
+  kuki skill;
+  fischl attack, burst;
+  ayato attack:2, dash, attack, skill, attack:13;
+
+  restart;
+
+description: ""
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: ayato
+    con: 0
+    weapon: lionsroar
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: thestringless
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kuki
+    con: 6
+    weapon: ironsting
+    refine: 5
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 32564.01202142288
+mode: sl
+duration: 156.00000000000313
+target_count: 1
+viewer_key: uFQhpuTutd19NtxswAxQg

@@ -1,0 +1,70 @@
+author: RoyM#2340
+config:
+  "hutao char lvl=90/90 cons=0 talent=9,9,9;\nhutao add weapon= \"deathmatch\"
+  refine=1 lvl=90/90;\nhutao add set=\"shimenawasreminiscence\" count=4;\nhutao add
+  stats hp=4780 atk=311 em=187 pyro%=0.466 cd=0.622;\nhutao add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662;\n\nraiden
+  char lvl=90/90 cons=0 talent=9,9,9; \nraiden add weapon=\"thecatch\" refine=5 lvl=90/90;\nraiden
+  add set=\"emblemofseveredfate\" count=4;\nraiden add stats hp=4780 atk=311 er=0.518
+  atk%=0.466 cr=0.311 ; #main\nraiden add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\nkazuha char lvl=90/90
+  cons=0 talent=9,9,9; \nkazuha add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha
+  add set=\"viridescentvenerer\" count=4;\nkazuha add stats hp=4780 atk=311 em=187
+  em=187 em=187 ; #main\nkazuha add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.4408 em=118.92 cr=0.3972 cd=0.1324 ;\t\n\nkokomi char
+  lvl=90/90 cons=0 talent=9,9,9;\nkokomi add weapon=\"thrillingtalesofdragonslayers\"
+  refine=5 lvl=90/90;\nkokomi add set=\"oceanhuedclam\" count=4;\nkokomi add stats
+  hp=4780 atk=311 hp%=0.466 hydro%=0.466 heal=0.3590; #main\nkokomi add stats def%=0.1240
+  def=39.36 hp=1015.76 hp%=0.496 atk=33.08 atk%=0.5952 er=0.1102 em=39.64 cr=0.0662
+  cd=0.1324;\n\noptions swap_delay=12 debug=true iteration=1000 duration=100\nworkers=30
+  mode=sl;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n
+  active raiden;\n\nraiden skill, attack;\nkazuha skill, attack;\nkokomi skill;\nkazuha
+  burst, attack;\nhutao skill,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1, charge,
+  jump, \n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:1,
+  charge, jump, \n    attack:1, charge, jump;\nraiden  attack, burst,\n       attack:4,
+  dash, attack:4, dash, attack:4, dash, attack:4;  \nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: ""
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: hutao
+    con: 0
+    weapon: deathmatch
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kazuha
+    con: 0
+    weapon: favoniussword
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kokomi
+    con: 0
+    weapon: thrillingtalesofdragonslayers
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: raiden
+    con: 0
+    weapon: thecatch
+    refine: 5
+    er: 0.6282
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 28651.080634944403
+mode: sl
+duration: 99.9999999999986
+target_count: 1
+viewer_key: yrminPD2TCF4GlgMMPnt-

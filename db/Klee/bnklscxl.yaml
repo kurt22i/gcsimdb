@@ -1,0 +1,77 @@
+author: Toneiro-UmSiri#4291
+config:
+  "klee char lvl=90/90 cons=0 talent=9,9,9;\nklee add weapon=\"thewidsith\"
+  refine=3 lvl=90/90;\nklee add set=\"lavawalker\" count=4;\nklee add stats def%=0.124
+  def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.5652 er=0.3306 em=39.64 cr=0.642
+  cd=0.662 pyro%=0.466;\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9;\nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08
+  atk%=0.0992 er=0.7384000000000001 em=39.64 cr=0.642 cd=0.7944 pyro%=0.466;\n\nsucrose
+  char lvl=90/90 cons=6 talent=9,9,9;\nsucrose add weapon=\"favoniuscodex\" refine=3
+  lvl=90/90;\nsucrose add set=\"viridescentvenerer\" count=4;\nsucrose add stats def%=0.124
+  def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.4408 em=679.92 cr=0.3972
+  cd=0.1324;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
+  def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.8486 em=39.64
+  cr=0.6089 cd=0.7282 pyro%=0.466;\n\noptions swap_delay=12 debug=true iteration=1000
+  duration=86 workers=30 mode=sl;\n\nactive klee;\ntarget lvl=100 pyro=0.1 dendro=0.1
+  hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
+  amount=1;\n\nbennett burst, skill;\nxiangling burst, skill;\nsucrose skill, burst,
+  attack, charge;\nklee burst, attack, skill[bounce=3, mine=8],\n\tattack, charge,\n\tattack,
+  charge,\n\tattack, skill[bounce=3, mine=8], \n\tattack, charge,\n\tattack, charge,
+  \n\tattack;\nbennett skill, attack:2;\nsucrose attack:2, charge;\n\t\nbennett burst,
+  skill;\nxiangling burst, skill;\nsucrose skill, attack, charge;\nklee burst, attack,
+  skill[bounce=3, mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack, charge,
+  \n\tattack, charge, \n\tattack, charge, \n\tattack;\nbennett skill, attack:2;\nsucrose
+  attack:2, charge;\n\nbennett burst, skill;\nxiangling burst, skill;\nsucrose skill,
+  burst, attack, charge;\nklee burst, attack, skill[bounce=3, mine=8], \n\tattack,
+  charge,\n\tattack, charge,\n\tattack, charge, \n\tattack, charge, \n\tattack, charge,
+  \n\tattack;\nbennett skill, attack:2;\nsucrose attack:2, charge;\n\t\nbennett burst,
+  skill;\nxiangling burst, skill;\nsucrose skill, attack, charge;\nklee burst, attack,
+  skill[bounce=3, mine=8], \n\tattack, charge,\n\tattack, charge,\n\tattack, charge,
+  \n\tattack, charge, \n\tattack, charge, \n\tattack;\nbennett skill, attack:2;\nsucrose
+  attack:2, charge;\t\n\n\t\n\n\n\n"
+description: Klee Monopyro ft. Sucrose
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.8486
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: klee
+    con: 0
+    weapon: thewidsith
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: sucrose
+    con: 6
+    weapon: favoniuscodex
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 40469.12292895911
+mode: sl
+duration: 85.99999999999883
+target_count: 1
+viewer_key: NJ7MyrQ5EKRf_W_YGmTW3

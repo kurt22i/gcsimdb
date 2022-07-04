@@ -42,7 +42,7 @@ func main() {
 	flag.BoolVar(&upload, "u", false, "upload to db")
 	flag.Parse()
 
-	fmt.Printf("ju9n")
+	//fmt.Printf("ju9n")
 	err := run(d)
 
 	if err != nil {
@@ -183,7 +183,7 @@ func updateData() error {
 
 	lines := strings.Split(string(update), "\n")
 	for i := range lines {
-		if lines[i] == "" {
+		if !strings.Contains(lines[i], "~") || !strings.Contains(lines[i], "gcsim.app") {
 			continue //skip blank lines
 		}
 		info := strings.Split(lines[i], "~")

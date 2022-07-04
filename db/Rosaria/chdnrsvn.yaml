@@ -1,0 +1,67 @@
+author: RoyM#2340
+config:
+  "options swap_delay=12 debug=true iteration=1000 workers=30 mode=sl\n\n#Options:\nduration=108;\nenergy
+  every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\n#Characters\ntartaglia
+  char lvl=90/90 cons=0 talent=9,9,9; \ntartaglia add weapon=\"hamayumi\" refine=5
+  lvl=90/90;\ntartaglia add set= \"blizzardstrayer\" count=5;\ntartaglia add stats
+  hp=4780 atk=311 cd=0.622 hydro%=0.466 atk%=0.466 ;\ntartaglia add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102 em=39.64 cr=0.331
+  cd=0.662;\n\nventi char lvl=90/90 cons=0 talent=9,9,9; \nventi add weapon=\"favoniuswarbow\"
+  refine=3 lvl=90/90;\nventi add set=\"viridescentvenerer\" count=5;\nventi add stats
+  hp=4780 atk=311 em=561 ; #main\nventi add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3972 cd=0.662;\n\ndiona char lvl=90/90
+  cons=6 talent=9,9,9; \ndiona add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ndiona
+  add set= \"noblesseoblige\" count=5;\ndiona add stats hp=4780 atk=311 hp%=1.398
+  ;\ndiona add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.5952
+  er=0.1102 em=39.64 cr=0.3972 cd=0.1324;\n\nrosaria  char lvl=90/90 cons=6 talent=9,9,9;\nrosaria
+  add weapon= \"wavebreakersfin\" refine=1 lvl=90/90;\nrosaria add set= \"blizzardstrayer\"
+  count=5;\nrosaria add stats hp=4780 atk=311 cd=0.622 cryo%=0.466 atk%=0.466 ;\nrosaria
+  add stats def%=0.1240 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
+  em=39.64 cr=0.3972 cd=0.6620;\n\n\n#Rotation:\nactive tartaglia;\n\ntartaglia burst;\nventi
+  skill,burst;\ndiona skill[hold=1],burst;\nrosaria attack,skill,attack,burst;\nventi
+  skill,attack;\ntartaglia skill,attack:3,charge,dash,attack:3,charge,dash,attack:3,charge;\nventi
+  skill,attack;\nrosaria skill;\ntartaglia aim:2;\nrestart; \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: Tartaglia Freeze
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: diona
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: rosaria
+    con: 6
+    weapon: wavebreakersfin
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: tartaglia
+    con: 0
+    weapon: hamayumi
+    refine: 5
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: venti
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 21062.754700718895
+mode: sl
+duration: 108.00000000000088
+target_count: 1
+viewer_key: dns2MWS-2pH0bRZEMGiqE

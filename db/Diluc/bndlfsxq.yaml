@@ -1,30 +1,37 @@
-author: Rare Possum#0511, Hessey#9122 and Voidrev#2697
+author: Rare Possum#0511, Hessey#9122, Voidrev#2697 and 1ampercent#5324
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\n\ndiluc
-  char lvl=90/90 cons=0 talent=9,9,9; \ndiluc add weapon=\"serpentspine\" refine=1
-  lvl=90/90 +params=[stacks=5];\ndiluc add set=\"crimsonwitchofflames\" count=4;\ndiluc
-  add stats hp=4780 atk=311 em=187 pyro%=0.466 cd=0.622; #main\ndiluc add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.40 cr=0.3972
-  cd=0.662;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add weapon=\"favoniussword\"
-  refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\" count=4;\nxingqiu add
-  stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64
-  cr=0.331 cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
-  refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
-  add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
-  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
+  "diluc char lvl=90/90 cons=0 talent=9,9,9;\ndiluc add weapon=\"serpentspine\"
+  refine=1 lvl=90/90;\ndiluc add set=\"crimsonwitchofflames\" count=4;\ndiluc add
+  stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.11019999999999999
+  em=266.4 cr=0.3972 cd=1.284 pyro%=0.466;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08
+  atk%=0.5652 er=0.3306 em=39.64 cr=0.642 cd=0.662 hydro%=0.466;\n\nfischl char lvl=90/90
+  cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
+  add set=\"tenacityofthemillelith\" count=4;\nfischl add stats def%=0.124 def=39.36
+  hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.5652 er=0.4959 em=39.64 cr=0.5427000000000001
+  cd=0.662 electro%=0.466;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett
   add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
-  count=4;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
-  em=39.64 cr=0.331 cd=0.5296;\n\nactive xingqiu;\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\nxingqiu skill, dash, burst, attack;\nbennett skill,
-  attack, burst;\nfischl attack:1, skill;\ndiluc attack, skill, attack:2, skill, attack:2,
-  skill, attack, dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack,
-  skill, attack, skill, attack, skill, attack, burst;\nxingqiu skill, dash, burst,
-  attack;\nbennett skill, attack, burst;\nfischl attack:1, burst;\ndiluc attack, skill,
+  count=4;\nbennett add stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08
+  atk%=0.0992 er=0.9588 em=39.64 cr=0.5427000000000001 cd=0.7282 pyro%=0.466;\n\noptions
+  swap_delay=12 debug=true iteration=1000 duration=105 workers=30 mode=sl;\n\nactive
+  xingqiu;\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\n\n#First
+  rotation has fischl burst and refresh oz before bennett field expires\nxingqiu skill,
+  dash, burst, attack;\nbennett skill, attack, burst;\nfischl attack, skill;\ndiluc
+  attack, skill, attack:2, skill, attack:2, skill, attack:3, dash,\n      attack:3;\nfischl
+  attack:1, burst;\ndiluc  attack, skill, attack, skill, attack, skill, attack, burst;\n\n#2nd
+  rotation has fischl cast oz in between Diluc's combo, attacks twice to trigger XQ
+  rainswords\nxingqiu skill, dash, burst, attack;\nbennett skill, attack, burst;\ndiluc
+  attack, skill, attack:2, skill, attack;\nfischl attack:2, skill;\ndiluc attack,
+  skill, attack, dash,\n      attack:3, dash,\n      attack:3, skill, attack, skill,
+  attack, skill, attack, burst;\n      \n#3rd Rotation is based of Possum#0511, Hessey#9122
+  and Voidrev#2697 simulation, it's not repeated     \nxingqiu skill, dash, burst,
+  attack;\nbennett skill, attack, burst;\nfischl attack, burst;\ndiluc attack, skill,
   attack:2, skill, attack:2, skill, attack, dash,\n      attack:3, dash,\n      attack:3,
-  dash,\n      attack, skill, attack, skill, attack, skill, attack, burst;\n\n\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  dash,\n      attack, skill, attack, skill, attack, skill, attack, burst;\nrestart;\n\n\t
+  \ #Did not test batterying fischl during bennett field downtime to lower her ER
+  requirement\n\t  #So much hitlag not considered in this simulation, perhaps different
+  combos or even a NA4 string once it's implemented? We'll see\n"
 description: Diluc Overvape.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -32,7 +39,7 @@ team:
     con: 6
     weapon: thealleyflash
     refine: 1
-    er: 0.9588000000000001
+    er: 0.9588
     talents:
       attack: 9
       skill: 9
@@ -41,7 +48,7 @@ team:
     con: 0
     weapon: serpentspine
     refine: 1
-    er: 0.1102
+    er: 0.11019999999999999
     talents:
       attack: 9
       skill: 9
@@ -50,7 +57,7 @@ team:
     con: 6
     weapon: thestringless
     refine: 3
-    er: 0.2204
+    er: 0.4959
     talents:
       attack: 9
       skill: 9
@@ -64,8 +71,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 50988.313668694835
+dps: 52672.9538618679
 mode: sl
-duration: 105.99999999999856
+duration: 105.00000000000071
 target_count: 1
 viewer_key: O2RF5x58ezhlK_xVzg16n

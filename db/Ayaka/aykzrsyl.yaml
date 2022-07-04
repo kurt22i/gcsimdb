@@ -1,15 +1,15 @@
 author: Moloch#2235
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=150 workers=30 mode=sl;\nenergy
+  "options swap_delay=12 debug=true iteration=1000 duration=152 workers=30 mode=sl;\nenergy
   every interval=480,720 amount=1;\n\nkazuha char lvl=90/90 cons=0 talent=9,9,9;\nkazuha
   add weapon=\"favoniussword\" refine=3 lvl=90/90;\nkazuha add set=\"viridescentvenerer\"
   count=4;\nkazuha add stats hp=4780 atk=311 em=559.5; #main\nkazuha add stats def%=0.1240
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=118.92 cr=0.3972
   cd=0.1324;\n\nrosaria char lvl=90/90 cons=6 talent=9,9,9;\nrosaria add weapon=\"wavebreakersfin\"
-  refine=1 lvl=90/90;\nrosaria add set=\"blizzardstrayer\" count=4;\nrosaria add stats
-  hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cd=0.6220; #main\nrosaria add stats def%=0.1240
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.3968 er=0.1102 em=39.64 cr=0.2648
-  cd=0.6620;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\"
+  refine=1 lvl=90/90;\nrosaria add set=\"noblesseoblige\" count=4;\nrosaria add stats
+  hp=4780 atk=311 atk%=0.4660 cryo%=0.4660 cr=0.3110; #main\nrosaria add stats def%=0.1240
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.3310
+  cd=0.7940;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\"
   refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=5;\nyelan add stats
   hp=4780 atk=311 hp%=0.4660 hydro%=0.4660 cr=0.3110; #main\nyelan add stats def%=0.1240
   def=39.36 hp=507.88 atk%=0.0992 atk=33.08 hp%=0.1984 er=0.1102 em=39.64 cr=0.3310
@@ -43,7 +43,10 @@ config:
   attack, skill, high_plunge, burst;\nrosaria skill, burst;\nyelan skill, burst, attack;\nayaka
   dash, attack, skill, attack, burst, attack, charge;\nkazuha attack, skill, high_plunge,
   attack;\nrosaria skill, attack;\nyelan skill, attack;\nayaka dash, attack:1, charge,
-  dash, attack, skill, attack:1, charge;\n\n"
+  dash, attack, skill, attack:1, charge;\n\nkazuha attack, skill, high_plunge, burst;\nrosaria
+  skill, burst;\nyelan skill, burst, attack;\nayaka dash, attack, skill, attack, burst,
+  attack, charge;\nkazuha attack, skill, high_plunge, attack;\nrosaria skill, attack;\nyelan
+  skill, attack;\nayaka dash, attack:1, charge, dash, attack, skill, attack:1, charge;\n\n"
 description: Ayaka Freeze with Yelan.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -83,8 +86,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49617.97035148299
+dps: 49932.20776175139
 mode: sl
-duration: 150.0000000000028
+duration: 151.99999999999864
 target_count: 1
 viewer_key: Es7DKAx9CJeBk5CmNg6UR

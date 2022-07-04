@@ -1,0 +1,69 @@
+author: CPM#7653
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=84 workers=30 mode=sl;\n\nbarbara
+  char lvl=90/90 cons=6 talent=9,9,9; \nbarbara add weapon=\"thewidsith\" refine=3
+  lvl=90/90;\nbarbara add set=\"wandererstroupe\" count=5;\nbarbara add stats hp=4780
+  atk=311 em=187 hydro%=0.466 cr=0.311 ; #main\nbarbara add stats def%=0.124 def=39.36
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nzhongli
+  char lvl=90/90 cons=0 talent=9,9,9; \nzhongli add weapon=\"favoniuslance\" refine=3
+  lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli add stats
+  hp=4780 atk=311 hp%=0.466 geo%=0.466 cr=0.311 ; #main\nzhongli add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett add weapon=\"thealleyflash\"
+  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats
+  hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2979
+  cd=0.5958;\t\t\t\t\t\t\t\t\t\n\nxiangling char lvl=90/90 cons=6 talent=9,9,9; \nxiangling
+  add weapon=\"thecatch\" refine=5 lvl=90/90;\nxiangling add set=\"emblemofseveredfate\"
+  count=4;\nxiangling add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main
+  \nxiangling add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\n\nactive zhongli;\ntarget lvl=100 pyro=0.1
+  dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy
+  every interval=480,720 amount=1;\n\nzhongli attack, skill[hold=1];\nbennett burst,skill;\nxiangling
+  burst,skill;\nbarbara charge:5;\nbennett skill,attack;\nxiangling attack:2, jump,
+  attack;\nzhongli attack:3, jump, attack:2;\nbennett skill, attack;\nxiangling attack:2,
+  jump, attack;\n\nrestart;\n\n\n\n\n"
+description: Ganyu reverse melt but it's actually Barbara Vape.
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: barbara
+    con: 6
+    weapon: thewidsith
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: bennett
+    con: 6
+    weapon: thealleyflash
+    refine: 1
+    er: 0.9588000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xiangling
+    con: 6
+    weapon: thecatch
+    refine: 5
+    er: 0.7384000000000001
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: zhongli
+    con: 0
+    weapon: favoniuslance
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 26264.154451794067
+mode: sl
+duration: 84.00000000000185
+target_count: 1
+viewer_key: GVn-N_Vlu4X9fIdwg2I89

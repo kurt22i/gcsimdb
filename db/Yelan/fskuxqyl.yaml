@@ -1,0 +1,69 @@
+author: Xardas#5785
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=106 workers=30 mode=sl;\nkuki
+  char lvl=90/90 cons=6 talent=9,9,9; \nkuki add weapon=\"favoniussword\" refine=3
+  lvl=90/90;\nkuki add set=\"tenacityofthemillelith\" count=4;\nkuki add stats hp=4780
+  atk=311 hp%=0.466 electro%=0.466 cr=0.311 ; #main\nkuki add stats def=39.36 def%=0.124
+  hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944
+  ;\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl
+  add weapon=\"alleyhunter\" refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"thunderingfury\"
+  count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nfischl add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1488
+  er=0.1653 em=39.64 cr=0.331 cd=0.7944 ;\t\t\t\t\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;
+  \nyelan add weapon=\"slingshot\" refine=5 lvl=90/90;\nyelan add set=\"emblemofseveredfate\"
+  count=4;\n#yelan add set=\"noblesseoblige\" count=4;\nyelan add stats hp=4780 atk=311
+  hp%=0.466 hydro%=0.466 cd=0.622; #main\nyelan add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.1488 atk=33.08 atk%=0.0992 er=0.1653 em=39.64 cr=0.3972 cd=0.662 ;\t\t\n\nxingqiu
+  char lvl=90/90 cons=6 talent=9,9,9;\nxingqiu add weapon=\"lionsroar\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"noblesseoblige\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3857 em=39.64 cr=0.2979 cd=0.662 ;\t\t\t\t\n\n#
+  ----  Default Enemy\nenergy every interval=480,720 amount=1;\ntarget lvl=100 resist=0.1;\n\n#
+  ----  Actions List\nactive kuki;\n\nkuki attack, skill;\nxingqiu skill, burst, attack;\nfischl
+  skill, attack;\nyelan attack:2, skill, burst, attack:2;\nkuki attack:2, dash, attack:2;\nfischl
+  attack:2, dash, attack:2, dash, attack:2, burst;\nyelan attack:2, dash, attack:2,
+  dash, attack:2, skill, attack:4;\nfischl attack:2;\nkuki attack, burst;\n\nrestart;\n\n\n\n\n"
+description: ""
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: fischl
+    con: 6
+    weapon: alleyhunter
+    refine: 1
+    er: 0.1653
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: kuki
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: lionsroar
+    refine: 3
+    er: 0.3857
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: slingshot
+    refine: 5
+    er: 0.1653
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 47016.9845680182
+mode: sl
+duration: 105.99999999999856
+target_count: 1
+viewer_key: _45kAEoOkKPWhgG-N02sS

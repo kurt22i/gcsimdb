@@ -1,0 +1,72 @@
+author: Voidrev#2697
+config:
+  "yelan char lvl=90/90 cons=0 talent=9,9,9 +params=[barb=1];\nyelan add weapon=\"favoniuswarbow\"
+  refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats
+  hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311 ; #main\nyelan add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944 ;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"alleyhunter\"
+  refine=1 lvl=90/90 +params=[stacks=10];\nfischl add set=\"tenacityofthemillelith\"
+  count=4;\nfischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ;
+  #main\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984
+  er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\ndiluc char lvl=90/90 cons=0 talent=9,9,9;
+  \ndiluc add weapon=\"serpentspine\" refine=1 lvl=90/90 +params=[stacks=5];\ndiluc
+  add set=\"crimsonwitchofflames\" count=4;\ndiluc add stats hp=4780 atk=311 atk%=0.466
+  pyro%=0.466 cd=0.622; #main\ndiluc add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79 cr=0.3972 cd=0.662;\n\nxingqiu char lvl=90/90
+  cons=6 talent=9,9,9;\nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu
+  add set=\"emblemofseveredfate\" count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466
+  hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;\n\noptions
+  swap_delay=12 debug=true iteration=1000 duration=109 mode=sl;\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\nactive xingqiu;\nxingqiu skill, dash, burst,
+  attack;\nyelan skill, burst, charge, attack;\nfischl attack:2,skill;\ndiluc burst,
+  attack, skill, attack:2, skill, attack:2, skill, attack, dash,\n      attack:3,
+  dash,\n      attack:3, dash,\n      attack, skill, attack, skill, attack, skill,
+  attack;\nxingqiu skill, dash, burst, attack;\nyelan skill, burst, charge, attack;\nfischl
+  attack:2, burst;\ndiluc burst, attack, skill, attack:2, skill, attack:2, skill,
+  attack, dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack, skill,
+  attack, skill, attack, skill, attack;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+description: ""
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: diluc
+    con: 0
+    weapon: serpentspine
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: fischl
+    con: 6
+    weapon: alleyhunter
+    refine: 1
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: xingqiu
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yelan
+    con: 0
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.1102
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 41556.58326214053
+mode: sl
+duration: 108.99999999999856
+target_count: 1
+viewer_key: 8Rk2a0b8c1cq38zK2KXCP

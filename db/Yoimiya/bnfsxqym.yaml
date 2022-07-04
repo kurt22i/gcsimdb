@@ -26,30 +26,37 @@ config: |+
   fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311;
   fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;
 
-  options swap_delay=12 debug=true iteration=1000 duration=131 workers=30 mode=sl;
+  options swap_delay=12 debug=true iteration=1000 duration=90 workers=30 mode=sl;
 
   target lvl=100 resist=0.1;
   energy every interval=480,720 amount=1;
 
   active xingqiu;
 
-  xingqiu attack, skill, burst, attack:1;
-  bennett skill, attack, burst, attack;
+
+  xingqiu burst, attack:2;
+  bennett attack,burst,attack,skill,attack;
   fischl skill,attack;
-  yoimiya skill,attack:5, dash, attack:5, dash, attack:5;
+  yoimiya skill, attack:4, attack[travel=0], dash, attack:4, attack[travel=0], dash, attack:4, attack[travel=0];
+  xingqiu attack,skill,attack:2;
   bennett skill, attack;
   yoimiya attack:5;
-  bennett attack, skill, attack:3;
-  wait 20;
-  xingqiu attack, skill, burst, attack:1;
-  bennett skill, attack, burst, attack;
-  fischl attack, burst;
-  yoimiya skill,attack:5, dash, attack:5, dash, attack:5;
+  bennett attack, skill, attack:2;
+
+  xingqiu burst, attack:2;
+  bennett attack,burst,attack,skill,attack;
+  fischl attack,burst;
+  yoimiya skill, attack:4, attack[travel=0], dash, attack:4, attack[travel=0], dash, attack:4, attack[travel=0];
+  xingqiu attack,skill,attack:2;
   bennett skill, attack;
   yoimiya attack:5;
-  bennett attack, skill, attack:3;
-  wait 20;
+  bennett attack, skill, attack;
+
   restart;
+
+
+
+
 
 
 
@@ -92,8 +99,8 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49001.76034540369
+dps: 52135.41474346187
 mode: sl
-duration: 131.0000000000002
+duration: 90.00000000000215
 target_count: 1
 viewer_key: HUfxQrEgy7D_7O-DaFZTu

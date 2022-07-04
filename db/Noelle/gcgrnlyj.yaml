@@ -1,0 +1,69 @@
+author: RoyM#2340
+config:
+  "options swap_delay=12 debug=true iteration=1000 duration=115 workers=30 mode=sl;\n\n\nnoelle
+  char lvl=90/90 cons=6 talent=9,9,9; \nnoelle add weapon=\"serpentspine\" refine=1
+  lvl=90/90\n     +params=[stacks=5];\nnoelle add set=\"huskofopulentdreams\" count=5;\nnoelle
+  add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cd=0.622 ; #main\nnoelle add stats
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 def=39.36 def%=0.124 em=39.64 er=0.3306
+  cr=0.3972 cd=0.5296 ; #subs\n\ntravelergeo char lvl=90/90 cons=6 talent=9,9,9; \ntravelergeo
+  add weapon=\"favoniussword\" refine=3 lvl=90/90;\ntravelergeo add set=\"noblesseoblige\"
+  count=4;\ntravelergeo add stats hp=4780 atk=311 atk%=0.466 geo%=0.466 cr=0.311 ;
+  #main\ntravelergeo add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08
+  atk%=0.0992 er=0.2204 em=39.64 cr=0.331 cd=0.7944;\n\ngorou char lvl=90/90 cons=6
+  talent=9,9,9; \ngorou add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\ngorou add
+  set=\"huskofopulentdreams\" count=5  +params=[stacks=4];\ngorou add stats hp=4780
+  atk=311 def%=0.583 def%=0.583 cr=0.311 ; #main\ngorou add stats hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 def=39.36 def%=0.372 em=39.64 er=0.4408 cr=0.331 cd=0.2648
+  ; #subs\n\nyunjin char lvl=90/90 cons=6 talent=9,9,9; \nyunjin add weapon=\"favoniuslance\"
+  refine=3 lvl=90/90;\nyunjin add set=\"huskofopulentdreams\" count=5 +params=[stacks=4];\nyunjin
+  add stats hp=4780 atk=311 def%=0.583 def%=0.583 cr=0.311 ; #main\nyunjin add stats
+  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 def=39.36 def%=0.372 em=39.64 er=0.3306
+  cr=0.331 cd=0.3972 ; \n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy every
+  interval=480,720 amount=1;\n\nactive gorou;\n\ngorou skill, attack:2, burst;\ntravelergeo
+  skill,burst; \nyunjin burst, skill;\nnoelle skill, attack, burst, attack:3, dash,
+  attack:3, dash, attack:3, dash;\ngorou attack:2, skill;\ntravelergeo skill;\nnoelle
+  attack:3, dash, attack:3, dash, attack:3,dash;\nrestart;\n"
+description: ""
+hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
+team:
+  - name: gorou
+    con: 6
+    weapon: favoniuswarbow
+    refine: 3
+    er: 0.4408
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: noelle
+    con: 6
+    weapon: serpentspine
+    refine: 1
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: travelergeo
+    con: 6
+    weapon: favoniussword
+    refine: 3
+    er: 0.2204
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+  - name: yunjin
+    con: 6
+    weapon: favoniuslance
+    refine: 3
+    er: 0.3306
+    talents:
+      attack: 9
+      skill: 9
+      burst: 9
+dps: 30085.873999316576
+mode: sl
+duration: 114.9999999999981
+target_count: 1
+viewer_key: n-PTPCyhge7COrZGHAdvb

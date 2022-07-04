@@ -1,36 +1,39 @@
-author: ""
+author: "lulu \U0001D502 \U0001D4FE \U0001D4F7  \U0001D4F3 \U0001D4F2 \U0001D4F7 ♡#4236"
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=92 workers=30 mode=sl;\n\n\n\nyoimiya
-  char lvl=90/90 cons=0 talent=9,9,9; \nyoimiya add weapon=\"rust\" refine=3 lvl=90/90;\nyoimiya
-  add set=\"shimenawasreminiscence\" count=5;\nyoimiya add stats hp=4780 atk=311 atk%=0.466
-  pyro%=0.466 cr=0.311 ; #main\nyoimiya add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992
-  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;\n\nzhongli char lvl=90/90
-  cons=0 talent=9,9,9; \nzhongli add weapon=\"deathmatch\" refine=1 lvl=90/90;\nzhongli
-  add set=\"tenacityofthemillelith\" count=4;\nzhongli add set=\"paleflame\" count=1;\nzhongli
-  add stats hp=4780 atk=311 hp%=0.466 geo%=0.466 cd=0.622 ; #main\nzhongli add stats
-  def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6612 em=39.64
-  cr=0.2317 cd=0.4634;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9; \nxingqiu add
-  weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
-  count=4;\nxingqiu add set=\"paleflame\" count=1;\nxingqiu add stats hp=4780 atk=311
-  atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.331 cd=0.5296;\n\nbennett
-  char lvl=90/90 cons=5 talent=9,9,9; \nbennett add weapon=\"thealleyflash\" refine=3
-  lvl=90/90;\nbennett add set=\"noblesseoblige\" count=5;\nbennett add stats hp=4780
-  atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett add stats def%=0.124 def=39.36
-  hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408 em=39.64 cr=0.2317 cd=0.7282;\n\n\nactive
-  bennett;\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1 electro=0.1 geo=0.1 anemo=0.1
-  physical=.1 cryo=.1;\nenergy every interval=480,720 amount=1;\n\nbennett skill;\nyoimiya
-  burst;\nzhongli skill[hold=1],burst;\nxingqiu skill,burst;\nbennett skill,burst;\nyoimiya
-  skill,attack:5,attack:5,attack:5,attack:3;\n\nbennett skill;\nzhongli skill[hold=1],burst;\nxingqiu
-  skill,burst;\nbennett skill,burst;\nyoimiya skill,attack:5,dash,attack:5,dash,attack:5,dash,attack:3;\nrestart;\n"
+  "\n\n\nyoimiya char lvl=90/90 cons=0 talent=9,9,9;\nyoimiya add weapon=\"slingshot\"
+  refine=5 lvl=90/90;\nyoimiya add set=\"shimenawasreminiscence\" count=4;\nyoimiya
+  add stats hp=4780 atk=311 em=187 pyro%=0.466 cd=0.622; \nyoimiya add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972
+  cd=0.662;\n\nzhongli char lvl=90/90 cons=0 talent=9,9,9;\nzhongli add weapon=\"deathmatch\"
+  refine=1 lvl=90/90;\nzhongli add set=\"tenacityofthemillelith\" count=4;\nzhongli
+  add stats def%=0.1240 def=39.36 hp=5288 hp%=0.09920 atk=344.1 atk%=0.6644 er=0.1102
+  em=39.64 cr=0.3972 cd=1.284 geo%=0.4660;\n\nxingqiu char lvl=90/90 cons=6 talent=9,9,9;
+  \nxingqiu add weapon=\"favoniussword\" refine=3 lvl=90/90;\nxingqiu add set=\"emblemofseveredfate\"
+  count=4;\nxingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311 ; #main\nxingqiu
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=5 talent=9,9,9; \nbennett
+  add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
+  count=5;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2755
+  em=39.64 cr=0.2979 cd=0.7944;\n\n\ntarget lvl=100 pyro=0.1 dendro=0.1 hydro=0.1
+  electro=0.1 geo=0.1 anemo=0.1 physical=.1 cryo=.1;\nenergy every interval=480,720
+  amount=1;\n\noptions swap_delay=12 debug=true iteration=1000 duration=86 workers=30
+  mode=sl;\n\nactive bennett;\n\nxingqiu burst,attack:2;\nzhongli attack, skill[hold=1],attack:2;\nbennett
+  attack,skill,attack,burst,attack;\n\nyoimiya skill, attack:4, attack[travel=0],
+  dash, attack:4, attack[travel=0], dash, attack:4, attack[travel=0];\n\nxingqiu attack,skill,attack:2;\nbennett
+  attack,skill,attack;\nzhongli burst;\nxingqiu attack;\n\nxingqiu burst,attack:2;\nzhongli
+  attack, skill[hold=1],attack:2;\nbennett attack,skill,attack,burst,attack;\n\nyoimiya
+  skill, attack:4, attack[travel=0], dash, attack:4, attack[travel=0], dash, attack:4,
+  attack[travel=0];\n\nxingqiu attack,skill,attack:2;\nbennett attack,skill,attack;\nxingqiu
+  attack;\n\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoimiya vape, maximum comfort version.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
   - name: bennett
     con: 5
     weapon: thealleyflash
-    refine: 3
-    er: 0.9588000000000001
+    refine: 1
+    er: 0.7935000000000001
     talents:
       attack: 9
       skill: 9
@@ -39,15 +42,15 @@ team:
     con: 6
     weapon: favoniussword
     refine: 3
-    er: 0.4408
+    er: 0.2204
     talents:
       attack: 9
       skill: 9
       burst: 9
   - name: yoimiya
     con: 0
-    weapon: rust
-    refine: 3
+    weapon: slingshot
+    refine: 5
     er: 0.1102
     talents:
       attack: 9
@@ -57,13 +60,13 @@ team:
     con: 0
     weapon: deathmatch
     refine: 1
-    er: 0.6612
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 34607.359856279225
+dps: 47457.14703336207
 mode: sl
-duration: 91.999999999999
+duration: 85.99999999999883
 target_count: 1
 viewer_key: 5_FKHb2iO2KtOOCkoU6Gw

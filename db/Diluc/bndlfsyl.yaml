@@ -1,30 +1,30 @@
 author: Rare Possum#0511, Voidrev#2697 and RoyM#2340
 config:
-  "options swap_delay=12 debug=true iteration=1000 duration=119 workers=30 mode=sl;\n\ndiluc
+  "options swap_delay=12 debug=true iteration=1000 duration=108 workers=30 mode=sl;\n\ndiluc
   char lvl=90/90 cons=0 talent=9,9,9; \ndiluc add weapon=\"serpentspine\" refine=1
   lvl=90/90 +params=[stacks=5];\ndiluc add set=\"crimsonwitchofflames\" count=4;\ndiluc
   add stats hp=4780 atk=311 em=187 pyro%=0.466 cd=0.622; #main\ndiluc add stats def%=0.124
   def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.40 cr=0.3972
   cd=0.662;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9; \nyelan add weapon=\"favoniuswarbow\"
   refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats
-  hp=4780 atk=311 er=0.518 hydro%=0.466 cr=0.311 ; #main\nyelan add stats def%=0.124
-  def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3304 em=39.64 cr=0.331
-  cd=0.662;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
+  hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311 ; #main\nyelan add stats def%=0.124
+  def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944;\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl add weapon=\"thestringless\"
   refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\" count=4;\nfischl
   add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main\nfischl add
-  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.2204
+  stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102
   em=39.64 cr=0.331 cd=0.7944;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9; \nbennett
   add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\"
   count=4;\nbennett add stats hp=4780 atk=311 er=0.518 pyro%=0.466 cr=0.311 ; #main\nbennett
-  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.4408
-  em=39.64 cr=0.331 cd=0.5296;\n\nactive yelan;\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=1;\nyelan skill, burst, charge, attack;\nbennett skill,
-  attack, burst;\nfischl attack, skill;\ndiluc attack, skill, attack:2, skill, attack:2,
-  skill, attack, dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack,
-  skill, attack, skill, attack, skill, attack;\nyelan skill, burst, charge, attack;\nbennett
-  skill, attack, burst;\nfischl attack:2, burst;\ndiluc attack, skill, attack:2, skill,
-  attack:2, skill, attack, dash,\n      attack:3, dash,\n      attack:3, dash,\n      attack,
-  skill, attack, skill, attack, skill, attack;\n\n\t\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+  add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
+  em=79.40 cr=0.331 cd=0.7944;\n\nactive yelan;\ntarget lvl=100 resist=.1;\nenergy
+  every interval=480,720 amount=1;\n\nyelan skill, burst, charge, attack;\nbennett
+  skill, attack, burst;\nfischl attack, skill;\ndiluc attack, skill, attack:2, skill,
+  attack:2, skill, attack;\nyelan skill, charge, attack;\ndiluc attack:4, dash,\n
+  \     attack, skill, attack, skill, attack, skill, attack, burst;\nyelan skill,
+  burst, charge, attack;\nbennett skill, attack, burst;\nfischl attack, burst;\ndiluc
+  attack, skill, attack:2, skill, attack:2, skill, attack;\nyelan skill, charge, attack;\ndiluc
+  attack:4, dash,\n      attack, skill, attack, skill, attack, skill, attack, burst;\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Diluc Overvape with Yelan.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -32,7 +32,7 @@ team:
     con: 6
     weapon: thealleyflash
     refine: 1
-    er: 0.9588000000000001
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
@@ -50,7 +50,7 @@ team:
     con: 6
     weapon: thestringless
     refine: 3
-    er: 0.2204
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
@@ -59,13 +59,13 @@ team:
     con: 0
     weapon: favoniuswarbow
     refine: 3
-    er: 0.8484
+    er: 0.1102
     talents:
       attack: 9
       skill: 9
       burst: 9
-dps: 51600.636993636996
+dps: 52019.18833652257
 mode: sl
-duration: 118.99999999999979
+duration: 108.00000000000088
 target_count: 1
 viewer_key: 5zV7Q9T5p4ptiPIYVuySY
