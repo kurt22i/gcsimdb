@@ -34,7 +34,7 @@ config:
   jump, attack:2;\n#proc fav for fun, if you have better ER than kqmc, just keep swinging
   on kazuha for more vv coverage or xq for yelan a4 value\n\nxingqiu attack:3;\nwait
   7;\n#for sim to cast yelan skill on cd\n\nyelan attack, skill;\n\nxingqiu attack:3;\n#funnel
-  her skill particles to xq\n\nrestart;\n"
+  her skill particles to xq\n\nrestart;\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -74,7 +74,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44859.050766339096
+dps: 44882.284017603
 mode: sl
 duration: 106.39999999999782
 target_count: 1

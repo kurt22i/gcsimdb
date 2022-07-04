@@ -20,7 +20,7 @@ config:
   cd=0.662;\n\ntarget lvl=100 resist=.1;\nenergy every interval=480,720 amount=1;\nactive
   chongyun;\n#-------------------------------------------\n\nchongyun burst, skill;\nganyu
   skill, burst[radius=2];\nventi skill, burst;\nayaka dash, skill, attack, burst;\nganyu
-  aim[weakspot=1], aim;\nventi skill, attack;\nganyu aim;\nrestart;\n\n"
+  aim[weakspot=1], aim;\nventi skill, attack;\nganyu aim;\nrestart;\n\n\n"
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -60,7 +60,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 44910.06688094693
+dps: 44975.1626602037
 mode: sl
 duration: 104.26666666666466
 target_count: 1

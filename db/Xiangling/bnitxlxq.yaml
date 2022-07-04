@@ -18,12 +18,12 @@ config:
   count=4;\nitto add stats hp=3571 atk=232.0 atk%=0.3480 cr=0.311 pyro%=0.3480;\nitto
   add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102
   em=39.64 cr=0.331 cd=0.3972;\n\n##Default Enemy\ntarget lvl=100 resist=.1;\nenergy
-  every interval=480,720 amount=10;\n\n##Actions List\n\nactive xingqiu;\nxingqiu
-  burst, attack:2;\nitto attack, skill, dash;\nbennett attack, burst, attack, skill;\nxiangling
+  every interval=480,720 amount=1;\n\n##Actions List\n\nactive xingqiu;\nxingqiu burst,
+  attack:2;\nitto attack, skill, dash;\nbennett attack, burst, attack, skill;\nxiangling
   attack, burst, attack, skill;\nxingqiu attack:3, skill, attack:2;\nbennett attack,
   skill;\nxingqiu attack:2;\nxiangling attack:2;\nxingqiu attack:2, dash, attack:2;\nbennett
   attack, skill, attack:2;\nxiangling attack:2;\nitto attack:2;\n#proc fav? idk\nbennett
-  attack, skill;\nwait 10;\nrestart;\n\n\n\n"
+  attack, skill;\nwait 10;\nrestart;\n\n\n\n\n"
 description: Itto National.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -63,7 +63,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 49240.38845143791
+dps: 49103.32962685038
 mode: sl
 duration: 105.00000000000071
 target_count: 1

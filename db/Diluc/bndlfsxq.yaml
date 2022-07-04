@@ -31,7 +31,7 @@ config:
   dash,\n      attack, skill, attack, skill, attack, skill, attack, burst;\nrestart;\n\n\t
   \ #Did not test batterying fischl during bennett field downtime to lower her ER
   requirement\n\t  #So much hitlag not considered in this simulation, perhaps different
-  combos or even a NA4 string once it's implemented? We'll see\n"
+  combos or even a NA4 string once it's implemented? We'll see\n\n"
 description: Diluc Overvape.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -71,7 +71,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 52672.9538618679
+dps: 52586.20417122015
 mode: sl
 duration: 105.00000000000071
 target_count: 1

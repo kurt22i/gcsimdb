@@ -30,7 +30,7 @@ config:
   burst, attack;\nyoimiya skill, attack:5, dash, attack:5;\nhutao skill,\n    attack:1,
   charge, dash,\n    attack:1, charge, jump,\n    attack:1, charge, jump,\n    attack:2,
   charge, dash,\n    attack:1, charge, jump,\n    attack:2, charge, jump,\n    attack:1,
-  charge, jump,\n    attack:1, charge, jump,\n    attack;\n          \nrestart;\n\n\n\n"
+  charge, jump,\n    attack:1, charge, jump,\n    attack;\n          \nrestart;\n\n\n\n\n"
 description: TaoMiya with Yelan and shields.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -70,7 +70,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 47270.9824023252
+dps: 47331.41723125026
 mode: sl
 duration: 99.0000000000003
 target_count: 1

@@ -41,17 +41,17 @@ config: |+
   active ayato;
 
   ayato burst[radius=2];
-  kuki attack,skill;
+  kuki burst;
   kazuha skill, high_plunge, burst;
   fischl skill;
-  kuki burst;
   ayato skill, attack:15;
   kazuha skill, high_plunge;
-  kuki attack,skill;
-  fischl attack, burst;
-  ayato attack:2,skill, attack:15;
+  kuki attack:2,skill;
+  fischl attack,burst;
+  ayato attack:3,skill, attack:15;
 
   restart;
+
 
 description: ""
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
@@ -92,7 +92,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 33479.51457380648
+dps: 39189.469163090114
 mode: sl
 duration: 156.00000000000313
 target_count: 1
