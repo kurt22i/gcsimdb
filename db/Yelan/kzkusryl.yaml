@@ -45,8 +45,9 @@ config: |+
   sara skill, attack, burst;
   sara skill,aim;
   sara burst;
-  kuki burst;
+  kuki  attack:2,burst;
   kazuha attack;
+
 
 
 
@@ -93,7 +94,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 33796.479769831385
+dps: 34346.581108946026
 mode: apl
 duration: 204.00000000000102
 target_count: 1

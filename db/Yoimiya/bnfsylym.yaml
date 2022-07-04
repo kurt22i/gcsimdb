@@ -2,31 +2,34 @@ author:
   "Jhony75#8133, lulu \U0001D502 \U0001D4FE \U0001D4F7  \U0001D4F3 \U0001D4F2
   \U0001D4F7 ♡#4236 and 1ampercent#5324"
 config:
-  "yoimiya char lvl=90/90 cons=0 talent=9,9,9;\nyoimiya add weapon=\"slingshot\"
-  refine=5 lvl=90/90;\nyoimiya add set=\"echoesofanoffering\" count=4;\nyoimiya add
-  stats def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.1102
-  em=266.28 cr=0.3972 cd=1.284 pyro%=0.466;\n\nyelan char lvl=90/90 cons=0 talent=9,9,9;\nyelan
-  add weapon=\"favoniuswarbow\" refine=3 lvl=90/90;\nyelan add set=\"emblemofseveredfate\"
-  count=4;\nyelan add stats def%=0.124 def=39.36 hp=5287.88 hp%=0.1984 atk=344.08
-  atk%=0.0992 er=0.6833 em=39.64 cr=0.6089 cd=0.7944 hydro%=0.466;\n\nfischl char
-  lvl=90/90 cons=6 talent=9,9,9;\nfischl add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl
-  add set=\"tenacityofthemillelith\" count=4;\nfischl add stats def%=0.124 def=39.36
-  hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.5652 er=0.3306 em=39.64 cr=0.642 cd=0.662
-  electro%=0.466;\n\nbennett char lvl=90/90 cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\"
-  refine=1 lvl=90/90;\nbennett add set=\"noblesseoblige\" count=4;\nbennett add stats
-  def%=0.124 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.8486 em=237.84
-  cr=0.4103 cd=0.46340000000000003 pyro%=0.466;\n\n#Configs\ntarget lvl=100 resist=0.1;
-  \nenergy every interval=480,720 amount=1; #Approximated to Perpetual Mechanical
-  Array\noptions swap_delay=12 debug=true iteration=1000 duration=73 workers=30 mode=sl;\n\n#Chars
-  Builds\n\n#Rotation: Yelan E Q N1 > Bennett E N1 Q N1 > Fischl ED N1 / N1 Q > Yoimiya
-  E 3x N5RR, N2 > Bennett E N1 > Yelan N2 Restart\nactive yelan;\n\nyelan skill,burst,
-  attack[travel=0];\nbennett skill, attack, burst, attack;\nfischl  skill, dash, attack;\nyoimiya
-  skill, attack:4, attack[travel=0], aim, attack:4, attack[travel=0], aim, attack:4,
-  attack[travel=0], aim, attack, attack[travel=0];\nbennett skill, attack;\n\nyelan
-  attack, attack[travel=0], skill, burst, attack[travel=0];\nbennett skill, attack,
-  burst, attack;\nfischl  attack, burst;\nyoimiya skill, attack:4, attack[travel=0],
-  aim, attack:4, attack[travel=0], aim, attack:4, attack[travel=0], aim, attack, attack[travel=0];\nbennett
-  skill, attack;\nyelan attack, attack[travel=0];\n\nrestart;\n\n\n\n"
+  "#Configs\ntarget lvl=100 resist=0.1; \nenergy every interval=480,720 amount=1;
+  #Approximated to Perpetual Mechanical Array\noptions swap_delay=12 debug=true iteration=1000
+  duration=73 workers=30 mode=sl;\n\n#Chars Builds\nyoimiya char lvl=90/90 cons=0
+  talent=9,9,9;\nyoimiya add weapon=\"slingshot\" refine=5 lvl=90/90;\nyoimiya add
+  set=\"echoesofanoffering\" count=4;\nyoimiya add stats hp=4780 atk=311 em=187 pyro%=0.466
+  cd=0.622; #main 5* set\nyoimiya add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992
+  atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.3972 cd=0.662; #20 liquid subs\n\nyelan
+  char lvl=90/90 cons=0 talent=9,9,9;\nyelan add weapon=\"favoniuswarbow\" refine=3
+  lvl=90/90;\nyelan add set=\"emblemofseveredfate\" count=4;\nyelan add stats hp=4780
+  atk=311 er=0.518 hydro%=0.466 cr=0.311; #main 5* set\nyelan add stats def=39.36
+  def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331
+  cd=0.7944; #20 liquid subs\n\nfischl char lvl=90/90 cons=6 talent=9,9,9; \nfischl
+  add weapon=\"thestringless\" refine=3 lvl=90/90;\nfischl add set=\"tenacityofthemillelith\"
+  count=4;\nfischl add stats hp=4780 atk=311 cr=0.311 electro%=0.466 atk%=0.466; #main
+  5* set\nfischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992
+  er=0.3306 em=39.64 cr=0.331 cd=0.662; #20 liquid subs\n\nbennett char lvl=90/90
+  cons=6 talent=9,9,9;\nbennett add weapon=\"thealleyflash\" refine=1 lvl=90/90;\nbennett
+  add set=\"noblesseoblige\" count=4;\nbennett add stats hp=4780 atk=311 er=0.518
+  pyro%=0.466 cr=0.311; #main 5* set\nbennett add stats def=39.36 def%=0.124 hp=507.88
+  hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=237.84 cr=0.1324 cd=0.3972; #20 liquid
+  subs\n\n#Rotation: Yelan E N1 Q N1 > Bennett N1 E N1 Q N1 > Fischl E N1 / N1 Q >
+  Yoimiya E 3N5D > Bennett E N1 > Restart\nactive yelan;\n\nyelan skill,burst, charge,attack;\nbennett
+  attack, skill, attack, burst, attack:2;\nfischl  skill,attack;\nyoimiya skill, attack:4,
+  attack[travel=0], dash, attack:4, attack[travel=0], dash, attack:4, attack[travel=0];\nbennett
+  skill,attack:3;\n\nyelan attack,charge,skill,burst,attack;\nbennett attack, skill,
+  attack, burst, attack:2;\nfischl attack, burst;\nyoimiya skill, attack:4, attack[travel=0],
+  dash, attack:4, attack[travel=0], dash, attack:4, attack[travel=0];\nbennett skill,attack:3;\nyelan
+  attack,charge;\n\nrestart;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 description: Yoimiya Overvape with Yelan.
 hash: 7bc436e340b6f30834366a24106fb92a3e30fce3
 team:
@@ -52,7 +55,7 @@ team:
     con: 0
     weapon: favoniuswarbow
     refine: 3
-    er: 0.6833
+    er: 0.6282
     talents:
       attack: 9
       skill: 9
@@ -66,7 +69,7 @@ team:
       attack: 9
       skill: 9
       burst: 9
-dps: 62455.32688685566
+dps: 60272.83838274369
 mode: sl
 duration: 72.99999999999949
 target_count: 1
